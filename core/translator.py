@@ -119,7 +119,76 @@ def translate_all_claude(
     return translated
 
 
-# ── CBP Karar Özeti (Claude) ─────────────────────────────────────────────────
+# ── Generic Karar Özeti (Claude) — token optimize ────────────────────────────
+
+def summarize_ruling_claude(
+    product_desc: str,
+    analysis_text: str,
+    decision: str,
+    gtip_codes: str,
+    ruling_number: str,
+    logger=None,
+) -> dict[str, str]:
+    """
+    Herhangi bir ülkenin gümrük sınıflandırma kararını Claude ile 3 maddeye özetler.
+    Token optimizasyonu: metin 2000 karakterle sınırlı, prompt kısa tutulmuş.
+
+    Dönüş: {esya_tanimi, gtip_karar, teknik_gerekce}
+    """
+    # Token tasarrufu: kısa metinlerde Claude çağrısı atla
+    combined = (product_desc or "") + (analysis_text or "") + (decision or "")
+    if len(combined.strip()) < 60:
+        return {
+            "esya_tanimi":   product_desc or ruling_number,
+            "gtip_karar":    gtip_codes or "-",
+            "teknik_gerekce": decision or "(Bilgi yok)",
+        }
+
+    # Metni 2000 karakterle sınırla (token tasarrufu)
+    analysis_short = (analysis_text or "")[:2000]
+    decision_short  = (decision or "")[:300]
+    product_short   = (product_desc or "")[:400]
+
+    prompt = (
+        f"Karar: {ruling_number} | GTİP: {gtip_codes}\n"
+        f"Ürün: {product_short}\n"
+        f"Analiz: {analysis_short}\n"
+        f"Karar: {decision_short}\n\n"
+        f"Türkçe, 3 satır yaz (başka hiçbir şey ekleme):\n"
+        f"EŞYA_TANIMI: [kısa ticari tanım]\n"
+        f"GTİP_KARAR: [verilen GTİP + varsa talep edilen]\n"
+        f"TEKNİK_GEREKÇE: [2-3 cümle gerekçe]"
+    )
+
+    try:
+        response = call_claude(prompt)
+    except Exception as e:
+        if logger:
+            logger.warning(f"Özet hatası ({ruling_number}): {e}")
+        return {
+            "esya_tanimi":   product_desc or ruling_number,
+            "gtip_karar":    gtip_codes or "-",
+            "teknik_gerekce": "(Özet üretilemedi)",
+        }
+
+    result = {"esya_tanimi": "", "gtip_karar": "", "teknik_gerekce": ""}
+    for line in response.splitlines():
+        if line.startswith("EŞYA_TANIMI:"):
+            result["esya_tanimi"] = line[12:].strip()
+        elif line.startswith("GTİP_KARAR:"):
+            result["gtip_karar"] = line[11:].strip()
+        elif line.startswith("TEKNİK_GEREKÇE:"):
+            result["teknik_gerekce"] = line[15:].strip()
+
+    if not result["esya_tanimi"]:
+        result["esya_tanimi"] = product_desc or ruling_number
+    if not result["gtip_karar"]:
+        result["gtip_karar"] = gtip_codes or "-"
+
+    return result
+
+
+# ── CBP Karar Özeti (Claude) — v1 uyumluluğu için bırakıldı ─────────────────
 
 def summarize_cbp_ruling_claude(
     subject: str,

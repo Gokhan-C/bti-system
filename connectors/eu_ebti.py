@@ -305,6 +305,9 @@ class EuEbtiConnector(BaseConnector):
             "records": report_records,
         }
 
+        # Birleşik rapor için veriyi sakla
+        self._report_data = data
+
         json_path = date_dir / "_eu_report_tmp.json"
         with open(json_path, "w", encoding="utf-8") as f:
             json.dump(data, f, ensure_ascii=False, indent=2)

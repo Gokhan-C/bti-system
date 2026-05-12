@@ -1,14 +1,16 @@
 """
-Ortak python-docx yardımcıları — CBP ve CBSA connector'ları tarafından kullanılır.
-AB EBTI connector'ı Node.js build_docx.js'i kullanır, buraya bağımlı değil.
+Ortak python-docx yardımcıları — tüm connector'lar tarafından kullanılır.
+AB EBTI connector'ı bireysel raporunu Node.js ile üretir, birleşik rapor için burası kullanılır.
 """
 
 from docx import Document
-from docx.shared import Pt, RGBColor, Cm
+from docx.shared import Pt, RGBColor, Cm, Twips
 from docx.enum.text import WD_ALIGN_PARAGRAPH
 from docx.oxml.ns import qn
 from docx.oxml import OxmlElement
 
+
+# ── Temel yapılar ─────────────────────────────────────────────────────────────
 
 def make_doc(title: str, subtitle: str) -> Document:
     doc = Document()
@@ -103,3 +105,115 @@ def add_no_results_notice(doc: Document) -> None:
     r.italic = True
     r.font.size = Pt(11)
     r.font.color.rgb = RGBColor(0x88, 0x88, 0x88)
+
+
+# ── Karar kartı bileşenleri (CBP + CBSA ortak) ────────────────────────────────
+
+def add_ruling_link(doc: Document, url: str, label: str = "Tam metne erişmek için tıklayın") -> None:
+    """Kararın başına tıklanabilir hyperlink ekler."""
+    p = doc.add_paragraph()
+    run_label = p.add_run(f"📄 {label}: ")
+    run_label.font.size = Pt(10)
+    run_label.font.color.rgb = RGBColor(0x44, 0x44, 0x44)
+
+    rel_id = doc.part.relate_to(
+        url,
+        "http://schemas.openxmlformats.org/officeDocument/2006/relationships/hyperlink",
+        is_external=True,
+    )
+    hyperlink = OxmlElement("w:hyperlink")
+    hyperlink.set(qn("r:id"), rel_id)
+
+    run_el = OxmlElement("w:r")
+    rPr = OxmlElement("w:rPr")
+    style = OxmlElement("w:rStyle")
+    style.set(qn("w:val"), "Hyperlink")
+    rPr.append(style)
+    sz = OxmlElement("w:sz")
+    sz.set(qn("w:val"), "20")
+    rPr.append(sz)
+    run_el.append(rPr)
+    t = OxmlElement("w:t")
+    t.text = url
+    run_el.append(t)
+    hyperlink.append(run_el)
+    p._p.append(hyperlink)
+
+
+def add_summary_section(doc: Document, summary: dict) -> None:
+    """3 maddelik Claude özetini rapora yazar."""
+    items = [
+        ("1. Eşyanın Ticari Tanımı",  summary.get("esya_tanimi", "-")),
+        ("2. GTİP Kararı",            summary.get("gtip_karar", "-")),
+        ("3. Teknik Gerekçe",         summary.get("teknik_gerekce", "-")),
+    ]
+    for title, content in items:
+        tp = doc.add_paragraph()
+        tr = tp.add_run(title)
+        tr.bold = True
+        tr.font.size = Pt(11)
+        tr.font.color.rgb = RGBColor(0x2E, 0x75, 0xB6)
+
+        cp = doc.add_paragraph()
+        cp.add_run(content).font.size = Pt(10)
+
+    doc.add_paragraph()
+    doc.add_paragraph("─" * 80)
+    doc.add_paragraph()
+
+
+# ── Birleşik rapor bileşenleri ────────────────────────────────────────────────
+
+def add_section_divider(doc: Document, title: str, bg_color: str = "1F4E79") -> None:
+    """Ülke bölümü için renkli başlık çubuğu ekler."""
+    table = doc.add_table(rows=1, cols=1)
+    table.style = "Table Grid"
+    cell = table.rows[0].cells[0]
+    set_cell_bg(cell, bg_color)
+    p = cell.paragraphs[0]
+    p.alignment = WD_ALIGN_PARAGRAPH.CENTER
+    r = p.add_run(title)
+    r.bold = True
+    r.font.size = Pt(14)
+    r.font.color.rgb = RGBColor(0xFF, 0xFF, 0xFF)
+    doc.add_paragraph()
+
+
+def add_country_stats_card(
+    doc: Document,
+    countries: list[dict],   # [{"name": str, "count": int, "color": str}, ...]
+) -> None:
+    """
+    Raporun başına renkli ülke kartlarını ekler.
+    countries listesindeki her eleman bir renk kartı olarak gösterilir.
+    """
+    if not countries:
+        return
+
+    n = len(countries)
+    widths = [int(9360 / n)] * n
+    table = doc.add_table(rows=2, cols=n)
+    table.style = "Table Grid"
+
+    for i, c in enumerate(countries):
+        # Üst satır: karar sayısı
+        cell_top = table.rows[0].cells[i]
+        set_cell_bg(cell_top, c.get("color", "1F4E79"))
+        p = cell_top.paragraphs[0]
+        p.alignment = WD_ALIGN_PARAGRAPH.CENTER
+        r = p.add_run(str(c["count"]))
+        r.bold = True
+        r.font.size = Pt(28)
+        r.font.color.rgb = RGBColor(0xFF, 0xFF, 0xFF)
+
+        # Alt satır: ülke adı
+        cell_bot = table.rows[1].cells[i]
+        set_cell_bg(cell_bot, c.get("label_color", "2E75B6"))
+        pb = cell_bot.paragraphs[0]
+        pb.alignment = WD_ALIGN_PARAGRAPH.CENTER
+        rb = pb.add_run(c["name"])
+        rb.bold = True
+        rb.font.size = Pt(11)
+        rb.font.color.rgb = RGBColor(0xFF, 0xFF, 0xFF)
+
+    doc.add_paragraph()

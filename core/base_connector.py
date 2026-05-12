@@ -25,6 +25,7 @@ class ConnectorResult:
     output_paths: list[Path] = field(default_factory=list)
     errors: list[str] = field(default_factory=list)
     success: bool = True
+    data: dict = field(default_factory=dict)   # birleşik rapor için işlenmiş veri
 
 
 class BaseConnector(ABC):
@@ -105,6 +106,7 @@ class BaseConnector(ABC):
             output_paths=output_paths,
             errors=errors,
             success=len(errors) == 0,
+            data=getattr(self, "_report_data", {}),   # build_report() tarafından doldurulur
         )
 
     # ── State dosyası yönetimi ─────────────────────────────────────────────
