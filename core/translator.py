@@ -2,6 +2,7 @@
 Çeviri motoru sarmalayıcıları.
   - call_claude / translate_batch_claude / translate_all_claude  → Claude CLI
   - translate_google                                             → Google Translate
+  - summarize_cbp_ruling_claude                                  → CBP kararı 3 madde özet
 """
 
 import re
@@ -116,6 +117,70 @@ def translate_all_claude(
                     "just_tr": row.get("CLASSIFICATION_JUSTIFICATION", ""),
                 })
     return translated
+
+
+# ── CBP Karar Özeti (Claude) ─────────────────────────────────────────────────
+
+def summarize_cbp_ruling_claude(
+    subject: str,
+    text: str,
+    tariffs: str,
+    ruling_number: str,
+    logger=None,
+) -> dict[str, str]:
+    """
+    Bir ABD CBP gümrük kararını Claude CLI ile 3 maddeye özetler.
+
+    Dönüş:
+        {
+          "esya_tanimi":     str,   # Eşyanın ticari tanımı
+          "gtip_karar":      str,   # Verilen GTİP + talep edilen GTİP (varsa)
+          "teknik_gerekce":  str,   # Sınıflandırmanın teknik gerekçesi
+        }
+    """
+    # Metni makul uzunlukta tut (Claude token limitini zorlamasın)
+    text_excerpt = (text or "")[:4000]
+
+    prompt = (
+        f"Aşağıdaki ABD CBP gümrük tarife sınıflandırma kararını analiz et.\n\n"
+        f"KARAR NO: {ruling_number}\n"
+        f"KONU: {subject}\n"
+        f"GTİP KODLARI: {tariffs}\n\n"
+        f"TAM METİN:\n{text_excerpt}\n\n"
+        f"Sadece aşağıdaki 3 satırı Türkçe olarak yaz, başka hiçbir şey ekleme:\n\n"
+        f"EŞYA_TANIMI: [Eşyanın kısa ve net ticari tanımı]\n"
+        f"GTİP_KARAR: [Verilen GTİP kodu ve fasıl açıklaması. "
+        f"Başvurucunun talep ettiği farklı bir GTİP varsa 'Talep edilen: XXXX.XX' şeklinde de belirt]\n"
+        f"TEKNİK_GEREKÇE: [Sınıflandırma kararının teknik gerekçesi, 2-3 cümle]"
+    )
+
+    try:
+        response = call_claude(prompt)
+    except Exception as e:
+        if logger:
+            logger.warning(f"CBP özet hatası ({ruling_number}): {e}")
+        return {
+            "esya_tanimi":    subject,
+            "gtip_karar":     tariffs,
+            "teknik_gerekce": "(Özet üretilemedi)",
+        }
+
+    result = {"esya_tanimi": "", "gtip_karar": "", "teknik_gerekce": ""}
+    for line in response.splitlines():
+        if line.startswith("EŞYA_TANIMI:"):
+            result["esya_tanimi"] = line[12:].strip()
+        elif line.startswith("GTİP_KARAR:"):
+            result["gtip_karar"] = line[11:].strip()
+        elif line.startswith("TEKNİK_GEREKÇE:"):
+            result["teknik_gerekce"] = line[15:].strip()
+
+    # Herhangi bir alan boş kaldıysa ham değerle doldur
+    if not result["esya_tanimi"]:
+        result["esya_tanimi"] = subject
+    if not result["gtip_karar"]:
+        result["gtip_karar"] = tariffs
+
+    return result
 
 
 # ── Google Translate ──────────────────────────────────────────────────────────
