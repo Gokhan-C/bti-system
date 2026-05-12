@@ -1,0 +1,45 @@
+# BTI Günlük Sistem — Ana Konfigürasyon
+
+# Rapor ve state çıktı dizinleri
+output_base: "~/Desktop/BTI_Reports"
+state_dir: "~/Desktop/claude/code/bti_system/state"
+log_file: "~/Desktop/claude/code/bti_system/logs/bti_system.log"
+log_level: "INFO"
+
+# Varsayılan çeviri motoru: "claude" veya "google"
+default_translator: "claude"
+claude_batch_size: 8
+
+# Tek birleşik rapor (tüm ülkeleri tek .docx'te birleştirir)
+unified_report:
+  enabled: true
+  output_name: "BTI_Unified_{date}.docx"
+
+# ── Ülke connector'ları ───────────────────────────────────────────────────────
+connectors:
+
+  eu_ebti:
+    enabled: true
+    display_name: "Avrupa Birliği EBTI"
+    translator: "claude"
+    # Node.js build_docx.js scripti — EU raporları için (sadece bu connector kullanır)
+    docx_script: "~/Desktop/claude/code/bti_system/assets/build_docx.js"
+
+  us_cbp:
+    enabled: true
+    display_name: "ABD CBP"
+    translator: "google"
+    recent_days: 14
+
+  ca_cbsa:
+    enabled: true
+    display_name: "Kanada CBSA"
+    translator: "google"
+    api_url: "https://ccp-pcc.cbsa-asfc.cloud-nuage.canada.ca/carmwebservices/v2/carm/publicrulings/list"
+    api_detail_url: "https://ccp-pcc.cbsa-asfc.cloud-nuage.canada.ca/carmwebservices/v2/carm/publicrulings/rulingsdetails/{id}"
+
+  # Yeni ülke eklemek için şablon:
+  # xx_source:
+  #   enabled: false
+  #   display_name: "Ülke Adı"
+  #   translator: "claude"  # veya "google"
