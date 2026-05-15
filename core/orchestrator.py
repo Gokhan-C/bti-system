@@ -3,6 +3,7 @@ Orchestrator — tüm connector'ları sırayla çalıştırır, birleşik rapor 
 """
 
 import importlib
+import json
 import sys
 from datetime import datetime, timedelta
 from pathlib import Path
@@ -66,6 +67,38 @@ def _load_connectors(config, state_dir, output_base, logger) -> list[BaseConnect
         except Exception as e:
             logger.error(f"  Connector yüklenemedi ({connector_id}): {e}")
     return connectors
+
+
+# ── Cached report data yükleyici ─────────────────────────────────────────────
+
+def _load_cached_report_data(connector, target_date: datetime, output_base: Path) -> dict:
+    """
+    result.data boş olduğunda (records_new=0 → build_report çağrılmadı),
+    connector'ın output dizininde kayıtlı _report_data.json'ı bulup döndürür.
+    """
+    date_str = target_date.strftime("%Y-%m-%d")
+    base_dir = output_base / connector.connector_id.upper()
+
+    # 1. Hedef tarih dizini
+    candidate = base_dir / date_str / "_report_data.json"
+    if candidate.exists():
+        try:
+            return json.loads(candidate.read_text(encoding="utf-8"))
+        except Exception:
+            pass
+
+    # 2. En son tarih dizini (fallback)
+    try:
+        date_dirs = sorted(
+            [d for d in base_dir.iterdir() if d.is_dir() and (d / "_report_data.json").exists()],
+            reverse=True,
+        )
+        if date_dirs:
+            return json.loads((date_dirs[0] / "_report_data.json").read_text(encoding="utf-8"))
+    except Exception:
+        pass
+
+    return {}
 
 
 # ── Birleşik rapor ────────────────────────────────────────────────────────────
@@ -155,6 +188,11 @@ def _build_unified_report(
         add_section_divider(doc, f"  {conn.display_name.upper()}  ", bg_color=section_color)
 
         data = res.data
+        # result.data boşsa (records_new=0) → kalıcı JSON'dan yükle
+        if not data:
+            data = _load_cached_report_data(conn, target_date, output_base)
+            if data:
+                logger.info(f"  {conn.display_name}: cached _report_data.json yüklendi")
 
         # ── AB EBTI bölümü ──────────────────────────────────────────────
         if res.connector_id == "eu_ebti" and data:
