@@ -129,7 +129,7 @@ async def _scrape_and_download(
         page = await context.new_page()
 
         search_url = _build_search_url(date_hyphen, date_slash_encoded)
-        await page.goto(search_url, wait_until="networkidle", timeout=60000)
+        await page.goto(search_url, wait_until="load", timeout=120000)
 
         body_text = await page.inner_text("body")
         if "0 results match" in body_text or "results match your search" not in body_text:
