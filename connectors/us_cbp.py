@@ -219,6 +219,11 @@ class UsCbpConnector(BaseConnector):
             "records": processed_records,
             "date_str": date_str,
         }
+        # JSON'a kalıcı kaydet — records_new=0 olduğunda orchestrator buradan okur
+        import json as _json
+        (date_dir / "_report_data.json").write_text(
+            _json.dumps(self._report_data, ensure_ascii=False, indent=2), encoding="utf-8"
+        )
 
         docx_path = date_dir / f"ABD_CBP_Kararlar_{date_str}.docx"
         doc.save(str(docx_path))

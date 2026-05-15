@@ -233,6 +233,20 @@ class EuEbtiConnector(BaseConnector):
             or ""
         ).strip()
 
+    def deduplicate(self, records: list[dict[str, Any]]) -> list[dict[str, Any]]:
+        """
+        AB EBTI override: tarih bazlı çekim yapıldığı için, her gün o günün TÜM BTI'leri
+        rapora girer (gerek olmayan dedup kaldırıldı).
+        Yine de state dosyasını güncelliyoruz (geçmiş takip için).
+        """
+        for r in records:
+            rid = self.extract_id(r)
+            if rid:
+                self._seen_ids.add(rid)
+        if records:
+            self._save_seen_ids()
+        return records  # TÜMÜNÜ döndür, dedup yok
+
     def fetch(self, target_date: datetime) -> list[dict[str, Any]]:
         date_dir = self.output_dir / target_date.strftime("%Y-%m-%d")
         date_dir.mkdir(parents=True, exist_ok=True)
@@ -307,6 +321,10 @@ class EuEbtiConnector(BaseConnector):
 
         # Birleşik rapor için veriyi sakla
         self._report_data = data
+        # JSON'a kalıcı kaydet — records_new=0 olduğunda orchestrator buradan okur
+        (date_dir / "_report_data.json").write_text(
+            json.dumps(self._report_data, ensure_ascii=False, indent=2), encoding="utf-8"
+        )
 
         json_path = date_dir / "_eu_report_tmp.json"
         with open(json_path, "w", encoding="utf-8") as f:

@@ -120,6 +120,22 @@ def _build_unified_report(
     docx_path   = output_base / output_name
 
     connector_map = {c.connector_id: c for c in connectors}
+    result_map = {r.connector_id: r for r in results}
+
+    # ── Önce: TÜM connectorlar için data'yı yükle (cache fallback ile) ────
+    # Bu sayede kapak sayfasındaki sayılar gerçek görünen kayıt sayısını yansıtır
+    data_map: dict[str, dict] = {}
+    count_map: dict[str, int] = {}
+    for cid, conn in connector_map.items():
+        res = result_map.get(cid)
+        d = res.data if (res and res.data) else {}
+        if not d:
+            d = _load_cached_report_data(conn, target_date, output_base)
+            if d:
+                logger.info(f"  {conn.display_name}: cached _report_data.json yüklendi")
+        data_map[cid] = d
+        # Kayıt sayısı: data içindeki records uzunluğu
+        count_map[cid] = len(d.get("records", []))
 
     # ── Doküman başlangıcı ──────────────────────────────────────────────────
     doc = make_doc("", "")  # boş başlık, kapak bloğu elle oluşturulacak
@@ -150,12 +166,10 @@ def _build_unified_report(
 
     doc.add_paragraph()
 
-    # ── Ülke kartları ────────────────────────────────────────────────────────
-    result_map = {r.connector_id: r for r in results}
+    # ── Ülke kartları (gerçek görünen karar sayısıyla) ───────────────────────
     country_cards = []
     for cid, conn in connector_map.items():
-        res = result_map.get(cid)
-        count = res.records_new if res else 0
+        count = count_map.get(cid, 0)
         colors = COUNTRY_COLORS.get(cid, {"color": "444444", "label_color": "666666"})
         country_cards.append({
             "name":        conn.display_name,
@@ -166,14 +180,19 @@ def _build_unified_report(
 
     add_country_stats_card(doc, country_cards)
 
-    # ── Toplam istatistik tablosu ─────────────────────────────────────────
-    total_new = sum(r.records_new for r in results)
-    stat_rows = [("Toplam Yeni Karar", str(total_new))]
+    # ── Toplam istatistik tablosu (gerçek görünen sayılar) ────────────────
+    total_displayed = sum(count_map.values())
+    total_new       = sum(r.records_new for r in results)
+    stat_rows = [
+        ("Toplam Karar (Rapordaki)", str(total_displayed)),
+        ("Bugün Yeni Eklenen",       str(total_new)),
+    ]
     for res in results:
         conn = connector_map.get(res.connector_id)
         name = conn.display_name if conn else res.connector_id
         status = "✓" if res.success else "✗ HATA"
-        stat_rows.append((name, f"{res.records_new} karar  {status}"))
+        cnt = count_map.get(res.connector_id, 0)
+        stat_rows.append((name, f"{cnt} karar  (bugün yeni: {res.records_new})  {status}"))
     add_info_table(doc, stat_rows)
     doc.add_paragraph()
     doc.add_paragraph()
@@ -187,12 +206,8 @@ def _build_unified_report(
         section_color = COUNTRY_SECTION_COLORS.get(res.connector_id, "1F4E79")
         add_section_divider(doc, f"  {conn.display_name.upper()}  ", bg_color=section_color)
 
-        data = res.data
-        # result.data boşsa (records_new=0) → kalıcı JSON'dan yükle
-        if not data:
-            data = _load_cached_report_data(conn, target_date, output_base)
-            if data:
-                logger.info(f"  {conn.display_name}: cached _report_data.json yüklendi")
+        # Önceden yüklenmiş data'yı kullan (kapak sayfasıyla tutarlı)
+        data = data_map.get(res.connector_id, {})
 
         # ── AB EBTI bölümü ──────────────────────────────────────────────
         if res.connector_id == "eu_ebti" and data:
