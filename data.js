@@ -1,11 +1,11 @@
 window.BTI_DATA = {
- "generated_at": "2026-06-23 05:15",
+ "generated_at": "2026-06-23 05:39",
  "today": "2026-06-23",
  "today_tr": "23 Haziran 2026",
  "latest_date": "2026-06-22",
  "latest_is_today": false,
- "total_decisions": 623,
- "total_days": 18,
+ "total_decisions": 638,
+ "total_days": 23,
  "days": [
   {
    "date": "2026-06-22",
@@ -494,13 +494,177 @@ window.BTI_DATA = {
    ]
   },
   {
-   "date": "2026-06-19",
-   "date_tr": "19 Haziran 2026",
-   "count": 49,
+   "date": "2026-06-20",
+   "date_tr": "20 Haziran 2026",
+   "count": 8,
    "sources": [
     "eu"
    ],
    "decisions": [
+    {
+     "source": "eu",
+     "source_label": "Avrupa Birliği (EBTI)",
+     "color": "#2E6BE6",
+     "flag": "🇳🇱",
+     "origin": "Hollanda",
+     "hs": "94049090",
+     "hs4": "9404",
+     "ref": "NLBTI2026-0124",
+     "date": "2026-06-20",
+     "title": "Evcil hayvanlar için sözde bir ısı matı olup –beyana göre– aşağıdaki özelliklere sahiptir: - evcil hayvanlar için ısı tutan dinlenme ve uyku yeri olarak tasarlanmış; - zemine yerleştirilmek üzere tasarlanmış; - polyester ve geri dönüştürülmüş polietilen tereftalattan üretilmiş; -…",
+     "gerekce": "Kombine nomenklatürün yorumlanmasına ilişkin 1 ve 6 numaralı genel kurallar. XI. Bölüm'e ait 1(s) numaralı not. 94. Fasıl'a ait (KN) 1 numaralı ek not. KN kodu 9404, 9404 90 ve 9404 90 90'ın metni. Ürün, herhangi bir mad…",
+     "url": "https://ec.europa.eu/taxation_customs/dds2/ebti/ebti_details.jsp?showHeader=false&Lang=en&reference=NLBTI2026-0124"
+    },
+    {
+     "source": "eu",
+     "source_label": "Avrupa Birliği (EBTI)",
+     "color": "#2E6BE6",
+     "flag": "🇳🇱",
+     "origin": "Hollanda",
+     "hs": "34013000",
+     "hs4": "3401",
+     "ref": "NLBTI2026-0082",
+     "date": "2026-06-20",
+     "title": "Aşağıdaki özelliklere ve içeriklere sahip olduğu beyan edilen bir yüz temizleyici: - yüz temizliği amacıyla tasarlanmış; - berrak, şeffaf bir sıvı formunda; - dozaj pompası ile donatılmış plastik bir şişe içinde; - su; - yüzey aktif maddeler; - gliserin; - koyulaştırıcı olarak gl…",
+     "gerekce": "Kombine nomenklatürün yorumlanmasına ilişkin 1, 5(b) ve 6 numaralı genel kurallar. 33. Fasıl'a ait 1(b) numaralı not. 3401 pozisyonuna ilişkin GS açıklama notunun III. maddesi. KN kodu 3401 ve 3401 30 00'ın metni. Ürün, …",
+     "url": "https://ec.europa.eu/taxation_customs/dds2/ebti/ebti_details.jsp?showHeader=false&Lang=en&reference=NLBTI2026-0082"
+    },
+    {
+     "source": "eu",
+     "source_label": "Avrupa Birliği (EBTI)",
+     "color": "#2E6BE6",
+     "flag": "🇳🇱",
+     "origin": "Hollanda",
+     "hs": "21069098",
+     "hs4": "2106",
+     "ref": "NLBTI2026-0088",
+     "date": "2026-06-20",
+     "title": "Aşağıdaki özelliklere ve içeriklere sahip olduğu beyan edilen bir besin takviyesi: - sindirim sistemini desteklemeye yönelik; - şeffaf kapsül formunda; - koyu kahverengi toz ile doldurulmuş; - pirinç kepeği; - hidroksipropilmetilselüloz; - psyllium müsilajı; - kızılcık; - kabak ç…",
+     "gerekce": "Kombine nomenklatürün yorumlanmasına ilişkin 1 ve 6 numaralı genel kurallar. 21. Fasıl'a ait (KN) 5 numaralı ek not. Nişasta/glikoz içeriği %5'i (m/m) aşan ürünler KN alt pozisyonu 2106 90 92 kapsamında sınıflandırılamaz…",
+     "url": "https://ec.europa.eu/taxation_customs/dds2/ebti/ebti_details.jsp?showHeader=false&Lang=en&reference=NLBTI2026-0088"
+    },
+    {
+     "source": "eu",
+     "source_label": "Avrupa Birliği (EBTI)",
+     "color": "#2E6BE6",
+     "flag": "🇳🇱",
+     "origin": "Hollanda",
+     "hs": "17029095",
+     "hs4": "1702",
+     "ref": "NLBTI2026-0059",
+     "date": "2026-06-20",
+     "title": "Aşağıdaki özelliklere ve içeriklere sahip olduğu beyan edilen sözde bir şeker şurubu: - süt ineklerine yönelik hayvan yemi bileşeni olarak kullanılmaktadır; aşağıdakileri içermektedir: - şeker; - glikoz şurubu; - koruyucular; - su; - viskoz bir sıvı görünümünde. Ürün dökme olarak…",
+     "gerekce": "Kombine nomenklatürün yorumlanmasına ilişkin 1 ve 6 numaralı genel kurallar. 17. Fasıl'a ait (KN) 4 numaralı ek not. Komisyon'un 11 Eylül 2014 tarihli ve 974/2014 sayılı Uygulama Tüzüğü (AB Resmî Gazetesi 2014, L 274/6).…",
+     "url": "https://ec.europa.eu/taxation_customs/dds2/ebti/ebti_details.jsp?showHeader=false&Lang=en&reference=NLBTI2026-0059"
+    },
+    {
+     "source": "eu",
+     "source_label": "Avrupa Birliği (EBTI)",
+     "color": "#2E6BE6",
+     "flag": "🇳🇱",
+     "origin": "Hollanda",
+     "hs": "19012000",
+     "hs4": "1901",
+     "ref": "NLBTI2026-0065",
+     "date": "2026-06-20",
+     "title": "Aşağıdaki özelliklere ve bileşime sahip olduğu beyan edilen sözde vejetaryen baharatlı börekler (loempia): - insan tüketimine yönelik; - bej renkli, uzun silindirik rulolar formunda; - yufka hamuru; - şehriye; - havuç, lahana, dolmalık biber gibi çeşitli sebzeler; - tuz, sarımsak…",
+     "gerekce": "Kombine nomenklatürün yorumlanmasına ilişkin 1 ve 6 numaralı genel kurallar. 25 Şubat 1991 tarihli ve 440/91 sayılı (AET) Tüzük, madde 1 (AT Resmî Gazetesi 1991, L 52). Gümrük Kodu Komitesi Tarife ve İstatistik Nomenklat…",
+     "url": "https://ec.europa.eu/taxation_customs/dds2/ebti/ebti_details.jsp?showHeader=false&Lang=en&reference=NLBTI2026-0065"
+    },
+    {
+     "source": "eu",
+     "source_label": "Avrupa Birliği (EBTI)",
+     "color": "#2E6BE6",
+     "flag": "🇳🇱",
+     "origin": "Hollanda",
+     "hs": "85444210",
+     "hs4": "8544",
+     "ref": "NLBTI2026-0126",
+     "date": "2026-06-20",
+     "title": "Aşağıdaki özelliklere ve niteliklere sahip olduğu beyan edilen, koaksiyel çift kablo formunda bir ağ kablosu: - ethernet ağ standardını kullanarak ağ ve telekomünikasyon ekipmanlarını birbirine bağlamaya yönelik; - 1.000 V'u geçmeyen gerilimler için; - bakır teller; - 2 adet QSFP…",
+     "gerekce": "Kombine nomenklatürün yorumlanmasına ilişkin 1 ve 6 numaralı genel kurallar. Uyumlaştırılmış Sistem'in 85.44 pozisyonuna ilişkin açıklama notları. KN kodu 8544, 8544 42 ve 8544 42 10'un metni. Söz konusu ürün, kombine no…",
+     "url": "https://ec.europa.eu/taxation_customs/dds2/ebti/ebti_details.jsp?showHeader=false&Lang=en&reference=NLBTI2026-0126"
+    },
+    {
+     "source": "eu",
+     "source_label": "Avrupa Birliği (EBTI)",
+     "color": "#2E6BE6",
+     "flag": "🇳🇱",
+     "origin": "Hollanda",
+     "hs": "85444210",
+     "hs4": "8544",
+     "ref": "NLBTI2026-0127",
+     "date": "2026-06-20",
+     "title": "Aşağıdaki özelliklere ve niteliklere sahip olduğu beyan edilen, koaksiyel çift kablo formunda bir ağ kablosu: - ethernet ağ standardını kullanarak ağ ve telekomünikasyon ekipmanlarını birbirine bağlamaya yönelik; - 1.000 V'u geçmeyen gerilimler için; - bakır teller; - bir ucunda …",
+     "gerekce": "Kombine nomenklatürün yorumlanmasına ilişkin 1 ve 6 numaralı genel kurallar. Uyumlaştırılmış Sistem'in 85.44 pozisyonuna ilişkin açıklama notları. KN kodu 8544, 8544 42 ve 8544 42 10'un metni. Söz konusu ürün, kombine no…",
+     "url": "https://ec.europa.eu/taxation_customs/dds2/ebti/ebti_details.jsp?showHeader=false&Lang=en&reference=NLBTI2026-0127"
+    },
+    {
+     "source": "eu",
+     "source_label": "Avrupa Birliği (EBTI)",
+     "color": "#2E6BE6",
+     "flag": "🇳🇱",
+     "origin": "Hollanda",
+     "hs": "85444210",
+     "hs4": "8544",
+     "ref": "NLBTI2026-0128",
+     "date": "2026-06-20",
+     "title": "Twinaksiyel kablo biçiminde bir ağ kablosu; beyan edilen özellikleri ve nitelikleri aşağıdaki gibidir: - ethernet ağ standardını kullanarak ağ ve telekomünikasyon ekipmanlarının birbirine bağlanması amacıyla; - 1.000 V'u aşmayan gerilimler için; - bakır iletkenler; - 2 adet SFP k…",
+     "gerekce": "Birleşik Nomenclatür'ün yorumlanmasına ilişkin 1. ve 6. genel kurallar. Harmonize Sistem'in 85.44 pozisyonuna ait açıklama notları. 8544, 8544 42 ve 8544 42 10 CN kodlarının metni. Söz konusu ürün, Birleşik Nomenclatür'ü…",
+     "url": "https://ec.europa.eu/taxation_customs/dds2/ebti/ebti_details.jsp?showHeader=false&Lang=en&reference=NLBTI2026-0128"
+    }
+   ]
+  },
+  {
+   "date": "2026-06-19",
+   "date_tr": "19 Haziran 2026",
+   "count": 52,
+   "sources": [
+    "eu"
+   ],
+   "decisions": [
+    {
+     "source": "eu",
+     "source_label": "Avrupa Birliği (EBTI)",
+     "color": "#2E6BE6",
+     "flag": "🇷🇴",
+     "origin": "Romanya",
+     "hs": "85444210",
+     "hs4": "8544",
+     "ref": "ROBTI2026-005429",
+     "date": "2026-06-19",
+     "title": "Ürün, yüksek hızlı veri aktarımı için tasarlanmış PNI marka sertifikalı patch cord (muflı kablo) tipi bir ağ kablosudur. Standart: CAT6 (1 Gbps'a kadar hızları destekler). Ekranlama: UTP (Unshielded Twisted Pair), ekransız bükümlü çift kablo. Konnektörler: Her iki ucunda standart…",
+     "gerekce": "Kombine Nomenklatür'ün 1 ve 6 numaralı Genel Yorum Kuralları. 8544 pozisyonuna ilişkin NESA.",
+     "url": "https://ec.europa.eu/taxation_customs/dds2/ebti/ebti_details.jsp?showHeader=false&Lang=en&reference=ROBTI2026-005429"
+    },
+    {
+     "source": "eu",
+     "source_label": "Avrupa Birliği (EBTI)",
+     "color": "#2E6BE6",
+     "flag": "🇷🇴",
+     "origin": "Romanya",
+     "hs": "85177900",
+     "hs4": "8517",
+     "ref": "ROBTI2026-005431",
+     "date": "2026-06-19",
+     "title": "Ürün, PNI Escort HP 62 CB telsiz istasyonu için (RO BTI 2023/004116 sayılı ito kararına konu olan) bir pil yuvası aksesuarıdır. Bu pil yuvası, araçta kullanılan sabit telsiz alıcı-verici istasyonunu, araç dışında da kullanılabilen taşınabilir bir telsiz istasyonuna dönüştürmekted…",
+     "gerekce": "Kombine Nomenklatür'ün 1 ve 6 numaralı Genel Yorum Kuralları.",
+     "url": "https://ec.europa.eu/taxation_customs/dds2/ebti/ebti_details.jsp?showHeader=false&Lang=en&reference=ROBTI2026-005431"
+    },
+    {
+     "source": "eu",
+     "source_label": "Avrupa Birliği (EBTI)",
+     "color": "#2E6BE6",
+     "flag": "🇨🇿",
+     "origin": "Çekya",
+     "hs": "30059031",
+     "hs4": "3005",
+     "ref": "CZBTI41/335128/2026-300000-ZI/01",
+     "date": "2026-06-19",
+     "title": "Beyana göre, herhangi bir madde emdirilmemiş, tek kullanımlık, sağlığa zararsız gazlı bez kesimlerinden oluşmaktadır. Sağlık hizmetlerinde belirli türde pansuman hazırlamak, salgı ve sıvıları emmek ve aspire etmek, yaraları tedavi etmek ve örtmek amacıyla kullanılmaktadır. Malzem…",
+     "gerekce": "Kombine nomenklatürün yorumlanmasına ilişkin 1, 5(b) ve 6 numaralı genel kurallar. VI. Bölüm'e ait 2 numaralı not. 3005 pozisyonuna ilişkin HS açıklama notları. Kombine nomenklatürün 3005, 3005 90 ve 3005 90 31 kodlarını…",
+     "url": "https://ec.europa.eu/taxation_customs/dds2/ebti/ebti_details.jsp?showHeader=false&Lang=en&reference=CZBTI41%2F335128%2F2026-300000-ZI%2F01"
+    },
     {
      "source": "eu",
      "source_label": "Avrupa Birliği (EBTI)",
@@ -1207,8 +1371,8 @@ window.BTI_DATA = {
      "hs4": "4810",
      "ref": "BGBTIBG009999-2026-BTI40",
      "date": "2026-06-18",
-     "title": "Ürün, tüm tabakaları ağartılmış çok katmanlı selüloz karton olup her iki yüzü inorganik maddelerle — kaolinle — kaplanmıştır; ağırlığı 210 g/m² - 235 g/m² +/-%3'tür ve mekanik yolla elde edilmiş lif içeriği %50'dir. Rulo halinde sunulmakta olup rulo baskı makinelerinde kullanıma …",
-     "gerekce": "AB Kombine Nomenklatürünün (KN) Genel Yorum Kuralları'nın 1. ve 6. Kuralları. KN'nin 48. Faslına ait 5. Not, B) paragrafı, b) bendi, 2. maddesi. Ürünün özellikleri, başvuruya ekli üretici belgelerine göre belirlenmiştir.",
+     "title": "Ürün, tüm katmanları ağartılmış çok katmanlı selüloz karton olup her iki yüzeyi inorganik maddelerle — kaolin ile — kaplanmış, ağırlığı 210 g/m² - 235 g/m² +/-%3, mekanik yolla elde edilmiş lif içeriği %50'dir. Rulo halinde sunulmakta olup rulo baskı makinelerinde kullanıma uygun…",
+     "gerekce": "AB Kombine Nomenklatürü'nün (KN) Genel Yorum Kuralları'nın 1. ve 6. Kuralları. KN'nin 48. Faslına ilişkin 5 No'lu Not, paragraf B), bent b), alt bent 2. Ürünün özellikleri, başvuruya ekli üretici belgelerine göre belirle…",
      "url": "https://ec.europa.eu/taxation_customs/dds2/ebti/ebti_details.jsp?showHeader=false&Lang=en&reference=BGBTIBG009999-2026-BTI40"
     },
     {
@@ -1248,6 +1412,30 @@ window.BTI_DATA = {
      "title": "Produsul este un vehicul electric ușor cu trei roți pentru transport marfa. Propulsia este realizată de un motor electric central montat pe axa spate, putere continuă nominală de 1,5 kW. Sistemul de alimentare utilizează o baterie plumb-acid de 60 V și 32 Ah, iar transmisia este …",
      "gerekce": "Regulile generale pentru interpretarea Nomenclaturii combinate: 1 și 6.NESA de la pozitia 8703.",
      "url": "https://ec.europa.eu/taxation_customs/dds2/ebti/ebti_details.jsp?showHeader=false&Lang=en&reference=ROBTI2026-005425"
+    }
+   ]
+  },
+  {
+   "date": "2026-06-03",
+   "date_tr": "3 Haziran 2026",
+   "count": 1,
+   "sources": [
+    "eu"
+   ],
+   "decisions": [
+    {
+     "source": "eu",
+     "source_label": "Avrupa Birliği (EBTI)",
+     "color": "#2E6BE6",
+     "flag": "🇷🇴",
+     "origin": "Romanya",
+     "hs": "95030041",
+     "hs4": "9503",
+     "ref": "ROBTI2026-005388",
+     "date": "2026-06-03",
+     "title": "Başvuru sahibi tarafından sağlanan açıklama ve veri tabanında yayımlanan görsellere göre ürün, 3-18 aylık çocuklara yönelik, içine müzik modülü yerleştirilmiş, interaktif, tekstil malzemeden yapılmış, mavi ve pembe olmak üzere iki renk seçeneğinde ayı şeklinde bir oyuncaktır. Ayı…",
+     "gerekce": "Kombine Nomenklatür'ün 1, 3b) ve 6 numaralı Genel Yorum Kuralları. 2.3.2015 tarihli (EU) 352/2015 sayılı Tüzük (AB Resmi Gazetesi L 61, 5.3.2015, s.5). 9503 pozisyonuna ilişkin NESA, D) bendi, birinci paragraf ve (i) alt…",
+     "url": "https://ec.europa.eu/taxation_customs/dds2/ebti/ebti_details.jsp?showHeader=false&Lang=en&reference=ROBTI2026-005388"
     }
    ]
   },
@@ -8888,6 +9076,30 @@ window.BTI_DATA = {
    ]
   },
   {
+   "date": "2026-04-28",
+   "date_tr": "28 Nisan 2026",
+   "count": 1,
+   "sources": [
+    "eu"
+   ],
+   "decisions": [
+    {
+     "source": "eu",
+     "source_label": "Avrupa Birliği (EBTI)",
+     "color": "#2E6BE6",
+     "flag": "🇷🇴",
+     "origin": "Romanya",
+     "hs": "95030049",
+     "hs4": "9503",
+     "ref": "ROBTI2026-005390",
+     "date": "2026-04-28",
+     "title": "Başvuru sahibi tarafından sağlanan açıklama ve veri tabanında yayımlanan görsele göre ürün, küçük çocuklar için dekoratif kanatlı kuş şeklinde müzikli çıngıraklı bir oyuncaktır. Kuşun gövdesi plastik malzemeden yapılmış olup bir müzik modülü içermektedir. Modül üzerinde basıldığı…",
+     "gerekce": "Kombine Nomenklatür'ün 1 ve 6 numaralı Genel Yorum Kuralları. 9503 pozisyonuna ilişkin NESA, D) bendi, (i) alt bendi. 95030041 alt pozisyonuna ilişkin NENC.",
+     "url": "https://ec.europa.eu/taxation_customs/dds2/ebti/ebti_details.jsp?showHeader=false&Lang=en&reference=ROBTI2026-005390"
+    }
+   ]
+  },
+  {
    "date": "2026-04-18",
    "date_tr": "18 Nisan 2026",
    "count": 1,
@@ -8908,6 +9120,54 @@ window.BTI_DATA = {
      "title": "Hazır içim protein shake (alüminyum kutu, 325ml, çerez & krem aromalı)",
      "gerekce": "Ürün, alkolsüz bir içecek olarak GYK 1 uyarınca 22.02 faslına girmektedir. Aromalı/tatlandırılmış su (2202.10) kapsamına girmediğinden 2202.99 alt pozisyonuna alınmış; çikolatalı süt olmayan ancak süt içeren bir perakend…",
      "url": "https://ccp-pcc.cbsa-asfc.cloud-nuage.canada.ca/en/national-rulings/national-rulings-details/8000012667"
+    }
+   ]
+  },
+  {
+   "date": "2026-03-20",
+   "date_tr": "20 Mart 2026",
+   "count": 1,
+   "sources": [
+    "eu"
+   ],
+   "decisions": [
+    {
+     "source": "eu",
+     "source_label": "Avrupa Birliği (EBTI)",
+     "color": "#2E6BE6",
+     "flag": "🇷🇴",
+     "origin": "Romanya",
+     "hs": "95030055",
+     "hs4": "9503",
+     "ref": "ROBTI2026-005389",
+     "date": "2026-03-20",
+     "title": "Başvuru sahibi tarafından sağlanan açıklama ve veri tabanında yayımlanan görsele göre ürün, bir motorlu taşıt gösterge paneline monte edilmiş direksiyonu taklit eden müzikli bir oyuncaktır. Ürün, çok renkli plastik malzemeden yapılmış olup 12-36 aylık çocuklara yöneliktir. Oyunca…",
+     "gerekce": "Kombine Nomenklatür'ün 1 ve 6 numaralı Genel Yorum Kuralları. 9503 tarife pozisyonuna ilişkin NESA, (D) bendi, birinci paragraf ve (XII) alt bendi.",
+     "url": "https://ec.europa.eu/taxation_customs/dds2/ebti/ebti_details.jsp?showHeader=false&Lang=en&reference=ROBTI2026-005389"
+    }
+   ]
+  },
+  {
+   "date": "2026-03-18",
+   "date_tr": "18 Mart 2026",
+   "count": 1,
+   "sources": [
+    "eu"
+   ],
+   "decisions": [
+    {
+     "source": "eu",
+     "source_label": "Avrupa Birliği (EBTI)",
+     "color": "#2E6BE6",
+     "flag": "🇷🇴",
+     "origin": "Romanya",
+     "hs": "95030055",
+     "hs4": "9503",
+     "ref": "ROBTI2026-005387",
+     "date": "2026-03-18",
+     "title": "Başvuru sahibi tarafından sağlanan açıklama ve veri tabanında yayımlanan görsellere göre ürün, kitap şeklinde, çok renkli plastikten yapılmış, 6-36 aylık çocuklara yönelik müzikli bir oyuncaktır. Oyuncak, kitabın sayfalarını çağrıştıran üç ana unsur, ışık yakan şeffaf bir ön düğm…",
+     "gerekce": "Kombine Nomenklatür'ün 1 ve 6 numaralı Genel Yorum Kuralları. 9503 tarife pozisyonuna ilişkin NESA, (D) bendi, birinci paragraf ve (XII) alt bendi.",
+     "url": "https://ec.europa.eu/taxation_customs/dds2/ebti/ebti_details.jsp?showHeader=false&Lang=en&reference=ROBTI2026-005387"
     }
    ]
   }
