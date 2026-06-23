@@ -1,0 +1,12 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "bti-site",
+      "runtimeExecutable": "python3",
+      "runtimeArgs": ["-m", "http.server", "8780"],
+      "cwd": "site",
+      "port": 8780
+    }
+  ]
+}

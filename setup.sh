@@ -48,7 +48,7 @@ fi
 echo ""
 echo "[5/5] macOS LaunchAgent kuruluyor (06:00)..."
 mkdir -p "$HOME/Library/LaunchAgents"
-mkdir -p "$HOME/Desktop/BTI_Reports/logs"
+mkdir -p "$HOME/BTI_Reports/logs"
 mkdir -p "$SCRIPT_DIR/logs"
 
 # Çalışan path'i bul (Homebrew + sistem)
@@ -78,10 +78,10 @@ cat > "$PLIST_PATH" << PLIST
     </dict>
 
     <key>StandardOutPath</key>
-    <string>${HOME}/Desktop/BTI_Reports/logs/launchd_stdout.log</string>
+    <string>${HOME}/BTI_Reports/logs/launchd_stdout.log</string>
 
     <key>StandardErrorPath</key>
-    <string>${HOME}/Desktop/BTI_Reports/logs/launchd_stderr.log</string>
+    <string>${HOME}/BTI_Reports/logs/launchd_stderr.log</string>
 
     <key>EnvironmentVariables</key>
     <dict>
@@ -98,7 +98,7 @@ cat > "$PLIST_PATH" << PLIST
     <false/>
 
     <key>StandardErrorPath</key>
-    <string>${HOME}/Desktop/BTI_Reports/logs/launchd_stderr.log</string>
+    <string>${HOME}/BTI_Reports/logs/launchd_stderr.log</string>
 </dict>
 </plist>
 PLIST
@@ -113,8 +113,8 @@ echo "━━━━━━━━━━━━━━━━━━━━━━━━�
 echo "  Kurulum tamamlandı!"
 echo ""
 echo "  Otomatik çalışma: Her gün 06:00"
-echo "  Raporlar: ~/Desktop/BTI_Reports/"
-echo "  Loglar:   ~/Desktop/BTI_Reports/logs/launchd_stdout.log"
+echo "  Raporlar: ~/BTI_Reports/"
+echo "  Loglar:   ~/BTI_Reports/logs/launchd_stdout.log"
 echo ""
 echo "  Manuel test için:"
 echo "    cd $SCRIPT_DIR && python3 main.py"

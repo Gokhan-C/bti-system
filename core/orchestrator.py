@@ -4,6 +4,7 @@ Orchestrator — tüm connector'ları sırayla çalıştırır, birleşik rapor 
 
 import importlib
 import json
+import subprocess
 import sys
 from datetime import datetime, timedelta
 from pathlib import Path
@@ -12,27 +13,13 @@ import yaml
 
 from core.base_connector import BaseConnector, ConnectorResult
 from core.logger import get_logger
-from core.report_builder import (
-    make_doc, add_info_table, add_ruling_link,
-    add_summary_section, add_no_results_notice,
-    add_section_divider, add_country_stats_card, set_cell_bg,
-)
-
-from docx.shared import Pt, RGBColor, Cm
-from docx.enum.text import WD_ALIGN_PARAGRAPH
 
 
-# Ülke renk paleti (birleşik rapor kartları)
+# Ülke renk paleti (birleşik rapor kapak kartları)
 COUNTRY_COLORS = {
-    "eu_ebti":  {"color": "003399", "label_color": "2E75B6"},   # AB mavisi
-    "us_cbp":   {"color": "B22234", "label_color": "C0392B"},   # ABD kırmızısı
-    "ca_cbsa":  {"color": "FF0000", "label_color": "C0392B"},   # Kanada kırmızısı
-}
-
-COUNTRY_SECTION_COLORS = {
-    "eu_ebti":  "1F3864",
-    "us_cbp":   "7B241C",
-    "ca_cbsa":  "922B21",
+    "eu_ebti":  {"color": "003399", "label_color": "2E75B6"},
+    "us_cbp":   {"color": "B22234", "label_color": "C0392B"},
+    "ca_cbsa":  {"color": "FF0000", "label_color": "C0392B"},
 }
 
 
@@ -120,12 +107,11 @@ def _build_unified_report(
     docx_path   = output_base / output_name
 
     connector_map = {c.connector_id: c for c in connectors}
-    result_map = {r.connector_id: r for r in results}
+    result_map    = {r.connector_id: r for r in results}
 
-    # ── Önce: TÜM connectorlar için data'yı yükle (cache fallback ile) ────
-    # Bu sayede kapak sayfasındaki sayılar gerçek görünen kayıt sayısını yansıtır
-    data_map: dict[str, dict] = {}
-    count_map: dict[str, int] = {}
+    # ── Tüm connector'lar için data yükle (cache fallback ile) ─────────────
+    data_map:  dict[str, dict] = {}
+    count_map: dict[str, int]  = {}
     for cid, conn in connector_map.items():
         res = result_map.get(cid)
         d = res.data if (res and res.data) else {}
@@ -133,179 +119,59 @@ def _build_unified_report(
             d = _load_cached_report_data(conn, target_date, output_base)
             if d:
                 logger.info(f"  {conn.display_name}: cached _report_data.json yüklendi")
-        data_map[cid] = d
-        # Kayıt sayısı: data içindeki records uzunluğu
+        data_map[cid]  = d
         count_map[cid] = len(d.get("records", []))
 
-    # ── Doküman başlangıcı ──────────────────────────────────────────────────
-    doc = make_doc("", "")  # boş başlık, kapak bloğu elle oluşturulacak
-    # make_doc'un eklediği boş paragrafları temizle
-    for p in list(doc.paragraphs):
-        p._element.getparent().remove(p._element)
-
-    sec = doc.sections[0]
-    sec.page_height = Cm(29.7)
-    sec.page_width  = Cm(21)
-    for attr in ("left_margin", "right_margin", "top_margin", "bottom_margin"):
-        setattr(sec, attr, Cm(2.5))
-
-    # ── Kapak: başlık ───────────────────────────────────────────────────────
-    tp = doc.add_paragraph()
-    tp.alignment = WD_ALIGN_PARAGRAPH.CENTER
-    tr = tp.add_run("BAĞLAYICI TARİFE BİLGİLERİ")
-    tr.bold = True
-    tr.font.size = Pt(22)
-    tr.font.color.rgb = RGBColor(0x1F, 0x3E, 0x6E)
-
-    sp = doc.add_paragraph()
-    sp.alignment = WD_ALIGN_PARAGRAPH.CENTER
-    sr = sp.add_run(f"Günlük Rapor  |  {date_str}")
-    sr.italic = True
-    sr.font.size = Pt(12)
-    sr.font.color.rgb = RGBColor(0x55, 0x55, 0x55)
-
-    doc.add_paragraph()
-
-    # ── Ülke kartları (gerçek görünen karar sayısıyla) ───────────────────────
+    # ── Kapak için ülke kartı listesi ────────────────────────────────────────
     country_cards = []
     for cid, conn in connector_map.items():
-        count = count_map.get(cid, 0)
         colors = COUNTRY_COLORS.get(cid, {"color": "444444", "label_color": "666666"})
         country_cards.append({
             "name":        conn.display_name,
-            "count":       count,
+            "count":       count_map.get(cid, 0),
             "color":       colors["color"],
             "label_color": colors["label_color"],
         })
 
-    add_country_stats_card(doc, country_cards)
+    # ── Node.js'e gönderilecek birleşik JSON ─────────────────────────────────
+    unified_data: dict = {
+        "date":      date_str,
+        "countries": country_cards,
+    }
+    if "eu_ebti" in data_map and data_map["eu_ebti"]:
+        unified_data["eu_ebti"] = data_map["eu_ebti"]
+    if "us_cbp" in data_map and data_map["us_cbp"]:
+        cbp = dict(data_map["us_cbp"])
+        cbp.setdefault("date_str", date_str)
+        unified_data["us_cbp"] = cbp
+    if "ca_cbsa" in data_map and data_map["ca_cbsa"]:
+        cbsa = dict(data_map["ca_cbsa"])
+        cbsa.setdefault("date_str", date_str)
+        unified_data["ca_cbsa"] = cbsa
 
-    # ── Toplam istatistik tablosu (gerçek görünen sayılar) ────────────────
-    total_displayed = sum(count_map.values())
-    total_new       = sum(r.records_new for r in results)
-    stat_rows = [
-        ("Toplam Karar (Rapordaki)", str(total_displayed)),
-        ("Bugün Yeni Eklenen",       str(total_new)),
-    ]
-    for res in results:
-        conn = connector_map.get(res.connector_id)
-        name = conn.display_name if conn else res.connector_id
-        status = "✓" if res.success else "✗ HATA"
-        cnt = count_map.get(res.connector_id, 0)
-        stat_rows.append((name, f"{cnt} karar  (bugün yeni: {res.records_new})  {status}"))
-    add_info_table(doc, stat_rows)
-    doc.add_paragraph()
-    doc.add_paragraph()
+    # ── Geçici JSON dosyasına yaz, Node.js'i çalıştır ───────────────────────
+    tmp_json = output_base / f"_unified_tmp_{date_str}.json"
+    tmp_json.write_text(
+        json.dumps(unified_data, ensure_ascii=False, indent=2), encoding="utf-8"
+    )
 
-    # ── Her ülkenin içeriği ────────────────────────────────────────────────
-    for res in results:
-        conn = connector_map.get(res.connector_id)
-        if not conn or not res.success:
-            continue
+    unified_script = Path(
+        config.get("connectors", {})
+             .get("eu_ebti", {})
+             .get("docx_script", "~/bti_system/assets/build_docx.js")
+    ).expanduser().parent / "build_unified_docx.js"
 
-        section_color = COUNTRY_SECTION_COLORS.get(res.connector_id, "1F4E79")
-        add_section_divider(doc, f"  {conn.display_name.upper()}  ", bg_color=section_color)
+    try:
+        result = subprocess.run(
+            ["node", str(unified_script), str(tmp_json), str(docx_path)],
+            capture_output=True, text=True,
+        )
+        if result.returncode != 0:
+            logger.error(f"Birleşik rapor Node.js hatası:\n{result.stderr[:800]}")
+            return None
+    finally:
+        tmp_json.unlink(missing_ok=True)
 
-        # Önceden yüklenmiş data'yı kullan (kapak sayfasıyla tutarlı)
-        data = data_map.get(res.connector_id, {})
-
-        # ── AB EBTI bölümü ──────────────────────────────────────────────
-        if res.connector_id == "eu_ebti" and data:
-            # Ülke dağılım özet tablosu
-            country_stats = data.get("country_stats", [])
-            if country_stats:
-                p = doc.add_paragraph()
-                r2 = p.add_run("Ülkelere Göre Dağılım")
-                r2.bold = True
-                r2.font.size = Pt(11)
-                r2.font.color.rgb = RGBColor(0x1F, 0x4E, 0x79)
-                add_info_table(doc, [
-                    (s["name"], f"{s['count']} BTI")
-                    for s in country_stats
-                ])
-                doc.add_paragraph()
-
-            # Kayıtlar
-            for rec in data.get("records", []):
-                ref  = rec.get("ref", "")
-                hs   = rec.get("hs", "")
-                date = rec.get("date_issue", "")
-                desc = rec.get("desc_tr", "")
-                just = rec.get("just_tr", "")
-                url  = (
-                    f"https://ec.europa.eu/taxation_customs/dds2/ebti/ebti_consultation.jsp"
-                    f"?Lang=en&reference={ref.replace('/', '%2F')}&Expand=true&offset=1&allRecords=0"
-                )
-                add_ruling_link(doc, url, label=f"BTI Kararı {ref}")
-
-                hp = doc.add_paragraph()
-                hr2 = hp.add_run(f"GTİP {hs}  |  {ref}  |  {date}")
-                hr2.bold = True
-                hr2.font.size = Pt(12)
-                hr2.font.color.rgb = RGBColor(0x1F, 0x4E, 0x79)
-
-                add_summary_section(doc, {
-                    "esya_tanimi":   desc,
-                    "gtip_karar":    hs,
-                    "teknik_gerekce": just,
-                })
-
-        # ── ABD CBP bölümü ──────────────────────────────────────────────
-        elif res.connector_id == "us_cbp" and data:
-            stats = data.get("stats", {})
-            if stats:
-                add_info_table(doc, [
-                    ("Toplam Çekilen",          str(stats.get("total", 0))),
-                    ("Tarife Sınıflandırması",  str(stats.get("classification", 0))),
-                    ("Menşei Kararı",           str(stats.get("origin", 0))),
-                    ("Diğer",                   str(stats.get("other", 0))),
-                    ("Rapora Giren",            str(stats.get("in_report", 0))),
-                ])
-                doc.add_paragraph()
-
-            for rec in data.get("records", []):
-                add_ruling_link(doc, rec["source_url"])
-
-                hp = doc.add_paragraph()
-                hr2 = hp.add_run(f"ABD CBP: {rec['number']}  |  {rec['date_fmt']}")
-                hr2.bold = True
-                hr2.font.size = Pt(12)
-                hr2.font.color.rgb = RGBColor(0x7B, 0x24, 0x1C)
-
-                add_info_table(doc, [
-                    ("Karar No",  rec["number"]),
-                    ("GTİP",      rec["tariffs"]),
-                    ("Tarih",     rec["date_fmt"]),
-                ])
-                doc.add_paragraph()
-                add_summary_section(doc, rec.get("summary", {}))
-
-        # ── Kanada CBSA bölümü ──────────────────────────────────────────
-        elif res.connector_id == "ca_cbsa" and data:
-            for rec in data.get("records", []):
-                add_ruling_link(doc, rec["source_url"])
-
-                hp = doc.add_paragraph()
-                hr2 = hp.add_run(f"Kanada CBSA: {rec['ruling_id']}  |  {rec['date_fmt']}")
-                hr2.bold = True
-                hr2.font.size = Pt(12)
-                hr2.font.color.rgb = RGBColor(0x92, 0x2B, 0x21)
-
-                add_info_table(doc, [
-                    ("Karar No",     rec["ruling_id"]),
-                    ("GTİP",         rec["hts"]),
-                    ("Tarih",        rec["date_fmt"]),
-                    ("Başvurucu",    rec["applicant"]),
-                    ("Menşe Ülke",   rec["origin"]),
-                ])
-                doc.add_paragraph()
-                add_summary_section(doc, rec.get("summary", {}))
-
-        if res.records_new == 0:
-            add_no_results_notice(doc)
-            doc.add_paragraph()
-
-    doc.save(str(docx_path))
     logger.info(f"Birleşik rapor kaydedildi: {docx_path}")
     return docx_path
 

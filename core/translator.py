@@ -94,6 +94,23 @@ def translate_batch_claude(batch: list[dict[str, Any]]) -> list[dict[str, Any]]:
     return results
 
 
+def _is_untranslated(row: dict[str, Any]) -> bool:
+    """Çeviri batch'i bir kaydı atladıysa desc_tr ham (orijinal) metne eşit kalır.
+    Bu durumu yakalar: çeviri yok ya da hâlâ orijinal dilde."""
+    desc_tr = (row.get("desc_tr") or "").strip()
+    just_tr = (row.get("just_tr") or "").strip()
+    desc_orig = (row.get("DESCRIPTION_OF_GOODS") or "").strip()
+    just_orig = (row.get("CLASSIFICATION_JUSTIFICATION") or "").strip()
+    if not desc_tr and not just_tr:
+        return bool(desc_orig or just_orig)
+    # İçerik varsa ama orijinalle birebir aynıysa → çevrilmemiş
+    if desc_orig and desc_tr == desc_orig:
+        return True
+    if just_orig and just_tr == just_orig:
+        return True
+    return False
+
+
 def translate_all_claude(
     rows: list[dict[str, Any]],
     batch_size: int = 8,
@@ -116,6 +133,23 @@ def translate_all_claude(
                     "desc_tr": row.get("DESCRIPTION_OF_GOODS", ""),
                     "just_tr": row.get("CLASSIFICATION_JUSTIFICATION", ""),
                 })
+
+    # İkinci geçiş: batch'te atlanıp çevrilmeden kalan kayıtları tek tek yeniden dene
+    leftovers = [i for i, r in enumerate(translated) if _is_untranslated(r)]
+    if leftovers and logger:
+        logger.info(f"  Çevrilemeyen {len(leftovers)} kayıt tek tek yeniden deneniyor")
+    for i in leftovers:
+        try:
+            fixed = translate_batch_claude([translated[i]])[0]
+            # yine ham kaldıysa olduğu gibi bırak
+            if not _is_untranslated(fixed):
+                translated[i] = fixed
+            elif logger:
+                logger.warning(f"  Kayıt {i + 1} tekrar denemede de çevrilemedi")
+        except Exception as e:
+            if logger:
+                logger.warning(f"  Tekil çeviri hatası (kayıt {i + 1}): {e}")
+
     return translated
 
 

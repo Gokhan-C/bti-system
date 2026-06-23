@@ -24,7 +24,7 @@ from core.report_builder import (
     make_doc, add_info_table, add_ruling_link,
     add_summary_section, add_no_results_notice, set_cell_bg,
 )
-from core.translator import summarize_ruling_claude
+from core.translator import translate_google
 
 from docx.shared import Pt, RGBColor
 from docx.enum.text import WD_ALIGN_PARAGRAPH
@@ -50,6 +50,99 @@ CLASSIFICATION_KEYWORDS = [
     "TARIFF CLASSIFICATION", "HTS ", "HTSUS ", "HARMONIZED TARIFF",
     "CATEGORY: CLASSIFICATION", "CATEGORY:  CLASSIFICATION",
 ]
+
+
+def _extract_product_desc(text: str, max_chars: int = 1800) -> str:
+    """
+    CBP karar metninden ürün tanımı bölümünü çıkarır.
+    'In your letter dated...' ile 'The applicable subheading...' arasındaki
+    paragraf ürün adı, marka/model ve teknik özellikleri içerir.
+    """
+    if not text:
+        return ""
+    upper = text.upper()
+    start_idx = -1
+    for marker in (
+        "IN YOUR LETTER",
+        "THE ITEMS CONCERNED",
+        "THE ITEM UNDER CONSIDERATION",
+        "THE MERCHANDISE UNDER CONSIDERATION",
+        "THE SUBJECT MERCHANDISE",
+    ):
+        idx = upper.find(marker)
+        if idx != -1:
+            start_idx = idx
+            break
+
+    end_idx = upper.find("THE APPLICABLE SUBHEADING")
+    if end_idx == -1:
+        end_idx = upper.find("THE APPLICABLE HTS")
+    if end_idx == -1:
+        end_idx = upper.find("HARMONIZED TARIFF SCHEDULE")
+
+    if start_idx != -1 and end_idx != -1 and end_idx > start_idx:
+        return text[start_idx:end_idx].strip()[:max_chars]
+    if start_idx != -1:
+        return text[start_idx: start_idx + max_chars].strip()
+    return text[:max_chars].strip()
+
+
+def _extract_classification_rationale(text: str, max_chars: int = 1500) -> str:
+    """
+    CBP karar metninden sınıflandırma gerekçesini çıkarır.
+    'The applicable subheading for [ürün] will be XXXX.XX, HTSUS, which provides for...'
+    paragrafı; hangi tarife pozisyonunun neden uygulandığını açıklar.
+    """
+    if not text:
+        return ""
+    upper = text.upper()
+    idx = upper.find("THE APPLICABLE SUBHEADING FOR")
+    if idx == -1:
+        idx = upper.find("THE APPLICABLE SUBHEADING")
+    if idx == -1:
+        idx = upper.find("THE CORRECT SUBHEADING")
+
+    if idx != -1:
+        snippet = text[idx: idx + max_chars]
+        for cutoff in (
+            "The duties cited above",
+            "This ruling does not address",
+            "The holding set forth",
+            "For further information",
+        ):
+            ci = snippet.find(cutoff)
+            if ci != -1:
+                snippet = snippet[:ci]
+        return snippet.strip()
+    return ""
+
+
+def _summarize_ruling(
+    text: str,
+    subject: str,
+    tariffs: str,
+    ruling_number: str,
+    logger=None,
+) -> dict[str, str]:
+    """
+    CBP karar metninden ürün tanımı ve sınıflandırma gerekçesini çıkarıp
+    Google Translate ile Türkçeye çevirir.
+    """
+    prod_text = _extract_product_desc(text)
+    rat_text  = _extract_classification_rationale(text)
+
+    esya_tanimi = translate_google(prod_text or subject, logger=logger)
+    gtip_karar  = tariffs
+    teknik_gerekce = (
+        translate_google(rat_text, logger=logger) if rat_text
+        else "(Gerekçe metni bulunamadı)"
+    )
+
+    return {
+        "esya_tanimi":    esya_tanimi or subject,
+        "gtip_karar":     gtip_karar,
+        "teknik_gerekce": teknik_gerekce,
+    }
 
 
 def _categorize_ruling(detail: dict) -> str:
@@ -171,11 +264,10 @@ class UsCbpConnector(BaseConnector):
             collection = (detail.get("collection") or ruling.get("collection") or "").upper()
             source_url = f"https://rulings.cbp.gov/ruling/{number}"
 
-            summary = summarize_ruling_claude(
-                product_desc=subject,
-                analysis_text=text,
-                decision=tariffs,
-                gtip_codes=tariffs,
+            summary = _summarize_ruling(
+                text=text,
+                subject=subject,
+                tariffs=tariffs,
                 ruling_number=number,
             )
 

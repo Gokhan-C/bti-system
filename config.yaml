@@ -1,9 +1,9 @@
 # BTI Günlük Sistem — Ana Konfigürasyon
 
 # Rapor ve state çıktı dizinleri
-output_base: "~/Desktop/BTI_Reports"
-state_dir: "~/Desktop/claude/code/bti_system/state"
-log_file: "~/Desktop/claude/code/bti_system/logs/bti_system.log"
+output_base: "~/BTI_Reports"
+state_dir: "~/bti_system/state"
+log_file: "~/bti_system/logs/bti_system.log"
 log_level: "INFO"
 
 # Varsayılan çeviri motoru: "claude" veya "google"
@@ -23,7 +23,7 @@ connectors:
     display_name: "Avrupa Birliği EBTI"
     translator: "claude"
     # Node.js build_docx.js scripti — EU raporları için (sadece bu connector kullanır)
-    docx_script: "~/Desktop/claude/code/bti_system/assets/build_docx.js"
+    docx_script: "~/bti_system/assets/build_docx.js"
 
   us_cbp:
     enabled: true

@@ -334,7 +334,7 @@ class EuEbtiConnector(BaseConnector):
         docx_path = date_dir / f"AB_EBTI_Rapor_{date_compact}.docx"
 
         docx_script = Path(
-            self.config.get("docx_script", "~/Desktop/claude/code/bti_system/assets/build_docx.js")
+            self.config.get("docx_script", "~/bti_system/assets/build_docx.js")
         ).expanduser()
 
         result = subprocess.run(

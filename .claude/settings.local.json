@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(launchctl list *)",
+      "Bash(lsof -nP -iTCP:8780 -sTCP:LISTEN)",
+      "Read(//Users/gokhancankaya/BTI_Reports/**)",
+      "Bash(git add *)",
+      "Bash(git commit -q -m ' *)"
+    ]
+  }
+}
