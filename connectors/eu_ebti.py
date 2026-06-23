@@ -131,6 +131,22 @@ async def _scrape_and_download(
         search_url = _build_search_url(date_hyphen, date_slash_encoded)
         await page.goto(search_url, wait_until="load", timeout=120000)
 
+        # EBTI sonuç tablosunu/sayacını sayfa yüklendikten SONRA AJAX ile doldurur.
+        # "load" anında body'de henüz sonuç yok; sayaç metni ("... results match your
+        # search") belirene kadar bekle. Dolu da boş da ("0 results match...") olsa bu
+        # metin görünür; görünmezse networkidle ile son bir şans tanı.
+        try:
+            await page.wait_for_function(
+                "() => document.body && "
+                "document.body.innerText.includes('results match your search')",
+                timeout=60000,
+            )
+        except Exception:
+            try:
+                await page.wait_for_load_state("networkidle", timeout=20000)
+            except Exception:
+                pass
+
         body_text = await page.inner_text("body")
         if "0 results match" in body_text or "results match your search" not in body_text:
             if logger:
