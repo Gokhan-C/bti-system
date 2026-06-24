@@ -27,6 +27,7 @@ SOURCES = {
     "EU_EBTI": {"slug": "eu", "label": "Avrupa Birliği (EBTI)", "flag": "🇪🇺", "color": "#2E6BE6"},
     "US_CBP":  {"slug": "us", "label": "Amerika (CBP)",         "flag": "🇺🇸", "color": "#C0392B"},
     "CA_CBSA": {"slug": "ca", "label": "Kanada (CBSA)",          "flag": "🇨🇦", "color": "#D34040"},
+    "TR_BTB":  {"slug": "tr", "label": "Türkiye (BTB)",         "flag": "🇹🇷", "color": "#E30A17"},
 }
 
 # AB üye ülke kodları → bayrak/isim (kısa, gerekenler)
@@ -165,6 +166,20 @@ def normalize(src_dir, meta, rec, data):
             "url": rec.get("source_url", ""),
         }
 
+    if slug == "tr":
+        gtip = rec.get("gtip") or rec.get("hs", "")
+        return {
+            "source": "tr", "source_label": meta["label"], "color": meta["color"],
+            "flag": meta["flag"], "origin": "Türkiye",
+            "hs": gtip, "hs4": hs4(gtip),
+            "ref": rec.get("ref", ""),
+            "date": iso_from_any(rec.get("date_issue", "")),
+            "title": clip(rec.get("desc_tr", ""), 280),
+            "gerekce": clip(rec.get("just_tr", ""), 220),
+            # Tek-karar kalıcı URL'si yok (detay postback) → resmî sorgu sayfası
+            "url": "https://uygulama.gtb.gov.tr/BTBBasvuru/BtbWebArama",
+        }
+
     return None
 
 
@@ -175,8 +190,8 @@ def interleave_sources(decs):
     buckets = defaultdict(list)
     for d in decs:
         buckets[d["source"]].append(d)
-    # Kaynak sırası sabit: eu, us, ca (sonra varsa diğerleri)
-    order = [s for s in ("eu", "us", "ca") if s in buckets]
+    # Kaynak sırası sabit: eu, us, ca, tr (sonra varsa diğerleri)
+    order = [s for s in ("eu", "us", "ca", "tr") if s in buckets]
     order += [s for s in buckets if s not in order]
     out = []
     i = 0

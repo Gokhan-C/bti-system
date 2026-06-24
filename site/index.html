@@ -42,7 +42,7 @@
 
     <h1 style="position:relative;font-family:'Space Grotesk',sans-serif;font-weight:600;font-size:clamp(38px,6.4vw,74px);line-height:1.04;letter-spacing:-2px;max-width:960px;color:#16202b">Dünyanın <span style="color:#2f6bdf">tarife kararları</span>,<br>her gün gökyüzünde.</h1>
 
-    <p style="position:relative;max-width:660px;margin:26px auto 0;font-size:clamp(16px,2vw,19px);color:#5f7184">Avrupa Birliği, Amerika ve Kanada gümrük idarelerinin yayımladığı bağlayıcı tarife (BTI / GTİP) sınıflandırma kararlarını tek ekranda topluyoruz. Bir buluta dokun, kararın orijinal kaynağına uç.</p>
+    <p style="position:relative;max-width:660px;margin:26px auto 0;font-size:clamp(16px,2vw,19px);color:#5f7184">Avrupa Birliği, Amerika, Kanada ve Türkiye gümrük idarelerinin yayımladığı bağlayıcı tarife (BTI / BTB / GTİP) sınıflandırma kararlarını tek ekranda topluyoruz. Bir buluta dokun, kararın orijinal kaynağına uç.</p>
 
     <div style="position:relative;display:flex;gap:16px;margin-top:38px;flex-wrap:wrap;justify-content:center">
       <div style="background:#fff;border:1px solid #e6ebf2;border-radius:16px;padding:18px 22px;min-width:172px;text-align:left;box-shadow:0 10px 32px rgba(40,90,160,.06)">
@@ -59,6 +59,11 @@
         <div style="display:flex;align-items:center;gap:8px"><span style="width:9px;height:9px;border-radius:50%;background:#169b8b"></span><span style="font-weight:700;font-size:14.5px;color:#17202b">Kanada</span></div>
         <div style="font-family:'JetBrains Mono',monospace;font-weight:700;font-size:26px;letter-spacing:-1px;margin-top:10px;color:#169b8b">{{ caCountTxt }}</div>
         <div style="font-size:12px;color:#8693a6">CBSA · arşivdeki karar</div>
+      </div>
+      <div style="background:#fff;border:1px solid #e6ebf2;border-radius:16px;padding:18px 22px;min-width:172px;text-align:left;box-shadow:0 10px 32px rgba(40,90,160,.06)">
+        <div style="display:flex;align-items:center;gap:8px"><span style="width:9px;height:9px;border-radius:50%;background:#e30a17"></span><span style="font-weight:700;font-size:14.5px;color:#17202b">Türkiye</span></div>
+        <div style="font-family:'JetBrains Mono',monospace;font-weight:700;font-size:26px;letter-spacing:-1px;margin-top:10px;color:#e30a17">{{ trCountTxt }}</div>
+        <div style="font-size:12px;color:#8693a6">BTB · arşivdeki karar</div>
       </div>
     </div>
 
@@ -78,8 +83,8 @@
     <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:18px;margin-top:44px">
       <div style="background:#fff;border:1px solid #e6ebf2;border-radius:18px;padding:28px;box-shadow:0 8px 28px rgba(40,90,160,.05)">
         <div style="font-family:'JetBrains Mono',monospace;font-size:13px;font-weight:700;color:#2f6bdf">01</div>
-        <h3 style="font-family:'Space Grotesk',sans-serif;font-size:18px;font-weight:600;margin:14px 0 7px;letter-spacing:-.4px">3 ülke, tek ekran</h3>
-        <p style="font-size:14px;color:#5f7184">AB, ABD ve Kanada gümrük otoritelerinin yayımladığı bağlayıcı tarife kararları her gün otomatik toplanır.</p>
+        <h3 style="font-family:'Space Grotesk',sans-serif;font-size:18px;font-weight:600;margin:14px 0 7px;letter-spacing:-.4px">4 ülke, tek ekran</h3>
+        <p style="font-size:14px;color:#5f7184">AB, ABD, Kanada ve Türkiye gümrük otoritelerinin yayımladığı bağlayıcı tarife kararları her gün otomatik toplanır.</p>
       </div>
       <div style="background:#fff;border:1px solid #e6ebf2;border-radius:18px;padding:28px;box-shadow:0 8px 28px rgba(40,90,160,.05)">
         <div style="font-family:'JetBrains Mono',monospace;font-size:13px;font-weight:700;color:#2f6bdf">02</div>
@@ -122,6 +127,7 @@
       <span style="display:inline-flex;align-items:center;gap:7px"><i style="width:11px;height:11px;border-radius:50%;background:#2f6bdf;display:inline-block"></i>Avrupa Birliği</span>
       <span style="display:inline-flex;align-items:center;gap:7px"><i style="width:11px;height:11px;border-radius:50%;background:#d07d2a;display:inline-block"></i>Amerika</span>
       <span style="display:inline-flex;align-items:center;gap:7px"><i style="width:11px;height:11px;border-radius:50%;background:#169b8b;display:inline-block"></i>Kanada</span>
+      <span style="display:inline-flex;align-items:center;gap:7px"><i style="width:11px;height:11px;border-radius:50%;background:#e30a17;display:inline-block"></i>Türkiye</span>
       <span style="margin-left:auto;color:#8693a6">bulut = bir karar · sayı = GTİP'in ilk 4 hanesi</span>
     </div>
 
@@ -141,16 +147,16 @@
 class Component extends DCLogic {
   state = { dayIndex: 0, ready: false, data: null };
   fieldRef = React.createRef();
-  COLORS = { eu:'#2f6bdf', us:'#d07d2a', ca:'#169b8b' };
-  CLOUD_BG = { eu:'#ffffff', us:'#fffaf2', ca:'#f3fbfa' };
-  CODE = { eu:'AB', us:'ABD', ca:'KAN' };
+  COLORS = { eu:'#2f6bdf', us:'#d07d2a', ca:'#169b8b', tr:'#e30a17' };
+  CLOUD_BG = { eu:'#ffffff', us:'#fffaf2', ca:'#f3fbfa', tr:'#fff4f4' };
+  CODE = { eu:'AB', us:'ABD', ca:'KAN', tr:'TR' };
 
   componentDidMount(){ this.waitData(); }
 
   waitData(){
     if (window.BTI_DATA){
       const data = window.BTI_DATA;
-      const sc = { eu:0, us:0, ca:0 };
+      const sc = { eu:0, us:0, ca:0, tr:0 };
       (data.days||[]).forEach(d=>(d.decisions||[]).forEach(x=>{ sc[x.source]=(sc[x.source]||0)+1; }));
       this.sourceCounts = sc;
       this.setState({ data, ready:true });
@@ -240,7 +246,7 @@ class Component extends DCLogic {
 
   showTip(e, d){
     const tip = this.tip || (this.tip = document.getElementById('btiTip')); if (!tip) return;
-    const name = { eu:'Avrupa Birliği', us:'Amerika', ca:'Kanada' }[d.source] || '';
+    const name = { eu:'Avrupa Birliği', us:'Amerika', ca:'Kanada', tr:'Türkiye' }[d.source] || '';
     let html = `<div style="display:flex;align-items:center;gap:8px;margin-bottom:3px">`+
       `<span style="width:8px;height:8px;border-radius:50%;background:${this.COLORS[d.source]}"></span>`+
       `<span style="font-family:'JetBrains Mono',monospace;font-weight:700;font-size:14px;color:#fff">${d.hs4}</span>`+
@@ -269,12 +275,13 @@ class Component extends DCLogic {
     const day = data && data.days[s.dayIndex];
     const isToday = day && data && day.date === data.today;
     const showNote = !!(ready && s.dayIndex === 0 && data && !data.latest_is_today);
-    const sc = this.sourceCounts || { eu:0, us:0, ca:0 };
+    const sc = this.sourceCounts || { eu:0, us:0, ca:0, tr:0 };
     return {
       badgeTxt: ready && data.today_tr ? `${data.today_tr} · her gün otomatik güncellenir` : 'her gün otomatik güncellenir',
       euCountTxt: ready ? String(sc.eu) : '—',
       usCountTxt: ready ? String(sc.us) : '—',
       caCountTxt: ready ? String(sc.ca) : '—',
+      trCountTxt: ready ? String(sc.tr) : '—',
       dayLabel: isToday ? 'Bugünün kararları' : 'Seçili günün kararları',
       dayDate: ready ? (day ? day.date_tr : (data.today_tr || 'Veri yok')) : '—',
       dayCount: ready && day ? `${day.count} karar` : '',

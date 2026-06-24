@@ -38,6 +38,11 @@ connectors:
     api_url: "https://ccp-pcc.cbsa-asfc.cloud-nuage.canada.ca/carmwebservices/v2/carm/publicrulings/list"
     api_detail_url: "https://ccp-pcc.cbsa-asfc.cloud-nuage.canada.ca/carmwebservices/v2/carm/publicrulings/rulingsdetails/{id}"
 
+  tr_btb:
+    enabled: true
+    display_name: "Türkiye BTB"
+    # Veri zaten Türkçe — çeviri yok. Yıl bazlı kümülatif çekim + state dedup.
+
   # Yeni ülke eklemek için şablon:
   # xx_source:
   #   enabled: false

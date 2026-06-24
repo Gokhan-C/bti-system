@@ -1,20 +1,927 @@
 window.BTI_DATA = {
- "generated_at": "2026-06-23 06:05",
- "today": "2026-06-23",
- "today_tr": "23 Haziran 2026",
- "latest_date": "2026-06-22",
+ "generated_at": "2026-06-24 22:47",
+ "today": "2026-06-24",
+ "today_tr": "24 Haziran 2026",
+ "latest_date": "2026-06-23",
  "latest_is_today": false,
- "total_decisions": 780,
- "total_days": 24,
+ "total_decisions": 1081,
+ "total_days": 61,
  "days": [
+  {
+   "date": "2026-06-23",
+   "date_tr": "23 Haziran 2026",
+   "count": 63,
+   "sources": [
+    "eu"
+   ],
+   "decisions": [
+    {
+     "source": "eu",
+     "source_label": "Avrupa Birliği (EBTI)",
+     "color": "#2E6BE6",
+     "flag": "🇫🇷",
+     "origin": "Fransa",
+     "hs": "34025090",
+     "hs4": "3402",
+     "ref": "FRBTIFR-BTI-2026-01772",
+     "date": "2026-06-23",
+     "title": "Tuvalet temizleme blokları; anyonik yüzey aktif maddeler ve koku veren maddelerden oluşan, tuvalet taşına veya tahliye sistemine yerleştirilerek rutin temizlik ve kir giderimi sağlamaya yönelik, perakende satış için 2'li paket halinde sunulan deterjan blokları.",
+     "gerekce": "Genel Yorum Kuralları 1 ve 6: Sınıflandırma, fasıl ve bölüm notları ile pozisyon ve alt pozisyon metinleri esas alınarak belirlenir. Genel Yorum Kuralı 5(b): Ambalaj, içerdiği eşyayla birlikte sınıflandırılır. 3402 pozis…",
+     "url": "https://ec.europa.eu/taxation_customs/dds2/ebti/ebti_details.jsp?showHeader=false&Lang=en&reference=FRBTIFR-BTI-2026-01772"
+    },
+    {
+     "source": "eu",
+     "source_label": "Avrupa Birliği (EBTI)",
+     "color": "#2E6BE6",
+     "flag": "🇫🇷",
+     "origin": "Fransa",
+     "hs": "48195000",
+     "hs4": "4819",
+     "ref": "FRBTIFR-BTI-2026-04185",
+     "date": "2026-06-23",
+     "title": "Eşya ambalajı; katlanabilir bir taban (her bir kenardan monte edilmiş ve yapıştırılmış), filmli kağıtla kaplanmış oluklu olmayan mukavvadan oluşan, çıkarılabilir mukavva bir tabana ve eşyaların görülmesini sağlayan şeffaf plastik (PET) bir kapağa sahip kutu biçiminde sunulmaktadı…",
+     "gerekce": "Genel Yorum Kuralları 1 ve 6: Sınıflandırma, fasıl ve bölüm notları ile pozisyon, alt pozisyon metinleri ve KN kodu esas alınarak belirlenir. Genel Yorum Kuralı 2(b): Karışık veya bileşik ürünlerin sınıflandırması, Genel…",
+     "url": "https://ec.europa.eu/taxation_customs/dds2/ebti/ebti_details.jsp?showHeader=false&Lang=en&reference=FRBTIFR-BTI-2026-04185"
+    },
+    {
+     "source": "eu",
+     "source_label": "Avrupa Birliği (EBTI)",
+     "color": "#2E6BE6",
+     "flag": "🇨🇿",
+     "origin": "Çekya",
+     "hs": "87082990",
+     "hs4": "8708",
+     "ref": "CZBTI34/313152/2026-300000-ZI/01",
+     "date": "2026-06-23",
+     "title": "Sağlanan bilgiler doğrultusunda, söz konusu ürün; elektrikli araçlar için MEB (Modulare E-Antriebs-Baukasten – Modüler Elektrik Tahrik Sistemi) modüler platformunun batarya muhafaza çerçevesine ait orta enine kirişidir. Orta enine kiriş, aracın gövde tabanını oluşturan ve tüm yap…",
+     "gerekce": "Kombine Nomenclature'ün yorumlanmasına ilişkin 1. ve 6. Genel Yorum Kuralları. 8708 tarifesine ilişkin HS Açıklama Notları. Kombine Nomenclature'ün 8708, 8708 29 ve 8708 29 90 kodlarının metni ile TARIC kodu 8708 29 90 9…",
+     "url": "https://ec.europa.eu/taxation_customs/dds2/ebti/ebti_details.jsp?showHeader=false&Lang=en&reference=CZBTI34%2F313152%2F2026-300000-ZI%2F01"
+    },
+    {
+     "source": "eu",
+     "source_label": "Avrupa Birliği (EBTI)",
+     "color": "#2E6BE6",
+     "flag": "🇫🇷",
+     "origin": "Fransa",
+     "hs": "39249000",
+     "hs4": "3924",
+     "ref": "FRBTIFR-BTI-2026-02933-03",
+     "date": "2026-06-23",
+     "title": "İthalatta perakende satış için karton ambalaj içinde sunulan ürün seti; aşağıdakilerden oluşmaktadır: - Plastik malzemeden (polipropilen – PP) yapılmış bir diş fırçalığı; - Ağırlıkça %58 polipropilen (PP) plastik ağırlıklı malzemeden ve sabun koymak için ağırlıkça %42 bambu ağaç …",
+     "gerekce": "Genel Yorum Kuralları 1 ve 6: Sınıflandırma, fasıl ve bölüm notları ile pozisyon, alt pozisyon metinleri ve KN kodu esas alınarak belirlenir. Genel Yorum Kuralı 2(b): Karışık veya bileşik ürünlerin sınıflandırması, Genel…",
+     "url": "https://ec.europa.eu/taxation_customs/dds2/ebti/ebti_details.jsp?showHeader=false&Lang=en&reference=FRBTIFR-BTI-2026-02933-03"
+    },
+    {
+     "source": "eu",
+     "source_label": "Avrupa Birliği (EBTI)",
+     "color": "#2E6BE6",
+     "flag": "🇱🇹",
+     "origin": "Litvanya",
+     "hs": "85439090",
+     "hs4": "8543",
+     "ref": "LTBTI2026-DEC-0211/14",
+     "date": "2026-06-23",
+     "title": "Elektronik sigaranın parçası – elektronik bileşenler ve bağlantılar içeren gövde. Ürün, batarya içermemektedir. Elektronik sigara bataryasının (şarj edilebilir) tutucu/gövdesidir; içine batarya yerleştirilip buharlaştırma ünitesiyle birleştirildiğinde elektronik sigara olarak kul…",
+     "gerekce": "Kombine Nomenclature'ün (KN) 1, 3(b) ve 6 numaralı Genel Yorum Kuralları. KN'nin XVI. Bölümünün 2. Notunun (b) bendi. Uyumlaştırılmış Sistem Açıklama Notlarının (HSEN, 2022) 8543 pozisyonuna ilişkin açıklamalarının 11. m…",
+     "url": "https://ec.europa.eu/taxation_customs/dds2/ebti/ebti_details.jsp?showHeader=false&Lang=en&reference=LTBTI2026-DEC-0211%2F14"
+    },
+    {
+     "source": "eu",
+     "source_label": "Avrupa Birliği (EBTI)",
+     "color": "#2E6BE6",
+     "flag": "🇨🇿",
+     "origin": "Çekya",
+     "hs": "87082990",
+     "hs4": "8708",
+     "ref": "CZBTI34/313192/2026-300000-ZI/01",
+     "date": "2026-06-23",
+     "title": "Sağlanan bilgiler doğrultusunda, söz konusu ürün; elektrikli araçlar için MEB (Modulare E-Antriebs-Baukasten – Modüler Elektrik Tahrik Sistemi) modüler platformunun batarya muhafaza çerçevesine ait arka paneldir. Panel, aracın gövde tabanını oluşturan batarya muhafazasının bir pa…",
+     "gerekce": "Kombine Nomenclature'ün yorumlanmasına ilişkin 1. ve 6. Genel Yorum Kuralları. 8708 tarifesine ilişkin HS Açıklama Notları. Kombine Nomenclature'ün 8708, 8708 29 ve 8708 29 90 kodlarının metni ile TARIC kodu 8708 29 90 9…",
+     "url": "https://ec.europa.eu/taxation_customs/dds2/ebti/ebti_details.jsp?showHeader=false&Lang=en&reference=CZBTI34%2F313192%2F2026-300000-ZI%2F01"
+    },
+    {
+     "source": "eu",
+     "source_label": "Avrupa Birliği (EBTI)",
+     "color": "#2E6BE6",
+     "flag": "🇨🇿",
+     "origin": "Çekya",
+     "hs": "87082990",
+     "hs4": "8708",
+     "ref": "CZBTI34/313202/2026-300000-ZI/01",
+     "date": "2026-06-23",
+     "title": "Sağlanan bilgiler doğrultusunda, söz konusu ürün; elektrikli araçlar için MEB (Modulare E-Antriebs-Baukauten – Modüler Elektrik Tahrik Sistemi) modüler platformunun batarya muhafaza çerçevesine ait sağ yan paneldir. Panel, aracın gövde tabanını oluşturan batarya muhafazasının bir…",
+     "gerekce": "Kombine Nomenclature'ün yorumlanmasına ilişkin 1. ve 6. Genel Yorum Kuralları. 8708 tarifesine ilişkin HS Açıklama Notları. Kombine Nomenclature'ün 8708, 8708 29 ve 8708 29 90 kodlarının metni ile TARIC kodu 8708 29 90 9…",
+     "url": "https://ec.europa.eu/taxation_customs/dds2/ebti/ebti_details.jsp?showHeader=false&Lang=en&reference=CZBTI34%2F313202%2F2026-300000-ZI%2F01"
+    },
+    {
+     "source": "eu",
+     "source_label": "Avrupa Birliği (EBTI)",
+     "color": "#2E6BE6",
+     "flag": "🇨🇿",
+     "origin": "Çekya",
+     "hs": "87082990",
+     "hs4": "8708",
+     "ref": "CZBTI34/313220/2026-300000-ZI/01",
+     "date": "2026-06-23",
+     "title": "Sağlanan bilgiler doğrultusunda, söz konusu ürün; elektrikli araçlar için MEB (Modulare E-Antriebs-Baukasten – Modüler Elektrik Tahrik Sistemi) modüler platformunun batarya muhafaza çerçevesine ait sol yan paneldir. Panel, aracın gövde tabanını oluşturan batarya muhafazasının bir…",
+     "gerekce": "Kombine Nomenclature'ün yorumlanmasına ilişkin 1. ve 6. Genel Yorum Kuralları. 8708 tarifesine ilişkin HS Açıklama Notları. Kombine Nomenclature'ün 8708, 8708 29 ve 8708 29 90 kodlarının metni ile TARIC kodu 8708 29 90 9…",
+     "url": "https://ec.europa.eu/taxation_customs/dds2/ebti/ebti_details.jsp?showHeader=false&Lang=en&reference=CZBTI34%2F313220%2F2026-300000-ZI%2F01"
+    },
+    {
+     "source": "eu",
+     "source_label": "Avrupa Birliği (EBTI)",
+     "color": "#2E6BE6",
+     "flag": "🇫🇷",
+     "origin": "Fransa",
+     "hs": "39249000",
+     "hs4": "3924",
+     "ref": "FRBTIFR-BTI-2026-02933-01",
+     "date": "2026-06-23",
+     "title": "İthalatta perakende satış için karton ambalaj içinde koşullandırılmış ürün; aşağıdaki parçalardan oluşmaktadır: - plastik malzemeden (polipropilen – PP) yapılmış bir diş fırçalığı; - ağırlıkça çoğunluğu plastik malzemeden oluşan (ağırlıkça %58 polipropilen – PP) bir sabunluk ve s…",
+     "gerekce": "Genel Kurallar 1 ve 6: Sınıflandırma, bölüm ve fasıl notları ile pozisyon, alt pozisyon ve KN kodu metni esas alınarak belirlenir. Genel Kural 5 b): Ambalajlar, içerdikleri eşyayla birlikte sınıflandırılır. 39. Fasıl'ın …",
+     "url": "https://ec.europa.eu/taxation_customs/dds2/ebti/ebti_details.jsp?showHeader=false&Lang=en&reference=FRBTIFR-BTI-2026-02933-01"
+    },
+    {
+     "source": "eu",
+     "source_label": "Avrupa Birliği (EBTI)",
+     "color": "#2E6BE6",
+     "flag": "🇫🇷",
+     "origin": "Fransa",
+     "hs": "84798997",
+     "hs4": "8479",
+     "ref": "FRBTIFR-BTI-2026-02933-04",
+     "date": "2026-06-23",
+     "title": "İthalatta perakende satış için karton ambalaj içinde koşullandırılmış ürün; aşağıdaki parçalardan oluşmaktadır: - plastik malzemeden (polipropilen – PP) yapılmış bir diş fırçalığı; - ağırlıkça çoğunluğu plastik malzemeden oluşan (ağırlıkça %58 polipropilen – PP) bir sabunluk ve s…",
+     "gerekce": "Genel Kurallar 1 ve 6: Sınıflandırma, bölüm ve fasıl notları ile pozisyon, alt pozisyon ve KN kodu metni esas alınarak belirlenir. Genel Kural 2 b): Karışım veya bileşik ürünlerin sınıflandırması Genel Kural 3'te belirti…",
+     "url": "https://ec.europa.eu/taxation_customs/dds2/ebti/ebti_details.jsp?showHeader=false&Lang=en&reference=FRBTIFR-BTI-2026-02933-04"
+    },
+    {
+     "source": "eu",
+     "source_label": "Avrupa Birliği (EBTI)",
+     "color": "#2E6BE6",
+     "flag": "🇫🇷",
+     "origin": "Fransa",
+     "hs": "96039091",
+     "hs4": "9603",
+     "ref": "FRBTIFR-BTI-2026-02933-05",
+     "date": "2026-06-23",
+     "title": "İthalatta perakende satış için karton ambalaj içinde koşullandırılmış ürün; aşağıdaki parçalardan oluşmaktadır: - plastik malzemeden (polipropilen – PP) yapılmış bir diş fırçalığı; - ağırlıkça çoğunluğu plastik malzemeden oluşan (ağırlıkça %58 polipropilen – PP) bir sabunluk ve s…",
+     "gerekce": "Genel Kurallar 1 ve 6: Sınıflandırma, bölüm ve fasıl notları ile pozisyon, alt pozisyon ve KN kodu metni esas alınarak belirlenir. Genel Kural 2 b): Karışım veya bileşik ürünlerin sınıflandırması Genel Kural 3'te belirti…",
+     "url": "https://ec.europa.eu/taxation_customs/dds2/ebti/ebti_details.jsp?showHeader=false&Lang=en&reference=FRBTIFR-BTI-2026-02933-05"
+    },
+    {
+     "source": "eu",
+     "source_label": "Avrupa Birliği (EBTI)",
+     "color": "#2E6BE6",
+     "flag": "🇨🇿",
+     "origin": "Çekya",
+     "hs": "49030000",
+     "hs4": "4903",
+     "ref": "CZBTI32/377117/2026-300000-ZI/01",
+     "date": "2026-06-23",
+     "title": "Beyan edilen verilere göre çizim için baskılı bir şablon söz konusudur; çeşitli boyutlarda daire desenleri basılmış rulo halinde kaplamalı kâğıt. Bu daireler, renklendirildikten sonra nihai görüntüyü oluşturan bir desen halinde düzenlenmiştir. Daireler siyah keçeli kalemle renkle…",
+     "gerekce": "Kombine Nomenklatür'ün yorumlanmasına ilişkin Genel Kurallar 1, 3 b) ve 6. 49. Fasıl'ın 2 No'lu Notu. 4903 numarasına ilişkin HS İzahnamesi. Kombine Nomenklatür'ün 4903 00 00 kodu ve TARIC kodu 4903 00 00 metni.",
+     "url": "https://ec.europa.eu/taxation_customs/dds2/ebti/ebti_details.jsp?showHeader=false&Lang=en&reference=CZBTI32%2F377117%2F2026-300000-ZI%2F01"
+    },
+    {
+     "source": "eu",
+     "source_label": "Avrupa Birliği (EBTI)",
+     "color": "#2E6BE6",
+     "flag": "🇨🇿",
+     "origin": "Çekya",
+     "hs": "49030000",
+     "hs4": "4903",
+     "ref": "CZBTI32/377058/2026-300000-ZI/01",
+     "date": "2026-06-23",
+     "title": "Beyan edilen verilere göre çizim için baskılı bir şablon söz konusudur; karton levha üzerine yapıştırılmış polyester tuval, çeşitli boyutlarda daire desenleri basılmıştır. Bu daireler, renklendirildikten sonra nihai görüntüyü oluşturan bir desen halinde düzenlenmiştir. Daireler s…",
+     "gerekce": "Kombine Nomenklatür'ün yorumlanmasına ilişkin Genel Kurallar 1, 3 b) ve 6. 49. Fasıl'ın 2 No'lu Notu. 4903 numarasına ilişkin HS İzahnamesi. Kombine Nomenklatür'ün 4903 00 00 kodu ve TARIC kodu 4903 00 00 00 metni.",
+     "url": "https://ec.europa.eu/taxation_customs/dds2/ebti/ebti_details.jsp?showHeader=false&Lang=en&reference=CZBTI32%2F377058%2F2026-300000-ZI%2F01"
+    },
+    {
+     "source": "eu",
+     "source_label": "Avrupa Birliği (EBTI)",
+     "color": "#2E6BE6",
+     "flag": "🇫🇷",
+     "origin": "Fransa",
+     "hs": "95069990",
+     "hs4": "9506",
+     "ref": "FRBTIFR-BTI-2026-01860",
+     "date": "2026-06-23",
+     "title": "Halat salıncak, asılı koltuk. Malzemeler: %62 polyester, %21 pamuk, %17 viskoz. Boyutlar: 67 x 22 x 180 cm.",
+     "gerekce": "Genel Kurallar 1 ve 6: Sınıflandırma, bölüm ve fasıl notları ile pozisyon, alt pozisyon ve KN kodu metni esas alınarak belirlenir. Genel Kural 3 b): Karışım, bileşik veya set halindeki ürünler, kendilerine esas nitelikle…",
+     "url": "https://ec.europa.eu/taxation_customs/dds2/ebti/ebti_details.jsp?showHeader=false&Lang=en&reference=FRBTIFR-BTI-2026-01860"
+    },
+    {
+     "source": "eu",
+     "source_label": "Avrupa Birliği (EBTI)",
+     "color": "#2E6BE6",
+     "flag": "🇫🇷",
+     "origin": "Fransa",
+     "hs": "39249000",
+     "hs4": "3924",
+     "ref": "FRBTIFR-BTI-2026-02933-02",
+     "date": "2026-06-23",
+     "title": "İthalatta perakende satış için karton ambalaj içinde koşullandırılmış ürün; aşağıdaki parçalardan oluşmaktadır: - plastik malzemeden (polipropilen – PP) yapılmış bir diş fırçalığı; - ağırlıkça çoğunluğu plastik malzemeden oluşan (ağırlıkça %58 polipropilen – PP) bir sabunluk ve s…",
+     "gerekce": "Genel Kurallar 1 ve 6: Sınıflandırma, bölüm ve fasıl notları ile pozisyon, alt pozisyon ve KN kodu metni esas alınarak belirlenir. Genel Kural 2 b): Karışım veya bileşik ürünlerin sınıflandırması Genel Kural 3'te belirti…",
+     "url": "https://ec.europa.eu/taxation_customs/dds2/ebti/ebti_details.jsp?showHeader=false&Lang=en&reference=FRBTIFR-BTI-2026-02933-02"
+    },
+    {
+     "source": "eu",
+     "source_label": "Avrupa Birliği (EBTI)",
+     "color": "#2E6BE6",
+     "flag": "🇫🇷",
+     "origin": "Fransa",
+     "hs": "38249992",
+     "hs4": "3824",
+     "ref": "FRBTIFR-BTI-2026-00795",
+     "date": "2026-06-23",
+     "title": "Su ve organik bileşikler karışımına dayalı kimyasal preparat; renksiz sıvı formunda, kozmetik ürün üretimine yönelik sanayi kullanımı için tasarlanmış olup perakende satışa sunulmak üzere 1 kg, 5 kg, 10 kg ve 25 kg'lık çeşitli ambalajlarda koşullandırılmıştır.",
+     "gerekce": "Genel Kurallar 1 ve 6: Sınıflandırma, bölüm ve fasıl notları ile pozisyon ve alt pozisyon metni esas alınarak belirlenir. Genel Kural 5 b): Ambalaj, içerdiği eşyayla aynı şekilde sınıflandırılır. 3824 pozisyonuna ilişkin…",
+     "url": "https://ec.europa.eu/taxation_customs/dds2/ebti/ebti_details.jsp?showHeader=false&Lang=en&reference=FRBTIFR-BTI-2026-00795"
+    },
+    {
+     "source": "eu",
+     "source_label": "Avrupa Birliği (EBTI)",
+     "color": "#2E6BE6",
+     "flag": "🇸🇪",
+     "origin": "İsveç",
+     "hs": "40119000",
+     "hs4": "4011",
+     "ref": "SEBTITV-2026-11095",
+     "date": "2026-06-23",
+     "title": "C1 sınıfı kauçuktan üretildiği beyan edilen, römorklara yönelik yeni lastikler, aşağıdaki teknik özelliklerle: -Boyut 175/70R13 -Yapı tipi R (radyal) -Kesit genişliği 175 mm -Jant çapı 13 inç -Yük indeksi 86 -Maksimum yük 530 kg -Hız indeksi N -M+S çamur/kar koşullarına uygun -TL…",
+     "gerekce": "Birleşik Nomenclature'ün yorumlanmasına ilişkin genel kurallar kural 1 ve 6 esas alınarak sınıflandırma yapılmıştır. 40. fasıla ait 1 No'lu not. 12 Ocak 2024 tarihli KOMİSYON UYGULAMA YÖNETMELİĞİ (AB) 2024/339. Gümrük Ta…",
+     "url": "https://ec.europa.eu/taxation_customs/dds2/ebti/ebti_details.jsp?showHeader=false&Lang=en&reference=SEBTITV-2026-11095"
+    },
+    {
+     "source": "eu",
+     "source_label": "Avrupa Birliği (EBTI)",
+     "color": "#2E6BE6",
+     "flag": "🇸🇪",
+     "origin": "İsveç",
+     "hs": "40119000",
+     "hs4": "4011",
+     "ref": "SEBTITV-2026-11097",
+     "date": "2026-06-23",
+     "title": "C1 sınıfı kauçuktan üretildiği beyan edilen, römorklara yönelik yeni lastikler, aşağıdaki teknik özelliklerle: -Boyut 165/80R13 -Yapı tipi R (radyal) -Kesit genişliği 165 mm -Jant çapı 13 inç -Yük indeksi 84 -Maksimum yük 500 kg -Hız indeksi N -M+S çamur/kar koşullarına uygun -TL…",
+     "gerekce": "Birleşik Nomenclature'ün yorumlanmasına ilişkin genel kurallar kural 1 ve 6 esas alınarak sınıflandırma yapılmıştır. 40. fasıla ait 1 No'lu not. 12 Ocak 2024 tarihli KOMİSYON UYGULAMA YÖNETMELİĞİ (AB) 2024/339. Gümrük Ta…",
+     "url": "https://ec.europa.eu/taxation_customs/dds2/ebti/ebti_details.jsp?showHeader=false&Lang=en&reference=SEBTITV-2026-11097"
+    },
+    {
+     "source": "eu",
+     "source_label": "Avrupa Birliği (EBTI)",
+     "color": "#2E6BE6",
+     "flag": "🇸🇪",
+     "origin": "İsveç",
+     "hs": "40119000",
+     "hs4": "4011",
+     "ref": "SEBTITV-2026-11098",
+     "date": "2026-06-23",
+     "title": "C1 sınıfı kauçuktan üretildiği beyan edilen, römorklara yönelik yeni lastikler, aşağıdaki teknik özelliklerle: -Boyut 165/70R13 -Yapı tipi R (radyal) -Kesit genişliği 165 mm -Jant çapı 13 inç -Yük indeksi 84 -Maksimum yük 500 kg -Hız indeksi N -M+S çamur/kar koşullarına uygun -TL…",
+     "gerekce": "Birleşik Nomenclature'ün yorumlanmasına ilişkin genel kurallar kural 1 ve 6 esas alınarak sınıflandırma yapılmıştır. 40. fasıla ait 1 No'lu not. 12 Ocak 2024 tarihli KOMİSYON UYGULAMA YÖNETMELİĞİ (AB) 2024/339. Gümrük Ta…",
+     "url": "https://ec.europa.eu/taxation_customs/dds2/ebti/ebti_details.jsp?showHeader=false&Lang=en&reference=SEBTITV-2026-11098"
+    },
+    {
+     "source": "eu",
+     "source_label": "Avrupa Birliği (EBTI)",
+     "color": "#2E6BE6",
+     "flag": "🇸🇪",
+     "origin": "İsveç",
+     "hs": "40119000",
+     "hs4": "4011",
+     "ref": "SEBTITV-2026-11099",
+     "date": "2026-06-23",
+     "title": "C1 sınıfı kauçuktan üretildiği beyan edilen, römorklara yönelik yeni lastikler, aşağıdaki teknik özelliklerle: -Boyut 155/80R13 -Yapı tipi R (radyal) -Kesit genişliği 155 mm -Jant çapı 13 inç -Yük indeksi 84 -Maksimum yük 500 kg -Hız indeksi N -M+S çamur/kar koşullarına uygun -TL…",
+     "gerekce": "Birleşik Nomenclature'ün yorumlanmasına ilişkin genel kurallar kural 1 ve 6 esas alınarak sınıflandırma yapılmıştır. 40. fasıla ait 1 No'lu not. 12 Ocak 2024 tarihli KOMİSYON UYGULAMA YÖNETMELİĞİ (AB) 2024/339. Gümrük Ta…",
+     "url": "https://ec.europa.eu/taxation_customs/dds2/ebti/ebti_details.jsp?showHeader=false&Lang=en&reference=SEBTITV-2026-11099"
+    },
+    {
+     "source": "eu",
+     "source_label": "Avrupa Birliği (EBTI)",
+     "color": "#2E6BE6",
+     "flag": "🇸🇪",
+     "origin": "İsveç",
+     "hs": "40119000",
+     "hs4": "4011",
+     "ref": "SEBTITV-2026-11100",
+     "date": "2026-06-23",
+     "title": "C1 sınıfı kauçuktan üretildiği beyan edilen, römorklara yönelik yeni lastikler, aşağıdaki teknik özelliklerle: -Boyut 155/70R13 -Yapı tipi R (radyal) -Kesit genişliği 155 mm -Jant çapı 13 inç -Yük indeksi 79 -Maksimum yük 437 kg -Hız indeksi N -M+S çamur/kar koşullarına uygun -TL…",
+     "gerekce": "Birleşik Nomenclature'ün yorumlanmasına ilişkin genel kurallar kural 1 ve 6 esas alınarak sınıflandırma yapılmıştır. 40. fasıla ait 1 No'lu not. 12 Ocak 2024 tarihli KOMİSYON UYGULAMA YÖNETMELİĞİ (AB) 2024/339. Gümrük Ta…",
+     "url": "https://ec.europa.eu/taxation_customs/dds2/ebti/ebti_details.jsp?showHeader=false&Lang=en&reference=SEBTITV-2026-11100"
+    },
+    {
+     "source": "eu",
+     "source_label": "Avrupa Birliği (EBTI)",
+     "color": "#2E6BE6",
+     "flag": "🇫🇷",
+     "origin": "Fransa",
+     "hs": "38249996",
+     "hs4": "3824",
+     "ref": "FRBTIFR-BTI-2026-01572",
+     "date": "2026-06-23",
+     "title": "İnorganik bileşenlerden oluşan kimyasal preparat; beyazdan fildişine değişen renkte macun kıvamında sunulmakta olup kozmetik ürünlerin imalatında hammadde olarak kullanılmakta ve müşteri talebine göre çeşitli ağırlıklarda ambalajlanmaktadır.",
+     "gerekce": "Genel Kurallar 1 ve 6: sınıflandırma, fasıl ve bölüm notları ile pozisyon ve alt pozisyon metni esas alınarak belirlenir. Genel Kural 5 b): ambalaj, eşyayla birlikte sınıflandırılır. 3824 pozisyonuna ilişkin Açıklayıcı N…",
+     "url": "https://ec.europa.eu/taxation_customs/dds2/ebti/ebti_details.jsp?showHeader=false&Lang=en&reference=FRBTIFR-BTI-2026-01572"
+    },
+    {
+     "source": "eu",
+     "source_label": "Avrupa Birliği (EBTI)",
+     "color": "#2E6BE6",
+     "flag": "🇵🇱",
+     "origin": "Polonya",
+     "hs": "85176200",
+     "hs4": "8517",
+     "ref": "PLBTIWIT-2026-000627",
+     "date": "2026-06-23",
+     "title": "Araçtaki kablolu Apple CarPlay bağlantısını kablosuz bağlantıya dönüştüren kablosuz adaptör. Sete, aracın kabin arka kısmını izlemeye yönelik ve düşük ışık koşullarında da görüş sağlayan bir kamera dahildir. Kamera yalnızca adaptörle birlikte çalışmakta olup bağımsız olarak işlev…",
+     "gerekce": "Eşyanın sınıflandırması, Birleşik Nomenclature'ün Genel Yorum Kuralları 1., 3b. ve 6. Kuralları esas alınarak belirlenmiş olup ses, görüntü veya diğer verileri almaya, dönüştürmeye ve iletmeye ya da yeniden oluşturmaya y…",
+     "url": "https://ec.europa.eu/taxation_customs/dds2/ebti/ebti_details.jsp?showHeader=false&Lang=en&reference=PLBTIWIT-2026-000627"
+    },
+    {
+     "source": "eu",
+     "source_label": "Avrupa Birliği (EBTI)",
+     "color": "#2E6BE6",
+     "flag": "🇱🇹",
+     "origin": "Litvanya",
+     "hs": "85439090",
+     "hs4": "8543",
+     "ref": "LTBTI2026-DEC-0238/14",
+     "date": "2026-06-23",
+     "title": "Elektronik bileşenler ve bağlantı elemanları içeren gövdeden oluşan elektronik sigara parçası. Ürün pil içermemektedir. Şarj edilebilir elektronik sigara pil yuvası/gövdesi; pil takıldığında ve buharlaştırma ünitesiyle birleştirildiğinde elektronik sigara olarak kullanılabilmekte…",
+     "gerekce": "Birleşik Nomenclature'ün (BN) Genel Yorum Kuralları 1, 3 b) ve 6. BN XVI. Bölüm 2. Notunun b) bendi. Armonize Sistem Açıklayıcı Notları (ASAN, 2022) 8543 pozisyonu açıklamalarının 11. bendi hükümleri.",
+     "url": "https://ec.europa.eu/taxation_customs/dds2/ebti/ebti_details.jsp?showHeader=false&Lang=en&reference=LTBTI2026-DEC-0238%2F14"
+    },
+    {
+     "source": "eu",
+     "source_label": "Avrupa Birliği (EBTI)",
+     "color": "#2E6BE6",
+     "flag": "🇱🇹",
+     "origin": "Litvanya",
+     "hs": "85439090",
+     "hs4": "8543",
+     "ref": "LTBTI2026-DEC-0237/14",
+     "date": "2026-06-23",
+     "title": "Elektronik sigara parçası - elektronik bileşenler ve bağlantılar içeren gövde. Pil içermeyen ürün. Elektronik sigara pili (şarj edilebilir) tutucu/gövdesi; pil takılıp buharlaştırma parçasına bağlandığında elektronik sigara olarak kullanılabilir. Metal gövde/tutucu dikdörtgen biç…",
+     "gerekce": "Birleşik Nomenclatür (BN) 1., 3 b) ve 6. Genel Yorum Kuralları. BN XVI. Bölüm 2. Notunun b) bendi. Armonize Sistem Açıklayıcı Notları (ASEN, 2022) 8543 pozisyonu açıklamalarının 11. madde hükümleri.",
+     "url": "https://ec.europa.eu/taxation_customs/dds2/ebti/ebti_details.jsp?showHeader=false&Lang=en&reference=LTBTI2026-DEC-0237%2F14"
+    },
+    {
+     "source": "eu",
+     "source_label": "Avrupa Birliği (EBTI)",
+     "color": "#2E6BE6",
+     "flag": "🇸🇪",
+     "origin": "İsveç",
+     "hs": "83062900",
+     "hs4": "8306",
+     "ref": "SEBTITV-2026-09765",
+     "date": "2026-06-23",
+     "title": "Beyan edildiğine göre bir kış köyü silüeti biçiminde süs eşyası. Silüet; toz boyalı çelikten üretilmiş evler, köknar ağaçları, altın yıldız ve üzerinde iki figür bulunan bir köprüden oluşan kış motifini betimlemektedir. Süs eşyası iç mekân kullanımına yöneliktir ve açma/kapama an…",
+     "gerekce": "Birleşik Nomenclatürün yorumuna ilişkin 1., 2 b), 3 b), 5 b) ve 6. Genel Kurallar esas alınarak sınıflandırma yapılmıştır. XV. Bölüme ilişkin 3. Not. XV. Bölüme ilişkin Armonize Sistem Açıklayıcı Notları. 8306 HS pozisyo…",
+     "url": "https://ec.europa.eu/taxation_customs/dds2/ebti/ebti_details.jsp?showHeader=false&Lang=en&reference=SEBTITV-2026-09765"
+    },
+    {
+     "source": "eu",
+     "source_label": "Avrupa Birliği (EBTI)",
+     "color": "#2E6BE6",
+     "flag": "🇸🇪",
+     "origin": "İsveç",
+     "hs": "83062900",
+     "hs4": "8306",
+     "ref": "SEBTITV-2026-09770",
+     "date": "2026-06-23",
+     "title": "Beyan edildiğine göre bir kış köyü silüeti biçiminde süs eşyası. Silüet; toz boyalı çelikten üretilmiş evler, köknar ağaçları, altın yıldız ve üzerinde iki figür bulunan bir köprüden oluşan kış motifini betimlemektedir. Süs eşyası iç mekân kullanımına yöneliktir ve açma/kapama an…",
+     "gerekce": "Birleşik Nomenclatürün yorumuna ilişkin 1., 2 b), 3 b), 5 b) ve 6. Genel Kurallar esas alınarak sınıflandırma yapılmıştır. XV. Bölüme ilişkin 3. Not. XV. Bölüme ilişkin Armonize Sistem Açıklayıcı Notları. 8306 HS pozisyo…",
+     "url": "https://ec.europa.eu/taxation_customs/dds2/ebti/ebti_details.jsp?showHeader=false&Lang=en&reference=SEBTITV-2026-09770"
+    },
+    {
+     "source": "eu",
+     "source_label": "Avrupa Birliği (EBTI)",
+     "color": "#2E6BE6",
+     "flag": "🇸🇪",
+     "origin": "İsveç",
+     "hs": "83062900",
+     "hs4": "8306",
+     "ref": "SEBTITV-2026-09771",
+     "date": "2026-06-23",
+     "title": "Beyan edildiğine göre bir kış köyü silüeti biçiminde süs eşyası. Silüet; toz boyalı çelikten üretilmiş evler, köknar ağaçları, altın yıldız ve üzerinde iki figür bulunan bir köprüden oluşan kış motifini betimlemektedir. Süs eşyası iç mekân kullanımına yöneliktir ve açma/kapama an…",
+     "gerekce": "Birleşik Nomenclatürün yorumuna ilişkin 1., 2 b), 3 b), 5 b) ve 6. Genel Kurallar esas alınarak sınıflandırma yapılmıştır. XV. Bölüme ilişkin 3. Not. XV. Bölüme ilişkin Armonize Sistem Açıklayıcı Notları. 8306 HS pozisyo…",
+     "url": "https://ec.europa.eu/taxation_customs/dds2/ebti/ebti_details.jsp?showHeader=false&Lang=en&reference=SEBTITV-2026-09771"
+    },
+    {
+     "source": "eu",
+     "source_label": "Avrupa Birliği (EBTI)",
+     "color": "#2E6BE6",
+     "flag": "🇸🇪",
+     "origin": "İsveç",
+     "hs": "83062900",
+     "hs4": "8306",
+     "ref": "SEBTITV-2026-09761",
+     "date": "2026-06-23",
+     "title": "Beyan edildiğine göre bir kış köyü silüeti biçiminde süs eşyası. Silüet; toz boyalı çelikten üretilmiş evler, köknar ağaçları, altın yıldız ve üzerinde iki figür bulunan bir köprüden oluşan kış motifini betimlemektedir. Süs eşyası iç mekân kullanımına yöneliktir ve açma/kapama an…",
+     "gerekce": "Birleşik Nomenclatürün yorumuna ilişkin 1., 2 b), 3 b), 5 b) ve 6. Genel Kurallar esas alınarak sınıflandırma yapılmıştır. XV. Bölüme ilişkin 3. Not. XV. Bölüme ilişkin Armonize Sistem Açıklayıcı Notları. 8306 HS pozisyo…",
+     "url": "https://ec.europa.eu/taxation_customs/dds2/ebti/ebti_details.jsp?showHeader=false&Lang=en&reference=SEBTITV-2026-09761"
+    },
+    {
+     "source": "eu",
+     "source_label": "Avrupa Birliği (EBTI)",
+     "color": "#2E6BE6",
+     "flag": "🇧🇪",
+     "origin": "Belçika",
+     "hs": "27101966",
+     "hs4": "2710",
+     "ref": "BEBTIDT.50.023.318",
+     "date": "2026-06-23",
+     "title": "Mineral yağlar, metil esterler ve yağ asitlerinden oluşan açık sarı renkli, ince kıvamlı sıvı karışım. Ürün beton endüstrisinde kalıp ayırıcı (ontkistingsmiddel) olarak kullanılmaktadır. Ürün dökme olarak, 1.000 litrelik konteynerler içinde, 60 veya 210 litrelik variller içinde y…",
+     "gerekce": "Birleşik Nomenclatürün yorumuna ilişkin 1. ve 6. Genel Kurallar. 2710 pozisyonunun metni, 2710 19 HS kodu ve 2710 19 66 BN kodu. 27. Fasıl'a ilişkin 2. Not. 27. Fasıl'a ilişkin 5. Ek Not. 27. Fasıl'a ilişkin (BN) Ek Notl…",
+     "url": "https://ec.europa.eu/taxation_customs/dds2/ebti/ebti_details.jsp?showHeader=false&Lang=en&reference=BEBTIDT.50.023.318"
+    },
+    {
+     "source": "eu",
+     "source_label": "Avrupa Birliği (EBTI)",
+     "color": "#2E6BE6",
+     "flag": "🇧🇪",
+     "origin": "Belçika",
+     "hs": "85437090",
+     "hs4": "8543",
+     "ref": "BEBTIDT.50.023.655",
+     "date": "2026-06-23",
+     "title": "Söz konusu ürün; çelik gibi uygulamalarda sıvı metalin proses kontrolü amacıyla kullanılan, modüler, (mikro)işlemci kontrollü bir elektronik değerlendirme, işleme ve görüntüleme cihazıdır. İki versiyonu mevcuttur: entegre dokunmatik ekranlı ve entegre dokunmatik ekransız. Bu başv…",
+     "gerekce": "Sınıflandırma; Birleşik Nomenclatürün yorumuna ilişkin 1. ve 6. Genel Kurallar ile 8543 pozisyonunun metni, 8543 70 HS kodu, 8543 70 90 BN kodu ve 8543 70 90 99 TARIC kodu esas alınarak belirlenmiştir. 90. Fasıl'a ilişki…",
+     "url": "https://ec.europa.eu/taxation_customs/dds2/ebti/ebti_details.jsp?showHeader=false&Lang=en&reference=BEBTIDT.50.023.655"
+    },
+    {
+     "source": "eu",
+     "source_label": "Avrupa Birliği (EBTI)",
+     "color": "#2E6BE6",
+     "flag": "🇫🇷",
+     "origin": "Fransa",
+     "hs": "85081100",
+     "hs4": "8508",
+     "ref": "FRBTIFR-BTI-2026-02141",
+     "date": "2026-06-23",
+     "title": "Ürün; siyah bir depo, tutamaklı siyah bir kapak, pil takma yuvası ve alüminyum borudan oluşan, pille çalışan bir kül süpürgesidir. Süpürgenin kapasitesi 10 litre olup motor gücü 130 Watt'tır. Ürün; odun sobası, pelet sobası (granüllü), şömine veya mangal temizliğine yöneliktir. Ü…",
+     "gerekce": "1. ve 6. Genel Kurallar: sınıflandırma, bölüm ve fasıl notları ile pozisyon, alt pozisyon ve BN kodu metni esas alınarak belirlenmektedir. 3 b) Genel Kuralı: karışık, bileşik eşya veya setler, esas niteliği belirleyen ma…",
+     "url": "https://ec.europa.eu/taxation_customs/dds2/ebti/ebti_details.jsp?showHeader=false&Lang=en&reference=FRBTIFR-BTI-2026-02141"
+    },
+    {
+     "source": "eu",
+     "source_label": "Avrupa Birliği (EBTI)",
+     "color": "#2E6BE6",
+     "flag": "🇫🇷",
+     "origin": "Fransa",
+     "hs": "19059080",
+     "hs4": "1905",
+     "ref": "FRBTIFR-BTI-2026-02622",
+     "date": "2026-06-23",
+     "title": "Pastacılık ürünü; tuzlu kek biçiminde, pastırma (lardons) ve zeytinli, dondurulmuş, sakaroz içeriği %5'ten az olan, perakende satış için 1 kek içeren ambalajda sunulan, parça ağırlığı 245 g olan ürün.",
+     "gerekce": "Genel Yorum Kuralları 1 ve 6: Sınıflandırma, bölüm ve fasıl notları ile pozisyon ve alt pozisyon metinleri tarafından belirlenir. Genel Yorum Kuralı 5(b): Ambalaj, ürünle birlikte sınıflandırılır. 1905 pozisyonuna ilişki…",
+     "url": "https://ec.europa.eu/taxation_customs/dds2/ebti/ebti_details.jsp?showHeader=false&Lang=en&reference=FRBTIFR-BTI-2026-02622"
+    },
+    {
+     "source": "eu",
+     "source_label": "Avrupa Birliği (EBTI)",
+     "color": "#2E6BE6",
+     "flag": "🇫🇷",
+     "origin": "Fransa",
+     "hs": "21039090",
+     "hs4": "2103",
+     "ref": "FRBTIFR-BTI-2026-02789",
+     "date": "2026-06-23",
+     "title": "Hazırlanmış çeşni; baharatlar, bitki parçaları ve meyveler bazlı aromatik karışımlar biçiminde, domates içermeyen, perakende satış için 25 g veya 90 g'lık kutularda ya da dökme olarak ambalajlanmış ürün.",
+     "gerekce": "Genel Yorum Kuralları 1 ve 6: Sınıflandırma, bölüm ve fasıl notları ile pozisyon ve alt pozisyon metinleri tarafından belirlenir. Genel Yorum Kuralı 5(b): Ambalaj, ürünle birlikte sınıflandırılır. 210390/5 sayılı Sınıfla…",
+     "url": "https://ec.europa.eu/taxation_customs/dds2/ebti/ebti_details.jsp?showHeader=false&Lang=en&reference=FRBTIFR-BTI-2026-02789"
+    },
+    {
+     "source": "eu",
+     "source_label": "Avrupa Birliği (EBTI)",
+     "color": "#2E6BE6",
+     "flag": "🇱🇹",
+     "origin": "Litvanya",
+     "hs": "85439090",
+     "hs4": "8543",
+     "ref": "LTBTI2026-DEC-0230/14",
+     "date": "2026-06-23",
+     "title": "Elektronik sigaranın parçası — elektronik bileşenler ve bağlantılar içeren gövde. Ürün bataryasız olarak sunulmaktadır. Elektronik sigaranın (şarj edilebilir) bataryasını barındıran tutucu/gövde; içine batarya yerleştirilip buharlaştırma birimiyle birleştirildiğinde elektronik si…",
+     "gerekce": "Birleşik Nomenclatür'ün (BN) 1, 3(b) ve 6. Genel Yorum Kuralları. BN'nin XVI. Bölümü'nün 2. Notu'nun (b) bendi. Harmonize Sistem İzahnamesi'nin (HSENs, 2022) 8543 pozisyonu açıklamalarının 11. maddesi hükümleri.",
+     "url": "https://ec.europa.eu/taxation_customs/dds2/ebti/ebti_details.jsp?showHeader=false&Lang=en&reference=LTBTI2026-DEC-0230%2F14"
+    },
+    {
+     "source": "eu",
+     "source_label": "Avrupa Birliği (EBTI)",
+     "color": "#2E6BE6",
+     "flag": "🇱🇹",
+     "origin": "Litvanya",
+     "hs": "85439090",
+     "hs4": "8543",
+     "ref": "LTBTI2026-DEC-0231/14",
+     "date": "2026-06-23",
+     "title": "Elektronik sigaranın parçası — elektronik bileşenler ve bağlantılar içeren gövde. Ürün bataryasız olarak sunulmaktadır. Elektronik sigaranın (şarj edilebilir) bataryasını barındıran tutucu/gövde; içine batarya yerleştirilip buharlaştırma birimiyle birleştirildiğinde elektronik si…",
+     "gerekce": "Birleşik Nomenclatür'ün (BN) 1, 3(b) ve 6. Genel Yorum Kuralları. BN'nin XVI. Bölümü'nün 2. Notu'nun (b) bendi. Harmonize Sistem İzahnamesi'nin (HSENs, 2022) 8543 pozisyonu açıklamalarının 11. maddesi hükümleri.",
+     "url": "https://ec.europa.eu/taxation_customs/dds2/ebti/ebti_details.jsp?showHeader=false&Lang=en&reference=LTBTI2026-DEC-0231%2F14"
+    },
+    {
+     "source": "eu",
+     "source_label": "Avrupa Birliği (EBTI)",
+     "color": "#2E6BE6",
+     "flag": "🇱🇹",
+     "origin": "Litvanya",
+     "hs": "85439090",
+     "hs4": "8543",
+     "ref": "LTBTI2026-DEC-0232/14",
+     "date": "2026-06-23",
+     "title": "Elektronik sigaranın parçası — elektronik bileşenler ve bağlantılar içeren gövde. Ürün bataryasız olarak sunulmaktadır. Elektronik sigaranın (şarj edilebilir) bataryasını barındıran tutucu/gövde; içine batarya yerleştirilip buharlaştırma birimiyle birleştirildiğinde elektronik si…",
+     "gerekce": "Birleşik Nomenclatür'ün (BN) 1, 3(b) ve 6. Genel Yorum Kuralları. BN'nin XVI. Bölümü'nün 2. Notu'nun (b) bendi. Harmonize Sistem İzahnamesi'nin (HSENs, 2022) 8543 pozisyonu açıklamalarının 11. maddesi hükümleri.",
+     "url": "https://ec.europa.eu/taxation_customs/dds2/ebti/ebti_details.jsp?showHeader=false&Lang=en&reference=LTBTI2026-DEC-0232%2F14"
+    },
+    {
+     "source": "eu",
+     "source_label": "Avrupa Birliği (EBTI)",
+     "color": "#2E6BE6",
+     "flag": "🇱🇹",
+     "origin": "Litvanya",
+     "hs": "85439090",
+     "hs4": "8543",
+     "ref": "LTBTI2026-DEC-0235/14",
+     "date": "2026-06-23",
+     "title": "Elektronik sigaranın parçası — elektronik bileşenler ve bağlantılar içeren gövde. Ürün bataryasız olarak sunulmaktadır. Elektronik sigaranın (şarj edilebilir) bataryasını barındıran tutucu/gövde; içine batarya yerleştirilip buharlaştırma birimiyle birleştirildiğinde elektronik si…",
+     "gerekce": "Birleşik Nomenclatür'ün (BN) 1, 3(b) ve 6. Genel Yorum Kuralları. BN'nin XVI. Bölümü'nün 2. Notu'nun (b) bendi. Harmonize Sistem İzahnamesi'nin (HSENs, 2022) 8543 pozisyonu açıklamalarının 11. maddesi hükümleri.",
+     "url": "https://ec.europa.eu/taxation_customs/dds2/ebti/ebti_details.jsp?showHeader=false&Lang=en&reference=LTBTI2026-DEC-0235%2F14"
+    },
+    {
+     "source": "eu",
+     "source_label": "Avrupa Birliği (EBTI)",
+     "color": "#2E6BE6",
+     "flag": "🇱🇹",
+     "origin": "Litvanya",
+     "hs": "85439090",
+     "hs4": "8543",
+     "ref": "LTBTI2026-DEC-0234/14",
+     "date": "2026-06-23",
+     "title": "Elektronik sigaranın parçası — elektronik bileşenler ve bağlantılar içeren gövde. Ürün bataryasız olarak sunulmaktadır. Elektronik sigaranın (şarj edilebilir) bataryasını barındıran tutucu/gövde; içine batarya yerleştirilip buharlaştırma birimiyle birleştirildiğinde elektronik si…",
+     "gerekce": "Birleşik Nomenclatür'ün (BN) 1, 3(b) ve 6. Genel Yorum Kuralları. BN'nin XVI. Bölümü'nün 2. Notu'nun (b) bendi. Harmonize Sistem İzahnamesi'nin (HSENs, 2022) 8543 pozisyonu açıklamalarının 11. maddesi hükümleri.",
+     "url": "https://ec.europa.eu/taxation_customs/dds2/ebti/ebti_details.jsp?showHeader=false&Lang=en&reference=LTBTI2026-DEC-0234%2F14"
+    },
+    {
+     "source": "eu",
+     "source_label": "Avrupa Birliği (EBTI)",
+     "color": "#2E6BE6",
+     "flag": "🇱🇹",
+     "origin": "Litvanya",
+     "hs": "85439090",
+     "hs4": "8543",
+     "ref": "LTBTI2026-DEC-0233/14",
+     "date": "2026-06-23",
+     "title": "Elektronik sigaranın parçası — elektronik bileşenler ve bağlantılar içeren gövde. Ürün bataryasız olarak sunulmaktadır. Elektronik sigaranın (şarj edilebilir) bataryasını barındıran tutucu/gövde; içine batarya yerleştirilip buharlaştırma birimiyle birleştirildiğinde elektronik si…",
+     "gerekce": "Birleşik Nomenclatür'ün (BN) 1, 3(b) ve 6. Genel Yorum Kuralları. BN'nin XVI. Bölümü'nün 2. Notu'nun (b) bendi. Harmonize Sistem İzahnamesi'nin (HSENs, 2022) 8543 pozisyonu açıklamalarının 11. maddesi hükümleri.",
+     "url": "https://ec.europa.eu/taxation_customs/dds2/ebti/ebti_details.jsp?showHeader=false&Lang=en&reference=LTBTI2026-DEC-0233%2F14"
+    },
+    {
+     "source": "eu",
+     "source_label": "Avrupa Birliği (EBTI)",
+     "color": "#2E6BE6",
+     "flag": "🇫🇷",
+     "origin": "Fransa",
+     "hs": "38249992",
+     "hs4": "3824",
+     "ref": "FRBTIFR-BTI-2026-04901",
+     "date": "2026-06-23",
+     "title": "Motorlu taşıt bataryalarının imalatında kullanılan, saydam sıvı formunda lityum bileşiklerine dayalı elektrolit, sarnıç içinde ambalajlanmış.",
+     "gerekce": "Genel Kurallar 1 ve 6: Sınıflandırma, bölüm ve fasıl notları ile pozisyon ve alt pozisyon metinleri tarafından belirlenir. Genel Kural 5b): Ambalaj, eşyayla birlikte sınıflandırılır. 3824 pozisyonuna ilişkin İzahname Not…",
+     "url": "https://ec.europa.eu/taxation_customs/dds2/ebti/ebti_details.jsp?showHeader=false&Lang=en&reference=FRBTIFR-BTI-2026-04901"
+    },
+    {
+     "source": "eu",
+     "source_label": "Avrupa Birliği (EBTI)",
+     "color": "#2E6BE6",
+     "flag": "🇨🇿",
+     "origin": "Çekya",
+     "hs": "49030000",
+     "hs4": "4903",
+     "ref": "CZBTI32/377154/2026-300000-ZI/01",
+     "date": "2026-06-23",
+     "title": "Beyan edilen verilere göre, bu ürün çizim için baskılı bir şablon niteliğindedir; ahşap çerçeveye gerilmiş polyester tuval üzerine farklı boyutlarda dairelerden oluşan baskılı desenler içermektedir. Bu daireler, boyandığında nihai görüntüyü oluşturan bir desen şeklinde düzenlenmi…",
+     "gerekce": "Kombine Nomenclatür'ün yorumlanmasına ilişkin 1, 3b) ve 6 numaralı Genel Kurallar. 49. Fasıla ait 2 numaralı Not. 4903 tarife pozisyonuna ilişkin HS Açıklayıcı Notları. Kombine Nomenclatür 4903 00 00 kodu ve Taric kodu 4…",
+     "url": "https://ec.europa.eu/taxation_customs/dds2/ebti/ebti_details.jsp?showHeader=false&Lang=en&reference=CZBTI32%2F377154%2F2026-300000-ZI%2F01"
+    },
+    {
+     "source": "eu",
+     "source_label": "Avrupa Birliği (EBTI)",
+     "color": "#2E6BE6",
+     "flag": "🇨🇿",
+     "origin": "Çekya",
+     "hs": "49030000",
+     "hs4": "4903",
+     "ref": "CZBTI32/377070/2026-300000-ZI/01",
+     "date": "2026-06-23",
+     "title": "Beyan edilen bilgilere göre, bu ürün çizim için baskılı bir şablon olup karton bir levha üzerine yapıştırılmış kağıttan oluşmakta ve üzerinde çeşitli büyüklüklerde daire desenleri basılı bulunmaktadır. Bu daireler, renklendirildiğinde nihai görüntüyü oluşturan bir desen şeklinde …",
+     "gerekce": "Kombine nomenklatürün yorumlanmasına ilişkin Genel Kurallar 1, 3b) ve 6. 49. Fasıla ait 2 No'lu Not. HS İzahnamesi'nin 4903 pozisyonuna ilişkin açıklamaları. Kombine nomenklatür kodu 4903 00 00 ve Taric kodu 4903 00 00 0…",
+     "url": "https://ec.europa.eu/taxation_customs/dds2/ebti/ebti_details.jsp?showHeader=false&Lang=en&reference=CZBTI32%2F377070%2F2026-300000-ZI%2F01"
+    },
+    {
+     "source": "eu",
+     "source_label": "Avrupa Birliği (EBTI)",
+     "color": "#2E6BE6",
+     "flag": "🇮🇪",
+     "origin": "İrlanda",
+     "hs": "90189084",
+     "hs4": "9018",
+     "ref": "IEBTIIENEN004-2026-BTI183",
+     "date": "2026-06-23",
+     "title": "BİR DAMAR KAPAMA TIBBİ CİHAZININ PARÇASI. BİLEŞEN ÖZELLEŞTIRILMIŞ OLUP, ÖNCEDENYÜKLENMİŞ BİR KLİP İÇEREN KONTROL KOLUNDAKI MEKANİZMANIN BİR PARÇASINI OLUŞTURMAKTADIR. MEKANİZMA, AÇIK BİR YARASI KAPATMAK AMACIYLA KLİBİ VÜCUDA YERLEŞTIRIR. PARÇA, ÖZEL KALIPLA ŞEKİLLENDİRİLMİŞ POLİK…",
+     "gerekce": "KOMBİNE NOMENCLATÜRÜN YORUMLANMASINA İLİŞKİN 1 VE 6 NUMARALI GENEL KURALLAR. 90. FASILA AİT 2(b) NOLU NOT. 9018 POZİSYONUNA HSENS — PARÇALAR VE AKSESUARLAR. 9018, 9018 90, 9018 90 84 VE 9018 90 84 00 TARIC KODLARINA AİT …",
+     "url": "https://ec.europa.eu/taxation_customs/dds2/ebti/ebti_details.jsp?showHeader=false&Lang=en&reference=IEBTIIENEN004-2026-BTI183"
+    },
+    {
+     "source": "eu",
+     "source_label": "Avrupa Birliği (EBTI)",
+     "color": "#2E6BE6",
+     "flag": "🇫🇷",
+     "origin": "Fransa",
+     "hs": "95051090",
+     "hs4": "9505",
+     "ref": "FRBTIFR-BTI-2025-06535",
+     "date": "2026-06-23",
+     "title": "Yılbaşı süslemesi olarak kullanılan, uzayan bacaklara sahip, dokunmamış kumaştan (polyester) yapılmış kardan adam şeklinde bir ürün. Boyutları 16x10x54 cm'dir. Ürün, 6'lı karton kutular halinde ambalajlanmaktadır.",
+     "gerekce": "Genel Yorum Kuralları 1 ve 6: Sınıflandırma, bölüm ve fasıl notları ile tarife pozisyonu, alt pozisyon ve KN kodu ibarelerine göre belirlenir. Genel Yorum Kuralı 5 b): Ambalajlar, içerdikleri eşyalarla birlikte sınıfland…",
+     "url": "https://ec.europa.eu/taxation_customs/dds2/ebti/ebti_details.jsp?showHeader=false&Lang=en&reference=FRBTIFR-BTI-2025-06535"
+    },
+    {
+     "source": "eu",
+     "source_label": "Avrupa Birliği (EBTI)",
+     "color": "#2E6BE6",
+     "flag": "🇫🇷",
+     "origin": "Fransa",
+     "hs": "90251900",
+     "hs4": "9025",
+     "ref": "FRBTIFR-BTI-2026-01893",
+     "date": "2026-06-23",
+     "title": "Ev kullanımına yönelik kablosuz sıcaklık sensörü; bir odanın iç sıcaklığını kontrol etmek ve sıcaklık bilgilerini bir ev otomasyonu merkezine (bu RTC kapsamında yer almayan) radyo yoluyla iletmek amacıyla tasarlanmıştır; böylece ısıtmanın verimli şekilde yönetilmesi sağlanır. Cih…",
+     "gerekce": "Genel Kural 1 ve 6: Sınıflandırma, fasıl ve bölüm notları ile pozisyon, alt pozisyon ve KN kodunun ifadesiyle belirlenir. 90. Fasıl 3. Notu: XVI. Bölümün 3. ve 4. notlarının hükümleri bu fasıl için de geçerlidir. XVI. Bö…",
+     "url": "https://ec.europa.eu/taxation_customs/dds2/ebti/ebti_details.jsp?showHeader=false&Lang=en&reference=FRBTIFR-BTI-2026-01893"
+    },
+    {
+     "source": "eu",
+     "source_label": "Avrupa Birliği (EBTI)",
+     "color": "#2E6BE6",
+     "flag": "🇫🇷",
+     "origin": "Fransa",
+     "hs": "48195000",
+     "hs4": "4819",
+     "ref": "FRBTIFR-BTI-2026-04186",
+     "date": "2026-06-23",
+     "title": "Emtia için ambalaj; film kaplı kartondan yapılmış, marka adının basılı şeffaf plastik (PET) kılıfıyla donatılmış bir kutu şeklinde sunulmaktadır. Dikdörtgen biçimli bu kutu, gıda ürünlerini (pastane ürünleri) içermek amacıyla tasarlanmıştır. Özel bir düzeneğe sahip değildir.",
+     "gerekce": "Genel Yorum Kuralları 1 ve 6: Sınıflandırma, fasıl ve bölüm notları ile pozisyon, alt pozisyon ve KN kodu ifadelerine göre belirlenir. Genel Yorum Kuralı 2 b): Karışık ürünlerin veya bileşik eşyanın sınıflandırması, Gene…",
+     "url": "https://ec.europa.eu/taxation_customs/dds2/ebti/ebti_details.jsp?showHeader=false&Lang=en&reference=FRBTIFR-BTI-2026-04186"
+    },
+    {
+     "source": "eu",
+     "source_label": "Avrupa Birliği (EBTI)",
+     "color": "#2E6BE6",
+     "flag": "🇱🇹",
+     "origin": "Litvanya",
+     "hs": "85439090",
+     "hs4": "8543",
+     "ref": "LTBTI2026-DEC-0236/14",
+     "date": "2026-06-23",
+     "title": "Elektronik sigara parçası - elektronik bileşenler ve bağlantılar içeren gövde. Bataryasız ürün. Elektronik sigara bataryası (şarj edilebilir) tutucu/gövdesi; batarya yerleştirilerek ve buharlaştırma bölümüyle birleştirilerek elektronik sigara olarak kullanılabilir. Metal gövde/tu…",
+     "gerekce": "Kombine Nomenklatür (KN) Genel Yorum Kuralları 1, 3 b) ve 6. KN XVI. Bölüm 2. Not b) bendi. Uyumlaştırılmış Sistem Açıklama Notları (HSEN, 2022) 8543 pozisyonu açıklamalarının 11. maddesi hükümleri.",
+     "url": "https://ec.europa.eu/taxation_customs/dds2/ebti/ebti_details.jsp?showHeader=false&Lang=en&reference=LTBTI2026-DEC-0236%2F14"
+    },
+    {
+     "source": "eu",
+     "source_label": "Avrupa Birliği (EBTI)",
+     "color": "#2E6BE6",
+     "flag": "🇨🇿",
+     "origin": "Çekya",
+     "hs": "49030000",
+     "hs4": "4903",
+     "ref": "CZBTI32/377127/2026-300000-ZI/01",
+     "date": "2026-06-23",
+     "title": "Beyan edilen verilere göre, çizim için baskılı bir şablon söz konusudur — farklı boyutlarda daireler içeren baskılı desenlerle kaplı, bağımsız bir polyester tuval (tekstil malzemesi). Bu daireler, renklendirildiğinde nihai görüntüyü oluşturan bir desen şeklinde düzenlenmiştir. Da…",
+     "gerekce": "Birleşik Nomenclature'ün yorumlanmasına ilişkin 1., 3b) ve 6. Genel Kurallar. 49. Fasıla ait 2 No'lu Not. 4903 tarife pozisyonuna ilişkin HS Açıklama Notları. Birleşik Nomenclature'deki 4903 00 00 kodu ve Taric kodu 4903…",
+     "url": "https://ec.europa.eu/taxation_customs/dds2/ebti/ebti_details.jsp?showHeader=false&Lang=en&reference=CZBTI32%2F377127%2F2026-300000-ZI%2F01"
+    },
+    {
+     "source": "eu",
+     "source_label": "Avrupa Birliği (EBTI)",
+     "color": "#2E6BE6",
+     "flag": "🇫🇷",
+     "origin": "Fransa",
+     "hs": "18069070",
+     "hs4": "1806",
+     "ref": "FRBTIFR-BTI-2026-02157",
+     "date": "2026-06-23",
+     "title": "Kakao çekirdeklerine dayalı, olduğu haliyle tüketilemeyen, rom ilave edilerek kokteyl hazırlamaya yönelik, perakende satış için 30 gramlık poşette ambalajlanmış gıda müstahzarı.",
+     "gerekce": "1. ve 6. Genel Kurallar: sınıflandırma, fasıl ve bölüm notları ile pozisyon ve alt pozisyon metni tarafından belirlenir. 5b) Genel Kuralı: ambalaj, eşyayla birlikte sınıflandırılır. 18. Fasıla ait 2 No'lu Not: 18.06 pozi…",
+     "url": "https://ec.europa.eu/taxation_customs/dds2/ebti/ebti_details.jsp?showHeader=false&Lang=en&reference=FRBTIFR-BTI-2026-02157"
+    },
+    {
+     "source": "eu",
+     "source_label": "Avrupa Birliği (EBTI)",
+     "color": "#2E6BE6",
+     "flag": "🇨🇿",
+     "origin": "Çekya",
+     "hs": "84719000",
+     "hs4": "8471",
+     "ref": "CZBTI48/341592/2026-300000-ZI/01",
+     "date": "2026-06-23",
+     "title": "Beyan edilen verilere göre, bina erişim ve güvenlik sisteminin bir parçasını oluşturan kablosuz bir RFID öğesi (çip, kart vb.) okuyucusu söz konusudur. Okuyucu, kapıların dış tarafına yerleştirilmekte olup okunan verileri bir HUB aracılığıyla sunucuya (bu ZISZ'ın konusu değildir)…",
+     "gerekce": "Birleşik Nomenclature'ün yorumlanmasına ilişkin 1. ve 6. Genel Kurallar. 8471 tarife pozisyonuna ilişkin HS Açıklama Notları. Birleşik Nomenclature'deki 8471, 8471 90 ve 8471 90 00 kodlarının metni.",
+     "url": "https://ec.europa.eu/taxation_customs/dds2/ebti/ebti_details.jsp?showHeader=false&Lang=en&reference=CZBTI48%2F341592%2F2026-300000-ZI%2F01"
+    },
+    {
+     "source": "eu",
+     "source_label": "Avrupa Birliği (EBTI)",
+     "color": "#2E6BE6",
+     "flag": "🇨🇿",
+     "origin": "Çekya",
+     "hs": "44170000",
+     "hs4": "4417",
+     "ref": "CZBTI51/296649/2026-300000-ZI/01",
+     "date": "2026-06-23",
+     "title": "Sağlanan verilere göre, deri işlemeciliğinde ve deri ürünlerle elle çalışmada kullanılan yardımcı bir alet söz konusudur. Ürün, bir kesim (oluk) ve küçük bir metal tutacakla donatılmış, özel biçimde şekillendirilmiş bir tahta levha görünümündedir. Delme aletlerinin (örneğin zımba…",
+     "gerekce": "Birleşik Nomenclature'ün yorumlanmasına ilişkin 1. ve 6. Genel Kurallar. 44. Fasıla ait 6 No'lu Not. 4417 tarife pozisyonuna ilişkin HS Açıklama Notları. Birleşik Nomenclature'deki 4417 00 00 kodu ve Taric kodu 4417 00 0…",
+     "url": "https://ec.europa.eu/taxation_customs/dds2/ebti/ebti_details.jsp?showHeader=false&Lang=en&reference=CZBTI51%2F296649%2F2026-300000-ZI%2F01"
+    },
+    {
+     "source": "eu",
+     "source_label": "Avrupa Birliği (EBTI)",
+     "color": "#2E6BE6",
+     "flag": "🇫🇷",
+     "origin": "Fransa",
+     "hs": "38249992",
+     "hs4": "3824",
+     "ref": "FRBTIFR-BTI-2026-00804",
+     "date": "2026-06-23",
+     "title": "Kozmetik ürün imalatında hammadde olarak kullanılan, sıvı, şeffaf formda bulunan, perakende satış için 1 kg'lık ambalajda sunulan kimyasal müstahzar.",
+     "gerekce": "1. ve 6. Genel Kurallar: sınıflandırma, fasıl ve bölüm notları ile pozisyon ve alt pozisyon metni tarafından belirlenir. 5b) Genel Kuralı: ambalaj, eşyanın sınıflandırmasına tabi tutulur. 3824 pozisyonuna ilişkin HS Açık…",
+     "url": "https://ec.europa.eu/taxation_customs/dds2/ebti/ebti_details.jsp?showHeader=false&Lang=en&reference=FRBTIFR-BTI-2026-00804"
+    },
+    {
+     "source": "eu",
+     "source_label": "Avrupa Birliği (EBTI)",
+     "color": "#2E6BE6",
+     "flag": "🇩🇰",
+     "origin": "Danimarka",
+     "hs": "30059010",
+     "hs4": "3005",
+     "ref": "DKBTI26-0550209",
+     "date": "2026-06-23",
+     "title": "Eşya, aşağıdakilerden oluşan bir settir: — bir çift nitril eldiven — dikdörtgen biçiminde, steril bir örtü parçası — antiseptik madde emdirilmiş üç pamuklu çubuk içeren bir paket. Eşyanın, sette yer almayan ve bu BTO kapsamı dışındaki bir kateter takılmasında kullanıldığı belirti…",
+     "gerekce": "Birleşik Nomenclature'e ilişkin 1., 3b) ve 6. Genel Tarifeleme Kuralı ile 3005, 3005 90 ve 3005 90 10 00 eşya kodlarının metni. Diğer: İtiraz yoluna ilişkin bilgiye, bu BTO kararını AB Gümrük Trader Portalı'ndan yazdırar…",
+     "url": "https://ec.europa.eu/taxation_customs/dds2/ebti/ebti_details.jsp?showHeader=false&Lang=en&reference=DKBTI26-0550209"
+    },
+    {
+     "source": "eu",
+     "source_label": "Avrupa Birliği (EBTI)",
+     "color": "#2E6BE6",
+     "flag": "🇫🇷",
+     "origin": "Fransa",
+     "hs": "40151900",
+     "hs4": "4015",
+     "ref": "FRBTIFR-BTI-2025-06863",
+     "date": "2026-06-23",
+     "title": "Mavi ve sarı renkli, sertleştirilmemiş vulkanize kauçuktan (neopren ve doğal lateks) yapılmış, iç yüzeyi pamuklu flock kaplı ve ön kolu örten bir manşonu bulunan, beş parmakla bir çift eldiven. Bu ürün, mekanik sanayi veya bakım-onarım gibi sektörlerde kimyasal koruma amacıyla ku…",
+     "gerekce": "1. ve 6. Genel Kurallar: sınıflandırma, fasıl ve bölüm notları ile pozisyon, alt pozisyon ve KN kodu metni tarafından belirlenir. 5b) Genel Kuralı: ambalaj, eşyanın sınıflandırmasına tabi tutulur. 40. Fasıla ait 1 No'lu …",
+     "url": "https://ec.europa.eu/taxation_customs/dds2/ebti/ebti_details.jsp?showHeader=false&Lang=en&reference=FRBTIFR-BTI-2025-06863"
+    },
+    {
+     "source": "eu",
+     "source_label": "Avrupa Birliği (EBTI)",
+     "color": "#2E6BE6",
+     "flag": "🇫🇷",
+     "origin": "Fransa",
+     "hs": "61161020",
+     "hs4": "6116",
+     "ref": "FRBTIFR-BTI-2025-06868",
+     "date": "2026-06-23",
+     "title": "Sentetik elyaftan (akrilik ve polyester — 13 numara) örme kumaştan yapılmış, avuç içi ve parmak üstlerinde çıplak gözle görülebilecek şekilde gözenekli sentetik kauçukla (poli(akrilnitril-ko-bütadien)) kısmen kaplanmış ancak lamine edilmemiş, beş parmakla bir çift koruyucu eldive…",
+     "gerekce": "1. ve 6. Genel Kurallar: sınıflandırma, fasıl ve bölüm notları ile pozisyon, alt pozisyon ve KN kodu metni tarafından belirlenir. 5b) Genel Kuralı: eşyayla birlikte sunulan ambalaj ve kaplar, normalde bu eşyayla birlikte…",
+     "url": "https://ec.europa.eu/taxation_customs/dds2/ebti/ebti_details.jsp?showHeader=false&Lang=en&reference=FRBTIFR-BTI-2025-06868"
+    },
+    {
+     "source": "eu",
+     "source_label": "Avrupa Birliği (EBTI)",
+     "color": "#2E6BE6",
+     "flag": "🇫🇷",
+     "origin": "Fransa",
+     "hs": "61161080",
+     "hs4": "6116",
+     "ref": "FRBTIFR-BTI-2025-06866",
+     "date": "2026-06-23",
+     "title": "Sentetik fiber (polietilen) örgü kumaştan yapılmış, tabakalanmamış, avuç içi ve sırt kısmının bir bölümünde çıplak gözle görülebilir ve gözeneksiz plastik madde (poliüretan) ile kısmen emdirilmiş, beş parmaklı koruyucu eldiven çifti. Elastik nervürlü ve şeritli manşet kenarına sa…",
+     "gerekce": "Genel Yorum Kuralları 1 ve 6: Sınıflandırma, bölüm ve fasıl notları ile pozisyon, alt pozisyon ve KN kodu ibareleri tarafından belirlenir. Genel Yorum Kuralı 5(b): Ambalaj, malın sınıflandırmasına tabidir. 39. Fasıl'ın 1…",
+     "url": "https://ec.europa.eu/taxation_customs/dds2/ebti/ebti_details.jsp?showHeader=false&Lang=en&reference=FRBTIFR-BTI-2025-06866"
+    },
+    {
+     "source": "eu",
+     "source_label": "Avrupa Birliği (EBTI)",
+     "color": "#2E6BE6",
+     "flag": "🇫🇷",
+     "origin": "Fransa",
+     "hs": "76109090",
+     "hs4": "7610",
+     "ref": "FRBTIFR-BTI-2026-01312",
+     "date": "2026-06-23",
+     "title": "Duvar montaj plakası, metal korkuluk sisteminin yedek parçası olup bağımsız taşıyıcı, önceden monte edilmiş bir taban şeklinde sunulmaktadır. Kamuya kapalı çatıların korunmasını sağlamak amacıyla, ağırlıklı olarak endüstriyel binalarda veya toplu konut yapılarında, korkuluğun dik…",
+     "gerekce": "Genel Kural 1 ve 6: Sınıflandırma, bölüm ve fasıl notları ile pozisyon, alt pozisyon ve KN kodu ibarelerine göre belirlenmektedir. XV. Bölüm'ün 3. Notu uyarınca, Nomanklatür kapsamında adi metaller şunlardır: dökme demir…",
+     "url": "https://ec.europa.eu/taxation_customs/dds2/ebti/ebti_details.jsp?showHeader=false&Lang=en&reference=FRBTIFR-BTI-2026-01312"
+    },
+    {
+     "source": "eu",
+     "source_label": "Avrupa Birliği (EBTI)",
+     "color": "#2E6BE6",
+     "flag": "🇫🇷",
+     "origin": "Fransa",
+     "hs": "39269097",
+     "hs4": "3926",
+     "ref": "FRBTIFR-BTI-2024-07588",
+     "date": "2026-06-23",
+     "title": "Plastik malzemeden (ABS) yapılmış, kabartmalı, harfleri temsil eden, dekorasyon amacıyla kullanılan kendi yapışkanlı çıkartma tipi ürünler. Dikdörtgen şeklinde plastik bir yaprak üzerinde sunulmaktadır. Boyutlar: 9 cm x 2 cm.",
+     "gerekce": "Genel Yorum Kuralları 1 ve 6: sınıflandırma, fasıl ve bölüm notları ile pozisyon, alt pozisyon ve KN kodu ifadesine göre belirlenir. 39. Faslın 1 No'lu Notu plastik maddeleri tanımlamaktadır. 3926 pozisyonu çeşitli plast…",
+     "url": "https://ec.europa.eu/taxation_customs/dds2/ebti/ebti_details.jsp?showHeader=false&Lang=en&reference=FRBTIFR-BTI-2024-07588"
+    },
+    {
+     "source": "eu",
+     "source_label": "Avrupa Birliği (EBTI)",
+     "color": "#2E6BE6",
+     "flag": "🇧🇪",
+     "origin": "Belçika",
+     "hs": "27102090",
+     "hs4": "2710",
+     "ref": "BEBTIDT.50.023.445",
+     "date": "2026-06-23",
+     "title": "Prefabrik beton endüstrisinde ve yerinde beton çalışmalarında kullanıma yönelik mineral bazlı bir kalıp ayırıcı yağ. Ürün, açık sarı renkli ve kendine özgü bir kokuya sahip sıvı hâlde bir maddedir. 25 litrelik bidonlar, 60 litrelik ve 210 litrelik variller, 1.000 litrelik IBC kon…",
+     "gerekce": "Sınıflandırma, birleşik nomenclatürün yorumlanmasına ilişkin 1. ve 6. genel kurallar; 2710 tarife pozisyonunun metni, GS kodu 2710 20 ve KN kodu 2710 20 90; 27. fasla ait 2 No'lu Not; 27. fasla ait Ek (KN) 2d) Notu; 2710…",
+     "url": "https://ec.europa.eu/taxation_customs/dds2/ebti/ebti_details.jsp?showHeader=false&Lang=en&reference=BEBTIDT.50.023.445"
+    },
+    {
+     "source": "eu",
+     "source_label": "Avrupa Birliği (EBTI)",
+     "color": "#2E6BE6",
+     "flag": "🇫🇷",
+     "origin": "Fransa",
+     "hs": "62113210",
+     "hs4": "6211",
+     "ref": "FRBTIFR-BTI-2025-06544",
+     "date": "2026-06-23",
+     "title": "Pamuklu kumaştan dikilmiş, laboratuvar önlüğü biçiminde, uzun kollu ve beyaz renkli iş giysisi. Önlük, 5 metal çıtçıt düğmesiyle soldan sağa kapanmaktadır. Ayrıca iki yan cep, bir göğüs cebi (= kalem cebi) ve sırt alt kısmında bir yırtmaç bulunmaktadır. Gramaj: 240 gr",
+     "gerekce": "Genel Yorum Kuralları 1 ve 6: sınıflandırma, bölüm ve fasıl notları ile pozisyon, alt pozisyon ve KN kodu ifadeleriyle belirlenir. XI. Bölüm'ün 7. Notu: \"mamul eşya\" teriminin tanımı. 62. Fasıl'ın 1. Notu: bu fasıl yalnı…",
+     "url": "https://ec.europa.eu/taxation_customs/dds2/ebti/ebti_details.jsp?showHeader=false&Lang=en&reference=FRBTIFR-BTI-2025-06544"
+    },
+    {
+     "source": "eu",
+     "source_label": "Avrupa Birliği (EBTI)",
+     "color": "#2E6BE6",
+     "flag": "🇫🇷",
+     "origin": "Fransa",
+     "hs": "44199000",
+     "hs4": "4419",
+     "ref": "FRBTIFR-BTI-2025-06727",
+     "date": "2026-06-23",
+     "title": "Masa veya mutfak kullanımına yönelik, şimşir ağacından (tropikal olmayan ahşap) yapılmış, sos, baharat veya çeşni servisi için tasarlanmış küçük spatula biçiminde ahşap eşya. Boyutlar: Genişlik: 0,9 cm, Uzunluk: 11 cm.",
+     "gerekce": "Genel Yorum Kuralları 1 ve 6: Sınıflandırma, fasıl ve bölüm notları ile pozisyon ve alt pozisyon metinleri esas alınarak belirlenir. 4419 pozisyonuna ilişkin AKHN: Kaşıklar ve spatulalar bu pozisyonda açıkça sayılmıştır.",
+     "url": "https://ec.europa.eu/taxation_customs/dds2/ebti/ebti_details.jsp?showHeader=false&Lang=en&reference=FRBTIFR-BTI-2025-06727"
+    },
+    {
+     "source": "eu",
+     "source_label": "Avrupa Birliği (EBTI)",
+     "color": "#2E6BE6",
+     "flag": "🇫🇷",
+     "origin": "Fransa",
+     "hs": "39264000",
+     "hs4": "3926",
+     "ref": "FRBTIFR-BTI-2025-06780",
+     "date": "2026-06-23",
+     "title": "Operatörün beyanına göre plastik malzemeden (silikon) yapılmış, bir video oyunu karakterini temsil eden dekorasyon nesnesi türünde süs eşyası. Aydınlatma işlevi olmayan ışıklı bir dekorasyon ürünüdür. Ürün iç mekan dekorasyonunda kullanılabilir ve baskılı bir kutu içinde sunulmak…",
+     "gerekce": "Genel Yorum Kuralları 1 ve 6: sınıflandırma, bölüm ve fasıl notları ile pozisyon, alt pozisyon ve KN kodu ifadeleri tarafından belirlenir. Genel Yorum Kuralı 2b): karışık ürünlerin veya bileşik eşyaların sınıflandırması,…",
+     "url": "https://ec.europa.eu/taxation_customs/dds2/ebti/ebti_details.jsp?showHeader=false&Lang=en&reference=FRBTIFR-BTI-2025-06780"
+    }
+   ]
+  },
   {
    "date": "2026-06-22",
    "date_tr": "22 Haziran 2026",
-   "count": 34,
+   "count": 79,
    "sources": [
+    "eu",
     "us"
    ],
    "decisions": [
+    {
+     "source": "eu",
+     "source_label": "Avrupa Birliği (EBTI)",
+     "color": "#2E6BE6",
+     "flag": "🇫🇷",
+     "origin": "Fransa",
+     "hs": "85447000",
+     "hs4": "8544",
+     "ref": "FRBTIFR-BTI-2026-02644",
+     "date": "2026-06-22",
+     "title": "HDMI kablo, multimod, fiber optik ve bakır, her iki ucunda bağlantı parçaları bulunan, ses ve video sinyallerinin iletimini sağlayan. 4K'ya kadar geniş bir çözünürlük yelpazesini, 3D ve Derin Rengi (Deep Color), çok kanallı sesi, Dolby True HD ve DTS-HD Master Audio'yu destekler.…",
+     "gerekce": "Genel kurallar 1 ve 6: sınıflandırma, bölüm ve fasıl notları ile pozisyon, alt pozisyon ve KN kodu ifadesi tarafından belirlenir. Genel kural 3(b): karışık, bileşik eşyalar veya takımlar, esaslı niteliği belirleyen madde…",
+     "url": "https://ec.europa.eu/taxation_customs/dds2/ebti/ebti_details.jsp?showHeader=false&Lang=en&reference=FRBTIFR-BTI-2026-02644"
+    },
     {
      "source": "us",
      "source_label": "Amerika (CBP)",
@@ -28,6 +935,20 @@ window.BTI_DATA = {
      "title": "tarihli mektubunuzda 12 Şubat 2026 Tarife sınıflandırma kararı talebinde bulundunuz. Laboratuvar analizleri nedeniyle cevabımız gecikti. Gönderdiğiniz numune bu analiz sırasında imha edilmiştir ve iade edilmeyecektir. Stil WCG1026 \"Calia\", yüzde 92 polyester ve yüzde 8 elastanekn…",
      "gerekce": "Stil WCG1026 için geçerli alt pozisyon, Amerika Birleşik Devletleri Harmonize Tarife Tablosu (HTSUS) 6106.20.2010 olacaktır ve bu başlık şunları öngörmektedir: Kadın veya kız çocuklar için örme veya tığ işi bluz ve gömle…",
      "url": "https://rulings.cbp.gov/ruling/N358843"
+    },
+    {
+     "source": "eu",
+     "source_label": "Avrupa Birliği (EBTI)",
+     "color": "#2E6BE6",
+     "flag": "🇵🇱",
+     "origin": "Polonya",
+     "hs": "15180095",
+     "hs4": "1518",
+     "ref": "PLBTIWIT-2026-000624",
+     "date": "2026-06-22",
+     "title": "Açık kahverengiden koyu kahverengiye uzanan renkte kullanılmış kızartma yağı; bitkisel yağların (başta ayçiçeği, kolza, soya, palmiye) yenilemeyen karışımı olup; oteller, restoranlar, barlar, fırınlar vb. yerlerden elde edilmiştir; kimyasal dönüşüme tabi tutulmamıştır. Eşya, biyo…",
+     "gerekce": "Eşyanın tarife sınıflandırması, Birleşik Nomenclature Genel Yorum Kurallarının 1. ve 6. Kuralları çerçevesinde; 15. Faslın genel notlarının içeriğine, Ortak Gümrük Tarifesinin 1518 pozisyonunun ifadesine ve Armonize Sist…",
+     "url": "https://ec.europa.eu/taxation_customs/dds2/ebti/ebti_details.jsp?showHeader=false&Lang=en&reference=PLBTIWIT-2026-000624"
     },
     {
      "source": "us",
@@ -44,6 +965,20 @@ window.BTI_DATA = {
      "url": "https://rulings.cbp.gov/ruling/N361621"
     },
     {
+     "source": "eu",
+     "source_label": "Avrupa Birliği (EBTI)",
+     "color": "#2E6BE6",
+     "flag": "🇵🇱",
+     "origin": "Polonya",
+     "hs": "84839081",
+     "hs4": "8483",
+     "ref": "PLBTIWIT-2026-000625",
+     "date": "2026-06-22",
+     "title": "Döküm çeliğinden döküm yöntemiyle üretilmiş ve kaba işlemeye tabi tutulmuş, yarı mamul dişli çark. İthalattan sonra, nihai geometrik, fonksiyonel ve dayanım parametrelerinin elde edilmesi amacıyla mekanik ve ısıl işlemler dahil olmak üzere ileri işleme operasyonları gerçekleştiri…",
+     "gerekce": "Eşyanın tarife sınıflandırması, Birleşik Nomenclature Genel Yorum Kurallarının 1., 2(a) ve 6. Kuralları; Ortak Gümrük Tarifesinin (OGT) XVI. Bölümüne ait 2(a) Notu; OGT'nin 8483 pozisyonunun ifadesi ile; aralarında döküm…",
+     "url": "https://ec.europa.eu/taxation_customs/dds2/ebti/ebti_details.jsp?showHeader=false&Lang=en&reference=PLBTIWIT-2026-000625"
+    },
+    {
      "source": "us",
      "source_label": "Amerika (CBP)",
      "color": "#C0392B",
@@ -56,6 +991,20 @@ window.BTI_DATA = {
      "title": "tarihli mektubunuzda 24 Nisan 2026 CareismaticBrands adına tarife sınıflandırma kararı talep ettiniz. Laboratuvar analizleri nedeniyle cevabımız gecikti. Gönderdiğiniz numune bu analiz sırasında imha edilmiştir ve iade edilmeyecektir. Stil MC00046, yüzde 95 polyester ve yüzde 5 s…",
      "gerekce": "Stil MC00046 için geçerli alt pozisyon, 20.2010, HTSUS 6106 olacaktır ve aşağıdakileri öngörmektedir: Kadın veya kız çocuk için örme veya tığ işi bluz ve gömlekler: Suni ve sentetik elyaftan: Diğer: Kadın. Genel gümrük v…",
      "url": "https://rulings.cbp.gov/ruling/N361556"
+    },
+    {
+     "source": "eu",
+     "source_label": "Avrupa Birliği (EBTI)",
+     "color": "#2E6BE6",
+     "flag": "🇫🇷",
+     "origin": "Fransa",
+     "hs": "29224985",
+     "hs4": "2922",
+     "ref": "FRBTIFR-BTI-2026-00092",
+     "date": "2026-06-22",
+     "title": "Minimum %99,0 saflıkta traneksamik aside dayalı oksijen fonksiyonlu amin bileşiği; beyaz renkte toz formunda sunulmakta olup kozmetik ürün üretimine yönelik olarak endüstri tarafından kullanılmak üzere tasarlanmıştır. Perakende satış ambalajında 1 kg ve 5 kg'lık alüminyum ambalaj…",
+     "gerekce": "Genel kurallar 1 ve 6: sınıflandırma, bölüm ve fasıl notları ile pozisyon ve alt pozisyon ifadesi tarafından belirlenir. Genel kural 5(b): ambalaj, eşyanın sınıflandırmasına tabidir. 29. Faslın 1. Notu (a) bendi: aksine …",
+     "url": "https://ec.europa.eu/taxation_customs/dds2/ebti/ebti_details.jsp?showHeader=false&Lang=en&reference=FRBTIFR-BTI-2026-00092"
     },
     {
      "source": "us",
@@ -72,6 +1021,20 @@ window.BTI_DATA = {
      "url": "https://rulings.cbp.gov/ruling/N361697"
     },
     {
+     "source": "eu",
+     "source_label": "Avrupa Birliği (EBTI)",
+     "color": "#2E6BE6",
+     "flag": "🇫🇷",
+     "origin": "Fransa",
+     "hs": "72107080",
+     "hs4": "7210",
+     "ref": "FRBTIFR-BTI-2026-01506",
+     "date": "2026-06-22",
+     "title": "Eşya, alet depolamaya yönelik 3 adet çelik panodan oluşan bir settir. Delikli duvar alet askısı siyah renkte olup toplam boyutu 120 cm x 60 cm'dir. Duvar panoları, aletlerin düzenli depolanması amacıyla tasarlanmıştır. Üç duvar panosu toplamda 74 adede kadar alet depolanmasına ol…",
+     "gerekce": "Genel kurallar 1 ve 6: sınıflandırma, bölüm ve fasıl notları ile pozisyon, alt pozisyon ve KN kodu ifadesi tarafından belirlenir. Çelik dahil adi metalleri tanımlayan XV. Bölümün 3. Notu. 7210 pozisyonuna ait İzahname (N…",
+     "url": "https://ec.europa.eu/taxation_customs/dds2/ebti/ebti_details.jsp?showHeader=false&Lang=en&reference=FRBTIFR-BTI-2026-01506"
+    },
+    {
      "source": "us",
      "source_label": "Amerika (CBP)",
      "color": "#C0392B",
@@ -84,6 +1047,20 @@ window.BTI_DATA = {
      "title": "tarihli mektubunuzda 12 Mayıs 2026 Tarife sınıflandırma kararı talebinde bulundunuz. Gönderdiğiniz numune istediğiniz gibi iade edilecektir. Stil D27-00003, dış yüzeyi yoğun bir şekilde tüylü ve iç yüzeyi hafifçe tüylü olan yüzde 100 polyester örgü kumaştan yapılmış bir erkek üst…",
      "gerekce": "Stil D27-00003 için geçerli alt pozisyon, Amerika Birleşik Devletleri Harmonize Tarife Tablosu (HTSUS) 6110.30.3053 olacaktır ve aşağıdakileri öngörmektedir: Kazaklar, kazaklar, sweatshirtler, yelekler (yelekler) ve benz…",
      "url": "https://rulings.cbp.gov/ruling/N361705"
+    },
+    {
+     "source": "eu",
+     "source_label": "Avrupa Birliği (EBTI)",
+     "color": "#2E6BE6",
+     "flag": "🇫🇷",
+     "origin": "Fransa",
+     "hs": "84149000",
+     "hs4": "8414",
+     "ref": "FRBTIFR-BTI-2026-00121",
+     "date": "2026-06-22",
+     "title": "Metal ara parça veya \"itme aralayıcısı\" (thrust spacer); turboşarjörün kompresör tarafında conta olarak kullanılmaktadır. Sıkıştırılmış havanın yatak gövdesine girmesini önlemek ve kompresöre yağ kaçağını engellemek amacıyla tasarlanmıştır. Rotorun bir parçasıdır ve yalnızca turb…",
+     "gerekce": "Genel kurallar 1 ve 6: sınıflandırma, bölüm ve fasıl notları ile pozisyon, alt pozisyon ve KN kodu ifadesi tarafından belirlenir. XVI. Bölümün 2(b) Notu: aynı pozisyon (8479 veya 8543 no.lu pozisyonlar dahil) veya birden…",
+     "url": "https://ec.europa.eu/taxation_customs/dds2/ebti/ebti_details.jsp?showHeader=false&Lang=en&reference=FRBTIFR-BTI-2026-00121"
     },
     {
      "source": "us",
@@ -100,6 +1077,20 @@ window.BTI_DATA = {
      "url": "https://rulings.cbp.gov/ruling/N361728"
     },
     {
+     "source": "eu",
+     "source_label": "Avrupa Birliği (EBTI)",
+     "color": "#2E6BE6",
+     "flag": "🇫🇷",
+     "origin": "Fransa",
+     "hs": "73269098",
+     "hs4": "7326",
+     "ref": "FRBTIFR-BTI-2026-02241",
+     "date": "2026-06-22",
+     "title": "Derin çekme yöntemiyle elde edilmiş, içi boş silindirik bir tüp biçiminde sunulan paslanmaz çelikten mamul parça. Ürün gri renkli olup yaklaşık 6,5 cm uzunluğunda ve 3,5 cm çapındadır. Parça, temel bileşeni bir mıknatıs olan statordan oluşan bir düzeneği sarmak ve korumak amacıyl…",
+     "gerekce": "Genel yorum kuralları 1 ve 6: Sınıflandırma, fasıl ve bölüm notları ile pozisyon, alt pozisyon ve KN kodu ibaresi esas alınarak belirlenmektedir. Genel yorum kuralı 5b): Ambalajlar, içerdikleri eşyayla birlikte sınıfland…",
+     "url": "https://ec.europa.eu/taxation_customs/dds2/ebti/ebti_details.jsp?showHeader=false&Lang=en&reference=FRBTIFR-BTI-2026-02241"
+    },
+    {
      "source": "us",
      "source_label": "Amerika (CBP)",
      "color": "#C0392B",
@@ -112,6 +1103,20 @@ window.BTI_DATA = {
      "title": "tarihli mektubunuzda 22 Mayıs 2026 Tarife sınıflandırma kararı talebinde bulundunuz. Gönderdiğiniz numune istenildiği gibi iade edilecektir. Style, hem örgü hem de dokuma bileşenlerden oluşan bir kadın bluzudur. Yaka, 271-SW222435kolların arka kısmı ve arka panelin tamamı %57 pam…",
      "gerekce": "Stil için geçerli alt pozisyon, Kadın veya kız çocuk bluzları, gömlekleri ve gömlek-bluzlarını öngören 206.40.3035, 271-SW2224356 Amerika Birleşik Devletleri'nin (HTSUS) Harmonize Tarife Tablosu olacaktır: Sentetik elyaf…",
      "url": "https://rulings.cbp.gov/ruling/N361742"
+    },
+    {
+     "source": "eu",
+     "source_label": "Avrupa Birliği (EBTI)",
+     "color": "#2E6BE6",
+     "flag": "🇫🇷",
+     "origin": "Fransa",
+     "hs": "84248970",
+     "hs4": "8424",
+     "ref": "FRBTIFR-BTI-2026-02000",
+     "date": "2026-06-22",
+     "title": "Ürün, bir sabitleme sistemiyle birlikte teslim edilen, krom renkte, 3 farklı jet moduna sahip bir duş başlığıdır. Duş başlığı, su debisini ayarlamaya yarar ve birkaç farklı jet tipi sunmaktadır. Duş başlığı, krom kaplama yüzeyli ABS malzemeden üretilmiştir. Duş başlığı, fabrikada…",
+     "gerekce": "Genel yorum kuralları 1 ve 6: Sınıflandırma, fasıl ve bölüm notları ile pozisyon, alt pozisyon ve KN kodu ibaresi esas alınarak belirlenmektedir. Genel yorum kuralı 3b): Karışık, bileşik veya çeşitli eşyadan oluşan setle…",
+     "url": "https://ec.europa.eu/taxation_customs/dds2/ebti/ebti_details.jsp?showHeader=false&Lang=en&reference=FRBTIFR-BTI-2026-02000"
     },
     {
      "source": "us",
@@ -128,6 +1133,20 @@ window.BTI_DATA = {
      "url": "https://rulings.cbp.gov/ruling/N361860"
     },
     {
+     "source": "eu",
+     "source_label": "Avrupa Birliği (EBTI)",
+     "color": "#2E6BE6",
+     "flag": "🇫🇷",
+     "origin": "Fransa",
+     "hs": "38249996",
+     "hs4": "3824",
+     "ref": "FRBTIFR-BTI-2026-01198",
+     "date": "2026-06-22",
+     "title": "Açık gri renkte toz halinde sunulan, MIKA esaslı kimyasal preparat; kozmetik ürünlerin üretiminde hammadde olarak kullanılmakta olup müşteri talebine göre değişen ağırlıklarda çeşitli ambalajlarda kondisyonlanmaktadır.",
+     "gerekce": "Genel yorum kuralları 1 ve 6: Sınıflandırma, fasıl ve bölüm notları ile pozisyon ve alt pozisyon ibaresi esas alınarak belirlenmektedir. Genel yorum kuralı 5b): Ambalaj, eşyayla birlikte sınıflandırılır. 3824 pozisyonuna…",
+     "url": "https://ec.europa.eu/taxation_customs/dds2/ebti/ebti_details.jsp?showHeader=false&Lang=en&reference=FRBTIFR-BTI-2026-01198"
+    },
+    {
      "source": "us",
      "source_label": "Amerika (CBP)",
      "color": "#C0392B",
@@ -140,6 +1159,20 @@ window.BTI_DATA = {
      "title": "tarihli mektubunuzda 1 Haziran 2026 , müşteriniz AvivaMetals, Inc. adına tarife sınıflandırma kararı talep ettiniz. İthal edilecek ürünler, petrol ve gaz, otomotiv, inşaat, denizcilik ve diğer endüstriyel ekipman ve bileşenlerde kullanılmak üzere C95400 Alüminyum Bronz (9C) içi b…",
      "gerekce": "İçi boş çubuklar için geçerli alt pozisyon, Bakır çubuklar, çubuklar ve profilleri öngören Amerika Birleşik Devletleri Harmonize Tarife Tablosu (HTSUS) 7407.29.1680 olacaktır: Bakır alaşımlarından: Diğer: Profiller: İçi …",
      "url": "https://rulings.cbp.gov/ruling/N361949"
+    },
+    {
+     "source": "eu",
+     "source_label": "Avrupa Birliği (EBTI)",
+     "color": "#2E6BE6",
+     "flag": "🇫🇷",
+     "origin": "Fransa",
+     "hs": "90049090",
+     "hs4": "9004",
+     "ref": "FRBTIFR-BTI-2026-01413",
+     "date": "2026-06-22",
+     "title": "Ürün, modele göre gri veya siyah renkte olan, MicroOLED ekranlar ve X Prism optik sistemi sayesinde sürükleyici bir deneyim sunan bir artırılmış gerçeklik gözlüğüdür. Ürün, iki ana unsurdan oluşan \"split\" tipi bir cihazdır: 1. Artırılmış gerçeklik gözlüğü: Başa takılan OST AR gör…",
+     "gerekce": "Genel yorum kuralları 1 ve 6: Sınıflandırma, fasıl ve bölüm notları ile pozisyon, alt pozisyon ve KN kodu ibaresi esas alınarak belirlenmektedir. Genel yorum kuralı 5a): Eşyayla birlikte sunulan ve genellikle onlarla bir…",
+     "url": "https://ec.europa.eu/taxation_customs/dds2/ebti/ebti_details.jsp?showHeader=false&Lang=en&reference=FRBTIFR-BTI-2026-01413"
     },
     {
      "source": "us",
@@ -156,6 +1189,20 @@ window.BTI_DATA = {
      "url": "https://rulings.cbp.gov/ruling/N352616"
     },
     {
+     "source": "eu",
+     "source_label": "Avrupa Birliği (EBTI)",
+     "color": "#2E6BE6",
+     "flag": "🇫🇷",
+     "origin": "Fransa",
+     "hs": "57032999",
+     "hs4": "5703",
+     "ref": "FRBTIFR-BTI-2026-00327",
+     "date": "2026-06-22",
+     "title": "Dikdörtgen biçimli, tüysüz, tekstil malzemeden imal edilmiş, baskısız toz önleyici paspas. Paspas, PVC bir döseme (zemin tabakası) içine yerleştirilmiş sentetik filament iplik (Poliamid) püsküllerinden oluşmaktadır. Konyak, granit ve arduvaz olmak üzere birçok renk seçeneğinde me…",
+     "gerekce": "Genel yorum kuralları 1 ve 6: Sınıflandırma, fasıl ve bölüm notları ile pozisyon, alt pozisyon ve KN kodu ibaresi esas alınarak belirlenmektedir. XI. Bölüm'ün 2. notu B) b) bendi: Tekstil ürünleri bir zemin tabakası ile …",
+     "url": "https://ec.europa.eu/taxation_customs/dds2/ebti/ebti_details.jsp?showHeader=false&Lang=en&reference=FRBTIFR-BTI-2026-00327"
+    },
+    {
      "source": "us",
      "source_label": "Amerika (CBP)",
      "color": "#C0392B",
@@ -168,6 +1215,20 @@ window.BTI_DATA = {
      "title": "tarihli mektubunuzda 13 Mayıs 2026 Çin'den dört kitap için tarife sınıflandırma kararı talep ettiniz. İncelememiz için iç sayfaların ayrıntılı açıklaması ve resimleri verilmiştir. İncelemeye alınanlar arasında “Sevgili Anne, Sen En İyisin”, “Sevgili Baba, Sen En İyisin”, “Sevgili…",
      "gerekce": "“Sevgili Anne, Sen En İyisin”, “Sevgili Baba, Sen En İyisin”, “Sevgili Büyükanne, Sen En İyisin” ve “Sevgili Büyükbaba, Sen En İyisin” başlıklı ciltli kitaplar için geçerli alt başlık 4901.99.0070, tek sayfa halinde olsu…",
      "url": "https://rulings.cbp.gov/ruling/N361503"
+    },
+    {
+     "source": "eu",
+     "source_label": "Avrupa Birliği (EBTI)",
+     "color": "#2E6BE6",
+     "flag": "🇫🇷",
+     "origin": "Fransa",
+     "hs": "76109090",
+     "hs4": "7610",
+     "ref": "FRBTIFR-BTI-2026-01834",
+     "date": "2026-06-22",
+     "title": "Metalik bir korkuluğun montajında kullanılmak üzere tasarlanmış, \"SR-KJ35\" tipinde döküm bir bağlantı parçasıyla donatılmış, alüminyumdan mamul alt korkuluk borusu biçiminde sunulan bir korkuluk parçası. Her iki ucu, bağlantı görevi görmek ve diğer korkuluk elemanlarıyla geçmeli …",
+     "gerekce": "Genel yorum kuralları 1 ve 6: Sınıflandırma, fasıl ve bölüm notları ile pozisyon, alt pozisyon ve KN kodu ibaresi esas alınarak belirlenmektedir. XV. Bölüm'ün 3 numaralı notu, adi metalleri tanımlamaktadır. 76.10 tarife …",
+     "url": "https://ec.europa.eu/taxation_customs/dds2/ebti/ebti_details.jsp?showHeader=false&Lang=en&reference=FRBTIFR-BTI-2026-01834"
     },
     {
      "source": "us",
@@ -184,6 +1245,20 @@ window.BTI_DATA = {
      "url": "https://rulings.cbp.gov/ruling/N361563"
     },
     {
+     "source": "eu",
+     "source_label": "Avrupa Birliği (EBTI)",
+     "color": "#2E6BE6",
+     "flag": "🇩🇰",
+     "origin": "Danimarka",
+     "hs": "76151080",
+     "hs4": "7615",
+     "ref": "DKBTI26-0755332",
+     "date": "2026-06-22",
+     "title": "Ürün, ortasındaki deliğin etrafında geniş bir kenara sahip, alçak, yuvarlak bir silindirdir. Silindirin iki çapı vardır; birisi küçük yuvarlak bir ayak şeklinde belirginleşmektedir. Deliğin etrafındaki kenar, tüm çevre boyunca bir girintiye sahiptir. Ürün sofra kullanımına yöneli…",
+     "gerekce": "Birleşik Nomenclatür'ün 1 ve 6 numaralı genel yorum kuralları ile 7615, 7615 10, 7615 10 80 ve 7615 10 80 90 eşya kodu metinleri. 7615 ve 7323 pozisyonlarına ilişkin açıklayıcı notlar. Diğer: İtiraz yoluna ilişkin bilgil…",
+     "url": "https://ec.europa.eu/taxation_customs/dds2/ebti/ebti_details.jsp?showHeader=false&Lang=en&reference=DKBTI26-0755332"
+    },
+    {
      "source": "us",
      "source_label": "Amerika (CBP)",
      "color": "#C0392B",
@@ -196,6 +1271,20 @@ window.BTI_DATA = {
      "title": "tarihli mektubunuzda 18 Mayıs 2026 Tarife sınıflandırma kararı talebinde bulundunuz. Sorunuza içerik dökümü ve perakende ambalajın fotoğrafları eşlik etti. Söz konusu ürün, \"Quorn Hindi Usulü Kızartma\", ana bileşen olan et içermeyen bir protein olan mikoproteinden üretilen Quorn …",
      "gerekce": "Quorn taklit et ürünü için geçerli alt pozisyon, “başka bir yerde belirtilmeyen veya yer almayan gıda müstahzarları…diğer…diğer…diğer…dondurulmuş” ifadesini öngören Amerika Birleşik Devletleri Harmonize Tarife Tablosu (H…",
      "url": "https://rulings.cbp.gov/ruling/N361593"
+    },
+    {
+     "source": "eu",
+     "source_label": "Avrupa Birliği (EBTI)",
+     "color": "#2E6BE6",
+     "flag": "🇫🇷",
+     "origin": "Fransa",
+     "hs": "85181000",
+     "hs4": "8518",
+     "ref": "FRBTIFR-BTI-2026-02402",
+     "date": "2026-06-22",
+     "title": "Ürün, RJ45 çıkışlı tek yönlü çağrı mikrofonlu bir kürsüdür. Mikrofon kürsüsünün arkasında zili ve önceliği etkinleştirmek veya devre dışı bırakmak için bir seçici bulunmaktadır. Mikrofon uyumlu bir amplifikatöre bağlandığında ve istenen işlevler seçildiğinde, \"TALK\" düğmesine bas…",
+     "gerekce": "Genel yorum kuralları 1 ve 6: Sınıflandırma, fasıl ve bölüm notları ile pozisyon, alt pozisyon ve KN kodu ibaresi esas alınarak belirlenmektedir. XVI. Bölüm'ün 3 numaralı notu: Aksi belirtilmedikçe, birlikte çalışmak üze…",
+     "url": "https://ec.europa.eu/taxation_customs/dds2/ebti/ebti_details.jsp?showHeader=false&Lang=en&reference=FRBTIFR-BTI-2026-02402"
     },
     {
      "source": "us",
@@ -212,6 +1301,20 @@ window.BTI_DATA = {
      "url": "https://rulings.cbp.gov/ruling/N361766"
     },
     {
+     "source": "eu",
+     "source_label": "Avrupa Birliği (EBTI)",
+     "color": "#2E6BE6",
+     "flag": "🇫🇷",
+     "origin": "Fransa",
+     "hs": "90261021",
+     "hs4": "9026",
+     "ref": "FRBTIFR-BTI-2026-02050",
+     "date": "2026-06-22",
+     "title": "Elektrik gerektirmeyen, kendi kendine çalışan dijital su sıcaklığı ve su debisi göstergesi. Cihaz; galvanik kaplama yöntemiyle krom yüzey işlemi uygulanmış, 1/2 inç dişli bağlantıya ve LCD ekrana sahip kompakt bir ABS plastik adaptör biçiminde sunulmaktadır. Su sıcaklığını, debis…",
+     "gerekce": "1. ve 6. Genel Yorum Kuralları: sınıflandırma, bölüm ve fasıl notları ile pozisyon, alt pozisyon ve KN kodu ifadesiyle belirlenmektedir. 3c) Genel Yorum Kuralı: bütüne asıl niteliğini kazandıran bir unsurun bulunmadığı d…",
+     "url": "https://ec.europa.eu/taxation_customs/dds2/ebti/ebti_details.jsp?showHeader=false&Lang=en&reference=FRBTIFR-BTI-2026-02050"
+    },
+    {
      "source": "us",
      "source_label": "Amerika (CBP)",
      "color": "#C0392B",
@@ -224,6 +1327,20 @@ window.BTI_DATA = {
      "title": "tarihli mektubunuzda 1 Haziran 2026 Müşteriniz PrimarkUS adına tarife sınıflandırma kararı talep ettiniz. Gönderdiğiniz numune iade edilmeyecektir. Stil 991177927, 64 polyester, 29 viskon (rayon) ve yüzde 7 elastan ribanalı örgü kumaştan yapılmış kadın atletidir. Giysi omuzlardan…",
      "gerekce": "Stil 991177927 için geçerli alt pozisyon, Amerika Birleşik Devletleri'nin Harmonize Tarife Tablosu (HTSUS) 6109.90.1065 olacaktır ve aşağıdakileri öngörmektedir: Tişörtler, atletler, kolsuz üstler ve benzeri giysiler, ör…",
      "url": "https://rulings.cbp.gov/ruling/N361928"
+    },
+    {
+     "source": "eu",
+     "source_label": "Avrupa Birliği (EBTI)",
+     "color": "#2E6BE6",
+     "flag": "🇫🇷",
+     "origin": "Fransa",
+     "hs": "90191090",
+     "hs4": "9019",
+     "ref": "FRBTIFR-BTI-2026-01995",
+     "date": "2026-06-22",
+     "title": "Boyutları 90 × 90 × 225 cm olan ve ithalat sırasında söküm hâlinde sunulan eksiksiz duş kabini. Duş, aşağıdaki elemanlardan oluşmaktadır: — 4 mm kalınlığında şeffaf temperli camdan yapılmış sürgülü kapı; — 4 mm kalınlığında şeffaf temperli camdan yapılmış sabit ön panel; — bambu …",
+     "gerekce": "1. ve 6. Genel Yorum Kuralları: sınıflandırma, bölüm ve fasıl notları ile pozisyon, alt pozisyon ve KN kodu ifadesiyle belirlenmektedir. 2.a) Genel Yorum Kuralı: eksik veya söküm hâlindeki eşyalar, tamamının ayırt edici …",
+     "url": "https://ec.europa.eu/taxation_customs/dds2/ebti/ebti_details.jsp?showHeader=false&Lang=en&reference=FRBTIFR-BTI-2026-01995"
     },
     {
      "source": "us",
@@ -240,6 +1357,20 @@ window.BTI_DATA = {
      "url": "https://rulings.cbp.gov/ruling/N361981"
     },
     {
+     "source": "eu",
+     "source_label": "Avrupa Birliği (EBTI)",
+     "color": "#2E6BE6",
+     "flag": "🇫🇷",
+     "origin": "Fransa",
+     "hs": "83024200",
+     "hs4": "8302",
+     "ref": "FRBTIFR-BTI-2026-02679",
+     "date": "2026-06-22",
+     "title": "Ürün, iki mobilya tahtasını birleştirmek ve kilitlemek amacıyla kullanılan bir kilit mandalıdır. Bu parça; iki ahşap tablayı birbirine sabit tutmaya (açık veya kapalı konumda), devrilmeyi veya kazara açılmayı önlemeye ve kullanım kararlılığını ile güvenliğini sağlamaya yaramaktad…",
+     "gerekce": "1. ve 6. Genel Yorum Kuralları: sınıflandırma, bölüm ve fasıl notları ile pozisyon, alt pozisyon ve KN kodu ifadesiyle belirlenmektedir. 25/04/2019 tarihli AB Resmî Gazetesi L 110/1'de yayımlanan 2019/643 sayılı Sınıflan…",
+     "url": "https://ec.europa.eu/taxation_customs/dds2/ebti/ebti_details.jsp?showHeader=false&Lang=en&reference=FRBTIFR-BTI-2026-02679"
+    },
+    {
      "source": "us",
      "source_label": "Amerika (CBP)",
      "color": "#C0392B",
@@ -252,6 +1383,20 @@ window.BTI_DATA = {
      "title": "tarihli mektubunuzda 2 Haziran 2026 , tarife sınıflandırma kararı talep ettiniz. Söz konusu malın Wiha model #35393 olduğu belirtiliyor. Gönderdiğiniz resimler, perakende satış için paketlenmiş beş farklı boyutta çelik Allen Anahtarından oluşan bir set olduğunu gösteriyor. Altıge…",
      "gerekce": "Allen Anahtar seti, Wiha model #35393 için geçerli alt başlık, elle çalıştırılan somun anahtarları ve anahtarlar (tork ölçüm anahtarları dahil ancak kademe anahtarları hariç) sağlayan 8204.11.0060, HTSUS olacaktır; lokma…",
      "url": "https://rulings.cbp.gov/ruling/N361997"
+    },
+    {
+     "source": "eu",
+     "source_label": "Avrupa Birliği (EBTI)",
+     "color": "#2E6BE6",
+     "flag": "🇫🇷",
+     "origin": "Fransa",
+     "hs": "57033919",
+     "hs4": "5703",
+     "ref": "FRBTIFR-BTI-2026-00485",
+     "date": "2026-06-22",
+     "title": "Dikdörtgen biçimli, karo dışındaki türde, kazıyıcı paspas tipinde ayak paspası. Üst yüzeyi, işletmecinin ilettiği verilere göre, lateks esaslı birincil zemin bez üzerine iğneleme yöntemiyle tutturulmuş, iki renkli sentetik elyaf (polipropilen) tafting kumaşından imal edilmiştir. …",
+     "gerekce": "1. ve 6. Genel Yorum Kuralları: sınıflandırma, bölüm ve fasıl notları ile pozisyon, alt pozisyon ve KN kodu ifadesiyle belirlenmektedir. XI. Bölüm'ün 2. Alt Pozisyon Notu B) b) bendi: tekstil ürünleri bir zemin bez ile k…",
+     "url": "https://ec.europa.eu/taxation_customs/dds2/ebti/ebti_details.jsp?showHeader=false&Lang=en&reference=FRBTIFR-BTI-2026-00485"
     },
     {
      "source": "us",
@@ -268,6 +1413,20 @@ window.BTI_DATA = {
      "url": "https://rulings.cbp.gov/ruling/N348145"
     },
     {
+     "source": "eu",
+     "source_label": "Avrupa Birliği (EBTI)",
+     "color": "#2E6BE6",
+     "flag": "🇫🇷",
+     "origin": "Fransa",
+     "hs": "76109090",
+     "hs4": "7610",
+     "ref": "FRBTIFR-BTI-2026-01835",
+     "date": "2026-06-22",
+     "title": "Kamuya açık olmayan çatıların korunmasına yönelik metal korkuluk sisteminin bir elemanını oluşturan yedek parça; ağırlıklı olarak endüstriyel binalarda veya toplu konutlarda kullanılmaktadır. Parça, koruyucu tabanla birlikte önceden monte edilmiş, alüminyumdan yapılmış serbest ay…",
+     "gerekce": "1. ve 6. Genel Yorum Kuralları: sınıflandırma, bölüm ve fasıl notları ile pozisyon, alt pozisyon ve KN kodu ifadesiyle belirlenmektedir. Adi metalleri tanımlayan XV. Bölüm'ün 3. Notu. İnşaatlar ve inşaat parçalarını (köp…",
+     "url": "https://ec.europa.eu/taxation_customs/dds2/ebti/ebti_details.jsp?showHeader=false&Lang=en&reference=FRBTIFR-BTI-2026-01835"
+    },
+    {
      "source": "us",
      "source_label": "Amerika (CBP)",
      "color": "#C0392B",
@@ -280,6 +1439,20 @@ window.BTI_DATA = {
      "title": "tarihli mektubunuzda 10 Temmuz 2025 Tarife sınıflandırma kararı talebinde bulundunuz. Gönderdiğiniz numunenin imha edildiği laboratuvar analizi nedeniyle yanıtımız gecikti. Stil AC3717, dış katmanı %100 polyester dokuma kumaştan, orta katmanı poliüretan filmden ve iç katmanı %100…",
      "gerekce": "AC3717 stili için geçerli alt pozisyon, 30.2010, HTSUS 6101 olacaktır; bu pozisyon, erkekler veya erkek çocuklar için paltolar, kabanlar, pelerinler, pelerinler, anoraklar (kayak ceketleri dahil), rüzgarlıklar ve örme ve…",
      "url": "https://rulings.cbp.gov/ruling/N351214"
+    },
+    {
+     "source": "eu",
+     "source_label": "Avrupa Birliği (EBTI)",
+     "color": "#2E6BE6",
+     "flag": "🇫🇷",
+     "origin": "Fransa",
+     "hs": "76109090",
+     "hs4": "7610",
+     "ref": "FRBTIFR-BTI-2026-01836",
+     "date": "2026-06-22",
+     "title": "Kamuya açık olmayan çatıların korunmasına yönelik metal korkuluk sisteminin bir elemanını oluşturan, kapama ucu niteliğinde alüminyumdan yapılmış yedek parça; ağırlıklı olarak endüstriyel binalarda veya toplu konutlarda kullanılmaktadır. Parça, eksiksiz bir korkuluk oluşturmak am…",
+     "gerekce": "1. ve 6. Genel Yorum Kuralları: sınıflandırma, bölüm ve fasıl notları ile pozisyon, alt pozisyon ve KN kodu ifadesiyle belirlenmektedir. Adi metalleri tanımlayan XV. Bölüm'ün 3. Notu. İnşaatlar ve inşaat parçalarını (köp…",
+     "url": "https://ec.europa.eu/taxation_customs/dds2/ebti/ebti_details.jsp?showHeader=false&Lang=en&reference=FRBTIFR-BTI-2026-01836"
     },
     {
      "source": "us",
@@ -296,6 +1469,20 @@ window.BTI_DATA = {
      "url": "https://rulings.cbp.gov/ruling/N361616"
     },
     {
+     "source": "eu",
+     "source_label": "Avrupa Birliği (EBTI)",
+     "color": "#2E6BE6",
+     "flag": "🇫🇷",
+     "origin": "Fransa",
+     "hs": "85279100",
+     "hs4": "8527",
+     "ref": "FRBTIFR-BTI-2026-02645",
+     "date": "2026-06-22",
+     "title": "100V / 4Ω multimedya oynatıcılı amplifikatör — 30, 60 ve 120W. Cihaz 100V hoparlör çıkışı ile 4 Ohm (düşük empedanslı) çıkış sunmaktadır. 220V-50/60 Hz şebeke gücüyle çalışmaktadır. Aşağıdaki donanımlarla teçhiz edilmiştir: — 1 adet MP3 / USB / SD / FM TUNER / Bluetooth oynatıcı/…",
+     "gerekce": "1. ve 6. Genel Yorum Kuralları: sınıflandırma, bölüm ve fasıl notları ile pozisyon, alt pozisyon ve KN kodu ifadesiyle belirlenmektedir. XVI. Bölüm'ün 3. Notu: aksi belirtilmedikçe, birlikte çalışmak üzere tasarlanmış ve…",
+     "url": "https://ec.europa.eu/taxation_customs/dds2/ebti/ebti_details.jsp?showHeader=false&Lang=en&reference=FRBTIFR-BTI-2026-02645"
+    },
+    {
      "source": "us",
      "source_label": "Amerika (CBP)",
      "color": "#C0392B",
@@ -308,6 +1495,20 @@ window.BTI_DATA = {
      "title": "tarihli mektubunuzda 21 Mayıs 2026 Müşteriniz Grundéns USA Ltd adına tarife sınıflandırma kararı talep ettiniz. Herhangi bir örnek verilmedi. Başvurularla birlikte fotoğraflar da sağlanmıştır. Stil #60002 yedek çizme bandı, eşit genişlik ve kalınlığa sahip, düz, sürekli dairesel …",
      "gerekce": "Stil #60002 için geçerli alt pozisyon, 3901 ila 3914 pozisyonlarında yer alan plastikten diğer eşyaları ve diğer malzemelerden eşyaları sağlayan 3926.20.9050 (HTSUS) olacaktır: Giyim eşyaları ve giyim aksesuarları (eldiv…",
      "url": "https://rulings.cbp.gov/ruling/N361710"
+    },
+    {
+     "source": "eu",
+     "source_label": "Avrupa Birliği (EBTI)",
+     "color": "#2E6BE6",
+     "flag": "🇫🇷",
+     "origin": "Fransa",
+     "hs": "85371091",
+     "hs4": "8537",
+     "ref": "FRBTIFR-BTI-2026-02646",
+     "date": "2026-06-22",
+     "title": "4 veya 8 inç versiyonunda mevcut olan programlanabilir kontrol tableti. 480 x 480 çözünürlüklü 4 inçlik dokunmatik ekrana sahiptir. Ses seviyesi kontrolü, sessiz moda alma, sahne çağırma ve matris anahtarlama dahil olmak üzere 32'den fazla yapılandırılabilir işlev sunar. Tablet, …",
+     "gerekce": "Genel Yorum Kuralları 1 ve 6: Sınıflandırma, bölüm ve fasıl notları ile pozisyon, alt pozisyon ve KN kodu ibareleri esas alınarak belirlenmektedir. XVI. Bölüm'ün 2.a) Notu: İşbu bölümün 1 nolu notu ve 84 ile 85 numaralı …",
+     "url": "https://ec.europa.eu/taxation_customs/dds2/ebti/ebti_details.jsp?showHeader=false&Lang=en&reference=FRBTIFR-BTI-2026-02646"
     },
     {
      "source": "us",
@@ -324,6 +1525,20 @@ window.BTI_DATA = {
      "url": "https://rulings.cbp.gov/ruling/N362111"
     },
     {
+     "source": "eu",
+     "source_label": "Avrupa Birliği (EBTI)",
+     "color": "#2E6BE6",
+     "flag": "🇫🇷",
+     "origin": "Fransa",
+     "hs": "85369010",
+     "hs4": "8536",
+     "ref": "FRBTIFR-BTI-2026-02696",
+     "date": "2026-06-22",
+     "title": "Bir iletişim kabinindeki dağıtım panelinin RJ45 konektörlerinin topraklanmasını sağlayan topraklama ızgarası. Malzeme: SUS430 paslanmaz çelik. Kalınlık: 0,8 mm.",
+     "gerekce": "Genel Yorum Kuralları 1 ve 6: Sınıflandırma, bölüm ve fasıl notları ile pozisyon, alt pozisyon ve KN kodu ibareleri esas alınarak belirlenmektedir. 8536 tarife pozisyonuna ait AHŞY'nin III. Bölüm, B paragrafı; diğer kont…",
+     "url": "https://ec.europa.eu/taxation_customs/dds2/ebti/ebti_details.jsp?showHeader=false&Lang=en&reference=FRBTIFR-BTI-2026-02696"
+    },
+    {
      "source": "us",
      "source_label": "Amerika (CBP)",
      "color": "#C0392B",
@@ -336,6 +1551,20 @@ window.BTI_DATA = {
      "title": "tarihli mektubunuzda 7 Temmuz 2025 Tarife sınıflandırma kararı talebinde bulundunuz. Laboratuvar analizleri nedeniyle cevabımız gecikti. Gönderdiğiniz numune bu analiz sırasında imha edilmiştir ve iade edilmeyecektir. Stil 261-SW421136, belirtilen elyaf içeriğinin yüzde 50 polyes…",
      "gerekce": "Stil 261-SW421136 için geçerli alt pozisyon, 6110.90.9030, HTSUS olacaktır ve aşağıdakileri öngörmektedir: Kazaklar, kazaklar, sweatshirtler, yelekler (yelekler) ve benzeri eşyalar (örme veya tığ işi): Diğer tekstil malz…",
      "url": "https://rulings.cbp.gov/ruling/N351060"
+    },
+    {
+     "source": "eu",
+     "source_label": "Avrupa Birliği (EBTI)",
+     "color": "#2E6BE6",
+     "flag": "🇫🇷",
+     "origin": "Fransa",
+     "hs": "85444290",
+     "hs4": "8544",
+     "ref": "FRBTIFR-BTI-2026-02697",
+     "date": "2026-06-22",
+     "title": "Modele göre 2 m veya 6 m uzunluğunda, bakır (fiber optik değil) erkek uçlu HDMI kablosu; HDMI girişine sahip her türlü ekran veya video projektöre bir HDMI kaynağı bağlamaya yarayan bağlantı parçaları ile donatılmıştır. Desteklenen maksimum gerilim 48 V'tur.",
+     "gerekce": "Genel Yorum Kuralları 1 ve 6: Sınıflandırma, bölüm ve fasıl notları ile pozisyon, alt pozisyon ve KN kodu ibareleri esas alınarak belirlenmektedir. 8544 tarife pozisyonuna ait AHŞY; bağlantı parçaları olan veya olmayan e…",
+     "url": "https://ec.europa.eu/taxation_customs/dds2/ebti/ebti_details.jsp?showHeader=false&Lang=en&reference=FRBTIFR-BTI-2026-02697"
     },
     {
      "source": "us",
@@ -352,6 +1581,20 @@ window.BTI_DATA = {
      "url": "https://rulings.cbp.gov/ruling/N361497"
     },
     {
+     "source": "eu",
+     "source_label": "Avrupa Birliği (EBTI)",
+     "color": "#2E6BE6",
+     "flag": "🇫🇷",
+     "origin": "Fransa",
+     "hs": "57033999",
+     "hs4": "5703",
+     "ref": "FRBTIFR-BTI-2026-00328",
+     "date": "2026-06-22",
+     "title": "Dikdörtgen biçimli, toz önleyici paspas türünde zemin halısı. Üst yüzeyi, PVC'den yapılmış birincil bir destek üzerine iğnelenmiş sentetik mikro liflerden (Polyester) oluşan tüylü (tafted) yapıdadır. Alt zemini plastik malzeme (PVC) olup ürün farklı görünümlerde (tüylü veya kadif…",
+     "gerekce": "Genel Yorum Kuralları 1 ve 6: Sınıflandırma, bölüm ve fasıl notları ile pozisyon, alt pozisyon ve KN kodu ibareleri esas alınarak belirlenmektedir. XI. Bölüm'ün 2.B)b) Notu: Tekstil ürünleri bir zemine ve kadife ya da il…",
+     "url": "https://ec.europa.eu/taxation_customs/dds2/ebti/ebti_details.jsp?showHeader=false&Lang=en&reference=FRBTIFR-BTI-2026-00328"
+    },
+    {
      "source": "us",
      "source_label": "Amerika (CBP)",
      "color": "#C0392B",
@@ -364,6 +1607,20 @@ window.BTI_DATA = {
      "title": "tarihli mektubunuzda 15 Mayıs 2026 , müşteriniz EuroSummer, Inc. adına bir tarife sınıflandırma kararı talep ettiniz. Sorunuza bir içerik listesi, ürün spesifikasyon sayfaları ve beş ürünün resimleri eşlik etti. İlk ürün olan \"Dondurulmuş Bavyera Pretzel Çörekler\", futbol topu ta…",
      "gerekce": "Ürünler için geçerli alt pozisyon, \"Dondurulmuş Bavyera Pretzel Çörekler\", \"Dondurulmuş Alman Pretzels\", \"Dondurulmuş Altı Tohumlu Ekşi Mayalı Ekmek\", \"Dondurulmuş Alp Çavdar Ekşi Mayalı Somun\" ve \"Dondurulmuş Kabak Çeki…",
      "url": "https://rulings.cbp.gov/ruling/N361555"
+    },
+    {
+     "source": "eu",
+     "source_label": "Avrupa Birliği (EBTI)",
+     "color": "#2E6BE6",
+     "flag": "🇫🇷",
+     "origin": "Fransa",
+     "hs": "39181090",
+     "hs4": "3918",
+     "ref": "FRBTIFR-BTI-2026-00329",
+     "date": "2026-06-22",
+     "title": "Bir yüzü baskılı, zemine serilmek üzere tasarlanmış, halı türünde hücresel plastik malzemeden (Polivinil Klorür köpüğü) yapılmış yer döşemesi. İki farklı boyutta sunulmaktadır: 38x60 cm ve 45x75 cm; çeşitli baskılı desenlerde mevcuttur.",
+     "gerekce": "Genel Yorum Kuralları 1 ve 6: Sınıflandırma, bölüm ve fasıl notları ile pozisyon, alt pozisyon ve KN kodu ibareleri esas alınarak belirlenmektedir. 39. Fasıl'ın 1 nolu Notu: Plastik maddelerin tanımı. 39. Fasıl'a ilişkin…",
+     "url": "https://ec.europa.eu/taxation_customs/dds2/ebti/ebti_details.jsp?showHeader=false&Lang=en&reference=FRBTIFR-BTI-2026-00329"
     },
     {
      "source": "us",
@@ -380,6 +1637,20 @@ window.BTI_DATA = {
      "url": "https://rulings.cbp.gov/ruling/N361677"
     },
     {
+     "source": "eu",
+     "source_label": "Avrupa Birliği (EBTI)",
+     "color": "#2E6BE6",
+     "flag": "🇫🇷",
+     "origin": "Fransa",
+     "hs": "57033100",
+     "hs4": "5703",
+     "ref": "FRBTIFR-BTI-2026-00330",
+     "date": "2026-06-22",
+     "title": "Dikdörtgen biçimli yer halısı; üst yüzeyi yeşil renkli tüylü (tafted) tekstil malzemeden, çim türünde olup hav iplikleri dokuya sahiptir. Hav ipleri, önceden mevcut bir kumaş destek üzerine yerleştirilmiş Polipropilen şerit demetlerinden (5 mm'nin altında) oluşmaktadır. Zeminde y…",
+     "gerekce": "Genel Yorum Kuralları 1 ve 6: Sınıflandırma, bölüm ve fasıl notları ile pozisyon, alt pozisyon ve KN kodu ibareleri esas alınarak belirlenmektedir. XI. Bölüm'e ait alt pozisyon Notu 2.B)b): Plastik malzemeden yapılmış al…",
+     "url": "https://ec.europa.eu/taxation_customs/dds2/ebti/ebti_details.jsp?showHeader=false&Lang=en&reference=FRBTIFR-BTI-2026-00330"
+    },
+    {
      "source": "us",
      "source_label": "Amerika (CBP)",
      "color": "#C0392B",
@@ -392,6 +1663,20 @@ window.BTI_DATA = {
      "title": "tarihli mektubunuzda 24 Mayıs 2026 , müşteriniz Dongguan Jinlintai Paper Products Co., Ltd. adına bağlayıcı bir tarife sınıflandırma kararı talep ettiniz. Karar, kalıplanmış kağıt hamuru ambalaj ekleri için talep edildi. Ürün bilgileri ve fotoğrafları incelememiz için gönderildi.…",
      "gerekce": "Kalıplanmış kağıt hamuru ambalaj ekleri için geçerli alt pozisyon, boyutuna veya şekline göre kesilmiş Diğer kağıt, karton, selüloz vatka ve selüloz elyaf ağlarını öngören Amerika Birleşik Devletleri Harmonize Tarife Tab…",
      "url": "https://rulings.cbp.gov/ruling/N361765"
+    },
+    {
+     "source": "eu",
+     "source_label": "Avrupa Birliği (EBTI)",
+     "color": "#2E6BE6",
+     "flag": "🇫🇷",
+     "origin": "Fransa",
+     "hs": "44219100",
+     "hs4": "4421",
+     "ref": "FRBTIFR-BTI-2026-00484",
+     "date": "2026-06-22",
+     "title": "Ağırlıklı olarak bambu ahşabından yapılmış, halı türünde kompozit ürün. Dikdörtgen biçimli ürün, dokusuz yüzeyden oluşan bir tekstil destek üzerine düz ve dikey olarak bir araya getirilmiş 4,8 mm genişliğinde bambu şeritlerden oluşmaktadır. Kenar bordürü polipropilenden yapılmışt…",
+     "gerekce": "Genel Yorum Kuralları 1 ve 6: Sınıflandırma, bölüm ve fasıl notları ile pozisyon, alt pozisyon ve KN kodu ibareleri esas alınarak belirlenmektedir. Genel Yorum Kuralı 2b): Karışık veya bileşik ürünlerin sınıflandırılması…",
+     "url": "https://ec.europa.eu/taxation_customs/dds2/ebti/ebti_details.jsp?showHeader=false&Lang=en&reference=FRBTIFR-BTI-2026-00484"
     },
     {
      "source": "us",
@@ -408,6 +1693,20 @@ window.BTI_DATA = {
      "url": "https://rulings.cbp.gov/ruling/N361835"
     },
     {
+     "source": "eu",
+     "source_label": "Avrupa Birliği (EBTI)",
+     "color": "#2E6BE6",
+     "flag": "🇨🇿",
+     "origin": "Çekya",
+     "hs": "73079311",
+     "hs4": "7307",
+     "ref": "CZBTI45/210337/2026-300000-ZI/01",
+     "date": "2026-06-22",
+     "title": "Sağlanan verilere göre, söz konusu ürün boru veya tüpler için bağlantı aksesuarları (fitingler) niteliğinde olup; kaynaklı alaşımsız çelik medya taşıyıcı boru ve kaynaklı segment dirsekten, sert poliüretan yalıtım köpüğünden ve polietilen kılıf borusundan oluşan ön izolasyonlu ko…",
+     "gerekce": "Kombine Nomenklatürün yorumuna ilişkin Genel Kurallar 1, 2 b), 3 b) ve 6. XV. Bölüme ait 2 a) ve 3 numaralı notlar. 72. Fasıla ait 1 d) numaralı not. HS'nin 7307 ve 7308 pozisyonlarına ilişkin HS Açıklayıcı Notları. Komb…",
+     "url": "https://ec.europa.eu/taxation_customs/dds2/ebti/ebti_details.jsp?showHeader=false&Lang=en&reference=CZBTI45%2F210337%2F2026-300000-ZI%2F01"
+    },
+    {
      "source": "us",
      "source_label": "Amerika (CBP)",
      "color": "#C0392B",
@@ -420,6 +1719,20 @@ window.BTI_DATA = {
      "title": "tarihli mektubunuzda 29 Mayıs 2026 , müşteriniz AviridiInc adına bir tarife sınıflandırma kararı talep ettiniz. Söz konusu mal, CIMA Pulpformer™ 1200 Duo Molded Fiberan endüstriyel üretim hattında tasarlanmış ve geliştirilmiş Paketleme Sistemi (“CIMA Pulpformer™”) olarak tanımlan…",
      "gerekce": "Bu belge için geçerli alt pozisyon, her türden kesme makineleri ve bunların parçaları da dahil olmak üzere, kağıt hamuru, kağıt veya karton hazırlamaya yönelik diğer makineleri sağlayan CIMA Pulpformer™ 1200 Duo Kalıplı …",
      "url": "https://rulings.cbp.gov/ruling/N361911"
+    },
+    {
+     "source": "eu",
+     "source_label": "Avrupa Birliği (EBTI)",
+     "color": "#2E6BE6",
+     "flag": "🇫🇷",
+     "origin": "Fransa",
+     "hs": "76109090",
+     "hs4": "7610",
+     "ref": "FRBTIFR-BTI-2026-01837",
+     "date": "2026-06-22",
+     "title": "Kamuya açık olmayan çatıların korunmasına yönelik, başta endüstriyel binalar veya toplu konutlar olmak üzere metal korkuluk elemanı oluşturan kalıplanmış bağlantı parçasıyla birlikte 35x1,2 borular için 90°'lik açı teşkil eden yedek parça. Ürün, diğer elemanlarla geçmeli bağlantı…",
+     "gerekce": "Genel Kurallar 1 ve 6: sınıflandırma, bölüm ve fasıl notlarının yanı sıra pozisyon, alt pozisyon ve KN kodu metnine göre belirlenmektedir. XV. Bölümün 3 numaralı Notu (adi metalleri tanımlayan). KN'nin 7610 tarife pozisy…",
+     "url": "https://ec.europa.eu/taxation_customs/dds2/ebti/ebti_details.jsp?showHeader=false&Lang=en&reference=FRBTIFR-BTI-2026-01837"
     },
     {
      "source": "us",
@@ -436,6 +1749,20 @@ window.BTI_DATA = {
      "url": "https://rulings.cbp.gov/ruling/N361989"
     },
     {
+     "source": "eu",
+     "source_label": "Avrupa Birliği (EBTI)",
+     "color": "#2E6BE6",
+     "flag": "🇫🇷",
+     "origin": "Fransa",
+     "hs": "85184000",
+     "hs4": "8518",
+     "ref": "FRBTIFR-BTI-2026-02403",
+     "date": "2026-06-22",
+     "title": "İki kanallı 240W ve iki kanallı 600W'lık ses sistemi için güç amplifikatörü. Her biri ön panelde bağımsız bölge yönetimi için ayrı bir ses düzeyi ayar potansiyometresi bulunan, Phoenix tipi klemenslerle donatılmış dört asimetrik/simetrik ses girişine sahiptir. Aynı zamanda 100V h…",
+     "gerekce": "Genel Kurallar 1 ve 6: sınıflandırma, bölüm ve fasıl notlarının yanı sıra pozisyon, alt pozisyon ve KN kodu metnine göre belirlenmektedir. XVI. Bölümün 3 numaralı Notu: aksi belirtilmedikçe, birlikte çalışmak üzere tasar…",
+     "url": "https://ec.europa.eu/taxation_customs/dds2/ebti/ebti_details.jsp?showHeader=false&Lang=en&reference=FRBTIFR-BTI-2026-02403"
+    },
+    {
      "source": "us",
      "source_label": "Amerika (CBP)",
      "color": "#C0392B",
@@ -448,6 +1775,20 @@ window.BTI_DATA = {
      "title": "tarihli mektubunuzda 3 Haziran 2026 , tarife sınıflandırma kararı talep ettiniz. İlgili öğe CollisionEye®arkadan çarpışma uyarı sistemi olarak anılmaktadır. Bu sistem dört zorunlu bileşenden oluşan bir videodan oluşur: nesne algılama için bir kamera, olası tehlikeleri işleyip tes…",
      "gerekce": "CollisionEye® arkadan çarpışma uyarı sistemi 530.80.00 için geçerli alt başlık, “demiryolları, tramvay hatları, metrolar, yollar, iç su yolları, park tesisleri, liman tesisleri veya havaalanları için trafik kontrol ekipm…",
      "url": "https://rulings.cbp.gov/ruling/N362040"
+    },
+    {
+     "source": "eu",
+     "source_label": "Avrupa Birliği (EBTI)",
+     "color": "#2E6BE6",
+     "flag": "🇫🇷",
+     "origin": "Fransa",
+     "hs": "85182200",
+     "hs4": "8518",
+     "ref": "FRBTIFR-BTI-2026-02641",
+     "date": "2026-06-22",
+     "title": "Aynı kasaya yerleştirilmiş çoklu hoparlörler. İki hoparlör, sesi uzun mesafeye yansıtmayı sağlayan bir horn (ses hunisi) ile çevrilmiştir. Ürün, endüstriyel ortamlarda veya dış mekânlarda ses yükseltme amacıyla tasarlanmıştır (IP66 koruma sınıfı). Boyutlar (milimetre cinsinden): …",
+     "gerekce": "Genel Kurallar 1 ve 6: sınıflandırma, bölüm ve fasıl notlarının yanı sıra pozisyon, alt pozisyon ve KN kodu metnine göre belirlenmektedir. 8518 tarife pozisyonuna ait ATÖK'ün B paragrafı: Kullanım amaçlarına göre hoparlö…",
+     "url": "https://ec.europa.eu/taxation_customs/dds2/ebti/ebti_details.jsp?showHeader=false&Lang=en&reference=FRBTIFR-BTI-2026-02641"
     },
     {
      "source": "us",
@@ -464,6 +1805,20 @@ window.BTI_DATA = {
      "url": "https://rulings.cbp.gov/ruling/N361446"
     },
     {
+     "source": "eu",
+     "source_label": "Avrupa Birliği (EBTI)",
+     "color": "#2E6BE6",
+     "flag": "🇫🇷",
+     "origin": "Fransa",
+     "hs": "85181000",
+     "hs4": "8518",
+     "ref": "FRBTIFR-BTI-2026-02642",
+     "date": "2026-06-22",
+     "title": "Aşağıdaki bileşenlerden oluşan eksiksiz bir HF True Diversity mikrofon seti: bir True Diversity alıcı, kardioid yönlülükte dinamik kapsüle sahip kablosuz el mikrofonu, bir cep verici, yönlülüğü tümsel (omnidireksiyonel) olan bir yaka mikrofonu, kardioid yönlülükte bir kafa bandı …",
+     "gerekce": "Genel Kurallar 1 ve 6: sınıflandırma, bölüm ve fasıl notlarının yanı sıra pozisyon, alt pozisyon ve KN kodu metnine göre belirlenmektedir. 3 b) Genel Kuralı: karışık, bileşik eşyalar veya setler, kendilerine esas niteliğ…",
+     "url": "https://ec.europa.eu/taxation_customs/dds2/ebti/ebti_details.jsp?showHeader=false&Lang=en&reference=FRBTIFR-BTI-2026-02642"
+    },
+    {
      "source": "us",
      "source_label": "Amerika (CBP)",
      "color": "#C0392B",
@@ -478,6 +1833,20 @@ window.BTI_DATA = {
      "url": "https://rulings.cbp.gov/ruling/N361582"
     },
     {
+     "source": "eu",
+     "source_label": "Avrupa Birliği (EBTI)",
+     "color": "#2E6BE6",
+     "flag": "🇫🇷",
+     "origin": "Fransa",
+     "hs": "85182100",
+     "hs4": "8518",
+     "ref": "FRBTIFR-BTI-2026-02643",
+     "date": "2026-06-22",
+     "title": "Kasasına monte edilmiş tek bir hoparlör. Ürün, süpermarketler, tren garları veya havalimanlarının giriş salonları gibi tavan yüksekliği fazla olan mekânların ses yükseltmesini sağlamak amacıyla askıya alınarak (çelik kablo ile) kullanılmak üzere tasarlanmıştır. Boyutlar (milimetr…",
+     "gerekce": "Genel Kurallar 1 ve 6. KN kodları 8518, 8518 21, 8518 21 00. 8518 tarife pozisyonuna ait ATÖK'ün B. Paragrafı, 1) bendi; elektromanyetik veya elektrodynamik hoparlörleri kapsamaktadır. Elektromanvetik hoparlörler, alçak …",
+     "url": "https://ec.europa.eu/taxation_customs/dds2/ebti/ebti_details.jsp?showHeader=false&Lang=en&reference=FRBTIFR-BTI-2026-02643"
+    },
+    {
      "source": "us",
      "source_label": "Amerika (CBP)",
      "color": "#C0392B",
@@ -490,6 +1859,160 @@ window.BTI_DATA = {
      "title": "tarihli mektubunuzda 22 Mayıs 2026 , tarife sınıflandırma kararı talep etmişsiniz. Söz konusu ürün, düğün buketinden elde edilen, korunmuş çiçeklerden oluşan, el işçiliği ile hazırlanmış benzersiz dekoratif duvar sanatından oluşmaktadır. Ana bileşenler, korunmuş doğal çiçekler, e…",
      "gerekce": "Çerçeveli Korunmuş Çiçek Buketi için geçerli alt pozisyon, Amerika Birleşik Devletleri Uyumlaştırılmış Tarife Tablosu 0603.90.0000 olacaktır ve bu pozisyon şunları öngörmektedir: \"Buketler için veya süs amaçlı olarak uyg…",
      "url": "https://rulings.cbp.gov/ruling/N361717"
+    },
+    {
+     "source": "eu",
+     "source_label": "Avrupa Birliği (EBTI)",
+     "color": "#2E6BE6",
+     "flag": "🇫🇷",
+     "origin": "Fransa",
+     "hs": "85366990",
+     "hs4": "8536",
+     "ref": "FRBTIFR-BTI-2026-02698",
+     "date": "2026-06-22",
+     "title": "Ses/görüntü bağlantısı için dişi girişli ve erkek çıkışlı açılı HDMI adaptör. Ürünün maksimum çalışma gerilimi 1000V'un altındadır. Bileşim: Kontak: altın. Gövde: siyah plastik.",
+     "gerekce": "Genel Kurallar 1 ve 6: sınıflandırma, bölüm ve fasıl notlarının yanı sıra pozisyon, alt pozisyon ve KN kodu metnine göre belirlenmektedir. 8536 pozisyonuna ait ATÖK; gerilimi 1000V'u aşmayan elektriksel devrelerin kesilm…",
+     "url": "https://ec.europa.eu/taxation_customs/dds2/ebti/ebti_details.jsp?showHeader=false&Lang=en&reference=FRBTIFR-BTI-2026-02698"
+    },
+    {
+     "source": "eu",
+     "source_label": "Avrupa Birliği (EBTI)",
+     "color": "#2E6BE6",
+     "flag": "🇷🇴",
+     "origin": "Romanya",
+     "hs": "22029919",
+     "hs4": "2202",
+     "ref": "ROBTI2026-005410",
+     "date": "2026-06-22",
+     "title": "Başvuru sahibi tarafından sağlanan bilgiler ve veri tabanında yayımlanan görsellere göre, ürün aşağıdaki bileşenlerden oluşan sıvı bir preparattır: Bitkisel gliserin; Tıbbi bitkilerden elde edilen sulu özütler: Çam tomurcuğu/Pinus sylvestris; Sinirotu yaprakları/Plantago sp.; Kek…",
+     "gerekce": "Kombine Nomenklatürün 1 ve 6 numaralı Genel Yorum Kuralları. Kombine Nomenklatürün 30. Fasılına ait 1 numaralı fasıl notu – 30. Fasılda sınıflandırmanın dışlanması; Kombine Nomenklatürün 22. Fasılına ait 3 numaralı fasıl…",
+     "url": "https://ec.europa.eu/taxation_customs/dds2/ebti/ebti_details.jsp?showHeader=false&Lang=en&reference=ROBTI2026-005410"
+    },
+    {
+     "source": "eu",
+     "source_label": "Avrupa Birliği (EBTI)",
+     "color": "#2E6BE6",
+     "flag": "🇷🇴",
+     "origin": "Romanya",
+     "hs": "22029919",
+     "hs4": "2202",
+     "ref": "ROBTI2026-005408",
+     "date": "2026-06-22",
+     "title": "Başvuru sahibi tarafından sağlanan bilgilere ve veri tabanında yayımlanan görsellere göre ürün, aşağıdaki bileşenlerden oluşan sıvı bir müstahzarı temsil etmektedir: Arı balı; Tıbbi bitkilerden elde edilen sulu ekstraktlar: Ekinezya/ Echinacea purpurea toprak üstü aksamı; Kekik/ …",
+     "gerekce": "Kombine Nomenklatür'ün 1. ve 6. Genel Yorum Kuralları. Kombine Nomenklatür'ün 30. Faslına ait 1(a) no.lu Fasıl Notu – 30. Fasıl kapsamında sınıflandırmanın dışlanması; Kombine Nomenklatür'ün 22. Faslına ait 3 no.lu Fasıl…",
+     "url": "https://ec.europa.eu/taxation_customs/dds2/ebti/ebti_details.jsp?showHeader=false&Lang=en&reference=ROBTI2026-005408"
+    },
+    {
+     "source": "eu",
+     "source_label": "Avrupa Birliği (EBTI)",
+     "color": "#2E6BE6",
+     "flag": "🇫🇷",
+     "origin": "Fransa",
+     "hs": "85447000",
+     "hs4": "8544",
+     "ref": "FRBTIFR-BTI-2026-02699",
+     "date": "2026-06-22",
+     "title": "OM3 multimod optik fiber kablo (bağlantı elemanı ile birlikte), PUR (poliüretan) kılıflı, Pigtail ODC olarak adlandırılmaktadır. Pigtail'ler çeşitli uzunluklarda (10, 20, 35, 50, 80 ve 120 m) temin edilebilmekte olup telekomünikasyon ekipmanları, demir yolu sinyal kontrol ekipman…",
+     "gerekce": "1. ve 6. Genel Yorum Kuralları: sınıflandırma, fasıl ve bölüm notları ile tarife pozisyonu, alt pozisyon ve KN kodunun ifadesiyle belirlenmektedir. 8536 tarife pozisyonuna ait Uyumlaştırılmış Sistem İzahnamesinin Dışlama…",
+     "url": "https://ec.europa.eu/taxation_customs/dds2/ebti/ebti_details.jsp?showHeader=false&Lang=en&reference=FRBTIFR-BTI-2026-02699"
+    },
+    {
+     "source": "eu",
+     "source_label": "Avrupa Birliği (EBTI)",
+     "color": "#2E6BE6",
+     "flag": "🇨🇿",
+     "origin": "Çekya",
+     "hs": "73079319",
+     "hs4": "7307",
+     "ref": "CZBTI45/210337/2026-300000-ZI/02",
+     "date": "2026-06-22",
+     "title": "Sağlanan verilere göre ürün, boru veya tüpler için bağlantı aksesuarı (fitting) niteliğinde olup kaynaklı alaşımsız çelik medya taşıyıcı borulardan ve kaynaklı segment dirseklerden, sert poliüretan yalıtım köpüğünden ve polietilen dış kılıf borusundan imal edilmiş, önceden yalıtı…",
+     "gerekce": "Kombine Nomenklatürün yorumlanmasına ilişkin 1., 2(b), 3(b) ve 6. Genel Yorum Kuralları. XV. Bölüme ait 2(a) ve 3 no.lu Notlar. 72. Fasla ait 1(d) no.lu Not. 7307 ve 7308 pozisyonlarına ilişkin Uyumlaştırılmış Sistem İza…",
+     "url": "https://ec.europa.eu/taxation_customs/dds2/ebti/ebti_details.jsp?showHeader=false&Lang=en&reference=CZBTI45%2F210337%2F2026-300000-ZI%2F02"
+    },
+    {
+     "source": "eu",
+     "source_label": "Avrupa Birliği (EBTI)",
+     "color": "#2E6BE6",
+     "flag": "🇨🇿",
+     "origin": "Çekya",
+     "hs": "73079311",
+     "hs4": "7307",
+     "ref": "CZBTI45/210353/2026-300000-ZI/01",
+     "date": "2026-06-22",
+     "title": "Sağlanan verilere göre ürün, boru veya tüpler için bağlantı aksesuarı (fitting) niteliğinde olup kaynaklı alaşımsız çelik medya taşıyıcı borulardan ve dikişsiz segment dirseklerden, sert poliüretan yalıtım köpüğünden ve polietilen dış kılıf borusundan imal edilmiş, önceden yalıtı…",
+     "gerekce": "Kombine Nomenklatürün yorumlanmasına ilişkin 1., 2(b), 3(b) ve 6. Genel Yorum Kuralları. XV. Bölüme ait 2(a) ve 3 no.lu Notlar. 72. Fasla ait 1(d) no.lu Not. 7307 ve 7308 pozisyonlarına ilişkin Uyumlaştırılmış Sistem İza…",
+     "url": "https://ec.europa.eu/taxation_customs/dds2/ebti/ebti_details.jsp?showHeader=false&Lang=en&reference=CZBTI45%2F210353%2F2026-300000-ZI%2F01"
+    },
+    {
+     "source": "eu",
+     "source_label": "Avrupa Birliği (EBTI)",
+     "color": "#2E6BE6",
+     "flag": "🇨🇿",
+     "origin": "Çekya",
+     "hs": "73079319",
+     "hs4": "7307",
+     "ref": "CZBTI45/210353/2026-300000-ZI/02",
+     "date": "2026-06-22",
+     "title": "Sağlanan verilere göre ürün, boru veya tüpler için bağlantı aksesuarı (fitting) niteliğinde olup kaynaklı alaşımsız çelik medya taşıyıcı borulardan ve dikişsiz segment dirseklerden, sert poliüretan yalıtım köpüğünden ve polietilen dış kılıf borusundan imal edilmiş, önceden yalıtı…",
+     "gerekce": "Kombine Nomenklatürün yorumlanmasına ilişkin 1., 2(b), 3(b) ve 6. Genel Yorum Kuralları. XV. Bölüme ait 2(a) ve 3 no.lu Notlar. 72. Fasla ait 1(d) no.lu Not. 7307 ve 7308 pozisyonlarına ilişkin Uyumlaştırılmış Sistem İza…",
+     "url": "https://ec.europa.eu/taxation_customs/dds2/ebti/ebti_details.jsp?showHeader=false&Lang=en&reference=CZBTI45%2F210353%2F2026-300000-ZI%2F02"
+    },
+    {
+     "source": "eu",
+     "source_label": "Avrupa Birliği (EBTI)",
+     "color": "#2E6BE6",
+     "flag": "🇨🇿",
+     "origin": "Çekya",
+     "hs": "73079311",
+     "hs4": "7307",
+     "ref": "CZBTI45/210356/2026-300000-ZI/01",
+     "date": "2026-06-22",
+     "title": "Sağlanan verilere göre ürün, boru veya tüpler için bağlantı aksesuarı (fitting) niteliğinde olup kaynaklı alaşımsız çelik medya taşıyıcı borulardan ve dikişsiz segment dirseklerden, sert poliüretan yalıtım köpüğünden ve polietilen dış kılıf borusundan imal edilmiş, önceden yalıtı…",
+     "gerekce": "Kombine Nomenklatürün yorumlanmasına ilişkin 1., 2(b), 3(b) ve 6. Genel Yorum Kuralları. XV. Bölüme ait 2(a) ve 3 no.lu Notlar. 72. Fasla ait 1(d) no.lu Not. 7307 ve 7308 pozisyonlarına ilişkin Uyumlaştırılmış Sistem İza…",
+     "url": "https://ec.europa.eu/taxation_customs/dds2/ebti/ebti_details.jsp?showHeader=false&Lang=en&reference=CZBTI45%2F210356%2F2026-300000-ZI%2F01"
+    },
+    {
+     "source": "eu",
+     "source_label": "Avrupa Birliği (EBTI)",
+     "color": "#2E6BE6",
+     "flag": "🇫🇷",
+     "origin": "Fransa",
+     "hs": "84818011",
+     "hs4": "8481",
+     "ref": "FRBTIFR-BTI-2026-01987",
+     "date": "2026-06-22",
+     "title": "Eşya, siyah ve gümüş renkli, 18 litrelik haznesi, duş başlığı, karıştırma musluğu ve ayak yıkama aparatı bulunan bir güneş enerjili duş ürünüdür. Boru: PVC. Duş başlığı: ABS (plastik). Karıştırma musluğu: çinko alaşımı. Ayak yıkama aparatı: ABS (plastik). Gövde: PVC. Boyutlar: Yü…",
+     "gerekce": "1. ve 6. Genel Yorum Kuralları: sınıflandırma, fasıl ve bölüm notları ile tarife pozisyonu, alt pozisyon ve KN kodunun ifadesiyle belirlenmektedir. 2(a) Genel Yorum Kuralı: eksik veya sökülerek teslim edilen eşyalar, esa…",
+     "url": "https://ec.europa.eu/taxation_customs/dds2/ebti/ebti_details.jsp?showHeader=false&Lang=en&reference=FRBTIFR-BTI-2026-01987"
+    },
+    {
+     "source": "eu",
+     "source_label": "Avrupa Birliği (EBTI)",
+     "color": "#2E6BE6",
+     "flag": "🇫🇷",
+     "origin": "Fransa",
+     "hs": "90191090",
+     "hs4": "9019",
+     "ref": "FRBTIFR-BTI-2026-01992",
+     "date": "2026-06-22",
+     "title": "Eşya, 90 × 90 × 225 cm boyutlarında tam bir duş kabini olup ithalatta sökülerek sunulmaktadır. Duş kabini aşağıdaki unsurlardan oluşmaktadır: şeffaf temperli camdan yapılmış sürgülü kapı (4 mm kalınlık); şeffaf temperli camdan yapılmış ön sabit panel (4 mm kalınlık); bambu rengin…",
+     "gerekce": "1. ve 6. Genel Yorum Kuralları: sınıflandırma, fasıl ve bölüm notları ile tarife pozisyonu, alt pozisyon ve KN kodunun ifadesiyle belirlenmektedir. 2(a) Genel Yorum Kuralı: eksik veya sökülerek teslim edilen eşyalar, esa…",
+     "url": "https://ec.europa.eu/taxation_customs/dds2/ebti/ebti_details.jsp?showHeader=false&Lang=en&reference=FRBTIFR-BTI-2026-01992"
+    },
+    {
+     "source": "eu",
+     "source_label": "Avrupa Birliği (EBTI)",
+     "color": "#2E6BE6",
+     "flag": "🇨🇿",
+     "origin": "Çekya",
+     "hs": "73079319",
+     "hs4": "7307",
+     "ref": "CZBTI45/210356/2026-300000-ZI/02",
+     "date": "2026-06-22",
+     "title": "Sağlanan bilgilere göre söz konusu ürün, boru veya tüpler için bağlantı aksesuarıdır (fitting) — önceden izole edilmiş kompozit dirsek; taşıyıcı ortam kaynaklı alaşımsız çelik boru ile dikişsiz segment-dirsekten, sert poliüretan yalıtım köpüğünden ve polietilen kılıf borudan imal…",
+     "gerekce": "Birleşik Nomenclatür'ün yorumlanmasına ilişkin 1, 2(b), 3(b) ve 6 numaralı Genel Yorum Kuralları. XV. Fasıla ilişkin 2(a) ve 3 numaralı notlar. 72. Faslın 1(d) numaralı notu. HS Açıklayıcı Notların 7307 ve 7308 pozisyonl…",
+     "url": "https://ec.europa.eu/taxation_customs/dds2/ebti/ebti_details.jsp?showHeader=false&Lang=en&reference=CZBTI45%2F210356%2F2026-300000-ZI%2F02"
     }
    ]
   },
@@ -618,11 +2141,25 @@ window.BTI_DATA = {
   {
    "date": "2026-06-19",
    "date_tr": "19 Haziran 2026",
-   "count": 52,
+   "count": 53,
    "sources": [
     "eu"
    ],
    "decisions": [
+    {
+     "source": "eu",
+     "source_label": "Avrupa Birliği (EBTI)",
+     "color": "#2E6BE6",
+     "flag": "🇧🇬",
+     "origin": "Bulgaristan",
+     "hs": "21069092",
+     "hs4": "2106",
+     "ref": "BGBTIBG009999-2026-BTI41",
+     "date": "2026-06-19",
+     "title": "Doz formunda gıda takviyesi — ayrı ayrı ambalajlanmış, toplam 60 adet içeren ortak tüketici ambalajında sunulan jelatin bazlı şekerleme (gummy candy). Jelatin şekerlemeler; şilajit, çeşitli bitki özütleri, pektin, tatlandırıcı olarak stevia yaprağı özütü, su ve doğal aroma maddes…",
+     "gerekce": "AB Birleşik Nomenclature (KN) Genel Yorum Kurallarının 1. ve 6. Kuralları. KN'nin 21. Faslına ait 5 Numaralı Ek Not. 2106 pozisyonu için Armonize Sistem Eşya Tanımı ve Kodlama Sistemine ait İzah Notları.",
+     "url": "https://ec.europa.eu/taxation_customs/dds2/ebti/ebti_details.jsp?showHeader=false&Lang=en&reference=BGBTIBG009999-2026-BTI41"
+    },
     {
      "source": "eu",
      "source_label": "Avrupa Birliği (EBTI)",
@@ -633,8 +2170,8 @@ window.BTI_DATA = {
      "hs4": "8544",
      "ref": "ROBTI2026-005429",
      "date": "2026-06-19",
-     "title": "Ürün, yüksek hızlı veri aktarımı için tasarlanmış PNI marka sertifikalı patch cord (muflı kablo) tipi bir ağ kablosudur. Standart: CAT6 (1 Gbps'a kadar hızları destekler). Ekranlama: UTP (Unshielded Twisted Pair), ekransız bükümlü çift kablo. Konnektörler: Her iki ucunda standart…",
-     "gerekce": "Kombine Nomenklatür'ün 1 ve 6 numaralı Genel Yorum Kuralları. 8544 pozisyonuna ilişkin NESA.",
+     "title": "Ürün, yüksek hızlı veri transferi için tasarlanmış PNI marka sertikalı ağ kablosu (patch cord — hazır fişli kablo) türünde bir ağ kablosudur. Standart: CAT6 (1 Gbps'ye kadar hızları destekler). Ekranlama: UTP (Korumasız Bükümlü Çift — Unshielded Twisted Pair), korumasız bükümlü ç…",
+     "gerekce": "Birleşik Nomenclatür'ün yorumlanmasına ilişkin 1 ve 6 numaralı Genel Yorum Kuralları. 8544 pozisyonuna ilişkin NESA.",
      "url": "https://ec.europa.eu/taxation_customs/dds2/ebti/ebti_details.jsp?showHeader=false&Lang=en&reference=ROBTI2026-005429"
     },
     {
@@ -647,8 +2184,8 @@ window.BTI_DATA = {
      "hs4": "8517",
      "ref": "ROBTI2026-005431",
      "date": "2026-06-19",
-     "title": "Ürün, PNI Escort HP 62 CB telsiz istasyonu için (RO BTI 2023/004116 sayılı ito kararına konu olan) bir pil yuvası aksesuarıdır. Bu pil yuvası, araçta kullanılan sabit telsiz alıcı-verici istasyonunu, araç dışında da kullanılabilen taşınabilir bir telsiz istasyonuna dönüştürmekted…",
-     "gerekce": "Kombine Nomenklatür'ün 1 ve 6 numaralı Genel Yorum Kuralları.",
+     "title": "Ürün, PNI Escort HP 62 CB radyo istasyonuna (RO BTI 2023/004116 sayılı ITO kararının konusu olan) yönelik bir pil yuvasıdır. Bu pil yuvası, sabit bir araç telsizini araç dışında kullanılabilen taşınabilir bir telsiz istasyonuna dönüştürmektedir. Yuva, istasyona kaydırılarak takıl…",
+     "gerekce": "Birleşik Nomenclatür'ün yorumlanmasına ilişkin 1 ve 6 numaralı Genel Yorum Kuralları.",
      "url": "https://ec.europa.eu/taxation_customs/dds2/ebti/ebti_details.jsp?showHeader=false&Lang=en&reference=ROBTI2026-005431"
     },
     {
@@ -3414,11 +4951,356 @@ window.BTI_DATA = {
    ]
   },
   {
+   "date": "2026-06-12",
+   "date_tr": "12 Haziran 2026",
+   "count": 2,
+   "sources": [
+    "tr"
+   ],
+   "decisions": [
+    {
+     "source": "tr",
+     "source_label": "Türkiye (BTB)",
+     "color": "#E30A17",
+     "flag": "🇹🇷",
+     "origin": "Türkiye",
+     "hs": "841459259000",
+     "hs4": "8414",
+     "ref": "TR330000260021",
+     "date": "2026-06-12",
+     "title": "REMARK MARKA 24V FAN: Remark marka, RFM1190 model, motorlu kara taşıtlarında kullanılan aksiyal fan.",
+     "gerekce": "a. Genel yorum kuralları (1), ve (6) maddeleri. b. Türk Gümrük Tarife Cetvelinin 8414 Tarife Pozisyonu Açıklama Notları. c. Gümrükler Genel Müdürlüğünün 2019/32 sayılı Genelgesi. d.Mersin Üniversitesi Mühendislik Fakülte…",
+     "url": "https://uygulama.gtb.gov.tr/BTBBasvuru/BtbWebArama"
+    },
+    {
+     "source": "tr",
+     "source_label": "Türkiye (BTB)",
+     "color": "#E30A17",
+     "flag": "🇹🇷",
+     "origin": "Türkiye",
+     "hs": "841459359000",
+     "hs4": "8414",
+     "ref": "TR330000260022",
+     "date": "2026-06-12",
+     "title": "REMARK MARKA 12V KALORİFER MOTORU: Remark marka, RKM625 model, motorlu kara taşıtlarında sıcak veya soğuk havanın araç içerisine yönlendirilerek üflenmesini sağlayan santrifüjlü fan ünitesidir.",
+     "gerekce": "a. Genel yorum kuralları (1), ve (6) maddeleri. b. Türk Gümrük Tarife Cetvelinin 8414 Tarife Pozisyonu Açıklama Notları. c. Gümrükler Genel Müdürlüğünün 2019/32 sayılı Genelgesi. d.Mersin Üniversitesi Mühendislik Fakülte…",
+     "url": "https://uygulama.gtb.gov.tr/BTBBasvuru/BtbWebArama"
+    }
+   ]
+  },
+  {
+   "date": "2026-06-11",
+   "date_tr": "11 Haziran 2026",
+   "count": 10,
+   "sources": [
+    "tr"
+   ],
+   "decisions": [
+    {
+     "source": "tr",
+     "source_label": "Türkiye (BTB)",
+     "color": "#E30A17",
+     "flag": "🇹🇷",
+     "origin": "Türkiye",
+     "hs": "420299009000",
+     "hs4": "4202",
+     "ref": "TR330000260016",
+     "date": "2026-06-11",
+     "title": "AMBALAJ KUTUSU: Üzerinde Finmanlife marka ibaresi bulunan, kartondan yapılmış iskelete sahip, karton muhafaza kutusu.",
+     "gerekce": "a. Genel yorum kuralları (1), (3-a) ve (6) maddeleri. b. Türk Gümrük Tarife Cetvelinin 4202 Tarife Pozisyonu Açıklama Notları.",
+     "url": "https://uygulama.gtb.gov.tr/BTBBasvuru/BtbWebArama"
+    },
+    {
+     "source": "tr",
+     "source_label": "Türkiye (BTB)",
+     "color": "#E30A17",
+     "flag": "🇹🇷",
+     "origin": "Türkiye",
+     "hs": "330749000000",
+     "hs4": "3307",
+     "ref": "TR330000260020",
+     "date": "2026-06-11",
+     "title": "ODA PARFÜMÜ: Finmanlife marka, 6 ml edatında oda parfümü.",
+     "gerekce": "a. Genel yorum kuralları (1), ve (6) maddeleri. b. Türk Gümrük Tarife Cetvelinin 3307 Tarife Pozisyonu Açıklama Notları.",
+     "url": "https://uygulama.gtb.gov.tr/BTBBasvuru/BtbWebArama"
+    },
+    {
+     "source": "tr",
+     "source_label": "Türkiye (BTB)",
+     "color": "#E30A17",
+     "flag": "🇹🇷",
+     "origin": "Türkiye",
+     "hs": "330749000000",
+     "hs4": "3307",
+     "ref": "TR330000260014",
+     "date": "2026-06-11",
+     "title": "ODA KOKUSU: Finmanlife marka, cam şişe içerisinde bulunan, yanında ahşap çubukları olan, oda kokusu.",
+     "gerekce": "a. Genel yorum kuralları (1), ve (6) maddeleri. b. Türk Gümrük Tarife Cetvelinin 3307 Tarife Pozisyonu Açıklama Notları.",
+     "url": "https://uygulama.gtb.gov.tr/BTBBasvuru/BtbWebArama"
+    },
+    {
+     "source": "tr",
+     "source_label": "Türkiye (BTB)",
+     "color": "#E30A17",
+     "flag": "🇹🇷",
+     "origin": "Türkiye",
+     "hs": "392390000000",
+     "hs4": "3923",
+     "ref": "TR330000260013",
+     "date": "2026-06-11",
+     "title": "MUHAFAZA SÜNGERİ: Özel tasarlanmış (eşyaya özel düzenlenen), karton muhafaza içinde seti sabit tutmak için şekil verilmiş sünger.",
+     "gerekce": "a. Genel yorum kuralları (1), ve (6) maddeleri. b. Türk Gümrük Tarife Cetvelinin 3923 Tarife Pozisyonu Açıklama Notları. c. Mersin Laboratuvar Müdürlüğünün 07.05.2026 tarih ve 3326BTB0454 sayılı Analiz Raporu.",
+     "url": "https://uygulama.gtb.gov.tr/BTBBasvuru/BtbWebArama"
+    },
+    {
+     "source": "tr",
+     "source_label": "Türkiye (BTB)",
+     "color": "#E30A17",
+     "flag": "🇹🇷",
+     "origin": "Türkiye",
+     "hs": "392690979029",
+     "hs4": "3926",
+     "ref": "TR330000260017",
+     "date": "2026-06-11",
+     "title": "PLASTİK ALTLIK: İç tabanına plastikten mamul, suni deri yapıştırılmış dekoratif plastikten tepsi.",
+     "gerekce": "a. Genel yorum kuralları (1), ve (6) maddeleri. b. Türk Gümrük Tarife Cetvelinin 3926 Tarife Pozisyonu Açıklama Notları. c. Mersin Laboratuvar Müdürlüğünün 14.05.2026 tarih ve 122228106 sayılı yazısı eki rapor.",
+     "url": "https://uygulama.gtb.gov.tr/BTBBasvuru/BtbWebArama"
+    },
+    {
+     "source": "tr",
+     "source_label": "Türkiye (BTB)",
+     "color": "#E30A17",
+     "flag": "🇹🇷",
+     "origin": "Türkiye",
+     "hs": "847989979019",
+     "hs4": "8479",
+     "ref": "TR330000260018",
+     "date": "2026-06-11",
+     "title": "CAMDAN MAMUL SIVI SABUNLUK: Finmanlife marka, içi boş, pompalı, camdan mamul sıvı sabunluk cinsi eşya.",
+     "gerekce": "a. Genel yorum kuralları (1) ve (6) maddeleri. b. Türk Gümrük Tarife Cetvelinin 84. FasılNotları. c. Türk Gümrük Tarife Cetvelinin 8479 Tarife Pozisyonu Açıklama Notları.",
+     "url": "https://uygulama.gtb.gov.tr/BTBBasvuru/BtbWebArama"
+    },
+    {
+     "source": "tr",
+     "source_label": "Türkiye (BTB)",
+     "color": "#E30A17",
+     "flag": "🇹🇷",
+     "origin": "Türkiye",
+     "hs": "340600008000",
+     "hs4": "3406",
+     "ref": "TR330000260019",
+     "date": "2026-06-11",
+     "title": "CAM MALZEME İÇİNE YERLEŞTİRİLMİŞ KOKULU MUM: Camdan mamul olan, üst kısmı cam kapaktan oluşan, içinde kokulu mum bulunan eşya.",
+     "gerekce": "a. Genel yorum kuralları (1), ve (6) maddeleri. b. Türk Gümrük Tarife Cetvelinin 3406 Tarife Pozisyonu Açıklama Notları. c. Mersin Laboratuvar Müdürlüğünün 07.05.2026 tarih ve 3326BTB0452 sayılı Analiz Raporu.",
+     "url": "https://uygulama.gtb.gov.tr/BTBBasvuru/BtbWebArama"
+    },
+    {
+     "source": "tr",
+     "source_label": "Türkiye (BTB)",
+     "color": "#E30A17",
+     "flag": "🇹🇷",
+     "origin": "Türkiye",
+     "hs": "481940001900",
+     "hs4": "4819",
+     "ref": "TR330000260015",
+     "date": "2026-06-11",
+     "title": "KARTON TORBA: Finmanlife marka, banyo setinin yerleştirildiği kutuyu taşımak amacıyla tasarlanmış karton taşıma torbası.",
+     "gerekce": "a. Genel yorum kuralları (1), ve (6) maddeleri. b. Türk Gümrük Tarife Cetvelinin 4819 Tarife Pozisyonu Açıklama Notları.",
+     "url": "https://uygulama.gtb.gov.tr/BTBBasvuru/BtbWebArama"
+    },
+    {
+     "source": "tr",
+     "source_label": "Türkiye (BTB)",
+     "color": "#E30A17",
+     "flag": "🇹🇷",
+     "origin": "Türkiye",
+     "hs": "848180190009",
+     "hs4": "8481",
+     "ref": "TR350000260028",
+     "date": "2026-06-11",
+     "title": "\"AEZ-05 Model Su Arıtma Cihazı Musluğu. Evlerde, iş yerlerinde vb. yerlerde içme suyu elde etmek için kullanılan filtre sistemleriyle kullanılan, musluğun eviyeye mevcut musluk gibi monte edilen, işleme şeklinin normal musluklardan farklı olmayan ve her ne kadar filtreden gelen h…",
+     "gerekce": "\"Türk Gümrük Tarife Cetveli İzahnamesi’nin 8481 Tarife Pozisyonu Açıklama Notları, Bakanlığımız Gümrükler Genel Müdürlüğünün 03.05.2024/96241452 tarihli/sayılı yazıları, Tarifenin Yorumuna İlişkin Genel Kurallar 1, 6 \"",
+     "url": "https://uygulama.gtb.gov.tr/BTBBasvuru/BtbWebArama"
+    },
+    {
+     "source": "tr",
+     "source_label": "Türkiye (BTB)",
+     "color": "#E30A17",
+     "flag": "🇹🇷",
+     "origin": "Türkiye",
+     "hs": "848180190009",
+     "hs4": "8481",
+     "ref": "TR350000260029",
+     "date": "2026-06-11",
+     "title": "\"AEZ-24 Model Su Arıtma Cihazı Musluğu. Evlerde, iş yerlerinde vb. yerlerde içme suyu elde etmek için kullanılan filtre sistemleriyle kullanılan, musluğun eviyeye mevcut musluk gibi monte edilen, işleme şeklinin normal musluklardan farklı olmayan ve her ne kadar filtreden gelen h…",
+     "gerekce": "\"Türk Gümrük Tarife Cetveli İzahnamesi’nin 8481 Tarife Pozisyonu Açıklama Notları, Bakanlığımız Gümrükler Genel Müdürlüğünün 03.05.2024/96241452 tarihli/sayılı yazıları, Tarifenin Yorumuna İlişkin Genel Kurallar 1, 6 \"",
+     "url": "https://uygulama.gtb.gov.tr/BTBBasvuru/BtbWebArama"
+    }
+   ]
+  },
+  {
+   "date": "2026-06-10",
+   "date_tr": "10 Haziran 2026",
+   "count": 2,
+   "sources": [
+    "tr"
+   ],
+   "decisions": [
+    {
+     "source": "tr",
+     "source_label": "Türkiye (BTB)",
+     "color": "#E30A17",
+     "flag": "🇹🇷",
+     "origin": "Türkiye",
+     "hs": "847989979019",
+     "hs4": "8479",
+     "ref": "TR330000260011",
+     "date": "2026-06-10",
+     "title": "ROHS MARKA MOTORLU AKILLI PERDE SİSTEMİ: Motorlu perde ve panjurların akıllı telefon uygulaması, zamanlama fonksiyonları ve sesli komutlar ile kontrol edilmesini sağlayan otomasyon.",
+     "gerekce": "a. Genel yorum kuralları (1), ve (6) maddeleri. b. Türk Gümrük Tarife Cetvelinin 8479 Tarife Pozisyonu Açıklama Notları.",
+     "url": "https://uygulama.gtb.gov.tr/BTBBasvuru/BtbWebArama"
+    },
+    {
+     "source": "tr",
+     "source_label": "Türkiye (BTB)",
+     "color": "#E30A17",
+     "flag": "🇹🇷",
+     "origin": "Türkiye",
+     "hs": "853710910000",
+     "hs4": "8537",
+     "ref": "TR330000260012",
+     "date": "2026-06-10",
+     "title": "WİFİ PERDE MODÜLÜ: Motorlu perde, panjur ve kepenk sistemlerinin akıllı telefon uygulamaları üzerinden uzaktan kontrol edilmesine, açma-kapama zamanlamalarının programlanmasına ve sesli asistan entegrasyonu aracılığıyla yönetilmesine imkân sağlayan WiFi özellikli perde/panjur kon…",
+     "gerekce": "a. Genel yorum kuralları (1), ve (6) maddeleri. b. Türk Gümrük Tarife Cetvelinin 8537 Tarife Pozisyonu Açıklama Notları.",
+     "url": "https://uygulama.gtb.gov.tr/BTBBasvuru/BtbWebArama"
+    }
+   ]
+  },
+  {
+   "date": "2026-06-09",
+   "date_tr": "9 Haziran 2026",
+   "count": 5,
+   "sources": [
+    "tr"
+   ],
+   "decisions": [
+    {
+     "source": "tr",
+     "source_label": "Türkiye (BTB)",
+     "color": "#E30A17",
+     "flag": "🇹🇷",
+     "origin": "Türkiye",
+     "hs": "870321109019",
+     "hs4": "8703",
+     "ref": "TR410000260009",
+     "date": "2026-06-09",
+     "title": "“Polaris Sportsman Touring 570” ticari tanımlı eşyanın; iki dingilli, dört tekerlekli, ön ve arka tekerlerden tahrikli, dört zamanlı, tek silindirli, kıvılcım ateşlemeli, 30,5 kW gücünde benzinli motorla çalışan, güç aktarımı CVT tipi sürekli değişken şanzımanla yapılan bir arazi…",
+     "gerekce": "İzahname notları, AB Açıklama Notları, İstanbul Üniversitesi Cerrahpaşa Mühendislik Fakültesinin düzenlediği Teknik Rapor ve Tarife Yorum Kuralları 1 ve 6 birlikte değerlendirilmiştir.",
+     "url": "https://uygulama.gtb.gov.tr/BTBBasvuru/BtbWebArama"
+    },
+    {
+     "source": "tr",
+     "source_label": "Türkiye (BTB)",
+     "color": "#E30A17",
+     "flag": "🇹🇷",
+     "origin": "Türkiye",
+     "hs": "848180990029",
+     "hs4": "8481",
+     "ref": "TR160000260021",
+     "date": "2026-06-09",
+     "title": "SERVİS PORTLU RAKOR KİTİ - 80821241 Doğrudan gövdesinde yer alan schrader valfli portu sayesinde otomotiv klima sistemlerinde hat sökülmeden gaz dolumu yapılmasına olanak veren, kompresör girişini gaz hortumuna bağlayan bağlantı elemanı",
+     "gerekce": "Türk Gümrük Tarife Cetveli ve İzahnamesi XVI Bölüm Notları, 84. Fasıl Genel Açıklamalar, 73.07 ve 84.81 Tarife Pozisyonu notları, Tarifenin Yorumu ile ilgili Genel Kurallar (1) ve (6), 13.05.2026 tarihli 1626BTB0281 nolu…",
+     "url": "https://uygulama.gtb.gov.tr/BTBBasvuru/BtbWebArama"
+    },
+    {
+     "source": "tr",
+     "source_label": "Türkiye (BTB)",
+     "color": "#E30A17",
+     "flag": "🇹🇷",
+     "origin": "Türkiye",
+     "hs": "830242000019",
+     "hs4": "8302",
+     "ref": "TR350000260027",
+     "date": "2026-06-09",
+     "title": "\"KS-12SE Model Dişli Takımı ile Durdurma Düzeneği Bulunan Yatar Koltuk Tertibatı. Evlerde, iş yerlerinde vb. yerlerde kullanılan koltuk, kanepe ve sandalyelerin arka ve yan bölümlerine manuel olarak hareket kazandırıp bu bölgelerin kademeli olarak yatırılıp kaldırılmasını sağlaya…",
+     "gerekce": "\"Türk Gümrük Tarife Cetveli İzahnamesi’nin 8302 Tarife Pozisyonu Açıklama Notları, Tarifenin Yorumuna İlişkin Genel Kurallar 1, 6\"",
+     "url": "https://uygulama.gtb.gov.tr/BTBBasvuru/BtbWebArama"
+    },
+    {
+     "source": "tr",
+     "source_label": "Türkiye (BTB)",
+     "color": "#E30A17",
+     "flag": "🇹🇷",
+     "origin": "Türkiye",
+     "hs": "848180990029",
+     "hs4": "8481",
+     "ref": "TR160000260020",
+     "date": "2026-06-09",
+     "title": "SERVİS PORTLU RAKOR KİTİ - 80821495 Doğrudan gövdesinde yer alan schrader valfli portu sayesinde otomotiv klima sistemlerinde hat sökülmeden gaz dolumu yapılmasına olanak veren, kompresör girişini gaz hortumuna bağlayan bağlantı elemanı",
+     "gerekce": "Türk Gümrük Tarife Cetveli ve İzahnamesi XVI Bölüm Notları, 84. Fasıl Genel Açıklamalar, 73.07 ve 84.81 Tarife Pozisyonu notları, Tarifenin Yorumu ile ilgili Genel Kurallar (1) ve (6), 13.05.2026 tarihli 1626BTB0280 nolu…",
+     "url": "https://uygulama.gtb.gov.tr/BTBBasvuru/BtbWebArama"
+    },
+    {
+     "source": "tr",
+     "source_label": "Türkiye (BTB)",
+     "color": "#E30A17",
+     "flag": "🇹🇷",
+     "origin": "Türkiye",
+     "hs": "901819900019",
+     "hs4": "9018",
+     "ref": "TR350000260026",
+     "date": "2026-06-09",
+     "title": "Digitsole Pro marka, Mov-Scan Kit.6 çift tabanlık, 2 adet gelişmiş bluetoothlu sensör, 1 adet şarj aleti ve taşıma çantasından oluşmakta olup yapay zeka destekli olarak ayakkabı içerisine yerleştirilen pedler aracılığıyla hareket bozukluklarının teşhis ve takibinde kullanılan ele…",
+     "gerekce": "Türk Gümrük Tarife Cetveli İzahnamesi’nin 9018 tarife pozisyonu açıklama notları ve Tarife Yorumuna İlişkin Genel Kurallar 1,6",
+     "url": "https://uygulama.gtb.gov.tr/BTBBasvuru/BtbWebArama"
+    }
+   ]
+  },
+  {
+   "date": "2026-06-05",
+   "date_tr": "5 Haziran 2026",
+   "count": 2,
+   "sources": [
+    "tr"
+   ],
+   "decisions": [
+    {
+     "source": "tr",
+     "source_label": "Türkiye (BTB)",
+     "color": "#E30A17",
+     "flag": "🇹🇷",
+     "origin": "Türkiye",
+     "hs": "870880990000",
+     "hs4": "8708",
+     "ref": "TR160000260019",
+     "date": "2026-06-05",
+     "title": "\"Burç\" ticari tanımlı eşyanın, alaşımlı aluminyumdan mamul metal eşyanın orta kısmında sertleştirilmemiş vulkanize kauçuktan malzeme bulunduğu, metal ile kauçuk kısımlar arasında naylondan mamul plastik malzeme bulunduğu, motorlu kara taşıtlarının binek ve hafif araçların ön ve a…",
+     "gerekce": "Tarifenin Yorumu ile İlgili Genel Kurallar (1) ve (6), Gümrük Genel Tebliği (Gümrük Tarife Cetveli İzahnamesi) (Seri No:4), Türk Gümrük Tarife Cetveli ve İzahnamesi XVII Bölüm notları ve Genel Açıklamalar, 87. Fasıl Gene…",
+     "url": "https://uygulama.gtb.gov.tr/BTBBasvuru/BtbWebArama"
+    },
+    {
+     "source": "tr",
+     "source_label": "Türkiye (BTB)",
+     "color": "#E30A17",
+     "flag": "🇹🇷",
+     "origin": "Türkiye",
+     "hs": "870880990000",
+     "hs4": "8708",
+     "ref": "TR160000260018",
+     "date": "2026-06-05",
+     "title": "\"Burç\" ticari tanımlı eşyanın, alaşımlı aluminyumdan mamul metal eşyanın orta kısmında sertleştirilmemiş vulkanize kauçuktan malzeme bulunduğu, metal ile kauçuk kısımlar arasında naylondan mamul plastik malzeme bulunduğu, motorlu kara taşıtlarının binek ve hafif araçların ön ve a…",
+     "gerekce": "Tarifenin Yorumu ile İlgili Genel Kurallar (1) ve (6), Gümrük Genel Tebliği (Gümrük Tarife Cetveli İzahnamesi) (Seri No:4), Türk Gümrük Tarife Cetveli ve İzahnamesi XVII Bölüm notları ve Genel Açıklamalar, 87. Fasıl Gene…",
+     "url": "https://uygulama.gtb.gov.tr/BTBBasvuru/BtbWebArama"
+    }
+   ]
+  },
+  {
    "date": "2026-06-03",
    "date_tr": "3 Haziran 2026",
-   "count": 1,
+   "count": 5,
    "sources": [
-    "eu"
+    "eu",
+    "tr"
    ],
    "decisions": [
     {
@@ -3431,9 +5313,117 @@ window.BTI_DATA = {
      "hs4": "9503",
      "ref": "ROBTI2026-005388",
      "date": "2026-06-03",
-     "title": "Başvuru sahibi tarafından sağlanan açıklama ve veri tabanında yayımlanan görsellere göre ürün, 3-18 aylık çocuklara yönelik, içine müzik modülü yerleştirilmiş, interaktif, tekstil malzemeden yapılmış, mavi ve pembe olmak üzere iki renk seçeneğinde ayı şeklinde bir oyuncaktır. Ayı…",
-     "gerekce": "Kombine Nomenklatür'ün 1, 3b) ve 6 numaralı Genel Yorum Kuralları. 2.3.2015 tarihli (EU) 352/2015 sayılı Tüzük (AB Resmi Gazetesi L 61, 5.3.2015, s.5). 9503 pozisyonuna ilişkin NESA, D) bendi, birinci paragraf ve (i) alt…",
+     "title": "Başvuru sahibi tarafından sunulan açıklama ve veri tabanında yayımlanan görsellere göre, ürün; 3-18 aylık çocuklara yönelik, içinde müzik modülü bulunan, iki renk seçeneğiyle (mavi ve pembe) bir oyuncak ayı şeklinde tekstil malzemesinden yapılmış interaktif bir oyuncaktır. Oyunca…",
+     "gerekce": "Birleşik Nomenclatür'ün 1., 3b) ve 6. Genel Yorum Kuralları. 2.3.2015 tarihli (AB) 352/2015 sayılı Tüzük (AB Resmî Gazetesi L 61, 5.3.2015, s.5). 9503 pozisyonuna ilişkin Açıklayıcı Notlar, D) bendi birinci paragraf ve (…",
      "url": "https://ec.europa.eu/taxation_customs/dds2/ebti/ebti_details.jsp?showHeader=false&Lang=en&reference=ROBTI2026-005388"
+    },
+    {
+     "source": "tr",
+     "source_label": "Türkiye (BTB)",
+     "color": "#E30A17",
+     "flag": "🇹🇷",
+     "origin": "Türkiye",
+     "hs": "852990309000",
+     "hs4": "8529",
+     "ref": "TR350000260024",
+     "date": "2026-06-03",
+     "title": "Tcon PT550GT08-1. TV üretiminde kullanılan TFT-LCD paneline görüntü aktarımı sırasında sinyalleri işleyen ve ekranın doğru zamanlama ile görüntü oluşturmasını sağlamak için gerekli bileşenleri içeren, harici video kaynaklarından doğrudan sinyal alamayan ve yalnızca uyumlu ana kar…",
+     "gerekce": "Türk Gümrük Tarife Cetveli İzahnamesi’nin 8529 tarife pozisyonu açıklama notları, Tarife Yorumuna İlişkin Genel Kurallar 1,6",
+     "url": "https://uygulama.gtb.gov.tr/BTBBasvuru/BtbWebArama"
+    },
+    {
+     "source": "tr",
+     "source_label": "Türkiye (BTB)",
+     "color": "#E30A17",
+     "flag": "🇹🇷",
+     "origin": "Türkiye",
+     "hs": "852990309000",
+     "hs4": "8529",
+     "ref": "TR350000260023",
+     "date": "2026-06-03",
+     "title": "PT500GT04-1 Kodlu, Assy Tcon Board. TV üretiminde kullanılan TFT-LCD paneline görüntü aktarımı sırasında sinyalleri işleyen ve ekranın doğru zamanlama ile görüntü oluşturmasını sağlamak için gerekli bileşenleri içeren, harici video kaynaklarından doğrudan sinyal alamayan ve yalnı…",
+     "gerekce": "Türk Gümrük Tarife Cetveli İzahnamesi’nin 8529 tarife pozisyonu açıklama notları, Tarife Yorumuna İlişkin Genel Kurallar 1,6",
+     "url": "https://uygulama.gtb.gov.tr/BTBBasvuru/BtbWebArama"
+    },
+    {
+     "source": "tr",
+     "source_label": "Türkiye (BTB)",
+     "color": "#E30A17",
+     "flag": "🇹🇷",
+     "origin": "Türkiye",
+     "hs": "140490009919",
+     "hs4": "1404",
+     "ref": "TR060000260010",
+     "date": "2026-06-03",
+     "title": "ÇAY PELETİ",
+     "gerekce": "TARİFE GENEL YORUM KURALLARI (1) VE (6). MADDELERİ, GÜMRÜK TARİFE CETVELİ İZAHNAMESİ 1404 TARİFE POZİSYONU AÇIKLAMA NOTLARI İLE ANKARA LABORATUVAR MÜDÜRLÜĞÜNÜN 22.05.2026 TARİHLİ, 0626BTB0267 NOLU ANALİZ RAPORU",
+     "url": "https://uygulama.gtb.gov.tr/BTBBasvuru/BtbWebArama"
+    },
+    {
+     "source": "tr",
+     "source_label": "Türkiye (BTB)",
+     "color": "#E30A17",
+     "flag": "🇹🇷",
+     "origin": "Türkiye",
+     "hs": "382219000019",
+     "hs4": "3822",
+     "ref": "TR350000260025",
+     "date": "2026-06-03",
+     "title": "Turdus Marka, Ethylotest Freedrive Sc 0.5 Turdus-Non Nf. İçerisinde potasyum dikromattan ve sülfürik asitten oluşan kimyasal reaktif bulunmaktadır. Kullanım sırasında cihaza üflenen solunum havasında alkol bulunması halinde reaktif madde renk değiştirmekte olup ön kontrol amaçlı …",
+     "gerekce": "Türk Gümrük Tarife Cetveli İzahnamesi’nin 3822 tarife pozisyonu açıklama notları, Tarife Yorumuna İlişkin Genel Kurallar 1,6",
+     "url": "https://uygulama.gtb.gov.tr/BTBBasvuru/BtbWebArama"
+    }
+   ]
+  },
+  {
+   "date": "2026-06-02",
+   "date_tr": "2 Haziran 2026",
+   "count": 3,
+   "sources": [
+    "tr"
+   ],
+   "decisions": [
+    {
+     "source": "tr",
+     "source_label": "Türkiye (BTB)",
+     "color": "#E30A17",
+     "flag": "🇹🇷",
+     "origin": "Türkiye",
+     "hs": "691390100000",
+     "hs4": "6913",
+     "ref": "TR060000260009",
+     "date": "2026-06-02",
+     "title": "YNG-471 MODEL NUMARASINA SAHİP SERAMİKTEN MAMUL HEYKELCİK İÇERİSİNDE YER ALAN MUM",
+     "gerekce": "TARİFE GENEL YORUM KURALLARI (1) VE (6). MADDELERİ, GÜMRÜK TARİFE CETVELİ İZAHNAMESİ 6913 TARİFE POZİSYONU AÇIKLAMA NOTLARI İLE ANKARA LABORATUVAR MÜDÜRLÜĞÜNCE DÜZENLENEN 04.05.2026 TARİHLİ, 11 NOLU ANALİZ RAPORU",
+     "url": "https://uygulama.gtb.gov.tr/BTBBasvuru/BtbWebArama"
+    },
+    {
+     "source": "tr",
+     "source_label": "Türkiye (BTB)",
+     "color": "#E30A17",
+     "flag": "🇹🇷",
+     "origin": "Türkiye",
+     "hs": "691390100000",
+     "hs4": "6913",
+     "ref": "TR060000260008",
+     "date": "2026-06-02",
+     "title": "YNG-476 MODEL NUMARASINA SAHİP SERAMİKTEN MAMUL HEYKELCİK İÇERİSİNDE YER ALAN MUM",
+     "gerekce": "TARİFE GENEL YORUM KURALLARI (1) VE (6). MADDELERİ, GÜMRÜK TARİFE CETVELİ İZAHNAMESİ 6913 TARİFE POZİSYONU AÇIKLAMA NOTLARI İLE ANKARA LABORATUVAR MÜDÜRLÜĞÜNCE DÜZENLENEN 04.05.2026 TARİHLİ, 11 NOLU ANALİZ RAPORU",
+     "url": "https://uygulama.gtb.gov.tr/BTBBasvuru/BtbWebArama"
+    },
+    {
+     "source": "tr",
+     "source_label": "Türkiye (BTB)",
+     "color": "#E30A17",
+     "flag": "🇹🇷",
+     "origin": "Türkiye",
+     "hs": "691390100000",
+     "hs4": "6913",
+     "ref": "TR060000260007",
+     "date": "2026-06-02",
+     "title": "YNG-864-A MODEL NUMARASINA SAHİP SERAMİKTEN MAMUL HEYKELCİK İÇERİSİNDE YER ALAN MUM",
+     "gerekce": "TARİFE GENEL YORUM KURALLARI (1) VE (6). MADDELERİ, GÜMRÜK TARİFE CETVELİ İZAHNAMESİ 6913 TARİFE POZİSYONU AÇIKLAMA NOTLARI İLE ANKARA LABORATUVAR MÜDÜRLÜĞÜNCE DÜZENLENEN 04.05.2026 TARİHLİ, 11 NOLU ANALİZ RAPORU",
+     "url": "https://uygulama.gtb.gov.tr/BTBBasvuru/BtbWebArama"
     }
    ]
   },
@@ -4048,8 +6038,9 @@ window.BTI_DATA = {
   {
    "date": "2026-05-22",
    "date_tr": "22 Mayıs 2026",
-   "count": 2,
+   "count": 30,
    "sources": [
+    "tr",
     "us"
    ],
    "decisions": [
@@ -4068,6 +6059,20 @@ window.BTI_DATA = {
      "url": "https://rulings.cbp.gov/ruling/H354096"
     },
     {
+     "source": "tr",
+     "source_label": "Türkiye (BTB)",
+     "color": "#E30A17",
+     "flag": "🇹🇷",
+     "origin": "Türkiye",
+     "hs": "901920900000",
+     "hs4": "9019",
+     "ref": "TR340000260105",
+     "date": "2026-05-22",
+     "title": "MEDİCİTY MARKA, ICU MC10 MODEL, 10 ML HACMİNDEKİ HAZNEYE KONULAN SIVI İLACIN ORTA KISIMDA PİEZO DİSKİ VASITASI İLE ELEKTRİK ENERJİSİNİ YÜKSEK FREKANSLI MEKANİK TİTREŞİMLERE (SES DALGALARI) DÖNÜŞTÜREREK İLACI ISITMADAN VEYA KİMYASAL YAPISINI BOZMADAN ÇOK İNCE BİR AEROSOL BULUTU (S…",
+     "gerekce": "Genel Yorum Kurallarının 1 ve 6’ncı maddeleri, Gümrük Tarife Cetveli İzahnamesinin 90.19 Tarife Pozisyonu Açıklama Notları",
+     "url": "https://uygulama.gtb.gov.tr/BTBBasvuru/BtbWebArama"
+    },
+    {
      "source": "us",
      "source_label": "Amerika (CBP)",
      "color": "#C0392B",
@@ -4080,6 +6085,384 @@ window.BTI_DATA = {
      "title": "H347000 21 Ocak 2026 CLA-2 RR:CTF:VSP JH KATEGORİ: Sınıflandırma TARİFE NO.: 9817.00.96 Mark Neville Uluslararası Ticaret Danışmanları 2153 Clementine St. Naples, FL 34120 RE: Protesto No. 3501-25-103394'ün İlave İnceleme Başvurusu; Engellilere Yönelik Makaleler; 9817.00.96 alt p…",
      "gerekce": "(Gerekçe metni bulunamadı)",
      "url": "https://rulings.cbp.gov/ruling/H347000"
+    },
+    {
+     "source": "tr",
+     "source_label": "Türkiye (BTB)",
+     "color": "#E30A17",
+     "flag": "🇹🇷",
+     "origin": "Türkiye",
+     "hs": "902190900019",
+     "hs4": "9021",
+     "ref": "TR340000260099",
+     "date": "2026-05-22",
+     "title": "MEDTRUM MARKA, MD8201 MODEL NUMARALI; TEKNİK RAPORA GÖRE BLUETOOTH BAĞLANTISI ARACILIĞIYLA HABERLEŞME SAĞLAYAN VE MEKANİZMAYI YÖNETEN ANA ÜNİTE İLE TEK KULLANIMLIK REZERVUARLI POMPA MODÜLÜ (REZERVUAR KISMI BTB KONUSU DEĞİLDİR.) OLARAK İKİ ANA BİLEŞENDEN OLUŞAN, BU İKİ BİLEŞENİN B…",
+     "gerekce": "Genel Yorum Kurallarının 1 ve 6’ncı maddeleri, Gümrük Tarife Cetveli İzahnamesinin 90.21 Tarife Pozisyonu Açıklama Notları, Gümrük Genel Tebliği (Gümrük Tarife Cetveli Açıklama Notları) (Seri No: 6) (30.12.2019 t. 30994 …",
+     "url": "https://uygulama.gtb.gov.tr/BTBBasvuru/BtbWebArama"
+    },
+    {
+     "source": "tr",
+     "source_label": "Türkiye (BTB)",
+     "color": "#E30A17",
+     "flag": "🇹🇷",
+     "origin": "Türkiye",
+     "hs": "890319000000",
+     "hs4": "8903",
+     "ref": "TR340000260100",
+     "date": "2026-05-22",
+     "title": "ZAR MARKA 95 SL MODEL, 9.60 METRE UZUNLUĞUNDA, 3.30 METRE ENİNDE VE KURU HALDE 2500 KG AĞIRLIĞINDA, GÖVDESİ FİBERGLASS MALZEMEDEN, ŞİŞİRİLEBİLİR TÜPLERİ HYPALON (CSM)’ DEN MAMUL, 600 LİTRE HACİMLİ YAKIT DEPOSU BULUNAN, TAKILABİLİR MOTORLARIN AĞIRLIĞI MAX. 730 KG OLAN, 16 KİŞİLİK,…",
+     "gerekce": "Genel Yorum Kuralları 1 ve 6 ncı maddeleri, Gümrük Tarife Cetveli İzahnamesi 89.03 Tarife Pozisyonu Açıklama Notları, Gümrükler Genel Müdürlüğünün 19.06.2020 tarih ve 55036112 sayılı yazısı",
+     "url": "https://uygulama.gtb.gov.tr/BTBBasvuru/BtbWebArama"
+    },
+    {
+     "source": "tr",
+     "source_label": "Türkiye (BTB)",
+     "color": "#E30A17",
+     "flag": "🇹🇷",
+     "origin": "Türkiye",
+     "hs": "901920900000",
+     "hs4": "9019",
+     "ref": "TR340000260104",
+     "date": "2026-05-22",
+     "title": "MEDİCİTY MARKA, ICU TP2 MODEL, PLASTİKTEN MAMUL, T ŞEKLİNDE VE 3 GİRİŞE SAHİP, YOĞUN BAKIM ÜNİTELERİNDE (ICU) HASTALARIN TEDAVİSİNDE KULLANILAN NEBÜLİZATÖR CİHAZININ, SOLUNUM DEVRESİNİN VE HAVA AKIŞ SİSTEMİNİN BİRBİRLERİNE BAĞLANMASINI İÇİN TASARLANMIŞ TANINABİLİR BAĞLANTI PARÇAS…",
+     "gerekce": "Genel Yorum Kurallarının 1 ve 6’ncı maddeleri, Gümrük Tarife Cetveli İzahnamesinin 90.19 Tarife Pozisyonu Açıklama Notları",
+     "url": "https://uygulama.gtb.gov.tr/BTBBasvuru/BtbWebArama"
+    },
+    {
+     "source": "tr",
+     "source_label": "Türkiye (BTB)",
+     "color": "#E30A17",
+     "flag": "🇹🇷",
+     "origin": "Türkiye",
+     "hs": "848390819019",
+     "hs4": "8483",
+     "ref": "TR340000260078",
+     "date": "2026-05-22",
+     "title": "GMW MARKA, GU2050 MODEL ALIŞIMLI ÇELİKTEN MAMUL, MERKEZİ YAKLAŞIK 3,5 CM ÇAPINDA DAİRESEL KESİTTEN OLAN VE BU KESİTE UCUNDA KAUÇUKTAN CONTA TUTTURULMUŞ, İÇERİSİNDE İĞNELİ RULMAN OLAN ÇELİKTEN KAPAK İLE KAPATILMIŞ DOKSAN DERECELİK AÇIYLA OLACAK ŞEKİLDE 4 ADET AĞZI KAPALI UÇ ÇIKARI…",
+     "gerekce": "Genel Yorum Kurallarının 1 ve 6’ncı maddeleri, Gümrük Tarife Cetveli İzahnamesinin 84.83 Tarife Pozisyonu Açıklama Notları, 19.03.2026 tarih 120215076 sayı ile Bölge Müdürlüğümüz kayıtlarına giren İstanbul Laboratuvar Mü…",
+     "url": "https://uygulama.gtb.gov.tr/BTBBasvuru/BtbWebArama"
+    },
+    {
+     "source": "tr",
+     "source_label": "Türkiye (BTB)",
+     "color": "#E30A17",
+     "flag": "🇹🇷",
+     "origin": "Türkiye",
+     "hs": "850760000030",
+     "hs4": "8507",
+     "ref": "TR340000260079",
+     "date": "2026-05-22",
+     "title": "TOMMATECH MARKA, MGI-V-500W-PLS MODEL, USB B VE C TİP, ARAÇ PORT ÇIKIŞI OLMAK ÜZERE DA (DOĞRU AKIM) VE AA (ALTERNATİF AKIM) BESLEME ÇIKIŞI VEREN, 518 Wh KAPASİTESİNDE, ŞARJ EDİLEBİLİR, HER BİR HÜCRENİN 3,2V NOMİNAL GERİLİMDE VE 23Ah KAPASİTESİNDE OLDUĞU, LİTYUM İYONLU, KESE (POUC…",
+     "gerekce": "Genel Yorum Kuralları 1 ve 6. maddeleri, 85.07 ve 85.04 tarife pozisyonu açıklama notları, İstanbul Üniversitesi Cerrahpaşa Mühendislik Fakültesinin Bölge Müdürlüğümüz kayıtlarına 01.04.2026/120638467 tarih/sayı ile gire…",
+     "url": "https://uygulama.gtb.gov.tr/BTBBasvuru/BtbWebArama"
+    },
+    {
+     "source": "tr",
+     "source_label": "Türkiye (BTB)",
+     "color": "#E30A17",
+     "flag": "🇹🇷",
+     "origin": "Türkiye",
+     "hs": "890319000000",
+     "hs4": "8903",
+     "ref": "TR340000260101",
+     "date": "2026-05-22",
+     "title": "ZAR MARKA 79 SL MODEL, 7.80 METRE UZUNLUĞUNDA, 2.86 METRE ENİNDE VE KURU HALDE 1100 KG AĞIRLIĞINDA, GÖVDESİ FİBERGLASS MALZEMEDEN, ŞİŞİRİLEBİLİR TÜPLERİ HYPALON (CSM)’ DEN MAMUL, 400 LİTRE HACİMLİ YAKIT DEPOSU BULUNAN, TAKILABİLİR MOTORLARIN AĞIRLIĞI MAX. 480 KG OLAN, 14 KİŞİLİK,…",
+     "gerekce": "Genel Yorum Kuralları 1 ve 6 ncı maddeleri, Gümrük Tarife Cetveli İzahnamesi 89.03 Tarife Pozisyonu Açıklama Notları, Gümrükler Genel Müdürlüğünün 19.06.2020 tarih ve 55036112 sayılı yazısı",
+     "url": "https://uygulama.gtb.gov.tr/BTBBasvuru/BtbWebArama"
+    },
+    {
+     "source": "tr",
+     "source_label": "Türkiye (BTB)",
+     "color": "#E30A17",
+     "flag": "🇹🇷",
+     "origin": "Türkiye",
+     "hs": "890319000000",
+     "hs4": "8903",
+     "ref": "TR340000260102",
+     "date": "2026-05-22",
+     "title": "ZAR MARKA 75 MODEL, 7.42 METRE UZUNLUĞUNDA, 2.82 METRE ENİNDE VE KURU HALDE 1100 KG AĞIRLIĞINDA, GÖVDESİ FİBERGLASS MALZEMEDEN, ŞİŞİRİLEBİLİR TÜPLERİ HYPALON (CSM)’ DEN MAMUL, 400 LİTRE HACİMLİ YAKIT DEPOSU BULUNAN, TAKILABİLİR MOTORLARIN AĞIRLIĞI MAX. 480 KG OLAN, 14 KİŞİLİK, RI…",
+     "gerekce": "Genel Yorum Kuralları 1 ve 6 ncı maddeleri, Gümrük Tarife Cetveli İzahnamesi 89.03 Tarife Pozisyonu Açıklama Notları, Gümrükler Genel Müdürlüğünün 19.06.2020 tarih ve 55036112 sayılı yazısı",
+     "url": "https://uygulama.gtb.gov.tr/BTBBasvuru/BtbWebArama"
+    },
+    {
+     "source": "tr",
+     "source_label": "Türkiye (BTB)",
+     "color": "#E30A17",
+     "flag": "🇹🇷",
+     "origin": "Türkiye",
+     "hs": "890319000000",
+     "hs4": "8903",
+     "ref": "TR340000260103",
+     "date": "2026-05-22",
+     "title": "ZAR MARKA 85SL MODEL, 8.72 METRE UZUNLUĞUNDA, 3.30 METRE ENİNDE VE KURU HALDE 1900 KG AĞIRLIĞINDA, GÖVDESİ FİBERGLASS MALZEMEDEN, ŞİŞİRİLEBİLİR TÜPLERİ HYPALON (CSM)’ DEN MAMUL, 400 LİTRE HACİMLİ YAKIT DEPOSU BULUNAN, HİDROLİK DİREKSİYONLU, TAKILABİLİR MOTORLARIN AĞIRLIĞI MAX. 60…",
+     "gerekce": "Genel Yorum Kuralları 1 ve 6 ncı maddeleri, Gümrük Tarife Cetveli İzahnamesi 89.03 Tarife Pozisyonu Açıklama Notları, Gümrükler Genel Müdürlüğünün 19.06.2020 tarih ve 55036112 sayılı yazısı",
+     "url": "https://uygulama.gtb.gov.tr/BTBBasvuru/BtbWebArama"
+    },
+    {
+     "source": "tr",
+     "source_label": "Türkiye (BTB)",
+     "color": "#E30A17",
+     "flag": "🇹🇷",
+     "origin": "Türkiye",
+     "hs": "851010000000",
+     "hs4": "8510",
+     "ref": "TR340000260080",
+     "date": "2026-05-22",
+     "title": "APRİLLA MARKA, AEP-7803 MODEL, PERAKENDE SATIŞA HAZIR BİR ŞEKİLDE SUNULAN VE KUTU İÇERİĞİNDE 1 ADET CİHAZ VE TEMİZLEME FIRÇASI BULUNAN, 1 ADET AAA PİL İLE ÇALIŞAN(DAHİL DEĞİLDİR), KAŞ, BIYIK VE CİLDİN HASSAS BÖLGELERİNDE KULLANILMAYA OLANAK SAĞLAYAN ELEKTRİK MOTORLU TIRAŞ CİHAZI",
+     "gerekce": "Genel Yorum Kurallarının 1 ve 6’ncı maddeleri, Gümrük Tarife Cetveli İzahnamesinin 85.10 Tarife Pozisyonu Açıklama Notları",
+     "url": "https://uygulama.gtb.gov.tr/BTBBasvuru/BtbWebArama"
+    },
+    {
+     "source": "tr",
+     "source_label": "Türkiye (BTB)",
+     "color": "#E30A17",
+     "flag": "🇹🇷",
+     "origin": "Türkiye",
+     "hs": "392390000000",
+     "hs4": "3923",
+     "ref": "TR340000260081",
+     "date": "2026-05-22",
+     "title": "GOLDEN ROSE MARKA, POLİETİLENDEN MAMUL, 15 ML HACİME SAHİP, DIŞ YÜZEYİNDE ÜRÜN MARKA VE BİLGİLERİNE YER VERİLEN, BİR UCUNDA DİŞLİ BİR KAPAK BULUNAN, DİĞER UCU KAYNAKLI HALDE OLAN, PERAKENDE SATIŞ AMACIYLA KOZMETİK MÜSTAHZARLARINI AMBALAJLAMAK İÇİN KULLANILAN KAPAKLI BOŞ TÜP",
+     "gerekce": "Genel Yorum Kurallarının 1 ve 6’ncı maddeleri, Gümrük Tarife Cetveli İzahnamesinin 39.23 Tarife Pozisyonu Açıklama Notları, Uyumu Sağlanmış (Armonize) Mal Tanımı ve Kodlama Sistemi Hakkında Uluslararası Sözleşme Uyarınca…",
+     "url": "https://uygulama.gtb.gov.tr/BTBBasvuru/BtbWebArama"
+    },
+    {
+     "source": "tr",
+     "source_label": "Türkiye (BTB)",
+     "color": "#E30A17",
+     "flag": "🇹🇷",
+     "origin": "Türkiye",
+     "hs": "842489700000",
+     "hs4": "8424",
+     "ref": "TR340000260082",
+     "date": "2026-05-22",
+     "title": "VİTRA MARKA, BLİSS ROUND 240 MODEL, A45788EXP ÜRÜN KODLU, PERAKENDE SATIŞA YÖNELİK TEK BİR AMBALAJ İÇİNDE YER ALAN PLASTİKTEN (PET) MAMUL İKİ ADET HORTUM, NİKEL KAPLI PLASTİKTEN MAMUL TEPE VE EL DUŞ BAŞLIKLARI, NİKEL KAPLI PİRİNÇTEN MAMUL YÖNLENDİRME VALFİ, NİKEL KAPLI PASLANMAZ …",
+     "gerekce": "Genel Yorum Kurallarının 1, 3(b) ve 6’ncı maddeleri, Gümrük Tarife Cetveli İzahnamesi 84.24 ve 84.81 tarife pozisyonu açıklama notları, Gümrük Genel Tebliği (Tarife-Sınıflandırma Kararları) (Seri No: 15), İstanbul Labora…",
+     "url": "https://uygulama.gtb.gov.tr/BTBBasvuru/BtbWebArama"
+    },
+    {
+     "source": "tr",
+     "source_label": "Türkiye (BTB)",
+     "color": "#E30A17",
+     "flag": "🇹🇷",
+     "origin": "Türkiye",
+     "hs": "950300700000",
+     "hs4": "9503",
+     "ref": "TR340000260083",
+     "date": "2026-05-22",
+     "title": "PEN CREATOR STUDIO MODEL, DEMONTE HALDE KEDİ ŞEKLİNDE BİR ADET KALEMLİK, BEŞ ADET TÜKENMEZ KALEM (HER BİRİ TÜKENMEZ KALEM UCU, ŞEFFAF KALEM GÖVDESİ VE TIPASI VE KALEM KAPAĞINDAN OLUŞMAKTADIR), BEŞ ADET KALEMİN ARKA UCUNA TAKILAN HAYVAN FİGÜRÜ BİÇİMİNDE KALEM BAŞLIĞI, BEŞ ADET KAL…",
+     "gerekce": "Genel Yorum Kurallarının 1, 3(b) ve 6’ncı maddeleri, Gümrük Tarife Cetveli İzahnamesinin 95.03-96.08 Tarife Pozisyonu Açıklama Notları, Gümrükler Genel Tebliğ (Gümrük Tarife Açıklama Notları) Seri No:6, İstanbul Laboratu…",
+     "url": "https://uygulama.gtb.gov.tr/BTBBasvuru/BtbWebArama"
+    },
+    {
+     "source": "tr",
+     "source_label": "Türkiye (BTB)",
+     "color": "#E30A17",
+     "flag": "🇹🇷",
+     "origin": "Türkiye",
+     "hs": "870830990019",
+     "hs4": "8708",
+     "ref": "TR340000260084",
+     "date": "2026-05-22",
+     "title": "MOTORTECH MARKA, TMP0263 MODEL, METAL BİR DIŞ GÖVDE, İÇ KISIMDA BİR DİYAFRAM, GERİ GETİRME YAYI, HAVA VALFİ MEKANİZMASI, PEDAL TARAFINDA GİRİŞ MİLİ, ANA MERKEZ SİLİNDİRİNE İLETİM YAPAN ÇIKIŞ MİLİ (İTİCİ ÇUBUK), SIZDIRMAZLIK ELEMANLARI VE MONTAJ İÇİN KULLANILAN VİDA VE SAPLAMALARD…",
+     "gerekce": "Genel Yorum Kurallarının 1, 3(a) ve 6’ncı maddeleri, Gümrük Tarife Cetveli İzahnamesinin 87.08 Tarife Pozisyonu Açıklama Notları, İstanbul Üniversitesi Cerrahpaşa Mühendislik Fakültesi Makine Mühendisliği Bölümünce tanzi…",
+     "url": "https://uygulama.gtb.gov.tr/BTBBasvuru/BtbWebArama"
+    },
+    {
+     "source": "tr",
+     "source_label": "Türkiye (BTB)",
+     "color": "#E30A17",
+     "flag": "🇹🇷",
+     "origin": "Türkiye",
+     "hs": "853720910000",
+     "hs4": "8537",
+     "ref": "TR340000260085",
+     "date": "2026-05-22",
+     "title": "GREAT POWER MARKA, SLL03C2-D1P104S12R4-A01 MODEL NUMARALI BTB KONUSU EŞYAYA PİL KISMI DAHİL OLMAYAN, TEKNİK RAPORA GÖRE KONTEYNER TİPİNDE 6058 MM X 2438 MM X 2896 MM BOYUTLARINDA, BATARYA PAKETLERİNİN GİRECEĞİ RAF ŞEKLİNDE YUVALARI, TERMAL YÖNETİM İÇİN İKLİMLENDİRME SİSTEMİ, BATA…",
+     "gerekce": "Genel Yorum Kurallarının 1 ve 6’ncı maddeleri, Gümrük Tarife Cetveli İzahnamesinin 85.37 Tarife Pozisyonu Açıklama Notları, 28.04.2026/121597316 tarih/sayı ile Bölge Müdürlüğümüz kayıtlarına giren 27.04.2026/1623374 tari…",
+     "url": "https://uygulama.gtb.gov.tr/BTBBasvuru/BtbWebArama"
+    },
+    {
+     "source": "tr",
+     "source_label": "Türkiye (BTB)",
+     "color": "#E30A17",
+     "flag": "🇹🇷",
+     "origin": "Türkiye",
+     "hs": "730840000000",
+     "hs4": "7308",
+     "ref": "TR340000260086",
+     "date": "2026-05-22",
+     "title": "KBS MARKA, 1114 MODEL, KIRMIZI BOYANMIŞ KISMI ALAŞIMSIZ ÇELİKTEN, GRİ RENKLİ KISMI GALVANİZLİ ÇİNKO KAPLI ALAŞIMSIZ ÇELİKTEN MAMUL, DİKDÖRTGEN ŞEKLİNDE DELİKLİ BİR TABAN PLAKASI (BOYUTLAR: 110 MM X 75 MM) ÜZERİNE, DAİRESEL SİLİNDİRİK BİR KILAVUZ MANŞON ŞEKLİNDE İŞLENMİŞ ÖZEL BİR …",
+     "gerekce": "Genel Yorum Kurallarının 1 ve 6’ncı maddeleri, Gümrük Tarife Cetveli İzahnamesinin 73.08 Tarife Pozisyonu Açıklama Notları, 13.04.2026 tarih 121065383 sayı ile Bölge Müdürlüğümüz kayıtlarına giren İstanbul Laboratuvar Mü…",
+     "url": "https://uygulama.gtb.gov.tr/BTBBasvuru/BtbWebArama"
+    },
+    {
+     "source": "tr",
+     "source_label": "Türkiye (BTB)",
+     "color": "#E30A17",
+     "flag": "🇹🇷",
+     "origin": "Türkiye",
+     "hs": "842121000000",
+     "hs4": "8421",
+     "ref": "TR340000260087",
+     "date": "2026-05-22",
+     "title": "PURETECH MARKA, PPF SEDİMENT MODEL 4006031541 ÜRÜN KODLU, TEKNİK RAPORA GÖRE SU İÇERİSİNDEKİ ASKIDA KATI PARTİKÜLLERİN TUTULMASI AMACIYLA SU ARITMA CİHAZLARINDA KULLANILAN, % 100 POLİPROPİLEN MALZEMEDEN 5 MİKRON FİLTRASYON HASSASİYETİ OLAN, 0,255 KG AĞIRLIĞINDA, DERİNLİK TİPİ SED…",
+     "gerekce": "Genel Yorum Kurallarının 1 ve 6’ncı maddeleri, Gümrük Tarife Cetveli İzahnamesinin 84.21 Tarife Pozisyonu Açıklama Notları, İstanbul Üniversitesi Cerrahpaşa Rektörlüğü Mühendislik Fakültesi Makina Mühendisliği Bölümünce …",
+     "url": "https://uygulama.gtb.gov.tr/BTBBasvuru/BtbWebArama"
+    },
+    {
+     "source": "tr",
+     "source_label": "Türkiye (BTB)",
+     "color": "#E30A17",
+     "flag": "🇹🇷",
+     "origin": "Türkiye",
+     "hs": "842121000000",
+     "hs4": "8421",
+     "ref": "TR340000260088",
+     "date": "2026-05-22",
+     "title": "PURETECH MARKA, GAC GRANÜL KARBON FİLTER MODEL 4006031542 ÜRÜN KODLU, TEKNİK RAPORA GÖRE SUDAKİ ÇÖZÜNMÜŞ ORGANİK MADDELERİ, SERBEST KLORU VE UÇUCU ORGANİK BİLEŞİKLERİ (VOC) GİDERMEK AMACIYLA KULLANILAN, GRANÜL AKTİF KARBON (GAC) ESASLI BİR FİLTRE OLDUĞU TESPİTİ YAPILAN PPF SEDİME…",
+     "gerekce": "Genel Yorum Kurallarının 1 ve 6’ncı maddeleri, Gümrük Tarife Cetveli İzahnamesinin 84.21 Tarife Pozisyonu Açıklama Notları, İstanbul Üniversitesi Cerrahpaşa Rektörlüğü Mühendislik Fakültesi Makina Mühendisliği Bölümünce …",
+     "url": "https://uygulama.gtb.gov.tr/BTBBasvuru/BtbWebArama"
+    },
+    {
+     "source": "tr",
+     "source_label": "Türkiye (BTB)",
+     "color": "#E30A17",
+     "flag": "🇹🇷",
+     "origin": "Türkiye",
+     "hs": "950300950000",
+     "hs4": "9503",
+     "ref": "TR340000260089",
+     "date": "2026-05-22",
+     "title": "TONKA MARKA 06036 MODEL, HACİMSEL OLARAK PLASTİK ESASLI VE PLASTİK PARÇALARIN AĞIRLIĞININ 398 GRAM, METAL PARÇALARIN AĞIRLIĞININ 318 GRAM OLDUĞU TESPİTİ YAPILAN, GÖVDE, TEKERLEK, ÇEKİCİ KISMI PLASTİKTEN, KAPUT SACI VE ARAÇ TAVANI (RESİMDE SARI RENKLİ OLAN KISIMLAR) METALDEN MAMUL…",
+     "gerekce": "Genel Yorum Kuralları 1, 3(b) ve 6, Gümrük Tarife Cetveli İzahnamesi 95.03 Tarife Pozisyonu Açıklama Notları, 12.03.2026/3426BTB0458 tarih/sayılı Analiz Raporu",
+     "url": "https://uygulama.gtb.gov.tr/BTBBasvuru/BtbWebArama"
+    },
+    {
+     "source": "tr",
+     "source_label": "Türkiye (BTB)",
+     "color": "#E30A17",
+     "flag": "🇹🇷",
+     "origin": "Türkiye",
+     "hs": "950300950000",
+     "hs4": "9503",
+     "ref": "TR340000260090",
+     "date": "2026-05-22",
+     "title": "TONKA MARKA, 06027 MODEL, HACİMSEL OLARAK PLASTİK ESASLI VE PLASTİK PARÇALARIN AĞIRLIĞININ 500 GRAM, METAL PARÇALARIN AĞIRLIĞININ 308 GRAM OLDUĞU TESPİTİ YAPILAN, GÖVDE, PALET, TEKERLEK, KÜREYİCİ KISMI PLASTİKTEN, MOTOR KAPUT SACI VE KOLTUK ARKASI SACI (RESİMDE SARI RENKLİ OLAN K…",
+     "gerekce": "Genel Yorum Kuralları 1, 3(b) ve 6, Gümrük Tarife Cetveli İzahnamesi 95.03 Tarife Pozisyonu Açıklama Notları, 12.03.2026/3426BTB0459 tarih/sayılı Analiz Raporu",
+     "url": "https://uygulama.gtb.gov.tr/BTBBasvuru/BtbWebArama"
+    },
+    {
+     "source": "tr",
+     "source_label": "Türkiye (BTB)",
+     "color": "#E30A17",
+     "flag": "🇹🇷",
+     "origin": "Türkiye",
+     "hs": "732690980019",
+     "hs4": "7326",
+     "ref": "TR340000260091",
+     "date": "2026-05-22",
+     "title": "MRDIY MARKA, 9049169 MODEL, ZİNCİR VE HALKA KISMI ÇELİKTEN, DİĞER KISIMLARI PLASTİKTEN MAMUL, HEDİYE KUTUSU GÖRÜNÜMLÜ, (10X5X5) CM ÖLÇÜLERİNDE, DÜĞMEYE BASILDIĞINDA LEDİN YANMASIYLA BİRLİKTE ÖN KISIMDA BULUNAN AYNA GÖRÜNÜMLÜ PARÇANIN ARKASINDA BULUNAN ŞEFFAF AYI FİGÜRÜNÜN GÖRÜNÜR…",
+     "gerekce": "Genel Yorum Kurallarının 1 ve 6’ncı maddeleri, Gümrük Tarife Cetveli İzahnamesinin 73.26 Tarife Pozisyonu Açıklama Notları, 13.04.2026 tarih 121065752 sayı ile Bölge Müdürlüğümüz kayıtlarına giren İstanbul Laboratuvar Mü…",
+     "url": "https://uygulama.gtb.gov.tr/BTBBasvuru/BtbWebArama"
+    },
+    {
+     "source": "tr",
+     "source_label": "Türkiye (BTB)",
+     "color": "#E30A17",
+     "flag": "🇹🇷",
+     "origin": "Türkiye",
+     "hs": "851310009000",
+     "hs4": "8513",
+     "ref": "TR340000260092",
+     "date": "2026-05-22",
+     "title": "MRDIY MARKA, 9049172 MODEL, ÜST KISMINDA ÇELİKTEN MAMUL ZİNCİR VE ANAHTARLIK HALKASI BULUNAN, PLASTİKTEN MAMUL MİNYATÜR KAMP LAMBASI FORMUNDA, 10 X 4 X 4 CM ÖLÇÜLERİNDE, YAN TARAFINDA BULUNAN DÜĞMEYE BASILDIĞINDA LED IŞIĞIN DEVREYE GİRDİĞİ VE BİR KAMP LAMBASININ ETKİSİNİN TAKLİT …",
+     "gerekce": "Genel Yorum Kurallarının 1 ve 6’ncı maddeleri, Gümrük Tarife Cetveli İzahnamesinin 85.13 Tarife Pozisyonu Açıklama Notları, 17.03.2026 tarih 120128944 sayı ile Bölge Müdürlüğümüz kayıtlarına giren İstanbul Laboratuvar Mü…",
+     "url": "https://uygulama.gtb.gov.tr/BTBBasvuru/BtbWebArama"
+    },
+    {
+     "source": "tr",
+     "source_label": "Türkiye (BTB)",
+     "color": "#E30A17",
+     "flag": "🇹🇷",
+     "origin": "Türkiye",
+     "hs": "392640000019",
+     "hs4": "3926",
+     "ref": "TR340000260093",
+     "date": "2026-05-22",
+     "title": "MRDIY MARKA 9049023 MODEL NUMARALI, SİLİKONDAN MAMUL ASMA/TAKMA KORDONU OLAN, KORDONA ÇELİKTEN MAMUL HALKA İLE TUTTURULMUŞ 7X4X4 CM ÖLÇÜLERİNDE VE HERHANGİ BİR UZVU HAREKET ETMEYEN KIZ FİGÜRÜ, 1 ADET PLASTİKTEN MAMUL ZİRCİR HALKASI VE PLASTİKTEN MAMUL KALP FİGÜRÜNDEN OLUŞAN SÜS E…",
+     "gerekce": "Genel Yorum Kurallarının 1 ve 6’ncı maddeleri, Gümrük Tarife Cetveli İzahnamesinin 39.26Tarife Pozisyonu Açıklama Notları, 13.04.2026 tarih 121065752 sayı ile Bölge Müdürlüğümüz kayıtlarına giren İstanbul Laboratuvar Müd…",
+     "url": "https://uygulama.gtb.gov.tr/BTBBasvuru/BtbWebArama"
+    },
+    {
+     "source": "tr",
+     "source_label": "Türkiye (BTB)",
+     "color": "#E30A17",
+     "flag": "🇹🇷",
+     "origin": "Türkiye",
+     "hs": "842121000000",
+     "hs4": "8421",
+     "ref": "TR340000260094",
+     "date": "2026-05-22",
+     "title": "BRİTA MARKA 1052260 MODEL, KUTU İÇERİĞİNDE 1 ADET 0,6 LİTRE HACİMLİ, GÖVDE KISMI ŞEFFAF PLASTİK (PET) YEŞİL KAPAK KISMI POLİPROPİLEN POLİMERDEN (PP) MAMUL SU ŞİŞESİ VE HER BİRİ 4 HAFTA KULLANIM ÖMRÜNE VE 60 LİTRE SU FİLTRELEYEBİLEN 2 ADET DİSK ŞEKLİNDE KARBON VE POTASYUMDAN MAMUL…",
+     "gerekce": "Genel Yorum Kurallarının 1 ve 6’ncı maddeleri, Gümrük Tarife Cetveli İzahnamesinin 84.21 Tarife Pozisyonu Açıklama Notları, İstanbul Laboratuvar Müdürlüğü tarafından tanzim edilen 17.11.2025 tarih ve 3425BTB3122 sayılı A…",
+     "url": "https://uygulama.gtb.gov.tr/BTBBasvuru/BtbWebArama"
+    },
+    {
+     "source": "tr",
+     "source_label": "Türkiye (BTB)",
+     "color": "#E30A17",
+     "flag": "🇹🇷",
+     "origin": "Türkiye",
+     "hs": "842121000000",
+     "hs4": "8421",
+     "ref": "TR340000260095",
+     "date": "2026-05-22",
+     "title": "BRİTA MARKA, LARQ İQ MODEL, 1057865 ÜRÜN KODLU, ÇİFT CİDARLI PASLANMAZ ÇELİK GÖVDEYE SAHİP, 420 GRAM AĞIRLIĞINDA VE 680 ML KAPASİTELİ , PLASTİK/KOMPOZİT MAHFAZA İÇİNDE UV-C LED, ELEKTRONİK DEVRE, BLE ANTENİ, PİL (Lİ-PO 3.7 V), USB-C PORTU VE KONTROL DÜĞMESİ. 3,7 V Lİ-PO, 5 V USB …",
+     "gerekce": "Genel Yorum Kurallarının 1 ve 6’ncı maddeleri, Gümrük Tarife Cetveli İzahnamesinin 84.21 Tarife Pozisyonu Açıklama Notları, Gümrükler Genel Müdürlüğü’nün 30.04.2026 tarih ve 0121540177 sayılı yazıları, İstanbul Üniversit…",
+     "url": "https://uygulama.gtb.gov.tr/BTBBasvuru/BtbWebArama"
+    },
+    {
+     "source": "tr",
+     "source_label": "Türkiye (BTB)",
+     "color": "#E30A17",
+     "flag": "🇹🇷",
+     "origin": "Türkiye",
+     "hs": "842199900019",
+     "hs4": "8421",
+     "ref": "TR340000260096",
+     "date": "2026-05-22",
+     "title": "BRİTA MARKA, LARQ İQ MODEL VE 1057871 ÜRÜN KODLU PLASTİK/KOMPOZİT MAHFAZA İÇİNDE UV-C LED, ELEKTRONİK DEVRE, BLE ANTENİ, PİL (Lİ-PO 3.7 V), USB-C PORTU VE KONTROL DÜĞMESİ. 3,7 V Lİ-PO, 5 V USB GİRİŞLE ŞARJ EDİLEN RF:2,4 GHZ. ÖZELLİKLERİ İLE MÜCEHHEZ, CEP TELEFONUNA YÜKLENEN LARQ …",
+     "gerekce": "Genel Yorum Kurallarının 1 ve 6’ncı maddeleri, Gümrük Tarife Cetveli İzahnamesinin 84.21 Tarife Pozisyonu Açıklama Notları, Gümrükler Genel Müdürlüğü’nün 30.04.2026 tarih ve 121540177 sayılı yazıları, İstanbul Üniversite…",
+     "url": "https://uygulama.gtb.gov.tr/BTBBasvuru/BtbWebArama"
+    },
+    {
+     "source": "tr",
+     "source_label": "Türkiye (BTB)",
+     "color": "#E30A17",
+     "flag": "🇹🇷",
+     "origin": "Türkiye",
+     "hs": "851762009000",
+     "hs4": "8517",
+     "ref": "TR340000260097",
+     "date": "2026-05-22",
+     "title": "MEDTRUM MARKA, MD 1158 MODEL NUMARALI, TEKNİK RAPORA GÖRE VÜCUDA TAKILAN KÜÇÜK BİR SENSÖRDEN (SİSTEMİN DİĞER PARÇASI BTB KONUSU OLMAYAN EŞYA) GELEN KANDAKİ ŞEKER DEĞERİ VERİLERİNİ TOPLAYAN VE BU VERİLERİ KABLOSUZ OLARAK (BLUETOOTH) BİR AKILLI TELEFONA (ÜRETİCİ FİRMANIN TAKİP UYGU…",
+     "gerekce": "Genel Yorum Kurallarının 1 ve 6’ncı maddeleri, Gümrük Tarife Cetveli İzahnamesinin 90.Fasıl Bölüm Notu 2 ve Bölüm Notu 3, 85.17 ve 90.21 Tarife Pozisyonu Açıklama Notları, İstanbul Üniversitesi Cerrahpaşa Mühendislik Fak…",
+     "url": "https://uygulama.gtb.gov.tr/BTBBasvuru/BtbWebArama"
+    },
+    {
+     "source": "tr",
+     "source_label": "Türkiye (BTB)",
+     "color": "#E30A17",
+     "flag": "🇹🇷",
+     "origin": "Türkiye",
+     "hs": "851762009000",
+     "hs4": "8517",
+     "ref": "TR340000260098",
+     "date": "2026-05-22",
+     "title": "MEDTRUM MARKA, MD 1160 MODEL NUMARALI, TEKNİK RAPORA GÖRE VÜCUDA TAKILAN KÜÇÜK BİR SENSÖRDEN (SİSTEMİN DİĞER PARÇASI, BTB KONUSU OLMAYAN EŞYA) GELEN KANDAKİ ŞEKER DEĞERİ VERİLERİNİ TOPLAYAN VE BU VERİLERİ KABLOSUZ OLARAK (BLUETOOTH) BİR AKILLI TELEFONA (ÜRETİCİ FİRMANIN TAKİP UYG…",
+     "gerekce": "Genel Yorum Kurallarının 1 ve 6’ncı maddeleri, Gümrük Tarife Cetveli İzahnamesinin 90.Fasıl Bölüm Notu 2 ve Bölüm Notu 3, 85.17 ve 90.21 Tarife Pozisyonu Açıklama Notları, İstanbul Üniversitesi Cerrahpaşa Mühendislik Fak…",
+     "url": "https://uygulama.gtb.gov.tr/BTBBasvuru/BtbWebArama"
     }
    ]
   },
@@ -6623,9 +9006,10 @@ window.BTI_DATA = {
   {
    "date": "2026-05-18",
    "date_tr": "18 Mayıs 2026",
-   "count": 1,
+   "count": 3,
    "sources": [
-    "eu"
+    "eu",
+    "tr"
    ],
    "decisions": [
     {
@@ -6641,6 +9025,34 @@ window.BTI_DATA = {
      "title": "Altıgen dış kısmı olan metalik kol. Sağlanan bilgilere göre ürün, füzyon yoluyla elde edilen paslanmaz çelikten yapılmıştır ve başka bir metal nesneyle kaynak yoluyla birleştirilmesi amaçlanmaktadır. Bu eşyanın sivil sektördeki basınçlı su-sıhhi tesisat sistemleri, ısıtma ve ikli…",
      "gerekce": "Birleşik İsimlendirme 1 ve 6'nın genel yorumlayıcı kuralları. Birleşik İsimlendirme kodlarının metni: 7307, 7307 19, 7307 19 90.",
      "url": "https://ec.europa.eu/taxation_customs/dds2/ebti/ebti_details.jsp?showHeader=false&Lang=en&reference=ITBTI2025-0645"
+    },
+    {
+     "source": "tr",
+     "source_label": "Türkiye (BTB)",
+     "color": "#E30A17",
+     "flag": "🇹🇷",
+     "origin": "Türkiye",
+     "hs": "732599100000",
+     "hs4": "7325",
+     "ref": "TR160000260017",
+     "date": "2026-05-18",
+     "title": "METAL DÖKÜMDEN BURÇ - RDD0076201J",
+     "gerekce": "İlgili Genel Kurallar (1) ve (6), Gümrük Genel Tebliği (Gümrük Tarife Cetveli İzahnamesi) ( Seri No:4), Türk Gümrük Tarife Cetveli ve İzahnamesi XVII. Bölüm Notları ve Genel Açıklamalar, 73. Fasıl Genel Açıklamaları ile …",
+     "url": "https://uygulama.gtb.gov.tr/BTBBasvuru/BtbWebArama"
+    },
+    {
+     "source": "tr",
+     "source_label": "Türkiye (BTB)",
+     "color": "#E30A17",
+     "flag": "🇹🇷",
+     "origin": "Türkiye",
+     "hs": "848350800012",
+     "hs4": "8483",
+     "ref": "TR160000260016",
+     "date": "2026-05-18",
+     "title": "Asansör Kapı klavuzlarında kullanılan dış yüzeyi plastik maddelerden yapılmış göbeği bilyalı rulmandan mamul tekerlek",
+     "gerekce": "Tarifenin Yorumu ile İlgili Genel Kurallar (1), (3-b) ve (6); Türk Gümrük Tarife Cetveli ve İzahnamesi XV. ve XVI. Bölüm Notları ile Genel Açıklamaları; 39., 73., 83. ve 84. Fasıl Genel Açıklamaları; 39.26, 83.02, 84.82 …",
+     "url": "https://uygulama.gtb.gov.tr/BTBBasvuru/BtbWebArama"
     }
    ]
   },
@@ -11074,11 +13486,330 @@ window.BTI_DATA = {
    ]
   },
   {
+   "date": "2026-04-30",
+   "date_tr": "30 Nisan 2026",
+   "count": 22,
+   "sources": [
+    "tr"
+   ],
+   "decisions": [
+    {
+     "source": "tr",
+     "source_label": "Türkiye (BTB)",
+     "color": "#E30A17",
+     "flag": "🇹🇷",
+     "origin": "Türkiye",
+     "hs": "950300210000",
+     "hs4": "9503",
+     "ref": "TR340000260068",
+     "date": "2026-04-30",
+     "title": "60604993 KODLU, ÖRME TÜYLÜ MENSUCATTAN MAMUL, İÇİ ELYAF DOLGULU, YUMUŞAK ELYAF DOLGUSU NEDENİYLE UZUVLARI HAREKET ETTİRİLEBİLİR HALE GETİRİLMİŞ, 74 CM BOYUNDA, 388 GRAM AĞIRLIĞINDA, CÜCEYE BENZEYEN İNSAN FİGÜRÜNÜ TASVİR EDEN EŞYA",
+     "gerekce": "Gümrük Tarife Cetveli İzahnamesi 95.03 Tarife Pozisyonu Açıklama Notları, Genel Yorum Kuralları 1 ve 6, İstanbul Laboratuvar Müdürlüğünce tanzimli 26.03.2026/3426BTB0506 tarih/sayılı Analiz Raporu",
+     "url": "https://uygulama.gtb.gov.tr/BTBBasvuru/BtbWebArama"
+    },
+    {
+     "source": "tr",
+     "source_label": "Türkiye (BTB)",
+     "color": "#E30A17",
+     "flag": "🇹🇷",
+     "origin": "Türkiye",
+     "hs": "950300950000",
+     "hs4": "9503",
+     "ref": "TR340000260065",
+     "date": "2026-04-30",
+     "title": "MRDIY MARKA, 9046605 MODEL ZİNCİR VE HALKA KISMI ÇELİKTEN, DİĞER KISIMLARI PLASTİKTEN MAMUL, ASTRONOT GÖRÜNÜMLÜ, 10 X 3 X 4 CM ÖLÇÜLERİNDE ARKA KISMINDA BİR PİL YUVASI BULUNAN, SIRT KISMINDA BULUNAN DÜĞME DÜZENEĞİNE BASILDIĞINDA, KASK KISMINDAKİ IŞIĞIN VE SESİN AKTİF HALE GELDİĞİ…",
+     "gerekce": "Genel Yorum Kurallarının 1 ve 6’ncı maddeleri, Gümrük Tarife Cetveli İzahnamesinin 95.03 Tarife Pozisyonu Açıklama Notları, 13.04.2026 tarih 121065752 sayı ile Bölge Müdürlüğümüz kayıtlarına giren İstanbul Laboratuvar Mü…",
+     "url": "https://uygulama.gtb.gov.tr/BTBBasvuru/BtbWebArama"
+    },
+    {
+     "source": "tr",
+     "source_label": "Türkiye (BTB)",
+     "color": "#E30A17",
+     "flag": "🇹🇷",
+     "origin": "Türkiye",
+     "hs": "950300410000",
+     "hs4": "9503",
+     "ref": "TR340000260066",
+     "date": "2026-04-30",
+     "title": "MRDIY MARKA, 8961293 MODEL, YAKLAŞIK 21 CM BÜYÜKLÜĞÜNDE, DIŞ KISMI SENTETİK LİFLERDEN MAMUL MENSUCATTAN, MAVİ BEYAZ RENKTEKİ MENSUCAT KISMI PAMUKTAN VE İÇ KISMI SENTETİK ELYAF DOLGULU OLAN, ÜST TARAFINDA BULUNAN ZİNCİR VE HALKA KISMI ÇELİKTEN MAMUL, TAVŞAN FİGÜRÜNÜ TASVİR EDEN EŞ…",
+     "gerekce": "Genel Yorum Kurallarının 1 ve 6’ncı maddeleri, Gümrük Tarife Cetveli İzahnamesinin 95.03 Tarife Pozisyonu Açıklama Notları, Gümrükler Genel Müdürlüğü'nün 16.10.2026 tarih ve 114622179 sayılı yazıları, 17.03.2026 tarih 12…",
+     "url": "https://uygulama.gtb.gov.tr/BTBBasvuru/BtbWebArama"
+    },
+    {
+     "source": "tr",
+     "source_label": "Türkiye (BTB)",
+     "color": "#E30A17",
+     "flag": "🇹🇷",
+     "origin": "Türkiye",
+     "hs": "570299000019",
+     "hs4": "5702",
+     "ref": "TR340000260067",
+     "date": "2026-04-30",
+     "title": "80408024 MODEL NUMARALI RAKLEV HALI, DÜZ DOKUMA 70X160 EL YAPIMI NATÜREL/ÇOK RENKLİ TİCARİ TANIMIYLA PAZARLANAN, 70X160 CM EBATLARINDA, %94 JÜT VE %6 YÜN DOKUNMUŞ MENSUCATTAN MAMUL, ZEMİN DOKUMASI JÜTTEN, ÖN YÜZÜNDE ÜRÜNE RENK VE KARAKTER KATMAK AMACIYLA BELİRLİ ARALIKLARLA YÜNDE…",
+     "gerekce": "Genel Yorum Kurallarının 1ve 6’ncı maddeleri, Türk Gümrük Tarife Cetveli İzahnamesinin 57.02 Tarife Pozisyonu Açıklama Notları, İstanbul Laboratuvar Müdürlüğü tarafından tanzim edilen 11.09.2025/3425BTB2431 tarihli/sayıl…",
+     "url": "https://uygulama.gtb.gov.tr/BTBBasvuru/BtbWebArama"
+    },
+    {
+     "source": "tr",
+     "source_label": "Türkiye (BTB)",
+     "color": "#E30A17",
+     "flag": "🇹🇷",
+     "origin": "Türkiye",
+     "hs": "847989979019",
+     "hs4": "8479",
+     "ref": "TR340000260064",
+     "date": "2026-04-30",
+     "title": "TOMRA MARKA, B7 GLASSCRUSH+COMBİ MODEL; NFC SENSÖR VE QR OKUYUCU, DOKUNMATİK EKRAN, KULLANICI ARAYÜZÜ, BARKOD OKUMA MODÜLÜ, TERMAL YAZICI, DEPOLAMA HAZNELERİ, KAMERA KUTUSU, BARKOD OKUYUCU, LAZER MESAFE SENSÖRÜ, METAL DEDEKTÖRÜ, AYDINLATMA MODÜLÜ, KONVEYÖR ÜNİTESİ, BANT KONVEYÖR,…",
+     "gerekce": "İstanbul Üniversitesi Cerrahpaşa Mühendislik Fakültesi Makine Mühendisliği Bölümünce tanzim edilmiş 23.03.2026/120249936 tarih/sayı ile Bölge Müdürlüğümüz kayıtlarına giren 16.03.2026-1588787 tarih/sayılı Teknik Rapor, G…",
+     "url": "https://uygulama.gtb.gov.tr/BTBBasvuru/BtbWebArama"
+    },
+    {
+     "source": "tr",
+     "source_label": "Türkiye (BTB)",
+     "color": "#E30A17",
+     "flag": "🇹🇷",
+     "origin": "Türkiye",
+     "hs": "848180110000",
+     "hs4": "8481",
+     "ref": "TR340000260063",
+     "date": "2026-04-30",
+     "title": "VİTRA MARKA, AQUAHEAT BLİSS 240 2F MODEL, A47205 ÜRÜN KODLU, PERAKENDE SATIŞA YÖNELİK TEK BİR AMBALAJ İÇİNDE YER ALAN PLASTİKTEN (PET) MAMUL HORTUM, NİKEL KAPLI PLASTİKTEN MAMUL TEPE VE EL DUŞ BAŞLIKLARI, NİKEL KAPLI PİRİNÇTEN MAMUL TERMOSTATİK DUŞ BATARYASI, NİKEL KAPLI PASLANMA…",
+     "gerekce": "Genel Yorum Kurallarının 1, 3(b) ve 6’ncı maddeleri, Gümrük Tarife Cetveli İzahnamesi 84.81 tarife pozisyonu açıklama notları, İstanbul Laboratuvar Müdürlüğü tarafından tanzim edilen 13.03.2026/3426BTB0455 tarih/sayılı A…",
+     "url": "https://uygulama.gtb.gov.tr/BTBBasvuru/BtbWebArama"
+    },
+    {
+     "source": "tr",
+     "source_label": "Türkiye (BTB)",
+     "color": "#E30A17",
+     "flag": "🇹🇷",
+     "origin": "Türkiye",
+     "hs": "851713000019",
+     "hs4": "8517",
+     "ref": "TR340000260062",
+     "date": "2026-04-30",
+     "title": "TEKNİK RAPORA GÖRE; ANDROİD 8.1 İŞLETİM SİSTEMİNE, 2,8” DOKUNMATİK EKRANA, 5300mAh BATARYAYA, 2W HOPARLÖRE, 8MP ARKA VE 5MP ÖN KAMERAYA VE SIM KART YUVASINA SAHİP, 148.3 X 66.4 X 26.6 MM BOYUTLARINDA, BÜNYESİNDE; 1.3GHz İŞLEMCİ, 1 GB RAM VE 8GB HAFIZANIN MEVCUT OLDUĞU, GSM, 4G, W…",
+     "gerekce": "Genel Yorum Kuralları 1 ve 6 ıncı maddeler, Türk Gümrük Tarife Cetveli İzahnamesinin 85.17 Tarife Pozisyonu Açıklama Notları, Gümrükler Genel Müdürlüğünün 2020/11 Sayılı Genelgesi, Gümrükler Genel Müdürlüğünün 13.04.2026…",
+     "url": "https://uygulama.gtb.gov.tr/BTBBasvuru/BtbWebArama"
+    },
+    {
+     "source": "tr",
+     "source_label": "Türkiye (BTB)",
+     "color": "#E30A17",
+     "flag": "🇹🇷",
+     "origin": "Türkiye",
+     "hs": "852491000000",
+     "hs4": "8524",
+     "ref": "TR340000260061",
+     "date": "2026-04-30",
+     "title": "056T55-EL50 MODEL, 1225X705MMX82 MM KASA VE 55 İNCH (139.7CM) EKRAN BOYUTUNA 3840 X 2160 ÇÖZÜNÜRLÜK VE 60 HZ EKRAN YENİLEME DEĞERİNE SAHİP, EKRAN PANELİ, LED AYDINLATMA, PANEL GÖVDESİ, PANEL SÜRÜCÜ KARTI, T-CON (TİMİNG CONTROLLER ZAMANLAMA KONTROL) KARTI VE BAĞLANTI KABLOLARINDAN…",
+     "gerekce": "Genel Yorum Kurallarının 1 ve 6’ncı maddeleri, Gümrük Tarife Cetveli İzahnamesinin 85.24 ve 85.29 Tarife Pozisyonu Açıklama Notları, Ulusal Gümrük Tarife Cetveli Açıklama Notları, İstanbul Üniversitesi Cerrahpaşa Mühendi…",
+     "url": "https://uygulama.gtb.gov.tr/BTBBasvuru/BtbWebArama"
+    },
+    {
+     "source": "tr",
+     "source_label": "Türkiye (BTB)",
+     "color": "#E30A17",
+     "flag": "🇹🇷",
+     "origin": "Türkiye",
+     "hs": "850440959019",
+     "hs4": "8504",
+     "ref": "TR340000260060",
+     "date": "2026-04-30",
+     "title": "DELTA ELECTRONİCS MARKA, ASD-A2-0721-M MODEL; AA (ALTERNATİF AKIM) SERVO MOTORLARDA POZİSYON, HIZ, TORK KONTROLÜ İÇİN KULLANILAN, ALTERNATİF AKIMI DOĞRU AKIMA DÖNÜŞTÜRÜCÜ BİR REDRESÖR, DAİMİ AKIMI ALTERNATİF AKIMA DÖNÜŞTÜREN BİR DALGALI REDRESÖR (İNVERTÖR) (MODÜL İÇERİSİNDE), ELE…",
+     "gerekce": "İstanbul Üniversitesi Cerrahpaşa Mühendislik Fakültesinden alınan 03.06.2025 tarihli E-74933216-939.02-1325966 sayılı Teknik Rapor, Gümrükler Genel Müdürlüğü’nün 2015/22 sayılı Genelgesi; Gümrük Tarife Cetveli izahnamesi…",
+     "url": "https://uygulama.gtb.gov.tr/BTBBasvuru/BtbWebArama"
+    },
+    {
+     "source": "tr",
+     "source_label": "Türkiye (BTB)",
+     "color": "#E30A17",
+     "flag": "🇹🇷",
+     "origin": "Türkiye",
+     "hs": "842139259000",
+     "hs4": "8421",
+     "ref": "TR340000260059",
+     "date": "2026-04-30",
+     "title": "00656033-FİLTER FLUFF MODEL, TAMBURLU ÇAMAŞIR KURUTMA MAKİNASINDA TAMBUR ÇIKIŞINDAKİ HAVA AKIŞ YOLUNUN BAŞLANGICINA YERLEŞTİRİLEREK KULLANILAN, İÇ İÇE GEÇMİŞ İKİ FİLTRE (ESAS FİLTRE-İKİNCİL FİLTRE), PLASTİK TAŞIYICI ÇERÇEVE VE ÜST KAPAKTAN MÜTEŞEKKİL TİFTİK FİLTRESİ",
+     "gerekce": "Genel Yorum Kurallarının 1 ve 6 ıncı maddeleri, Türk Gümrük Tarife Cetveli İzahnamesinin 84.21 Tarife Pozisyonu Açıklama Notları, İstanbul Üniversitesi Cerrahpaşa Mühendislik Fakültesi Makine Mühendisliği Bölümünce tanzi…",
+     "url": "https://uygulama.gtb.gov.tr/BTBBasvuru/BtbWebArama"
+    },
+    {
+     "source": "tr",
+     "source_label": "Türkiye (BTB)",
+     "color": "#E30A17",
+     "flag": "🇹🇷",
+     "origin": "Türkiye",
+     "hs": "340130000000",
+     "hs4": "3401",
+     "ref": "TR340000260074",
+     "date": "2026-04-30",
+     "title": "WATSONS MARKA, 4894819551275 BARKOD NUMARALI, WATSONS WHİTENİNG CLAY MASK TİCARİ TANIMLI, ANALİZ RAPORUNA GÖRE YÜZEY AKTİF ÖZELLİK GÖSTEREN, KULLANIM TALİMATINDA NEMLİ VE PARLAK BİR CİLT ELDE ETME, CİLTTEKİ SEBUMU GİDERME VE GÖZENEKLERİ AZALTMA AMACI İLE YÜZE UYGULANDIKTAN SONRA …",
+     "gerekce": "Genel Yorum Kurallarının 1, 3(c) ve 6’ncı maddeleri, Gümrük Tarife Cetveli İzahnamesi 33.04 ve 34.01 tarife pozisyonu açıklama notları, İstanbul Laboratuvar Müdürlüğü tarafından tanzim edilen 02.03.2026/3426BTB0367 tarih…",
+     "url": "https://uygulama.gtb.gov.tr/BTBBasvuru/BtbWebArama"
+    },
+    {
+     "source": "tr",
+     "source_label": "Türkiye (BTB)",
+     "color": "#E30A17",
+     "flag": "🇹🇷",
+     "origin": "Türkiye",
+     "hs": "640690509019",
+     "hs4": "6406",
+     "ref": "TR340000260073",
+     "date": "2026-04-30",
+     "title": "WATSONS MARKA, 4894819889934 BARKOD NUMARALI, JEL TOPUK KORUYUCUSU TİCARİ TANIMLI, ANALİZ RAPORUNA GÖRE POLİÜRETANDAN MAMUL BİR YÜZÜ KENDİNDEN YAPIŞKANLI, OVAL ŞEKİLLİ, KULLANIM TALİMATINDA AYAKLARIN AYAKKABININ SORUNLU BÖLGELERE SÜRTÜNMESİNİ VE KAYMASINI ÖNLEME AMACIYLA AYAKKABI…",
+     "gerekce": "Genel Yorum Kurallarının 1 ve 6’ncı maddeleri, Gümrük Tarife Cetveli İzahnamesi 64.06 tarife pozisyonu açıklama notları, İstanbul Laboratuvar Müdürlüğü tarafından tanzim edilen 25.02.2026/3426BTB0372 tarih/sayılı Analiz …",
+     "url": "https://uygulama.gtb.gov.tr/BTBBasvuru/BtbWebArama"
+    },
+    {
+     "source": "tr",
+     "source_label": "Türkiye (BTB)",
+     "color": "#E30A17",
+     "flag": "🇹🇷",
+     "origin": "Türkiye",
+     "hs": "340130000000",
+     "hs4": "3401",
+     "ref": "TR340000260071",
+     "date": "2026-04-30",
+     "title": "WATSONS MARKA, 4894819551268 BARKOD NUMARALI, WATSONS PORE CLEARİNG CLAY MASK TİCARİ TANIMLI, ANALİZ RAPORUNA GÖRE YÜZEY AKTİF ÖZELLİK GÖSTEREN, KULLANIM TALİMATINDA TIKALI GÖZENEKLERİ AÇMA, CİLDİ SIKILAŞTIRMA, CİLTTEKİ SEBUMU, ÖLÜ DERİYİ VE SİYAH NOKTAYI GİDERME AMACI İLE YÜZE U…",
+     "gerekce": "Genel Yorum Kurallarının 1, 3c ve 6’ncı maddeleri, Gümrük Tarife Cetveli İzahnamesi 33.04 ve 34.01 tarife pozisyonu açıklama notları, İstanbul Laboratuvar Müdürlüğü tarafından tanzim edilen 02.03.2026/3426BTB0366 tarih/s…",
+     "url": "https://uygulama.gtb.gov.tr/BTBBasvuru/BtbWebArama"
+    },
+    {
+     "source": "tr",
+     "source_label": "Türkiye (BTB)",
+     "color": "#E30A17",
+     "flag": "🇹🇷",
+     "origin": "Türkiye",
+     "hs": "640690509019",
+     "hs4": "6406",
+     "ref": "TR340000260075",
+     "date": "2026-04-30",
+     "title": "WATSONS MARKA, 4894819889965 BARKOD NUMARALI, JEL NOKTA AYAK DESTEĞİ TİCARİ TANIMLI, ANALİZ RAPORUNA GÖRE POLİÜRETANDAN MAMUL BİR YÜZÜ KENDİNDEN YAPIŞKANLI, OVAL ŞEKİLLİ, KULLANIM TALİMATINDA AYAKLARIN AYAKKABININ SORUNLU BÖLGELERE SÜRTÜNMESİNDEN KAYNAKLANAN AĞRIYI ÖNLEME AMACIYL…",
+     "gerekce": "Genel Yorum Kurallarının 1 ve 6’ncı maddeleri, Gümrük Tarife Cetveli İzahnamesi 64.06 tarife pozisyonu açıklama notları, İstanbul Laboratuvar Müdürlüğü tarafından tanzim edilen 25.02.2026/3426BTB0371 tarih/sayılı Analiz …",
+     "url": "https://uygulama.gtb.gov.tr/BTBBasvuru/BtbWebArama"
+    },
+    {
+     "source": "tr",
+     "source_label": "Türkiye (BTB)",
+     "color": "#E30A17",
+     "flag": "🇹🇷",
+     "origin": "Türkiye",
+     "hs": "830260000000",
+     "hs4": "8302",
+     "ref": "TR340000260076",
+     "date": "2026-04-30",
+     "title": "KAHE MARKA, KH-452 MODEL, KUTU İÇERİĞİNDE CAM KAPININ AÇILIP KAPANMASINI SAĞLAYAN ÇELİKTEN MAMUL BİR ADET KİLİT, BİR ADET KAPI YER HİDROLİĞİ, BİR ADET KAPI TOKMAĞI, BİR ADET CAM KAPI ALT VE ÜST MENTEŞE VE DİĞER BAĞLANTI ELEMANLARINDAN OLUŞAN, TEK BİR AMBALAJ İÇİNDE PERAKENDE SATI…",
+     "gerekce": "Genel Yorum Kurallarının 1, 3 (b) ve 6’ncı maddeleri, Gümrük Tarife Cetveli İzahnamesinin 83.02 Tarife Pozisyonu Açıklama Notları, İstanbul Laboratuvar Müdürlüğü tarafından tanzim edilen 03.04.2026 tarih ve 3426BTB0589 s…",
+     "url": "https://uygulama.gtb.gov.tr/BTBBasvuru/BtbWebArama"
+    },
+    {
+     "source": "tr",
+     "source_label": "Türkiye (BTB)",
+     "color": "#E30A17",
+     "flag": "🇹🇷",
+     "origin": "Türkiye",
+     "hs": "711790001000",
+     "hs4": "7117",
+     "ref": "TR340000260077",
+     "date": "2026-04-30",
+     "title": "MRDIY MARKA, 9049037 MODEL, İNCİ VE ALTIN RENGİNDE, ALAŞIMLI ÇİNKODAN MAMUL, HALKANIN BİR UCUNDA ADİ METAL ZİNCİR İLE HALKAYA TUTTURULMUŞ, PLASTİK KURDELE ŞEKLİNDE SÜS, DİĞER UCUNDA İSE ADİ METAL ZİNCİRE DİZİLMİŞ PLASTİK BONCUKLARDAN OLUŞAN, ÇANTALAR İÇİN SÜSLEME AKSESUARI OLARAK…",
+     "gerekce": "Genel Yorum Kurallarının 1 ve 6’ncı maddeleri, Türk Gümrük Tarife Cetveli İzahnamesinin 71.17 Tarife Pozisyonu Açıklama Notları, 17.03.2026 tarih 120128944 sayı ile Bölge Müdürlüğümüz kayıtlarına giren İstanbul Laboratuv…",
+     "url": "https://uygulama.gtb.gov.tr/BTBBasvuru/BtbWebArama"
+    },
+    {
+     "source": "tr",
+     "source_label": "Türkiye (BTB)",
+     "color": "#E30A17",
+     "flag": "🇹🇷",
+     "origin": "Türkiye",
+     "hs": "850980000000",
+     "hs4": "8509",
+     "ref": "TR060000260006",
+     "date": "2026-04-30",
+     "title": "TECHPETS OTOMATİK KEDİ TUVALETİ: DIŞ GÖVDESİ PLASTİKTEN, İÇ MEKANİK YAPISI PALSTİK VE MOTOR AKSAMINDAN OLUŞAN OTOMATİK KEDİ TUVALETİDİR. ELEKTRONİK DEVRE ELEMANLARI, MOTOR SÜRÜCÜLERİ, SENSÖRLER VE Wİ-Fİ MODÜLÜ İÇERİR.",
+     "gerekce": "TARİFE GENEL YORUM KURALLARI 1. VE 6. MADDELERİ, GÜMRÜK TARİFE CETVELİ İZAHNAMESİ 8509 TARİFE POZİSYONU AÇIKLAMA NOTLARI DOĞRULTUSUNDA SINIFLANDIRMA GERÇEKLEŞTİRİLMİŞTİR.",
+     "url": "https://uygulama.gtb.gov.tr/BTBBasvuru/BtbWebArama"
+    },
+    {
+     "source": "tr",
+     "source_label": "Türkiye (BTB)",
+     "color": "#E30A17",
+     "flag": "🇹🇷",
+     "origin": "Türkiye",
+     "hs": "851762001000",
+     "hs4": "8517",
+     "ref": "TR350000260022",
+     "date": "2026-04-30",
+     "title": "14H317-RKF Model, Contr Unit Tlms W/CV2X.Motorlu araçlar için tasarlanmış, kilometre sayacını, GPS (Küresel Konumlandırma Sistemi), yakıt seviyesi yüzdesi, pil voltajı durumu, pil durumu, lastik basınç durumu, motor soğutma suyu sıcaklığı, vites konumu vb. verileri gibi araç bilg…",
+     "gerekce": "Türk Gümrük Tarife Cetveli İzahnamesi’nin 8517 tarife pozisyonu açıklama notları, Bakanlığımız Gümrükler Genel Müdürlüğünün 10.01.2022/70691332 tarihli/sayılı yazıları ve Tarife Yorumuna İlişkin Genel Kurallar 1,6",
+     "url": "https://uygulama.gtb.gov.tr/BTBBasvuru/BtbWebArama"
+    },
+    {
+     "source": "tr",
+     "source_label": "Türkiye (BTB)",
+     "color": "#E30A17",
+     "flag": "🇹🇷",
+     "origin": "Türkiye",
+     "hs": "901890840019",
+     "hs4": "9018",
+     "ref": "TR340000260070",
+     "date": "2026-04-30",
+     "title": "SHUNMEI MARKA, 629904 MODEL, SHUN ANGELKISS-A TR CLOSURE BAND TİCARİ TANIMLI, RADİAL ARTER PONKSİYONU SONRASI HEMOSTAZIN (KANAMANIN DURDURULMASININ) SAĞLANMASI AMACIYLA KULLANILAN, BİLEĞE YERLEŞTİRİLEN VE HAVA İLE ŞİŞİRİLEBİLEN BALON MEKANİZMASI ARACILIĞIYLA PONKSİYON BÖLGESİNE K…",
+     "gerekce": "Genel Yorum Kuralları 1 ve 6 ıncı maddeler, Türk Gümrük Tarife Cetveli İzahnamesinin 90.18 Tarife Pozisyonu Açıklama Notları, İstanbul Üniversitesi Cerrahpaşa Rektörlüğü Hastaneler Genel Direktörlüğü Biyomedikal Koordina…",
+     "url": "https://uygulama.gtb.gov.tr/BTBBasvuru/BtbWebArama"
+    },
+    {
+     "source": "tr",
+     "source_label": "Türkiye (BTB)",
+     "color": "#E30A17",
+     "flag": "🇹🇷",
+     "origin": "Türkiye",
+     "hs": "901890840015",
+     "hs4": "9018",
+     "ref": "TR340000260069",
+     "date": "2026-04-30",
+     "title": "SHUNMEI MARKA 617101 MODEL, TRANSLUMİNAL KORONER ANJİYOPLASTİ İŞLEMLERİNDE, BALON DİLATASYON KATETERİNİ BASINÇLANDIRMAK İÇİN TASARLANAN, ŞIRINGA HACMİ MAKSİMUM 20 ML 30 BAR MAKSİMUM BASINCA SAHİP ANALOG MANOMETREYE SAHİP YÜKSEK BASINÇLI 3 YOLLU MUSLUK İÇEREN İNDEFLATÖR TANIMLI EŞ…",
+     "gerekce": "Genel Yorum Kuralları 1 ve 6 ıncı maddeler, Türk Gümrük Tarife Cetveli İzahnamesinin 90.18 Tarife Pozisyonu Açıklama Notları, İstanbul Üniversitesi Cerrahpaşa Rektörlüğü Hastaneler Genel Direktörlüğü Biyomedikal Koordina…",
+     "url": "https://uygulama.gtb.gov.tr/BTBBasvuru/BtbWebArama"
+    },
+    {
+     "source": "tr",
+     "source_label": "Türkiye (BTB)",
+     "color": "#E30A17",
+     "flag": "🇹🇷",
+     "origin": "Türkiye",
+     "hs": "220190000011",
+     "hs4": "2201",
+     "ref": "TR340000260057",
+     "date": "2026-04-30",
+     "title": "ANALİZ RAPORUNA GÖRE pH DEĞERİ 7,29 OLAN, SULTAN MARKA 0,25 LİTRE PET ŞİŞE AMBALAJINDA DOĞAL KAYNAK İÇME SUYU TİCARİ TANIMIYLA PAZARLANAN EŞYA",
+     "gerekce": "Genel Yorum Kurallarının 1 ve 6’ncı maddeleri, Türk Gümrük Tarife Cetveli İzahnamesinin 22.01 Tarife Pozisyonu Açıklama Notları, İstanbul Laboratuvar Müdürlüğü tarafından tanzim edilen 09.03.2026/3426BTB0441 tarih/sayılı…",
+     "url": "https://uygulama.gtb.gov.tr/BTBBasvuru/BtbWebArama"
+    },
+    {
+     "source": "tr",
+     "source_label": "Türkiye (BTB)",
+     "color": "#E30A17",
+     "flag": "🇹🇷",
+     "origin": "Türkiye",
+     "hs": "960840001000",
+     "hs4": "9608",
+     "ref": "TR340000260058",
+     "date": "2026-04-30",
+     "title": "KRAF MARKA, TM02631 MODEL, PLASTİKTEN MAMUL BİR AMBALAJ İÇERİSİNDE PAKETLENMİŞ 12 ADET FARKLI RENKTE, BASMA MEKANİZMALI, DIŞ GÖVDE KISMI PLASTİKTEN, UÇ KISIMLARI POLİETİLEN ESASLI GRAFİT OLMAYAN ORGANİK-İNORGANİK MALZEMEDEN MAMUL KALEM VE 1 ADET BU KALEMLERLE KULLANILMAYA UYGUN K…",
+     "gerekce": "Gümrük Tarife Cetveli İzahnamesi 96.08 Tarife Pozisyonu Açıklama Notları, Genel Yorum Kuralları 1, 3(b) ve 6, İstanbul Laboratuvar Müdürlüğünce tanzimli 26.02.2026/3426BTB0308 tarih/sayılı Analiz ve 27.03.2026/3426GÖR065…",
+     "url": "https://uygulama.gtb.gov.tr/BTBBasvuru/BtbWebArama"
+    }
+   ]
+  },
+  {
    "date": "2026-04-28",
    "date_tr": "28 Nisan 2026",
-   "count": 1,
+   "count": 2,
    "sources": [
-    "eu"
+    "eu",
+    "tr"
    ],
    "decisions": [
     {
@@ -11091,9 +13822,23 @@ window.BTI_DATA = {
      "hs4": "9503",
      "ref": "ROBTI2026-005390",
      "date": "2026-04-28",
-     "title": "Başvuru sahibi tarafından sağlanan açıklama ve veri tabanında yayımlanan görsele göre ürün, küçük çocuklar için dekoratif kanatlı kuş şeklinde müzikli çıngıraklı bir oyuncaktır. Kuşun gövdesi plastik malzemeden yapılmış olup bir müzik modülü içermektedir. Modül üzerinde basıldığı…",
-     "gerekce": "Kombine Nomenklatür'ün 1 ve 6 numaralı Genel Yorum Kuralları. 9503 pozisyonuna ilişkin NESA, D) bendi, (i) alt bendi. 95030041 alt pozisyonuna ilişkin NENC.",
+     "title": "Başvuru sahibinin sunduğu açıklamaya ve veri tabanında yayımlanan görsele göre ürün, dekoratif kanatlara sahip kuş şeklinde, küçük çocuklar için müzikli bir çıngırak oyuncağıdır. Kuşun gövdesi plastik malzemeden yapılmış olup bir müzik modülü içermektedir. Üzerinde basıldığında ı…",
+     "gerekce": "Kombine Nomenklatür'ün yorumlanmasına ilişkin Genel Yorum Kuralları 1 ve 6. 9503 pozisyonuna ait AHŞY, D maddesi, i bendi. 95030041 alt pozisyonuna ait AKTK.",
      "url": "https://ec.europa.eu/taxation_customs/dds2/ebti/ebti_details.jsp?showHeader=false&Lang=en&reference=ROBTI2026-005390"
+    },
+    {
+     "source": "tr",
+     "source_label": "Türkiye (BTB)",
+     "color": "#E30A17",
+     "flag": "🇹🇷",
+     "origin": "Türkiye",
+     "hs": "847989979019",
+     "hs4": "8479",
+     "ref": "TR330000260010",
+     "date": "2026-04-28",
+     "title": "KESİM PLOTTER MAKİNASI: YK-905X Model, dijital olarak tasarlanmış, malzemeleri milimetrik hassasiyetle kesmek için kullanılan, yink kesim plotter makinası.",
+     "gerekce": "a. Genel yorum kuralları (1) ve (6) maddeleri. b. Türk Gümrük Tarife Cetvelinin 8479 açıklama notları",
+     "url": "https://uygulama.gtb.gov.tr/BTBBasvuru/BtbWebArama"
     }
    ]
   },
@@ -11122,6 +13867,698 @@ window.BTI_DATA = {
    ]
   },
   {
+   "date": "2026-04-17",
+   "date_tr": "17 Nisan 2026",
+   "count": 3,
+   "sources": [
+    "tr"
+   ],
+   "decisions": [
+    {
+     "source": "tr",
+     "source_label": "Türkiye (BTB)",
+     "color": "#E30A17",
+     "flag": "🇹🇷",
+     "origin": "Türkiye",
+     "hs": "846729200000",
+     "hs4": "8467",
+     "ref": "TR330000260009",
+     "date": "2026-04-17",
+     "title": "AKÜLÜ BUDAMA MAKASI: Ambalajı içerisinde 1 adet 16.8V şarjlı (akülü) budama makası ve aksesuarları (1 adet yedek batarya, 1 adet şarj aleti, 3 adet L şeklinde anahtar, 1 adet tornavida, 1 adet motor yağı, 1 adet yedek bıçak cinsi eşya.) ile birlikte (Seri No:263500001). Gümrükler…",
+     "gerekce": "a.Genel yorum kuralları 1., 3(b) ve 6. maddeleri. b. Türk Gümrük Tarife Cetveli İzahnamesi 8467 Tarife Pozisyonu Açıklama Notları. c. Gümrükler Genel Müdürlüğünün 08.10.2021/67990771 tarih/sayılı yazısı.",
+     "url": "https://uygulama.gtb.gov.tr/BTBBasvuru/BtbWebArama"
+    },
+    {
+     "source": "tr",
+     "source_label": "Türkiye (BTB)",
+     "color": "#E30A17",
+     "flag": "🇹🇷",
+     "origin": "Türkiye",
+     "hs": "845811410012",
+     "hs4": "8458",
+     "ref": "TR330000260008",
+     "date": "2026-04-17",
+     "title": "VIKTOR TAICHUMG MARKA VTURN-NP20 MODEL YÜKSEK HASSASİYETLİ VE NÜMERİK KONTROLLÜ (CNC) C EKSENLİ YATAY OTOMATİK TORNA TEZGAHI: İş mili üzerine bağlanan metal parçaların yüksek hızda döndürülerek, toret üzerindeki kesici takımlar vasıtasıyla talaş kaldırılması (tornalanması, diş aç…",
+     "gerekce": "a. Genel yorum kuralları (1) ve (6) maddeleri. b. Türk Gümrük Tarife Cetvelinin 8458 izahname notları. c. TMMOB Makina Mühendisleri Odası Mersin Şubesinin 27.03.2026 tarihli, 30/280 sayılı yazısı eki Bilirkişi Raporu.",
+     "url": "https://uygulama.gtb.gov.tr/BTBBasvuru/BtbWebArama"
+    },
+    {
+     "source": "tr",
+     "source_label": "Türkiye (BTB)",
+     "color": "#E30A17",
+     "flag": "🇹🇷",
+     "origin": "Türkiye",
+     "hs": "847989979019",
+     "hs4": "8479",
+     "ref": "TR350000260021",
+     "date": "2026-04-17",
+     "title": "Ellipse Battery Pump Suctıon Cup. Düz yüzeylerde 150 kg, pürüzlü yüzeylerde 50 kg kadar kaldırma kapasitesi bulunan ve bataryasının 3 saat şarj süresi olan; seramik, fayans, cam gibi düz yüzeyleri olan taşınabilir malzemeleri kaldırmaya yarayan şarjlı vakum vantuzudur.",
+     "gerekce": "Türk Gümrük Tarife Cetveli İzahnamesi’nin 8479 tarife pozisyonu açıklama notları ve Tarife Yorumuna İlişkin Genel Kurallar 1,6",
+     "url": "https://uygulama.gtb.gov.tr/BTBBasvuru/BtbWebArama"
+    }
+   ]
+  },
+  {
+   "date": "2026-04-16",
+   "date_tr": "16 Nisan 2026",
+   "count": 3,
+   "sources": [
+    "tr"
+   ],
+   "decisions": [
+    {
+     "source": "tr",
+     "source_label": "Türkiye (BTB)",
+     "color": "#E30A17",
+     "flag": "🇹🇷",
+     "origin": "Türkiye",
+     "hs": "820559800019",
+     "hs4": "8205",
+     "ref": "TR350000260019",
+     "date": "2026-04-16",
+     "title": "\"06390 kodlu Segman Çemberi. 125 mm çapı olan, 235 gr ağırlığında, metal sac ve aksamlardan oluşan içten yanmalı motorlarda piston üzerindeki segmanların, segmanlara zarar vermeden silindir gövdesine takılmasını sağlayan bir el aletidir.\"",
+     "gerekce": "\"Türk Gümrük Tarife Cetveli İzahnamesi’nin 8205 Tarife Pozisyonu Açıklama Notları, Tarifenin Yorumuna İlişkin Genel Kurallar 1, 6 \"",
+     "url": "https://uygulama.gtb.gov.tr/BTBBasvuru/BtbWebArama"
+    },
+    {
+     "source": "tr",
+     "source_label": "Türkiye (BTB)",
+     "color": "#E30A17",
+     "flag": "🇹🇷",
+     "origin": "Türkiye",
+     "hs": "853710980019",
+     "hs4": "8537",
+     "ref": "TR410000260008",
+     "date": "2026-04-16",
+     "title": "“SCHONER Marka, JF0365 Model Seviye 2 Elektrikli Araç Şarj Donanımı AC/AC Kontrolcü” ticari tanımlı; elektrikli araçları (EV) şarj etmek için kullanılan \"Taşınabilir Şarj İstasyonu\" (Tek faz 230V ve 3 faz 400V nominal AC gerilim ile çalışmaktadır).",
+     "gerekce": "İstanbul Üniversitesi Teknik Raporu ve Tarife Yorum Kuralları 1 ve 6 Gümrükler Genel Müdürlüğünün 29.01.2026 / 117017151 tarih/sayılı yazıları.",
+     "url": "https://uygulama.gtb.gov.tr/BTBBasvuru/BtbWebArama"
+    },
+    {
+     "source": "tr",
+     "source_label": "Türkiye (BTB)",
+     "color": "#E30A17",
+     "flag": "🇹🇷",
+     "origin": "Türkiye",
+     "hs": "853710980019",
+     "hs4": "8537",
+     "ref": "TR410000260007",
+     "date": "2026-04-16",
+     "title": "“SCHONER Marka, JF0366 Model Seviye 2 Elektrikli Araç Şarj Donanımı AC/AC Kontrolcü” ticari tanımlı; elektrikli araçları (EV) şarj etmek için kullanılan \"Taşınabilir Şarj İstasyonu\" (230V AC nominal gerilim ile çalışmaktadır).",
+     "gerekce": "İstanbul Üniversitesi Teknik Raporu ve Tarife Yorum Kuralları 1 ve 6 Gümrükler Genel Müdürlüğünün 29.01.2026 / 117017151 tarih/sayılı yazıları.",
+     "url": "https://uygulama.gtb.gov.tr/BTBBasvuru/BtbWebArama"
+    }
+   ]
+  },
+  {
+   "date": "2026-04-15",
+   "date_tr": "15 Nisan 2026",
+   "count": 4,
+   "sources": [
+    "tr"
+   ],
+   "decisions": [
+    {
+     "source": "tr",
+     "source_label": "Türkiye (BTB)",
+     "color": "#E30A17",
+     "flag": "🇹🇷",
+     "origin": "Türkiye",
+     "hs": "401610002900",
+     "hs4": "4016",
+     "ref": "TR350000260018",
+     "date": "2026-04-15",
+     "title": "Seeka Marka, Sun PU Rubber Yoga Mat. Muhafaza edildiği orijinal taşıma çantası bulunmakta olup bir yüzü poliüretanla kaplamış, dokunmamış mensucatla lamine edilmiş, köşeleri yuvarlatılmış, 183*68 cm boyutlarında, gözenekli kauçuktan tabakadır.",
+     "gerekce": "Türk Gümrük Tarife Cetveli İzahnamesi’nin 4016 tarife pozisyonu açıklama notları, İzmir Laboratuvar Müdürlüğünün 06.04.2026 tarihli 3526BTB0157 sayılı Analiz Raporu ve Tarife Yorumuna İlişkin Genel Kurallar 1,6",
+     "url": "https://uygulama.gtb.gov.tr/BTBBasvuru/BtbWebArama"
+    },
+    {
+     "source": "tr",
+     "source_label": "Türkiye (BTB)",
+     "color": "#E30A17",
+     "flag": "🇹🇷",
+     "origin": "Türkiye",
+     "hs": "401610002900",
+     "hs4": "4016",
+     "ref": "TR350000260017",
+     "date": "2026-04-15",
+     "title": "Seeka Marka, Cork Rubber Yoga Mat. Muhafaza edildiği orijinal taşıma çantası bulunmakta olup bir yüzü mantar tozu ile kaplamış, dokunmuş mensucatla lamine edilmiş, köşeleri yuvarlatılmış, 183*61 cm boyutlarında, gözenekli kauçuktan tabakadır.",
+     "gerekce": "Türk Gümrük Tarife Cetveli İzahnamesi’nin 4016 tarife pozisyonu açıklama notları, İzmir Laboratuvar Müdürlüğünün 06.04.2026 tarihli 3526BTB0156 sayılı Analiz Raporu ve Tarife Yorumuna İlişkin Genel Kurallar 1,6",
+     "url": "https://uygulama.gtb.gov.tr/BTBBasvuru/BtbWebArama"
+    },
+    {
+     "source": "tr",
+     "source_label": "Türkiye (BTB)",
+     "color": "#E30A17",
+     "flag": "🇹🇷",
+     "origin": "Türkiye",
+     "hs": "902300800019",
+     "hs4": "9023",
+     "ref": "TR350000260020",
+     "date": "2026-04-15",
+     "title": "Moto Traıner marka, MotoGP Simulator. Motosiklet yarış pilotları ve diğer sürücüler için egzersiz yapması, sürüş becerilerini geliştirmek için tasarlanmış olup sürücünün dünyanın herhangi bir yerindeki herhangi bir pisti seçerek yarışlara hazırlanmasını sağlamaktadır. (Simülatör …",
+     "gerekce": "Türk Gümrük Tarife Cetveli İzahnamesi’nin 9023 tarife pozisyonu açıklama notları ve Tarife Yorumuna İlişkin Genel Kurallar 1,6",
+     "url": "https://uygulama.gtb.gov.tr/BTBBasvuru/BtbWebArama"
+    },
+    {
+     "source": "tr",
+     "source_label": "Türkiye (BTB)",
+     "color": "#E30A17",
+     "flag": "🇹🇷",
+     "origin": "Türkiye",
+     "hs": "847989979019",
+     "hs4": "8479",
+     "ref": "TR160000260015",
+     "date": "2026-04-15",
+     "title": "dc motor, hareket mili, dişli sistemleri, koruma anahtarı ve besleme kablosundan oluşan, 24 V DC (doğru akım) besleme ile çalışan, hareketli koltuk mekanizmaları için iki yönlü lineer mekanik hareket sağlayabilen, maksimum 2000N itme-çekme kuvveti uygulayabilen, bünyesindeki DC l…",
+     "gerekce": "Türk Gümrük Tarife Cetveli ve İzahnamesi XVI. Bölüm Notları, 84. Fasıl Genel Açıklama Notları, 8479 Tarife Pozisyon Notları, Tarifenin Yorumu ile ilgili Genel Kurallar (1) ve (6),Bakanlığımız Gümrükler Genel Müdürlüğünün…",
+     "url": "https://uygulama.gtb.gov.tr/BTBBasvuru/BtbWebArama"
+    }
+   ]
+  },
+  {
+   "date": "2026-04-14",
+   "date_tr": "14 Nisan 2026",
+   "count": 3,
+   "sources": [
+    "tr"
+   ],
+   "decisions": [
+    {
+     "source": "tr",
+     "source_label": "Türkiye (BTB)",
+     "color": "#E30A17",
+     "flag": "🇹🇷",
+     "origin": "Türkiye",
+     "hs": "843020000011",
+     "hs4": "8430",
+     "ref": "TR330000260006",
+     "date": "2026-04-14",
+     "title": "KAR KÜREYİCİ (SNOW SHOVEL): Tekerlekleri olan, el ile itilerek kullanılan, C-SP005 model kar küreği.",
+     "gerekce": "a. Genel yorum kuralları 1. ve 6. maddeleri. b. Türk Gümrük Tarife Cetvelinin 8430 açıklama notları.",
+     "url": "https://uygulama.gtb.gov.tr/BTBBasvuru/BtbWebArama"
+    },
+    {
+     "source": "tr",
+     "source_label": "Türkiye (BTB)",
+     "color": "#E30A17",
+     "flag": "🇹🇷",
+     "origin": "Türkiye",
+     "hs": "852491000000",
+     "hs4": "8524",
+     "ref": "TR330000260005",
+     "date": "2026-04-14",
+     "title": "RENKLİ LCD PANEL: 1920x1080 piksel çözünürlüğe sahip, 15.6 inç ekran boyutunda, dokunmatik özelliği bulunan, arka yüzünde baskı devre kartı bulunan LCD (Liquid Crystal Display) (Sıvı Kristal Ekran)",
+     "gerekce": "a. Gümrük Tarife Cetveli İzahnamesi Genel yorum kuralları 1. ve 6. maddeleri. b. Türk Gümrük Tarife Cetveli İzahnamesi 8524 Tarife Pozisyonu Açıklama Notları. c. Gümrükler Genel Müdürlüğünün 21.09.2022/78273585 tarih/say…",
+     "url": "https://uygulama.gtb.gov.tr/BTBBasvuru/BtbWebArama"
+    },
+    {
+     "source": "tr",
+     "source_label": "Türkiye (BTB)",
+     "color": "#E30A17",
+     "flag": "🇹🇷",
+     "origin": "Türkiye",
+     "hs": "842890909000",
+     "hs4": "8428",
+     "ref": "TR330000260007",
+     "date": "2026-04-14",
+     "title": "PERSONEL YÜKSELTİCİ PLATFORM: Beijun marka, çalışma yüksekliği 36 metre, maksimum yük kaldırma kapasitesi (rated load) 250 kg olan, kara taşıtlarına monte edilmek üzere imal edilmiş personel yükseltici platform.",
+     "gerekce": "a. Genel yorum kuralları (1), ve (6) maddeleri. b. Türk Gümrük Tarife Cetvelinin 8428 izahname notları. c. Türk Gümrük Tarife Cetvelinin 84. fasıl izahname notları.",
+     "url": "https://uygulama.gtb.gov.tr/BTBBasvuru/BtbWebArama"
+    }
+   ]
+  },
+  {
+   "date": "2026-04-08",
+   "date_tr": "8 Nisan 2026",
+   "count": 2,
+   "sources": [
+    "tr"
+   ],
+   "decisions": [
+    {
+     "source": "tr",
+     "source_label": "Türkiye (BTB)",
+     "color": "#E30A17",
+     "flag": "🇹🇷",
+     "origin": "Türkiye",
+     "hs": "871690300000",
+     "hs4": "8716",
+     "ref": "TR350000260015",
+     "date": "2026-04-08",
+     "title": "El-RSL400400 Model, Karavan Tavan Penceresi. 40x40 cm ebatlarında olup hem motorlu hemde çekme karavan üretiminde kullanılmaktadır. İçerisinde led aydınlatma (9405.42.31.00.00) bulunmaktadır.",
+     "gerekce": "Türk Gümrük Tarife Cetveli İzahnamesi’nin 8716 tarife pozisyonu açıklama notları, Gümrükler Genel Müdürlüğünün 2011/40, Tarife Yorumuna İlişkin Genel Kurallar 1, 3c, 6”",
+     "url": "https://uygulama.gtb.gov.tr/BTBBasvuru/BtbWebArama"
+    },
+    {
+     "source": "tr",
+     "source_label": "Türkiye (BTB)",
+     "color": "#E30A17",
+     "flag": "🇹🇷",
+     "origin": "Türkiye",
+     "hs": "871690300000",
+     "hs4": "8716",
+     "ref": "TR350000260016",
+     "date": "2026-04-08",
+     "title": "El-PW500X1200 Model, Karavan Penceresi. 500X1200 cm ebatlarında olup hem motorlu hemde çekme karavan üretiminde yan pencere olarak kullanılmaktadır.",
+     "gerekce": "Türk Gümrük Tarife Cetveli İzahnamesi’nin 8716 tarife pozisyonu açıklama notları, Gümrükler Genel Müdürlüğünün 2011/40, Tarife Yorumuna İlişkin Genel Kurallar 1, 3c, 6",
+     "url": "https://uygulama.gtb.gov.tr/BTBBasvuru/BtbWebArama"
+    }
+   ]
+  },
+  {
+   "date": "2026-04-02",
+   "date_tr": "2 Nisan 2026",
+   "count": 2,
+   "sources": [
+    "tr"
+   ],
+   "decisions": [
+    {
+     "source": "tr",
+     "source_label": "Türkiye (BTB)",
+     "color": "#E30A17",
+     "flag": "🇹🇷",
+     "origin": "Türkiye",
+     "hs": "847989979019",
+     "hs4": "8479",
+     "ref": "TR060000260004",
+     "date": "2026-04-02",
+     "title": "STANDART CBK 308 TOUCHLESS CAR WASH MACHİNE / TEMASSIZ ARABA YIKAMA MAKİNASIDIR.",
+     "gerekce": "TARİFE GENEL YORUM KURALLARI (1) VE (6). MADDELERİ İLE GÜMRÜK TARİFE CETVELİ İZAHNAMESİ 8479 TARİFE POZİSYONU AÇIKLAMA NOTLARI",
+     "url": "https://uygulama.gtb.gov.tr/BTBBasvuru/BtbWebArama"
+    },
+    {
+     "source": "tr",
+     "source_label": "Türkiye (BTB)",
+     "color": "#E30A17",
+     "flag": "🇹🇷",
+     "origin": "Türkiye",
+     "hs": "853710980019",
+     "hs4": "8537",
+     "ref": "TR060000260005",
+     "date": "2026-04-02",
+     "title": "BLASTWEB BLAST CONTROL UNİT (BCU) DİJİTAL VE BİLGİSAYAR AĞI DESTEKLİ BİR PATLATMA KONTROL ÜNİTESİDİR(BCU). UYGULAMA VE GÜVENLİK STANDARTLARI GEREĞİ PROGRAMLANABİLİR VE TEK BAŞINA KULLANILABİLEN BİR CİHAZ DEĞİLDİR.",
+     "gerekce": "TARİFE GENEL YORUM KURALLARI 1. VE 6. MADDELERİ, GÜMRÜK TARİFE CETVELİ İZAHNAMESİ 8537 TARİFE POZİSYONU AÇIKLAMA NOTLARI VE 25.03.2026 TARİH 605.01-637 SAYILI YAZISI EKİ ORTA DOĞU TEKNİK ÜNİVERSİTESİ ELEKTRİK ELEKTRONİK …",
+     "url": "https://uygulama.gtb.gov.tr/BTBBasvuru/BtbWebArama"
+    }
+   ]
+  },
+  {
+   "date": "2026-03-30",
+   "date_tr": "30 Mart 2026",
+   "count": 22,
+   "sources": [
+    "tr"
+   ],
+   "decisions": [
+    {
+     "source": "tr",
+     "source_label": "Türkiye (BTB)",
+     "color": "#E30A17",
+     "flag": "🇹🇷",
+     "origin": "Türkiye",
+     "hs": "420212919000",
+     "hs4": "4202",
+     "ref": "TR340000260042",
+     "date": "2026-03-30",
+     "title": "FROCX MARKA, OTTO.49028 MODEL, 30X40X15 CM ÖLÇÜLERİNDE, İKİ ADET OMUZ KAYIŞI, BİR ADET ELDE TAŞIMAK İÇİN EL KAYIŞI BULUNAN, FERMUARLA AÇILIP KAPANAN 3 ADET BÖLMESİ VE YAN TARAFINDA ÖRME MENSUCATTAN MAMÜL 2 ADET CEP BULUNAN, DIŞ VE İÇ YÜZEYİ DOKUMAYA ELVERİŞLİ MADDELERDEN MAMUL, B…",
+     "gerekce": "Genel Yorum Kurallarının 1 ve 6’ncı maddeleri, Gümrük Tarife Cetveli İzahnamesinin 42.02 Tarife Pozisyonu Açıklama Notları, 18.11.2025 tarih 115801944 sayı ile Bölge Müdürlüğümüz kayıtlarına giren İstanbul Laboratuvar Mü…",
+     "url": "https://uygulama.gtb.gov.tr/BTBBasvuru/BtbWebArama"
+    },
+    {
+     "source": "tr",
+     "source_label": "Türkiye (BTB)",
+     "color": "#E30A17",
+     "flag": "🇹🇷",
+     "origin": "Türkiye",
+     "hs": "950300210000",
+     "hs4": "9503",
+     "ref": "TR340000260056",
+     "date": "2026-03-30",
+     "title": "AYAK VE GÖVDE İSKELETİ AHŞAPTAN, GÖVDE VE BAŞLIK KISMININ İÇİ ELYAF DOLGULU MENSUCATTAN, AYAK KISMI İÇİ İNORGANİK MALZEME İLE DOLGULU ÖRME TÜYLÜ MENSUCATTAN MAMUL, BAŞLIK KISMI HARİÇ 44 CM UZUNLUĞUNDA, KAFA VE KOLLARI OYNAR VAZİYETTE, İNSAN ŞEKLİNDE TASARLANMIŞ ENGLISH HOME MARKA…",
+     "gerekce": "Gümrük Tarife Cetveli İzahnamesi 95.03 Tarife Pozisyonu Açıklama Notları, Genel Yorum Kuralları 1 ve 6, İstanbul Laboratuvar Müdürlüğünce tanzimli 02.03.2026/3426BTB0321 tarih/sayılı Analiz Raporu",
+     "url": "https://uygulama.gtb.gov.tr/BTBBasvuru/BtbWebArama"
+    },
+    {
+     "source": "tr",
+     "source_label": "Türkiye (BTB)",
+     "color": "#E30A17",
+     "flag": "🇹🇷",
+     "origin": "Türkiye",
+     "hs": "854442900019",
+     "hs4": "8544",
+     "ref": "TR340000260044",
+     "date": "2026-03-30",
+     "title": "HAMA MARKA 00223182 MODEL NUMARALI, TEKNİK RAPORA GÖRE BESLEME KABLOSU (ŞEBEKEYE BAĞLANAN) VE FİŞ (250V 16A), AC GÜÇ DAĞITIM PRİZLERİ (250V 16A), BAKIR BARALAR, TOPRAKLAMA KONTAKLARI, AÇMA KAPAMA ANAHTARI, ÇOCUK KORUMA MEKANİZMASI (YAYLI KAPAKLAR), SİGORTA VE AŞIRI AKIM KORUMASI,…",
+     "gerekce": "Genel Yorum Kurallarının 1, 3(c) ve 6’ncı maddeleri, Gümrük Tarife Cetveli İzahnamesinin 85.04 ve 85.44 Tarife Pozisyonu Açıklama Notları, Gümrük Genel Tebliğ Seri No: 15, İstanbul Üniversitesi Cerrahpaşa Mühendislik Fak…",
+     "url": "https://uygulama.gtb.gov.tr/BTBBasvuru/BtbWebArama"
+    },
+    {
+     "source": "tr",
+     "source_label": "Türkiye (BTB)",
+     "color": "#E30A17",
+     "flag": "🇹🇷",
+     "origin": "Türkiye",
+     "hs": "854442900019",
+     "hs4": "8544",
+     "ref": "TR340000260045",
+     "date": "2026-03-30",
+     "title": "HAMA MARKA 223195 MODEL NUMARALI, TEKNİK RAPORA GÖRE 1.4M BEYAZ BESLEME KABLOSU (ŞEBEKEYE BAĞLANAN) VE FİŞ (250V 16A), AC GÜÇ DAĞITIM PRİZLERİ (250V 16A), BAKIR BARALAR, TOPRAKLAMA KONTAKLARI, AÇMA KAPATMA ANAHTARI, ÇOCUK KORUMA MEKANİZMASI (YAYLI KAPAKLAR), SİGORTA VE AŞIRI AKIM…",
+     "gerekce": "Genel Yorum Kurallarının 1, 3(c) ve 6’ncı maddeleri, Gümrük Tarife Cetveli İzahnamesinin 85.04 ve 85.44 Tarife Pozisyonu Açıklama Notları, Gümrük Genel Tebliğ Seri No: 15, İstanbul Üniversitesi Cerrahpaşa Mühendislik Fak…",
+     "url": "https://uygulama.gtb.gov.tr/BTBBasvuru/BtbWebArama"
+    },
+    {
+     "source": "tr",
+     "source_label": "Türkiye (BTB)",
+     "color": "#E30A17",
+     "flag": "🇹🇷",
+     "origin": "Türkiye",
+     "hs": "210690980019",
+     "hs4": "2106",
+     "ref": "TR340000260046",
+     "date": "2026-03-30",
+     "title": "ANALİZ RAPORUNA GÖRE %54,9 SAKKAROZ/İNVERT ŞEKER/İZOGLİKOZ İÇEREN, IFF’S MARKA DONDURULMUŞ KIRMIZI MEYVELİ HİBİSKUSLU VE YEŞİL ÇAYLI ÖZÜT TİCARİ TANIMIYLA PAZARLANAN EŞYA",
+     "gerekce": "Genel Yorum Kurallarının 1 ve 6’ncı maddeleri, Gümrük Tarife Cetveli İzahnamesinin 21.06 Tarife Pozisyonu Açıklama Notları, İstanbul Laboratuvar Müdürlüğü tarafından tanzim edilen 03.03.2026/3426BTB3061 tarih/sayılı Anal…",
+     "url": "https://uygulama.gtb.gov.tr/BTBBasvuru/BtbWebArama"
+    },
+    {
+     "source": "tr",
+     "source_label": "Türkiye (BTB)",
+     "color": "#E30A17",
+     "flag": "🇹🇷",
+     "origin": "Türkiye",
+     "hs": "210690980019",
+     "hs4": "2106",
+     "ref": "TR340000260047",
+     "date": "2026-03-30",
+     "title": "ANALİZ RAPORUNA GÖRE % 45,9 SAKKAROZ/İNVERT ŞEKER/İZOGLİKOZ İÇEREN, HARRAS MARKA DONDURULMUŞ PORTAKAL, NANE, LİMONATA ÖZÜTÜ TİCARİ TANIMIYLA PAZARLANAN EŞYA",
+     "gerekce": "Genel Yorum Kurallarının 1 ve 6’ncı maddeleri, Gümrük Tarife Cetveli İzahnamesinin 21.06 Tarife Pozisyonu Açıklama Notları, İstanbul Laboratuvar Müdürlüğü tarafından tanzim edilen 03.03.2026/3426BTB3060 tarih/sayılı Anal…",
+     "url": "https://uygulama.gtb.gov.tr/BTBBasvuru/BtbWebArama"
+    },
+    {
+     "source": "tr",
+     "source_label": "Türkiye (BTB)",
+     "color": "#E30A17",
+     "flag": "🇹🇷",
+     "origin": "Türkiye",
+     "hs": "852852100000",
+     "hs4": "8528",
+     "ref": "TR340000260048",
+     "date": "2026-03-30",
+     "title": "BENQ MARKA, EX271Q MODEL; TEKNİK RAPORA GÖRE 27 İNÇ EKRAN BOYUTUNDA, IPS (DÜZLEM İÇİ ANAHTARLAMALI) PANELİ BULUNAN, 16 :9 EN/BOY ORANINDA , 2560 X 1440 PİKSEL ÇÖZÜNÜRLÜKTE, 350 CD/M2 PARLAKLIK VE 1000:1 KONTRAST DEĞERİNDE, 108 PPI PİKSEL YOĞUNLUĞUNDA, MAKSİMUM 144HZ EKRAN YENİLEM…",
+     "gerekce": "Genel Yorum Kurallarının 1 ve 6’ncı maddeleri, Gümrük Tarife Cetveli İzahnamesi 85.28 Tarife Pozisyonu Açıklama Notları, İstanbul Üniversitesi Cerrahpaşa Mühendislik Fakültesince tanzim edilmiş 17.02.2026 tarih 119079570…",
+     "url": "https://uygulama.gtb.gov.tr/BTBBasvuru/BtbWebArama"
+    },
+    {
+     "source": "tr",
+     "source_label": "Türkiye (BTB)",
+     "color": "#E30A17",
+     "flag": "🇹🇷",
+     "origin": "Türkiye",
+     "hs": "870192900000",
+     "hs4": "8701",
+     "ref": "TR340000260049",
+     "date": "2026-03-30",
+     "title": "CHARLETTE MARKA, T135 EVO MODEL, SÜRÜCÜ MAHALLİ VEYA GÖREVLİLER İÇİN OTURMA YERİ BULUNAN, ŞASİLERİ TEKERLEKLER ÜZERİNDE MONTE EDİLMİŞ, 2 DİNGİLLİ, YÜKLÜ İKEN MAKSİMUM 9,5 KM/H HIZ İLE GİDEBİLEN, ÜZERİNDE 23 kW GÜCÜNDE AC TİP ELEKTRİK MOTORU BULUNAN, MAKSİMUM ÇEKME VE İTME KAPASİT…",
+     "gerekce": "Genel Yorum Kurallarının 1 ve 6’ncı maddeleri, Gümrük Tarife Cetveli İzahnamesinin 87.01 ve 87.09 Tarife Pozisyonu İzahname açıklama notları, TMMOB Makine Mühendisleri Odası-İstanbul Şubesince tanzim edilmiş ve Bölge Müd…",
+     "url": "https://uygulama.gtb.gov.tr/BTBBasvuru/BtbWebArama"
+    },
+    {
+     "source": "tr",
+     "source_label": "Türkiye (BTB)",
+     "color": "#E30A17",
+     "flag": "🇹🇷",
+     "origin": "Türkiye",
+     "hs": "853110300019",
+     "hs4": "8531",
+     "ref": "TR340000260050",
+     "date": "2026-03-30",
+     "title": "ATEK MARKA, 602101 MODEL, TEKNİK RAPORA GÖRE ELEKTRONİK KART, ELEKTRONİK DEVRE ELEMANLARI VE ENTEGRELER, PIR SENSÖRÜ, HOPARLÖR, PİL YUVASI, ADAPTÖR GİRİŞİ, UYARI MÜZİKLERİ (32 ADET ZİL MELODİSİ) AYARLAMA BUTONLARI, LED LAMBA, HAREKETLİ DUVAR BAĞLANTI APARATI/VİDALAR VE GÖVDEDEN O…",
+     "gerekce": "Genel Yorum Kurallarının 1, 3(b) ve 6’ncı maddeleri, Gümrük Tarife Cetveli İzahnamesinin 85.31 Tarife Pozisyonu Açıklama Notları, İstanbul Üniversitesi Cerrahpaşa Mühendislik Fakültesi Elektrik-Elektronik Mühendisliği Bö…",
+     "url": "https://uygulama.gtb.gov.tr/BTBBasvuru/BtbWebArama"
+    },
+    {
+     "source": "tr",
+     "source_label": "Türkiye (BTB)",
+     "color": "#E30A17",
+     "flag": "🇹🇷",
+     "origin": "Türkiye",
+     "hs": "851713000019",
+     "hs4": "8517",
+     "ref": "TR340000260051",
+     "date": "2026-03-30",
+     "title": "TELOX MARKA CP680 BAS KONUŞ” MODEL, TEKNİK RAPORA GÖRE; ANDROİD 12 İŞLETİM SİSTEMİ İLE ÇALIŞAN, 105MM X 58MM X 28 MM BOYUTLARINDA, 2” DOKUNMATİK EKRANA, 2 ADET SIM KART YUVASINA SAHİP, 4GB RAM VE 64GB HAFIZANIN MEVCUT OLDUĞU, TELEFON ANTENİ VE AMPLİFİKATÖR İÇEREN, GSM, 4G, WCDMA,…",
+     "gerekce": "Genel Yorum Kuralları 1 ve 6 ıncı maddeler, Türk Gümrük Tarife Cetveli İzahnamesinin 85.17 Tarife Pozisyonu Açıklama Notları, Gümrükler Genel Müdürlüğünün 2020/11 Sayılı Genelgesi ve İstanbul Üniversitesi Cerrahpaşa Mühe…",
+     "url": "https://uygulama.gtb.gov.tr/BTBBasvuru/BtbWebArama"
+    },
+    {
+     "source": "tr",
+     "source_label": "Türkiye (BTB)",
+     "color": "#E30A17",
+     "flag": "🇹🇷",
+     "origin": "Türkiye",
+     "hs": "392640000019",
+     "hs4": "3926",
+     "ref": "TR340000260035",
+     "date": "2026-03-30",
+     "title": "T-AW50790/SILICONTEAM2 TİCARİ TANIMLI, ÖN YÜZÜ SLİKON, ARKA YÜZÜ POLİÜRETAN POLİMERDEN MAMUL, BÜNYESİNDE HERHANGİ BİR YAPIŞKAN TABAKA VEYA KAĞIT MESNET İÇERMEYEN, YUVARLAK ŞEKİLLİ, ÜZERİNDE YONCA FİGÜRÜ BASKISI BULUNAN, ESNEK YAPIDA, ISI UYGULANARAK TEKSTİL YÜZEYİNE KALICI ŞEKİLD…",
+     "gerekce": "Gümrük Tarife Cetveli İzahnamesi 39.26 Tarife Pozisyonu Açıklama Notları, Genel Yorum Kurallarının 1 ve 6 ncı maddeleri, İstanbul Laboratuvar Müdürlüğünce tanzimli 13.03.2026 tarihli 3426BTB0409 sayılı Analiz ve 3426GÖR0…",
+     "url": "https://uygulama.gtb.gov.tr/BTBBasvuru/BtbWebArama"
+    },
+    {
+     "source": "tr",
+     "source_label": "Türkiye (BTB)",
+     "color": "#E30A17",
+     "flag": "🇹🇷",
+     "origin": "Türkiye",
+     "hs": "630790980019",
+     "hs4": "6307",
+     "ref": "TR340000260036",
+     "date": "2026-03-30",
+     "title": "PUMA HTL T-44798ESP/SILICONTEAM1 TİCARİ TANIMLI, PLASTİK KAPLI DOKUMA MENSUCATTAN MAMUL, BÜNYESİNDE HERHANGİ BİR YAPIŞKAN TABAKA VEYA KAĞIT MESNET İÇERMEYEN, YUVARLAK ŞEKİLLİ, ÜZERİNDE BASKI YÖNTEMİYLE OLUŞTURULMUŞ TAKIM LOGOSU BULUNAN, ESNEK YAPIDA, ISI UYGULANARAK TEKSTİL YÜZEY…",
+     "gerekce": "Gümrük Tarife Cetveli İzahnamesi 6307 Tarife Pozisyonu Açıklama Notları, Genel Yorum Kuralları 1 ve 6, İstanbul Laboratuvar Müdürlüğünce tanzimli 13.03.2026 tarihli 3426BTB0405 sayılı Analiz ve 3426GÖR052 sayılı Görüş Ra…",
+     "url": "https://uygulama.gtb.gov.tr/BTBBasvuru/BtbWebArama"
+    },
+    {
+     "source": "tr",
+     "source_label": "Türkiye (BTB)",
+     "color": "#E30A17",
+     "flag": "🇹🇷",
+     "origin": "Türkiye",
+     "hs": "340130000000",
+     "hs4": "3401",
+     "ref": "TR340000260037",
+     "date": "2026-03-30",
+     "title": "AXIS-Y MARKA, 8809634610102 BARKOD NUMARALI, MUGWORT PORE CLARİFYİNG WASH OFF PACK TİCARİ TANIMLI, ANALİZ RAPORUNA GÖRE YÜZEY AKTİF ÖZELLİK GÖSTEREN, KULLANIM TALİMATINDA TIKALI GÖZENEKLERİ TEMİZLEME VE ÖLÜ HÜCRELERİ UZAKLAŞTIRMA AMACI İLE YÜZE UYGULANDIKTAN SONRA ILIKSU İLE DURU…",
+     "gerekce": "Genel Yorum Kurallarının 1, 3c ve 6’ncı maddeleri, Gümrük Tarife Cetveli İzahnamesi 33.04 ve 34.01 tarife pozisyonu açıklama notları, İstanbul Laboratuvar Müdürlüğü tarafından tanzim edilen 02.03.2026/3426BTB0363 tarih/s…",
+     "url": "https://uygulama.gtb.gov.tr/BTBBasvuru/BtbWebArama"
+    },
+    {
+     "source": "tr",
+     "source_label": "Türkiye (BTB)",
+     "color": "#E30A17",
+     "flag": "🇹🇷",
+     "origin": "Türkiye",
+     "hs": "821420000019",
+     "hs4": "8214",
+     "ref": "TR340000260038",
+     "date": "2026-03-30",
+     "title": "WATSONS MARKA, 4894819713741 BARKOD NUMARALI, AYAK TÖRPÜSÜ TİCARİ TANIMLI, ANALİZ RAPORUNA GÖRE GÖVDESİNİN PLASTİKTEN (POLİPROPİLEN POLİMER), DÜZ GRİ KISMININ SİLİSYUM VE ALÜMİNYUMDAN, KABARTILI GRİ KISMININ PASLANMAZ ÇELİKTEN OLDUĞU TESPİT EDİLEN, KULLANIM TALİMATINDA AYAKLARI P…",
+     "gerekce": "Genel Yorum Kurallarının 1, 3 (c) ve 6’ncı maddeleri, Gümrük Tarife Cetveli İzahnamesi 68.05 ve 82.14 tarife pozisyonu açıklama notları, İstanbul Laboratuvar Müdürlüğü tarafından tanzim edilen 02.03.2026/3426BTB0368 tari…",
+     "url": "https://uygulama.gtb.gov.tr/BTBBasvuru/BtbWebArama"
+    },
+    {
+     "source": "tr",
+     "source_label": "Türkiye (BTB)",
+     "color": "#E30A17",
+     "flag": "🇹🇷",
+     "origin": "Türkiye",
+     "hs": "640690509019",
+     "hs4": "6406",
+     "ref": "TR340000260039",
+     "date": "2026-03-30",
+     "title": "WATSONS MARKA, 4894819889958 BARKOD NUMARALI, JEL AYAK DESTEĞİ TİCARİ TANIMLI, ANALİZ RAPORUNA GÖRE POLİÜRETANDAN MAMUL BİR YÜZÜ KENDİNDEN YAPIŞKANLI, BİR YÜZÜ TIRTIKLI, OVAL ŞEKİLLİ, KULLANIM TALİMATINDA AYAK TABANINDAKİ AĞRIYI HAFİFLETME VE ÖNLEME, AYAKLARIN ÖNE KAYMASINI VE PA…",
+     "gerekce": "Genel Yorum Kurallarının 1 ve 6’ncı maddeleri, Gümrük Tarife Cetveli İzahnamesi 64.06 tarife pozisyonu açıklama notları, İstanbul Laboratuvar Müdürlüğü tarafından tanzim edilen 25.02.2026/3426BTB0370 tarih/sayılı Analiz …",
+     "url": "https://uygulama.gtb.gov.tr/BTBBasvuru/BtbWebArama"
+    },
+    {
+     "source": "tr",
+     "source_label": "Türkiye (BTB)",
+     "color": "#E30A17",
+     "flag": "🇹🇷",
+     "origin": "Türkiye",
+     "hs": "640690509019",
+     "hs4": "6406",
+     "ref": "TR340000260040",
+     "date": "2026-03-30",
+     "title": "WATSONS MARKA, 4894819889941 BARKOD NUMARALI, JEL TOPUK DESTEĞİ TİCARİ TANIMLI, ANALİZ RAPORUNA GÖRE POLİÜRETANDAN MAMUL BİR YÜZÜ KENDİNDEN YAPIŞKANLI, BİR YÜZÜ TIRTIKLI, OVAL ŞEKİLLİ, KULLANIM TALİMATINDA TOPUKLARDAKİ AĞRI VE BASKIYI HAFİFLETME İLE KAYMAYI ÖNLEME AMACIYLA AYAKKA…",
+     "gerekce": "Genel Yorum Kurallarının 1 ve 6’ncı maddeleri, Gümrük Tarife Cetveli İzahnamesi 64.06 tarife pozisyonu açıklama notları, İstanbul Laboratuvar Müdürlüğü tarafından tanzim edilen 25.02.03.2026/3426BTB0369 tarih/sayılı Anal…",
+     "url": "https://uygulama.gtb.gov.tr/BTBBasvuru/BtbWebArama"
+    },
+    {
+     "source": "tr",
+     "source_label": "Türkiye (BTB)",
+     "color": "#E30A17",
+     "flag": "🇹🇷",
+     "origin": "Türkiye",
+     "hs": "420292911000",
+     "hs4": "4202",
+     "ref": "TR340000260041",
+     "date": "2026-03-30",
+     "title": "FROCX MARKA, OTTO.49135 MODEL, 24X32X12 CM ÖLÇÜLERİNDE İKİ ADET OMUZ KAYIŞI VE BİR ADET ELDE TAŞIMAK İÇİN KAYIŞI BULUNAN, ORTA KISMINDA 1 ADET BÜYÜK BÖLMESİ İKİ TARAFINDA CEP VE ÖN TARAFINDA 1 ADET FERMUARLI KÜÇÜK BÖLMESİ BULUNAN EŞYANIN İÇ VE DIŞ YÜZEYLERİNDE PVC KAPLAMA VE POLY…",
+     "gerekce": "Genel Yorum Kurallarının 1 ve 6’ncı maddeleri, Gümrük Tarife Cetveli İzahnamesinin 42.02 Tarife Pozisyonu Açıklama Notları, 18.11.2025 tarih 115801944 sayı ile Bölge Müdürlüğümüz kayıtlarına giren İstanbul Laboratuvar Mü…",
+     "url": "https://uygulama.gtb.gov.tr/BTBBasvuru/BtbWebArama"
+    },
+    {
+     "source": "tr",
+     "source_label": "Türkiye (BTB)",
+     "color": "#E30A17",
+     "flag": "🇹🇷",
+     "origin": "Türkiye",
+     "hs": "950300700000",
+     "hs4": "9503",
+     "ref": "TR340000260052",
+     "date": "2026-03-30",
+     "title": "JLW56-BARBIE SPARKLE OYUNCAK DENİZ KIZI VE BALONCUK DOLU EĞLENCE TİCARİ TANIMLI, PLASTİKTEN BİR KUTU İÇERİSİNDE; BİR ADET DENİZ KIZI, BİR ADET PLASTİK KALP ŞEKLİNDE KASE, BİR ADET PLASTİKTEN MAMUL TARAK VE BİR ADET PLASTİK ŞİŞE İÇERİSİNDE BUBBLE SOLÜSYONDAN OLUŞAN EŞYA",
+     "gerekce": "Genel Yorum Kurallarının 1 ve 6’ncı maddeleri, Gümrük Tarife Cetveli İzahnamesinin 95.03 Tarife Pozisyonu Açıklama Notları, Gümrükler Genel Tebliğ (Gümrük Tarife Açıklama Notları) Seri No:6, İstanbul Laboratuvar Müdürlüğ…",
+     "url": "https://uygulama.gtb.gov.tr/BTBBasvuru/BtbWebArama"
+    },
+    {
+     "source": "tr",
+     "source_label": "Türkiye (BTB)",
+     "color": "#E30A17",
+     "flag": "🇹🇷",
+     "origin": "Türkiye",
+     "hs": "820750500000",
+     "hs4": "8207",
+     "ref": "TR340000260053",
+     "date": "2026-03-30",
+     "title": "TUNGALOY MARKA DMP147 AH725 MODEL, ANALİZ RAPORUNA GÖRE; SERMETTEN MAMUL OLDUĞU TESPİTİ YAPILAN, DELME İŞLEMİNDE DİĞER KESİCİ ALETLERE LEHİM VEYA KAYNAKLA TUTTURULMADAN KULLANILABİLEN, TAKILIP ÇIKARILABİLİR MATKAP UCU",
+     "gerekce": "Gümrük Tarife Cetveli İzahnamesi 82.07 ve 82.09 Tarife Pozisyonu Açıklama Notları, Genel Yorum Kuralları 1 ve 6, İstanbul Laboratuvar Müdürlüğünce tanzimli 20.02.2026/3426BTB0309 tarih/sayılı Analiz Raporu, Gümrükler Gen…",
+     "url": "https://uygulama.gtb.gov.tr/BTBBasvuru/BtbWebArama"
+    },
+    {
+     "source": "tr",
+     "source_label": "Türkiye (BTB)",
+     "color": "#E30A17",
+     "flag": "🇹🇷",
+     "origin": "Türkiye",
+     "hs": "950300410000",
+     "hs4": "9503",
+     "ref": "TR340000260054",
+     "date": "2026-03-30",
+     "title": "İSKELETİ METALDEN, GÖVDESİ ELYAF DOLGULU MENSUCATTAN, GÖVDE BOYU 28 CM UZUNLUĞUNDA, GEYİK ŞEKLİNDE TASARLANAN ENGLISH HOME MARKA 10048778001 MODEL EŞYA",
+     "gerekce": "Gümrük Tarife Cetveli İzahnamesi 95.03 Tarife Pozisyonu Açıklama Notları, Genel Yorum Kuralları 1 ve 6, İstanbul Laboratuvar Müdürlüğünce tanzimli 02.03.2026/3426BTB0324 tarih/sayılı Analiz Raporu",
+     "url": "https://uygulama.gtb.gov.tr/BTBBasvuru/BtbWebArama"
+    },
+    {
+     "source": "tr",
+     "source_label": "Türkiye (BTB)",
+     "color": "#E30A17",
+     "flag": "🇹🇷",
+     "origin": "Türkiye",
+     "hs": "950300210000",
+     "hs4": "9503",
+     "ref": "TR340000260055",
+     "date": "2026-03-30",
+     "title": "AYAK VE GÖVDE İSKELETİ AHŞAPTAN, GÖVDE VE BAŞLIK KISMININ İÇİ ELYAF DOLGULU MENSUCATTAN, AYAK KISMI İÇİ İNORGANİK MALZEME İLE DOLGULU ÖRME TÜYLÜ MENSUCATTAN MAMUL, BAŞLIK KISMI HARİÇ 44 CM UZUNLUĞUNDA, KAFA VE KOLLARI OYNAR VAZİYETTE, İNSAN ŞEKLİNDE TASARLANMIŞ ENGLISH HOME MARKA…",
+     "gerekce": "Gümrük Tarife Cetveli İzahnamesi 95.03 Tarife Pozisyonu Açıklama Notları, Genel Yorum Kuralları 1 ve 6, İstanbul Laboratuvar Müdürlüğünce tanzimli 02.03.2026/3426BTB0320 tarih/sayılı Analiz Raporu",
+     "url": "https://uygulama.gtb.gov.tr/BTBBasvuru/BtbWebArama"
+    },
+    {
+     "source": "tr",
+     "source_label": "Türkiye (BTB)",
+     "color": "#E30A17",
+     "flag": "🇹🇷",
+     "origin": "Türkiye",
+     "hs": "420212919000",
+     "hs4": "4202",
+     "ref": "TR340000260043",
+     "date": "2026-03-30",
+     "title": "FROCX MARKA, OTTO.49180 MODEL, 27X40X15 CM ÖLÇÜLERİNDE, İKİ ADET OMUZ KAYIŞI, BİR ADET ELDE TAŞIMAK İÇİN EL KAYIŞI BULUNAN, FERMUARLA AÇILIP KAPANAN 2 ADET BÖLMESİ VE YAN TARAFINDA 2 ADET CEP VE ÖN TARAFINDA 1 ADET BÖLMESİ BULUNAN, DIŞ VE İÇ YÜZEYİ DOKUMAYA ELVERİŞLİ MADDELERDEN,…",
+     "gerekce": "Genel Yorum Kurallarının 1 ve 6’ncı maddeleri, Gümrük Tarife Cetveli İzahnamesinin 42.02 Tarife Pozisyonu Açıklama Notları, 18.11.2025 tarih 115801944 sayı ile Bölge Müdürlüğümüz kayıtlarına giren İstanbul Laboratuvar Mü…",
+     "url": "https://uygulama.gtb.gov.tr/BTBBasvuru/BtbWebArama"
+    }
+   ]
+  },
+  {
+   "date": "2026-03-26",
+   "date_tr": "26 Mart 2026",
+   "count": 3,
+   "sources": [
+    "tr"
+   ],
+   "decisions": [
+    {
+     "source": "tr",
+     "source_label": "Türkiye (BTB)",
+     "color": "#E30A17",
+     "flag": "🇹🇷",
+     "origin": "Türkiye",
+     "hs": "841391000019",
+     "hs4": "8413",
+     "ref": "TR350000260013",
+     "date": "2026-03-26",
+     "title": "VL2 PIPE COMPRT/402001902P model, Teleskobik İletim Aksamı. Yer altında pompadan gelen akaryakıt ve elektrik kablolarını güvenli bir şekilde dışa aktarmakta olup pompa motoruna giden elektrik kablolarının, akaryakıtın basıncından etkilenmeden ve dışarı sızma yapmadan gövdeden geç…",
+     "gerekce": "Türk Gümrük Tarife Cetveli İzahnamesi’nin 8413 Tarife Pozisyonu Açıklama Notları, Tarifenin Yorumuna İlişkin Genel Kurallar 1, 6",
+     "url": "https://uygulama.gtb.gov.tr/BTBBasvuru/BtbWebArama"
+    },
+    {
+     "source": "tr",
+     "source_label": "Türkiye (BTB)",
+     "color": "#E30A17",
+     "flag": "🇹🇷",
+     "origin": "Türkiye",
+     "hs": "841391000019",
+     "hs4": "8413",
+     "ref": "TR350000260014",
+     "date": "2026-03-26",
+     "title": "VL1 PIPE COMPRT/402001901P model, Teleskobik İletim Aksamı. Yer altında pompadan gelen akaryakıt ve elektrik kablolarını güvenli bir şekilde dışa aktarmakta olup pompa motoruna giden elektrik kablolarının, akaryakıtın basıncından etkilenmeden ve dışarı sızma yapmadan gövdeden geç…",
+     "gerekce": "Türk Gümrük Tarife Cetveli İzahnamesi’nin 8413 Tarife Pozisyonu Açıklama Notları, Tarifenin Yorumuna İlişkin Genel Kurallar 1, 6",
+     "url": "https://uygulama.gtb.gov.tr/BTBBasvuru/BtbWebArama"
+    },
+    {
+     "source": "tr",
+     "source_label": "Türkiye (BTB)",
+     "color": "#E30A17",
+     "flag": "🇹🇷",
+     "origin": "Türkiye",
+     "hs": "854330700000",
+     "hs4": "8543",
+     "ref": "TR350000260012",
+     "date": "2026-03-26",
+     "title": "''Spring Water marka H3 model Hidrojenli Su Üretme Cihazı. Su ayırıcı, filtre, kaide, adaptör ve kullanım kılavuzundan oluşan, 1600 ml şişe kapasitesine sahip, 15 W gücünde, 2.7 kg ağırlığında ve su kaynağı doğrudan içme suyu olan, elektroliz yoluyla içme suyunu doğrudan filtrele…",
+     "gerekce": "\"Türk Gümrük Tarife Cetveli İzahnamesi’nin 8543 Tarife Pozisyonu Açıklama Notları, Tarifenin Yorumuna İlişkin Genel Kurallar 1, 6 \"",
+     "url": "https://uygulama.gtb.gov.tr/BTBBasvuru/BtbWebArama"
+    }
+   ]
+  },
+  {
+   "date": "2026-03-23",
+   "date_tr": "23 Mart 2026",
+   "count": 1,
+   "sources": [
+    "tr"
+   ],
+   "decisions": [
+    {
+     "source": "tr",
+     "source_label": "Türkiye (BTB)",
+     "color": "#E30A17",
+     "flag": "🇹🇷",
+     "origin": "Türkiye",
+     "hs": "731512000019",
+     "hs4": "7315",
+     "ref": "TR160000260013",
+     "date": "2026-03-23",
+     "title": "SS 881TAB-K 325 model numaralı eşya; konveyör sistemlerinde kullanılan, paslanmaz çelikten mamul, pimlerle birleştirilmiş mafsallı yapıya sahip bir konveyör zinciridir.",
+     "gerekce": "Tarifenin Yorumu ile İlgili Genel Kurallar (1) ve (6), Gümrük Genel Tebliği (Gümrük Tarife Cetveli İzahnamesi) ( Seri No:4), Türk Gümrük Tarife Cetveli ve İzahnamesi XV. ve XVI. Bölüm Notları ve Genel Açıklamalar, 73. ve…",
+     "url": "https://uygulama.gtb.gov.tr/BTBBasvuru/BtbWebArama"
+    }
+   ]
+  },
+  {
    "date": "2026-03-20",
    "date_tr": "20 Mart 2026",
    "count": 1,
@@ -11139,9 +14576,33 @@ window.BTI_DATA = {
      "hs4": "9503",
      "ref": "ROBTI2026-005389",
      "date": "2026-03-20",
-     "title": "Başvuru sahibi tarafından sağlanan açıklama ve veri tabanında yayımlanan görsele göre ürün, bir motorlu taşıt gösterge paneline monte edilmiş direksiyonu taklit eden müzikli bir oyuncaktır. Ürün, çok renkli plastik malzemeden yapılmış olup 12-36 aylık çocuklara yöneliktir. Oyunca…",
-     "gerekce": "Kombine Nomenklatür'ün 1 ve 6 numaralı Genel Yorum Kuralları. 9503 tarife pozisyonuna ilişkin NESA, (D) bendi, birinci paragraf ve (XII) alt bendi.",
+     "title": "Başvuru sahibi tarafından sağlanan açıklama ve veri tabanında yayımlanan görüntüye göre ürün, bir araç panosuna monte edilmiş bir direksiyonun şeklini taklit eden müzikli bir oyuncağı temsil etmektedir. Ürün, birden fazla renkte plastik malzemeden yapılmış olup 12 ila 36 aylık ço…",
+     "gerekce": "Birleşik Nomenclature'ün 1. ve 6. Sayılı Genel Yorum Kuralları. 9503 tarife pozisyonuna ait NESA'nın (D) bendi, birinci paragraf ve (XII). maddesi.",
      "url": "https://ec.europa.eu/taxation_customs/dds2/ebti/ebti_details.jsp?showHeader=false&Lang=en&reference=ROBTI2026-005389"
+    }
+   ]
+  },
+  {
+   "date": "2026-03-19",
+   "date_tr": "19 Mart 2026",
+   "count": 1,
+   "sources": [
+    "tr"
+   ],
+   "decisions": [
+    {
+     "source": "tr",
+     "source_label": "Türkiye (BTB)",
+     "color": "#E30A17",
+     "flag": "🇹🇷",
+     "origin": "Türkiye",
+     "hs": "382499930019",
+     "hs4": "3824",
+     "ref": "TR160000260012",
+     "date": "2026-03-19",
+     "title": "Dağ Balsamı - Eklemler için krem: eklemlerde ve kaslardaki ağrı rahatsızlıklarında ağrı giderici ve ısıtıcı etkiye sahip olduğu, morluk ve burkulmalarda kullanıldığı, etken madde olarak mumiyo (Bitkilerin ve organik maddelerin mikroskobik canlılar tarafından uzun süreler boyunca …",
+     "gerekce": "İstatistik Pozisyonlarına Bölünmüş Türk Gümrük Tarife Cetveli 30. Fasılın 1 No.lu Ek notu ve Gümrük Genel Tebliği (Gümrük Tarife Cetveli İzahnamesi)( Seri No:4 ) 3824 ve 3304 Tarife Pozisyonu notları, Tarifenin Yorumu il…",
+     "url": "https://uygulama.gtb.gov.tr/BTBBasvuru/BtbWebArama"
     }
    ]
   },
@@ -11163,9 +14624,1137 @@ window.BTI_DATA = {
      "hs4": "9503",
      "ref": "ROBTI2026-005387",
      "date": "2026-03-18",
-     "title": "Başvuru sahibi tarafından sağlanan açıklama ve veri tabanında yayımlanan görsellere göre ürün, kitap şeklinde, çok renkli plastikten yapılmış, 6-36 aylık çocuklara yönelik müzikli bir oyuncaktır. Oyuncak, kitabın sayfalarını çağrıştıran üç ana unsur, ışık yakan şeffaf bir ön düğm…",
-     "gerekce": "Kombine Nomenklatür'ün 1 ve 6 numaralı Genel Yorum Kuralları. 9503 tarife pozisyonuna ilişkin NESA, (D) bendi, birinci paragraf ve (XII) alt bendi.",
+     "title": "Başvuru sahibi tarafından sağlanan açıklama ve veri tabanında yayımlanan görsellere göre ürün, 6 ile 36 aylık çocuklara yönelik, kitap şeklinde, çok renkli plastik malzemeden yapılmış müzikli bir oyuncaktır. Oyuncak, kitabın sayfalarını çağrıştıran üç ana elemandan, ışık yakan şe…",
+     "gerekce": "Birleşik Nomenclatür'ün 9503 tarife pozisyonuna ilişkin NESA'nın (D) harfi, birinci paragrafı ve (XII) bendi ile 1 ve 6 numaralı Genel Yorum Kuralları.",
      "url": "https://ec.europa.eu/taxation_customs/dds2/ebti/ebti_details.jsp?showHeader=false&Lang=en&reference=ROBTI2026-005387"
+    }
+   ]
+  },
+  {
+   "date": "2026-03-16",
+   "date_tr": "16 Mart 2026",
+   "count": 2,
+   "sources": [
+    "tr"
+   ],
+   "decisions": [
+    {
+     "source": "tr",
+     "source_label": "Türkiye (BTB)",
+     "color": "#E30A17",
+     "flag": "🇹🇷",
+     "origin": "Türkiye",
+     "hs": "843390009019",
+     "hs4": "8433",
+     "ref": "TR060000260002",
+     "date": "2026-03-16",
+     "title": "PANCAR HASAT MAKİNASINA AİT JANT",
+     "gerekce": "TARİFE GENEL YORUM KURALLARI 1. VE 6. MADDELERİ, GÜMRÜK TARİFE CETVELİ İZAHNAMESİ 8433 TARİFE POZİSYONU AÇIKLAMA NOTLARI DOĞRULTUSUNDA SINIFLANDIRMA GERÇEKLEŞTİRİLMİŞTİR.",
+     "url": "https://uygulama.gtb.gov.tr/BTBBasvuru/BtbWebArama"
+    },
+    {
+     "source": "tr",
+     "source_label": "Türkiye (BTB)",
+     "color": "#E30A17",
+     "flag": "🇹🇷",
+     "origin": "Türkiye",
+     "hs": "852990930000",
+     "hs4": "8529",
+     "ref": "TR060000260003",
+     "date": "2026-03-16",
+     "title": "BTQ025S, BTS040S MODEL NUMARALI LED PANELLERDİR. .EŞYA MEVCUT HALİYLE SON KULLANICIYA YÖNELİK GİRİŞ-ÇIKIŞ BİRİMLERİ İÇERMEMEKTEDİR. BÜYÜK LED EKRAN OLUŞTURMAK İÇİN ÜZERİNDE DİĞER LED KABİNLERİ İLE BAĞLANTI YAPILABİLMESİNİ TEMİNEN DATA GİRİŞ-ÇIKIŞ VE GÜÇ GİRİŞ-ÇIKIŞ PORTLARINI HAİ…",
+     "gerekce": "TARİFE GENEL YORUM KURALLARI 1. VE 6. MADDELERİ, GÜMRÜK TARİFE CETVELİ İZAHNAMESİ 8529 TARİFE POZİSYONU AÇIKLAMA NOTLARI ORTA DOĞU ÜNİVERSİTESİ ELEKTRİK ELEKTRONİK MÜHENDİSLİĞİ BÖLÜMÜNÜN 09/01/2026 TARİHLİ TEKNİK DEĞERLE…",
+     "url": "https://uygulama.gtb.gov.tr/BTBBasvuru/BtbWebArama"
+    }
+   ]
+  },
+  {
+   "date": "2026-03-02",
+   "date_tr": "2 Mart 2026",
+   "count": 2,
+   "sources": [
+    "tr"
+   ],
+   "decisions": [
+    {
+     "source": "tr",
+     "source_label": "Türkiye (BTB)",
+     "color": "#E30A17",
+     "flag": "🇹🇷",
+     "origin": "Türkiye",
+     "hs": "854370900019",
+     "hs4": "8543",
+     "ref": "TR350000260009",
+     "date": "2026-03-02",
+     "title": "Vıcoa marka, VOM-01 model, Sinek Böcek Öldürücü. Sinek ve uçan böceği içerisinde bulunan UV led ışık ile kendine çekmekte olup alt kısmında bulunan 12 volt elektrikle çalışan pervanesi yardımı ile hava akışı oluşturarak en alt kısmında bulunan hazneye hapsetmektedir. Dış mekanda …",
+     "gerekce": "Türk Gümrük Tarife Cetveli İzahnamesi’nin 8543 Tarife Pozisyonu Açıklama Notları, Tarifenin Yorumuna İlişkin Genel Kurallar 1, 6",
+     "url": "https://uygulama.gtb.gov.tr/BTBBasvuru/BtbWebArama"
+    },
+    {
+     "source": "tr",
+     "source_label": "Türkiye (BTB)",
+     "color": "#E30A17",
+     "flag": "🇹🇷",
+     "origin": "Türkiye",
+     "hs": "854370900019",
+     "hs4": "8543",
+     "ref": "TR350000260010",
+     "date": "2026-03-02",
+     "title": "Vıcoa marka, VIM-02 model, Sinek Böcek Öldürücü. Sinek ve uçan böceği içerisinde bulunan UV led ışık ile kendine çekmekte olup alt kısmında bulunan 5 volt elektrikle çalışan pervanesi yardımı ile hava akışı oluşturarak en alt kısmında bulunan hazneye hapsetmektedir. Yalnızca iç m…",
+     "gerekce": "Türk Gümrük Tarife Cetveli İzahnamesi’nin 8543 Tarife Pozisyonu Açıklama Notları, Tarifenin Yorumuna İlişkin Genel Kurallar 1, 6",
+     "url": "https://uygulama.gtb.gov.tr/BTBBasvuru/BtbWebArama"
+    }
+   ]
+  },
+  {
+   "date": "2026-02-26",
+   "date_tr": "26 Şubat 2026",
+   "count": 16,
+   "sources": [
+    "tr"
+   ],
+   "decisions": [
+    {
+     "source": "tr",
+     "source_label": "Türkiye (BTB)",
+     "color": "#E30A17",
+     "flag": "🇹🇷",
+     "origin": "Türkiye",
+     "hs": "853952000000",
+     "hs4": "8539",
+     "ref": "TR340000260020",
+     "date": "2026-02-26",
+     "title": "PHOTON MARKA PH7023 EX MODEL, BÜNYESİNDE; AYDINLATMA SAĞLAYACAK LED MODÜL, ÇALIŞACAĞI DUYA MONTE ETMEK İÇİN TABAN İLE GÜÇ KONTROLÜ İÇİN ELEKTRİKSEL BİLEŞENLER (ELEKTRİKSEL, MEKANİK, TERMAL VE OPTİK ELEMANLAR) BULUNAN, TEKNİK RAPORA GÖRE; TABANI ARAÇLARA ÖZGÜ DUYA TAKILMAK İÇİN ÜR…",
+     "gerekce": "Gümrük Tarife Cetveli İzahnamesi 85.12 ve 85.39 Tarife Pozisyonu Açıklama Notları, Genel Yorum Kurallarının 1 ve 6 ıncı maddeleri, İstanbul Üniversitesi Cerrahpaşa Mühendislik Fakültesince 07.10.2025/1439914 tarih/sayı i…",
+     "url": "https://uygulama.gtb.gov.tr/BTBBasvuru/BtbWebArama"
+    },
+    {
+     "source": "tr",
+     "source_label": "Türkiye (BTB)",
+     "color": "#E30A17",
+     "flag": "🇹🇷",
+     "origin": "Türkiye",
+     "hs": "841869009919",
+     "hs4": "8418",
+     "ref": "TR350000260011",
+     "date": "2026-02-26",
+     "title": "''Feter marka SM-12LX2 model Slush Machine.\"",
+     "gerekce": "\"Türk Gümrük Tarife Cetveli İzahnamesi’nin 8418 Tarife Pozisyonu Açıklama Notları, Tarifenin Yorumuna İlişkin Genel Kurallar 1, 6 \"",
+     "url": "https://uygulama.gtb.gov.tr/BTBBasvuru/BtbWebArama"
+    },
+    {
+     "source": "tr",
+     "source_label": "Türkiye (BTB)",
+     "color": "#E30A17",
+     "flag": "🇹🇷",
+     "origin": "Türkiye",
+     "hs": "850440959019",
+     "hs4": "8504",
+     "ref": "TR340000260034",
+     "date": "2026-02-26",
+     "title": "TTEC AIRCHARGER MARKA 2KS38S MODEL NUMARALI, KATLANABİLİR DIŞ KASA, USB-C GİRİŞ PORTU, DEVRE KARTI (KABLOSUZ ŞARJ İÇİN GÜÇ DÜZENLEYEN, SICAKLI/AKIM KORUMASI YAPAN, ÇEŞİTLİ ENTEGRE VE ELEKTRONİK ELEMANLARDAN OLUŞAN KARTTIR), KABLOSUZ ŞARJ İÇİN ÜÇ ADET BOBİN, LED AYDINLATMA, LED IŞ…",
+     "gerekce": "Genel Yorum Kurallarının 1, 3(b) ve 6’ncı maddeleri, Gümrük Tarife Cetveli İzahnamesinin 85.04 Tarife Pozisyonu Açıklama Notları, İstanbul Üniversitesi Cerrahpaşa Mühendislik Fakültesi Makine Mühendisliği Bölümünce tanzi…",
+     "url": "https://uygulama.gtb.gov.tr/BTBBasvuru/BtbWebArama"
+    },
+    {
+     "source": "tr",
+     "source_label": "Türkiye (BTB)",
+     "color": "#E30A17",
+     "flag": "🇹🇷",
+     "origin": "Türkiye",
+     "hs": "851762001000",
+     "hs4": "8517",
+     "ref": "TR340000260033",
+     "date": "2026-02-26",
+     "title": "PLUSPTT A3377 MODEL, TEKNİK RAPORA GÖRE; ANDROİD 13 İŞLETİM SİSTEMİ İLE ÇALIŞAN, 154,6 X 61,9 X 44 MM BOYUTLARINDA, 2,8” DOKUNMATİK EKRANA, 3W HOPARLÖRE, SIM KART YUVASINA SAHİP, 2GB RAM VE 16 GB HAFIZANIN MEVCUT OLDUĞU,GSM,WİFİ, 4G, WCDMA, BLUETOOTH, GPS DESTEĞİ BULUNAN, 4000 mA…",
+     "gerekce": "Genel Yorum Kuralları 1 ve 6 ıncı maddeler, Türk Gümrük Tarife Cetveli İzahnamesinin 85.17 Tarife Pozisyonu Açıklama Notları, Gümrükler Genel Müdürlüğünün 2020/11 Sayılı Genelgesi ve İstanbul Üniversitesi Cerrahpaşa Mühe…",
+     "url": "https://uygulama.gtb.gov.tr/BTBBasvuru/BtbWebArama"
+    },
+    {
+     "source": "tr",
+     "source_label": "Türkiye (BTB)",
+     "color": "#E30A17",
+     "flag": "🇹🇷",
+     "origin": "Türkiye",
+     "hs": "850131009011",
+     "hs4": "8501",
+     "ref": "TR340000260032",
+     "date": "2026-02-26",
+     "title": "OKAWA MARKA GMO250W 36 MODEL NUMARALI, JANT VE DC MOTORDAN OLUŞAN, EŞYAYA ASLİ KARAKTERİNİN MOTOR KISMINCA VERİLDİĞİ, TEKNİK RAPORA GÖRE JANTIN MERKEZİNDE FIRÇASIZ DOĞRU AKIM MOTORU (DC) BULUNDURAN, 16 İNÇ JANT ÇAPINDA, ÇIKIŞ GÜCÜ 250 WATT DEĞERİNDE ELEKTRİKLİ BİSİKLETLERDE KULLA…",
+     "gerekce": "Genel Yorum Kurallarının 1,3(b) ve 6’ncı maddeleri, Gümrük Tarife Cetveli İzahnamesinin 85.01 Tarife Pozisyonu Açıklama Notları, Gümrükler Genel Müdürlüğü’nün 02.04.2020/53636400 sayılı yazıları, İstanbul Üniversitesi Ce…",
+     "url": "https://uygulama.gtb.gov.tr/BTBBasvuru/BtbWebArama"
+    },
+    {
+     "source": "tr",
+     "source_label": "Türkiye (BTB)",
+     "color": "#E30A17",
+     "flag": "🇹🇷",
+     "origin": "Türkiye",
+     "hs": "848180590019",
+     "hs4": "8481",
+     "ref": "TR340000260031",
+     "date": "2026-02-26",
+     "title": "RUNXİN MARKA F117Q3/65603 MODEL NUMARALI, TEKNİK RAPORA GÖRE İYON DEĞİŞİMLİ SU YUMUŞATMA SİSTEMLERİ İÇİN TASARLANMIŞ, OTOMATİK KONTROLLÜ ÇOK YOLLU (MULTİPORT) BİR YÖNLENDİRME VALFİ OLAN,SIVININ AKIŞ HIZINI DÜZENLEMEK İÇİN TASARLANAN; VALF, ÖLÇME, KONTROL CİHAZI İLE OLUŞMUŞ KOMBİN…",
+     "gerekce": "Genel Yorum Kurallarının 1,3(b) ve 6’ncı maddeleri, Gümrük Tarife Cetveli İzahnamesinin 84.81 Tarife Pozisyonu Açıklama Notları, İstanbul Üniversitesi Cerrahpaşa Mühendislik Fakültesi Makine Mühendisliği Bölümünce tanzim…",
+     "url": "https://uygulama.gtb.gov.tr/BTBBasvuru/BtbWebArama"
+    },
+    {
+     "source": "tr",
+     "source_label": "Türkiye (BTB)",
+     "color": "#E30A17",
+     "flag": "🇹🇷",
+     "origin": "Türkiye",
+     "hs": "961519000000",
+     "hs4": "9615",
+     "ref": "TR340000260030",
+     "date": "2026-02-26",
+     "title": "KOTON MARKA 6SKG70003AA MODEL, ANALİZ RAPORUNA GÖRE ÇELİKTEN MAMUL TOKAYA SAHİP, ÜZERİNDE KURDELE, PLASTİK FİGÜR VE 42 CM UZUNLUĞUNDA DOKUMAYA ELVERİŞLİ SENTETİK LİFLER BULUNAN METAL TOKA ÜZERİNE TAKILI TAKMA SAÇ TİCARİ TANIMLI EŞYA",
+     "gerekce": "Genel Yorum Kurallarının 1, 3(c) ve 6’ncı maddeleri, Gümrük Tarife Cetveli İzahnamesinin 67.04 ve 96.15 Tarife Pozisyonu Açıklama Notları, İstanbul Laboratuvar Müdürlüğünün 03.02.2026 tarih ve 3426BTB0201 sayılı Analiz R…",
+     "url": "https://uygulama.gtb.gov.tr/BTBBasvuru/BtbWebArama"
+    },
+    {
+     "source": "tr",
+     "source_label": "Türkiye (BTB)",
+     "color": "#E30A17",
+     "flag": "🇹🇷",
+     "origin": "Türkiye",
+     "hs": "851714000019",
+     "hs4": "8517",
+     "ref": "TR340000260029",
+     "date": "2026-02-26",
+     "title": "NOKIA MARKA 3210-TA-1618 MODEL, 2,4 İNÇ EKRANA SAHİP, 2MP ARKA KAMERASI BULUNAN, 122 X 52 X 13,1 MM BOYUTLARINDA, MOBİL BİR İŞLETİM SİSTEMİ İLE DONATILMIŞ, TELEFON ARAMASI YAPMA VE ALMA, KISA MESAJ GÖNDERME VE ALMA ÖZELLİĞİ OLAN, 2G/3G/4G LTE, BLUETOOTH BAĞLANTI ÖZELLİKLERİ BULUN…",
+     "gerekce": "Genel Yorum Kuralları 1 ve 6 ıncı maddeler, Türk Gümrük Tarife Cetveli İzahnamesinin 85.17 Tarife Pozisyonu Açıklama Notları, 85. Fasıl Notu, İstanbul Üniversitesi Cerrahpaşa Mühendislik Fakültesi Elektrik-Elektronik böl…",
+     "url": "https://uygulama.gtb.gov.tr/BTBBasvuru/BtbWebArama"
+    },
+    {
+     "source": "tr",
+     "source_label": "Türkiye (BTB)",
+     "color": "#E30A17",
+     "flag": "🇹🇷",
+     "origin": "Türkiye",
+     "hs": "851714000019",
+     "hs4": "8517",
+     "ref": "TR340000260028",
+     "date": "2026-02-26",
+     "title": "NOKIA MARKA NOKIA 110 TA-1543 MODEL, 1,8 İNÇ EKRANA SAHİP, 121,5 X 50 X 14,4 MM BOYUTLARINDA, 0.3MP ARKA KAMERASI BULUNAN,MOBİL BİR İŞLETİM SİSTEMİ İLE DONATILMIŞ, TELEFON ARAMASI YAPMA VE ALMA, KISA MESAJ GÖNDERME VE ALMA ÖZELLİĞİ OLAN, 2G/3G/4G LTE, BLUETOOTH BAĞLANTI ÖZELLİKLE…",
+     "gerekce": "Genel Yorum Kuralları 1 ve 6 ıncı maddeler, Türk Gümrük Tarife Cetveli İzahnamesinin 85.17 Tarife Pozisyonu Açıklama Notları, 85. Fasıl Notu, İstanbul Üniversitesi Cerrahpaşa Mühendislik Fakültesi Elektrik-Elektronik böl…",
+     "url": "https://uygulama.gtb.gov.tr/BTBBasvuru/BtbWebArama"
+    },
+    {
+     "source": "tr",
+     "source_label": "Türkiye (BTB)",
+     "color": "#E30A17",
+     "flag": "🇹🇷",
+     "origin": "Türkiye",
+     "hs": "853952000000",
+     "hs4": "8539",
+     "ref": "TR340000260021",
+     "date": "2026-02-26",
+     "title": "PHOTON MARKA PH7026 MODEL, BÜNYESİNDE; AYDINLATMA SAĞLAYACAK LED MODÜL, ÇALIŞACAĞI DUYA MONTE ETMEK İÇİN TABAN İLE GÜÇ KONTROLÜ İÇİN ELEKTRİKSEL BİLEŞENLER (ELEKTRİKSEL, MEKANİK, TERMAL VE OPTİK ELEMANLAR) BULUNAN, TEKNİK RAPORA GÖRE; TABANI ARAÇLARA ÖZGÜ DUYA TAKILMAK İÇİN ÜRETİ…",
+     "gerekce": "Gümrük Tarife Cetveli İzahnamesi 85.12 ve 85.39 Tarife Pozisyonu Açıklama Notları, Genel Yorum Kurallarının 1 ve 6 ıncı maddeleri, İstanbul Üniversitesi Cerrahpaşa Mühendislik Fakültesince 07.10.2025/1439914 tarih/sayı i…",
+     "url": "https://uygulama.gtb.gov.tr/BTBBasvuru/BtbWebArama"
+    },
+    {
+     "source": "tr",
+     "source_label": "Türkiye (BTB)",
+     "color": "#E30A17",
+     "flag": "🇹🇷",
+     "origin": "Türkiye",
+     "hs": "853952000000",
+     "hs4": "8539",
+     "ref": "TR340000260022",
+     "date": "2026-02-26",
+     "title": "PHOTON MARKA PH7219 EX MODEL, BÜNYESİNDE; AYDINLATMA SAĞLAYACAK LED MODÜL, ÇALIŞACAĞI DUYA MONTE ETMEK İÇİN TABAN İLE GÜÇ KONTROLÜ İÇİN ELEKTRİKSEL BİLEŞENLER (ELEKTRİKSEL, MEKANİK, TERMAL VE OPTİK ELEMANLAR) BULUNAN, TEKNİK RAPORA GÖRE; TABANI ARAÇLARA ÖZGÜ DUYA TAKILMAK İÇİN ÜR…",
+     "gerekce": "Gümrük Tarife Cetveli İzahnamesi 85.12 ve 85.39 Tarife Pozisyonu Açıklama Notları,Genel Yorum Kurallarının 1 ve 6 ıncı maddeleri, İstanbul Üniversitesi Cerrahpaşa Mühendislik Fakültesince 07.10.2025/1439914 tarih/sayı il…",
+     "url": "https://uygulama.gtb.gov.tr/BTBBasvuru/BtbWebArama"
+    },
+    {
+     "source": "tr",
+     "source_label": "Türkiye (BTB)",
+     "color": "#E30A17",
+     "flag": "🇹🇷",
+     "origin": "Türkiye",
+     "hs": "853952000000",
+     "hs4": "8539",
+     "ref": "TR340000260023",
+     "date": "2026-02-26",
+     "title": "PHOTON MARKA PH7215 EX MODEL, BÜNYESİNDE; AYDINLATMA SAĞLAYACAK LED MODÜL, ÇALIŞACAĞI DUYA MONTE ETMEK İÇİN TABAN İLE GÜÇ KONTROLÜ İÇİN ELEKTRİKSEL BİLEŞENLER (ELEKTRİKSEL, MEKANİK, TERMAL VE OPTİK ELEMANLAR) BULUNAN, TEKNİK RAPORA GÖRE; TABANI ARAÇLARA ÖZGÜ DUYA TAKILMAK İÇİN ÜR…",
+     "gerekce": "Gümrük Tarife Cetveli İzahnamesi 85.12 ve 85.39 Tarife Pozisyonu Açıklama Notları, Genel Yorum Kurallarının 1 ve 6 ıncı maddeleri, İstanbul Üniversitesi Cerrahpaşa Mühendislik Fakültesince 07.10.2025/1439914 tarih/sayı i…",
+     "url": "https://uygulama.gtb.gov.tr/BTBBasvuru/BtbWebArama"
+    },
+    {
+     "source": "tr",
+     "source_label": "Türkiye (BTB)",
+     "color": "#E30A17",
+     "flag": "🇹🇷",
+     "origin": "Türkiye",
+     "hs": "420212919000",
+     "hs4": "4202",
+     "ref": "TR340000260024",
+     "date": "2026-02-26",
+     "title": "FROCX MARKA, OTTO.49302 MODEL 30X45X18 CM ÖLÇÜLERİNDE, DIŞ VE İÇ YÜZEYİ DOKUMAYA ELVERİŞLİ MADDELERDEN MAMUL FERMUARLA AÇILIP KAPANAN 3 ADET (İKİ ADET FERMUARLI, 1 ADET KAYIŞLI) BÖLMESİ VE YAN TARAFINDA 2 ADET CEP BÖLME İLE DONATILMIŞ, İKİ ADET OMUZ KAYIŞI VE BİR ADET ELDE TAŞIMA…",
+     "gerekce": "Genel Yorum Kurallarının 1 ve 6’ncı maddeleri, Gümrük Tarife Cetveli İzahnamesinin 42.02 Tarife Pozisyonu Açıklama Notları, 18.11.2025 tarih 115801944 sayı ile Bölge Müdürlüğümüz kayıtlarına giren İstanbul Laboratuvar Mü…",
+     "url": "https://uygulama.gtb.gov.tr/BTBBasvuru/BtbWebArama"
+    },
+    {
+     "source": "tr",
+     "source_label": "Türkiye (BTB)",
+     "color": "#E30A17",
+     "flag": "🇹🇷",
+     "origin": "Türkiye",
+     "hs": "420212919000",
+     "hs4": "4202",
+     "ref": "TR340000260025",
+     "date": "2026-02-26",
+     "title": "FROCX MARKA, OTTO.49344 MODEL 30X43X18 CM ÖLÇÜLERİNDE, DIŞ VE İÇ YÜZEYİ DOKUMAYA ELVERİŞLİ MADDELERDEN MAMUL, FERMUARLA AÇILIP KAPANAN 3 ADET BÖLMESİ VE YAN TARAFINDA 2 ADET CEP VE ÖN TARAFINDA BİR ADET FARMUARLI BÖLME İLE DONATILMIŞ, İKİ ADET OMUZ KAYIŞI VE BİR ADET ELDE TAŞIMAK…",
+     "gerekce": "Genel Yorum Kurallarının 1 ve 6’ncı maddeleri, Gümrük Tarife Cetveli İzahnamesinin 42.02 Tarife Pozisyonu Açıklama Notları, 18.11.2025 tarih 115801944 sayı ile Bölge Müdürlüğümüz kayıtlarına giren İstanbul Laboratuvar Mü…",
+     "url": "https://uygulama.gtb.gov.tr/BTBBasvuru/BtbWebArama"
+    },
+    {
+     "source": "tr",
+     "source_label": "Türkiye (BTB)",
+     "color": "#E30A17",
+     "flag": "🇹🇷",
+     "origin": "Türkiye",
+     "hs": "420212919000",
+     "hs4": "4202",
+     "ref": "TR340000260026",
+     "date": "2026-02-26",
+     "title": "FROCX MARKA, OTTO. 49346 MODEL, 30X45X24 CM ÖLÇÜLERİNDE, DIŞ VE İÇ YÜZEYİ DOKUMAYA ELVERİŞLİ MADDELERDEN SIRT KISMI ÖRME MENSUCATTAN MAMUL, FERMUARLA AÇILIP KAPANAN 2 ADET BÖLMESİ VE YAN TARAFINDA 2 ADET CEP VE ÖN TARAFINDA 3 ADET BÖLME İLE DONATILMIŞ, İKİ ADET OMUZ KAYIŞI VE BİR…",
+     "gerekce": "Genel Yorum Kurallarının 1 ve 6’ncı maddeleri, Gümrük Tarife Cetveli İzahnamesinin 42.02 Tarife Pozisyonu Açıklama Notları, 18.11.2025 tarih 115801944 sayı ile Bölge Müdürlüğümüz kayıtlarına giren İstanbul Laboratuvar Mü…",
+     "url": "https://uygulama.gtb.gov.tr/BTBBasvuru/BtbWebArama"
+    },
+    {
+     "source": "tr",
+     "source_label": "Türkiye (BTB)",
+     "color": "#E30A17",
+     "flag": "🇹🇷",
+     "origin": "Türkiye",
+     "hs": "851714000019",
+     "hs4": "8517",
+     "ref": "TR340000260027",
+     "date": "2026-02-26",
+     "title": "NOKIA MARKA 235 TA-1614 DS MODEL, 2,8 İNÇ EKRANA SAHİP, 2MP ARKA KAMERASI BULUNAN,127,3 X 54,2 X 11,6 MM BOYUTLARINDA, MOBİL BİR İŞLETİM SİSTEMİ İLE DONATILMIŞ, TELEFON ARAMASI YAPMA VE ALMA, KISA MESAJ GÖNDERME VE ALMA ÖZELLİĞİ OLAN, 2G/3G/4G LTE, BLUETOOTH BAĞLANTI ÖZELLİKLERİ …",
+     "gerekce": "Genel Yorum Kuralları 1 ve 6 ıncı maddeler, Türk Gümrük Tarife Cetveli İzahnamesinin 85.17 Tarife Pozisyonu Açıklama Notları, 85. Fasıl Notu, İstanbul Üniversitesi Cerrahpaşa Mühendislik Fakültesi Elektrik-Elektronik böl…",
+     "url": "https://uygulama.gtb.gov.tr/BTBBasvuru/BtbWebArama"
+    }
+   ]
+  },
+  {
+   "date": "2026-02-20",
+   "date_tr": "20 Şubat 2026",
+   "count": 5,
+   "sources": [
+    "tr"
+   ],
+   "decisions": [
+    {
+     "source": "tr",
+     "source_label": "Türkiye (BTB)",
+     "color": "#E30A17",
+     "flag": "🇹🇷",
+     "origin": "Türkiye",
+     "hs": "847989979019",
+     "hs4": "8479",
+     "ref": "TR350000260008",
+     "date": "2026-02-20",
+     "title": "Hongsen marka, HS-R250-F-220V model Soğutucu Gaz Geri Kazanım Ünitesi. Sistemden soğutucu akışkanı çekerek yeniden kullanım geri kazanım veya bertaraf için harici bir geri kazanım silindirine aktardığı ve kendine has fonksiyonu vardır.",
+     "gerekce": "Türk Gümrük Tarife Cetveli İzahnamesi’nin 8479 tarife pozisyonu açıklama notları ve Tarife Yorumuna İlişkin Genel Kurallar 1,6",
+     "url": "https://uygulama.gtb.gov.tr/BTBBasvuru/BtbWebArama"
+    },
+    {
+     "source": "tr",
+     "source_label": "Türkiye (BTB)",
+     "color": "#E30A17",
+     "flag": "🇹🇷",
+     "origin": "Türkiye",
+     "hs": "851640000011",
+     "hs4": "8516",
+     "ref": "TR410000260005",
+     "date": "2026-02-20",
+     "title": "PHILIPS STH5020/20-Buhar üreticisi başlığında bulunan delikli plakanın giysi üzerine sürtülmesi veya bastırılması çalışma prensibine dayanan, ütü altlığı ve ısıtıcı rezistansı bulunan, buhar ile kırışıklıkların giderilmesini sağlamak için tasarlanmış, el tipi dikey buharlı ütüdür…",
+     "gerekce": "İSTANBUL ÜNİVERSİTESİ TEKNİK RAPORU GÜMRÜK TARİFE CETVELİ İZAHNMESİ 85.16 AÇIKLAMA NOTLARI",
+     "url": "https://uygulama.gtb.gov.tr/BTBBasvuru/BtbWebArama"
+    },
+    {
+     "source": "tr",
+     "source_label": "Türkiye (BTB)",
+     "color": "#E30A17",
+     "flag": "🇹🇷",
+     "origin": "Türkiye",
+     "hs": "851640000011",
+     "hs4": "8516",
+     "ref": "TR410000260004",
+     "date": "2026-02-20",
+     "title": "PHILIPS MARKA STH5020/40-Buhar üreticisi başlığında bulunan delikli plakanın giysi üzerine sürtülmesi veya bastırılması çalışma prensibine dayanan, ütü altlığı ve ısıtıcı rezistansı bulunan, buhar ile kırışıklıkların giderilmesini sağlamak için tasarlanmış, el tipi dikey buharlı …",
+     "gerekce": "İSTANBUL ÜNİVERSİTESİ TEKNİK RAPORU GÜMRÜK TARİFE CETVELİ İZAHNMESİ 85.16 AÇIKLAMA NOTLARI",
+     "url": "https://uygulama.gtb.gov.tr/BTBBasvuru/BtbWebArama"
+    },
+    {
+     "source": "tr",
+     "source_label": "Türkiye (BTB)",
+     "color": "#E30A17",
+     "flag": "🇹🇷",
+     "origin": "Türkiye",
+     "hs": "851640000011",
+     "hs4": "8516",
+     "ref": "TR410000260003",
+     "date": "2026-02-20",
+     "title": "PHİLİPS MARKA GC810/20-Buhar üreticisi başlığında bulunan delikli plakanın giysi üzerine sürtülmesi veya bastırılması çalışma prensibine dayanan, ütü altlığı ve ısıtıcı rezistansı bulunan, buhar ile kırışıklıkların giderilmesini sağlamak için tasarlanmış, el tipi dikey buharlı üt…",
+     "gerekce": "İSTANBUL ÜNİVERSİTESİ TEKNİK RAPORU GÜMRÜK TARİFE CETVELİ İZAHNMESİ 85.16 AÇIKLAMA NOTLARI",
+     "url": "https://uygulama.gtb.gov.tr/BTBBasvuru/BtbWebArama"
+    },
+    {
+     "source": "tr",
+     "source_label": "Türkiye (BTB)",
+     "color": "#E30A17",
+     "flag": "🇹🇷",
+     "origin": "Türkiye",
+     "hs": "851640000011",
+     "hs4": "8516",
+     "ref": "TR410000260006",
+     "date": "2026-02-20",
+     "title": "PHİLİPS STH5030/20-Buhar üreticisi başlığında bulunan delikli plakanın giysi üzerine sürtülmesi veya bastırılması çalışma prensibine dayanan, ütü altlığı ve ısıtıcı rezistansı bulunan, buhar ile kırışıklıkların giderilmesini sağlamak için tasarlanmış, el tipi dikey buharlı ütüdür…",
+     "gerekce": "İSTANBUL ÜNİVERSİTESİ TEKNİK RAPORU GÜMRÜK TARİFE CETVELİ İZAHNMESİ 85.16 AÇIKLAMA NOTLARI",
+     "url": "https://uygulama.gtb.gov.tr/BTBBasvuru/BtbWebArama"
+    }
+   ]
+  },
+  {
+   "date": "2026-02-19",
+   "date_tr": "19 Şubat 2026",
+   "count": 1,
+   "sources": [
+    "tr"
+   ],
+   "decisions": [
+    {
+     "source": "tr",
+     "source_label": "Türkiye (BTB)",
+     "color": "#E30A17",
+     "flag": "🇹🇷",
+     "origin": "Türkiye",
+     "hs": "871420000000",
+     "hs4": "8714",
+     "ref": "TR160000260011",
+     "date": "2026-02-19",
+     "title": "\" Engelli sandalyesine ait ön tekerlek \" ticari tanımlı eşya; 4” boyutunda olduğu, 103mm dış çapa, 33 mm lastik genişliğine sahip olduğu, ortasında iki adet bilyalı rulman bulunduğu, alüminyumdan mamul gövde üzerinde plastikten (PU) mamul dış bir katman bulunduğu, anlaşılmıştır.S…",
+     "gerekce": "Tarifenin Yorumu ile İlgili Genel Kurallar (1) ve (6), Gümrük Genel Tebliği (Gümrük Tarife Cetveli İzahnamesi) ( Seri No:4), Türk Gümrük Tarife Cetveli ve İzahnamesi XVII. Bölüm Notları ve Genel Açıklamalar, 87. Fasıl Ge…",
+     "url": "https://uygulama.gtb.gov.tr/BTBBasvuru/BtbWebArama"
+    }
+   ]
+  },
+  {
+   "date": "2026-02-17",
+   "date_tr": "17 Şubat 2026",
+   "count": 1,
+   "sources": [
+    "tr"
+   ],
+   "decisions": [
+    {
+     "source": "tr",
+     "source_label": "Türkiye (BTB)",
+     "color": "#E30A17",
+     "flag": "🇹🇷",
+     "origin": "Türkiye",
+     "hs": "841981200011",
+     "hs4": "8419",
+     "ref": "TR160000260010",
+     "date": "2026-02-17",
+     "title": "“JL31A-ST-MW” ticari tanımlı eşya; JL31A model Kahve Makinesi. 300X548X490mm boyutlarında, 1200gr kahve çekirdeği yükleme haznesine, 2 litre su tankına, 7” boyutunda dokunmatik ekrana ve 2 adet pistonlu pompaya sahip olan ve 2850 WATT/220-240 VOLT gücünde, 18 kg ağırlığında, 2 ba…",
+     "gerekce": "Türk Gümrük Tarife Cetveli ve İzahnamesi XVI. Bölüm Notları, 84. Fasıl Genel Açıklama Notları, 8419 Tarife Pozisyon Notları, Tarifenin Yorumu ile ilgili Genel Kurallar (1) ve (6)",
+     "url": "https://uygulama.gtb.gov.tr/BTBBasvuru/BtbWebArama"
+    }
+   ]
+  },
+  {
+   "date": "2026-02-11",
+   "date_tr": "11 Şubat 2026",
+   "count": 1,
+   "sources": [
+    "tr"
+   ],
+   "decisions": [
+    {
+     "source": "tr",
+     "source_label": "Türkiye (BTB)",
+     "color": "#E30A17",
+     "flag": "🇹🇷",
+     "origin": "Türkiye",
+     "hs": "850131009011",
+     "hs4": "8501",
+     "ref": "TR350000260007",
+     "date": "2026-02-11",
+     "title": "'Edge marka, K4 model Akıllı Sürüş Kiti. 1 adet K4 Kombo (ana ünite), 1 adet uzaktan kumanda, 1 adet pervane, 1 adet pervane koruma kafesi, 1adet batarya (423 Wh) ve 1 adet bağlantı kablosundan oluşmakta olup sörf tahtaları ve kanolar için bireysel kullanıcının su üzerinde yaptığ…",
+     "gerekce": "Türk Gümrük Tarife Cetveli İzahnamesi’nin 95. Fasıl notları, 8501 tarife pozisyonu açıklama notları ve Tarife Yorumuna İlişkin Genel Kurallar 1,3b,6",
+     "url": "https://uygulama.gtb.gov.tr/BTBBasvuru/BtbWebArama"
+    }
+   ]
+  },
+  {
+   "date": "2026-02-04",
+   "date_tr": "4 Şubat 2026",
+   "count": 1,
+   "sources": [
+    "tr"
+   ],
+   "decisions": [
+    {
+     "source": "tr",
+     "source_label": "Türkiye (BTB)",
+     "color": "#E30A17",
+     "flag": "🇹🇷",
+     "origin": "Türkiye",
+     "hs": "870410900000",
+     "hs4": "8704",
+     "ref": "TR350000260006",
+     "date": "2026-02-04",
+     "title": "LGMG marka MTE106H Electric Mining Dump Truck.",
+     "gerekce": "Türk Gümrük Tarife Cetveli İzahnamesi’nin 8704 Tarife Pozisyonu Açıklama Notları, Tarifenin Yorumuna İlişkin Genel Kurallar 1, 6",
+     "url": "https://uygulama.gtb.gov.tr/BTBBasvuru/BtbWebArama"
+    }
+   ]
+  },
+  {
+   "date": "2026-01-29",
+   "date_tr": "29 Ocak 2026",
+   "count": 18,
+   "sources": [
+    "tr"
+   ],
+   "decisions": [
+    {
+     "source": "tr",
+     "source_label": "Türkiye (BTB)",
+     "color": "#E30A17",
+     "flag": "🇹🇷",
+     "origin": "Türkiye",
+     "hs": "851714000019",
+     "hs4": "8517",
+     "ref": "TR340000260006",
+     "date": "2026-01-29",
+     "title": "NOKIA MARKA NOKIA 105 2023 TA-1557 MODEL, 1,8 İNÇ EKRANA SAHİP, 115,1 X 49,4 X 14,5 MM BOYUTLARINDA, MOBİL BİR İŞLETİM SİSTEMİ İLE DONATILMIŞ, TELEFON ARAMASI YAPMA VE ALMA, KISA MESAJ GÖNDERME VE ALMA ÖZELLİĞİ OLAN, ÜÇÜNCÜ PARTİ UYGULAMALAR DA DAHİL OLMAK ÜZERE BİRDEN FAZLA UYGU…",
+     "gerekce": "Genel Yorum Kuralları 1 ve 6 ıncı maddeler, Türk Gümrük Tarife Cetveli İzahnamesinin 85.17 Tarife Pozisyonu Açıklama Notları, 85. Fasıl Notu, İstanbul Üniversitesi Cerrahpaşa Mühendislik Fakültesi Elektrik-Elektronik böl…",
+     "url": "https://uygulama.gtb.gov.tr/BTBBasvuru/BtbWebArama"
+    },
+    {
+     "source": "tr",
+     "source_label": "Türkiye (BTB)",
+     "color": "#E30A17",
+     "flag": "🇹🇷",
+     "origin": "Türkiye",
+     "hs": "880694000000",
+     "hs4": "8806",
+     "ref": "TR340000260011",
+     "date": "2026-01-29",
+     "title": "EAVİSİON MARKA J100 MODEL DRONE GÖVDESİ (KANATLAR, UÇUŞ KONTROL MODÜLÜ, BATARYA BAĞLANTISI, KAMERA, LİDAR, RADAR, SPREY TANKI VE PÜSKÜRTME SİSTEMİ GİBİ BİLEŞENLERİ İÇERİR), KUMANDA (ÜZERİNDE DOKUNMATİK EKRAN, KUMANDA EKİPMANLARI, HAFIZA ELEMANI, TF KART GİRİŞİ, USB, HDMI VE TYPE-…",
+     "gerekce": "Genel Yorum Kurallarının 1 ve 6’ncı maddeleri, Gümrük Tarife Cetveli İzahnamesi 88.06 Tarife Pozisyonu Açıklama Notları, İstanbul Üniversitesi Cerrahpaşa Mühendislik Fakültesi Elektrik-Elektronik Mühendisliği Bölümünce t…",
+     "url": "https://uygulama.gtb.gov.tr/BTBBasvuru/BtbWebArama"
+    },
+    {
+     "source": "tr",
+     "source_label": "Türkiye (BTB)",
+     "color": "#E30A17",
+     "flag": "🇹🇷",
+     "origin": "Türkiye",
+     "hs": "950490800000",
+     "hs4": "9504",
+     "ref": "TR340000260010",
+     "date": "2026-01-29",
+     "title": "STARTER SET HEROES OF THE BORDERLANDS OLARAK ADLANDIRILAN; İÇERİĞİNDE 3 MACERA KİTAPÇIĞI, DUNGEONS AND DRAGONS (D&D) SINIFLARINI İÇEREN 8 KARAKTER SINIFI TAHTASI, 1 HIZLI BAŞLANGIÇ KILAVUZU, 1 REFERANS KİTAPÇIĞI, 5 DÜNYAYA DALDIRICI EL BROŞÜRÜ, 9 ÇİFT TARAFLI POSTER HARİTA, 1 SAV…",
+     "gerekce": "Genel Yorum Kurallarının 1 ve 6’ncı maddeleri, Gümrük Tarife Cetveli İzahnamesinin 95.04 Tarife Pozisyonu Açıklama Notları",
+     "url": "https://uygulama.gtb.gov.tr/BTBBasvuru/BtbWebArama"
+    },
+    {
+     "source": "tr",
+     "source_label": "Türkiye (BTB)",
+     "color": "#E30A17",
+     "flag": "🇹🇷",
+     "origin": "Türkiye",
+     "hs": "940490900000",
+     "hs4": "9404",
+     "ref": "TR340000260009",
+     "date": "2026-01-29",
+     "title": "İKEA MARKA 40523182, BUSENKEL MODEL, 48 X37 CM EBATLARINDA, 404 GRAM AĞIRLIĞINDA, İÇ KISMI POLYESTER ELYAF DOLGULU DIŞ KISMI SENTETİK (POLYESTER) LİFLERDEN ÖRME TÜYLÜ MENSUCATTAN VE ÖN YÜZÜ SENTETİK (POLYESTER) LİFLERDEN BASKILI DOKUNMUŞ MENSUCATTAN MAMUL SİRK ÇADIRI ŞEKLİNDE MİN…",
+     "gerekce": "Genel Yorum Kurallarının 1 ve 6’ncı maddeleri, Gümrük Tarife Cetveli İzahnamesinin 94.04 Tarife Pozisyonu Açıklama Notları, İstanbul Laboratuvar Müdürlüğünün 09.10.2025 tarih ve 3425BTB2752 sayılı Analiz Raporu, Gümrükle…",
+     "url": "https://uygulama.gtb.gov.tr/BTBBasvuru/BtbWebArama"
+    },
+    {
+     "source": "tr",
+     "source_label": "Türkiye (BTB)",
+     "color": "#E30A17",
+     "flag": "🇹🇷",
+     "origin": "Türkiye",
+     "hs": "732490000019",
+     "hs4": "7324",
+     "ref": "TR340000260008",
+     "date": "2026-01-29",
+     "title": "10595986 KODLU, ANALİZ RAPORUNA GÖRE PLASTİK KISMI POLİPROPİLENDEN, METAL GÖVDE KISMININ TAMAMI ALAŞIMSIZ ÇELİKTEN MAMUL, DIŞ KISMI BOYALI OLAN, BASINGEN TUVALET KAĞITLIĞI TİCARİ TANIMLI EŞYA.",
+     "gerekce": "Genel Yorum Kurallarının 1ve 6’ncı maddeleri, Gümrük Tarife Cetveli İzahnamesinin 73.24 Tarife Pozisyonu Açıklama Notları, İstanbul Laboratuvar Müdürlüğü tarafından tanzim edilen 3425BTB2761/16.10.2025 sayı tarihli Anali…",
+     "url": "https://uygulama.gtb.gov.tr/BTBBasvuru/BtbWebArama"
+    },
+    {
+     "source": "tr",
+     "source_label": "Türkiye (BTB)",
+     "color": "#E30A17",
+     "flag": "🇹🇷",
+     "origin": "Türkiye",
+     "hs": "950300410000",
+     "hs4": "9503",
+     "ref": "TR340000260007",
+     "date": "2026-01-29",
+     "title": "İKEA MARKA 20528369 -BLÅVINGAD MODEL, 40X32 CM EBATLARINDA, 368 GRAM AĞIRLIĞINDA, İÇ KISMI POLYESTER ELYAF DOLGULU, DIŞ KISMI SENTETİK (POLYESTER) LİFLERDEN ÖRME UZUN TÜYLÜ MENSUCATTAN MAMUL, EL VE AYAK GİBİ HAREKET EDEN UZUVLARA SAHİP PENGUEN ŞEKLİNDE PELUŞ OYUNCAK",
+     "gerekce": "Genel Yorum Kurallarının 1 ve 6’ncı maddeleri, Gümrük Tarife Cetveli İzahnamesinin 95.03 Tarife Pozisyonu Açıklama Notları, İstanbul Laboratuvar Müdürlüğünün 09.10.2025 tarih ve 3425BTB2754 sayılı Analiz Raporu, Gümrükle…",
+     "url": "https://uygulama.gtb.gov.tr/BTBBasvuru/BtbWebArama"
+    },
+    {
+     "source": "tr",
+     "source_label": "Türkiye (BTB)",
+     "color": "#E30A17",
+     "flag": "🇹🇷",
+     "origin": "Türkiye",
+     "hs": "851714000019",
+     "hs4": "8517",
+     "ref": "TR340000260005",
+     "date": "2026-01-29",
+     "title": "NOKIA MARKA NOKIA 106 TA-1564 MODEL, 1,8 İNÇ EKRANA SAHİP, 115,1 X 49,4 X 14,5 MM BOYUTLARINDA, MOBİL BİR İŞLETİM SİSTEMİ İLE DONATILMIŞ, TELEFON ARAMASI YAPMA VE ALMA, KISA MESAJ GÖNDERME VE ALMA ÖZELLİĞİ OLAN, ÜÇÜNCÜ PARTİ UYGULAMALAR DA DAHİL OLMAK ÜZERE BİRDEN FAZLA UYGULAMAY…",
+     "gerekce": "Genel Yorum Kuralları 1 ve 6 ıncı maddeler, Türk Gümrük Tarife Cetveli İzahnamesinin 85.17 Tarife Pozisyonu Açıklama Notları, 85. Fasıl Notu, İstanbul Üniversitesi Cerrahpaşa Mühendislik Fakültesi Elektrik-Elektronik böl…",
+     "url": "https://uygulama.gtb.gov.tr/BTBBasvuru/BtbWebArama"
+    },
+    {
+     "source": "tr",
+     "source_label": "Türkiye (BTB)",
+     "color": "#E30A17",
+     "flag": "🇹🇷",
+     "origin": "Türkiye",
+     "hs": "851714000019",
+     "hs4": "8517",
+     "ref": "TR340000260004",
+     "date": "2026-01-29",
+     "title": "NOKIA MARKA NOKIA 105 CLASSIC TA-1416 DS MODEL, 1,8 İNÇ EKRANA SAHİP, 115,2 X 49,9 X 14,3 MM BOYUTLARINDA, MOBİL BİR İŞLETİM SİSTEMİ İLE DONATILMIŞ, TELEFON ARAMASI YAPMA VE ALMA, KISA MESAJ GÖNDERME VE ALMA ÖZELLİĞİ OLAN, ÜÇÜNCÜ PARTİ UYGULAMALAR DA DAHİL OLMAK ÜZERE BİRDEN FAZL…",
+     "gerekce": "Genel Yorum Kuralları 1 ve 6 ıncı maddeler, Türk Gümrük Tarife Cetveli İzahnamesinin 85.17 Tarife Pozisyonu Açıklama Notları, 85. Fasıl Notu, İstanbul Üniversitesi Cerrahpaşa Mühendislik Fakültesi Elektrik-Elektronik böl…",
+     "url": "https://uygulama.gtb.gov.tr/BTBBasvuru/BtbWebArama"
+    },
+    {
+     "source": "tr",
+     "source_label": "Türkiye (BTB)",
+     "color": "#E30A17",
+     "flag": "🇹🇷",
+     "origin": "Türkiye",
+     "hs": "420292190000",
+     "hs4": "4202",
+     "ref": "TR340000260003",
+     "date": "2026-01-29",
+     "title": "LC WAİKİKİ MARKA, S6FO34Z8-CNTB MILANO/EEW-ECRU MODEL, DIŞ KISMI PLASTİK(PVC) MADDE YAPRAKLARINDAN, İÇ ASTARI POLYESTER LİFLERİNDEN MAMUL, KOLA ASMAK İÇİN İKİ ADET ASKISI VE ASTAR KISMINDA İKİ KÜÇÜK CEP BÖLMESİ BULUNAN, ÇANTAYI KAPATMAK İÇİN BİR ADET MIKNATISLI KAPAMA APARATI OLA…",
+     "gerekce": "Genel Yorum Kurallarının 1 ve 6’ncı maddeleri, Gümrük Tarife Cetveli İzahnamesinin 42.02 Tarife Pozisyonu Açıklama Notları, İstanbul Laboratuvar Müdürlüğünün 22.12.2025 tarih ve 3425BTB3442 sayılı Analiz Raporu",
+     "url": "https://uygulama.gtb.gov.tr/BTBBasvuru/BtbWebArama"
+    },
+    {
+     "source": "tr",
+     "source_label": "Türkiye (BTB)",
+     "color": "#E30A17",
+     "flag": "🇹🇷",
+     "origin": "Türkiye",
+     "hs": "910212000000",
+     "hs4": "9102",
+     "ref": "TR340000260002",
+     "date": "2026-01-29",
+     "title": "XİAOMİ MARKA SMART BAND 9 MODEL NUMARALI, TEKNİK RAPORA GÖRE; İLK AÇILIŞINDA YALNIZCA BİR MOBİL TELEFONA BAĞLANARAK UYUMLU UYGULAMA PROGRAMI ÜZERİNDEN AKTİVE EDİLMESİ HALİNDE ÇALIŞABİLEN, HERHANGİ BİR SİM KART YUVASI İHTİVA ETMEYEN, E-SİM VE ACİL ARAMA ÖZELLİĞİ OLMAYAN, 1.62 İNÇ …",
+     "gerekce": "Genel Yorum Kurallarının 1, 3c ve 6’ncı maddeleri, Gümrük Tarife Cetveli İzahnamesi 85.17 ve 91.02 Tarife Pozisyonu Açıklama Notları, İstanbul Üniversitesi Cerrahpaşa Mühendislik Fakültesince tanzim edilmiş 24.03.2025/10…",
+     "url": "https://uygulama.gtb.gov.tr/BTBBasvuru/BtbWebArama"
+    },
+    {
+     "source": "tr",
+     "source_label": "Türkiye (BTB)",
+     "color": "#E30A17",
+     "flag": "🇹🇷",
+     "origin": "Türkiye",
+     "hs": "901380800000",
+     "hs4": "9013",
+     "ref": "TR340000260018",
+     "date": "2026-01-29",
+     "title": "LUMADENT MARKA, GALİLEAN TTL LOUPE MODEL, 1 ÇANTA İÇERİSİNDE SATIŞA SUNULAN, 44 G AĞIRLIĞINDA, 1 ADET TİTANYUMDAN MAMUL ÇERÇEVE, HER İKİ LENS KISMINDA BÜYÜTME FONKSİYONUNU YERİNE GETİREN (3.0 X ZOOM SAĞLAMAKTADIR) 70 MM GÖRÜŞ ALANINA VE 150 MM ALAN DERİNLİĞİNE SAHİP OPTİĞİN MONTE…",
+     "gerekce": "Genel Yorum Kurallarının 1 ve 6’ncı maddeleri, Gümrük Tarife Cetveli İzahnamesinin 90.13 Tarife Pozisyonu Açıklama Notları.",
+     "url": "https://uygulama.gtb.gov.tr/BTBBasvuru/BtbWebArama"
+    },
+    {
+     "source": "tr",
+     "source_label": "Türkiye (BTB)",
+     "color": "#E30A17",
+     "flag": "🇹🇷",
+     "origin": "Türkiye",
+     "hs": "853710980019",
+     "hs4": "8537",
+     "ref": "TR340000260017",
+     "date": "2026-01-29",
+     "title": "MENNEKES MARKA, 35201100066 MODEL, TEK FAZ 230V ALTERNATİF AKIM (AA) BESLEME İLE ÇALIŞAN, NOMİNAL AKIMI 13A OLAN, TEK FAZ ÜZERİNDEN 3KW ŞARJ GÜCÜ SAĞLAYABİLEN, 8 METRE KABLO UZUNLUĞU OLAN VE IP44, IP67 VE IP69K KORUMA SINIFINA SAHİP, BÜNYESİNDE AKIM DEĞERİNİ DÜZENLEYEN ANA KONTRO…",
+     "gerekce": "Genel Yorum Kurallarının 1 ve 6’ncı maddeleri, Gümrük Tarife Cetveli İzahnamesinin 85.37 Tarife Pozisyonu Açıklama Notları, İstanbul Üniversitesi Cerrahpaşa Mühendislik Fakültesi Elektrik-Elektronik Mühendisliği Bölümünc…",
+     "url": "https://uygulama.gtb.gov.tr/BTBBasvuru/BtbWebArama"
+    },
+    {
+     "source": "tr",
+     "source_label": "Türkiye (BTB)",
+     "color": "#E30A17",
+     "flag": "🇹🇷",
+     "origin": "Türkiye",
+     "hs": "842139259000",
+     "hs4": "8421",
+     "ref": "TR340000260016",
+     "date": "2026-01-29",
+     "title": "DELTA PLUS MARKA, PAKET İÇERİĞİNDE 2 ADET FİLTRE BULUNAN, TARIM, YAPI, OTOMOTİV, MADEN ENDÜSTRİSİ VB SEKTÖRLERDE BELLİ MODELLERDEKİ YARIM YÜZ MASKELERİNDE KULLANILMAK İÇİN TASARLANMIŞ, TAKILDIĞI MASKEDE PARÇACIKLAR, TOZ VE DOLOMİT GİBİ MATERYALLERİN FİLTRE EDİLMESİNİ SAĞLAYAN MAS…",
+     "gerekce": "Genel Yorum Kurallarının 1 ve 6’ncı maddeleri, Gümrük Tarife Cetveli İzahnamesinin 84.21 Tarife Pozisyonu Açıklama Notları, İstanbul Laboratuvar Müdürlüğü tarafından tanzim edilen 05.01.2026 tarih ve 3425BTB3484 sayılı A…",
+     "url": "https://uygulama.gtb.gov.tr/BTBBasvuru/BtbWebArama"
+    },
+    {
+     "source": "tr",
+     "source_label": "Türkiye (BTB)",
+     "color": "#E30A17",
+     "flag": "🇹🇷",
+     "origin": "Türkiye",
+     "hs": "848180190012",
+     "hs4": "8481",
+     "ref": "TR340000260015",
+     "date": "2026-01-29",
+     "title": "NOVA MARKA 4152 MODEL; MEKANİK İÇ TAKIM ANA GÖVDE, SIZDIRMAZLIK SAĞLAYAN ARA CONTA, DOLDURMA GRUBU ŞAMANDIRA TOPU, DOLDURMA ANA GÖVDE, ŞAMANDIRA AYAR VİDASI, BASMA BUTON SETİ VE BAĞLANTI PARÇALARINDAN OLUŞAN TUVALET REZERVUARLARINDAKİ SU GİRİŞİNİN AÇILMASI/KAPATILMASI İÇİN KULLAN…",
+     "gerekce": "Genel Yorum Kurallarının 1 ve 6’ncı maddeleri, Gümrük Tarife Cetveli İzahnamesinin 84.81 Tarife Pozisyonu Açıklama Notları",
+     "url": "https://uygulama.gtb.gov.tr/BTBBasvuru/BtbWebArama"
+    },
+    {
+     "source": "tr",
+     "source_label": "Türkiye (BTB)",
+     "color": "#E30A17",
+     "flag": "🇹🇷",
+     "origin": "Türkiye",
+     "hs": "851762009000",
+     "hs4": "8517",
+     "ref": "TR340000260014",
+     "date": "2026-01-29",
+     "title": "SAMSUNG MARKA EI-T5600BWEGTR MODEL, 27,7 X 51 X 7 MM BOYUTLARINDA, BAĞLI OLDUĞU ANAHTAR, CÜZDAN, EVCİL HAYVAN VEYA HERHANGİ BİR BAŞKA EŞYANIN KAYBOLMASI, ÇALINMASI VB. DURUMUNDA KONUMUNU BULMAK, EN SON NEREDE GÖRÜLDÜĞÜNÜ VEYA ANLIK KONUMUNU SAMSUNG FİRMASININ SMARTTHİNGS UYGULAMA…",
+     "gerekce": "Genel Yorum Kurallarının 1 ve 6’ncı maddeleri, Gümrük Tarife Cetveli İzahnamesinin 85.17 ve 85.31 Tarife Pozisyonu Açıklama Notları, İstanbul Üniversitesi Cerrahpaşa Mühendislik Fakültesi Elektrik Elektronik Mühendisliği…",
+     "url": "https://uygulama.gtb.gov.tr/BTBBasvuru/BtbWebArama"
+    },
+    {
+     "source": "tr",
+     "source_label": "Türkiye (BTB)",
+     "color": "#E30A17",
+     "flag": "🇹🇷",
+     "origin": "Türkiye",
+     "hs": "830220000000",
+     "hs4": "8302",
+     "ref": "TR340000260013",
+     "date": "2026-01-29",
+     "title": "KAHE MARKA, KH-2013 MODEL, METAL DONANIM İHTİVA EDEN VE İKİ ADET YEŞİL TEKERLEKTEN OLUŞAN, TEKERLEKLERİN HER BİRİNİN ÇAPI 20 MM, DONANIMI İLE BİRLİKTE ÜRÜNÜN TOPLAM ÖLÇÜLERİ 14X20X145 MM OLAN, YATAY KAYMALI VE KAYARAK KATLANAN PENCERE VE KAPILAR İÇİN TEKERLEKLİ SÜRMELİ MAKARA RAY…",
+     "gerekce": "Genel Yorum Kurallarının 1 ve 6’ncı maddeleri, Gümrük Tarife Cetveli İzahnamesinin 83.02 Tarife Pozisyonu Açıklama Notları, Gümrükler Genel Müdürlüğü’nün 22.05.2018/34442290 tarih/sayılı yazıları",
+     "url": "https://uygulama.gtb.gov.tr/BTBBasvuru/BtbWebArama"
+    },
+    {
+     "source": "tr",
+     "source_label": "Türkiye (BTB)",
+     "color": "#E30A17",
+     "flag": "🇹🇷",
+     "origin": "Türkiye",
+     "hs": "851762009000",
+     "hs4": "8517",
+     "ref": "TR340000260012",
+     "date": "2026-01-29",
+     "title": "CARDO MARKA FREECOM 4X MODEL NUMARALI, KUTU İÇERİĞİNDE ANA ÜNİTE, MİKROFON ÜNİTESİ, KULAKLIK ÜNİTESİ (JBL 40 MM HOPARLÖRLER), ŞARJ KABLOSU, KASK BAĞLANTI APARATI (MİKROFON VE HOPARLÖR ADAPTÖRÜ) VE YAPIŞTIRMA PEDLERİ BULUNAN, 3 ADET FİZİKSEL KUMANDA DÜĞMESİ (MEDYA, İNTERCOM VE MOB…",
+     "gerekce": "Genel Yorum Kurallarının 1, 3(b) ve 6’ncı maddeleri, Gümrük Tarife Cetveli İzahnamesinin 85.17 ve 85.27 Tarife Pozisyonu Açıklama Notları, İstanbul Üniversitesi Cerrahpaşa Mühendislik Fakültesi Elektrik-Elektronik Mühend…",
+     "url": "https://uygulama.gtb.gov.tr/BTBBasvuru/BtbWebArama"
+    },
+    {
+     "source": "tr",
+     "source_label": "Türkiye (BTB)",
+     "color": "#E30A17",
+     "flag": "🇹🇷",
+     "origin": "Türkiye",
+     "hs": "854370900019",
+     "hs4": "8543",
+     "ref": "TR340000260019",
+     "date": "2026-01-29",
+     "title": "TRAKA TOUCH PRO S TKP07912 MODEL, ASIL FONKSİYONUNUN TÜM KULLANICILARIN VE ANAHTAR İŞLEMLERİNİN SIKI BİR ŞEKİLDE KAYDININ TUTULMASI VE BÖYLELİKLE İŞLETMEDEKİ HER ANAHTARIN KULLANIMININ GÜVENCE ALTINA ALINMASI, YÖNETİLMESİ VE DENETLENMESİ OLDUĞU ANLAŞILAN, YETKİLİ KULLANICILAR TAR…",
+     "gerekce": "Genel Yorum Kurallarının 1, 3(b) ve 6’ncı maddeleri, Gümrük Tarife Cetveli İzahnamesinin 83.03 ve 85.43 Tarife Pozisyonu Açıklama Notları, Gümrükler Genel Müdürlüğünün 21.01.2026/118054409 tarih/sayılı yazıları",
+     "url": "https://uygulama.gtb.gov.tr/BTBBasvuru/BtbWebArama"
+    }
+   ]
+  },
+  {
+   "date": "2026-01-27",
+   "date_tr": "27 Ocak 2026",
+   "count": 1,
+   "sources": [
+    "tr"
+   ],
+   "decisions": [
+    {
+     "source": "tr",
+     "source_label": "Türkiye (BTB)",
+     "color": "#E30A17",
+     "flag": "🇹🇷",
+     "origin": "Türkiye",
+     "hs": "848299000019",
+     "hs4": "8482",
+     "ref": "TR060000260001",
+     "date": "2026-01-27",
+     "title": "ÇELİKTEN MAMUL LİNEAR RULMAN KÜTÜĞÜ",
+     "gerekce": "TARİFE GENEL YORUM KURALLARI (1) VE (6). MADDELERİ İLE GÜMRÜK TARİFE CETVELİ İZAHNAMESİ 8482 TARİFE POZİSYONU AÇIKLAMA NOTLARI",
+     "url": "https://uygulama.gtb.gov.tr/BTBBasvuru/BtbWebArama"
+    }
+   ]
+  },
+  {
+   "date": "2026-01-23",
+   "date_tr": "23 Ocak 2026",
+   "count": 1,
+   "sources": [
+    "tr"
+   ],
+   "decisions": [
+    {
+     "source": "tr",
+     "source_label": "Türkiye (BTB)",
+     "color": "#E30A17",
+     "flag": "🇹🇷",
+     "origin": "Türkiye",
+     "hs": "841370519000",
+     "hs4": "8413",
+     "ref": "TR330000260003",
+     "date": "2026-01-23",
+     "title": "MOTORSUZ SANTRİFÜJLÜ SU POMPASI: SB-230 model, çıkış ağız çapı 15 mm.yi geçen, radyal akışlı, tek kademeli, çarkı tek girişli olan, yekpare gövdeli motorsuz santrifüj su pompası.",
+     "gerekce": "a. Gümrük Tarife Cetveli İzahnamesi Genel yorum kuralları 1. ve 6. maddeleri. b. Türk Gümrük Tarife Cetveli İzahnamesi 8413 Tarife Pozisyonu Açıklama Notları. c. Mersin Makine Mühendisleri Odasının 25.12.2025 tarihli, 30…",
+     "url": "https://uygulama.gtb.gov.tr/BTBBasvuru/BtbWebArama"
+    }
+   ]
+  },
+  {
+   "date": "2026-01-19",
+   "date_tr": "19 Ocak 2026",
+   "count": 3,
+   "sources": [
+    "tr"
+   ],
+   "decisions": [
+    {
+     "source": "tr",
+     "source_label": "Türkiye (BTB)",
+     "color": "#E30A17",
+     "flag": "🇹🇷",
+     "origin": "Türkiye",
+     "hs": "392390000000",
+     "hs4": "3923",
+     "ref": "TR350000260003",
+     "date": "2026-01-19",
+     "title": "Ameson marka \"Foam Bag Model 40 (Size: 460*580 mm)''",
+     "gerekce": "“Türk Gümrük Tarife Cetveli İzahnamesi’nin 3923 tarife pozisyonu açıklama notları, İzmir Laboratuvar Müdürlüğünün 13.01.2026 tarihli 3525BTB0006 sayılı Analiz Raporu ve Tarife Yorumuna İlişkin Genel Kurallar 1,6”",
+     "url": "https://uygulama.gtb.gov.tr/BTBBasvuru/BtbWebArama"
+    },
+    {
+     "source": "tr",
+     "source_label": "Türkiye (BTB)",
+     "color": "#E30A17",
+     "flag": "🇹🇷",
+     "origin": "Türkiye",
+     "hs": "853952000000",
+     "hs4": "8539",
+     "ref": "TR350000260004",
+     "date": "2026-01-19",
+     "title": "Savk marka, T8-06M-8W model, UV-A Led BL Tuba Lamp. Sinek öldürme cihazlarında kullanmak için tasarlanmış 220 AC voltajla çalışan uv led lambadır.",
+     "gerekce": "Türk Gümrük Tarife Cetveli İzahnamesi’nin 8539 Tarife Pozisyonu Açıklama Notları, Tarifenin Yorumuna İlişkin Genel Kurallar 1, 6",
+     "url": "https://uygulama.gtb.gov.tr/BTBBasvuru/BtbWebArama"
+    },
+    {
+     "source": "tr",
+     "source_label": "Türkiye (BTB)",
+     "color": "#E30A17",
+     "flag": "🇹🇷",
+     "origin": "Türkiye",
+     "hs": "701990001000",
+     "hs4": "7019",
+     "ref": "TR350000260005",
+     "date": "2026-01-19",
+     "title": "BWF marka, Filter Bag: GL 750 D160x500mm. Çimento endüstrisindeki filtrasyon sistemlerine özel olarak uyarlanmış bir ucunda cam liflerinin içerisinde dikili halde paslanmaz çelikten halka bulunan üzeri ptfe kaplı, esası dokumaya elverişli cam liflerden eşyadır.",
+     "gerekce": "Türk Gümrük Tarife Cetveli İzahnamesi’nin 7019 tarife pozisyonu açıklama notları, İzmir Laboratuvar Müdürlüğünün 14.01.2026 tarihli, 3525BTB0907 sayılı Analiz Raporu ve Tarife Yorumuna İlişkin Genel Kurallar 1,6",
+     "url": "https://uygulama.gtb.gov.tr/BTBBasvuru/BtbWebArama"
+    }
+   ]
+  },
+  {
+   "date": "2026-01-14",
+   "date_tr": "14 Ocak 2026",
+   "count": 3,
+   "sources": [
+    "tr"
+   ],
+   "decisions": [
+    {
+     "source": "tr",
+     "source_label": "Türkiye (BTB)",
+     "color": "#E30A17",
+     "flag": "🇹🇷",
+     "origin": "Türkiye",
+     "hs": "843229900019",
+     "hs4": "8432",
+     "ref": "TR410000260002",
+     "date": "2026-01-14",
+     "title": "MARKA :EINHELL MODEL:GC-RT-1545M Einhell marka, eşya üzerinde yer alan etikette ticari tanımı Elektro-Bodenhacke ve model numarası GC-RT-1545-M olarak tespit edilen, çalışma genişliği 45 cm, çalışma derinliği yaklaşık 10 cm olan, bıçak sayısı 6 adet olan, insan eliyle kontrol edi…",
+     "gerekce": "Gümrük Tarife Cetveli 84.32 İzahname notları, Tarife Yorum Kuralları 1 ve 6",
+     "url": "https://uygulama.gtb.gov.tr/BTBBasvuru/BtbWebArama"
+    },
+    {
+     "source": "tr",
+     "source_label": "Türkiye (BTB)",
+     "color": "#E30A17",
+     "flag": "🇹🇷",
+     "origin": "Türkiye",
+     "hs": "847989979019",
+     "hs4": "8479",
+     "ref": "TR160000260009",
+     "date": "2026-01-14",
+     "title": "\"Otomatik Besleyici\" ticari tanımlı, \"Dengensha Automatic Single Vibratory Feeder/VNS-00-Hg10-DLH\" ticari markalı/model numaralı eşya, direnç kaynak makinelerinin elektrotlarına kaynak somunları sağlayan vibrasyonlu tip otomatik besleyici olduğu, 7 litrelik hazne kapasitesi olduğ…",
+     "gerekce": "Tarifenin Yorumu ile İlgili Genel Kurallar (1) ve (6), Gümrük Genel Tebliği (Gümrük Tarife Cetveli İzahnamesi) (Seri No:4), Türk Gümrük Tarife Cetveli ve İzahnamesi, XVI Bölüm notları ve Genel Açıklamalar, 84. Fasıl Gene…",
+     "url": "https://uygulama.gtb.gov.tr/BTBBasvuru/BtbWebArama"
+    },
+    {
+     "source": "tr",
+     "source_label": "Türkiye (BTB)",
+     "color": "#E30A17",
+     "flag": "🇹🇷",
+     "origin": "Türkiye",
+     "hs": "843229900019",
+     "hs4": "8432",
+     "ref": "TR410000260001",
+     "date": "2026-01-14",
+     "title": "MARKA :EINHELL MODEL:GC-RT-7530 Einhell marka, eşya üzerinde yer alan etikette ticari tanımı Elektro-Bodenhacke ve model numarası GC-RT-7530 olarak tespit edilen, çalışma genişliği 30 cm, çalışma derinliği yaklaşık 10 cm olan, bıçak sayısı 4 adet olan, insan eliyle kontrol edilen…",
+     "gerekce": "Gümrük Tarife Cetveli 84.32 İzahname notları, Tarife Yorum Kuralları 1 ve 6",
+     "url": "https://uygulama.gtb.gov.tr/BTBBasvuru/BtbWebArama"
+    }
+   ]
+  },
+  {
+   "date": "2026-01-13",
+   "date_tr": "13 Ocak 2026",
+   "count": 2,
+   "sources": [
+    "tr"
+   ],
+   "decisions": [
+    {
+     "source": "tr",
+     "source_label": "Türkiye (BTB)",
+     "color": "#E30A17",
+     "flag": "🇹🇷",
+     "origin": "Türkiye",
+     "hs": "830242000019",
+     "hs4": "8302",
+     "ref": "TR160000260008",
+     "date": "2026-01-13",
+     "title": "Adi metalden mamul, kesitleri 13,0x52,6 mm olan iç içe geçebilen raylı bir sistem üzerinden bilyalı mekanizmasıyla yükün ileriye ve geriye doğru doğrusal hareketine izin veren tam uzatma özelliğine sahip Teleskopik ray ticari tanımlı eşyadır.",
+     "gerekce": "Tarifenin Yorumu ile İlgili Genel Kurallar (1) ve (6), Gümrük Genel Tebliği (Gümrük Tarife Cetveli İzahnamesi) ( Seri No:4), Türk Gümrük Tarife Cetveli ve İzahnamesi XV. Bölüm Notları ve Genel Açıklamalar, 83. Fasıl Gene…",
+     "url": "https://uygulama.gtb.gov.tr/BTBBasvuru/BtbWebArama"
+    },
+    {
+     "source": "tr",
+     "source_label": "Türkiye (BTB)",
+     "color": "#E30A17",
+     "flag": "🇹🇷",
+     "origin": "Türkiye",
+     "hs": "847621000000",
+     "hs4": "8476",
+     "ref": "TR160000260007",
+     "date": "2026-01-13",
+     "title": "JL23 model Espresso Kahve Makinesi. 470X620X700.Cm boyutlarında ,Dokunmatik ekrana sahip ;220V-240V gücünde 42 kg ağırlığında 2 bardaklık ve 200 fincan kadar kahve hazırlama kapasitesi olan cafe; restorant ve endüstiyel kullanılmaya uygun öğütücülü kahve makinesidir.",
+     "gerekce": "Türk Gümrük Tarife Cetveli ve İzahnamesi XVI. Bölüm Notları, 84. Fasıl Genel Açıklama Notları, 8419 ve 8476 Tarife Pozisyon Notları, Tarifenin Yorumu ile ilgili Genel Kurallar (1) ve (6), Gümrükler Genel Müdürlüğünün 18.…",
+     "url": "https://uygulama.gtb.gov.tr/BTBBasvuru/BtbWebArama"
+    }
+   ]
+  },
+  {
+   "date": "2026-01-12",
+   "date_tr": "12 Ocak 2026",
+   "count": 3,
+   "sources": [
+    "tr"
+   ],
+   "decisions": [
+    {
+     "source": "tr",
+     "source_label": "Türkiye (BTB)",
+     "color": "#E30A17",
+     "flag": "🇹🇷",
+     "origin": "Türkiye",
+     "hs": "848340519022",
+     "hs4": "8483",
+     "ref": "TR160000260004",
+     "date": "2026-01-12",
+     "title": "YUVARLAK AÇMA KAPAMA KOLUNU DÖNDÜRMEK SURETİYLE DİŞLİ KUTUSUNUN BAĞLI OLDUĞU MİLİ ÇEYRAK TUR DÖNDÜREREK VANANIN AÇILIP KAPATILMASINI SAĞLAYAN BİR DİŞLİ KUTUSUDUR.",
+     "gerekce": "9- Sınıflandırmanın Gerekçesi: Türk Gümrük Tarife Cetveli ve İzahnamesi XVI. Bölüm Notları, 84. Fasıl Genel Açıklama Notları, 8483 Tarife Pozisyon Notları, Tarifenin Yorumu ile ilgili Genel Kurallar (1) ve (6)",
+     "url": "https://uygulama.gtb.gov.tr/BTBBasvuru/BtbWebArama"
+    },
+    {
+     "source": "tr",
+     "source_label": "Türkiye (BTB)",
+     "color": "#E30A17",
+     "flag": "🇹🇷",
+     "origin": "Türkiye",
+     "hs": "847989979019",
+     "hs4": "8479",
+     "ref": "TR350000260001",
+     "date": "2026-01-12",
+     "title": "''Waldrop marka 357HS model Pad Placer.\"",
+     "gerekce": "\"Türk Gümrük Tarife Cetveli İzahnamesi’nin 8479 Tarife Pozisyonu Açıklama Notları, Tarifenin Yorumuna İlişkin Genel Kurallar 1, 6\"",
+     "url": "https://uygulama.gtb.gov.tr/BTBBasvuru/BtbWebArama"
+    },
+    {
+     "source": "tr",
+     "source_label": "Türkiye (BTB)",
+     "color": "#E30A17",
+     "flag": "🇹🇷",
+     "origin": "Türkiye",
+     "hs": "220299950000",
+     "hs4": "2202",
+     "ref": "TR350000260002",
+     "date": "2026-01-12",
+     "title": "Dimes marka \"Obsesso Latte Can 250 Ml'",
+     "gerekce": "“Türk Gümrük Tarife Cetveli İzahnamesi’nin 2202 tarife pozisyonu açıklama notları, İzmir Laboratuvar Müdürlüğünün 05.01.2026 tarihli 3525BTB0889 sayılı Analiz Raporu ve Tarife Yorumuna İlişkin Genel Kurallar 1,6”",
+     "url": "https://uygulama.gtb.gov.tr/BTBBasvuru/BtbWebArama"
+    }
+   ]
+  },
+  {
+   "date": "2026-01-09",
+   "date_tr": "9 Ocak 2026",
+   "count": 1,
+   "sources": [
+    "tr"
+   ],
+   "decisions": [
+    {
+     "source": "tr",
+     "source_label": "Türkiye (BTB)",
+     "color": "#E30A17",
+     "flag": "🇹🇷",
+     "origin": "Türkiye",
+     "hs": "732690980019",
+     "hs4": "7326",
+     "ref": "TR160000260005",
+     "date": "2026-01-09",
+     "title": "OTTO.41865C KALEM KUTULU KIRTASİYE SETi ;Set Eşya için tespit edilen tarife :7326.90.98.00.19 -Silgi İçin Tespit Edilen Tarife Pozisyonu: 4006.90.00.90.00 Kalem İçin Tespit Edilen Tarife Pozisyonu: 9609.10.10.00.00 Cetvel İçin Tespit Edilen Tarife Pozisyonu: 9017.80.10.90.29 Kale…",
+     "gerekce": "Gümrükler Genel Müdürlüğünün 17.09.2025/113504051 tarih sayılı yazısına istinaden VE Türk Gümrük Tarife Cetveli ve İzahnamesi XX Bölüm Notları ve Genel Açıklamalar, 73. Fasıl Genel Açıklamalar ve 73.26 Tarife Pozisyonu n…",
+     "url": "https://uygulama.gtb.gov.tr/BTBBasvuru/BtbWebArama"
+    }
+   ]
+  },
+  {
+   "date": "2026-01-08",
+   "date_tr": "8 Ocak 2026",
+   "count": 2,
+   "sources": [
+    "tr"
+   ],
+   "decisions": [
+    {
+     "source": "tr",
+     "source_label": "Türkiye (BTB)",
+     "color": "#E30A17",
+     "flag": "🇹🇷",
+     "origin": "Türkiye",
+     "hs": "392590800000",
+     "hs4": "3925",
+     "ref": "TR160000260006",
+     "date": "2026-01-08",
+     "title": "Plastikten yapay palmiye çatı örtüsü ticari tanımlı eşya; tatil köyleri, oteller, plaj, tema parkları, restoran ve bar benzeri açık havada yer alan yapıların çatı/ tavan kısımlarına uygulanan dekoratif bir yapı kaplama üründür. Eşya numunesi 23 cm eninde ve saçak boyları uzunluğu…",
+     "gerekce": "Gümrük Genel Tebliği (Gümrük Tarife Cetveli İzahnamesi) (Seri No:4), Türk Gümrük Tarife Cetveli ve İzahnamesi VII. Bölüm Notları ve Genel Açıklamalar, 39. Fasıl Genel Açıklamaları ile 3922, 3924 ve 3925 Tarife Pozisyonu …",
+     "url": "https://uygulama.gtb.gov.tr/BTBBasvuru/BtbWebArama"
+    },
+    {
+     "source": "tr",
+     "source_label": "Türkiye (BTB)",
+     "color": "#E30A17",
+     "flag": "🇹🇷",
+     "origin": "Türkiye",
+     "hs": "901890840019",
+     "hs4": "9018",
+     "ref": "TR330000260002",
+     "date": "2026-01-08",
+     "title": "ZURİCH BASINÇ KILAVUZ TEL SİSTEMİ MODEL 100: 0,014\" (0,36 mm) çapında, 180 cm uzunluğunda bir kılavuz tel ile 3 cm’lik şekillendirilebilir radyo opak ucun hemen ötesinde bulunan yüksek doğruluklu bir sensör ve benzersiz şekilde eşleştirilmiş bir taşınabilir ekrandan oluşan eşyadı…",
+     "gerekce": "a. Genel yorum kuralları 1. ve 6. maddeleri. b. Türk Gümrük Tarife Cetveli İzahnamesi 9018 Tarfe Pozisyonu Açıklama Notları. c. Türkiye İlaç ve Tıbbi Cihaz Kurumunun 23.12.2025 tarihli, 5803754 sayılı yazısı.",
+     "url": "https://uygulama.gtb.gov.tr/BTBBasvuru/BtbWebArama"
+    }
+   ]
+  },
+  {
+   "date": "2026-01-06",
+   "date_tr": "6 Ocak 2026",
+   "count": 1,
+   "sources": [
+    "tr"
+   ],
+   "decisions": [
+    {
+     "source": "tr",
+     "source_label": "Türkiye (BTB)",
+     "color": "#E30A17",
+     "flag": "🇹🇷",
+     "origin": "Türkiye",
+     "hs": "950629000000",
+     "hs4": "9506",
+     "ref": "TR350000250116",
+     "date": "2026-01-06",
+     "title": "AmphibianPro markalı Mini Scuba Tank Dalış Seti. 1 adet mini hava tankı (tank başlığı, valf başlığı, kol/bilek bağlama aparatı), 1 adet respiratör, 1 adet tam yüz maskesi ve 2 adet şnorkel, 1adet el pompası (pompa, pompa kolu, basınç göstergesi, mini seperatör, yay, conta, vida v…",
+     "gerekce": "Türk Gümrük Tarife Cetveli İzahnamesi’nin 9506 tarife pozisyonu açıklama notları ve Tarife Yorumuna İlişkin Genel Kurallar 1, 3b, 6",
+     "url": "https://uygulama.gtb.gov.tr/BTBBasvuru/BtbWebArama"
+    }
+   ]
+  },
+  {
+   "date": "2026-01-02",
+   "date_tr": "2 Ocak 2026",
+   "count": 3,
+   "sources": [
+    "tr"
+   ],
+   "decisions": [
+    {
+     "source": "tr",
+     "source_label": "Türkiye (BTB)",
+     "color": "#E30A17",
+     "flag": "🇹🇷",
+     "origin": "Türkiye",
+     "hs": "843229100012",
+     "hs4": "8432",
+     "ref": "TR330000260001",
+     "date": "2026-01-02",
+     "title": "MİKRO KÜLTİVATÖR.: ATG -10 Model, çekme ve itme kabiliyeti bulunmayan mikro kültivatör. (Aynı şekilde değişebilir (sökülüp takılabilir) çeşitten bir veya daha fazla makina veya cihazlar traktör üzerine monte edilmiş olsa dahi kendi pozisyonlarında sınıflandırılır.)",
+     "gerekce": "a. Genel yorum kuralları 1. ve 6. maddeleri. b. Türk Gümrük Tarife Cetveli İzahnamesi 84. ve 87. Fasıl Notları. c. Gümrük Genel Tebliği (Gümrük Tarife Cetveli İzahnamesi) (Seri No:4). d. Gümrükler Genel Müdürlüğünün 17.0…",
+     "url": "https://uygulama.gtb.gov.tr/BTBBasvuru/BtbWebArama"
+    },
+    {
+     "source": "tr",
+     "source_label": "Türkiye (BTB)",
+     "color": "#E30A17",
+     "flag": "🇹🇷",
+     "origin": "Türkiye",
+     "hs": "870850350019",
+     "hs4": "8708",
+     "ref": "TR160000260002",
+     "date": "2026-01-02",
+     "title": "\"Otomobiller için Şaft Körüğü \" ticari tanımlı eşyanın, yaklaşık olarak iç içe geçmiş iki konik yapı şekilde kendine özgü bir şeklinin olduğu; iç kısmının sertleştirilmemiş vulkanize kauçuktan mamul olduğu; dış kısmının ise alaşımsız çelikten mamul olduğu; binek araçlarda kullanı…",
+     "gerekce": "Türk Gümrük Tarife Cetveli ve İzahnamesi XVII Bölüm Notları ve Genel Açıklamalar, 87. Fasıl Genel Açıklamalar ve 87.08 Tarife Pozisyonu notları, Tarifenin Yorumu ile ilgili Genel Kurallar (1) ve (6), 03.11.2025 tarihli 1…",
+     "url": "https://uygulama.gtb.gov.tr/BTBBasvuru/BtbWebArama"
+    },
+    {
+     "source": "tr",
+     "source_label": "Türkiye (BTB)",
+     "color": "#E30A17",
+     "flag": "🇹🇷",
+     "origin": "Türkiye",
+     "hs": "841350619000",
+     "hs4": "8413",
+     "ref": "TR160000260001",
+     "date": "2026-01-02",
+     "title": "DOĞRUSAL DEPLASMANLI, PİSTONLU HİDROLİK POMPA VE POMPANIN OTURDUĞU POMPA TABANI İLE TRANSPALET DİREKSİYON TEKERİ MONTAJLI HALDE SUNULMAKTADIR.",
+     "gerekce": "Türk Gümrük Tarife Cetveli ve İzahnamesi XVI Bölüm notları, 84. Fasıl Genel Açıklama notları, 8413 Tarife Pozisyon notları, Tarifenin Yorumu ile ilgili Genel Kurallar (1) ve (6) ve Uludağ Üniversitesi Mühendislik Fakülte…",
+     "url": "https://uygulama.gtb.gov.tr/BTBBasvuru/BtbWebArama"
     }
    ]
   }
