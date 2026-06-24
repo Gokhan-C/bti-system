@@ -7,5 +7,6 @@ logs/
 *.log
 state/eu_ebti_seen.json
 state/us_cbp_seen.json
+state/tr_btb_seen.json
 assets/node_modules/
 _*_tmp.json
