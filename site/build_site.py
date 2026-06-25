@@ -168,19 +168,26 @@ def normalize(src_dir, meta, rec, data):
 
     if slug == "tr":
         gtip = rec.get("gtip") or rec.get("hs", "")
+        ref = rec.get("ref", "")
         return {
             "source": "tr", "source_label": meta["label"], "color": meta["color"],
             "flag": meta["flag"], "origin": "Türkiye",
             "hs": gtip, "hs4": hs4(gtip),
-            "ref": rec.get("ref", ""),
+            "ref": ref,
             "date": iso_from_any(rec.get("date_issue", "")),
             "title": clip(rec.get("desc_tr", ""), 280),
             "gerekce": clip(rec.get("just_tr", ""), 220),
-            # Tek-karar kalıcı URL'si yok (detay postback) → resmî sorgu sayfası
-            "url": "https://uygulama.gtb.gov.tr/BTBBasvuru/BtbWebArama",
+            # Resmî sitede tek-karar GET URL'si yok → kendi ürettiğimiz statik
+            # detay sayfasına bağla (tam metin + resmî doğrulama linki).
+            "url": f"tr/{tr_slug(ref)}.html",
         }
 
     return None
+
+
+def tr_slug(ref: str) -> str:
+    """BTB No'yu güvenli dosya adına çevirir (TR330000260021 → aynı)."""
+    return re.sub(r"[^A-Za-z0-9_-]", "_", (ref or "").strip()) or "btb"
 
 
 def interleave_sources(decs):
@@ -207,7 +214,86 @@ def interleave_sources(decs):
     return out
 
 
+TR_OFFICIAL = "https://uygulama.gtb.gov.tr/BTBBasvuru/BtbWebArama"
+
+
+def write_tr_detail_pages():
+    """Her Türk BTB için statik detay sayfası (site/tr/<BTBNO>.html) üretir.
+    Bulutlar bu sayfaya bağlanır; tıklayınca kararın tam metni açılır."""
+    import html as _html
+
+    out_dir = os.path.join(OUT_DIR, "tr")
+    os.makedirs(out_dir, exist_ok=True)
+    count = 0
+
+    for f in glob.glob(f"{REPORTS_BASE}/TR_BTB/*/_report_data.json"):
+        try:
+            data = json.load(open(f, encoding="utf-8"))
+        except Exception:
+            continue
+        for rec in data.get("records", []):
+            ref = (rec.get("ref") or "").strip()
+            if not ref:
+                continue
+            gtip = (rec.get("gtip") or rec.get("hs", "")).strip()
+            date_tr = fmt_date_tr(iso_from_any(rec.get("date_issue", "")))
+            desc = _html.escape(rec.get("desc_tr", "") or "").replace("\n", "<br>")
+            just = _html.escape(rec.get("just_tr", "") or "").replace("\n", "<br>")
+            e_ref, e_gtip = _html.escape(ref), _html.escape(gtip)
+
+            page = f"""<!DOCTYPE html>
+<html lang="tr"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>{e_ref} · Türkiye BTB · GTİP {hs4(gtip)}</title>
+<style>
+ *{{box-sizing:border-box}}
+ body{{margin:0;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;
+   background:#eef3fb;color:#16202b;line-height:1.6}}
+ .wrap{{max-width:760px;margin:0 auto;padding:32px 22px 64px}}
+ a.back{{display:inline-flex;align-items:center;gap:7px;color:#5f7184;text-decoration:none;font-size:14px;font-weight:600}}
+ a.back:hover{{color:#16202b}}
+ .card{{background:#fff;border:1px solid #e6ebf2;border-radius:20px;padding:34px 32px;margin-top:18px;
+   box-shadow:0 14px 40px rgba(40,90,160,.07)}}
+ .tag{{display:inline-flex;align-items:center;gap:8px;font-size:13px;font-weight:700;color:#e30a17}}
+ .tag i{{width:10px;height:10px;border-radius:50%;background:#e30a17;display:inline-block}}
+ h1{{font-size:30px;letter-spacing:-1px;margin:14px 0 4px;font-family:'Space Grotesk',sans-serif}}
+ .meta{{display:flex;flex-wrap:wrap;gap:10px;margin-top:16px}}
+ .chip{{background:#f4f7fc;border:1px solid #e6ebf2;border-radius:11px;padding:9px 14px;font-size:13px}}
+ .chip b{{display:block;font-size:11px;color:#8693a6;font-weight:700;letter-spacing:.04em;text-transform:uppercase;margin-bottom:2px}}
+ .chip .mono{{font-family:'JetBrains Mono',ui-monospace,monospace;font-weight:700}}
+ .sec{{margin-top:26px}}
+ .sec h2{{font-size:12px;letter-spacing:.08em;text-transform:uppercase;color:#6f86ad;margin:0 0 7px}}
+ .sec p{{margin:0;font-size:15.5px;color:#23303f}}
+ .official{{display:inline-flex;align-items:center;gap:8px;margin-top:28px;background:#16202b;color:#fff;
+   text-decoration:none;font-weight:700;font-size:14px;padding:13px 22px;border-radius:12px}}
+ .note{{font-size:12.5px;color:#8693a6;margin-top:12px}}
+</style></head>
+<body><div class="wrap">
+ <a class="back" href="../index.html">← GTİP Bulutları'na dön</a>
+ <div class="card">
+   <span class="tag"><i></i>Türkiye · Bağlayıcı Tarife Bilgisi (BTB)</span>
+   <h1>GTİP {hs4(gtip)}</h1>
+   <div class="meta">
+     <div class="chip"><b>BTB No</b><span class="mono">{e_ref}</span></div>
+     <div class="chip"><b>GTİP</b><span class="mono">{e_gtip}</span></div>
+     <div class="chip"><b>Geçerlilik Başlama</b>{date_tr}</div>
+   </div>
+   <div class="sec"><h2>Eşyanın Tanımı</h2><p>{desc or '—'}</p></div>
+   <div class="sec"><h2>Sınıflandırmanın Gerekçesi</h2><p>{just or '—'}</p></div>
+   <a class="official" href="{TR_OFFICIAL}" target="_blank" rel="noopener">↗ Resmî kayıtta doğrula (Ticaret Bakanlığı)</a>
+   <div class="note">Resmî BTB sorgulama sayfasında "BTB No" alanına <b>{e_ref}</b> yazıp arayarak bu kararı doğrulayabilirsiniz.</div>
+ </div>
+</div></body></html>"""
+
+            with open(os.path.join(out_dir, f"{tr_slug(ref)}.html"), "w", encoding="utf-8") as fp:
+                fp.write(page)
+            count += 1
+
+    return count
+
+
 def main():
+    tr_pages = write_tr_detail_pages()
     by_date = collect()
 
     days = []
@@ -242,6 +328,8 @@ def main():
         fp.write(";\n")
 
     print(f"✓ {total} karar, {len(days)} gün → {out}")
+    if tr_pages:
+        print(f"  TR detay sayfaları: {tr_pages} → {os.path.join(OUT_DIR, 'tr')}/")
     if days:
         print(f"  En güncel gün: {days[0]['date_tr']} ({days[0]['count']} karar)")
 
