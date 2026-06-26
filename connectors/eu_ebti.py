@@ -129,7 +129,24 @@ async def _scrape_and_download(
         page = await context.new_page()
 
         search_url = _build_search_url(date_hyphen, date_slash_encoded)
-        await page.goto(search_url, wait_until="load", timeout=120000)
+        # Geçici ağ/sunucu yavaşlığına karşı sayfayı birkaç kez yüklemeyi dene.
+        # (Tek deneme timeout verince o gün EU tamamen kaçıyordu.)
+        last_err = None
+        for attempt in range(3):
+            try:
+                await page.goto(search_url, wait_until="load", timeout=120000)
+                last_err = None
+                break
+            except Exception as e:
+                last_err = e
+                if logger:
+                    logger.warning(
+                        f"AB EBTI: sayfa yüklenemedi (deneme {attempt + 1}/3): {str(e)[:80]}"
+                    )
+                await page.wait_for_timeout(5000)
+        if last_err is not None:
+            await browser.close()
+            raise last_err
 
         # EBTI sonuç tablosunu/sayacını sayfa yüklendikten SONRA AJAX ile doldurur.
         # "load" anında body'de henüz sonuç yok; sayaç metni ("... results match your
