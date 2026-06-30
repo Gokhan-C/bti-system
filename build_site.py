@@ -94,6 +94,22 @@ def eu_source_url(ref: str, country: str, date_iso: str) -> str:
     return f"{base}?showHeader=false&Lang=en&reference={r}"
 
 
+def us_source_url(number: str, collection: str) -> str:
+    """ABD/CBP ruling için ÇALIŞAN dış kaynak linki (customsmobile aynası).
+
+    CBP CROSS (rulings.cbp.gov) tek-karar deep-link'lerini Akamai ile dışarıdan
+    engelliyor (403 Access Denied). customsmobile.com aynı CBP ruling'lerini
+    GET ile erişilebilir gösterir:
+        rulings/docview?doc_id=<KOLEKSİYON> <NUMARA>   (ör. "NY N358843")
+    Koleksiyon yoksa yalnız numara denenir.
+    """
+    from urllib.parse import quote
+    num = (number or "").strip()
+    coll = (collection or "").strip()
+    doc_id = f"{coll} {num}".strip() if coll else num
+    return f"https://www.customsmobile.com/rulings/docview?doc_id={quote(doc_id)}"
+
+
 def clip(text: str, n: int = 220) -> str:
     text = re.sub(r"\s+", " ", (text or "")).strip()
     return text[:n] + ("…" if len(text) > n else "")
@@ -148,7 +164,7 @@ def normalize(src_dir, meta, rec, data):
             "date": iso_from_any(rec.get("date_fmt", "")),
             "title": clip(title, 280),
             "gerekce": clip(summ.get("teknik_gerekce", ""), 220),
-            "url": rec.get("source_url", ""),
+            "url": us_source_url(rec.get("number", ""), rec.get("collection", "")),
         }
 
     if slug == "ca":
