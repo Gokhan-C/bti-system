@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Panel · GTİP Bulutları</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Hanken+Grotesk:wght@400;500;600;700&family=JetBrains+Mono:wght@500;600;700&display=swap" rel="stylesheet">
+<style>
+ *{box-sizing:border-box;margin:0;padding:0}
+ body{font-family:'Hanken Grotesk',system-ui,-apple-system,sans-serif;color:#16202b;background:#f4f8fc;line-height:1.55;-webkit-font-smoothing:antialiased}
+ .mono{font-family:'JetBrains Mono',ui-monospace,monospace}
+ a{color:inherit}
+ .wrap{max-width:1180px;margin:0 auto;padding:26px 22px 70px}
+ .top{display:flex;align-items:center;justify-content:space-between;gap:16px;flex-wrap:wrap}
+ .back{display:inline-flex;align-items:center;gap:7px;color:#5f7184;text-decoration:none;font-size:14px;font-weight:600}
+ .back:hover{color:#16202b}
+ h1{font-family:'Space Grotesk',sans-serif;font-weight:600;font-size:clamp(26px,3.4vw,38px);letter-spacing:-1.2px;margin-top:6px}
+ .sub{color:#5f7184;font-size:15px;margin-top:2px}
+ .seg{display:inline-flex;background:#fff;border:1px solid #e2e8f1;border-radius:12px;padding:4px;gap:3px}
+ .seg button{border:none;background:transparent;padding:9px 15px;border-radius:9px;font-size:13.5px;font-weight:600;color:#5f7184;cursor:pointer;white-space:nowrap}
+ .seg button.on{background:#16202b;color:#fff}
+ .tabs{display:flex;gap:8px;flex-wrap:wrap;margin-top:22px}
+ .tab{border:1px solid #e2e8f1;background:#fff;border-radius:11px;padding:9px 15px;font-size:14px;font-weight:600;color:#5f7184;cursor:pointer;display:inline-flex;align-items:center;gap:7px}
+ .tab .dot{width:9px;height:9px;border-radius:50%}
+ .tab.on{color:#16202b;border-color:#c7d3e2;box-shadow:0 6px 18px rgba(40,90,160,.08)}
+ .tab.on[data-accent]{border-color:var(--ac);box-shadow:0 6px 18px color-mix(in srgb,var(--ac) 22%,transparent)}
+ .cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(168px,1fr));gap:14px;margin-top:22px}
+ .card{background:#fff;border:1px solid #e6ebf2;border-radius:16px;padding:18px 20px;box-shadow:0 10px 30px rgba(40,90,160,.05)}
+ .card .k{font-size:12px;color:#8693a6;font-weight:700;letter-spacing:.04em;text-transform:uppercase}
+ .card .v{font-family:'JetBrains Mono',monospace;font-weight:700;font-size:30px;letter-spacing:-1px;margin-top:8px;line-height:1}
+ .card .s{font-size:12.5px;color:#8693a6;margin-top:6px}
+ .grid2{display:grid;grid-template-columns:1fr 1fr;gap:18px;margin-top:18px}
+ @media(max-width:820px){.grid2{grid-template-columns:1fr}}
+ .panel{background:#fff;border:1px solid #e6ebf2;border-radius:18px;padding:24px;box-shadow:0 10px 30px rgba(40,90,160,.05)}
+ .panel h2{font-family:'Space Grotesk',sans-serif;font-size:18px;font-weight:600;letter-spacing:-.4px}
+ .panel .ph{display:flex;align-items:baseline;justify-content:space-between;gap:10px;margin-bottom:16px}
+ .panel .ph small{color:#8693a6;font-size:12.5px}
+ .row{display:grid;grid-template-columns:62px minmax(0,1fr) auto;align-items:center;gap:12px;padding:7px 0}
+ .row>div{min-width:0}
+ .row .code{font-family:'JetBrains Mono',monospace;font-weight:700;font-size:15px}
+ .bar{height:22px;border-radius:7px;position:relative;background:#eef3fa;overflow:hidden;min-width:8px}
+ .bar i{position:absolute;inset:0 auto 0 0;border-radius:7px;display:block}
+ .row .lab{font-size:12px;color:#8693a6;margin-top:3px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;max-width:100%}
+ .row .cnt{font-family:'JetBrains Mono',monospace;font-weight:700;font-size:14px;color:#16202b;text-align:right;min-width:30px}
+ .chips{display:flex;flex-wrap:wrap;gap:8px}
+ .chip{font-family:'JetBrains Mono',monospace;font-weight:700;font-size:13px;background:#f4f7fc;border:1px solid #e6ebf2;border-radius:9px;padding:7px 11px;color:#324155}
+ .chip span{color:#8693a6;font-weight:600;margin-left:5px}
+ .daily{display:flex;align-items:flex-end;gap:3px;height:150px;margin-top:6px;overflow-x:auto;padding-bottom:4px}
+ .dcol{flex:1 0 7px;min-width:7px;display:flex;flex-direction:column-reverse;border-radius:4px 4px 0 0;overflow:hidden;cursor:default}
+ .dcol .seg2{width:100%}
+ .legend{display:flex;gap:16px;flex-wrap:wrap;margin-top:14px;font-size:12.5px;color:#5f7184}
+ .legend span{display:inline-flex;align-items:center;gap:6px}
+ .legend i{width:10px;height:10px;border-radius:3px;display:inline-block}
+ table{width:100%;border-collapse:collapse;margin-top:4px}
+ th,td{text-align:left;padding:10px 10px;font-size:13.5px;border-bottom:1px solid #eef2f7;vertical-align:top}
+ th{font-size:11px;letter-spacing:.05em;text-transform:uppercase;color:#8693a6;font-weight:700}
+ tr.dec{cursor:pointer}
+ tr.dec:hover td{background:#f7faff}
+ td .t{color:#23303f}
+ .pill{display:inline-flex;align-items:center;gap:6px;font-size:12px;font-weight:600;color:#5f7184}
+ .pill i{width:8px;height:8px;border-radius:50%}
+ .empty{color:#8693a6;font-size:14px;padding:24px 0;text-align:center}
+ .more{margin-top:14px;text-align:center}
+ .more button{border:1px solid #e2e8f1;background:#fff;border-radius:10px;padding:9px 18px;font-weight:600;font-size:13.5px;color:#5f7184;cursor:pointer}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div class="top">
+    <div>
+      <a class="back" href="index.html">← GTİP Bulutları</a>
+      <h1>İstatistik Paneli</h1>
+      <div class="sub" id="sub">Yükleniyor…</div>
+    </div>
+    <div class="seg" id="period">
+      <button data-p="month" class="on">Bu Ay</button>
+      <button data-p="d30">Son 30 Gün</button>
+      <button data-p="all">Tüm Zamanlar</button>
+    </div>
+  </div>
+
+  <div class="tabs" id="tabs"></div>
+  <div class="cards" id="cards"></div>
+
+  <div class="grid2">
+    <div class="panel">
+      <div class="ph"><h2>En çok verilen GTİP'ler</h2><small id="topNote"></small></div>
+      <div id="topGtip"></div>
+    </div>
+    <div class="panel">
+      <div class="ph"><h2>Fasıl dağılımı</h2><small>GTİP'in ilk 2 hanesi</small></div>
+      <div id="chapters"></div>
+    </div>
+  </div>
+
+  <div class="panel" style="margin-top:18px">
+    <div class="ph"><h2>En az verilen GTİP'ler</h2><small id="rareNote">tek kez sınıflandırılan nadir pozisyonlar</small></div>
+    <div class="chips" id="rare"></div>
+  </div>
+
+  <div class="grid2">
+    <div class="panel">
+      <div class="ph"><h2>Ülke dağılımı</h2><small id="ctrNote"></small></div>
+      <div id="country"></div>
+    </div>
+    <div class="panel">
+      <div class="ph"><h2>Günlük aktivite</h2><small id="dailyNote"></small></div>
+      <div class="daily" id="daily"></div>
+      <div class="legend" id="dailyLegend"></div>
+    </div>
+  </div>
+
+  <div class="panel" style="margin-top:18px">
+    <div class="ph"><h2>Kararlar</h2><small id="listNote"></small></div>
+    <div id="list"></div>
+  </div>
+</div>
+
+<script src="data.js"></script>
+<script>
+const DATA = window.BTI_DATA || {days:[]};
+const SRC = {
+  eu:{name:'Avrupa Birliği', short:'AB', color:'#2f6bdf', flag:'🇪🇺'},
+  us:{name:'Amerika',        short:'ABD',color:'#d07d2a', flag:'🇺🇸'},
+  ca:{name:'Kanada',         short:'KAN',color:'#169b8b', flag:'🇨🇦'},
+  tr:{name:'Türkiye',        short:'TR', color:'#e30a17', flag:'🇹🇷'},
+};
+// HS Fasıl (ilk 2 hane) → kısa Türkçe ad (yaygın olanlar; gerisi "Fasıl XX")
+const HS2 = {
+ '02':'Etler','03':'Balık, su ürünleri','04':'Süt ürünleri, yumurta','07':'Sebzeler','08':'Meyveler',
+ '09':'Kahve, çay, baharat','11':'Değirmencilik ürünleri','12':'Yağlı tohumlar','13':'Bitkisel öz/reçine',
+ '15':'Yağlar (hayvansal/bitkisel)','16':'Et/balık müstahzarları','17':'Şeker, şekerlemeler',
+ '18':'Kakao ve müstahzarları','19':'Hamur işleri, tahıl müstahzarları','20':'Sebze/meyve müstahzarları',
+ '21':'Çeşitli gıda müstahzarları','22':'İçecekler, alkol','23':'Gıda sanayi kalıntıları/yem',
+ '25':'Tuz, taş, çimento','27':'Mineral yakıtlar, petrol','28':'İnorganik kimyasallar',
+ '29':'Organik kimyasallar','30':'Eczacılık ürünleri','31':'Gübreler','32':'Boya, pigment, tanen',
+ '33':'Kozmetik, esans','34':'Sabun, yıkama müstahzarları','35':'Albüminoid, tutkal, enzim',
+ '38':'Muhtelif kimyasal ürünler','39':'Plastikler','40':'Kauçuk','42':'Deri eşya','44':'Ağaç, ahşap eşya',
+ '48':'Kâğıt, karton','49':'Basılı kitap/ürünler','52':'Pamuk','54':'Sentetik/suni filament',
+ '55':'Sentetik/suni devamsız lif','56':'Vatka, keçe, dokunmamış','57':'Halılar','58':'Özel dokuma',
+ '59':'Kaplanmış/emdirilmiş mensucat','60':'Örme kumaşlar','61':'Örme giyim','62':'Örme olmayan giyim',
+ '63':'Hazır eşya (tekstil)','64':'Ayakkabı','68':'Taş, alçı, çimento eşya','69':'Seramik ürünleri',
+ '70':'Cam ve cam eşya','71':'Kıymetli taş/metal, mücevher','72':'Demir-çelik','73':'Demir-çelik eşya',
+ '74':'Bakır ve eşyası','76':'Alüminyum ve eşyası','82':'Aletler, takımlar (adi metal)',
+ '83':'Çeşitli adi metal eşya','84':'Makineler, mekanik cihazlar','85':'Elektrik makine/cihazları',
+ '87':'Kara taşıtları','89':'Gemiler','90':'Optik, ölçü, tıbbi cihazlar','91':'Saatler',
+ '92':'Müzik aletleri','94':'Mobilya, aydınlatma','95':'Oyuncak, oyun, spor','96':'Çeşitli eşya',
+};
+const chapName = c => HS2[c] || ('Fasıl '+c);
+
+let state = { period:'month', tab:'all', listLimit:25 };
+
+const all = DATA.days.flatMap(d => d.decisions.map(x => Object.assign({}, x, {_date:d.date})));
+const presentSources = [...new Set(all.map(x=>x.source))].filter(s=>SRC[s]);
+const curMonth = (DATA.today || (DATA.days[0]&&DATA.days[0].date) || '').slice(0,7);
+const monthName = (()=>{const m=['Ocak','Şubat','Mart','Nisan','Mayıs','Haziran','Temmuz','Ağustos','Eylül','Ekim','Kasım','Aralık'];const p=curMonth.split('-');return p[1]?m[+p[1]-1]+' '+p[0]:'';})();
+
+function periodStart(){
+  if(state.period==='d30'){ const d=new Date(); d.setDate(d.getDate()-30); return d.toISOString().slice(0,10); }
+  return null;
+}
+function inPeriod(iso){
+  if(state.period==='month') return iso.slice(0,7)===curMonth;
+  if(state.period==='d30'){ const s=periodStart(); return iso>=s; }
+  return true;
+}
+function filtered(){
+  return all.filter(x => inPeriod(x._date) && (state.tab==='all' || x.source===state.tab));
+}
+function tip(t){ return (t||'').replace(/"/g,'&quot;'); }
+function esc(t){ return (t||'').replace(/[&<>]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;'}[c])); }
+
+function countBy(arr, key){ const m={}; arr.forEach(x=>{const k=key(x); if(k) m[k]=(m[k]||0)+1;}); return m; }
+function sortEntries(obj){ return Object.entries(obj).sort((a,b)=>b[1]-a[1]); }
+
+function accent(){ return state.tab==='all' ? '#16202b' : SRC[state.tab].color; }
+
+function renderTabs(){
+  const el = document.getElementById('tabs');
+  const mk = (id,label,color) => {
+    const on = state.tab===id;
+    const style = color?`--ac:${color}`:'';
+    const dot = color?`<span class="dot" style="background:${color}"></span>`:`<span class="dot" style="background:#16202b"></span>`;
+    return `<button class="tab ${on?'on':''}" ${color?'data-accent':''} style="${style}" data-tab="${id}">${dot}${label}</button>`;
+  };
+  let h = mk('all','Tümü',null);
+  presentSources.forEach(s=>{ h += mk(s, SRC[s].flag+' '+SRC[s].name, SRC[s].color); });
+  el.innerHTML = h;
+  el.querySelectorAll('button').forEach(b=>b.onclick=()=>{ state.tab=b.dataset.tab; state.listLimit=25; render(); });
+}
+
+function barRow(code, count, max, color, label){
+  const w = max? Math.max(4, count/max*100):4;
+  return `<div class="row">
+    <div class="code" style="color:${color}">${code}</div>
+    <div><div class="bar"><i style="width:${w}%;background:${color}"></i></div>
+      ${label?`<div class="lab">${esc(label)}</div>`:''}</div>
+    <div class="cnt">${count}</div></div>`;
+}
+
+function render(){
+  const f = filtered();
+  const ac = accent();
+  // tab vurgusu güncelle
+  document.querySelectorAll('.tab').forEach(b=>b.classList.toggle('on', b.dataset.tab===state.tab));
+  document.querySelectorAll('#period button').forEach(b=>b.classList.toggle('on', b.dataset.p===state.period));
+
+  const periodLabel = state.period==='month'?('Bu Ay · '+monthName):state.period==='d30'?'Son 30 Gün':'Tüm Zamanlar';
+  document.getElementById('sub').innerHTML = `${periodLabel} · ${state.tab==='all'?'tüm ülkeler':SRC[state.tab].flag+' '+SRC[state.tab].name}`;
+
+  // ── kartlar ──
+  const days = new Set(f.map(x=>x._date));
+  const gtipSet = new Set(f.map(x=>x.hs4).filter(Boolean));
+  const chCount = sortEntries(countBy(f, x=>x.hs && x.hs.replace(/\D/g,'').slice(0,2)));
+  const topCh = chCount[0];
+  const busiest = sortEntries(countBy(f, x=>x._date))[0];
+  document.getElementById('cards').innerHTML =
+    card('Toplam karar', f.length, periodLabel.toLowerCase()) +
+    card('Aktif gün', days.size, f.length&&days.size?('ort. '+(f.length/days.size).toFixed(1)+' karar/gün'):'—') +
+    card('Farklı GTİP', gtipSet.size, '4 haneli pozisyon') +
+    card('En yoğun fasıl', topCh?topCh[0]:'—', topCh?chapName(topCh[0])+' · '+topCh[1]:'veri yok');
+
+  // ── en çok verilen GTİP ──
+  const gtip = sortEntries(countBy(f, x=>x.hs4));
+  const maxG = gtip.length?gtip[0][1]:0;
+  const sampleFor = code => { const d=f.find(x=>x.hs4===code && x.title); return d?d.title:''; };
+  document.getElementById('topNote').textContent = gtip.length?('ilk '+Math.min(15,gtip.length)):'';
+  document.getElementById('topGtip').innerHTML = gtip.length
+    ? gtip.slice(0,15).map(([c,n])=>barRow(c,n,maxG,ac,sampleFor(c))).join('')
+    : '<div class="empty">Bu seçimde karar yok.</div>';
+
+  // ── fasıl dağılımı ──
+  const maxC = chCount.length?chCount[0][1]:0;
+  document.getElementById('chapters').innerHTML = chCount.length
+    ? chCount.slice(0,12).map(([c,n])=>barRow(c,n,maxC,ac,chapName(c))).join('')
+    : '<div class="empty">Veri yok.</div>';
+
+  // ── nadir GTİP (tek kez) ──
+  const rare = gtip.filter(([,n])=>n===1).map(([c])=>c);
+  document.getElementById('rareNote').textContent = rare.length
+    ? rare.length+' pozisyon tek kez sınıflandırıldı'
+    : 'tek kez verilen pozisyon yok';
+  document.getElementById('rare').innerHTML = rare.length
+    ? rare.slice(0,60).map(c=>`<span class="chip">${c}<span>1</span></span>`).join('')
+    : '<div class="empty">—</div>';
+
+  // ── ülke dağılımı ──
+  const byS = countBy(f, x=>x.source);
+  const sEntries = presentSources.map(s=>[s, byS[s]||0]).sort((a,b)=>b[1]-a[1]);
+  const maxS = Math.max(1,...sEntries.map(e=>e[1]));
+  document.getElementById('ctrNote').textContent = state.tab==='all'?'':'sekme tek ülkeye filtreli';
+  document.getElementById('country').innerHTML = sEntries.map(([s,n])=>{
+    const w=Math.max(4,n/maxS*100);
+    return `<div class="row"><div class="code" style="color:${SRC[s].color}">${SRC[s].flag}</div>
+      <div><div class="bar"><i style="width:${w}%;background:${SRC[s].color}"></i></div>
+      <div class="lab">${SRC[s].name}</div></div><div class="cnt">${n}</div></div>`;
+  }).join('');
+
+  // ── günlük aktivite (yığılmış) ──
+  const dlist = [...days].sort();
+  const perDay = {}; dlist.forEach(d=>perDay[d]={});
+  f.forEach(x=>{ perDay[x._date][x.source]=(perDay[x._date][x.source]||0)+1; });
+  const maxDay = Math.max(1,...dlist.map(d=>Object.values(perDay[d]).reduce((a,b)=>a+b,0)));
+  document.getElementById('dailyNote').textContent = dlist.length?dlist.length+' gün':'';
+  const order = state.tab==='all'?presentSources:[state.tab];
+  document.getElementById('daily').innerHTML = dlist.map(d=>{
+    const tot=Object.values(perDay[d]).reduce((a,b)=>a+b,0);
+    const segs=order.filter(s=>perDay[d][s]).map(s=>`<div class="seg2" style="height:${perDay[d][s]/maxDay*150}px;background:${SRC[s].color}"></div>`).join('');
+    return `<div class="dcol" title="${d} · ${tot} karar">${segs}</div>`;
+  }).join('') || '<div class="empty">Veri yok.</div>';
+  document.getElementById('dailyLegend').innerHTML = order.map(s=>`<span><i style="background:${SRC[s].color}"></i>${SRC[s].name}</span>`).join('');
+
+  // ── karar listesi ──
+  const sorted = f.slice().sort((a,b)=> a._date<b._date?1:a._date>b._date?-1:0);
+  const shown = sorted.slice(0, state.listLimit);
+  document.getElementById('listNote').textContent = f.length+' karar';
+  if(!sorted.length){ document.getElementById('list').innerHTML='<div class="empty">Bu seçimde karar yok.</div>'; return; }
+  let rows = shown.map(x=>{
+    const s=SRC[x.source];
+    return `<tr class="dec" data-url="${tip(x.url)}">
+      <td class="mono" style="font-weight:700;color:${s.color}">${x.hs4||'—'}</td>
+      <td><span class="pill"><i style="background:${s.color}"></i>${s.short}${x.origin&&x.origin!==s.name?' · '+esc(x.origin):''}</span></td>
+      <td class="mono" style="color:#8693a6;white-space:nowrap">${x._date}</td>
+      <td><div class="t">${esc((x.title||'').slice(0,120))||'—'}</div></td>
+    </tr>`;
+  }).join('');
+  let more = sorted.length>state.listLimit ? `<div class="more"><button id="moreBtn">Daha fazla göster (${sorted.length-state.listLimit})</button></div>` : '';
+  document.getElementById('list').innerHTML =
+    `<table><thead><tr><th>GTİP</th><th>Kaynak</th><th>Tarih</th><th>Ürün</th></tr></thead><tbody>${rows}</tbody></table>${more}`;
+  document.querySelectorAll('tr.dec').forEach(tr=>tr.onclick=()=>{ const u=tr.dataset.url; if(u) window.open(u, u.startsWith('http')?'_blank':'_self'); });
+  const mb=document.getElementById('moreBtn'); if(mb) mb.onclick=()=>{ state.listLimit+=50; render(); };
+}
+
+function card(k,v,s){ return `<div class="card"><div class="k">${k}</div><div class="v">${v}</div><div class="s">${s}</div></div>`; }
+
+document.querySelectorAll('#period button').forEach(b=>b.onclick=()=>{ state.period=b.dataset.p; state.listLimit=25; render(); });
+renderTabs();
+render();
+</script>
+</body>
+</html>
