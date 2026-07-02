@@ -4,6 +4,7 @@
 # -----------------------------------------
 # 1) main.py ile tüm connector'ları çalıştırır (dünün kararlarını çeker)
 # 2) site/build_site.py ile siteyi (data.js) tazeler
+# 3) Güncel site/klasörünü GitHub Pages'e push eder (otomatik yayın)
 #
 # LaunchAgent bu scripti her gün 06:00'da çağırır. Elle de çalıştırılabilir:
 #     bash daily_update.sh
@@ -39,6 +40,33 @@ TS() { date "+%Y-%m-%d %H:%M:%S"; }
   echo "[$(TS)] build_site.py çalışıyor..."
   "$PY" "$SCRIPT_DIR/site/build_site.py"
   echo "[$(TS)] build_site.py bitti (exit=$?)"
+
+  # 3) GitHub Pages'e push (site/ → gh-pages branch)
+  echo "[$(TS)] GitHub Pages push başlıyor..."
+  TODAY=$(date "+%Y-%m-%d")
+  git add site/
+  if git diff --cached --quiet; then
+    echo "[$(TS)] site/ değişmedi, yeni commit yok."
+  else
+    git commit -q -m "chore(site): otomatik güncelleme $TODAY"
+  fi
+
+  # Push her zaman denenir: önceki gün ağ hatasıyla lokalde kalmış
+  # commit'ler varsa burada kendiliğinden gider (self-healing).
+  PUSH_OK=0
+  for ATTEMPT in 1 2 3; do
+    if git push origin master && git subtree push --prefix site origin gh-pages; then
+      PUSH_OK=1
+      echo "[$(TS)] GitHub Pages push tamamlandı (deneme $ATTEMPT)."
+      break
+    fi
+    echo "[$(TS)] Push başarısız (deneme $ATTEMPT/3), 60 sn sonra tekrar denenecek..."
+    sleep 60
+  done
+  if [ "$PUSH_OK" -ne 1 ]; then
+    echo "[$(TS)] HATA: GitHub push 3 denemede de başarısız — site GÜNCELLENMEDİ, commit'ler lokalde bekliyor."
+    osascript -e 'display notification "GitHub push 3 denemede başarısız — site güncellenmedi" with title "BTI Günlük Güncelleme"' 2>/dev/null || true
+  fi
 
   echo "[$(TS)] Tamamlandı."
 } >> "$LOG" 2>&1
