@@ -1,12 +1,36 @@
 window.BTI_DATA = {
- "generated_at": "2026-07-01 06:07",
- "today": "2026-07-01",
- "today_tr": "1 Temmuz 2026",
- "latest_date": "2026-06-30",
+ "generated_at": "2026-07-02 06:41",
+ "today": "2026-07-02",
+ "today_tr": "2 Temmuz 2026",
+ "latest_date": "2026-07-01",
  "latest_is_today": false,
- "total_decisions": 1421,
- "total_days": 69,
+ "total_decisions": 1422,
+ "total_days": 70,
  "days": [
+  {
+   "date": "2026-07-01",
+   "date_tr": "1 Temmuz 2026",
+   "count": 1,
+   "sources": [
+    "tr"
+   ],
+   "decisions": [
+    {
+     "source": "tr",
+     "source_label": "Türkiye (BTB)",
+     "color": "#E30A17",
+     "flag": "🇹🇷",
+     "origin": "Türkiye",
+     "hs": "841590009009",
+     "hs4": "8415",
+     "ref": "TR410000260010",
+     "date": "2026-07-01",
+     "title": "Tek bir dış üniteye sınırlı sayıda iç ünitenin bağlanabildiği ve her bir iç ünitenin ayrı bir sıvı/ gaz hattı kullandığı; inverter sürücü aracılığıyla sistemin toplam yüküne bağlı olarak kompresör devrinin değiştirildiği inverter kontrollü multi split klima sistemi teknolojisine …",
+     "gerekce": "İzahname notları, Tarife Yorum Kuralları 1 ve 6, İstanbul Üniversitesi Cerrahpaşa Mühendislik Fakültesinin düzenlediği Teknik Rapor ve Gümrükler Genel Müdürlüğünün 17.06.2026 tarih ve 123203784 sayılı yazıları",
+     "url": "tr/TR410000260010.html"
+    }
+   ]
+  },
   {
    "date": "2026-06-30",
    "date_tr": "30 Haziran 2026",
