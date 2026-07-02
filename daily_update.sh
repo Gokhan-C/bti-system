@@ -53,9 +53,49 @@ TS() { date "+%Y-%m-%d %H:%M:%S"; }
       echo "[$(TS)] $C yeniden denemede başarılı."
     fi
   done
+  # 1c) Bugün de çekilemeyenleri telafi kuyruğuna yaz: ertesi sabahki çalışma
+  # bu günleri --date ile otomatik yeniden dener (format: connector|DD-MM-YYYY|deneme).
+  QUEUE="$LOG_DIR/missed_days.txt"
+  YDATE=$(date -v-1d "+%d-%m-%Y")
   if [ -n "$STILL_FAILED" ]; then
-    echo "[$(TS)] HATA: şu connector'lar bugün veri çekemedi:$STILL_FAILED"
-    osascript -e "display notification \"Veri çekilemedi:$STILL_FAILED — günün verisi eksik olabilir\" with title \"BTI Günlük Güncelleme\"" 2>/dev/null || true
+    for C in $STILL_FAILED; do
+      echo "$C|$YDATE|0" >> "$QUEUE"
+    done
+    echo "[$(TS)] HATA: şu connector'lar bugün veri çekemedi:$STILL_FAILED — yarın otomatik telafi edilecek."
+    osascript -e "display notification \"Veri çekilemedi:$STILL_FAILED — yarın otomatik telafi edilecek\" with title \"BTI Günlük Güncelleme\"" 2>/dev/null || true
+  fi
+
+  # 1d) Önceki günlerden kalan telafi kuyruğunu işle (bugün eklenenler atlanır;
+  # onlar zaten az önce 2 kez denendi). Başarılı olan kuyruktan düşer, başarısız
+  # olan deneme sayısı artarak kalır; 7 denemeden sonra vazgeçilir ve bildirilir.
+  if [ -s "$QUEUE" ]; then
+    echo "[$(TS)] Telafi kuyruğu işleniyor..."
+    NEW_QUEUE="$QUEUE.tmp"
+    : > "$NEW_QUEUE"
+    while IFS='|' read -r C D N; do
+      [ -z "$C" ] && continue
+      if [ "$D" = "$YDATE" ]; then
+        echo "$C|$D|$N" >> "$NEW_QUEUE"
+        continue
+      fi
+      echo "[$(TS)] Telafi: $C / $D (önceki deneme: $N) çekiliyor..."
+      BACKFILL_OUT="$LOG_DIR/last_backfill_${C}.log"
+      "$PY" "$SCRIPT_DIR/main.py" --config "$SCRIPT_DIR/config.yaml" --connector "$C" --date "$D" 2>&1 | tee "$BACKFILL_OUT"
+      if grep -q '✗ HATA' "$BACKFILL_OUT"; then
+        N=$((N + 1))
+        if [ "$N" -ge 7 ]; then
+          echo "[$(TS)] Telafi: $C / $D 7 denemede de başarısız — VAZGEÇİLDİ, veri elle çekilmeli."
+          osascript -e "display notification \"$C / $D telafisi 7 denemede başarısız — elle çekilmeli\" with title \"BTI Günlük Güncelleme\"" 2>/dev/null || true
+        else
+          echo "$C|$D|$N" >> "$NEW_QUEUE"
+          echo "[$(TS)] Telafi: $C / $D yine başarısız, kuyrukta kalıyor (deneme: $N)."
+        fi
+      else
+        echo "[$(TS)] Telafi: $C / $D BAŞARILI, kuyruktan düşürüldü."
+      fi
+    done < "$QUEUE"
+    mv "$NEW_QUEUE" "$QUEUE"
+    [ -s "$QUEUE" ] || rm -f "$QUEUE"
   fi
 
   # 2) Siteyi tazele
