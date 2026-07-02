@@ -124,7 +124,24 @@ async def _scrape_and_download(
     bti_image_map: dict[str, int] = {}
 
     async with async_playwright() as p:
-        browser = await p.chromium.launch(headless=True)
+        # Tarayıcı açılışı da (goto gibi) geçici olarak takılabiliyor; 2 Tem 2026'da
+        # launch 180 sn timeout verip günün EU verisini tamamen kaçırdı → retry.
+        browser = None
+        launch_err = None
+        for launch_attempt in range(3):
+            try:
+                browser = await p.chromium.launch(headless=True, timeout=120000)
+                launch_err = None
+                break
+            except Exception as e:
+                launch_err = e
+                if logger:
+                    logger.warning(
+                        f"AB EBTI: tarayıcı açılamadı (deneme {launch_attempt + 1}/3): {str(e)[:80]}"
+                    )
+                await asyncio.sleep(15)
+        if launch_err is not None or browser is None:
+            raise launch_err or RuntimeError("Chromium başlatılamadı")
         context = await browser.new_context(accept_downloads=True)
         page = await context.new_page()
 
