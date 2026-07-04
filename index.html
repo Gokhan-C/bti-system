@@ -1,305 +1,755 @@
 <!DOCTYPE html>
-<html>
+<html lang="tr">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<script src="./support.js"></script>
-</head>
-<body>
-<x-dc>
-<helmet>
+<title>GTİP Bulutları — 4 ülkenin günlük bağlayıcı tarife kararları</title>
+<meta name="description" content="AB (EBTI), ABD (CBP CROSS), Kanada (CBSA) ve Türkiye (BTB) gümrük idarelerinin bağlayıcı tarife sınıflandırma kararları her gün tek ekranda. GTİP koduna göre ara, kaynağa tek tıkla ulaş.">
+<meta property="og:title" content="GTİP Bulutları — gümrük sınıflandırma kararları gözlemevi">
+<meta property="og:description" content="AB, ABD, Kanada ve Türkiye'nin günlük bağlayıcı tarife kararları tek gökyüzünde. Arşivde GTİP koduna göre arama yap.">
+<meta property="og:type" content="website">
+<link rel="alternate" type="application/rss+xml" title="GTİP Bulutları — günlük tarife kararları" href="feed.xml">
+<link rel="alternate" type="application/rss+xml" title="Fasıl 28 — Anorganik kimyasallar" href="feed-fasil-28.xml">
+<link rel="alternate" type="application/rss+xml" title="Fasıl 29 — Organik kimyasallar" href="feed-fasil-29.xml">
+<link rel="alternate" type="application/rss+xml" title="Fasıl 39 — Plastikler ve mamulleri" href="feed-fasil-39.xml">
+<link rel="alternate" type="application/rss+xml" title="Fasıl 84 — Makineler ve mekanik cihazlar" href="feed-fasil-84.xml">
+<link rel="alternate" type="application/rss+xml" title="Fasıl 85 — Elektrikli makine ve cihazlar" href="feed-fasil-85.xml">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Hanken+Grotesk:wght@400;500;600;700&family=JetBrains+Mono:wght@500;600;700&display=swap" rel="stylesheet">
 <style>
+  :root{
+    --ink:#17202b; --muted:#5f7184; --faint:#8693a6;
+    --bg:#f4f8fc; --line:#e6ebf2; --card:#ffffff;
+    --eu:#2f6bdf; --us:#d07d2a; --ca:#169b8b; --tr:#e30a17;
+    --sky-hi:#cfe8ff; --sky-lo:#eef7ff;
+  }
   *{box-sizing:border-box;margin:0;padding:0}
   html{scroll-behavior:smooth}
-  body{font-family:'Hanken Grotesk',system-ui,-apple-system,sans-serif;color:#17202b;background:#f4f8fc;line-height:1.6;-webkit-font-smoothing:antialiased}
-  button{font-family:inherit}
+  body{font-family:'Hanken Grotesk',system-ui,-apple-system,sans-serif;color:var(--ink);background:var(--bg);line-height:1.6;-webkit-font-smoothing:antialiased}
+  button,input,select{font-family:inherit;font-size:inherit}
+  button{cursor:pointer}
   button:disabled{opacity:.28;cursor:default;pointer-events:none}
-  @keyframes bti-bob{0%,100%{transform:translateY(0)}50%{transform:translateY(-12px)}}
-  @keyframes bti-drift{from{transform:translateX(-50px)}to{transform:translateX(50px)}}
+  a{color:inherit}
+  :focus-visible{outline:2px solid var(--eu);outline-offset:2px;border-radius:6px}
+  .mono{font-family:'JetBrains Mono',ui-monospace,monospace}
+  .disp{font-family:'Space Grotesk',sans-serif;font-weight:600;letter-spacing:-.03em}
+
+  @keyframes bob{0%,100%{transform:translateY(0)}50%{transform:translateY(-12px)}}
+  @keyframes drift{from{transform:translateX(-50px)}to{transform:translateX(50px)}}
+  @media (prefers-reduced-motion: reduce){
+    *{animation:none !important;transition:none !important}
+    html{scroll-behavior:auto}
+  }
+
+  /* ---------- HERO ---------- */
+  .hero{position:relative;min-height:92vh;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;padding:88px 24px 100px;overflow:hidden;
+    background:radial-gradient(1100px 560px at 50% -8%, #d4ecff 0%, transparent 62%), linear-gradient(180deg,#e6f3ff 0%, var(--bg) 72%)}
+  .hero .blob{position:absolute;background:rgba(255,255,255,.8);border-radius:50%;filter:blur(30px);pointer-events:none;animation:drift 52s ease-in-out infinite alternate}
+  .badge{position:relative;display:inline-flex;align-items:center;gap:9px;background:rgba(255,255,255,.75);border:1px solid #dbe7f3;border-radius:100px;padding:8px 16px;font-size:13px;font-weight:600;color:var(--muted)}
+  .badge i{width:8px;height:8px;border-radius:50%;background:#31b57e;display:inline-block}
+  .hero h1{position:relative;font-size:clamp(34px,5.4vw,60px);line-height:1.08;max-width:820px;margin-top:26px}
+  .hero .sub{position:relative;font-size:clamp(15px,1.7vw,18px);color:var(--muted);max-width:640px;margin-top:18px}
+  .stats{position:relative;margin-top:40px;display:flex;gap:14px;flex-wrap:wrap;justify-content:center}
+  .stat{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:18px 22px;min-width:172px;text-align:left;box-shadow:0 10px 32px rgba(40,90,160,.06)}
+  .stat .nm{display:flex;align-items:center;gap:8px;font-weight:700;font-size:14.5px}
+  .stat .nm i{width:9px;height:9px;border-radius:50%;display:inline-block}
+  .stat .v{font-family:'JetBrains Mono',monospace;font-weight:700;font-size:26px;letter-spacing:-1px;margin-top:10px}
+  .stat .k{font-size:12px;color:var(--faint)}
+  .ctas{position:relative;margin-top:42px;display:flex;gap:13px;flex-wrap:wrap;justify-content:center}
+  .btn{border:none;border-radius:13px;padding:15px 28px;font-weight:700;font-size:15px;text-decoration:none;display:inline-flex;align-items:center;gap:8px}
+  .btn.dark{background:#16202b;color:#fff;box-shadow:0 12px 30px rgba(22,32,43,.26)}
+  .btn.lite{border:1px solid #d7e0ea;background:rgba(255,255,255,.7);color:#16202b}
+  .scrollhint{position:absolute;bottom:26px;left:50%;transform:translateX(-50%);color:var(--faint);font-size:12.5px;letter-spacing:.04em}
+
+  /* ---------- INFO ---------- */
+  .info{max-width:1080px;margin:0 auto;padding:84px 24px 30px}
+  .eyebrow{font-size:12px;letter-spacing:.22em;text-transform:uppercase;color:var(--faint);text-align:center;font-weight:600}
+  .info h2{font-size:clamp(26px,3.4vw,38px);text-align:center;margin:14px auto 0;max-width:720px}
+  .grid4{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:18px;margin-top:44px}
+  .icard{background:var(--card);border:1px solid var(--line);border-radius:18px;padding:28px;box-shadow:0 8px 28px rgba(40,90,160,.05)}
+  .icard .n{font-family:'JetBrains Mono',monospace;font-size:13px;font-weight:700;color:var(--eu)}
+  .icard h3{font-family:'Space Grotesk',sans-serif;font-size:18px;font-weight:600;margin:14px 0 7px;letter-spacing:-.4px}
+  .icard p{font-size:14px;color:var(--muted)}
+
+  /* ---------- SKY / KARARLAR ---------- */
+  .sky{padding:54px 0 96px}
+  .wrap{max-width:1180px;margin:0 auto;padding:0 24px}
+  .skyhead{display:flex;align-items:flex-end;justify-content:space-between;gap:20px;flex-wrap:wrap}
+  .daylabel{font-size:12px;letter-spacing:.2em;text-transform:uppercase;color:var(--faint);font-weight:600}
+  .daydate{font-size:clamp(26px,4vw,40px);margin-top:4px}
+  .daynav{display:flex;align-items:center;gap:11px}
+  .daynav button{width:44px;height:44px;border-radius:50%;border:1px solid #e0e7f0;background:#fff;font-size:18px;color:#16202b}
+  .daycount{font-size:14px;color:var(--muted);min-width:96px;text-align:center;font-weight:600}
+
+  .toolbar{position:sticky;top:0;z-index:60;margin-top:20px;background:rgba(244,248,252,.92);backdrop-filter:blur(10px);border-bottom:1px solid var(--line);padding:12px 0}
+  .toolrow{display:flex;gap:10px;flex-wrap:wrap;align-items:center}
+  .search{flex:1 1 260px;display:flex;align-items:center;gap:9px;background:#fff;border:1px solid #d7e0ea;border-radius:12px;padding:10px 14px;min-width:220px}
+  .search input{border:none;outline:none;flex:1;font-size:14.5px;background:transparent;color:var(--ink)}
+  .search .clr{border:none;background:transparent;color:var(--faint);font-size:16px;line-height:1;padding:2px 4px;display:none}
+  .chips{display:flex;gap:7px;flex-wrap:wrap}
+  .chip{display:inline-flex;align-items:center;gap:7px;border:1px solid #d7e0ea;background:#fff;border-radius:100px;padding:8px 14px;font-size:13px;font-weight:600;color:var(--muted);transition:all .15s}
+  .chip i{width:9px;height:9px;border-radius:50%;display:inline-block;background:var(--c)}
+  .chip[aria-pressed="true"]{color:var(--ink);border-color:var(--c);box-shadow:inset 0 0 0 1px var(--c)}
+  .chip[aria-pressed="false"]{opacity:.45}
+  select.fasil{border:1px solid #d7e0ea;background:#fff;border-radius:12px;padding:10px 12px;font-size:13.5px;font-weight:600;color:var(--muted);max-width:240px}
+  .viewtgl{display:inline-flex;background:#fff;border:1px solid #d7e0ea;border-radius:12px;padding:4px;gap:3px;margin-left:auto}
+  .viewtgl button{border:none;background:transparent;padding:8px 15px;border-radius:9px;font-size:13.5px;font-weight:600;color:var(--muted)}
+  .viewtgl button.on{background:#16202b;color:#fff}
+
+  .note{margin-top:16px;padding:13px 18px;background:#fff;border:1px solid var(--line);border-left:3px solid var(--eu);border-radius:12px;font-size:14px;color:var(--muted)}
+  .legendline{margin-top:16px;display:flex;gap:18px;flex-wrap:wrap;align-items:center;font-size:13px;color:var(--muted)}
+  .legendline .tailnote{margin-left:auto;color:var(--faint)}
+
+  #skyField{position:relative;margin-top:22px;min-height:560px;border-radius:28px;overflow:hidden;border:1px solid #d4e8fb;
+    background:linear-gradient(180deg,var(--sky-hi) 0%, var(--sky-lo) 100%);box-shadow:inset 0 0 90px rgba(120,180,255,.22)}
+  .cloudbtn{position:absolute;border:none;background:transparent;padding:0;animation:bob 5s ease-in-out infinite;transition:transform .18s}
+  .cloudbtn:hover{transform:scale(1.13);z-index:30}
+  .emptysky{position:absolute;inset:0;display:flex;flex-direction:column;gap:8px;align-items:center;justify-content:center;color:var(--muted);font-size:15px;text-align:center;padding:20px}
+
+  /* ---------- LISTE ---------- */
+  #listField{margin-top:22px;display:none}
+  .grp{margin-top:26px}
+  .grp:first-child{margin-top:0}
+  .grphead{display:flex;align-items:baseline;gap:10px;padding:0 4px 10px;border-bottom:2px solid #dfe8f2}
+  .grphead .code{font-family:'JetBrains Mono',monospace;font-weight:700;font-size:15px}
+  .grphead .nm{font-family:'Space Grotesk',sans-serif;font-weight:600;font-size:15px;letter-spacing:-.3px}
+  .grphead .ct{margin-left:auto;font-size:12.5px;color:var(--faint);font-weight:600}
+  .row{width:100%;text-align:left;display:grid;grid-template-columns:auto 92px 1fr auto;gap:14px;align-items:center;background:#fff;border:1px solid var(--line);border-radius:14px;padding:13px 16px;margin-top:9px;transition:box-shadow .15s,border-color .15s}
+  .row:hover{border-color:#c7d5e6;box-shadow:0 8px 24px rgba(40,90,160,.08)}
+  .row .src{display:flex;align-items:center;gap:7px;font-size:15px}
+  .row .src i{width:9px;height:9px;border-radius:50%;display:inline-block}
+  .row .hs{font-family:'JetBrains Mono',monospace;font-weight:700;font-size:14px;letter-spacing:-.3px}
+  .row .ttl{font-size:13.5px;color:var(--muted);line-height:1.45;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+  .row .ref{font-family:'JetBrains Mono',monospace;font-size:11.5px;color:var(--faint);white-space:nowrap}
+  @media (max-width:640px){
+    .row{grid-template-columns:auto 1fr;grid-template-rows:auto auto}
+    .row .ttl{grid-column:1/-1}
+    .row .ref{display:none}
+  }
+
+  /* ---------- TOOLTIP ---------- */
+  #tip{position:fixed;z-index:200;max-width:360px;background:#101b29;color:#fff;padding:15px 17px;border-radius:14px;font-size:12.5px;line-height:1.6;box-shadow:0 22px 56px rgba(0,0,0,.4);pointer-events:none;opacity:0;transition:opacity .12s;left:0;top:0}
+
+  /* ---------- DETAY KARTI ---------- */
+  #ovl{position:fixed;inset:0;z-index:300;background:rgba(13,22,34,.45);display:none;align-items:center;justify-content:center;padding:20px}
+  #ovl.open{display:flex}
+  #sheet{background:#fff;border-radius:20px;max-width:600px;width:100%;max-height:min(84vh,760px);overflow-y:auto;box-shadow:0 30px 80px rgba(0,0,0,.35);padding:26px 26px 22px;position:relative}
+  @media (max-width:640px){
+    #ovl{align-items:flex-end;padding:0}
+    #sheet{border-radius:20px 20px 0 0;max-height:86vh}
+  }
+  #sheet .x{position:absolute;top:14px;right:14px;width:34px;height:34px;border-radius:50%;border:1px solid var(--line);background:#fff;color:var(--muted);font-size:15px}
+  #sheet .head{display:flex;align-items:center;gap:10px;flex-wrap:wrap;padding-right:40px}
+  #sheet .head .dot{width:10px;height:10px;border-radius:50%}
+  #sheet .head .hs{font-family:'JetBrains Mono',monospace;font-weight:700;font-size:22px;letter-spacing:-.5px}
+  #sheet .meta{font-size:13px;color:var(--muted);margin-top:6px}
+  #sheet .sec{font-size:10.5px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:var(--faint);margin-top:18px}
+  #sheet .txt{font-size:14px;color:#2c3a4b;line-height:1.65;margin-top:5px}
+  #sheet .acts{display:flex;gap:10px;flex-wrap:wrap;margin-top:22px}
+  #sheet .acts .go{flex:1 1 auto;justify-content:center;text-align:center}
+  #sheet .acts .cp{border:1px solid #d7e0ea;background:#fff;color:#16202b;border-radius:13px;padding:13px 20px;font-weight:700;font-size:14px}
+
+  footer{text-align:center;padding:44px 24px 64px;color:var(--faint);font-size:13px;border-top:1px solid var(--line)}
+  footer .t{font-family:'Space Grotesk',sans-serif;font-weight:600;color:var(--muted);font-size:14px}
 </style>
-<script src="data.js"></script>
-</helmet>
+</head>
+<body>
 
-<template id="__bundler_thumbnail"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><rect width="100" height="100" fill="#cfe8ff"/><ellipse cx="40" cy="46" rx="22" ry="13" fill="#fff"/><ellipse cx="58" cy="40" rx="16" ry="10" fill="#fff"/><text x="50" y="50" font-family="monospace" font-size="11" font-weight="700" fill="#2f6bdf" text-anchor="middle">8471</text></svg></template>
+<!-- ===================== HERO ===================== -->
+<section class="hero">
+  <div class="blob" style="left:8%;top:16%;width:280px;height:130px;opacity:.7;animation-duration:46s"></div>
+  <div class="blob" style="left:64%;top:10%;width:220px;height:104px;opacity:.6;animation-duration:58s;animation-delay:-12s"></div>
+  <div class="blob" style="left:30%;top:60%;width:340px;height:150px;opacity:.55;animation-duration:52s;animation-delay:-22s"></div>
+  <div class="blob" style="left:80%;top:54%;width:180px;height:90px;opacity:.5;animation-duration:64s;animation-delay:-8s"></div>
 
-<div style="overflow-x:hidden">
+  <span class="badge"><i></i><span id="badgeTxt">her gün otomatik güncellenir</span></span>
+  <h1 class="disp">Dünyanın tarife kararları,<br>her gün gökyüzünde.</h1>
+  <p class="sub">Avrupa Birliği, Amerika, Kanada ve Türkiye gümrük idarelerinin yayımladığı bağlayıcı tarife (BTI / BTB / GTİP) sınıflandırma kararlarını tek ekranda topluyoruz. Bir buluta dokun, kararın detayını gör, orijinal kaynağına uç.</p>
 
-  <!-- ===================== HERO ===================== -->
-  <section style="position:relative;min-height:100vh;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;padding:96px 24px 120px;overflow:hidden;background:radial-gradient(1100px 560px at 50% -8%, #d4ecff 0%, transparent 62%), linear-gradient(180deg,#e6f3ff 0%, #f4f8fc 72%)">
+  <div class="stats" id="statCards"></div>
 
-    <div style="position:absolute;inset:0;pointer-events:none">
-      <div style="position:absolute;left:8%;top:16%;width:280px;height:130px;background:rgba(255,255,255,.85);border-radius:50%;filter:blur(30px);opacity:.7;animation:bti-drift 46s ease-in-out infinite alternate"></div>
-      <div style="position:absolute;left:64%;top:10%;width:220px;height:104px;background:rgba(255,255,255,.8);border-radius:50%;filter:blur(28px);opacity:.6;animation:bti-drift 58s ease-in-out infinite alternate;animation-delay:-12s"></div>
-      <div style="position:absolute;left:30%;top:60%;width:340px;height:150px;background:rgba(255,255,255,.7);border-radius:50%;filter:blur(34px);opacity:.55;animation:bti-drift 52s ease-in-out infinite alternate;animation-delay:-22s"></div>
-      <div style="position:absolute;left:80%;top:54%;width:180px;height:90px;background:rgba(255,255,255,.75);border-radius:50%;filter:blur(26px);opacity:.5;animation:bti-drift 64s ease-in-out infinite alternate;animation-delay:-8s"></div>
+  <div class="ctas">
+    <button class="btn dark" onclick="scrollToId('sky')">Günün kararlarını gör ↓</button>
+    <a class="btn lite" href="dashboard.html">İstatistik paneli →</a>
+    <button class="btn lite" onclick="scrollToId('info')">Nasıl çalışır?</button>
+  </div>
+  <div class="scrollhint">aşağı kaydır ↓</div>
+</section>
+
+<!-- ===================== INFO ===================== -->
+<section id="info" class="info">
+  <div class="eyebrow">Bu site ne yapıyor</div>
+  <h2 class="disp">Dört idarenin tarife kararları, tek bir gökyüzünde</h2>
+  <div class="grid4">
+    <div class="icard"><div class="n">01</div><h3>4 ülke, tek ekran</h3><p>AB (EBTI), ABD (CBP CROSS), Kanada (CBSA) ve Türkiye (BTB) kararları her gün otomatik toplanır.</p></div>
+    <div class="icard"><div class="n">02</div><h3>Arşivde ara</h3><p>GTİP kodu, referans numarası veya ürün adıyla tüm arşivde arama yap; fasıl ve ülke filtrele.</p></div>
+    <div class="icard"><div class="n">03</div><h3>Detay ve kaynak</h3><p>Bir karara dokun: ürün tanımı ve sınıflandırma gerekçesini gör, resmi kaynağa tek tıkla git.</p></div>
+    <div class="icard"><div class="n">04</div><h3>Bulut veya liste</h3><p>Günü gökyüzünde keşfet ya da liste görünümüne geçip kararları fasıl fasıl tara.</p></div>
+  </div>
+</section>
+
+<!-- ===================== KARARLAR ===================== -->
+<section id="sky" class="sky">
+  <div class="wrap skyhead">
+    <div>
+      <div class="daylabel" id="dayLabel">—</div>
+      <div class="daydate disp" id="dayDate">—</div>
     </div>
-
-    <span style="position:relative;display:inline-flex;align-items:center;gap:9px;background:rgba(255,255,255,.78);backdrop-filter:blur(8px);border:1px solid #dde7f2;border-radius:999px;padding:8px 16px;font-size:12.5px;font-weight:600;color:#5f7184;box-shadow:0 6px 20px rgba(40,90,160,.07);margin-bottom:30px">
-      <span style="width:7px;height:7px;border-radius:50%;background:#22c07a;box-shadow:0 0 0 4px rgba(34,192,122,.16)"></span>{{ badgeTxt }}</span>
-
-    <h1 style="position:relative;font-family:'Space Grotesk',sans-serif;font-weight:600;font-size:clamp(38px,6.4vw,74px);line-height:1.04;letter-spacing:-2px;max-width:960px;color:#16202b">Dünyanın <span style="color:#2f6bdf">tarife kararları</span>,<br>her gün gökyüzünde.</h1>
-
-    <p style="position:relative;max-width:660px;margin:26px auto 0;font-size:clamp(16px,2vw,19px);color:#5f7184">Avrupa Birliği, Amerika, Kanada ve Türkiye gümrük idarelerinin yayımladığı bağlayıcı tarife (BTI / BTB / GTİP) sınıflandırma kararlarını tek ekranda topluyoruz. Bir buluta dokun, kararın orijinal kaynağına uç.</p>
-
-    <div style="position:relative;display:flex;gap:16px;margin-top:38px;flex-wrap:wrap;justify-content:center">
-      <div style="background:#fff;border:1px solid #e6ebf2;border-radius:16px;padding:18px 22px;min-width:172px;text-align:left;box-shadow:0 10px 32px rgba(40,90,160,.06)">
-        <div style="display:flex;align-items:center;gap:8px"><span style="width:9px;height:9px;border-radius:50%;background:#2f6bdf"></span><span style="font-weight:700;font-size:14.5px;color:#17202b">Avrupa Birliği</span></div>
-        <div style="font-family:'JetBrains Mono',monospace;font-weight:700;font-size:26px;letter-spacing:-1px;margin-top:10px;color:#2f6bdf">{{ euCountTxt }}</div>
-        <div style="font-size:12px;color:#8693a6">EBTI · arşivdeki karar</div>
-      </div>
-      <div style="background:#fff;border:1px solid #e6ebf2;border-radius:16px;padding:18px 22px;min-width:172px;text-align:left;box-shadow:0 10px 32px rgba(40,90,160,.06)">
-        <div style="display:flex;align-items:center;gap:8px"><span style="width:9px;height:9px;border-radius:50%;background:#d07d2a"></span><span style="font-weight:700;font-size:14.5px;color:#17202b">Amerika</span></div>
-        <div style="font-family:'JetBrains Mono',monospace;font-weight:700;font-size:26px;letter-spacing:-1px;margin-top:10px;color:#d07d2a">{{ usCountTxt }}</div>
-        <div style="font-size:12px;color:#8693a6">CBP CROSS · arşivdeki karar</div>
-      </div>
-      <div style="background:#fff;border:1px solid #e6ebf2;border-radius:16px;padding:18px 22px;min-width:172px;text-align:left;box-shadow:0 10px 32px rgba(40,90,160,.06)">
-        <div style="display:flex;align-items:center;gap:8px"><span style="width:9px;height:9px;border-radius:50%;background:#169b8b"></span><span style="font-weight:700;font-size:14.5px;color:#17202b">Kanada</span></div>
-        <div style="font-family:'JetBrains Mono',monospace;font-weight:700;font-size:26px;letter-spacing:-1px;margin-top:10px;color:#169b8b">{{ caCountTxt }}</div>
-        <div style="font-size:12px;color:#8693a6">CBSA · arşivdeki karar</div>
-      </div>
-      <div style="background:#fff;border:1px solid #e6ebf2;border-radius:16px;padding:18px 22px;min-width:172px;text-align:left;box-shadow:0 10px 32px rgba(40,90,160,.06)">
-        <div style="display:flex;align-items:center;gap:8px"><span style="width:9px;height:9px;border-radius:50%;background:#e30a17"></span><span style="font-weight:700;font-size:14.5px;color:#17202b">Türkiye</span></div>
-        <div style="font-family:'JetBrains Mono',monospace;font-weight:700;font-size:26px;letter-spacing:-1px;margin-top:10px;color:#e30a17">{{ trCountTxt }}</div>
-        <div style="font-size:12px;color:#8693a6">BTB · arşivdeki karar</div>
-      </div>
+    <div class="daynav">
+      <button id="btnPrev" title="Önceki gün" aria-label="Önceki gün">←</button>
+      <div class="daycount" id="dayCount"></div>
+      <button id="btnNext" title="Sonraki gün" aria-label="Sonraki gün">→</button>
     </div>
+  </div>
 
-    <div style="position:relative;margin-top:42px;display:flex;gap:13px;flex-wrap:wrap;justify-content:center">
-      <button onClick="{{ onSky }}" style="border:none;border-radius:13px;padding:15px 28px;font-weight:700;font-size:15px;cursor:pointer;background:#16202b;color:#fff;box-shadow:0 12px 30px rgba(22,32,43,.26)">Günün kararlarını gör ↓</button>
-      <a href="dashboard.html" style="text-decoration:none;border:1px solid #d7e0ea;border-radius:13px;padding:15px 28px;font-weight:700;font-size:15px;cursor:pointer;background:rgba(255,255,255,.7);color:#16202b;display:inline-flex;align-items:center">İstatistik paneli →</a>
-      <button onClick="{{ onInfo }}" style="border:1px solid #d7e0ea;border-radius:13px;padding:15px 28px;font-weight:700;font-size:15px;cursor:pointer;background:rgba(255,255,255,.7);color:#16202b">Nasıl çalışır?</button>
-    </div>
-
-    <div style="position:absolute;bottom:30px;left:50%;transform:translateX(-50%);color:#8693a6;font-size:12.5px;letter-spacing:.04em">aşağı kaydır ↓</div>
-  </section>
-
-  <!-- ===================== INFO ===================== -->
-  <section id="info" style="max-width:1080px;margin:0 auto;padding:88px 24px 36px">
-    <div style="font-size:12px;letter-spacing:.22em;text-transform:uppercase;color:#8693a6;text-align:center;font-weight:600">Bu site ne yapıyor</div>
-    <h2 style="font-family:'Space Grotesk',sans-serif;font-weight:600;font-size:clamp(26px,3.4vw,38px);letter-spacing:-1px;text-align:center;margin-top:14px;max-width:720px;margin-left:auto;margin-right:auto">Üç idarenin tarife kararları, tek bir gökyüzünde</h2>
-
-    <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:18px;margin-top:44px">
-      <div style="background:#fff;border:1px solid #e6ebf2;border-radius:18px;padding:28px;box-shadow:0 8px 28px rgba(40,90,160,.05)">
-        <div style="font-family:'JetBrains Mono',monospace;font-size:13px;font-weight:700;color:#2f6bdf">01</div>
-        <h3 style="font-family:'Space Grotesk',sans-serif;font-size:18px;font-weight:600;margin:14px 0 7px;letter-spacing:-.4px">4 ülke, tek ekran</h3>
-        <p style="font-size:14px;color:#5f7184">AB, ABD, Kanada ve Türkiye gümrük otoritelerinin yayımladığı bağlayıcı tarife kararları her gün otomatik toplanır.</p>
-      </div>
-      <div style="background:#fff;border:1px solid #e6ebf2;border-radius:18px;padding:28px;box-shadow:0 8px 28px rgba(40,90,160,.05)">
-        <div style="font-family:'JetBrains Mono',monospace;font-size:13px;font-weight:700;color:#2f6bdf">02</div>
-        <h3 style="font-family:'Space Grotesk',sans-serif;font-size:18px;font-weight:600;margin:14px 0 7px;letter-spacing:-.4px">GTİP bulutları</h3>
-        <p style="font-size:14px;color:#5f7184">Her bulut o gün çıkan bir kararı temsil eder; üzerinde GTİP pozisyonunun ilk 4 hanesi yazar.</p>
-      </div>
-      <div style="background:#fff;border:1px solid #e6ebf2;border-radius:18px;padding:28px;box-shadow:0 8px 28px rgba(40,90,160,.05)">
-        <div style="font-family:'JetBrains Mono',monospace;font-size:13px;font-weight:700;color:#2f6bdf">03</div>
-        <h3 style="font-family:'Space Grotesk',sans-serif;font-size:18px;font-weight:600;margin:14px 0 7px;letter-spacing:-.4px">Kaynağa tek tık</h3>
-        <p style="font-size:14px;color:#5f7184">Bir buluta tıkladığında kararın yayımlandığı resmi kaynak sayfası yeni sekmede açılır.</p>
-      </div>
-      <div style="background:#fff;border:1px solid #e6ebf2;border-radius:18px;padding:28px;box-shadow:0 8px 28px rgba(40,90,160,.05)">
-        <div style="font-family:'JetBrains Mono',monospace;font-size:13px;font-weight:700;color:#2f6bdf">04</div>
-        <h3 style="font-family:'Space Grotesk',sans-serif;font-size:18px;font-weight:600;margin:14px 0 7px;letter-spacing:-.4px">Günlük arşiv</h3>
-        <p style="font-size:14px;color:#5f7184">Oklarla geçmiş günlere göz at; hangi gün hangi pozisyonlarda karar çıkmış gör.</p>
+  <div class="toolbar">
+    <div class="wrap toolrow">
+      <label class="search">
+        <span aria-hidden="true">🔎</span>
+        <input id="q" type="search" placeholder="GTİP, referans veya ürün ara… (örn. 8471, peynir)" aria-label="Arşivde ara">
+        <button class="clr" id="qClr" aria-label="Aramayı temizle">✕</button>
+      </label>
+      <div class="chips" id="chips" role="group" aria-label="Kaynak filtresi"></div>
+      <select class="fasil" id="fasil" aria-label="Fasıl filtresi"><option value="">Tüm fasıllar</option></select>
+      <div class="viewtgl" role="group" aria-label="Görünüm">
+        <button id="vSky" class="on">☁ Bulut</button>
+        <button id="vList">☰ Liste</button>
       </div>
     </div>
-  </section>
+  </div>
 
-  <!-- ===================== SKY ===================== -->
-  <section id="sky" style="padding:58px 0 96px">
-    <div style="max-width:1180px;margin:0 auto;padding:0 24px;display:flex;align-items:flex-end;justify-content:space-between;gap:20px;flex-wrap:wrap">
-      <div>
-        <div style="font-size:12px;letter-spacing:.2em;text-transform:uppercase;color:#8693a6;font-weight:600">{{ dayLabel }}</div>
-        <div style="font-family:'Space Grotesk',sans-serif;font-size:clamp(28px,4vw,42px);font-weight:600;letter-spacing:-1.2px;margin-top:4px">{{ dayDate }}</div>
-      </div>
-      <div style="display:flex;align-items:center;gap:11px">
-        <button onClick="{{ onPrev }}" disabled="{{ prevDisabled }}" title="Önceki gün" style="width:44px;height:44px;border-radius:50%;border:1px solid #e0e7f0;background:#fff;cursor:pointer;font-size:18px;color:#16202b">←</button>
-        <div style="font-size:14px;color:#5f7184;min-width:96px;text-align:center;font-weight:600">{{ dayCount }}</div>
-        <button onClick="{{ onNext }}" disabled="{{ nextDisabled }}" title="Sonraki gün" style="width:44px;height:44px;border-radius:50%;border:1px solid #e0e7f0;background:#fff;cursor:pointer;font-size:18px;color:#16202b">→</button>
-      </div>
-    </div>
+  <div class="wrap"><div class="note" id="note" style="display:none"></div></div>
 
-    <sc-if value="{{ showNote }}" hint-placeholder-val="{{ false }}">
-      <div style="max-width:1180px;margin:16px auto 0;padding:13px 18px;background:#fff;border:1px solid #e6ebf2;border-left:3px solid #2f6bdf;border-radius:12px;font-size:14px;color:#5f7184">Bugün <strong style="color:#17202b">{{ noteTodayTr }}</strong> için henüz yeni karar yayımlanmadı (idareler genelde hafta içi yayımlar). En son yayımlanan gün gösteriliyor: <strong style="color:#17202b">{{ noteDateTr }}</strong>.</div>
-    </sc-if>
+  <div class="wrap legendline" id="legendline">
+    <span style="font-weight:600;color:var(--ink)">Renk = kararı veren idare</span>
+    <span class="tailnote">bulut = bir karar · sayı = GTİP'in ilk 4 hanesi · dokun → detay</span>
+  </div>
 
-    <div style="max-width:1180px;margin:18px auto 0;padding:0 24px;display:flex;gap:18px;flex-wrap:wrap;align-items:center;font-size:13px;color:#5f7184">
-      <span style="font-weight:600;color:#17202b">Bulut rengi = kararı veren idare:</span>
-      <span style="display:inline-flex;align-items:center;gap:7px"><i style="width:11px;height:11px;border-radius:50%;background:#2f6bdf;display:inline-block"></i>Avrupa Birliği</span>
-      <span style="display:inline-flex;align-items:center;gap:7px"><i style="width:11px;height:11px;border-radius:50%;background:#d07d2a;display:inline-block"></i>Amerika</span>
-      <span style="display:inline-flex;align-items:center;gap:7px"><i style="width:11px;height:11px;border-radius:50%;background:#169b8b;display:inline-block"></i>Kanada</span>
-      <span style="display:inline-flex;align-items:center;gap:7px"><i style="width:11px;height:11px;border-radius:50%;background:#e30a17;display:inline-block"></i>Türkiye</span>
-      <span style="margin-left:auto;color:#8693a6">bulut = bir karar · sayı = GTİP'in ilk 4 hanesi</span>
-    </div>
+  <div class="wrap">
+    <div id="skyField" role="list" aria-label="Günün kararları"></div>
+    <div id="listField"></div>
+  </div>
+</section>
 
-    <div id="skyField" style="position:relative;max-width:1180px;margin:24px auto 0;height:560px;border-radius:28px;overflow:hidden;border:1px solid #d4e8fb;background:linear-gradient(180deg,#cfe8ff 0%, #eef7ff 100%);box-shadow:inset 0 0 90px rgba(120,180,255,.22)"></div>
-  </section>
+<footer>
+  <div class="t">GTİP Bulutları — gümrük sınıflandırma kararları gözlemevi</div>
+  <div style="margin-top:7px;font-size:12px;opacity:.9" id="footMeta"></div>
+  <div style="margin-top:10px;font-size:12.5px">
+    <a href="feed.xml" style="color:var(--eu);text-decoration:none;font-weight:600">📡 RSS</a>
+    <span style="color:var(--faint)"> · fasıl:
+      <a href="feed-fasil-28.xml" style="color:var(--muted)">28</a>
+      <a href="feed-fasil-29.xml" style="color:var(--muted)">29</a>
+      <a href="feed-fasil-39.xml" style="color:var(--muted)">39</a>
+      <a href="feed-fasil-84.xml" style="color:var(--muted)">84</a>
+      <a href="feed-fasil-85.xml" style="color:var(--muted)">85</a>
+    </span>
+  </div>
+</footer>
 
-  <footer style="text-align:center;padding:44px 24px 64px;color:#8693a6;font-size:13px;border-top:1px solid #e6ebf2">
-    <div style="font-family:'Space Grotesk',sans-serif;font-weight:600;color:#5f7184;font-size:14px">GTİP Bulutları — gümrük sınıflandırma kararları gözlemevi</div>
-    <div style="margin-top:7px;font-size:12px;opacity:.9">{{ footMeta }}</div>
-  </footer>
+<div id="tip" role="tooltip"></div>
 
-  <div id="btiTip" style="position:fixed;z-index:200;max-width:360px;background:#101b29;color:#fff;padding:15px 17px;border-radius:14px;font-size:12.5px;line-height:1.6;box-shadow:0 22px 56px rgba(0,0,0,.4);pointer-events:none;opacity:0;transition:opacity .12s;left:0;top:0"></div>
-
+<div id="ovl" aria-hidden="true">
+  <div id="sheet" role="dialog" aria-modal="true" aria-label="Karar detayı"></div>
 </div>
-</x-dc>
-<script type="text/x-dc" data-dc-script>
-class Component extends DCLogic {
-  state = { dayIndex: 0, ready: false, data: null };
-  fieldRef = React.createRef();
-  COLORS = { eu:'#2f6bdf', us:'#d07d2a', ca:'#169b8b', tr:'#e30a17' };
-  CLOUD_BG = { eu:'#ffffff', us:'#fffaf2', ca:'#f3fbfa', tr:'#fff4f4' };
-  CODE = { eu:'AB', us:'ABD', ca:'KAN', tr:'TR' };
 
-  componentDidMount(){ this.waitData(); }
+<script>
+(function(){
+  'use strict';
+  var SRC = {
+    eu:{name:'Avrupa Birliği', short:'AB',  sys:'EBTI',      color:'#2f6bdf', tint:'#ffffff'},
+    us:{name:'Amerika',        short:'ABD', sys:'CBP CROSS', color:'#d07d2a', tint:'#fffaf2'},
+    ca:{name:'Kanada',         short:'KAN', sys:'CBSA',      color:'#169b8b', tint:'#f3fbfa'},
+    tr:{name:'Türkiye',        short:'TR',  sys:'BTB',       color:'#e30a17', tint:'#fff4f4'}
+  };
+  var FASIL = {
+    '01':'Canlı hayvanlar','02':'Etler ve yenilen sakatat','03':'Balıklar ve su ürünleri','04':'Süt ürünleri, yumurta, bal','05':'Diğer hayvansal ürünler',
+    '06':'Canlı bitkiler ve çiçekler','07':'Sebzeler','08':'Meyveler ve kabuklu yemişler','09':'Kahve, çay, baharat','10':'Hububat',
+    '11':'Değirmencilik ürünleri','12':'Yağlı tohumlar','13':'Bitkisel özsu ve hülasalar','14':'Örülmeye elverişli bitkisel ürünler','15':'Hayvansal ve bitkisel yağlar',
+    '16':'Et ve balık müstahzarları','17':'Şeker ve şeker mamulleri','18':'Kakao ve müstahzarları','19':'Unlu mamuller','20':'Sebze ve meyve müstahzarları',
+    '21':'Yenilen çeşitli gıda müstahzarları','22':'İçecekler ve alkollü içkiler','23':'Gıda sanayii kalıntıları, hayvan yemleri','24':'Tütün','25':'Tuz, kükürt, toprak ve taşlar',
+    '26':'Metal cevherleri','27':'Mineral yakıtlar ve yağlar','28':'Anorganik kimyasallar','29':'Organik kimyasallar','30':'Eczacılık ürünleri',
+    '31':'Gübreler','32':'Boyalar, vernikler, mürekkepler','33':'Parfümeri ve kozmetik','34':'Sabunlar, yıkama müstahzarları','35':'Albüminoid maddeler, tutkallar',
+    '36':'Barut ve patlayıcılar','37':'Fotoğrafçılık ürünleri','38':'Muhtelif kimyasal ürünler','39':'Plastikler ve mamulleri','40':'Kauçuk ve mamulleri',
+    '41':'Ham postlar ve deriler','42':'Deri eşya ve saraciye','43':'Kürkler','44':'Ağaç ve ahşap eşya','45':'Mantar',
+    '46':'Hasırcılık ve sepetçilik eşyası','47':'Odun hamuru','48':'Kâğıt ve karton','49':'Basılı kitaplar, gazeteler','50':'İpek',
+    '51':'Yapağı ve yün','52':'Pamuk','53':'Diğer bitkisel lifler','54':'Sentetik ve suni filamentler','55':'Sentetik ve suni devamsız lifler',
+    '56':'Vatka, keçe, ipler ve halatlar','57':'Halılar ve yer kaplamaları','58':'Özel dokunmuş mensucat','59':'Emdirilmiş, kaplanmış mensucat','60':'Örme eşya',
+    '61':'Örme giyim eşyası','62':'Örülmemiş giyim eşyası','63':'Diğer hazır eşya, kullanılmış giysiler','64':'Ayakkabılar','65':'Başlıklar',
+    '66':'Şemsiyeler ve bastonlar','67':'Kuş tüyü ve yapma çiçekler','68':'Taş, alçı, çimentodan eşya','69':'Seramik mamulleri','70':'Cam ve cam eşya',
+    '71':'Kıymetli taşlar ve mücevherat','72':'Demir ve çelik','73':'Demir veya çelikten eşya','74':'Bakır ve mamulleri','75':'Nikel ve mamulleri',
+    '76':'Alüminyum ve mamulleri','78':'Kurşun ve mamulleri','79':'Çinko ve mamulleri','80':'Kalay ve mamulleri','81':'Diğer adi metaller',
+    '82':'Adi metallerden aletler','83':'Adi metallerden çeşitli eşya','84':'Makineler ve mekanik cihazlar','85':'Elektrikli makine ve cihazlar','86':'Demiryolu taşıtları',
+    '87':'Motorlu kara taşıtları','88':'Hava taşıtları','89':'Gemiler ve suda yüzen taşıtlar','90':'Optik, ölçü ve tıbbi cihazlar','91':'Saatler',
+    '92':'Müzik aletleri','93':'Silahlar ve mühimmat','94':'Mobilyalar ve aydınlatma cihazları','95':'Oyuncaklar ve spor malzemeleri','96':'Çeşitli mamul eşya','97':'Sanat eserleri ve antikalar'
+  };
 
-  waitData(){
-    if (window.BTI_DATA){
-      const data = window.BTI_DATA;
-      const sc = { eu:0, us:0, ca:0, tr:0 };
-      (data.days||[]).forEach(d=>(d.decisions||[]).forEach(x=>{ sc[x.source]=(sc[x.source]||0)+1; }));
-      this.sourceCounts = sc;
-      this.setState({ data, ready:true });
-      const tryRender = (tries)=>{ const f=document.getElementById('skyField'); if (f && f.querySelectorAll('button').length>0){ return; } if (f){ this.renderField(); } if (tries<80){ setTimeout(()=>tryRender(tries+1), 80); } };
-      tryRender(0);
-    } else {
-      setTimeout(()=>this.waitData(), 120);
-    }
+  var S = { day:0, view:'sky', q:'', fasil:'', src:{eu:true,us:true,ca:true,tr:true},
+            data:null, cache:new Map(), archiveLoaded:false, archiveLoading:false, fallback:false };
+  var canHover = !!(window.matchMedia && window.matchMedia('(hover: hover)').matches);
+
+  function $(id){ return document.getElementById(id); }
+  function esc(s){ return String(s==null?'':s).replace(/[&<>"']/g, function(c){ return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]; }); }
+  function trLower(s){ return String(s||'').toLocaleLowerCase('tr'); }
+  window.scrollToId = function(id){ var el=$(id); if(el) window.scrollTo({top: el.getBoundingClientRect().top + window.scrollY - 12, behavior:'smooth'}); };
+
+  /* ---------- hash <-> state ---------- */
+  function readHash(){
+    var h = location.hash.replace(/^#/,''); if(!h) return;
+    h.split('&').forEach(function(p){
+      var kv = p.split('='); var k = kv[0], v = decodeURIComponent(kv[1]||'');
+      if(k==='g' && S.data){ var i = S.data.days.findIndex(function(d){return d.date===v;}); if(i>=0) S.day = i; }
+      if(k==='v' && (v==='liste'||v==='bulut')) S.view = (v==='liste'?'list':'sky');
+      if(k==='q') S.q = v;
+      if(k==='f') S.fasil = v;
+      if(k==='k'){ var set={eu:false,us:false,ca:false,tr:false}; v.split(',').forEach(function(x){ if(set.hasOwnProperty(x)) set[x]=true; }); if(v) S.src=set; }
+    });
+  }
+  function writeHash(){
+    var parts = [];
+    var d = S.data && S.data.days[S.day]; if(d && S.day>0) parts.push('g='+d.date);
+    if(S.view==='list') parts.push('v=liste');
+    if(S.q) parts.push('q='+encodeURIComponent(S.q));
+    if(S.fasil) parts.push('f='+S.fasil);
+    var on = Object.keys(S.src).filter(function(k){return S.src[k];});
+    if(on.length<4) parts.push('k='+on.join(','));
+    history.replaceState(null,'', parts.length ? '#'+parts.join('&') : location.pathname + location.search);
   }
 
-  prev(){ const d=this.state.data; if (d && this.state.dayIndex < d.days.length-1) this.setState(s=>({ dayIndex:s.dayIndex+1 }), ()=>this.renderField()); }
-  next(){ if (this.state.dayIndex > 0) this.setState(s=>({ dayIndex:s.dayIndex-1 }), ()=>this.renderField()); }
-  scrollTo(id){ const el=document.getElementById(id); if (el) window.scrollTo({ top: el.getBoundingClientRect().top + window.scrollY - 16, behavior:'smooth' }); }
-
-  layout(n){
-    const cols = Math.max(2, Math.ceil(Math.sqrt(n*1.5)));
-    const rows = Math.ceil(n/cols);
-    const padX = 0.09, padY = 0.12, pts = [];
-    for (let i=0;i<n;i++){
-      const r = Math.floor(i/cols), c = i%cols;
-      const jx = (Math.random()-.5)*(0.4/cols), jy = (Math.random()-.5)*(0.6/rows);
-      const x = padX + ((c+0.5)/cols)*(1-2*padX) + jx;
-      const y = padY + ((r+0.5)/rows)*(1-2*padY) + jy;
-      pts.push({ x: Math.min(1-padX, Math.max(padX, x)), y: Math.min(0.95, Math.max(0.06, y)) });
+  /* ---------- filtreleme ---------- */
+  function matches(d){
+    if(!S.src[d.source]) return false;
+    if(S.fasil && String(d.hs4||'').slice(0,2)!==S.fasil) return false;
+    if(S.q){
+      var q = trLower(S.q).trim();
+      if(/^\d+$/.test(q)){
+        if(String(d.hs||'').indexOf(q)!==0 && String(d.hs4||'').indexOf(q)!==0) return false;
+      } else {
+        var hay = trLower([d.title,d.gerekce,d.ref,d.origin,d.source_label].join(' '));
+        if(hay.indexOf(q)===-1) return false;
+      }
     }
-    return pts;
+    return true;
+  }
+  function globalMode(){ return (S.q.trim().length>=2) || !!S.fasil; }
+  function dayDecisions(){
+    var day = S.data.days[S.day];
+    return (day && day.decisions ? day.decisions : []).filter(matches);
+  }
+  function globalResults(){
+    var out = [];
+    S.data.days.forEach(function(day){
+      var f = (day.decisions || []).filter(matches);
+      if(f.length) out.push({day:day, decisions:f});
+    });
+    return out;
   }
 
-  makeCloud(d, pt, baseW){
-    const w = baseW + Math.random()*(baseW*0.2);
-    const h = w*0.62;
-    const tint = this.CLOUD_BG[d.source] || '#fff';
-    const acc = this.COLORS[d.source] || '#334';
-    const btn = document.createElement('button');
-    btn.style.cssText = `position:absolute;left:${pt.x*100}%;top:${pt.y*100}%;margin-left:${-w/2}px;margin-top:${-h/2}px;width:${w}px;height:${h}px;border:none;background:transparent;cursor:pointer;padding:0;animation:bti-bob ${(4+Math.random()*3).toFixed(2)}s ease-in-out infinite;animation-delay:${(-Math.random()*4).toFixed(2)}s;transition:transform .18s`;
-    const body = document.createElement('div');
-    body.style.cssText = `position:absolute;inset:0;background:${tint};border-radius:50%;box-shadow:0 18px 34px rgba(70,110,170,.18),0 2px 6px rgba(70,110,170,.10)`;
-    const pl = document.createElement('div');
-    pl.style.cssText = `position:absolute;left:-12%;bottom:-4%;width:56%;height:72%;background:${tint};border-radius:50%;box-shadow:0 14px 22px rgba(70,110,170,.10)`;
-    const pr = document.createElement('div');
-    pr.style.cssText = `position:absolute;right:-14%;bottom:-6%;width:64%;height:80%;background:${tint};border-radius:50%;box-shadow:0 14px 22px rgba(70,110,170,.10)`;
-    const content = document.createElement('div');
-    content.style.cssText = `position:absolute;inset:0;display:flex;flex-direction:column;align-items:center;justify-content:center;z-index:2`;
-    const hs = document.createElement('div');
+  /* ---------- detay kartı ---------- */
+  var lastFocus = null;
+  function absUrl(u){ try { return new URL(u, location.href).href; } catch(e){ return u; } }
+  function openSheet(d){
+    lastFocus = document.activeElement;
+    var s = SRC[d.source] || {name:d.source_label||'',color:'#334',sys:''};
+    var fasilAd = FASIL[String(d.hs4||'').slice(0,2)] || '';
+    var html = '<button class="x" id="shX" aria-label="Kapat">✕</button>' +
+      '<div class="head"><span class="dot" style="background:'+s.color+'"></span>' +
+      '<span class="hs">'+esc(d.hs4)+'</span>' +
+      '<span class="mono" style="font-size:13px;color:var(--faint)">'+esc(d.hs||'')+'</span></div>' +
+      '<div class="meta">'+(d.flag?esc(d.flag)+' ':'')+esc(s.name)+(d.origin&&d.origin!==s.name?' · '+esc(d.origin):'')+
+        (s.sys?' · '+esc(s.sys):'')+(d.date?' · '+esc(d.date):'')+
+        (fasilAd?'<br>Fasıl '+esc(String(d.hs4).slice(0,2))+' · '+esc(fasilAd):'')+'</div>';
+    if(d.ref) html += '<div class="sec">Referans</div><div class="txt mono" style="font-size:13px">'+esc(d.ref)+'</div>';
+    if(d.title) html += '<div class="sec">Ürün tanımı</div><div class="txt">'+esc(d.title)+'</div>';
+    if(d.gerekce) html += '<div class="sec">Sınıflandırma gerekçesi</div><div class="txt">'+esc(d.gerekce)+'</div>';
+    html += '<div class="acts">';
+    if(d.url) html += '<a class="btn dark go" href="'+esc(d.url)+'" target="_blank" rel="noopener">Resmî kaynağı aç ↗</a>';
+    html += '<button class="cp" id="shCp">Bağlantıyı kopyala</button></div>';
+    $('sheet').innerHTML = html;
+    $('ovl').classList.add('open'); $('ovl').setAttribute('aria-hidden','false');
+    document.body.style.overflow = 'hidden';
+    $('shX').onclick = closeSheet;
+    $('shCp').onclick = function(){
+      var link = d.url ? absUrl(d.url) : location.href;
+      var text = d.hs4+' · '+(d.ref||'')+' · '+link;
+      (navigator.clipboard ? navigator.clipboard.writeText(text) : Promise.reject()).then(function(){
+        $('shCp').textContent = 'Kopyalandı ✓'; setTimeout(function(){ var b=$('shCp'); if(b) b.textContent='Bağlantıyı kopyala'; }, 1600);
+      }).catch(function(){ window.prompt('Kopyala:', text); });
+    };
+    $('shX').focus();
+  }
+  function closeSheet(){
+    $('ovl').classList.remove('open'); $('ovl').setAttribute('aria-hidden','true');
+    document.body.style.overflow = '';
+    if(lastFocus && lastFocus.focus) lastFocus.focus();
+  }
+  $('ovl').addEventListener('click', function(e){ if(e.target===$('ovl')) closeSheet(); });
+  document.addEventListener('keydown', function(e){ if(e.key==='Escape' && $('ovl').classList.contains('open')) closeSheet(); });
+
+  /* ---------- tooltip (yalnız hover destekli cihazlarda) ---------- */
+  var tip = $('tip');
+  function showTip(e, d){
+    if(!canHover) return;
+    var s = SRC[d.source] || {name:'',color:'#334'};
+    var html = '<div style="display:flex;align-items:center;gap:8px;margin-bottom:3px">'+
+      '<span style="width:8px;height:8px;border-radius:50%;background:'+s.color+'"></span>'+
+      '<span class="mono" style="font-weight:700;font-size:14px;color:#fff">'+esc(d.hs4)+'</span>'+
+      '<span class="mono" style="font-size:11px;color:#8fb0e6">'+esc(d.hs||'')+'</span></div>'+
+      '<div style="font-size:11px;color:#8597b8;margin-bottom:6px">'+esc(s.name)+(d.origin?' · '+esc(d.origin):'')+(d.ref?' · '+esc(d.ref):'')+'</div>';
+    if(d.title) html += '<div style="font-size:10px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:#6f86ad;margin-top:9px">Ürün Tanımı</div><div style="font-size:12.5px;color:#dfe8f5;line-height:1.55;margin-top:3px">'+esc(d.title)+'</div>';
+    html += '<div style="margin-top:11px;font-size:11.5px;color:#8fb0e6">detay için tıkla</div>';
+    tip.innerHTML = html; tip.style.opacity='1'; moveTip(e);
+  }
+  function moveTip(e){
+    var pad=16, x=e.clientX+pad, y=e.clientY+pad;
+    var w=tip.offsetWidth||340, h=tip.offsetHeight||180;
+    if(x+w>window.innerWidth) x=e.clientX-w-pad;
+    if(y+h>window.innerHeight) y=e.clientY-h-pad;
+    if(y<8) y=8;
+    tip.style.left=x+'px'; tip.style.top=y+'px';
+  }
+  function hideTip(){ tip.style.opacity='0'; }
+
+  /* ---------- bulut görünümü ---------- */
+  function layout(n){
+    var cols = Math.max(2, Math.ceil(Math.sqrt(n*1.5)));
+    var rows = Math.ceil(n/cols), padX=.09, padY=.12, pts=[];
+    for(var i=0;i<n;i++){
+      var r=Math.floor(i/cols), c=i%cols;
+      var jx=(Math.random()-.5)*(0.4/cols), jy=(Math.random()-.5)*(0.6/rows);
+      var x=padX+((c+0.5)/cols)*(1-2*padX)+jx, y=padY+((r+0.5)/rows)*(1-2*padY)+jy;
+      pts.push({x:Math.min(1-padX,Math.max(padX,x)), y:Math.min(.95,Math.max(.06,y))});
+    }
+    return {pts:pts, rows:rows};
+  }
+  function makeCloud(d, pt, baseW){
+    var w = baseW + Math.random()*baseW*0.2, h = w*0.62;
+    var s = SRC[d.source] || {color:'#334',tint:'#fff',short:''};
+    var btn = document.createElement('button');
+    btn.className = 'cloudbtn';
+    btn.setAttribute('role','listitem');
+    btn.setAttribute('aria-label', 'GTİP '+d.hs4+' — '+(s.name||d.source_label||'')+(d.ref?' — '+d.ref:''));
+    btn.style.cssText += ';left:'+(pt.x*100)+'%;top:'+(pt.y*100)+'%;margin-left:'+(-w/2)+'px;margin-top:'+(-h/2)+'px;width:'+w+'px;height:'+h+'px;'+
+      'animation-duration:'+(4+Math.random()*3).toFixed(2)+'s;animation-delay:'+(-Math.random()*4).toFixed(2)+'s';
+    var mk = function(css){ var el=document.createElement('div'); el.style.cssText=css; return el; };
+    btn.appendChild(mk('position:absolute;inset:0;background:'+s.tint+';border-radius:50%;box-shadow:0 18px 34px rgba(70,110,170,.18),0 2px 6px rgba(70,110,170,.10)'));
+    btn.appendChild(mk('position:absolute;left:-12%;bottom:-4%;width:56%;height:72%;background:'+s.tint+';border-radius:50%'));
+    btn.appendChild(mk('position:absolute;right:-14%;bottom:-6%;width:64%;height:80%;background:'+s.tint+';border-radius:50%'));
+    var content = mk('position:absolute;inset:0;display:flex;flex-direction:column;align-items:center;justify-content:center;z-index:2');
+    var hs = document.createElement('div');
     hs.textContent = d.hs4;
-    hs.style.cssText = `font-family:'JetBrains Mono',monospace;font-weight:700;font-size:${(w*0.24).toFixed(0)}px;letter-spacing:-.5px;color:${acc};line-height:1`;
+    hs.style.cssText = "font-family:'JetBrains Mono',monospace;font-weight:700;font-size:"+Math.round(w*0.24)+"px;letter-spacing:-.5px;line-height:1;color:"+s.color;
     content.appendChild(hs);
-    if (w >= 56){
-      const sc = document.createElement('div');
-      sc.textContent = this.CODE[d.source] || '';
-      sc.style.cssText = `font-family:'JetBrains Mono',monospace;font-weight:600;font-size:10px;letter-spacing:.07em;color:${acc};opacity:.6;margin-top:3px`;
+    if(w>=56){
+      var sc = document.createElement('div');
+      sc.textContent = s.short;
+      sc.style.cssText = "font-family:'JetBrains Mono',monospace;font-weight:600;font-size:10px;letter-spacing:.07em;opacity:.6;margin-top:3px;color:"+s.color;
       content.appendChild(sc);
     }
-    btn.appendChild(body); btn.appendChild(pl); btn.appendChild(pr); btn.appendChild(content);
-    btn.addEventListener('mouseenter', e=>{ btn.style.zIndex='30'; btn.style.transform='scale(1.13)'; this.showTip(e,d); });
-    btn.addEventListener('mousemove', e=>this.moveTip(e));
-    btn.addEventListener('mouseleave', ()=>{ btn.style.zIndex=''; btn.style.transform=''; this.hideTip(); });
-    btn.addEventListener('click', ()=>{ if (d.url) window.open(d.url,'_blank'); });
+    btn.appendChild(content);
+    btn.addEventListener('mouseenter', function(e){ showTip(e,d); });
+    btn.addEventListener('mousemove', moveTip);
+    btn.addEventListener('mouseleave', hideTip);
+    btn.addEventListener('click', function(){ hideTip(); openSheet(d); });
     return btn;
   }
-
-  renderField(){
-    const field = document.getElementById('skyField'); if (!field) return;
-    const data = this.state.data; if (!data) return;
+  function renderSky(decs){
+    var field = $('skyField');
     field.innerHTML = '';
-    const day = data.days[this.state.dayIndex];
-    const blobs = [[10,16,260,46],[62,8,210,60],[34,60,300,38],[80,52,170,68],[5,72,150,50]];
-    blobs.forEach((p,i)=>{
-      const b = document.createElement('div');
-      b.style.cssText = `position:absolute;left:${p[0]}%;top:${p[1]}%;width:${p[2]}px;height:${p[2]*0.5}px;background:rgba(255,255,255,.7);border-radius:50%;filter:blur(28px);opacity:.5;pointer-events:none;animation:bti-drift ${p[3]}s ease-in-out infinite alternate;animation-delay:${-i*9}s`;
+    var blobs = [[10,16,260,46],[62,8,210,60],[34,60,300,38],[80,52,170,68],[5,72,150,50]];
+    blobs.forEach(function(p,i){
+      var b = document.createElement('div');
+      b.style.cssText = 'position:absolute;left:'+p[0]+'%;top:'+p[1]+'%;width:'+p[2]+'px;height:'+(p[2]*0.5)+'px;background:rgba(255,255,255,.7);border-radius:50%;filter:blur(28px);opacity:.5;pointer-events:none;animation:drift '+p[3]+'s ease-in-out infinite alternate;animation-delay:'+(-i*9)+'s';
       field.appendChild(b);
     });
-    if (!day || !day.decisions.length){
-      const e = document.createElement('div');
-      e.style.cssText = 'position:absolute;inset:0;display:flex;align-items:center;justify-content:center;color:#5f7184;font-size:15px';
-      e.textContent = 'Bu gün için karar bulunamadı.';
-      field.appendChild(e); field.style.height = '560px'; return;
+    if(!decs.length){
+      var e = document.createElement('div');
+      e.className = 'emptysky';
+      e.innerHTML = '<div>Bu gün ve filtrelerle eşleşen karar yok.</div><div style="font-size:13px;color:var(--faint)">Filtreleri temizleyin ya da oklarla başka bir güne geçin.</div>';
+      field.appendChild(e); field.style.height='560px'; return;
     }
-    const decs = day.decisions.slice(0, 450);
-    const cols = Math.max(2, Math.ceil(Math.sqrt(decs.length*1.5)));
-    const rows = Math.ceil(decs.length/cols);
-    const pts = this.layout(decs.length);
-    const baseW = Math.max(42, Math.min(148, 660/Math.sqrt(decs.length)));
-    field.style.height = Math.max(560, Math.round(rows*baseW*1.65)) + 'px';
-    decs.forEach((d,i)=>{ field.appendChild(this.makeCloud(d, pts[i], baseW)); });
+    var list = decs.slice(0, 450).slice().sort(function(a,b){
+      return a.source===b.source ? String(a.hs4).localeCompare(String(b.hs4)) : String(a.source).localeCompare(String(b.source));
+    });
+    var L = layout(list.length);
+    var baseW = Math.max(42, Math.min(148, 660/Math.sqrt(list.length)));
+    field.style.height = Math.max(560, Math.round(L.rows*baseW*1.65))+'px';
+    var frag = document.createDocumentFragment();
+    list.forEach(function(d,i){ frag.appendChild(makeCloud(d, L.pts[i], baseW)); });
+    field.appendChild(frag);
   }
 
-  showTip(e, d){
-    const tip = this.tip || (this.tip = document.getElementById('btiTip')); if (!tip) return;
-    const name = { eu:'Avrupa Birliği', us:'Amerika', ca:'Kanada', tr:'Türkiye' }[d.source] || '';
-    let html = `<div style="display:flex;align-items:center;gap:8px;margin-bottom:3px">`+
-      `<span style="width:8px;height:8px;border-radius:50%;background:${this.COLORS[d.source]}"></span>`+
-      `<span style="font-family:'JetBrains Mono',monospace;font-weight:700;font-size:14px;color:#fff">${d.hs4}</span>`+
-      `<span style="font-family:'JetBrains Mono',monospace;font-size:11px;color:#8fb0e6">${d.hs||''}</span></div>`+
-      `<div style="font-size:11px;color:#8597b8;margin-bottom:6px">${name}${d.origin?' · '+d.origin:''}${d.ref?' · '+d.ref:''}</div>`;
-    if (d.title) html += `<div style="font-size:10px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:#6f86ad;margin-top:9px">Ürün Tanımı</div><div style="font-size:12.5px;color:#dfe8f5;line-height:1.55;margin-top:3px">${d.title}</div>`;
-    if (d.gerekce) html += `<div style="font-size:10px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:#6f86ad;margin-top:11px">Sınıflandırma Gerekçesi</div><div style="font-size:12px;color:#c5d2e6;line-height:1.55;margin-top:3px">${d.gerekce}</div>`;
-    html += `<div style="margin-top:11px;font-size:11.5px;color:#8fb0e6">↗ kaynağa gitmek için tıkla</div>`;
-    tip.innerHTML = html; tip.style.opacity = '1'; this.moveTip(e);
+  /* ---------- liste görünümü ---------- */
+  function rowEl(d){
+    var s = SRC[d.source] || {color:'#334',short:''};
+    var btn = document.createElement('button');
+    btn.className = 'row';
+    btn.innerHTML =
+      '<span class="src"><i style="background:'+s.color+'"></i>'+esc(d.flag||'')+'</span>'+
+      '<span class="hs" style="color:'+s.color+'">'+esc(d.hs4)+'</span>'+
+      '<span class="ttl">'+esc(d.title||'—')+'</span>'+
+      '<span class="ref">'+esc(d.ref||'')+' ↗</span>';
+    btn.addEventListener('click', function(){ openSheet(d); });
+    return btn;
+  }
+  function groupBy(arr, keyFn){
+    var map = new Map();
+    arr.forEach(function(d){ var k=keyFn(d); if(!map.has(k)) map.set(k,[]); map.get(k).push(d); });
+    return map;
+  }
+  function renderList(){
+    var field = $('listField');
+    field.innerHTML = '';
+    var frag = document.createDocumentFragment();
+    if(globalMode()){
+      var res = globalResults(), total = 0;
+      res.forEach(function(r){ total += r.decisions.length; });
+      var head = document.createElement('div');
+      head.className = 'note';
+      head.style.marginTop = '0';
+      head.innerHTML = '<strong>'+total+' karar</strong> bulundu · '+S.data.total_days+' günlük arşivde arandı'+(S.q?' · “'+esc(S.q)+'”':'')+(S.fasil?' · Fasıl '+esc(S.fasil)+(FASIL[S.fasil]?' ('+esc(FASIL[S.fasil])+')':''):'');
+      frag.appendChild(head);
+      res.forEach(function(r){
+        var g = document.createElement('div'); g.className='grp';
+        g.innerHTML = '<div class="grphead"><span class="nm">'+esc(r.day.date_tr)+'</span><span class="ct">'+r.decisions.length+' karar</span></div>';
+        r.decisions.forEach(function(d){ g.appendChild(rowEl(d)); });
+        frag.appendChild(g);
+      });
+      if(!res.length){
+        var e = document.createElement('div'); e.className='note'; e.style.marginTop='14px';
+        e.textContent = 'Eşleşen karar bulunamadı. Aramayı kısaltmayı ya da filtreleri temizlemeyi deneyin.';
+        frag.appendChild(e);
+      }
+    } else {
+      var decs = dayDecisions();
+      if(!decs.length){
+        var e2 = document.createElement('div'); e2.className='note'; e2.style.marginTop='0';
+        e2.textContent = 'Bu gün ve filtrelerle eşleşen karar yok.';
+        frag.appendChild(e2);
+      } else {
+        var groups = groupBy(decs, function(d){ return String(d.hs4||'').slice(0,2); });
+        Array.from(groups.keys()).sort().forEach(function(ch){
+          var items = groups.get(ch).slice().sort(function(a,b){ return String(a.hs4).localeCompare(String(b.hs4)); });
+          var g = document.createElement('div'); g.className='grp';
+          g.innerHTML = '<div class="grphead"><span class="code">'+esc(ch)+'</span><span class="nm">'+esc(FASIL[ch]||'')+'</span><span class="ct">'+items.length+' karar</span></div>';
+          items.forEach(function(d){ g.appendChild(rowEl(d)); });
+          frag.appendChild(g);
+        });
+      }
+    }
+    field.appendChild(frag);
   }
 
-  moveTip(e){
-    const tip = this.tip; if (!tip) return;
-    const pad = 16; let x = e.clientX + pad, y = e.clientY + pad;
-    const w = tip.offsetWidth || 340, h = tip.offsetHeight || 180;
-    if (x + w > window.innerWidth) x = e.clientX - w - pad;
-    if (y + h > window.innerHeight) y = e.clientY - h - pad;
-    if (y < 8) y = 8;
-    tip.style.left = x + 'px'; tip.style.top = y + 'px';
+  /* ---------- genel çizim ---------- */
+  function render(){
+    var data = S.data, day = data.days[S.day];
+    var g = globalMode();
+    var effView = g ? 'list' : S.view;
+
+    $('dayLabel').textContent = g ? 'Arşivde arama' : (day && day.date===data.today ? 'Bugünün kararları' : 'Seçili günün kararları');
+    $('dayDate').textContent = g ? (S.q ? '“'+S.q+'”' : 'Fasıl '+S.fasil) : (day ? day.date_tr : (data.today_tr||'—'));
+    $('dayCount').textContent = g ? '' : (day ? dayDecisions().length+' / '+day.count+' karar' : '');
+    $('btnPrev').disabled = g || S.day >= data.days.length-1;
+    $('btnNext').disabled = g || S.day <= 0;
+
+    var note = $('note');
+    if(!g && S.day===0 && !data.latest_is_today){
+      note.style.display = 'block';
+      note.innerHTML = 'Bugün <strong>'+esc(data.today_tr||'')+'</strong> için henüz yeni karar yayımlanmadı (idareler genelde hafta içi yayımlar). En son yayımlanan gün gösteriliyor: <strong>'+esc(day?day.date_tr:'')+'</strong>.';
+    } else note.style.display = 'none';
+
+    $('vSky').classList.toggle('on', effView==='sky');
+    $('vList').classList.toggle('on', effView==='list');
+    $('vSky').disabled = g;
+    $('legendline').style.display = effView==='sky' ? 'flex' : 'none';
+    $('skyField').style.display = effView==='sky' ? 'block' : 'none';
+    $('listField').style.display = effView==='list' ? 'block' : 'none';
+
+    if(effView==='sky') renderSky(dayDecisions()); else renderList();
+    writeHash();
   }
 
-  hideTip(){ if (this.tip) this.tip.style.opacity = '0'; }
-
-  renderVals(){
-    const s = this.state, data = s.data, ready = s.ready;
-    const day = data && data.days[s.dayIndex];
-    const isToday = day && data && day.date === data.today;
-    const showNote = !!(ready && s.dayIndex === 0 && data && !data.latest_is_today);
-    const sc = this.sourceCounts || { eu:0, us:0, ca:0, tr:0 };
-    return {
-      badgeTxt: ready && data.today_tr ? `${data.today_tr} · her gün otomatik güncellenir` : 'her gün otomatik güncellenir',
-      euCountTxt: ready ? String(sc.eu) : '—',
-      usCountTxt: ready ? String(sc.us) : '—',
-      caCountTxt: ready ? String(sc.ca) : '—',
-      trCountTxt: ready ? String(sc.tr) : '—',
-      dayLabel: isToday ? 'Bugünün kararları' : 'Seçili günün kararları',
-      dayDate: ready ? (day ? day.date_tr : (data.today_tr || 'Veri yok')) : '—',
-      dayCount: ready && day ? `${day.count} karar` : '',
-      prevDisabled: !data || s.dayIndex >= data.days.length-1,
-      nextDisabled: s.dayIndex <= 0,
-      showNote,
-      noteTodayTr: data ? (data.today_tr || '') : '',
-      noteDateTr: day ? day.date_tr : '',
-      footMeta: ready ? `${data.total_decisions||0} karar · ${data.total_days||0} gün arşiv · son güncelleme ${data.generated_at||''}` : '',
-      fieldRef: this.fieldRef,
-      onPrev: ()=>this.prev(),
-      onNext: ()=>this.next(),
-      onSky: ()=>this.scrollTo('sky'),
-      onInfo: ()=>this.scrollTo('info'),
-    };
+  /* ---------- veri yükleme (bölünmüş: index.json + gün başına JSON) ---------- */
+  function fetchJSON(url){
+    return fetch(url).then(function(r){
+      if(!r.ok) throw new Error('HTTP '+r.status+' — '+url);
+      return r.json();
+    });
   }
-}
+  function dayByDate(date){
+    for(var i=0;i<S.data.days.length;i++){ if(S.data.days[i].date===date) return S.data.days[i]; }
+    return null;
+  }
+  // Bir günün kararlarını getirir; getirileni gün nesnesine iliştirir ve
+  // uçuş halindeki isteği cache'ler → aynı gün iki kez indirilmez.
+  function loadDay(date){
+    var day = dayByDate(date);
+    if(day && day.decisions) return Promise.resolve(day);
+    if(S.cache.has(date)) return S.cache.get(date);
+    var p = fetchJSON('data/days/'+date+'.json').then(function(full){
+      if(day){ day.decisions = full.decisions; return day; }
+      return full;
+    });
+    S.cache.set(date, p);
+    return p;
+  }
+  // Tüm arşivi 8'erli gruplar halinde paralel yükler (bir kez).
+  function loadArchive(){
+    if(S.archiveLoaded) return Promise.resolve();
+    if(S.archiveLoading) return S.archiveLoading;
+    var pending = S.data.days.filter(function(d){ return !d.decisions; });
+    var chain = Promise.resolve();
+    for(var i=0;i<pending.length;i+=8){
+      (function(batch){
+        chain = chain.then(function(){
+          return Promise.all(batch.map(function(d){ return loadDay(d.date); }));
+        });
+      })(pending.slice(i,i+8));
+    }
+    S.archiveLoading = chain.then(function(){ S.archiveLoaded = true; S.archiveLoading = false; });
+    return S.archiveLoading;
+  }
+  function showArchiveLoading(){
+    // arama/filtre global moddadır → liste alanında yükleme mesajı göster
+    $('skyField').style.display = 'none';
+    $('legendline').style.display = 'none';
+    var lf = $('listField');
+    lf.style.display = 'block';
+    lf.innerHTML = '<div class="note" style="margin-top:0">Arşiv yükleniyor… <strong>'+
+      (S.data.total_days||0)+'</strong> günlük kayıt getiriliyor, birazdan sonuçlar görünecek.</div>';
+  }
+  // Geçerli duruma göre gereken veriyi yükler, sonra çizer.
+  function update(){
+    if(globalMode()){
+      if(!S.archiveLoaded){ showArchiveLoading(); return loadArchive().then(render); }
+      render(); return Promise.resolve();
+    }
+    var d = S.data.days[S.day];
+    if(d && !d.decisions){ return loadDay(d.date).then(render); }
+    render(); return Promise.resolve();
+  }
+
+  /* ---------- arayüz kurulumu ---------- */
+  function extrasFrom(days){
+    var sc = {eu:0,us:0,ca:0,tr:0}, ch = {};
+    days.forEach(function(d){ (d.decisions||[]).forEach(function(x){
+      if(sc.hasOwnProperty(x.source)) sc[x.source]++;
+      var c = String(x.hs4||'').slice(0,2); if(c) ch[c]=true;
+    }); });
+    return { source_counts:sc, chapters:Object.keys(ch).sort() };
+  }
+  function setupUI(){
+    var data = S.data;
+    var sc = data.source_counts || extrasFrom(data.days).source_counts;
+    var chapters = data.chapters || extrasFrom(data.days).chapters;
+
+    // hero istatistik kartları
+    $('statCards').innerHTML = ['eu','us','ca','tr'].map(function(k){
+      var s = SRC[k];
+      return '<div class="stat"><div class="nm"><i style="background:'+s.color+'"></i>'+s.name+'</div>'+
+        '<div class="v" style="color:'+s.color+'">'+(sc[k]||0)+'</div>'+
+        '<div class="k">'+s.sys+' · arşivdeki karar</div></div>';
+    }).join('');
+    if(data.today_tr) $('badgeTxt').textContent = data.today_tr+' · her gün otomatik güncellenir';
+    $('footMeta').textContent = (data.total_decisions||0)+' karar · '+(data.total_days||0)+' gün arşiv · son güncelleme '+(data.generated_at||'');
+
+    // kaynak çipleri
+    var chips = $('chips');
+    ['eu','us','ca','tr'].forEach(function(k){
+      var s = SRC[k];
+      var b = document.createElement('button');
+      b.className = 'chip'; b.style.setProperty('--c', s.color);
+      b.setAttribute('aria-pressed', 'true');
+      b.innerHTML = '<i></i>'+s.short;
+      b.title = s.name;
+      b.addEventListener('click', function(){
+        S.src[k] = !S.src[k];
+        var any = Object.keys(S.src).some(function(x){return S.src[x];});
+        if(!any) S.src[k] = true; // en az bir kaynak açık kalsın
+        b.setAttribute('aria-pressed', String(S.src[k]));
+        update();
+      });
+      b._key = k;
+      chips.appendChild(b);
+    });
+
+    // fasıl seçici (arşivde geçen fasıllar — index.json'dan)
+    var sel = $('fasil');
+    chapters.forEach(function(ch){
+      if(!ch) return;
+      var o = document.createElement('option');
+      o.value = ch; o.textContent = ch + (FASIL[ch] ? ' · '+FASIL[ch] : '');
+      sel.appendChild(o);
+    });
+
+    // hash'ten durumu al, kontrolleri eşitle
+    readHash();
+    $('q').value = S.q;
+    sel.value = S.fasil;
+    Array.prototype.forEach.call(chips.children, function(b){ b.setAttribute('aria-pressed', String(S.src[b._key])); });
+    $('qClr').style.display = S.q ? 'block' : 'none';
+
+    // olaylar
+    $('btnPrev').addEventListener('click', function(){ if(S.day < S.data.days.length-1){ S.day++; update(); } });
+    $('btnNext').addEventListener('click', function(){ if(S.day > 0){ S.day--; update(); } });
+    var qT = null;
+    $('q').addEventListener('input', function(){
+      clearTimeout(qT);
+      var v = this.value;
+      $('qClr').style.display = v ? 'block' : 'none';
+      qT = setTimeout(function(){ S.q = v; update(); }, 220);
+    });
+    $('qClr').addEventListener('click', function(){ $('q').value=''; S.q=''; this.style.display='none'; update(); $('q').focus(); });
+    sel.addEventListener('change', function(){ S.fasil = this.value; update(); });
+    $('vSky').addEventListener('click', function(){ S.view='sky'; update(); });
+    $('vList').addEventListener('click', function(){ S.view='list'; update(); });
+  }
+
+  /* ---------- kurulum ---------- */
+  function start(){
+    setupUI();
+    update().then(function(){
+      if(location.hash && (S.q || S.fasil || S.day>0 || S.view==='list')) scrollToId('sky');
+    });
+  }
+  // file:// ile açılmışsa fetch başarısız olur → data.js'i script olarak yükle.
+  function loadFallbackScript(){
+    return new Promise(function(resolve, reject){
+      if(window.BTI_DATA) return resolve(window.BTI_DATA);
+      var s = document.createElement('script');
+      s.src = 'data.js';
+      s.onload = function(){ resolve(window.BTI_DATA); };
+      s.onerror = function(){ reject(new Error('data.js yüklenemedi')); };
+      document.head.appendChild(s);
+    });
+  }
+  function bootFallback(){
+    loadFallbackScript().then(function(data){
+      if(!data){ throw new Error('BTI_DATA yok'); }
+      if(!data.source_counts || !data.chapters){
+        var ex = extrasFrom(data.days);
+        data.source_counts = data.source_counts || ex.source_counts;
+        data.chapters = data.chapters || ex.chapters;
+      }
+      S.data = data;         // günler kararlarıyla birlikte bellekte
+      S.fallback = true;
+      S.archiveLoaded = true; // tüm arşiv zaten yüklü
+      start();
+    }).catch(function(e){
+      $('skyField').innerHTML = '<div class="emptysky"><div>Veri yüklenemedi.</div>'+
+        '<div style="font-size:13px;color:var(--faint)">Sayfayı bir sunucu üzerinden (http) açmayı deneyin.</div></div>';
+    });
+  }
+  function boot(){
+    fetchJSON('data/index.json').then(function(idx){
+      S.data = idx;          // özet; günlerin kararları talep üzerine iliştirilir
+      start();
+    }).catch(function(){
+      bootFallback();        // fetch yok/başarısız → data.js fallback
+    });
+  }
+  boot();
+})();
 </script>
 </body>
 </html>
