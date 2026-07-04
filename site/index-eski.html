@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Hanken+Grotesk:wght@400;500;600;700&family=JetBrains+Mono:wght@500;600;700&display=swap" rel="stylesheet">
+<style>
+  *{box-sizing:border-box;margin:0;padding:0}
+  html{scroll-behavior:smooth}
+  body{font-family:'Hanken Grotesk',system-ui,-apple-system,sans-serif;color:#17202b;background:#f4f8fc;line-height:1.6;-webkit-font-smoothing:antialiased}
+  button{font-family:inherit}
+  button:disabled{opacity:.28;cursor:default;pointer-events:none}
+  @keyframes bti-bob{0%,100%{transform:translateY(0)}50%{transform:translateY(-12px)}}
+  @keyframes bti-drift{from{transform:translateX(-50px)}to{transform:translateX(50px)}}
+</style>
+<script src="data.js"></script>
+</helmet>
+
+<template id="__bundler_thumbnail"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><rect width="100" height="100" fill="#cfe8ff"/><ellipse cx="40" cy="46" rx="22" ry="13" fill="#fff"/><ellipse cx="58" cy="40" rx="16" ry="10" fill="#fff"/><text x="50" y="50" font-family="monospace" font-size="11" font-weight="700" fill="#2f6bdf" text-anchor="middle">8471</text></svg></template>
+
+<div style="overflow-x:hidden">
+
+  <!-- ===================== HERO ===================== -->
+  <section style="position:relative;min-height:100vh;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;padding:96px 24px 120px;overflow:hidden;background:radial-gradient(1100px 560px at 50% -8%, #d4ecff 0%, transparent 62%), linear-gradient(180deg,#e6f3ff 0%, #f4f8fc 72%)">
+
+    <div style="position:absolute;inset:0;pointer-events:none">
+      <div style="position:absolute;left:8%;top:16%;width:280px;height:130px;background:rgba(255,255,255,.85);border-radius:50%;filter:blur(30px);opacity:.7;animation:bti-drift 46s ease-in-out infinite alternate"></div>
+      <div style="position:absolute;left:64%;top:10%;width:220px;height:104px;background:rgba(255,255,255,.8);border-radius:50%;filter:blur(28px);opacity:.6;animation:bti-drift 58s ease-in-out infinite alternate;animation-delay:-12s"></div>
+      <div style="position:absolute;left:30%;top:60%;width:340px;height:150px;background:rgba(255,255,255,.7);border-radius:50%;filter:blur(34px);opacity:.55;animation:bti-drift 52s ease-in-out infinite alternate;animation-delay:-22s"></div>
+      <div style="position:absolute;left:80%;top:54%;width:180px;height:90px;background:rgba(255,255,255,.75);border-radius:50%;filter:blur(26px);opacity:.5;animation:bti-drift 64s ease-in-out infinite alternate;animation-delay:-8s"></div>
+    </div>
+
+    <span style="position:relative;display:inline-flex;align-items:center;gap:9px;background:rgba(255,255,255,.78);backdrop-filter:blur(8px);border:1px solid #dde7f2;border-radius:999px;padding:8px 16px;font-size:12.5px;font-weight:600;color:#5f7184;box-shadow:0 6px 20px rgba(40,90,160,.07);margin-bottom:30px">
+      <span style="width:7px;height:7px;border-radius:50%;background:#22c07a;box-shadow:0 0 0 4px rgba(34,192,122,.16)"></span>{{ badgeTxt }}</span>
+
+    <h1 style="position:relative;font-family:'Space Grotesk',sans-serif;font-weight:600;font-size:clamp(38px,6.4vw,74px);line-height:1.04;letter-spacing:-2px;max-width:960px;color:#16202b">Dünyanın <span style="color:#2f6bdf">tarife kararları</span>,<br>her gün gökyüzünde.</h1>
+
+    <p style="position:relative;max-width:660px;margin:26px auto 0;font-size:clamp(16px,2vw,19px);color:#5f7184">Avrupa Birliği, Amerika, Kanada ve Türkiye gümrük idarelerinin yayımladığı bağlayıcı tarife (BTI / BTB / GTİP) sınıflandırma kararlarını tek ekranda topluyoruz. Bir buluta dokun, kararın orijinal kaynağına uç.</p>
+
+    <div style="position:relative;display:flex;gap:16px;margin-top:38px;flex-wrap:wrap;justify-content:center">
+      <div style="background:#fff;border:1px solid #e6ebf2;border-radius:16px;padding:18px 22px;min-width:172px;text-align:left;box-shadow:0 10px 32px rgba(40,90,160,.06)">
+        <div style="display:flex;align-items:center;gap:8px"><span style="width:9px;height:9px;border-radius:50%;background:#2f6bdf"></span><span style="font-weight:700;font-size:14.5px;color:#17202b">Avrupa Birliği</span></div>
+        <div style="font-family:'JetBrains Mono',monospace;font-weight:700;font-size:26px;letter-spacing:-1px;margin-top:10px;color:#2f6bdf">{{ euCountTxt }}</div>
+        <div style="font-size:12px;color:#8693a6">EBTI · arşivdeki karar</div>
+      </div>
+      <div style="background:#fff;border:1px solid #e6ebf2;border-radius:16px;padding:18px 22px;min-width:172px;text-align:left;box-shadow:0 10px 32px rgba(40,90,160,.06)">
+        <div style="display:flex;align-items:center;gap:8px"><span style="width:9px;height:9px;border-radius:50%;background:#d07d2a"></span><span style="font-weight:700;font-size:14.5px;color:#17202b">Amerika</span></div>
+        <div style="font-family:'JetBrains Mono',monospace;font-weight:700;font-size:26px;letter-spacing:-1px;margin-top:10px;color:#d07d2a">{{ usCountTxt }}</div>
+        <div style="font-size:12px;color:#8693a6">CBP CROSS · arşivdeki karar</div>
+      </div>
+      <div style="background:#fff;border:1px solid #e6ebf2;border-radius:16px;padding:18px 22px;min-width:172px;text-align:left;box-shadow:0 10px 32px rgba(40,90,160,.06)">
+        <div style="display:flex;align-items:center;gap:8px"><span style="width:9px;height:9px;border-radius:50%;background:#169b8b"></span><span style="font-weight:700;font-size:14.5px;color:#17202b">Kanada</span></div>
+        <div style="font-family:'JetBrains Mono',monospace;font-weight:700;font-size:26px;letter-spacing:-1px;margin-top:10px;color:#169b8b">{{ caCountTxt }}</div>
+        <div style="font-size:12px;color:#8693a6">CBSA · arşivdeki karar</div>
+      </div>
+      <div style="background:#fff;border:1px solid #e6ebf2;border-radius:16px;padding:18px 22px;min-width:172px;text-align:left;box-shadow:0 10px 32px rgba(40,90,160,.06)">
+        <div style="display:flex;align-items:center;gap:8px"><span style="width:9px;height:9px;border-radius:50%;background:#e30a17"></span><span style="font-weight:700;font-size:14.5px;color:#17202b">Türkiye</span></div>
+        <div style="font-family:'JetBrains Mono',monospace;font-weight:700;font-size:26px;letter-spacing:-1px;margin-top:10px;color:#e30a17">{{ trCountTxt }}</div>
+        <div style="font-size:12px;color:#8693a6">BTB · arşivdeki karar</div>
+      </div>
+    </div>
+
+    <div style="position:relative;margin-top:42px;display:flex;gap:13px;flex-wrap:wrap;justify-content:center">
+      <button onClick="{{ onSky }}" style="border:none;border-radius:13px;padding:15px 28px;font-weight:700;font-size:15px;cursor:pointer;background:#16202b;color:#fff;box-shadow:0 12px 30px rgba(22,32,43,.26)">Günün kararlarını gör ↓</button>
+      <a href="dashboard.html" style="text-decoration:none;border:1px solid #d7e0ea;border-radius:13px;padding:15px 28px;font-weight:700;font-size:15px;cursor:pointer;background:rgba(255,255,255,.7);color:#16202b;display:inline-flex;align-items:center">İstatistik paneli →</a>
+      <button onClick="{{ onInfo }}" style="border:1px solid #d7e0ea;border-radius:13px;padding:15px 28px;font-weight:700;font-size:15px;cursor:pointer;background:rgba(255,255,255,.7);color:#16202b">Nasıl çalışır?</button>
+    </div>
+
+    <div style="position:absolute;bottom:30px;left:50%;transform:translateX(-50%);color:#8693a6;font-size:12.5px;letter-spacing:.04em">aşağı kaydır ↓</div>
+  </section>
+
+  <!-- ===================== INFO ===================== -->
+  <section id="info" style="max-width:1080px;margin:0 auto;padding:88px 24px 36px">
+    <div style="font-size:12px;letter-spacing:.22em;text-transform:uppercase;color:#8693a6;text-align:center;font-weight:600">Bu site ne yapıyor</div>
+    <h2 style="font-family:'Space Grotesk',sans-serif;font-weight:600;font-size:clamp(26px,3.4vw,38px);letter-spacing:-1px;text-align:center;margin-top:14px;max-width:720px;margin-left:auto;margin-right:auto">Üç idarenin tarife kararları, tek bir gökyüzünde</h2>
+
+    <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:18px;margin-top:44px">
+      <div style="background:#fff;border:1px solid #e6ebf2;border-radius:18px;padding:28px;box-shadow:0 8px 28px rgba(40,90,160,.05)">
+        <div style="font-family:'JetBrains Mono',monospace;font-size:13px;font-weight:700;color:#2f6bdf">01</div>
+        <h3 style="font-family:'Space Grotesk',sans-serif;font-size:18px;font-weight:600;margin:14px 0 7px;letter-spacing:-.4px">4 ülke, tek ekran</h3>
+        <p style="font-size:14px;color:#5f7184">AB, ABD, Kanada ve Türkiye gümrük otoritelerinin yayımladığı bağlayıcı tarife kararları her gün otomatik toplanır.</p>
+      </div>
+      <div style="background:#fff;border:1px solid #e6ebf2;border-radius:18px;padding:28px;box-shadow:0 8px 28px rgba(40,90,160,.05)">
+        <div style="font-family:'JetBrains Mono',monospace;font-size:13px;font-weight:700;color:#2f6bdf">02</div>
+        <h3 style="font-family:'Space Grotesk',sans-serif;font-size:18px;font-weight:600;margin:14px 0 7px;letter-spacing:-.4px">GTİP bulutları</h3>
+        <p style="font-size:14px;color:#5f7184">Her bulut o gün çıkan bir kararı temsil eder; üzerinde GTİP pozisyonunun ilk 4 hanesi yazar.</p>
+      </div>
+      <div style="background:#fff;border:1px solid #e6ebf2;border-radius:18px;padding:28px;box-shadow:0 8px 28px rgba(40,90,160,.05)">
+        <div style="font-family:'JetBrains Mono',monospace;font-size:13px;font-weight:700;color:#2f6bdf">03</div>
+        <h3 style="font-family:'Space Grotesk',sans-serif;font-size:18px;font-weight:600;margin:14px 0 7px;letter-spacing:-.4px">Kaynağa tek tık</h3>
+        <p style="font-size:14px;color:#5f7184">Bir buluta tıkladığında kararın yayımlandığı resmi kaynak sayfası yeni sekmede açılır.</p>
+      </div>
+      <div style="background:#fff;border:1px solid #e6ebf2;border-radius:18px;padding:28px;box-shadow:0 8px 28px rgba(40,90,160,.05)">
+        <div style="font-family:'JetBrains Mono',monospace;font-size:13px;font-weight:700;color:#2f6bdf">04</div>
+        <h3 style="font-family:'Space Grotesk',sans-serif;font-size:18px;font-weight:600;margin:14px 0 7px;letter-spacing:-.4px">Günlük arşiv</h3>
+        <p style="font-size:14px;color:#5f7184">Oklarla geçmiş günlere göz at; hangi gün hangi pozisyonlarda karar çıkmış gör.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== SKY ===================== -->
+  <section id="sky" style="padding:58px 0 96px">
+    <div style="max-width:1180px;margin:0 auto;padding:0 24px;display:flex;align-items:flex-end;justify-content:space-between;gap:20px;flex-wrap:wrap">
+      <div>
+        <div style="font-size:12px;letter-spacing:.2em;text-transform:uppercase;color:#8693a6;font-weight:600">{{ dayLabel }}</div>
+        <div style="font-family:'Space Grotesk',sans-serif;font-size:clamp(28px,4vw,42px);font-weight:600;letter-spacing:-1.2px;margin-top:4px">{{ dayDate }}</div>
+      </div>
+      <div style="display:flex;align-items:center;gap:11px">
+        <button onClick="{{ onPrev }}" disabled="{{ prevDisabled }}" title="Önceki gün" style="width:44px;height:44px;border-radius:50%;border:1px solid #e0e7f0;background:#fff;cursor:pointer;font-size:18px;color:#16202b">←</button>
+        <div style="font-size:14px;color:#5f7184;min-width:96px;text-align:center;font-weight:600">{{ dayCount }}</div>
+        <button onClick="{{ onNext }}" disabled="{{ nextDisabled }}" title="Sonraki gün" style="width:44px;height:44px;border-radius:50%;border:1px solid #e0e7f0;background:#fff;cursor:pointer;font-size:18px;color:#16202b">→</button>
+      </div>
+    </div>
+
+    <sc-if value="{{ showNote }}" hint-placeholder-val="{{ false }}">
+      <div style="max-width:1180px;margin:16px auto 0;padding:13px 18px;background:#fff;border:1px solid #e6ebf2;border-left:3px solid #2f6bdf;border-radius:12px;font-size:14px;color:#5f7184">Bugün <strong style="color:#17202b">{{ noteTodayTr }}</strong> için henüz yeni karar yayımlanmadı (idareler genelde hafta içi yayımlar). En son yayımlanan gün gösteriliyor: <strong style="color:#17202b">{{ noteDateTr }}</strong>.</div>
+    </sc-if>
+
+    <div style="max-width:1180px;margin:18px auto 0;padding:0 24px;display:flex;gap:18px;flex-wrap:wrap;align-items:center;font-size:13px;color:#5f7184">
+      <span style="font-weight:600;color:#17202b">Bulut rengi = kararı veren idare:</span>
+      <span style="display:inline-flex;align-items:center;gap:7px"><i style="width:11px;height:11px;border-radius:50%;background:#2f6bdf;display:inline-block"></i>Avrupa Birliği</span>
+      <span style="display:inline-flex;align-items:center;gap:7px"><i style="width:11px;height:11px;border-radius:50%;background:#d07d2a;display:inline-block"></i>Amerika</span>
+      <span style="display:inline-flex;align-items:center;gap:7px"><i style="width:11px;height:11px;border-radius:50%;background:#169b8b;display:inline-block"></i>Kanada</span>
+      <span style="display:inline-flex;align-items:center;gap:7px"><i style="width:11px;height:11px;border-radius:50%;background:#e30a17;display:inline-block"></i>Türkiye</span>
+      <span style="margin-left:auto;color:#8693a6">bulut = bir karar · sayı = GTİP'in ilk 4 hanesi</span>
+    </div>
+
+    <div id="skyField" style="position:relative;max-width:1180px;margin:24px auto 0;height:560px;border-radius:28px;overflow:hidden;border:1px solid #d4e8fb;background:linear-gradient(180deg,#cfe8ff 0%, #eef7ff 100%);box-shadow:inset 0 0 90px rgba(120,180,255,.22)"></div>
+  </section>
+
+  <footer style="text-align:center;padding:44px 24px 64px;color:#8693a6;font-size:13px;border-top:1px solid #e6ebf2">
+    <div style="font-family:'Space Grotesk',sans-serif;font-weight:600;color:#5f7184;font-size:14px">GTİP Bulutları — gümrük sınıflandırma kararları gözlemevi</div>
+    <div style="margin-top:7px;font-size:12px;opacity:.9">{{ footMeta }}</div>
+  </footer>
+
+  <div id="btiTip" style="position:fixed;z-index:200;max-width:360px;background:#101b29;color:#fff;padding:15px 17px;border-radius:14px;font-size:12.5px;line-height:1.6;box-shadow:0 22px 56px rgba(0,0,0,.4);pointer-events:none;opacity:0;transition:opacity .12s;left:0;top:0"></div>
+
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script>
+class Component extends DCLogic {
+  state = { dayIndex: 0, ready: false, data: null };
+  fieldRef = React.createRef();
+  COLORS = { eu:'#2f6bdf', us:'#d07d2a', ca:'#169b8b', tr:'#e30a17' };
+  CLOUD_BG = { eu:'#ffffff', us:'#fffaf2', ca:'#f3fbfa', tr:'#fff4f4' };
+  CODE = { eu:'AB', us:'ABD', ca:'KAN', tr:'TR' };
+
+  componentDidMount(){ this.waitData(); }
+
+  waitData(){
+    if (window.BTI_DATA){
+      const data = window.BTI_DATA;
+      const sc = { eu:0, us:0, ca:0, tr:0 };
+      (data.days||[]).forEach(d=>(d.decisions||[]).forEach(x=>{ sc[x.source]=(sc[x.source]||0)+1; }));
+      this.sourceCounts = sc;
+      this.setState({ data, ready:true });
+      const tryRender = (tries)=>{ const f=document.getElementById('skyField'); if (f && f.querySelectorAll('button').length>0){ return; } if (f){ this.renderField(); } if (tries<80){ setTimeout(()=>tryRender(tries+1), 80); } };
+      tryRender(0);
+    } else {
+      setTimeout(()=>this.waitData(), 120);
+    }
+  }
+
+  prev(){ const d=this.state.data; if (d && this.state.dayIndex < d.days.length-1) this.setState(s=>({ dayIndex:s.dayIndex+1 }), ()=>this.renderField()); }
+  next(){ if (this.state.dayIndex > 0) this.setState(s=>({ dayIndex:s.dayIndex-1 }), ()=>this.renderField()); }
+  scrollTo(id){ const el=document.getElementById(id); if (el) window.scrollTo({ top: el.getBoundingClientRect().top + window.scrollY - 16, behavior:'smooth' }); }
+
+  layout(n){
+    const cols = Math.max(2, Math.ceil(Math.sqrt(n*1.5)));
+    const rows = Math.ceil(n/cols);
+    const padX = 0.09, padY = 0.12, pts = [];
+    for (let i=0;i<n;i++){
+      const r = Math.floor(i/cols), c = i%cols;
+      const jx = (Math.random()-.5)*(0.4/cols), jy = (Math.random()-.5)*(0.6/rows);
+      const x = padX + ((c+0.5)/cols)*(1-2*padX) + jx;
+      const y = padY + ((r+0.5)/rows)*(1-2*padY) + jy;
+      pts.push({ x: Math.min(1-padX, Math.max(padX, x)), y: Math.min(0.95, Math.max(0.06, y)) });
+    }
+    return pts;
+  }
+
+  makeCloud(d, pt, baseW){
+    const w = baseW + Math.random()*(baseW*0.2);
+    const h = w*0.62;
+    const tint = this.CLOUD_BG[d.source] || '#fff';
+    const acc = this.COLORS[d.source] || '#334';
+    const btn = document.createElement('button');
+    btn.style.cssText = `position:absolute;left:${pt.x*100}%;top:${pt.y*100}%;margin-left:${-w/2}px;margin-top:${-h/2}px;width:${w}px;height:${h}px;border:none;background:transparent;cursor:pointer;padding:0;animation:bti-bob ${(4+Math.random()*3).toFixed(2)}s ease-in-out infinite;animation-delay:${(-Math.random()*4).toFixed(2)}s;transition:transform .18s`;
+    const body = document.createElement('div');
+    body.style.cssText = `position:absolute;inset:0;background:${tint};border-radius:50%;box-shadow:0 18px 34px rgba(70,110,170,.18),0 2px 6px rgba(70,110,170,.10)`;
+    const pl = document.createElement('div');
+    pl.style.cssText = `position:absolute;left:-12%;bottom:-4%;width:56%;height:72%;background:${tint};border-radius:50%;box-shadow:0 14px 22px rgba(70,110,170,.10)`;
+    const pr = document.createElement('div');
+    pr.style.cssText = `position:absolute;right:-14%;bottom:-6%;width:64%;height:80%;background:${tint};border-radius:50%;box-shadow:0 14px 22px rgba(70,110,170,.10)`;
+    const content = document.createElement('div');
+    content.style.cssText = `position:absolute;inset:0;display:flex;flex-direction:column;align-items:center;justify-content:center;z-index:2`;
+    const hs = document.createElement('div');
+    hs.textContent = d.hs4;
+    hs.style.cssText = `font-family:'JetBrains Mono',monospace;font-weight:700;font-size:${(w*0.24).toFixed(0)}px;letter-spacing:-.5px;color:${acc};line-height:1`;
+    content.appendChild(hs);
+    if (w >= 56){
+      const sc = document.createElement('div');
+      sc.textContent = this.CODE[d.source] || '';
+      sc.style.cssText = `font-family:'JetBrains Mono',monospace;font-weight:600;font-size:10px;letter-spacing:.07em;color:${acc};opacity:.6;margin-top:3px`;
+      content.appendChild(sc);
+    }
+    btn.appendChild(body); btn.appendChild(pl); btn.appendChild(pr); btn.appendChild(content);
+    btn.addEventListener('mouseenter', e=>{ btn.style.zIndex='30'; btn.style.transform='scale(1.13)'; this.showTip(e,d); });
+    btn.addEventListener('mousemove', e=>this.moveTip(e));
+    btn.addEventListener('mouseleave', ()=>{ btn.style.zIndex=''; btn.style.transform=''; this.hideTip(); });
+    btn.addEventListener('click', ()=>{ if (d.url) window.open(d.url,'_blank'); });
+    return btn;
+  }
+
+  renderField(){
+    const field = document.getElementById('skyField'); if (!field) return;
+    const data = this.state.data; if (!data) return;
+    field.innerHTML = '';
+    const day = data.days[this.state.dayIndex];
+    const blobs = [[10,16,260,46],[62,8,210,60],[34,60,300,38],[80,52,170,68],[5,72,150,50]];
+    blobs.forEach((p,i)=>{
+      const b = document.createElement('div');
+      b.style.cssText = `position:absolute;left:${p[0]}%;top:${p[1]}%;width:${p[2]}px;height:${p[2]*0.5}px;background:rgba(255,255,255,.7);border-radius:50%;filter:blur(28px);opacity:.5;pointer-events:none;animation:bti-drift ${p[3]}s ease-in-out infinite alternate;animation-delay:${-i*9}s`;
+      field.appendChild(b);
+    });
+    if (!day || !day.decisions.length){
+      const e = document.createElement('div');
+      e.style.cssText = 'position:absolute;inset:0;display:flex;align-items:center;justify-content:center;color:#5f7184;font-size:15px';
+      e.textContent = 'Bu gün için karar bulunamadı.';
+      field.appendChild(e); field.style.height = '560px'; return;
+    }
+    const decs = day.decisions.slice(0, 450);
+    const cols = Math.max(2, Math.ceil(Math.sqrt(decs.length*1.5)));
+    const rows = Math.ceil(decs.length/cols);
+    const pts = this.layout(decs.length);
+    const baseW = Math.max(42, Math.min(148, 660/Math.sqrt(decs.length)));
+    field.style.height = Math.max(560, Math.round(rows*baseW*1.65)) + 'px';
+    decs.forEach((d,i)=>{ field.appendChild(this.makeCloud(d, pts[i], baseW)); });
+  }
+
+  showTip(e, d){
+    const tip = this.tip || (this.tip = document.getElementById('btiTip')); if (!tip) return;
+    const name = { eu:'Avrupa Birliği', us:'Amerika', ca:'Kanada', tr:'Türkiye' }[d.source] || '';
+    let html = `<div style="display:flex;align-items:center;gap:8px;margin-bottom:3px">`+
+      `<span style="width:8px;height:8px;border-radius:50%;background:${this.COLORS[d.source]}"></span>`+
+      `<span style="font-family:'JetBrains Mono',monospace;font-weight:700;font-size:14px;color:#fff">${d.hs4}</span>`+
+      `<span style="font-family:'JetBrains Mono',monospace;font-size:11px;color:#8fb0e6">${d.hs||''}</span></div>`+
+      `<div style="font-size:11px;color:#8597b8;margin-bottom:6px">${name}${d.origin?' · '+d.origin:''}${d.ref?' · '+d.ref:''}</div>`;
+    if (d.title) html += `<div style="font-size:10px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:#6f86ad;margin-top:9px">Ürün Tanımı</div><div style="font-size:12.5px;color:#dfe8f5;line-height:1.55;margin-top:3px">${d.title}</div>`;
+    if (d.gerekce) html += `<div style="font-size:10px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:#6f86ad;margin-top:11px">Sınıflandırma Gerekçesi</div><div style="font-size:12px;color:#c5d2e6;line-height:1.55;margin-top:3px">${d.gerekce}</div>`;
+    html += `<div style="margin-top:11px;font-size:11.5px;color:#8fb0e6">↗ kaynağa gitmek için tıkla</div>`;
+    tip.innerHTML = html; tip.style.opacity = '1'; this.moveTip(e);
+  }
+
+  moveTip(e){
+    const tip = this.tip; if (!tip) return;
+    const pad = 16; let x = e.clientX + pad, y = e.clientY + pad;
+    const w = tip.offsetWidth || 340, h = tip.offsetHeight || 180;
+    if (x + w > window.innerWidth) x = e.clientX - w - pad;
+    if (y + h > window.innerHeight) y = e.clientY - h - pad;
+    if (y < 8) y = 8;
+    tip.style.left = x + 'px'; tip.style.top = y + 'px';
+  }
+
+  hideTip(){ if (this.tip) this.tip.style.opacity = '0'; }
+
+  renderVals(){
+    const s = this.state, data = s.data, ready = s.ready;
+    const day = data && data.days[s.dayIndex];
+    const isToday = day && data && day.date === data.today;
+    const showNote = !!(ready && s.dayIndex === 0 && data && !data.latest_is_today);
+    const sc = this.sourceCounts || { eu:0, us:0, ca:0, tr:0 };
+    return {
+      badgeTxt: ready && data.today_tr ? `${data.today_tr} · her gün otomatik güncellenir` : 'her gün otomatik güncellenir',
+      euCountTxt: ready ? String(sc.eu) : '—',
+      usCountTxt: ready ? String(sc.us) : '—',
+      caCountTxt: ready ? String(sc.ca) : '—',
+      trCountTxt: ready ? String(sc.tr) : '—',
+      dayLabel: isToday ? 'Bugünün kararları' : 'Seçili günün kararları',
+      dayDate: ready ? (day ? day.date_tr : (data.today_tr || 'Veri yok')) : '—',
+      dayCount: ready && day ? `${day.count} karar` : '',
+      prevDisabled: !data || s.dayIndex >= data.days.length-1,
+      nextDisabled: s.dayIndex <= 0,
+      showNote,
+      noteTodayTr: data ? (data.today_tr || '') : '',
+      noteDateTr: day ? day.date_tr : '',
+      footMeta: ready ? `${data.total_decisions||0} karar · ${data.total_days||0} gün arşiv · son güncelleme ${data.generated_at||''}` : '',
+      fieldRef: this.fieldRef,
+      onPrev: ()=>this.prev(),
+      onNext: ()=>this.next(),
+      onSky: ()=>this.scrollTo('sky'),
+      onInfo: ()=>this.scrollTo('info'),
+    };
+  }
+}
+</script>
+</body>
+</html>

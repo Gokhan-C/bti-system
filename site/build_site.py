@@ -46,6 +46,55 @@ EU_COUNTRY = {
 TR_MONTHS = ["Ocak", "Şubat", "Mart", "Nisan", "Mayıs", "Haziran",
              "Temmuz", "Ağustos", "Eylül", "Ekim", "Kasım", "Aralık"]
 
+# GitHub Pages tabanı (deep-link ve göreli TR URL'lerini mutlaklaştırmak için)
+PAGES_BASE = "https://gokhan-c.github.io/bti-system/"
+
+# RSS başlıklarında kaynak kısaltmaları
+SRC_SHORT = {"eu": "AB", "us": "ABD", "ca": "KAN", "tr": "TR"}
+
+# Fasıl (GTİP ilk 2 hane) → Türkçe ad. index.html'deki FASIL ile aynı.
+FASIL_TR = {
+    "01": "Canlı hayvanlar", "02": "Etler ve yenilen sakatat", "03": "Balıklar ve su ürünleri",
+    "04": "Süt ürünleri, yumurta, bal", "05": "Diğer hayvansal ürünler",
+    "06": "Canlı bitkiler ve çiçekler", "07": "Sebzeler", "08": "Meyveler ve kabuklu yemişler",
+    "09": "Kahve, çay, baharat", "10": "Hububat", "11": "Değirmencilik ürünleri",
+    "12": "Yağlı tohumlar", "13": "Bitkisel özsu ve hülasalar",
+    "14": "Örülmeye elverişli bitkisel ürünler", "15": "Hayvansal ve bitkisel yağlar",
+    "16": "Et ve balık müstahzarları", "17": "Şeker ve şeker mamulleri",
+    "18": "Kakao ve müstahzarları", "19": "Unlu mamuller", "20": "Sebze ve meyve müstahzarları",
+    "21": "Yenilen çeşitli gıda müstahzarları", "22": "İçecekler ve alkollü içkiler",
+    "23": "Gıda sanayii kalıntıları, hayvan yemleri", "24": "Tütün",
+    "25": "Tuz, kükürt, toprak ve taşlar", "26": "Metal cevherleri",
+    "27": "Mineral yakıtlar ve yağlar", "28": "Anorganik kimyasallar", "29": "Organik kimyasallar",
+    "30": "Eczacılık ürünleri", "31": "Gübreler", "32": "Boyalar, vernikler, mürekkepler",
+    "33": "Parfümeri ve kozmetik", "34": "Sabunlar, yıkama müstahzarları",
+    "35": "Albüminoid maddeler, tutkallar", "36": "Barut ve patlayıcılar",
+    "37": "Fotoğrafçılık ürünleri", "38": "Muhtelif kimyasal ürünler",
+    "39": "Plastikler ve mamulleri", "40": "Kauçuk ve mamulleri",
+    "41": "Ham postlar ve deriler", "42": "Deri eşya ve saraciye", "43": "Kürkler",
+    "44": "Ağaç ve ahşap eşya", "45": "Mantar", "46": "Hasırcılık ve sepetçilik eşyası",
+    "47": "Odun hamuru", "48": "Kâğıt ve karton", "49": "Basılı kitaplar, gazeteler",
+    "50": "İpek", "51": "Yapağı ve yün", "52": "Pamuk", "53": "Diğer bitkisel lifler",
+    "54": "Sentetik ve suni filamentler", "55": "Sentetik ve suni devamsız lifler",
+    "56": "Vatka, keçe, ipler ve halatlar", "57": "Halılar ve yer kaplamaları",
+    "58": "Özel dokunmuş mensucat", "59": "Emdirilmiş, kaplanmış mensucat", "60": "Örme eşya",
+    "61": "Örme giyim eşyası", "62": "Örülmemiş giyim eşyası",
+    "63": "Diğer hazır eşya, kullanılmış giysiler", "64": "Ayakkabılar", "65": "Başlıklar",
+    "66": "Şemsiyeler ve bastonlar", "67": "Kuş tüyü ve yapma çiçekler",
+    "68": "Taş, alçı, çimentodan eşya", "69": "Seramik mamulleri", "70": "Cam ve cam eşya",
+    "71": "Kıymetli taşlar ve mücevherat", "72": "Demir ve çelik", "73": "Demir veya çelikten eşya",
+    "74": "Bakır ve mamulleri", "75": "Nikel ve mamulleri", "76": "Alüminyum ve mamulleri",
+    "78": "Kurşun ve mamulleri", "79": "Çinko ve mamulleri", "80": "Kalay ve mamulleri",
+    "81": "Diğer adi metaller", "82": "Adi metallerden aletler",
+    "83": "Adi metallerden çeşitli eşya", "84": "Makineler ve mekanik cihazlar",
+    "85": "Elektrikli makine ve cihazlar", "86": "Demiryolu taşıtları",
+    "87": "Motorlu kara taşıtları", "88": "Hava taşıtları", "89": "Gemiler ve suda yüzen taşıtlar",
+    "90": "Optik, ölçü ve tıbbi cihazlar", "91": "Saatler", "92": "Müzik aletleri",
+    "93": "Silahlar ve mühimmat", "94": "Mobilyalar ve aydınlatma cihazları",
+    "95": "Oyuncaklar ve spor malzemeleri", "96": "Çeşitli mamul eşya",
+    "97": "Sanat eserleri ve antikalar",
+}
+
 
 def hs4(code: str) -> str:
     """GTİP kodundan ilk 4 hane (sadece rakamlar)."""
@@ -308,6 +357,234 @@ def write_tr_detail_pages():
     return count
 
 
+def compute_extras(days):
+    """Tüm arşivden kaynak sayıları ve arşivde geçen fasıl (2 haneli) kodları."""
+    source_counts = {"eu": 0, "us": 0, "ca": 0, "tr": 0}
+    chapters = set()
+    for day in days:
+        for d in day.get("decisions", []):
+            s = d.get("source")
+            if s in source_counts:
+                source_counts[s] += 1
+            ch = str(d.get("hs4", "") or "")[:2]
+            if ch:
+                chapters.add(ch)
+    return source_counts, sorted(chapters)
+
+
+def write_split_data(payload, out_dir):
+    """Yeni mimari: özet index.json + gün başına ayrı JSON.
+
+    - data/index.json  → kararlar OLMADAN özet (her ziyaretçi bunu indirir)
+    - data/days/<date>.json → o günün tam karar listesi (talep üzerine indirilir)
+
+    Ziyaretçi açılışta yalnızca index.json + en son günü indirir; arşivin tamamı
+    (~1.5 MB) yalnız arama/filtre yapılınca yüklenir.
+    """
+    data_dir = os.path.join(out_dir, "data")
+    days_dir = os.path.join(data_dir, "days")
+    os.makedirs(days_dir, exist_ok=True)
+
+    index = {
+        "generated_at": payload["generated_at"],
+        "today": payload["today"],
+        "today_tr": payload["today_tr"],
+        "latest_date": payload["latest_date"],
+        "latest_is_today": payload["latest_is_today"],
+        "total_decisions": payload["total_decisions"],
+        "total_days": payload["total_days"],
+        "source_counts": payload["source_counts"],
+        "chapters": payload["chapters"],
+        "days": [
+            {"date": d["date"], "date_tr": d["date_tr"],
+             "count": d["count"], "sources": d["sources"]}
+            for d in payload["days"]
+        ],
+    }
+    with open(os.path.join(data_dir, "index.json"), "w", encoding="utf-8") as fp:
+        json.dump(index, fp, ensure_ascii=False, separators=(",", ":"))
+
+    current = set()
+    for day in payload["days"]:
+        current.add(day["date"])
+        with open(os.path.join(days_dir, f"{day['date']}.json"), "w", encoding="utf-8") as fp:
+            json.dump(day, fp, ensure_ascii=False, separators=(",", ":"))
+
+    # Arşivden düşmüş eski gün dosyalarını temizle (index.json onları listelemez).
+    for stale in glob.glob(os.path.join(days_dir, "*.json")):
+        name = os.path.splitext(os.path.basename(stale))[0]
+        if name not in current:
+            try:
+                os.remove(stale)
+            except OSError:
+                pass
+
+    return data_dir
+
+
+def build_payload(days):
+    """days listesinden tam BTI_DATA yükünü (özet alanlar dahil) kurar."""
+    total = sum(d["count"] for d in days)
+    today_iso = datetime.now().strftime("%Y-%m-%d")
+    latest_iso = days[0]["date"] if days else None
+    source_counts, chapters = compute_extras(days)
+    return {
+        "generated_at": datetime.now().strftime("%Y-%m-%d %H:%M"),
+        "today": today_iso,
+        "today_tr": fmt_date_tr(today_iso),
+        "latest_date": latest_iso,
+        "latest_is_today": (latest_iso == today_iso),
+        "total_decisions": total,
+        "total_days": len(days),
+        "source_counts": source_counts,
+        "chapters": chapters,
+        "days": days,
+    }
+
+
+def write_data_js(payload, out_dir):
+    """GERİYE UYUMLULUK: dashboard.html hâlâ window.BTI_DATA'yı kullanıyor;
+    index.html ise fetch başarısız olursa (file://) buna fallback yapar."""
+    out = os.path.join(out_dir, "data.js")
+    with open(out, "w", encoding="utf-8") as fp:
+        fp.write("window.BTI_DATA = ")
+        json.dump(payload, fp, ensure_ascii=False, indent=1)
+        fp.write(";\n")
+    return out
+
+
+FASIL_FEEDS = ["28", "29", "39", "84", "85"]  # kimya + makine fasılları
+FEED_DAYS = 14        # ana feed: son kaç gün
+FASIL_FEED_ITEMS = 60  # fasıl feed'i: en yeni kaç karar
+
+
+def _rfc822(iso):
+    """'2026-07-02' → RFC-822 tarih (RSS pubDate için)."""
+    from email.utils import formatdate
+    import time
+    try:
+        dt = datetime.strptime(iso, "%Y-%m-%d")
+        return formatdate(time.mktime(dt.timetuple()))
+    except Exception:
+        return formatdate()
+
+
+def _abs_url(u):
+    """Göreli TR URL'sini (tr/xxx.html) GitHub Pages tabanıyla mutlaklaştırır."""
+    u = (u or "").strip()
+    if not u:
+        return PAGES_BASE
+    if u.startswith("http://") or u.startswith("https://"):
+        return u
+    return PAGES_BASE + u.lstrip("/")
+
+
+def _rss_channel(title, link, self_url, description, items):
+    """Bir RSS 2.0 belgesi (string) kurar. items: hazır <item> stringleri listesi."""
+    from xml.sax.saxutils import escape
+    from email.utils import formatdate
+    head = (
+        '<?xml version="1.0" encoding="UTF-8"?>\n'
+        '<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">\n'
+        '<channel>\n'
+        '<title>' + escape(title) + '</title>\n'
+        '<link>' + escape(link) + '</link>\n'
+        '<atom:link href="' + escape(self_url) + '" rel="self" type="application/rss+xml"/>\n'
+        '<description>' + escape(description) + '</description>\n'
+        '<language>tr</language>\n'
+        '<lastBuildDate>' + formatdate() + '</lastBuildDate>\n'
+    )
+    return head + "".join(items) + '</channel>\n</rss>\n'
+
+
+def _item(title, link, guid, pubdate, description):
+    from xml.sax.saxutils import escape
+    return (
+        '<item>\n'
+        '<title>' + escape(title) + '</title>\n'
+        '<link>' + escape(link) + '</link>\n'
+        '<guid isPermaLink="false">' + escape(guid) + '</guid>\n'
+        '<pubDate>' + escape(pubdate) + '</pubDate>\n'
+        '<description>' + escape(description) + '</description>\n'
+        '</item>\n'
+    )
+
+
+def write_feeds(days, out_dir):
+    """RSS çıktıları: ana feed (son 14 gün, gün başına item) + fasıl feed'leri."""
+    written = []
+
+    # --- ana feed: son 14 günün her günü bir item ---
+    items = []
+    for day in days[:FEED_DAYS]:
+        decs = day.get("decisions", [])
+        # kaynak dağılımı: "AB 98 · TR 5"
+        src_ct = {}
+        ch_ct = defaultdict(int)
+        for d in decs:
+            src_ct[d["source"]] = src_ct.get(d["source"], 0) + 1
+            ch = str(d.get("hs4", "") or "")[:2]
+            if ch:
+                ch_ct[ch] += 1
+        parts = [f"{SRC_SHORT[s]} {src_ct[s]}" for s in ("eu", "us", "ca", "tr") if src_ct.get(s)]
+        src_str = (" (" + " · ".join(parts) + ")") if parts else ""
+        title = f"{day['date_tr']} — {day['count']} yeni tarife kararı{src_str}"
+        # açıklama: en çok karar çıkan 5 fasıl
+        top = sorted(ch_ct.items(), key=lambda kv: (-kv[1], kv[0]))[:5]
+        top_str = " · ".join(
+            f"{ch} {FASIL_TR.get(ch, '')} ({n})".strip() for ch, n in top
+        )
+        desc = ("En çok karar çıkan fasıllar: " + top_str) if top_str else "Bu gün karar çıkmadı."
+        link = PAGES_BASE + "#g=" + day["date"]
+        items.append(_item(title, link, link, _rfc822(day["date"]), desc))
+
+    doc = _rss_channel(
+        "GTİP Bulutları — günlük tarife kararları",
+        PAGES_BASE, PAGES_BASE + "feed.xml",
+        "AB, ABD, Kanada ve Türkiye bağlayıcı tarife kararlarının günlük özeti.",
+        items,
+    )
+    path = os.path.join(out_dir, "feed.xml")
+    with open(path, "w", encoding="utf-8") as fp:
+        fp.write(doc)
+    written.append(path)
+
+    # --- fasıl feed'leri: karar başına item, en yeni FASIL_FEED_ITEMS karar ---
+    for ch in FASIL_FEEDS:
+        rows = []
+        for day in days:  # days zaten tarih azalan sırada
+            for d in day.get("decisions", []):
+                if str(d.get("hs4", "") or "")[:2] == ch:
+                    rows.append((day, d))
+        rows = rows[:FASIL_FEED_ITEMS]
+        items = []
+        for day, d in rows:
+            hs = d.get("hs") or d.get("hs4") or ""
+            desc_txt = d.get("title") or d.get("gerekce") or ""
+            title = (f"{hs} — {desc_txt}").strip(" —")[:110] or hs
+            src = SRC_SHORT.get(d["source"], d["source"])
+            link = _abs_url(d.get("url"))
+            guid = (d.get("ref") or link) + "|" + ch
+            body = f"[{src}] {d.get('source_label','')} · {day['date_tr']}"
+            if d.get("gerekce"):
+                body += " — " + d["gerekce"]
+            items.append(_item(title, link, guid, _rfc822(d.get("date") or day["date"]), body))
+
+        fname = f"feed-fasil-{ch}.xml"
+        doc = _rss_channel(
+            f"GTİP Bulutları — Fasıl {ch} {FASIL_TR.get(ch, '')}".strip(),
+            PAGES_BASE + "#f=" + ch, PAGES_BASE + fname,
+            f"Fasıl {ch} ({FASIL_TR.get(ch, '')}) altındaki yeni tarife kararları.",
+            items,
+        )
+        path = os.path.join(out_dir, fname)
+        with open(path, "w", encoding="utf-8") as fp:
+            fp.write(doc)
+        written.append(path)
+
+    return written
+
+
 def main():
     tr_pages = write_tr_detail_pages()
     by_date = collect()
@@ -323,27 +600,19 @@ def main():
             "decisions": decs,
         })
 
-    total = sum(d["count"] for d in days)
-    today_iso = datetime.now().strftime("%Y-%m-%d")
-    latest_iso = days[0]["date"] if days else None
-    payload = {
-        "generated_at": datetime.now().strftime("%Y-%m-%d %H:%M"),
-        "today": today_iso,
-        "today_tr": fmt_date_tr(today_iso),
-        "latest_date": latest_iso,
-        "latest_is_today": (latest_iso == today_iso),
-        "total_decisions": total,
-        "total_days": len(days),
-        "days": days,
-    }
+    payload = build_payload(days)
 
-    out = os.path.join(OUT_DIR, "data.js")
-    with open(out, "w", encoding="utf-8") as fp:
-        fp.write("window.BTI_DATA = ")
-        json.dump(payload, fp, ensure_ascii=False, indent=1)
-        fp.write(";\n")
+    # Yeni mimari: özet + gün başına JSON
+    data_dir = write_split_data(payload, OUT_DIR)
+    # Geriye uyumluluk: dashboard.html ve file:// fallback için tam data.js
+    out = write_data_js(payload, OUT_DIR)
+    # RSS çıktıları (ana feed + fasıl feed'leri)
+    feeds = write_feeds(days, OUT_DIR)
 
+    total = payload["total_decisions"]
     print(f"✓ {total} karar, {len(days)} gün → {out}")
+    print(f"  Bölünmüş veri: {data_dir}/index.json + {len(days)} gün dosyası")
+    print(f"  RSS: {len(feeds)} feed ({', '.join(os.path.basename(f) for f in feeds)})")
     if tr_pages:
         print(f"  TR detay sayfaları: {tr_pages} → {os.path.join(OUT_DIR, 'tr')}/")
     if days:

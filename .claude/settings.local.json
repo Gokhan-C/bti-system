@@ -5,7 +5,19 @@
       "Bash(lsof -nP -iTCP:8780 -sTCP:LISTEN)",
       "Read(//Users/gokhancankaya/BTI_Reports/**)",
       "Bash(git add *)",
-      "Bash(git commit -q -m ' *)"
+      "Bash(git commit -q -m ' *)",
+      "Bash(curl -s -o /dev/null -w \"HTTP %{http_code}  \\(%{size_download} bytes\\)\\\\n\" http://localhost:8780/)",
+      "Bash(curl -s -o /dev/null -w \"data.js: HTTP %{http_code}  \\(%{size_download} bytes\\)\\\\n\" http://localhost:8780/data.js)",
+      "Bash(git commit *)",
+      "Bash(git subtree *)",
+      "Bash(python3 *)",
+      "Bash(git fetch *)",
+      "Bash(curl -s https://gokhan-c.github.io/bti-system/data.js)",
+      "Bash(bash -n daily_update.sh)",
+      "Bash(ps -o pid,ppid,etime,command -ax)",
+      "Bash(awk '$2==13236')",
+      "Bash(/Library/Frameworks/Python.framework/Versions/3.12/bin/python3 *)",
+      "Bash(grep -o '\"2026-07-01\"[^}]\\\\{0,80\\\\}' site/data.js)"
     ]
   }
 }
