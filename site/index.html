@@ -165,7 +165,7 @@
 
   <span class="badge"><i></i><span id="badgeTxt">her gün otomatik güncellenir</span></span>
   <h1 class="disp">Dünyanın tarife kararları,<br>her gün gökyüzünde.</h1>
-  <p class="sub">Avrupa Birliği, Amerika, Kanada ve Türkiye gümrük idarelerinin yayımladığı bağlayıcı tarife (BTI / BTB / GTİP) sınıflandırma kararlarını tek ekranda topluyoruz. Bir buluta dokun, kararın detayını gör, orijinal kaynağına uç.</p>
+  <p class="sub">Avrupa Birliği, Amerika, Kanada ve Türkiye gümrük idarelerinin yayımladığı bağlayıcı tarife sınıflandırma kararlarını tek ekranda topluyoruz. Bir buluta dokun, kararın detayını gör, orijinal kaynağına uç.</p>
 
   <div class="stats" id="statCards"></div>
 
@@ -182,7 +182,7 @@
   <div class="eyebrow">Bu site ne yapıyor</div>
   <h2 class="disp">Dört idarenin tarife kararları, tek bir gökyüzünde</h2>
   <div class="grid4">
-    <div class="icard"><div class="n">01</div><h3>4 ülke, tek ekran</h3><p>AB (EBTI), ABD (CBP CROSS), Kanada (CBSA) ve Türkiye (BTB) kararları her gün otomatik toplanır.</p></div>
+    <div class="icard"><div class="n">01</div><h3>4 idare, tek ekran</h3><p>AB (EBTI), ABD (CBP CROSS), Kanada (CBSA) ve Türkiye (BTB) kararları her gün otomatik toplanır.</p></div>
     <div class="icard"><div class="n">02</div><h3>Arşivde ara</h3><p>GTİP kodu, referans numarası veya ürün adıyla tüm arşivde arama yap; fasıl ve ülke filtrele.</p></div>
     <div class="icard"><div class="n">03</div><h3>Detay ve kaynak</h3><p>Bir karara dokun: ürün tanımı ve sınıflandırma gerekçesini gör, resmi kaynağa tek tıkla git.</p></div>
     <div class="icard"><div class="n">04</div><h3>Bulut veya liste</h3><p>Günü gökyüzünde keşfet ya da liste görünümüne geçip kararları fasıl fasıl tara.</p></div>
@@ -207,7 +207,7 @@
     <div class="wrap toolrow">
       <label class="search">
         <span aria-hidden="true">🔎</span>
-        <input id="q" type="search" placeholder="GTİP, referans veya ürün ara… (örn. 8471, peynir)" aria-label="Arşivde ara">
+        <input id="q" type="search" placeholder="GTİP veya referans ara… (örn. 8471)" aria-label="Arşivde ara">
         <button class="clr" id="qClr" aria-label="Aramayı temizle">✕</button>
       </label>
       <div class="chips" id="chips" role="group" aria-label="Kaynak filtresi"></div>
@@ -257,10 +257,10 @@
 (function(){
   'use strict';
   var SRC = {
-    eu:{name:'Avrupa Birliği', short:'AB',  sys:'EBTI',      color:'#2f6bdf', tint:'#ffffff'},
-    us:{name:'Amerika',        short:'ABD', sys:'CBP CROSS', color:'#d07d2a', tint:'#fffaf2'},
-    ca:{name:'Kanada',         short:'KAN', sys:'CBSA',      color:'#169b8b', tint:'#f3fbfa'},
-    tr:{name:'Türkiye',        short:'TR',  sys:'BTB',       color:'#e30a17', tint:'#fff4f4'}
+    eu:{name:'Avrupa Birliği', short:'AB',  flag:'🇪🇺', sys:'EBTI',      color:'#2f6bdf', tint:'#ffffff'},
+    us:{name:'Amerika',        short:'ABD', flag:'🇺🇸', sys:'CBP CROSS', color:'#d07d2a', tint:'#fffaf2'},
+    ca:{name:'Kanada',         short:'CAN', flag:'🇨🇦', sys:'CBSA',      color:'#169b8b', tint:'#f3fbfa'},
+    tr:{name:'Türkiye',        short:'TR',  flag:'🇹🇷', sys:'BTB',       color:'#e30a17', tint:'#fff4f4'}
   };
   var FASIL = {
     '01':'Canlı hayvanlar','02':'Etler ve yenilen sakatat','03':'Balıklar ve su ürünleri','04':'Süt ürünleri, yumurta, bal','05':'Diğer hayvansal ürünler',
@@ -646,7 +646,7 @@
     // hero istatistik kartları
     $('statCards').innerHTML = ['eu','us','ca','tr'].map(function(k){
       var s = SRC[k];
-      return '<div class="stat"><div class="nm"><i style="background:'+s.color+'"></i>'+s.name+'</div>'+
+      return '<div class="stat"><div class="nm"><i style="background:'+s.color+'"></i>'+(s.flag?s.flag+' ':'')+s.name+'</div>'+
         '<div class="v" style="color:'+s.color+'">'+(sc[k]||0)+'</div>'+
         '<div class="k">'+s.sys+' · arşivdeki karar</div></div>';
     }).join('');
@@ -660,7 +660,7 @@
       var b = document.createElement('button');
       b.className = 'chip'; b.style.setProperty('--c', s.color);
       b.setAttribute('aria-pressed', 'true');
-      b.innerHTML = '<i></i>'+s.short;
+      b.innerHTML = '<i></i>'+(s.flag?s.flag+' ':'')+s.short;
       b.title = s.name;
       b.addEventListener('click', function(){
         S.src[k] = !S.src[k];

@@ -50,7 +50,7 @@ TR_MONTHS = ["Ocak", "Şubat", "Mart", "Nisan", "Mayıs", "Haziran",
 PAGES_BASE = "https://gokhan-c.github.io/bti-system/"
 
 # RSS başlıklarında kaynak kısaltmaları
-SRC_SHORT = {"eu": "AB", "us": "ABD", "ca": "KAN", "tr": "TR"}
+SRC_SHORT = {"eu": "AB", "us": "ABD", "ca": "CAN", "tr": "TR"}
 
 # Fasıl (GTİP ilk 2 hane) → Türkçe ad. index.html'deki FASIL ile aynı.
 FASIL_TR = {
