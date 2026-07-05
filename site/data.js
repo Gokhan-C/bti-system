@@ -1,12 +1,214 @@
 window.BTI_DATA = {
- "generated_at": "2026-07-04 11:09",
- "today": "2026-07-04",
- "today_tr": "4 Temmuz 2026",
- "latest_date": "2026-07-03",
+ "generated_at": "2026-07-05 10:39",
+ "today": "2026-07-05",
+ "today_tr": "5 Temmuz 2026",
+ "latest_date": "2026-07-04",
  "latest_is_today": false,
- "total_decisions": 1719,
- "total_days": 73,
+ "total_decisions": 1729,
+ "total_days": 74,
+ "source_counts": {
+  "eu": 1432,
+  "us": 74,
+  "ca": 1,
+  "tr": 222
+ },
+ "chapters": [
+  "04",
+  "05",
+  "06",
+  "09",
+  "12",
+  "13",
+  "14",
+  "15",
+  "16",
+  "17",
+  "18",
+  "19",
+  "20",
+  "21",
+  "22",
+  "23",
+  "25",
+  "27",
+  "28",
+  "29",
+  "30",
+  "32",
+  "33",
+  "34",
+  "35",
+  "38",
+  "39",
+  "40",
+  "42",
+  "43",
+  "44",
+  "46",
+  "48",
+  "49",
+  "54",
+  "56",
+  "57",
+  "58",
+  "59",
+  "60",
+  "61",
+  "62",
+  "63",
+  "64",
+  "65",
+  "66",
+  "67",
+  "68",
+  "69",
+  "70",
+  "71",
+  "72",
+  "73",
+  "74",
+  "75",
+  "76",
+  "79",
+  "81",
+  "82",
+  "83",
+  "84",
+  "85",
+  "87",
+  "88",
+  "89",
+  "90",
+  "91",
+  "94",
+  "95",
+  "96",
+  "97",
+  "98"
+ ],
  "days": [
+  {
+   "date": "2026-07-04",
+   "date_tr": "4 Temmuz 2026",
+   "count": 8,
+   "sources": [
+    "eu"
+   ],
+   "decisions": [
+    {
+     "source": "eu",
+     "source_label": "Avrupa Birliği (EBTI)",
+     "color": "#2E6BE6",
+     "flag": "🇳🇱",
+     "origin": "Hollanda",
+     "hs": "84714100",
+     "hs4": "8471",
+     "ref": "NLBTI2026-0191",
+     "date": "2026-07-04",
+     "title": "Een zogenoemde interactieve monitor met -volgens opgave- onder andere de volgende kenmerken en samenstelling:- een interactief touchscreen voor gebruik in (grote) klaslokalen;- voor educatieve doeleinden en videoconferenties;- om te werken met applicaties (apps) en de resultaten …",
+     "gerekce": "De algemene regels 1 en 6 voor de interpretatie van de gecombineerde nomenclatuur.Aantekening 6 letter A op hoofdstuk 84.Tarifering IDR 8471.41/1 (PbEU C 26 oktober 2023)Het product combineert de functies van een elektro…",
+     "url": "https://ec.europa.eu/taxation_customs/dds2/ebti/ebti_details.jsp?showHeader=false&Lang=en&reference=NLBTI2026-0191"
+    },
+    {
+     "source": "eu",
+     "source_label": "Avrupa Birliği (EBTI)",
+     "color": "#2E6BE6",
+     "flag": "🇳🇱",
+     "origin": "Hollanda",
+     "hs": "20041099",
+     "hs4": "2004",
+     "ref": "NLBTI2026-0137",
+     "date": "2026-07-04",
+     "title": "-beyana göre- aşağıdaki nitelik ve özelliklere sahip bir patates graten:- insan tüketimi için hazırlanmış;- derin dondurulmuş;- patates;- krema;- süt, maya kültürü, tuz ve mikrobiyel peynir mayası içeren Emmentaler peyniri;- patates nişastası;- tuz;- stabilizatör;- doğal sarımsak…",
+     "gerekce": "Kombine nomanklatürün yorumlanmasına ilişkin 1, 2b, 3b ve 6 numaralı genel kurallar. 20. fasıla ilişkin 3 numaralı not. 20. fasıla ilişkin ek not (KN) 2. Armonize Sistem'in 20.04 pozisyonuna ilişkin açıklama notu. 2004, …",
+     "url": "https://ec.europa.eu/taxation_customs/dds2/ebti/ebti_details.jsp?showHeader=false&Lang=en&reference=NLBTI2026-0137"
+    },
+    {
+     "source": "eu",
+     "source_label": "Avrupa Birliği (EBTI)",
+     "color": "#2E6BE6",
+     "flag": "🇳🇱",
+     "origin": "Hollanda",
+     "hs": "84714100",
+     "hs4": "8471",
+     "ref": "NLBTI2026-0192",
+     "date": "2026-07-04",
+     "title": "Sözde etkileşimli bir monitör; -beyana göre- diğerlerinin yanı sıra aşağıdaki özelliklere ve bileşime sahiptir:- (büyük) sınıflarda kullanım için etkileşimli bir dokunmatik ekran;- eğitim amaçları ve video konferanslar için;- uygulamalarla (app) çalışmak ve bunların işlemlerinin …",
+     "gerekce": "Kombine nomenklatürün yorumlanmasına ilişkin 1, 5b ve 6 numaralı genel kurallar.84. fasıla ilişkin 6 numaralı not, A harfi.Sınıflandırma IDR 8471.41/1 (PbEU/AB Resmi Gazetesi 26 Ekim 2023).Ürün, bir elektronik beyaz taht…",
+     "url": "https://ec.europa.eu/taxation_customs/dds2/ebti/ebti_details.jsp?showHeader=false&Lang=en&reference=NLBTI2026-0192"
+    },
+    {
+     "source": "eu",
+     "source_label": "Avrupa Birliği (EBTI)",
+     "color": "#2E6BE6",
+     "flag": "🇳🇱",
+     "origin": "Hollanda",
+     "hs": "21069092",
+     "hs4": "2106",
+     "ref": "NLBTI2026-0173",
+     "date": "2026-07-04",
+     "title": "-beyana göre- diğerlerinin yanı sıra aşağıdaki özellikleri ve içerikleri taşıyan bir gıda takviyesi:- pembe tablet görünümünde;- biotin;- kolajen;- C vitamini;- üzüm çekirdeği ekstraktı;- L-sistein;- glisin;- atkuyruğu (equisetum) ekstraktı;- dikalsiyum fosfat;- maltodekstrin;- s…",
+     "gerekce": "Kombine Nomanklatür'ün yorumlanmasına ilişkin 1 ve 6 numaralı genel kurallar. 21. fasıla ilişkin ek not (KN) 5. Ürün, KN alt pozisyonu 2106 90 92 kapsamında belirtildiği üzere, başka yerde belirtilmeyen veya yer almayan,…",
+     "url": "https://ec.europa.eu/taxation_customs/dds2/ebti/ebti_details.jsp?showHeader=false&Lang=en&reference=NLBTI2026-0173"
+    },
+    {
+     "source": "eu",
+     "source_label": "Avrupa Birliği (EBTI)",
+     "color": "#2E6BE6",
+     "flag": "🇳🇱",
+     "origin": "Hollanda",
+     "hs": "20041099",
+     "hs4": "2004",
+     "ref": "NLBTI2026-0136",
+     "date": "2026-07-04",
+     "title": "Aşağıdaki -beyana göre- özelliklere ve niteliklere sahip bir patates graten (aardappelgratin):- insan tüketimi için hazırlanmış;- derin dondurulmuş;- patatesler;- krema;- süt, mayalık (zuursel/starter kültür), tuz ve mikrobiyal peynir mayası içeren Emmentaler peyniri;- patates ni…",
+     "gerekce": "Kombine nomenklatürün yorumlanmasına ilişkin 1, 2b, 3b ve 6 numaralı genel kurallar. Fasıl 20'ye ilişkin 3 numaralı not. Fasıl 20'ye ilişkin (KN/GN) 2 numaralı ek not. 20.04 pozisyonuna ilişkin Armonize Sistem açıklama n…",
+     "url": "https://ec.europa.eu/taxation_customs/dds2/ebti/ebti_details.jsp?showHeader=false&Lang=en&reference=NLBTI2026-0136"
+    },
+    {
+     "source": "eu",
+     "source_label": "Avrupa Birliği (EBTI)",
+     "color": "#2E6BE6",
+     "flag": "🇳🇱",
+     "origin": "Hollanda",
+     "hs": "84714100",
+     "hs4": "8471",
+     "ref": "NLBTI2026-0193",
+     "date": "2026-07-04",
+     "title": "Sözde interaktif bir monitör; -beyana göre- diğerlerinin yanı sıra aşağıdaki özelliklere ve bileşime sahiptir:- (büyük) sınıflarda kullanım için interaktif bir dokunmatik ekran;- eğitim amaçları ve video konferanslar için;- uygulamalarla (app) çalışmak ve bunların işlemlerinin so…",
+     "gerekce": "Kombine nomenklatürün yorumlanmasına ilişkin 1, 5b ve 6 numaralı genel kurallar.84. fasıla ilişkin 6 numaralı A harfli not.Sınıflandırma IDR 8471.41/1 (PbEU 26 Ekim 2023).Ürün, elektronik beyaz tahta, konferans terminali…",
+     "url": "https://ec.europa.eu/taxation_customs/dds2/ebti/ebti_details.jsp?showHeader=false&Lang=en&reference=NLBTI2026-0193"
+    },
+    {
+     "source": "eu",
+     "source_label": "Avrupa Birliği (EBTI)",
+     "color": "#2E6BE6",
+     "flag": "🇳🇱",
+     "origin": "Hollanda",
+     "hs": "21069092",
+     "hs4": "2106",
+     "ref": "NLBTI2026-0172",
+     "date": "2026-07-04",
+     "title": "-beyana göre- diğerlerinin yanı sıra aşağıdaki özellik ve içeriklere sahip bir gıda takviyesi:- beyaz toz görünümünde;- 250 ml ila 375 ml suda veya meyve suyunda çözülür ya da yemeklerin üzerine serpilir;- dirençli maltodekstrin;- hindiba kökünden elde edilen inülin;- hidrolize g…",
+     "gerekce": "Kombine nomenklatürün yorumlanmasına ilişkin 1 ve 6 numaralı genel kurallar. Ürün, 2106 90 92 KN alt pozisyonunda belirtildiği şekilde, başka yerde adı geçmeyen veya başka yerde yer almayan insan tüketimine yönelik bir ü…",
+     "url": "https://ec.europa.eu/taxation_customs/dds2/ebti/ebti_details.jsp?showHeader=false&Lang=en&reference=NLBTI2026-0172"
+    },
+    {
+     "source": "eu",
+     "source_label": "Avrupa Birliği (EBTI)",
+     "color": "#2E6BE6",
+     "flag": "🇳🇱",
+     "origin": "Hollanda",
+     "hs": "20041099",
+     "hs4": "2004",
+     "ref": "NLBTI2026-0138",
+     "date": "2026-07-04",
+     "title": "-Beyana göre- aşağıdaki özellik ve nitelikleri taşıyan bir patates graten:- insan tüketimi için hazırlanmış;- derin dondurulmuş;- patates;- krema;- süt, maya kültürü, tuz ve mikrobiyal peynir mayası içeren Emmentaler peyniri;- patates nişastası;- tuz;- stabilizatör;- doğal sarıms…",
+     "gerekce": "Kombine nomenklatürün yorumlanmasına ilişkin 1, 2b, 3b ve 6 sayılı genel kurallar. Fasıl 20 üzerine 3 sayılı not. Fasıl 20 üzerine ek not (KN) 2. Armonize Sistem'in 20.04 pozisyonuna ilişkin açıklama notu. 2004, 2004 10 …",
+     "url": "https://ec.europa.eu/taxation_customs/dds2/ebti/ebti_details.jsp?showHeader=false&Lang=en&reference=NLBTI2026-0138"
+    }
+   ]
+  },
   {
    "date": "2026-07-03",
    "date_tr": "3 Temmuz 2026",
@@ -39,8 +241,8 @@ window.BTI_DATA = {
      "hs4": "2106",
      "ref": "NLBTI2026-0170",
      "date": "2026-07-03",
-     "title": "-Beyana göre- diğerlerinin yanı sıra aşağıdaki özelliklere ve içeriklere sahip bir besin takviyesi:- beyaz oval tablet biçiminde;- kalsiyum karbonat;- magnezyum;- D3 vitamini;- mikrokristalin selüloz;- maltodekstrin;- selüloz sakızı (selüloz gam);- hidroksipropilmetilselüloz;- silisyum diok…",
-     "gerekce": "Kombine nomenklatürün yorumlanmasına ilişkin 1 ve 6 numaralı genel kurallar. Fasıl 21'e ilişkin 5 numaralı ek not (KN/GN). Ürün, başka yerde belirtilmeyen (noc…) insan tüketimine yönelik bir ürün olarak değerlendirilmektedir.",
+     "title": "Een voedingssupplement met -volgens opgave- onder meer de volgende kenmerken en ingrediënten:- in de vorm van een wit ovaal tablet;- calciumcarbonaat;- magnesium;- vitamine D3;- microkristallijne cellulose;- maltodextrine;- cellulosegom;- hydroxypropylmethylcellulose;- siliciumdi…",
+     "gerekce": "De algemene regels 1 en 6 voor de interpretatie van de gecombineerde nomenclatuur.Aanvullende aantekening (GN) 5 op hoofdstuk 21.Het product wordt aangemerkt als een product voor menselijke consumptie, elders genoemd noc…",
      "url": "https://ec.europa.eu/taxation_customs/dds2/ebti/ebti_details.jsp?showHeader=false&Lang=en&reference=NLBTI2026-0170"
     },
     {
@@ -53,8 +255,8 @@ window.BTI_DATA = {
      "hs4": "8504",
      "ref": "BEBTIDT.50.023.832",
      "date": "2026-07-03",
-     "title": "Bir USB şarj adaptörü, bir USB-C kablo ve bir güç kaynağı (power supply) adaptöründen oluşan bir set söz konusudur. USB şarj adaptörü çift yönlü bir şarj fonksiyonuna (şarj etme/deşarj etme) sahiptir ve ayrıca çeşitli USB portlarıyla donatılmıştır. Cihaz bir USB-A (5V çıkışlı) ve USB…",
-     "gerekce": "Sınıflandırma, kombine nomenklatürün yorumlanmasına ilişkin 1, 3b) ve 6 numaralı genel kurallar temelinde ve 8504 pozisyonu, 8504 40 GS-kodu, 8504 40 95 GN-kodu (KN-kodu) ve 8504 40 95 90 TARIC-kodu temelinde belirlenmiştir.",
+     "title": "Het betreft een set bestaande uit een USB-laadadapter, een USB-C kabel en een power supply adapter.De USB-laadadapter heeft een bidirectionele laadfunctie (laden/ontladen) en is tevens uitgerust met diverse USB-poorten. Het toestel is voorzien van een USB-A (output van 5V) en USB…",
+     "gerekce": "De indeling is vastgesteld op basis van de algemene regels 1, 3b) en 6 voor de interpretatie van de gecombineerde nomenclatuur, en op basis van post 8504, GS-code 8504 40, GN-code 8504 40 95 en TARIC-code 8504 40 95 90.G…",
      "url": "https://ec.europa.eu/taxation_customs/dds2/ebti/ebti_details.jsp?showHeader=false&Lang=en&reference=BEBTIDT.50.023.832"
     },
     {
@@ -67,8 +269,8 @@ window.BTI_DATA = {
      "hs4": "6912",
      "ref": "ATBTI2026000136-DEC",
      "date": "2026-07-03",
-     "title": "Tuz ve biber öğütücüsü/serpme kabı biçiminde (2 parçalı takım) başka seramik ev eşyası; her biri yaklaşık 30 ml hacme ve yaklaşık 0,56 kg ağırlığa sahip, neredeyse silindir biçimindeki 2 kaptan oluşan, ahşap ve alüminyumdan bir gövde içinde işlenmiş, donatılmış…",
-     "gerekce": "Kombine Nomanklatürün yorumlanmasına ilişkin genel kurallar (AV) 1, 3b ve 6; 69. Fasıl'a ait 1 numaralı Not; 82. Fasıl'a ait 1 numaralı Not (uygulanmaz); Komisyon'un 15.4.2004 tarihli 729/2004 sayılı (AT) Tüzüğü, 2. madde; Açıkla…",
+     "title": "Andere keramische Haushaltsware, in Form eines Salz- und Pfefferstreuers (2-teiliges Set), bestehend aus 2 nahezu zylinderförmigen Gefäßen- mit je einem Fassungsvermögen von ca. 30ml und einem Gewicht von ca. 0,56 kg,- gearbeitet aus einem Gehäuse aus Holz und Aluminium,- bestück…",
+     "gerekce": "Allgemeine Vorschriften für die Auslegung der Kombinierten Nomenklatur (AV) 1, 3b und 6;Anmerkung 1 zu Kapitel 69;Anmerkung 1 zu Kapitel 82 (trifft nicht zu);VO (EG) Nr. 729/2004 d. Kommission vom 15.4.2004, Punkt 2;Erlä…",
      "url": "https://ec.europa.eu/taxation_customs/dds2/ebti/ebti_details.jsp?showHeader=false&Lang=en&reference=ATBTI2026000136-DEC"
     },
     {
@@ -81,8 +283,8 @@ window.BTI_DATA = {
      "hs4": "4420",
      "ref": "ATBTI2026000142-DEC",
      "date": "2026-07-03",
-     "title": "Süs eşyası biçiminde asılabilir dekoratif objeler; üzerlerine zencefilli kurabiye (lebkuchen) figürleri sabitlenmiş ve bir askı ilmeğiyle işlenmiş, stilize mutfak aletlerinden (tahta kaşık, spatula, oklava, çırpıcı) oluşan; \"aletler\" ahşaptan (çam ağacından) ve metalden işlenmiş, figürler…",
-     "gerekce": "Kombine Nomanklatürün yorumlanmasına ilişkin genel kurallar (AV) 1, 3b ve 6; 44. Fasıl'a ait 2 numaralı Ek Not (uygulanmaz); Armonize Sistem'in 4420 pozisyonuna ait Açıklama Notları, 3. bent.",
+     "title": "Ziergegenstand in Form von Dekohängern- bestehend aus stilisierten Küchenwerkzeugen (Kochlöffel, Spate, Nudelwalker, Quirl), mit darauf befestigten Lebkuchenfiguren und mit einer Schlaufe verarbeitet,- die „Werkzeuge“ sind aus Holz (Kiefernholz) und Metall gearbeitet, die Figuren…",
+     "gerekce": "Allgemeine Vorschriften für die Auslegung der Kombinierten Nomenklatur (AV) 1, 3b und 6;Zusätzliche Anmerkung 2 zu Kapitel 44 (trifft nicht zu);Erläuterungen zum HS zu Position 4420, Ziffer 3.",
      "url": "https://ec.europa.eu/taxation_customs/dds2/ebti/ebti_details.jsp?showHeader=false&Lang=en&reference=ATBTI2026000142-DEC"
     },
     {
@@ -95,8 +297,8 @@ window.BTI_DATA = {
      "hs4": "9505",
      "ref": "ATBTI2026000143-DEC",
      "date": "2026-07-03",
-     "title": "Yumurtalı, stilize bir tavşan biçiminde Paskalya bayramı eşyası; yaklaşık 11,9x15,5x7,6 cm ölçülerinde (GxYxD), 300 g ağırlığında, taş hamuru (seramik) malzemeden oluşan. Eşya, Paskalya bayramının geleneksel süslemesi için kullanıldığı belli olan bir dekorasyon eşyası olarak hizmet eder.",
-     "gerekce": "Kombine Nomanklatürün yorumlanmasına ilişkin genel kurallar (AV) 1 ve 6; Armonize Sistem'in 9505 pozisyonuna ait Açıklama Notları, A) kısmı, 1. bent.",
+     "title": "Osterfestartikel in Form eines stilisierten Hasen mit Ei,- mit den Maßen von ca. 11,9x15,5x7,6cm (BxHxT),- mit einem Gewicht von 300g,- bestehend aus Steinzeug (Keramik)Die Ware dient als Dekorationsartikel erkennbar zur traditionellen Ausgestaltung des Osterfestes.",
+     "gerekce": "Allgemeine Vorschriften für die Auslegung der Kombinierten Nomenklatur (AV) 1 und 6;Erläuterungen zum HS zu Pos.9505, Teil A), Ziffer 1.",
      "url": "https://ec.europa.eu/taxation_customs/dds2/ebti/ebti_details.jsp?showHeader=false&Lang=en&reference=ATBTI2026000143-DEC"
     },
     {
@@ -109,8 +311,8 @@ window.BTI_DATA = {
      "hs4": "6114",
      "ref": "FRBTIFR-BTI-2026-04265",
      "date": "2026-07-03",
-     "title": "Vücudun üst kısmını örtmeye yönelik, sentetik liflerden (%100 polyester) örme kumaştan yapılmış, kırmızı renkli pelerin tipinde bir giysi; üzerinde iki siyah renkli kulak ve beyaz renkli bir ponpon bulunan bir kapüşon içermekte olup …örtmektedir.",
-     "gerekce": "Genel kurallar 1 ve 6: sınıflandırma, bölüm ve fasıl notları ile pozisyon, alt pozisyon ve KN kodu metni tarafından belirlenir. Bölüm XI'in 7 numaralı notu: bu, hazırlanmış (konfeksiyon) bir eşyadır…",
+     "title": "Vêtement destiné à couvrir la partie supérieure du corps, confectionné en étoffe de bonneterie de fibres synthétiques (100 % polyester), de type cape de couleur rouge, comportant une capuche surmontée de deux oreilles de couleur noire et d'un pompon de couleur blanche, couvrant l…",
+     "gerekce": "Règles générales 1 et 6 : le classement est déterminé par les notes de section et de chapitre, ainsi que par le libellé de position, de sous-position et de code NC.Note 7 de la Section XI : il s’agit d’un article confect…",
      "url": "https://ec.europa.eu/taxation_customs/dds2/ebti/ebti_details.jsp?showHeader=false&Lang=en&reference=FRBTIFR-BTI-2026-04265"
     },
     {
@@ -123,8 +325,8 @@ window.BTI_DATA = {
      "hs4": "3926",
      "ref": "FRBTIFR-BTI-2026-04532",
      "date": "2026-07-03",
-     "title": "Bu eşya, plastik maddeden (vinil) yapılmış, iki kişilik yatak olarak açılabilen ve iç mekân kullanımına yönelik şişme bir kanepedir. Ürün, hızlı şişirme ve indirmeye olanak tanıyan bir valfe sahiptir.",
-     "gerekce": "Genel kurallar 1 ve 6: sınıflandırma, bölüm ve fasıl notları ile pozisyon, alt pozisyon ve KN kodu metni tarafından belirlenir. Genel kural 2 b): karışık ürünlerin sınıflandırılması…",
+     "title": "L'article est un canapé gonflable en matières plastique (vinyle) pouvant se déplier en lit deux places et destiné à un usage intérieur. Le produit a une valve permettant un gonflage et un dégonflage rapide.",
+     "gerekce": "Règles générales 1 et 6 : le classement est déterminé par les notes de section et de chapitre, ainsi que par le libellé de position, de sous-position et de code NC.Règle générale 2 b) : le classement des produits mélangé…",
      "url": "https://ec.europa.eu/taxation_customs/dds2/ebti/ebti_details.jsp?showHeader=false&Lang=en&reference=FRBTIFR-BTI-2026-04532"
     },
     {
@@ -137,8 +339,8 @@ window.BTI_DATA = {
      "hs4": "9505",
      "ref": "FRBTIFR-BTI-2026-03067",
      "date": "2026-07-03",
-     "title": "Noel eşyası, Noel Baba tasviri bulunan LED'li bir mum biçiminde. Malzeme: polyester. Boyutlar: 14 x 4 cm.",
-     "gerekce": "Genel kurallar 1 ve 6: sınıflandırma, bölüm ve fasıl notları ile pozisyon, alt pozisyon ve KN kodu metni tarafından belirlenir. 9505 tarife pozisyonuna ilişkin NESH açıklamaları, A paragrafı, … bendi.",
+     "title": "Article de Noël, sous la forme d’une bougie à LED avec représentation du père Noël.Matière : polyester.Dimensions : 14 x 4 cm.",
+     "gerekce": "Règles générales 1 et 6 : le classement est déterminé par les notes de section et de chapitre, ainsi que par le libellé de position, de sous-position et de code NC.NESH de la position tarifaire 9505, paragraphe A alinéa …",
      "url": "https://ec.europa.eu/taxation_customs/dds2/ebti/ebti_details.jsp?showHeader=false&Lang=en&reference=FRBTIFR-BTI-2026-03067"
     },
     {
@@ -151,8 +353,8 @@ window.BTI_DATA = {
      "hs4": "7308",
      "ref": "FRBTIFR-BTI-2026-03062",
      "date": "2026-07-03",
-     "title": "Kamyonetler (panelvanlar/fourgonlar) için modüler iç donanım (yeniden düzenleme) sistemi. Bir panelvanın yük alanını, yatakları, mutfak köşesi, banyo/duş, tuvalet ve dolaplarıyla 2 ila 3 kişilik yaşanabilir bir yaşam alanına dönüştürür. Yapısı %48…'den oluşmaktadır.",
-     "gerekce": "Genel kurallar 1 ve 6: sınıflandırma, bölüm ve fasıl notları ile pozisyon, alt pozisyon ve KN kodu metni tarafından belirlenir. Genel kural 3 b): Karışık, bileşik eşyalar…",
+     "title": "Système modulaire de réaménagement intérieur pour camionnettes (fourgons).Il transforme l'espace de chargement d'un fourgon en espace de vie habitable pour 2 à 3 personnes, avec couchages, coin cuisine, salle de bain/douche, sanitaires et rangements.Sa structure est composée à 48…",
+     "gerekce": "Règles générales 1 et 6 : le classement est déterminé par les notes de section et de chapitre, ainsi que par le libellé de position, de sous-position et de code NC.Règle générale 3 b : Les articles mélangés, composites, …",
      "url": "https://ec.europa.eu/taxation_customs/dds2/ebti/ebti_details.jsp?showHeader=false&Lang=en&reference=FRBTIFR-BTI-2026-03062"
     },
     {
@@ -165,8 +367,8 @@ window.BTI_DATA = {
      "hs4": "6111",
      "ref": "FRBTIFR-BTI-2025-07930",
      "date": "2026-07-03",
-     "title": "Bebekler için, «pijama» tipinde, gövde yüksekliği 86 cm'yi aşmayan bir tulumdan (grenouillère) oluşan, örme kumaştan (%80 pamuk, %20 polyester) yapılmış giysi. Eşya uzun kollu olup yuvarlak yakalıdır (veya bazı modellerde bir bebe yaka/Claudine yakası) …",
-     "gerekce": "Genel kurallar 1 ve 6: sınıflandırma, bölüm ve fasıl notları ile pozisyon, alt pozisyon ve KN kodu metni tarafından belirlenir. Bölüm XI'in 7 numaralı notu: bu eşya, kesme yoluyla hazırlanmış (konfeksiyon) bir eşyadır…",
+     "title": "Vêtement pour bébés, de type « pyjama », consistant en une grenouillère, dont la hauteur de corps n'excède pas 86 cm, confectionnée en étoffe de bonneterie (80% coton, 20% polyester). L’article est doté de manches longues, d'un col rond (ou un col Claudine pour certains modèles) …",
+     "gerekce": "Règles générales 1 et 6 : le classement est déterminé par les notes de section et de chapitre, ainsi que par le libellé de position, de sous-position et de code NC.Note 7 de la Section XI : cet article confectionné par c…",
      "url": "https://ec.europa.eu/taxation_customs/dds2/ebti/ebti_details.jsp?showHeader=false&Lang=en&reference=FRBTIFR-BTI-2025-07930"
     },
     {
@@ -179,8 +381,8 @@ window.BTI_DATA = {
      "hs4": "6302",
      "ref": "FRBTIFR-BTI-2025-07927",
      "date": "2026-07-03",
-     "title": "Bebekler için yatak takımı (nevresim), bir yorgan kılıfı ve bir yastık kılıfından oluşan bir nevresim takımından ibaret olup, baskılı pamuklu kumaştan yapılmıştır. Yorgan kılıfı ve yastık uyumlu renklerdedir. Birçok modeli mevcuttur. Eşya tezgâhta dokunmuş değildir…",
-     "gerekce": "Genel kurallar 1 ve 6: sınıflandırma, bölüm ve fasıl notları ile pozisyon, alt pozisyon ve KN kodu metni tarafından belirlenir. Bölüm XI'in 7 numaralı notu: bu eşya … olarak kabul edilir.",
+     "title": "Linges de lit pour bébés, consistant en une parure de couette composée d'une housse de couette et d'une taie d'oreiller, confectionnées en tissu de coton imprimé. La housse ainsi que l'oreiller sont de coloris assortis. Existe en plusieurs modèles. L’article n’est tissé sur métie…",
+     "gerekce": "Règles générales 1 et 6 : le classement est déterminé par les notes de section et de chapitre, ainsi que par le libellé de position, de sous-position et de code NC.Note 7 de la Section XI : cet article est considéré comm…",
      "url": "https://ec.europa.eu/taxation_customs/dds2/ebti/ebti_details.jsp?showHeader=false&Lang=en&reference=FRBTIFR-BTI-2025-07927"
     },
     {
@@ -193,8 +395,8 @@ window.BTI_DATA = {
      "hs4": "3926",
      "ref": "FRBTIFR-BTI-2026-02434",
      "date": "2026-07-03",
-     "title": "Plastik maddeden çeşitli eşya; düz, T şeklinde veya L şeklinde parçalar halinde olup stiren-butadien-stirenden oluşmaktadır. Ürün, bir oyun alanını sınırlandırmak amacıyla yere geçici olarak yerleştirilmek üzere tasarlanmıştır. Ürün, kit halinde ambalajlanmıştır.",
-     "gerekce": "Genel kurallar 1 ve 6: sınıflandırma, bölüm ve fasıl notlarıyla ve ayrıca pozisyon, alt pozisyon ve KN kodu metniyle belirlenir. Genel kural 5 b): ambalaj, …'nin sınıflandırmasına tabidir.",
+     "title": "Ouvrage divers en matière plastique, se présentant sous la forme de pièces plates, en forme de T ou de L, composé de styrène-butadiène-styrène.Le produit est destiné à être posé temporairement au sol afin de délimiter un espace de jeu. Le produit est conditionné en kit.",
+     "gerekce": "Règles générales 1 et 6 : le classement est déterminé par les notes de section et de chapitre, ainsi que par le libellé de position, de sous-position et de code NC.Règle générale 5 b) : l'emballage suit le classement de …",
      "url": "https://ec.europa.eu/taxation_customs/dds2/ebti/ebti_details.jsp?showHeader=false&Lang=en&reference=FRBTIFR-BTI-2026-02434"
     },
     {
@@ -207,8 +409,8 @@ window.BTI_DATA = {
      "hs4": "6114",
      "ref": "FRBTIFR-BTI-2026-02662",
      "date": "2026-07-03",
-     "title": "Vücudun üst kısmını örtmeye yönelik diğer giyim eşyası; sörf yapmak için kullanılan bir yüzme üstü şeklinde olup sentetik liflerden (poliamid ve elastan) örme (triko) mamulünden imal edilmiştir ve iki parçadan oluşur: - yuvarlak yaka açıklığına sahip ve … kısmında açık kesimli bir atlet…",
-     "gerekce": "Genel kurallar 1 ve 6: sınıflandırma, bölüm ve fasıl notlarıyla ve ayrıca pozisyon, alt pozisyon ve KN kodu metniyle belirlenir. XI. Bölüm'ün 7 numaralı notu: bu eşya konfeksiyon (hazır giyim) ürünüdür. N…",
+     "title": "Autre vêtement, destiné à couvrir le haut du corps, se présentant sous la forme d'un haut de baignade pour la pratique du surf, confectionné en bonneterie de fibres synthétiques (polyamide et élasthanne), composé de deux parties :- un débardeur à encolure ronde et dégagée dans le…",
+     "gerekce": "Règles générales 1 et 6 : le classement est déterminé par les notes de section et de chapitre, ainsi que par le libellé de position, de sous-position et de code NC.Note 7 de la section XI : cet article est confectionné.N…",
      "url": "https://ec.europa.eu/taxation_customs/dds2/ebti/ebti_details.jsp?showHeader=false&Lang=en&reference=FRBTIFR-BTI-2026-02662"
     },
     {
@@ -221,8 +423,8 @@ window.BTI_DATA = {
      "hs4": "7604",
      "ref": "NLBTI2026-0107",
      "date": "2026-07-03",
-     "title": "Beyana göre diğerlerinin yanı sıra aşağıdaki özelliklere sahip, sözde bir LED rayı: - led şeritlerin yerleştirilmesine yöneliktir (BTI'nin bir parçası değildir); - eloksallı (anodize) alüminyumdan imal edilmiş 10 adet U profili; - polikarbonattan (PC) imal edilmiş 10 adet kapak şeridi (difüzör); - 20 uç…",
-     "gerekce": "Kombine nomanklatürün yorumlanmasına ilişkin 1, 3b ve 6 numaralı genel kurallar. XV. Bölüm'e ait 3 numaralı not ve 9. notun b harfi. 39. Fasıl'a ait 1 numaralı not. … Fasıl'a ait 1 numaralı ek notun b harfi.",
+     "title": "Een zogenoemde LED-rail met –volgens opgave– onder andere de volgende kenmerken:- bestemd voor het plaatsen van led-strips (geen onderdeel van de BTI);- 10 U-profielen vervaardigd van geanodiseerd aluminium;- 10 afdek-strips (diffusers) vervaardigd van polycarbonaat (PC);- 20 ein…",
+     "gerekce": "De algemene regels 1, 3b en 6 voor de interpretatie van de gecombineerde nomenclatuur.Aantekening 3 en aantekening 9, letter b, op afdeling XV.Aantekening 1 op hoofdstuk 39.Aanvullende aantekening 1, letter b, op hoofdst…",
      "url": "https://ec.europa.eu/taxation_customs/dds2/ebti/ebti_details.jsp?showHeader=false&Lang=en&reference=NLBTI2026-0107"
     },
     {
@@ -235,8 +437,8 @@ window.BTI_DATA = {
      "hs4": "8541",
      "ref": "NLBTI2026-0109",
      "date": "2026-07-03",
-     "title": "Beyana göre diğerlerinin yanı sıra aşağıdaki dış görünüş ve teknik özelliklere sahip bir manyetik sensör: - çeşitli cihazların içine monte edilmek üzere; - açık ve kapalı durumu algılamak için; - bir manyetik alan aracılığıyla açıp kapatmak için; - yarı iletken malzeme…den imal edilmiş…",
-     "gerekce": "Kombine nomanklatürün yorumlanmasına ilişkin 1 ve 6 numaralı genel kurallar. 85. Fasıl'a ait 12 numaralı notun a harfi, i) bendi, 3. noktası. 8541 pozisyonuna ait GS Açıklama Notları A harfi III noktası. 8541 ve 8541 51… KN kodlarının metni.",
+     "title": "Een magnetische sensor met -volgens opgave- onder andere de volgende uiterlijke en technische kenmerken:- om ingebouwd te worden in diverse apparatuur;- voor open- en sluitdetectie;- om door middel van een magnetisch veld aan en uit te schakelen;- vervaardigd uit halfgeleidermate…",
+     "gerekce": "De algemene regels 1 en 6 voor de interpretatie van de gecombineerde nomenclatuur.Aantekening 12, letter a, i) punt 3 op hoofdstuk 85.Toelichting GS letter A punt III op post 8541.De tekst van de GN-codes 8541 en 8541 51…",
      "url": "https://ec.europa.eu/taxation_customs/dds2/ebti/ebti_details.jsp?showHeader=false&Lang=en&reference=NLBTI2026-0109"
     },
     {
@@ -249,8 +451,8 @@ window.BTI_DATA = {
      "hs4": "6307",
      "ref": "NLBTI2026-0115",
      "date": "2026-07-03",
-     "title": "Beyana göre diğerlerinin yanı sıra aşağıdaki bileşim ve özelliklere sahip, ayakta duran bir ren geyiği figürü: - dekorasyon amaçlıdır; - bir ceket, bir pantolon, ayakkabılar ve belde bir kemercik giymiş, ayakta duran bir ren geyiği biçimindedir; - gövde adi metalden bir iskeletten oluşur, …",
-     "gerekce": "Kombine nomanklatürün yorumlanmasına ilişkin 1 ve 6 numaralı genel kurallar. XI. Bölüm'e ait 7 ve 8 numaralı notlar. 63. Fasıl'a ait 1 numaralı not. 63.07 pozisyonuna ait GS Açıklama Notları. 6307, 6307 90 ve 63… KN kodlarının metni.",
+     "title": "Een staand rendierfiguur met -volgens opgave- onder andere de volgende samenstelling en kenmerken:- bestemd voor decoratie;- in de vorm van een staand rendier gekleed in een jas, een broek, schoenen en een riempje om het middel;- het lijf bestaat uit een frame van onedel metaal, …",
+     "gerekce": "De algemene regels 1 en 6 voor de interpretatie van de gecombineerde nomenclatuur.Aantekening 7 en 8 op afdeling XI. Aantekening 1 op hoofdstuk 63.Toelichting GS op post 63.07.De tekst van de GN-codes 6307, 6307 90 en 63…",
      "url": "https://ec.europa.eu/taxation_customs/dds2/ebti/ebti_details.jsp?showHeader=false&Lang=en&reference=NLBTI2026-0115"
     },
     {
@@ -263,8 +465,8 @@ window.BTI_DATA = {
      "hs4": "6912",
      "ref": "NLBTI2026-0116",
      "date": "2026-07-03",
-     "title": "Beyana göre diğerlerinin yanı sıra aşağıdaki özelliklere sahip, sözde dekoratif bir sunum tahtası: - masada veya mutfakta kullanım için; - renkli desenlerle bezenmiş, ince çini/fayanstan (fine aardewerk) 3 kare karo; - karoları yerleştirmek için 3 oyuğa sahip, bambudan yapılmış ahşap bir tahta…",
-     "gerekce": "Kombine nomanklatürün yorumlanmasına ilişkin 1, 3b ve 6 numaralı genel kurallar. 69. Fasıl'a ait 1 numaralı not. 6913 pozisyonuna ait GS Açıklama Notları B harfi. Armonize Sistem'e ait Açıklama Notları, genel açıklamalar, …",
+     "title": "Een zogenoemde decoratieve presentatieplank met -volgens opgave- onder andere de volgende kenmerken:- voor gebruik aan tafel of in de keuken;- 3 vierkante tegels van fijn aardewerk voorzien van kleurrijke patronen;- een houten plank van bamboe voorzien van 3 uitsparingen voor de …",
+     "gerekce": "De algemene regels 1, 3b en 6 voor de interpretatie van de gecombineerde nomenclatuur.Aantekening 1 op hoofdstuk 69.Toelichting GS letter B op post 6913.De toelichting op het Geharmoniseerd Systeem, algemene opmerkingen,…",
      "url": "https://ec.europa.eu/taxation_customs/dds2/ebti/ebti_details.jsp?showHeader=false&Lang=en&reference=NLBTI2026-0116"
     },
     {
@@ -277,8 +479,8 @@ window.BTI_DATA = {
      "hs4": "7616",
      "ref": "NLBTI2026-0118",
      "date": "2026-07-03",
-     "title": "Beyana göre diğerlerinin yanı sıra aşağıdaki özellik ve bileşime sahip bir eritme potası (kroze): - Diferansiyel Taramalı Kalorimetre (DSC) için numunelerin, numune ile sensör arasında doğrudan teması önlemek amacıyla, muhafazası (kabı) olarak kullanılmak üzere tasarlanmıştır; - alüminyumdan imal edilmiş olup bir…",
-     "gerekce": "Kombine nomanklatürün yorumlanmasına ilişkin 1 ve 6 numaralı genel kurallar. XV. Bölüm'e ait 3 numaralı not. Adalet Divanı, C-152/10 (Unomedical A/S) davası, 36 ve 37 numaralı gerekçeler ve Adalet Divanı, C-336/1… davası.",
+     "title": "Een smeltkroes met -volgens opgave- onder andere de volgende kenmerken en samenstelling:- bestemd als houder voor monsters voor een Differentiële Scanning Calorimeter (DSC) ter voorkoming van rechtstreeks contact tussen het monster en de sensor;- vervaardigd uit aluminium met een…",
+     "gerekce": "De algemene regels 1 en 6 voor de interpretatie van de gecombineerde nomenclatuur.Aantekening 3 op afdeling XV.Hof van Justitie zaak C-152/10 (Unomedical A/S), rechtsoverwegingen 36 en 37 en Hof van Justitie zaak C-336/1…",
      "url": "https://ec.europa.eu/taxation_customs/dds2/ebti/ebti_details.jsp?showHeader=false&Lang=en&reference=NLBTI2026-0118"
     },
     {
@@ -291,8 +493,8 @@ window.BTI_DATA = {
      "hs4": "2106",
      "ref": "NLBTI2026-0171",
      "date": "2026-07-03",
-     "title": "Beyana göre diğerlerinin yanı sıra aşağıdaki özellik ve içeriklere sahip bir gıda takviyesi: - oval yeşil bir tablet görünümündedir; - dikalsiyum fosfat; - maya; - spirulina tozu; - laktoz; - hidroksipropilmetilselüloz; - B1, B2, B3, B5, B6, B7, B9 ve B12 vitaminleri;…",
-     "gerekce": "Kombine nomanklatürün yorumlanmasına ilişkin 1 ve 6 numaralı genel kurallar. 21. Fasıl'a ait 5 numaralı ek not (KN). Ürün, insan tüketimine yönelik, başka yerde belirtilmeyen bir ürün olarak kabul edilmektedir…",
+     "title": "Een voedingssupplement met -volgens opgave- onder andere de volgende kenmerken en ingrediënten:- in de verschijningsvorm van een ovaal groen tablet;- dicalciumfosfaat;- gist;- spirulina poeder;- lactose;- hydroxypropylmethylcellulose;- vitaminen B1, B2, B3, B5, B6, B7, B9 en B12;…",
+     "gerekce": "De algemene regels 1 en 6 voor de interpretatie van de gecombineerde nomenclatuur.Aanvullende aantekening (GN) 5 op hoofdstuk 21.Het product wordt aangemerkt als een product voor menselijke consumptie, elders genoemd noc…",
      "url": "https://ec.europa.eu/taxation_customs/dds2/ebti/ebti_details.jsp?showHeader=false&Lang=en&reference=NLBTI2026-0171"
     },
     {
@@ -305,8 +507,8 @@ window.BTI_DATA = {
      "hs4": "4420",
      "ref": "FRBTIFR-BTI-2025-05270",
      "date": "2026-07-03",
-     "title": "Yapısı çoğunlukla tropikal olmayan ahşap (kavak) şeritlerinden oluşan, mobilya ve süsleme eşyası; 3'lü sepet takımı biçiminde sunulmaktadır. Üst kısmın yapısı ve sapları metaldendir (demir), bitkisel madde (sümbül…) ile kaplanmıştır.",
-     "gerekce": "Genel kurallar 1 ve 6: sınıflandırma, bölüm ve fasıl notları ile pozisyon, alt pozisyon ve KN kodu ifadesine göre belirlenir. 44. faslın 6 no'lu Notu: yukarıdaki 1 no'lu Not saklı kalmak kaydıyla…",
+     "title": "Article d’ameublement et d’ornementation dont la structure est majoritairement composée de bandes de bois non tropical (peuplier), se présentant sous la forme d’un lot de 3 paniers. La structure du haut et les poignées sont en métal (fer), recouvertes de matière végétale (jacinth…",
+     "gerekce": "Règles générales 1 et 6 : le classement est déterminé par les notes de section et de chapitre, ainsi que par le libellé de position, de sous-position et de code NC.Note 6 du chapitre 44 : sous réserve de la Note 1 ci-des…",
      "url": "https://ec.europa.eu/taxation_customs/dds2/ebti/ebti_details.jsp?showHeader=false&Lang=en&reference=FRBTIFR-BTI-2025-05270"
     },
     {
@@ -319,8 +521,8 @@ window.BTI_DATA = {
      "hs4": "3926",
      "ref": "FRBTIFR-BTI-2025-07831",
      "date": "2026-07-03",
-     "title": "Bebek emzik tutturucusu; giysiye tutturmak için plastik maddeden (Tritan) bir mandal içeren, bir ucunda dolgulu bir süsleme bulunan tekstil maddesinden bir şeride ve diğer ucunda emziği tutturmak için plastik maddeden (silikon) bir halka biçiminde bir tutturucuya sahip.",
-     "gerekce": "Genel kurallar 1 ve 6: sınıflandırma, bölüm ve fasıl notları ile pozisyon, alt pozisyon ve KN kodu ifadesine göre belirlenir. Genel kural 2 b): karışık ürünlerin sınıflandırılması…",
+     "title": "Attache-tétine pour bébé, disposant d'une accroche pour vêtement composée de matière plastique (Tritan), dotée d'un ruban en matière textile comportant une décoration rembourrée à une extrémité et une accroche pour tétine sous forme d’anneau en matière plastique (silicone) à l'au…",
+     "gerekce": "Règles générales 1 et 6 : le classement est déterminé par les notes de section et de chapitre, ainsi que par le libellé de position, de sous-position et de code NC.Règle générale 2 b) : le classement des produits mélangé…",
      "url": "https://ec.europa.eu/taxation_customs/dds2/ebti/ebti_details.jsp?showHeader=false&Lang=en&reference=FRBTIFR-BTI-2025-07831"
     },
     {
@@ -333,8 +535,8 @@ window.BTI_DATA = {
      "hs4": "6209",
      "ref": "FRBTIFR-BTI-2025-07830",
      "date": "2026-07-03",
-     "title": "Kolsuz uyku tulumu tipinde tekstil eşyası; gövde yüksekliği 86 santimetreyi aşmayan, pamuklu kumaştan yapılmış. Eşyanın yuvarlak bir yaka oyuntusu vardır ve önden bir fermuar aracılığıyla kapanır. Ürün birkaç…",
-     "gerekce": "Genel kurallar 1 ve 6: sınıflandırma, bölüm ve fasıl notları ile pozisyon, alt pozisyon ve KN kodu ifadesine göre belirlenir. XI. Bölümün 7 no'lu Notu: bu eşya konfeksiyon yoluyla yapılmıştır. N…",
+     "title": "Article textile, de type gigoteuse, sans manches, d’une hauteur de corps n’excédant pas les 86 centimètres, confectionné en tissu de coton. L’article comporte une encolure arrondie et se ferme sur le devant au moyen d'une fermeture à glissière. Le produit est présenté sous plusie…",
+     "gerekce": "Règles générales 1 et 6 : le classement est déterminé par les notes de section et de chapitre, ainsi que par le libellé de position, de sous-position et de code NC.Note 7 de la Section XI : cet article est confectionné.N…",
      "url": "https://ec.europa.eu/taxation_customs/dds2/ebti/ebti_details.jsp?showHeader=false&Lang=en&reference=FRBTIFR-BTI-2025-07830"
     },
     {
@@ -347,8 +549,8 @@ window.BTI_DATA = {
      "hs4": "4006",
      "ref": "FRBTIFR-BTI-2025-08110",
      "date": "2026-07-03",
-     "title": "Ev kullanımına yönelik, gözeneksiz, vulkanize edilmemiş ve sertleştirilmemiş sentetik kauçuktan çeşitli eşya; kablo düzenleyici tipinde, bir yüzü yapışkanlı ve kabloların yerleştirilmesi için 5 yarığa sahip diğer yüzü olan bir çubuk biçiminde sunulmaktadır. Ürün… olarak ambalajlanmıştır.",
-     "gerekce": "Genel kurallar 1 ve 6: sınıflandırma, bölüm ve fasıl notları ile pozisyon, alt pozisyon ve KN kodu ifadesine göre belirlenir. Genel kural 5 b): ambalaj, …'in sınıflandırmasını izler.",
+     "title": "Ouvrage divers en caoutchouc synthétique non alvéolaire, non vulcanisé et non durci, à usage domestique, de type organisateur de câbles, se présentant sous la forme d'une baguette avec une face adhésive et une face à 5 fentes pour y insérer les câbles. Le produit est conditionné …",
+     "gerekce": "Règles générales 1 et 6 : le classement est déterminé par les notes de section et de chapitre, ainsi que par le libellé de position, de sous-position et de code NC.Règle générale 5 b) : l’emballage suit le classement de …",
      "url": "https://ec.europa.eu/taxation_customs/dds2/ebti/ebti_details.jsp?showHeader=false&Lang=en&reference=FRBTIFR-BTI-2025-08110"
     },
     {
@@ -361,8 +563,8 @@ window.BTI_DATA = {
      "hs4": "6702",
      "ref": "FRBTIFR-BTI-2025-07741",
      "date": "2026-07-03",
-     "title": "Dekorasyon eşyası; bakır telden yapılmış, plastik saplı kumaştan yaprakla süslenmiş dekoratif LED ışıklı çelenk biçiminde sunulmaktadır. Eşya 3 farklı yaprak türünde mevcuttur: okaliptüs yaprakları, sarmaşık yaprakları ve yeşil yapraklar. Eşya…",
-     "gerekce": "Genel kurallar 1 ve 6: sınıflandırma, bölüm ve fasıl notları ile pozisyon, alt pozisyon ve KN kodu ifadesine göre belirlenir. GK 2 b): karışık veya birden fazla maddeden oluşan ürünlerin sınıflandırılması…",
+     "title": "Article de décoration, se présentant sous la forme d'une guirlande à LED décorative en fil de cuivre agrémentée de feuillage en tissu avec tige en plastique. L’article existe en 3 feuillages différents : feuilles d’eucalyptus, feuilles de lierre et feuilles vertes. L’article est …",
+     "gerekce": "Règles générales 1 et 6 : le classement est déterminé par les notes de section et de chapitre, ainsi que par le libellé de position, de sous-position et de code NC.RG 2 b) : le classement des produits mélangés ou article…",
      "url": "https://ec.europa.eu/taxation_customs/dds2/ebti/ebti_details.jsp?showHeader=false&Lang=en&reference=FRBTIFR-BTI-2025-07741"
     },
     {
@@ -375,8 +577,8 @@ window.BTI_DATA = {
      "hs4": "6112",
      "ref": "FRBTIFR-BTI-2026-02720",
      "date": "2026-07-03",
-     "title": "Kadınlar için mayo; esas maddesi sentetik liflerden (%70 poliamid ve %30 elastan) örme kumaştan yapılmıştır. Ağ (apış arası) bölgesi, sıvıların emilmesi için tasarlanmış, \"gousset\" (kuşak parçası) adı verilen çok katmanlı ısıyla yapıştırılmış bir yapıya sahiptir.",
-     "gerekce": "Genel kurallar 1 ve 6: sınıflandırma, bölüm ve fasıl notları ile pozisyon, alt pozisyon ve KN kodu ifadesine göre belirlenir. XI. Bölümün 7 no'lu Notu: bu eşya konfeksiyon yoluyla yapılmıştır. N…",
+     "title": "Maillot de bain pour femmes dont la matière principale est confectionnée en étoffe de bonneterie de fibres synthétiques (70 % polyamide et 30 % élasthanne). La zone de l'entrejambe présente une structure multicouche thermocollée, dite « gousset », conçue pour l'absorption des flu…",
+     "gerekce": "Règles générales 1 et 6 : le classement est déterminé par les notes de section et de chapitre, ainsi que par le libellé de position, de sous-position et de code NC.Note 7 de la Section XI : cet article est confectionné.N…",
      "url": "https://ec.europa.eu/taxation_customs/dds2/ebti/ebti_details.jsp?showHeader=false&Lang=en&reference=FRBTIFR-BTI-2026-02720"
     },
     {
@@ -389,8 +591,8 @@ window.BTI_DATA = {
      "hs4": "6307",
      "ref": "FRBTIFR-BTI-2026-03065",
      "date": "2026-07-03",
-     "title": "Köpekler için peluş tipinde oyuncak; sentetik lifden (polyester) örme kumaştan yapılmış. Çiğnemeye yönelik tasarlanan ürün, örgü halattan üç renkli bir halkanın içinde oturan bir sinema karakterini temsil etmektedir.",
-     "gerekce": "Genel kurallar 1 ve 6: sınıflandırma, bölüm ve fasıl notları ile pozisyon, alt pozisyon ve KN kodu ifadesine göre belirlenir. Genel kural 2 b): karışık eşyaların sınıflandırılması…",
+     "title": "Jouet pour chiens de type peluche, confectionné en étoffe de bonneterie de fibre synthétique (polyester). Le produit conçu pour la mastication, est à l'effigie d'un personnage de cinéma, assis à l'intérieur d'un anneau tricolore en corde tressée.",
+     "gerekce": "Règles générales 1 et 6 : le classement est déterminé par les notes de section et de chapitre, ainsi que par le libellé de position, de sous-position et de code NC.Règle générale 2 b) : le classement des articles mélangé…",
      "url": "https://ec.europa.eu/taxation_customs/dds2/ebti/ebti_details.jsp?showHeader=false&Lang=en&reference=FRBTIFR-BTI-2026-03065"
     },
     {
@@ -403,8 +605,8 @@ window.BTI_DATA = {
      "hs4": "6114",
      "ref": "FRBTIFR-BTI-2026-03850",
      "date": "2026-07-03",
-     "title": "Animasyon filmlerinden bir kurgu karakterini temsil eden, çocuklar için kostüm eşyaları takımı; şunlardan oluşur: - sentetik lifden (polyester) örme kumaştan yapılmış bir kovboy şapkası; - tüm vücudu örtmeye yönelik bir giysi…",
-     "gerekce": "Genel kurallar 1 ve 6: sınıflandırma, bölüm ve fasıl notları ile pozisyon, alt pozisyon ve KN kodu ifadesine göre belirlenir. Genel kural 2 b): karışık ürünlerin sınıflandırılması…",
+     "title": "Assortiment d'articles de déguisement pour enfant à l’effigie d’un personnage de fiction issu des films d’animation se composant :- d'un chapeau de cowboy, confectionnée en étoffe de bonneterie de fibre synthétique (polyester) ;- d'un vêtement destiné à couvrir tout le corps, de …",
+     "gerekce": "Règles générales 1 et 6 : le classement est déterminé par les notes de section et de chapitre, ainsi que par le libellé de position, de sous-position et de code NC.Règle générale 2 b) : le classement des produits mélangé…",
      "url": "https://ec.europa.eu/taxation_customs/dds2/ebti/ebti_details.jsp?showHeader=false&Lang=en&reference=FRBTIFR-BTI-2026-03850"
     },
     {
@@ -417,8 +619,8 @@ window.BTI_DATA = {
      "hs4": "3004",
      "ref": "ITBTI2026-0550",
      "date": "2026-07-03",
-     "title": "Hyaluronik asit sodyum tuzu esaslı rektal kullanım için supozituvarlar; ürün, her biri 2 g olan 10 supozituvar içeren karton bir kutu içinde perakende satış için ambalajlanmıştır. Tarafın beyanına göre ürün, kan… onarım süreçlerinin destekleyici tedavisinde faydalıdır.",
-     "gerekce": "Kombine nomanklatürün yorumlanmasına ilişkin 1 ve 6 numaralı genel kurallar; 3004 pozisyonunun ve 3004 90 00 alt pozisyonunun metni.",
+     "title": "Supposte per uso rettale a base di acido ialuronico sale sodico; il prodotto è confezionato per la vendita al minuto in un astuccio di cartone contenente 10 supposte da 2 g. Per dichiarazione di parte il prodotto è utile nel trattamento coadiuvante dei processi riparativi del can…",
+     "gerekce": "Regole generali per l'interpretazione della nomenclatura combinata nn. 1 e 6; testo della voce 3004 e sottovoce 3004 90 00.",
      "url": "https://ec.europa.eu/taxation_customs/dds2/ebti/ebti_details.jsp?showHeader=false&Lang=en&reference=ITBTI2026-0550"
     },
     {
@@ -571,8 +773,8 @@ window.BTI_DATA = {
      "hs4": "7326",
      "ref": "BEBTIDT.50.024.197",
      "date": "2026-07-03",
-     "title": "Bir köşe veya son direği (uzunluk 2,5 metre) söz konusudur; taban plakasıyla birlikte, her ikisi de çelikten. Direk yapı çeliğinden (S235JR) yapılmış ve sıcak daldırma galvanizlidir. Taban plakası da çeliktendir (Stw24) ve sabitleme için köşelerinde dört delik bulunmaktadır. Boru ortalanmış ve dik…",
-     "gerekce": "Sınıflandırma, Kombine Nomenklatürün yorumlanmasına ilişkin 1 ve 6 numaralı genel kurallar temelinde ve 7326 pozisyonunun metni, GS-kodu 7326 90, GN-kodu (KN-kodu) 7326 90 98 ve TARIC-kodu 7326 90… temelinde belirlenmiştir.",
+     "title": "Het betreft een hoek- of eindpaal (lengte 2,5 meter) met voetplaat, beiden van staal. De paal is van constructiestaal (S235JR) en thermisch verzinkt. De voetplaat is tevens van staal (Stw24) en voorzien van vier gaten in de hoeken ter bevestiging. De buis is gecentreerd en loodre…",
+     "gerekce": "De indeling is vastgesteld op basis van de algemene regels 1 en 6 voor de interpretatie van de gecombineerde nomenclatuur, en op basis van de tekst van post 7326, GS-code 7326 90, GN-code 7326 90 98 en TARIC-code 7326 90…",
      "url": "https://ec.europa.eu/taxation_customs/dds2/ebti/ebti_details.jsp?showHeader=false&Lang=en&reference=BEBTIDT.50.024.197"
     },
     {
@@ -585,8 +787,8 @@ window.BTI_DATA = {
      "hs4": "4202",
      "ref": "FRBTIFR-BTI-2025-07738",
      "date": "2026-07-03",
-     "title": "Dış yüzeyi ağırlıklı olarak tekstil malzemeden (polyester keçe) ve plastik kaplamadan (polipropilen) yapılmış, iki saplı, Halloween ile ilgili motiflerle süslenmiş, şeker toplamaya yönelik çanta. Ürün iki modelde sunulmaktadır: - Siyah, üzerinde şu yazı bulunan…",
-     "gerekce": "1 ve 6 numaralı genel kurallar: sınıflandırma, bölüm ve fasıl notları ile pozisyon, alt pozisyon ve KN kodu ifadesi tarafından belirlenir. 95. fasıldan hariç tutma, 1. not… hükmü uyarınca.",
+     "title": "Sac à surface extérieure confectionnée en matière textile majoritaire (feutrine de polyester) et revêtement plastique (polypropylène), équipé de deux anses, orné de motifs liés à Halloween, destiné à la collecte de bonbons. Le produit se décline en deux modèles :- Noir avec inscr…",
+     "gerekce": "Règles générales 1 et 6 : le classement est déterminé par les notes de section et de chapitre, ainsi que par le libellé de position, de sous-position et de code NC.Exclusion du chapitre 95, conformément à la note 1 point…",
      "url": "https://ec.europa.eu/taxation_customs/dds2/ebti/ebti_details.jsp?showHeader=false&Lang=en&reference=FRBTIFR-BTI-2025-07738"
     },
     {
@@ -599,8 +801,8 @@ window.BTI_DATA = {
      "hs4": "3926",
      "ref": "FRBTIFR-BTI-2026-01203",
      "date": "2026-07-03",
-     "title": "Alveolsüz (gözeneksiz) plastik malzemeden yapılmış, saydam dikdörtgen koruyucu branda türünde eşya; açık gözenekli örgü bir kumaştan üretilmiş olup, her iki yüzü alveolsüz (gözeneksiz) polietilen plastik malzemeden bir tabaka ile kaplanmış ve çıplak gözle fark edilebilir haldedir. …",
-     "gerekce": "1 ve 6 numaralı genel kurallar: sınıflandırma, bölüm ve fasıl notları ile pozisyon, alt pozisyon ve KN kodu ifadesi tarafından belirlenir. Plastik malzemeler terimini tanımlayan 39. fasıl 1 numaralı not.",
+     "title": "Ouvrage en matière plastique non alvéolaire, de type bâche de protection transparente rectangulaire, confectionnée à partir d'un tissu à mailles ouvertes, enduit sur ses deux faces d'une feuille de matière plastique en Polyéthylène non alvéolaire et perceptible à l'oeil nu. Les c…",
+     "gerekce": "Règles générales 1 et 6 : le classement est déterminé par les notes de section et de chapitre, ainsi que par le libellé de position, de sous-position et de code NC.Note 1 du chapitre 39 définissant le terme de matières p…",
      "url": "https://ec.europa.eu/taxation_customs/dds2/ebti/ebti_details.jsp?showHeader=false&Lang=en&reference=FRBTIFR-BTI-2026-01203"
     },
     {
@@ -613,8 +815,8 @@ window.BTI_DATA = {
      "hs4": "9505",
      "ref": "ATBTI2026000144-DEC",
      "date": "2026-07-03",
-     "title": "Stilize bir tavşan biçiminde Paskalya bayramı eşyası; yumurta biçimli, bir \"tavşan yüzü\" ve \"tavşan kulakları\" ile donatılmış, yaklaşık 6,7x10,7 cm ölçülerinde (ÇxY), 0,29 g ağırlığında, dolomitten oluşan. Eşya, Paskalya bayramının geleneksel süslemesi için kullanıldığı belli olan bir dekorasyon eşyası olarak hizmet eder.",
-     "gerekce": "Kombine Nomanklatürün yorumlanmasına ilişkin genel kurallar (AV) 1 ve 6; Armonize Sistem'in 9505 pozisyonuna ait Açıklama Notları, A) kısmı, 1. bent.",
+     "title": "Osterfestartikel in Form eines stilisierten Hasen,- eiförmig, mit einem „Hasengesicht“ und „Hasenohren“ versehen,- mit den Maßen von ca. 6,7x10,7cm (DxH),- mit einem Gewicht von 0,29g,- bestehend aus Dolomit.Die Ware dient als Dekorationsartikel erkennbar zur traditionellen Ausge…",
+     "gerekce": "Allgemeine Vorschriften für die Auslegung der Kombinierten Nomenklatur (AV) 1 und 6;Erläuterungen zum HS zu Pos.9505, Teil A), Ziffer 1.",
      "url": "https://ec.europa.eu/taxation_customs/dds2/ebti/ebti_details.jsp?showHeader=false&Lang=en&reference=ATBTI2026000144-DEC"
     },
     {
@@ -627,8 +829,8 @@ window.BTI_DATA = {
      "hs4": "6702",
      "ref": "FRBTIFR-BTI-2025-07739",
      "date": "2026-07-03",
-     "title": "Süsleme eşyası; yapraklı bir çiçek ile üzerinde gül bulunan bir kurukafa ile taçlandırılmış bir saptan oluşmaktadır. Eşya plastik malzemedendir ve farklı renklerde mevcuttur. Halloween bayramı vesilesiyle kullanılmak üzere tasarlanmıştır. BOYUTLAR: 41,5 cm x 11,…",
-     "gerekce": "1 ve 6 numaralı genel kurallar: sınıflandırma, bölüm ve fasıl notları ile pozisyon, alt pozisyon ve KN kodu ifadesi tarafından belirlenir. Komisyonun 19 Mayıs 20…tarihli 2015/803 sayılı (AB) Tüzüğü.",
+     "title": "Article d’ornementation, consistant en une fleur avec feuille et une tige surmontée d’une tête de mort ornée d’une rose. L’article est en matière plastique et existe en différents coloris. Il est destiné à être utilisé à l’occasion de la fête d’Halloween. DIMENSIONS : 41.5cm x11.…",
+     "gerekce": "Règles générales 1 et 6 : le classement est déterminé par les notes de section et de chapitre, ainsi que par le libellé de position, de sous-position et de code NC.Règlement (UE) n° 2015/803 de la Commission du 19 mai 20…",
      "url": "https://ec.europa.eu/taxation_customs/dds2/ebti/ebti_details.jsp?showHeader=false&Lang=en&reference=FRBTIFR-BTI-2025-07739"
     },
     {
@@ -641,8 +843,8 @@ window.BTI_DATA = {
      "hs4": "3921",
      "ref": "FRBTIFR-BTI-2025-08685",
      "date": "2026-07-03",
-     "title": "Dikdörtgen şeklinde örme kumaş; sentetik lif (Polyester) emdirilmiş ve her iki yüzü alveolsüz (gözeneksiz) plastik malzeme (Poliüretan) ile kaplanmıştır. Boyutlar: 30 cm x 31 cm.",
-     "gerekce": "1 ve 6 numaralı genel kurallar: sınıflandırma, bölüm ve fasıl notları ile pozisyon, alt pozisyon ve KN kodu ifadesi tarafından belirlenir. 39. Fasıl 1 numaralı not: «plastik malzemeler» tanımı.",
+     "title": "Étoffe de bonneterie de forme rectangulaire, confectionnée en fibre synthétique (Polyester) imprégnée et recouverte sur ses deux faces de matière plastique (Polyuréthane) non alvéolaire.Dimensions : 30 cm x 31 cm.",
+     "gerekce": "Règles générales 1 et 6 : le classement est déterminé par les notes de section et de chapitre, ainsi que par le libellé de position, de sous-position et de code NC.Note 1 du Chapitre 39 : définition des « matières plasti…",
      "url": "https://ec.europa.eu/taxation_customs/dds2/ebti/ebti_details.jsp?showHeader=false&Lang=en&reference=FRBTIFR-BTI-2025-08685"
     },
     {
@@ -655,8 +857,8 @@ window.BTI_DATA = {
      "hs4": "6307",
      "ref": "FRBTIFR-BTI-2025-07737",
      "date": "2026-07-03",
-     "title": "Ağırlıklı olarak sentetik liflerden (%51 polyester, %25 pamuk, %24 viskon) kumaştan yapılmış tekstil eşyası; dikdörtgen şeklinde bir kese biçiminde olup, her türlü çantanın içinde her tür eşyanın taşınmasına yönelik olarak tasarlanmıştır ve bir büzme bağıyla kapanmaktadır…",
-     "gerekce": "1 ve 6 numaralı genel kurallar: sınıflandırma, bölüm ve fasıl notları ile pozisyon, alt pozisyon ve KN kodu ifadesi tarafından belirlenir. XI. bölümün 7 numaralı notu: bu eşya konfeksiyonlanmıştır. N…",
+     "title": "Article textile confectionné en tissu de fibres synthétiques majoritaires (51% polyester, 25% coton, 24% viscose), se présentant sous la forme d'un pochon de forme rectangulaire, destiné au transport d’affaires en tout genre dans tout type de sac, se fermant au moyen d'un lien co…",
+     "gerekce": "Règles générales 1 et 6 : le classement est déterminé par les notes de section et de chapitre, ainsi que par le libellé de position, de sous-position et de code NC.Note 7 de la section XI : cet article est confectionné.N…",
      "url": "https://ec.europa.eu/taxation_customs/dds2/ebti/ebti_details.jsp?showHeader=false&Lang=en&reference=FRBTIFR-BTI-2025-07737"
     },
     {
@@ -669,8 +871,8 @@ window.BTI_DATA = {
      "hs4": "3924",
      "ref": "FRBTIFR-BTI-2025-06593",
      "date": "2026-07-03",
-     "title": "Plastik malzemeden (polipropilen – PP) ev ve ev ekonomisi eşyası; saplı bir kova biçimindedir. Hacim: 9 litre.",
-     "gerekce": "1 ve 6 numaralı genel kurallar: sınıflandırma, bölüm ve fasıl notları ile pozisyon, alt pozisyon ve KN kodu ifadesi tarafından belirlenir. 3924 pozisyonuna ilişkin Armonize Sistem İzahnamesi (NESH).",
+     "title": "Article de ménage et d’économie domestique en matière plastique (polypropylène – PP), se présentant sous la forme d’un seau muni d'une anse.Contenance : 9 litres.",
+     "gerekce": "Règles générales 1 et 6 : le classement est déterminé par les notes de section et de chapitre, ainsi que par le libellé de position, de sous-position et de code NC.NESH relatives à la position 3924.",
      "url": "https://ec.europa.eu/taxation_customs/dds2/ebti/ebti_details.jsp?showHeader=false&Lang=en&reference=FRBTIFR-BTI-2025-06593"
     },
     {
@@ -683,8 +885,8 @@ window.BTI_DATA = {
      "hs4": "8414",
      "ref": "SEBTITV-2026-10715",
      "date": "2026-07-03",
-     "title": "Beyana göre metal bir çerçeveye ve plastik pervane kanatlarına sahip elektrikli pervaneli fan. Fan, bir hava kargo konteynerinde doğru sıcaklığın sağlanması için kullanılacaktır. Nominal gerilim: 12 VDC. Enerji tüketimi: 375 mA. Güç: 4,5 Watt. Maksimum hava debisi: 168 m3/h. Ölçüler yaklaşık 12 x 1…",
-     "gerekce": "Kombine Nomanklatürün yorumlanmasına ilişkin genel kurallar 1 ve 6 uyarınca sınıflandırma. XVI. Bölüm'e ait 2 a Not. Armonize Sistem Açıklama Notları'nda (FAHS) 8414 pozisyonuna ait metin. 8414, 8414 59 ve… KN kodlarına ait metin.",
+     "title": "Elektrisk propellerfläkt enligt uppgift med en ram av metall och propellerblad av plast.Fläkten ska användas för att säkerställa rätt temperatur i en flygfraktcontainer.Nominell spänning: 12 VDCEnergiförbrukning: 375 mAEffekt: 4,5 WattMaximalt luftflöde: 168 m3/h. Mått ca. 12 x 1…",
+     "gerekce": "Klassificering på grundval av de allmänna bestämmelserna regel 1 och 6 för tolkning av Kombinerade nomenklaturen.Anmärkning 2 a till avdelning XVI.Texten i FAHS till HS-nummer 8414.Texten till KN-nummer 8414, 8414 59 och…",
      "url": "https://ec.europa.eu/taxation_customs/dds2/ebti/ebti_details.jsp?showHeader=false&Lang=en&reference=SEBTITV-2026-10715"
     },
     {
@@ -711,8 +913,8 @@ window.BTI_DATA = {
      "hs4": "6302",
      "ref": "FRBTIFR-BTI-2025-08682",
      "date": "2026-07-03",
-     "title": "Mutfak bezi, bulaşık bezi türünde; sentetik liflerden (Polyester, Poliamit) kumaştan yapılmış, dikdörtgen şeklinde ve beyaz renkli olup, çevresinde sürfile edilmiş bir kenar dikişi (baskı) bulunmaktadır. Boyutlar (cm): 40 x 60.",
-     "gerekce": "1 ve 6 numaralı genel kurallar: sınıflandırma, bölüm ve fasıl notları ile pozisyon, alt pozisyon ve KN kodu ifadesi tarafından belirlenir. XI. Bölümün 7 numaralı notu: konfeksiyonlanmış eşyaların tanımı.",
+     "title": "Linge de cuisine, de type torchon de vaisselle, confectionné en tissu de fibres synthétiques (Polyester, Polyamide), de forme rectangulaire et de couleur blanche, comportant un ourlet surfilé sur le pourtour.Dimensions (en cm) : 40 x 60.",
+     "gerekce": "Règles générales 1 et 6 : le classement est déterminé par les notes de section et de chapitre, ainsi que par le libellé de position, de sous-position et de code NC.Note 7 de la Section XI : définition des articles confec…",
      "url": "https://ec.europa.eu/taxation_customs/dds2/ebti/ebti_details.jsp?showHeader=false&Lang=en&reference=FRBTIFR-BTI-2025-08682"
     },
     {
@@ -739,8 +941,8 @@ window.BTI_DATA = {
      "hs4": "8421",
      "ref": "FRBTIFR-BTI-2025-03350",
      "date": "2026-07-03",
-     "title": "Filtre tipinde, silindirik biçimde, plastik malzemeden bir çerçeve içeren çeşitli eşya. Çerçeve, siyah renkli bir O-ring (halka conta) ile donatılmış kağıttan filtre ortamı ile kaplanmıştır. Parçacıkları tutarak transmisyon (şanzıman) yağını korumak için kullanılır…",
-     "gerekce": "Genel Kurallar 1 ve 6: sınıflandırma, bölüm ve fasıl notları ile pozisyon, alt pozisyon ve NC (Kombine Nomanklatür) kodu metinlerine göre belirlenir. Genel Kural 3 b): filtre, eşyaya asli niteliğini kazandırır…",
+     "title": "Article divers, de type filtre, de forme cylindrique comportant une armature en matière plastique. L'armature est recouverte par un média filtrant en papier muni d'un joint torique de couleur noire.Il est utilisé pour préserver l’huile de transmission en retenant les particules e…",
+     "gerekce": "Règles générales 1 et 6 : le classement est déterminé par les notes de section et de chapitre, ainsi que par le libellé de position, de sous-position et de code NC.Règle générale 3 b) : le filtre confère à l'article son …",
      "url": "https://ec.europa.eu/taxation_customs/dds2/ebti/ebti_details.jsp?showHeader=false&Lang=en&reference=FRBTIFR-BTI-2025-03350"
     },
     {
@@ -753,8 +955,8 @@ window.BTI_DATA = {
      "hs4": "7013",
      "ref": "FRBTIFR-BTI-2025-07229",
      "date": "2026-07-03",
-     "title": "Logolu, baskılı renkli bir kutu içinde perakende satış için hazırlanmış takım, şunları içerir: - Sodakalsik camdan, elle üflenmemiş (makine imali), metal (kalay) çerçeveli, metal mandallı hareketli bir kapıya sahip bir teraryum (boyutlar 22 x 28 cm veya 18 x 1…",
-     "gerekce": "Genel Kurallar 1 ve 6: sınıflandırma, bölüm ve fasıl notları ile pozisyon, alt pozisyon ve NC kodu metinlerine göre belirlenir. Genel Kural 2 b): karışık ürünlerin sınıflandırılması…",
+     "title": "Assortiment conditionné pour la vente au détail dans une boîte de couleur imprimée avec logo, contenant :- Un terrarium, en verre sodocalcique, non cueilli à la main, avec cadre en métal (étain), disposant d'une porte mobile avec loquet métallique (dimensions 22 x 28 cm ou 18 x 1…",
+     "gerekce": "Règles générales 1 et 6 : le classement est déterminé par les notes de sections et de chapitres ainsi que par le libellé de position, de sous position et de code NC.Règle générale 2 b) : le classement des produits mélang…",
      "url": "https://ec.europa.eu/taxation_customs/dds2/ebti/ebti_details.jsp?showHeader=false&Lang=en&reference=FRBTIFR-BTI-2025-07229"
     },
     {
@@ -767,8 +969,8 @@ window.BTI_DATA = {
      "hs4": "5806",
      "ref": "FRBTIFR-BTI-2025-06844",
      "date": "2026-07-03",
-     "title": "Sentetik liflerden (%100 polyester) dokunmuş bir bant halinde, ne elastomer iplik ne de kauçuk iplik içermeyen, genişliği 30 cm'yi geçmeyen ve gerçek kenarlıklara (kenar örgüsüne) sahip, bir madalyaya asılmak üzere tasarlanmış şeritçi eşyası (kurdele).",
-     "gerekce": "Genel Kurallar 1 ve 6: sınıflandırma, bölüm ve fasıl notları ile pozisyon, alt pozisyon ve NC kodu metinlerine göre belirlenir. «Sentetik lifleri» tanımlayan 54. Faslın 1 a) Notu…",
+     "title": "Rubanerie, consistant en une bande en tissu de fibres synthétiques (100 % polyester), ne contenant ni fils d’élastomère ni fils de caoutchouc, d’une largeur n’excédant pas 30 cm et comportant des lisières réelles, destinée à être accrochée à une médaille.",
+     "gerekce": "Règles générales 1 et 6 : le classement est déterminé par les notes de section et de chapitre, ainsi que par le libellé de position, de sous-position et de code NC.Note 1 a) du Chapitre 54 définissant les « fibres synthé…",
      "url": "https://ec.europa.eu/taxation_customs/dds2/ebti/ebti_details.jsp?showHeader=false&Lang=en&reference=FRBTIFR-BTI-2025-06844"
     },
     {
@@ -781,8 +983,8 @@ window.BTI_DATA = {
      "hs4": "3926",
      "ref": "FRBTIFR-BTI-2026-01204",
      "date": "2026-07-03",
-     "title": "Plastik malzemeden (Polietilen) mamul, dikdörtgen koruyucu branda tipinde eşya; açık gözlü (delikli örgülü) bir dokumadan yapılmış olup, iki yüzü de gözeneksiz (alveolsüz) polietilen plastik malzemeden bir tabaka ile kaplanmış ve bu kaplama çıplak gözle görülebilmektedir. Çözgü ve atkı…",
-     "gerekce": "Genel Kurallar 1 ve 6: sınıflandırma, bölüm ve fasıl notları ile pozisyon, alt pozisyon ve NC kodu metinlerine göre belirlenir. Plastik madde terimini tanımlayan 39. Faslın 1 Notu…",
+     "title": "Ouvrage en matière plastique (Polyéthylène), de type bâche de protection rectangulaire, confectionnée à partir d'un tissu à mailles ouvertes, enduit sur ses deux faces d'une feuille de matière plastique en Polyéthylène non alvéolaire et perceptible à l'oeil nu. Les chaîne et tram…",
+     "gerekce": "Règles générales 1 et 6 : le classement est déterminé par les notes de section et de chapitre, ainsi que par le libellé de position, de sous-position et de code NC.Note 1 du Chapitre 39 définissant le terme de matières p…",
      "url": "https://ec.europa.eu/taxation_customs/dds2/ebti/ebti_details.jsp?showHeader=false&Lang=en&reference=FRBTIFR-BTI-2026-01204"
     },
     {
@@ -907,8 +1109,8 @@ window.BTI_DATA = {
      "hs4": "7307",
      "ref": "FRBTIFR-BTI-2026-04159",
      "date": "2026-07-03",
-     "title": "Kaynak yapılabilir boru bağlantı parçaları (aksesuarları); 316L paslanmaz çelikten bir T (te) biçiminde olup, en büyük dış çapı 104 mm'yi geçmeyen ve et kalınlığı 2 mm'ye eşit veya daha az olan. İç yüzeyin ortalama pürüzlülüğü (Ra) 0,8 mikrometre…nin altındadır.",
-     "gerekce": "Genel Kurallar 1 ve 6: sınıflandırma, bölüm ve fasıl notları ile pozisyon, alt pozisyon ve kod metinlerine göre belirlenir. 7307 tarife pozisyonuna ait, boru bağlantı parçalarını (aksesuarlarını) ele alan Armonize Sistem İzahnamesi (NESH)…",
+     "title": "Accessoires de tuyauterie à souder prenant la forme d’un té en acier inoxydable 316L, dont le plus grand diamètre extérieur n'excède pas 104 mm et dont l'épaisseur de paroi est inférieure ou égale à 2 mm.La rugosité moyenne (Ra) de la surface interne est inférieure à 0,8 micromèt…",
+     "gerekce": "Règles générales 1 et 6 : le classement est déterminé par les notes de section et de chapitre, ainsi que par le libellé de position, de sous-position et de code.NESH de la position tarifaire 7307, reprenant les accessoir…",
      "url": "https://ec.europa.eu/taxation_customs/dds2/ebti/ebti_details.jsp?showHeader=false&Lang=en&reference=FRBTIFR-BTI-2026-04159"
     },
     {
@@ -921,8 +1123,8 @@ window.BTI_DATA = {
      "hs4": "8512",
      "ref": "FRBTIFR-BTI-2026-01983",
      "date": "2026-07-03",
-     "title": "Silindir hacmi 50 cm³'ü geçmeyen, termik veya elektrikli, ehliyetsiz kullanılan araçların montaj sanayisine yönelik arka stop lambası (fren lambası).",
-     "gerekce": "Genel Kurallar 1 ve 6: sınıflandırma, bölüm ve fasıl notları ile pozisyon, alt pozisyon ve NC kodu metinlerine göre belirlenir. XVII. Bölümün 2 f Notu: … olarak kabul edilmezler…",
+     "title": "Feu stop arrière, destiné à l'industrie du montage de véhicule sans permis, thermique ou électrique, dont la cylindrées ne dépasse pas 50cm3.",
+     "gerekce": "Règles générales 1 et 6 : le classement est déterminé par les notes de section et de chapitre, ainsi que par le libellé de position, de sous-position et de code NC.Note 2 f de la Section XVII : ne sont pas considérés com…",
      "url": "https://ec.europa.eu/taxation_customs/dds2/ebti/ebti_details.jsp?showHeader=false&Lang=en&reference=FRBTIFR-BTI-2026-01983"
     },
     {
@@ -935,8 +1137,8 @@ window.BTI_DATA = {
      "hs4": "6306",
      "ref": "FRBTIFR-BTI-2026-01207",
      "date": "2026-07-03",
-     "title": "Genişliği 2,5 mm olan polietilen plastik malzemeden şeritlerin (lamların) bezayağı (düz) örgü ile dokunmasından yapılmış, iki yüzü de gözeneksiz (alveolsüz) polietilen plastik malzemeden bir tabaka ile kaplanmış branda. Kaplamalar, renk değişikliği dikkate alınmaksızın çıplak gözle görülebilir değildir…",
-     "gerekce": "Genel Kurallar 1 ve 6: sınıflandırma, bölüm ve fasıl notları ile pozisyon, alt pozisyon ve NC kodu metinlerine göre belirlenir. XI. Bölümün 7 f) Notu: Bu eşya … şeklinde konfeksiyonlanmıştır…",
+     "title": "Bâche confectionnée à partir d'un tissu à armure-toile de lames de matière plastique en polyéthylène d'une largeur de 2,5 mm, enduit sur les deux faces d'une feuille de matière plastique en polyéthylène non alvéolaire. Les enductions ne sont pas perceptibles à l’œil nu, abstracti…",
+     "gerekce": "Règles générales 1 et 6 : le classement est déterminé par les notes de section et de chapitre, ainsi que par le libellé de position, de sous-position et de code NC.Note 7.f) de la Section XI : Cet article est confectionn…",
      "url": "https://ec.europa.eu/taxation_customs/dds2/ebti/ebti_details.jsp?showHeader=false&Lang=en&reference=FRBTIFR-BTI-2026-01207"
     },
     {
@@ -949,8 +1151,8 @@ window.BTI_DATA = {
      "hs4": "6306",
      "ref": "FRBTIFR-BTI-2026-01208",
      "date": "2026-07-03",
-     "title": "Plastik malzemeden (polietilen) lamların (şeritlerin) dokunmasıyla konfeksiyonlanmış, iki renkli dikdörtgen koruyucu branda tipinde eşyalar; iki yüzü de yine polietilen plastik malzemeden bir tabaka ile kaplanmıştır. Kaplamalar, renk değişikliği dikkate alınmaksızın çıplak gözle görülebilir değildir…",
-     "gerekce": "Genel Kurallar 1 ve 6: sınıflandırma, bölüm ve fasıl notları ile pozisyon, alt pozisyon ve NC kodu metinlerine göre belirlenir. XI. Bölümün 7 f) Notu: Bu eşya … şeklinde konfeksiyonlanmıştır…",
+     "title": "Articles confectionnés par tissage de lames de matières plastique (polyéthylène), de type bâches de protection rectangulaires bicolores, enduits sur leurs deux faces de feuille de matière plastique également en polyéthylène. Les enductions ne sont pas perceptibles à l’œil nu, abs…",
+     "gerekce": "Règles générales 1 et 6 : le classement est déterminé par les notes de section et de chapitre, ainsi que par le libellé de position, de sous-position et de code NC.Note 7.f) de la Section XI : Cet article est confectionn…",
      "url": "https://ec.europa.eu/taxation_customs/dds2/ebti/ebti_details.jsp?showHeader=false&Lang=en&reference=FRBTIFR-BTI-2026-01208"
     },
     {
@@ -963,8 +1165,8 @@ window.BTI_DATA = {
      "hs4": "6306",
      "ref": "FRBTIFR-BTI-2026-01209",
      "date": "2026-07-03",
-     "title": "Plastik madde (polietilen) şeritlerinin dokunmasıyla üretilmiş, dikdörtgen koruyucu branda türünde, her iki yüzü de yine polietilenden plastik madde tabakasıyla kaplanmış ürünler. Kaplamalar çıplak gözle fark edilemez niteliktedir, [renk değişikliği dışında …]",
-     "gerekce": "Genel Kurallar 1 ve 6: sınıflandırma, bölüm ve fasıl notlarıyla ve ayrıca pozisyon, alt pozisyon ve KN kodu metniyle belirlenir. XI. Bölümün 7.f) Notu: Bu ürün, [şeritlerin dokunmasıyla] konfeksiyonlanmıştır…",
+     "title": "Articles confectionnés par tissage de lames de matières plastique (polyéthylène), de type bâches de protection rectangulaires, enduits sur leurs deux faces de feuille de matière plastique également en polyéthylène. Les enductions ne sont pas perceptibles à l’œil nu, abstraction f…",
+     "gerekce": "Règles générales 1 et 6 : le classement est déterminé par les notes de section et de chapitre, ainsi que par le libellé de position, de sous-position et de code NC.Note 7.f) de la Section XI : Cet article est confectionn…",
      "url": "https://ec.europa.eu/taxation_customs/dds2/ebti/ebti_details.jsp?showHeader=false&Lang=en&reference=FRBTIFR-BTI-2026-01209"
     },
     {
@@ -977,8 +1179,8 @@ window.BTI_DATA = {
      "hs4": "7616",
      "ref": "SEBTITV-2026-10732",
      "date": "2026-07-03",
-     "title": "Alüminyum eşya, beyana göre; delikler ve kör perçinlerle (blind rivet) donatılmış, gönyeli (açılı) kesilmiş bir alüminyum profilden imal edilmiştir. Yüzey, anodik oksitleme (eloksal/anodizasyon) yoluyla işlem görmüştür. Eşyanın ölçüleri 1295 x 15 mm (Uzunluk x Genişlik) olup, sıcaklık kontrollü yükler için bir hava kargo konteynerine bir soğutma ünitesi monte etmek amacıyla kullanılır.",
-     "gerekce": "Kombine Nomanklatürün yorumlanmasına ilişkin Genel Kurallar 1 ve 6 esasına göre sınıflandırma. XV. Bölüme ilişkin 3 numaralı Not. 7616 HS numarasına ilişkin AS İzahnamesi (Armonize Sistem İzahnamesi) metni. 7616, 7616 99 ve 76… KN numaralarına ilişkin metin.",
+     "title": "Aluminiumvara enligt uppgift tillverkad av en snedkapad aluminiumprofil försedd med hål och blindnitar. Ytan har behandlats genom anodoxidering.Varan har måtten 1295 x 15 mm (L x B) och används för att montera en kylenhet i en flygfraktscontainer för temperaturkontrollerat gods.",
+     "gerekce": "Klassificering på grundval av de allmänna bestämmelserna regel 1 och 6 för tolkning av Kombinerade nomenklaturen.Anmärkning 3 till avdelning XV.Texten i FAHS till HS-nummer 7616.Texten till KN-nummer 7616, 7616 99 och 76…",
      "url": "https://ec.europa.eu/taxation_customs/dds2/ebti/ebti_details.jsp?showHeader=false&Lang=en&reference=SEBTITV-2026-10732"
     },
     {
@@ -991,8 +1193,8 @@ window.BTI_DATA = {
      "hs4": "6505",
      "ref": "FRBTIFR-BTI-2025-07959",
      "date": "2026-07-03",
-     "title": "Sentetik lif dokumasından (%95 polyester, %5 elastan) tekstil malzemesiyle üretilmiş, hem ense hem de başı örten bir başlık türünde başa giyilen eşya. Ürün, güneş ışınlarından korunmak için tasarlanmıştır. Ürün çeşitli renklerde mevcuttur…",
-     "gerekce": "Genel Kurallar 1 ve 6: sınıflandırma, bölüm ve fasıl notlarıyla ve ayrıca pozisyon, alt pozisyon ve KN kodu metniyle belirlenir. XI. Bölümün 1 o) İstisna Notu: bu bölüm [belirtilen eşyayı kapsamaz]…",
+     "title": "Coiffure confectionnée en matière textile de tissu de fibres synthétiques (95% polyester, 5% élasthanne), se présentant sous la forme d’un couvre-chef, recouvrant la nuque ainsi que la tête. L’article est destiné à protéger des rayons du soleil. L’article existe en plusieurs colo…",
+     "gerekce": "Règles générales 1 et 6 : le classement est déterminé par les notes de section et de chapitre, ainsi que par le libellé de position, de sous-position et de code NC.Note d'exclusion 1 o) de la section XI : cette section n…",
      "url": "https://ec.europa.eu/taxation_customs/dds2/ebti/ebti_details.jsp?showHeader=false&Lang=en&reference=FRBTIFR-BTI-2025-07959"
     },
     {
@@ -1005,8 +1207,8 @@ window.BTI_DATA = {
      "hs4": "6106",
      "ref": "FRBTIFR-BTI-2025-07379",
      "date": "2026-07-03",
-     "title": "Vücudun üst kısmını örtmeye yönelik, erkek veya kadın için olduğu ayırt edilemeyen, bluz türünde, danteli taklit eden sentetik lifli örme kumaştan (%92 poliamid, %8 elastan) üretilmiş giysi. Giysi on sıradan fazla ilmek [içermektedir]…",
-     "gerekce": "Genel Kurallar 1 ve 6: sınıflandırma, bölüm ve fasıl notlarıyla ve ayrıca pozisyon, alt pozisyon ve KN kodu metniyle belirlenir. XI. Bölümün 7. Notu: bu ürün konfeksiyonlanmıştır. [Not …]",
+     "title": "Vêtement destiné à couvrir le haut du corps, non reconnaissable comme étant pour homme ou pour femme, de type blouse, confectionnée en étoffe de bonneterie de fibres synthétiques imitant la dentelle (92 % polyamide, 8% élasthanne).Le vêtement comporte plus de dix rangées de maill…",
+     "gerekce": "Règles générales 1 et 6 : le classement est déterminé par les notes de section et de chapitre, ainsi que par le libellé de position, de sous-position et de code NC.Note 7 de la section XI : cet article est confectionné.N…",
      "url": "https://ec.europa.eu/taxation_customs/dds2/ebti/ebti_details.jsp?showHeader=false&Lang=en&reference=FRBTIFR-BTI-2025-07379"
     },
     {
@@ -1019,8 +1221,8 @@ window.BTI_DATA = {
      "hs4": "3926",
      "ref": "FRBTIFR-BTI-2025-07059",
      "date": "2026-07-03",
-     "title": "Yuvarlak biçimli, tüm yüzeyi baskılı, tutturma görevi gören bir halka bulunan, anahtarlık - jeton türünde plastik maddeden (mısır nişastası biyoplastiği) eşya. Boyutlar: 6,7 cm x 4 cm.",
-     "gerekce": "Genel Kurallar 1 ve 6: sınıflandırma, bölüm ve fasıl notlarıyla ve ayrıca pozisyon, alt pozisyon ve KN kodu metniyle belirlenir. 39. Faslın 1. Notu: «plastik maddeler»in tanımı…",
+     "title": "Ouvrage en matière plastique (bioplastique d’amidon de maïs) de forme ronde, imprimé sur toute sa surface, avec une boucle servant d’attache, de type porte clés - jeton.Dimensions : 6.7 cm x 4 cm.",
+     "gerekce": "Règles générales 1 et 6 : le classement est déterminé par les notes de section et de chapitre, ainsi que par le libellé de position, de sous-position et de code NC.Note 1 du Chapitre 39 : définition des « matières plasti…",
      "url": "https://ec.europa.eu/taxation_customs/dds2/ebti/ebti_details.jsp?showHeader=false&Lang=en&reference=FRBTIFR-BTI-2025-07059"
     },
     {
@@ -1033,8 +1235,8 @@ window.BTI_DATA = {
      "hs4": "6204",
      "ref": "FRBTIFR-BTI-2025-07178",
      "date": "2026-07-03",
-     "title": "Yapay lif dokumasından (%100 lyocell) üretilmiş, kadın ceketi türünde tekstil eşyası. Bu eşya, vücudun üst kısmını örtmeye yöneliktir. Ceket, omuz vatkalarına ve üst kısma tutturulan bir dilme (pat) sayesinde kıvrılabilen uzun kollara sahiptir…",
-     "gerekce": "Genel Kurallar 1 ve 6: sınıflandırma, bölüm ve fasıl notlarıyla ve ayrıca pozisyon, alt pozisyon ve KN kodu metniyle belirlenir. XI. Bölümün 7 d) Notu: bu ürün konfeksiyonlanmıştır…",
+     "title": "Article textile confectionné en tissu de fibres artificielles (100 % lyocell), de type veste pour femme. Celle-ci est destiné à recouvrir la partie supérieure du corps. La veste dispose d'épaulettes et de manches longues, retroussables grâce à une patte qui se fixe sur le dessus …",
+     "gerekce": "Règles générales 1 et 6 : le classement est déterminé par les notes de section et de chapitre, ainsi que par le libellé de position, de sous-position et de code NC.Note 7 d) de la Section XI : cet article est confectionn…",
      "url": "https://ec.europa.eu/taxation_customs/dds2/ebti/ebti_details.jsp?showHeader=false&Lang=en&reference=FRBTIFR-BTI-2025-07178"
     },
     {
@@ -1047,8 +1249,8 @@ window.BTI_DATA = {
      "hs4": "8501",
      "ref": "FRBTIFR-BTI-2025-08927",
      "date": "2026-07-03",
-     "title": "Ürün, aşağıdakilerden oluşan donanımlı bir taret (döner başlık)tir: - tekerleğin kendi ekseni etrafında dönmesini sağlayan bir motor (48V – 2A) - zamak enjeksiyonundan bir tekerlek - tekerleğin konumunu bildiren yükselen kenar (front montant) tipi bir sensör. Ürün, sipariş hazırlığına yöneliktir…",
-     "gerekce": "Genel Kurallar 1 ve 6: sınıflandırma, bölüm ve fasıl notlarıyla ve ayrıca pozisyon, alt pozisyon ve KN kodu metniyle belirlenir. XVI. Bölümün 3. Notu: aksine hüküm bulunmadıkça,…",
+     "title": "L’article est une tourelle équipée composée de:- un moteur permettant d’activer la rotation de la roue sur elle-même (48V – 2A)- une roue en injection zamak- un capteur front montant permettant de remonter la position de la roue.L’article est destiné à la préparation de commande …",
+     "gerekce": "Règles générales 1 et 6 : le classement est déterminé par les notes de section et de chapitre, ainsi que par le libellé de position, de sous-position et de code NC.Note 3 de la section XVI : sauf dispositions contraires,…",
      "url": "https://ec.europa.eu/taxation_customs/dds2/ebti/ebti_details.jsp?showHeader=false&Lang=en&reference=FRBTIFR-BTI-2025-08927"
     },
     {
@@ -1075,8 +1277,8 @@ window.BTI_DATA = {
      "hs4": "6203",
      "ref": "FRBTIFR-BTI-2025-07261",
      "date": "2026-07-03",
-     "title": "Vücudun alt kısmını örtmeye yönelik, işletmecinin verilerine göre denim dışında çözgü ve atkı dokumalı tekstil malzemesinden, ağırlıklı doğal liflerden (%81 pamuk) ve sentetik liflerden (%17 polyester ve %2 elastan) üretilmiş giysi…",
-     "gerekce": "Genel Kurallar 1 ve 6: sınıflandırma, bölüm ve fasıl notlarıyla ve ayrıca pozisyon, alt pozisyon ve KN kodu metniyle belirlenir. Genel Kural 5 b): ambalajın sınıflandırılması [içindeki eşyayı takip eder]…",
+     "title": "Vêtement destiné à recouvrir la partie inférieure du corps, confectionné en matière textile de tissu chaîne et trame, autre que du denim selon les données de l’opérateur, de fibres naturelles majoritaires (81 % coton), et de fibres synthétiques (17 % polyester et 2 % élasthanne),…",
+     "gerekce": "Règles générales 1 et 6 : le classement est déterminé par les notes de section et de chapitre, ainsi que par le libellé de position, de sous-position et de code NC.Règle générale 5 b) : le classement de l’emballage suit …",
      "url": "https://ec.europa.eu/taxation_customs/dds2/ebti/ebti_details.jsp?showHeader=false&Lang=en&reference=FRBTIFR-BTI-2025-07261"
     },
     {
@@ -1089,8 +1291,8 @@ window.BTI_DATA = {
      "hs4": "3926",
      "ref": "FRBTIFR-BTI-2025-07147",
      "date": "2026-07-03",
-     "title": "Kare biçimli bir telefon aksesuarı formunda, kenarlarından birinde aynı maddeden bir şerit bulunan ve buna bir halka takılı olan, plastik maddeden (poliüretan – PU) eşya. Bu aksesuar, kılıf ile arka yüz arasına yerleştirilmeye yöneliktir…",
-     "gerekce": "Genel Kurallar 1 ve 6: sınıflandırma, bölüm ve fasıl notlarıyla ve ayrıca pozisyon, alt pozisyon ve KN kodu metniyle belirlenir. Genel Kural 2 b): karışık ürünlerin sınıflandırılması…",
+     "title": "Ouvrage en matière plastique (polyuréthane – PU) se présentant sous la forme d’un accessoire pour téléphone de forme carrée, dont un des côté dispose d'une bande de la même matière, auquel est attaché un anneau. Cet accessoire est destiné à être placé entre la coque et la face ar…",
+     "gerekce": "Règles générales 1 et 6 : le classement est déterminé par les notes de section et de chapitre, ainsi que par le libellé de position, de sous-position et de code NC.Règle générale 2 b) : le classement des produits mélangé…",
      "url": "https://ec.europa.eu/taxation_customs/dds2/ebti/ebti_details.jsp?showHeader=false&Lang=en&reference=FRBTIFR-BTI-2025-07147"
     },
     {
@@ -1103,8 +1305,8 @@ window.BTI_DATA = {
      "hs4": "3926",
      "ref": "FRBTIFR-BTI-2025-06840",
      "date": "2026-07-03",
-     "title": "Rozet (arma) tipinde, alveolsüz (gözeneksiz) poliüretan esaslı esnek suni deriden mamul eşya; işlenmiş kenarları bulunmamaktadır. Bu eşya, reklam amaçlı süsleme olarak çeşitli dekoratif yazılar ve/veya kabartma harfler içermektedir.",
-     "gerekce": "Genel Kural 1 ve 6: Sınıflandırma, bölüm ve fasıl notları ile pozisyon, alt pozisyon ve KN (Kombine Nomanklatür) kodu metinlerine göre belirlenir. Fasıl 39'un 1 No.lu Notu: «plastik maddeler» tanımı…",
+     "title": "Ouvrage en similicuir flexible, à base de polyuréthane non alvéolaire, du type écusson, ne présentant pas de bords travaillés. Cet article comporte diverses inscriptions décoratives et/ou des lettrages en relief, à titre d'ornementation publicitaire.",
+     "gerekce": "Règles générales 1 et 6 : le classement est déterminé par les notes de section et de chapitre, ainsi que par le libellé de position, de sous-position et de code NC.Note 1 du chapitre 39 : définition des « matières plasti…",
      "url": "https://ec.europa.eu/taxation_customs/dds2/ebti/ebti_details.jsp?showHeader=false&Lang=en&reference=FRBTIFR-BTI-2025-06840"
     },
     {
@@ -1243,8 +1445,8 @@ window.BTI_DATA = {
      "hs4": "2309",
      "ref": "FRBTIFR-BTI-2026-02513",
      "date": "2026-07-03",
-     "title": "Hayvan yemi olarak kullanılan türden müstahzar; toz esaslı bir müstahzar ile köpek veya kedi için bisküvi hazırlanmasına yönelik plastikten bir dozaj kabından (dozet) oluşan, perakende satış için bir kutu içinde ambalajlanmış kit biçiminde sunulmaktadır…",
-     "gerekce": "Genel Kural 1 ve 6: Sınıflandırma, bölüm ve fasıl notları ile pozisyon ve alt pozisyon metinlerine göre belirlenir. Genel Kural 5 b): Ambalaj, eşyanın sınıflandırmasına tabidir…",
+     "title": "Préparation des types utilisés pour l’alimentation des animaux se présentant sous la forme d’un kit composé d’une préparation à base de poudre et d’une dosette en plastique destinée à la préparation de biscuits pour chien ou chat conditionné pour la vente au détail dans une boite…",
+     "gerekce": "Règles générales 1 et 6 : le classement est déterminé par les notes de section et de chapitre, ainsi que par le libellé de position et de sous-position.Règle générale 5b) : l’emballage suit le classement de la marchandis…",
      "url": "https://ec.europa.eu/taxation_customs/dds2/ebti/ebti_details.jsp?showHeader=false&Lang=en&reference=FRBTIFR-BTI-2026-02513"
     },
     {
@@ -1257,8 +1459,8 @@ window.BTI_DATA = {
      "hs4": "6306",
      "ref": "FRBTIFR-BTI-2026-01210",
      "date": "2026-07-03",
-     "title": "Plastik madde (polietilen) şeritlerinin dokunması suretiyle imal edilmiş, iki yüzü de yine polietilenden plastik madde tabakasıyla kaplanmış, dikdörtgen biçiminde, iki renkli koruma brandası (tente) tipinde konfeksiyon eşyası. Kaplamalar çıplak gözle fark edilemez, yok…",
-     "gerekce": "Genel Kural 1 ve 6: Sınıflandırma, bölüm ve fasıl notları ile pozisyon, alt pozisyon ve KN kodu metinlerine göre belirlenir. XI. Bölüm'ün 7.f) No.lu Notu: Bu eşya konfeksiyon…",
+     "title": "Articles confectionnés par tissage de lames de matières plastique (polyéthylène), de type bâches de protection rectangulaires bicolores, enduits sur leurs deux faces de feuille de matière plastique également en polyéthylène. Les enductions ne sont pas perceptibles à l’œil nu, abs…",
+     "gerekce": "Règles générales 1 et 6 : le classement est déterminé par les notes de section et de chapitre, ainsi que par le libellé de position, de sous-position et de code NC.Note 7.f) de la Section XI : Cet article est confectionn…",
      "url": "https://ec.europa.eu/taxation_customs/dds2/ebti/ebti_details.jsp?showHeader=false&Lang=en&reference=FRBTIFR-BTI-2026-01210"
     },
     {
@@ -1271,8 +1473,8 @@ window.BTI_DATA = {
      "hs4": "6306",
      "ref": "FRBTIFR-BTI-2026-01211",
      "date": "2026-07-03",
-     "title": "Plastik madde (polietilen) şeritlerinin dokunması suretiyle imal edilmiş, iki yüzü de yine polietilenden plastik madde tabakasıyla kaplanmış, dikdörtgen biçiminde, iki renkli koruma brandası (tente) tipinde konfeksiyon eşyası. Kaplamalar çıplak gözle fark edilemez, yok…",
-     "gerekce": "Genel Kural 1 ve 6: Sınıflandırma, bölüm ve fasıl notları ile pozisyon, alt pozisyon ve KN kodu metinlerine göre belirlenir. XI. Bölüm'ün 7.f) No.lu Notu: Bu eşya konfeksiyon…",
+     "title": "Articles confectionnés par tissage de lames de matières plastique (polyéthylène), de type bâches de protection rectangulaires bicolores, enduits sur leurs deux faces de feuille de matière plastique également en polyéthylène. Les enductions ne sont pas perceptibles à l’œil nu, abs…",
+     "gerekce": "Règles générales 1 et 6 : le classement est déterminé par les notes de section et de chapitre, ainsi que par le libellé de position, de sous-position et de code NC.Note 7.f) de la Section XI : Cet article est confectionn…",
      "url": "https://ec.europa.eu/taxation_customs/dds2/ebti/ebti_details.jsp?showHeader=false&Lang=en&reference=FRBTIFR-BTI-2026-01211"
     },
     {
@@ -1285,8 +1487,8 @@ window.BTI_DATA = {
      "hs4": "6307",
      "ref": "FRBTIFR-BTI-2025-07240",
      "date": "2026-07-03",
-     "title": "Toz alma eldiveni tipinde, dikdörtgen biçiminde, sentetik mikrofiber örme mensucattan (% 87 polyester / % 13 poliamid) mamul bakım/temizlik eşyası. Ölçüleri: 15 x 25 cm. Rengi: gri.",
-     "gerekce": "Genel Kural 1 ve 6: Sınıflandırma, bölüm ve fasıl notları ile pozisyon, alt pozisyon ve KN kodu metinlerine göre belirlenir. XI. Bölüm'ün 7 No.lu Notu: Bu eşya konfeksiyondur. N…",
+     "title": "Article d’entretien, de type gant de dépoussiérage, de forme rectangulaire, confectionné en étoffe de bonneterie de microfibres synthétiques (87 % polyester / 13 % polyamide). Dimensions : 15 x 25 cm. Coloris : gris.",
+     "gerekce": "Règles générales 1 et 6 : le classement est déterminé par les notes de section et de chapitre, ainsi que par le libellé de position, de sous-position et de code NC.Note 7 de la Section XI : cet article est confectionné.N…",
      "url": "https://ec.europa.eu/taxation_customs/dds2/ebti/ebti_details.jsp?showHeader=false&Lang=en&reference=FRBTIFR-BTI-2025-07240"
     },
     {
@@ -1299,8 +1501,8 @@ window.BTI_DATA = {
      "hs4": "8716",
      "ref": "FRBTIFR-BTI-2026-03224",
      "date": "2026-07-03",
-     "title": "Yalnızca tarımsal kullanım için komple tekerlek (pnömatik lastik üzerine monte edilmiş jant). Bu komple tekerlekler, hızı 40 km/saat ile sınırlı tarım traktörleri tarafından çekilen tarımsal alet taşıyıcıları için tasarlanmıştır. Pnömatik lastiğin ölçüsü: 215/75R17.5. Pnömatik lastiğin profili: DSRS01I…",
-     "gerekce": "Genel Kural 1 ve 6: Sınıflandırma, bölüm ve fasıl notları ile pozisyon, alt pozisyon ve KN kodu metinlerine göre belirlenir. Genel Kural 3 c): Esaslı niteliği veren bir unsurun bulunmaması halinde…",
+     "title": "Roue complète (jante montée sur pneumatique) pour usage agricole uniquement.Ces roues complètes sont destinées aux portes engins agricoles tractées par des tracteurs agricoles ayant une vitesse limitée à 40km/h.Dimension du pneumatique : 215/75R17.5Profil du pneumatique : DSRS01I…",
+     "gerekce": "Règles générales 1 et 6 : le classement est déterminé par les notes de section et de chapitre, ainsi que par le libellé de position, de sous-position et de code NC.Règle générale 3 c) : en l'absence d'un élément conféran…",
      "url": "https://ec.europa.eu/taxation_customs/dds2/ebti/ebti_details.jsp?showHeader=false&Lang=en&reference=FRBTIFR-BTI-2026-03224"
     },
     {
@@ -1313,8 +1515,8 @@ window.BTI_DATA = {
      "hs4": "9505",
      "ref": "FRBTIFR-BTI-2026-04201",
      "date": "2026-07-03",
-     "title": "Paskalya bayramları sırasında iç mekân süslemesine yönelik, plastik maddeden bir civciv biçiminde sunulan dekorasyon eşyası. Ürün 4 farklı renkte sunulmaktadır. Ölçüleri: 6.5 x 8.5 x 13 cm.",
-     "gerekce": "Genel Kural 1 ve 6: Sınıflandırma, bölüm ve fasıl notları ile pozisyon, alt pozisyon ve KN kodu metinlerine göre belirlenir. 9505 tarife pozisyonunun İzahname Notları (NESH), A paragrafı, bendi…",
+     "title": "Article de décoration, destiné à l’ornementation intérieure lors des fêtes de Pâques, se présentant sous la forme d'un poussin en matière plastique.Le produit se décline en 4 couleurs différentes.Dimensions : 6.5 x 8.5 x 13 cm.",
+     "gerekce": "Règles générales 1 et 6 : le classement est déterminé par les notes de section et de chapitre, ainsi que par le libellé de position, de sous-position et de code NC.NESH de la position tarifaire 9505, paragraphe A, alinéa…",
      "url": "https://ec.europa.eu/taxation_customs/dds2/ebti/ebti_details.jsp?showHeader=false&Lang=en&reference=FRBTIFR-BTI-2026-04201"
     },
     {
@@ -1327,8 +1529,8 @@ window.BTI_DATA = {
      "hs4": "9505",
      "ref": "FRBTIFR-BTI-2026-04199",
      "date": "2026-07-03",
-     "title": "Paskalya bayramları sırasında iç mekân süslemesine yönelik, plastik maddeden bir tavşan biçiminde sunulan dekorasyon eşyası. Ürün 2 farklı renkte sunulmaktadır. Ölçüleri: modeline göre 7 x 8.5 x 23 cm veya 6,5 x 6 x 20 cm.",
-     "gerekce": "Genel Kural 1 ve 6: Sınıflandırma, bölüm ve fasıl notları ile pozisyon, alt pozisyon ve KN kodu metinlerine göre belirlenir. 9505 tarife pozisyonunun İzahname Notları (NESH), A paragrafı, bendi…",
+     "title": "Article de décoration, destiné à l’ornementation intérieure lors des fêtes de Pâques, se présentant sous la forme d'un lapin en matière plastique.Le produit se décline en 2 couleurs différentes.Dimensions : 7 x 8.5 x 23 cm ou 6,5 x 6 x 20 cm selon le modèle.",
+     "gerekce": "Règles générales 1 et 6 : le classement est déterminé par les notes de section et de chapitre, ainsi que par le libellé de position, de sous-position et de code NC.NESH de la position tarifaire 9505, paragraphe A, alinéa…",
      "url": "https://ec.europa.eu/taxation_customs/dds2/ebti/ebti_details.jsp?showHeader=false&Lang=en&reference=FRBTIFR-BTI-2026-04199"
     },
     {
@@ -1341,8 +1543,8 @@ window.BTI_DATA = {
      "hs4": "8716",
      "ref": "FRBTIFR-BTI-2026-03226",
      "date": "2026-07-03",
-     "title": "Yalnızca tarımsal kullanım için komple tekerlek (jantı takılmış lastik). Bu komple tekerlekler, hızı 40 km/s ile sınırlı tarım traktörleri tarafından çekilen tarımsal yem/kaba yem platformları (römorkları) için tasarlanmıştır. Lastik ebadı: 385/65R22.5. Lastik profili: D…",
-     "gerekce": "Genel Kurallar 1 ve 6: Sınıflandırma, bölüm ve fasıl notlarıyla ve ayrıca pozisyon, alt pozisyon ve KN kodu metniyle belirlenir. Genel Kural 3 c): Belirleyici bir unsurun bulunmaması durumunda…",
+     "title": "Roue complète (jante montée sur pneumatique) pour usage agricole uniquement.Ces roues complètes sont destinées aux plateaux fourragers agricoles tractées par des tracteurs agricoles ayant une vitesse limitée à 40km/h.Dimension du pneumatique : 385/65R22.5Profil du pneumatique : D…",
+     "gerekce": "Règles générales 1 et 6 : le classement est déterminé par les notes de section et de chapitre, ainsi que par le libellé de position, de sous-position et de code NC.Règle générale 3 c) : en l'absence d'un élément conféran…",
      "url": "https://ec.europa.eu/taxation_customs/dds2/ebti/ebti_details.jsp?showHeader=false&Lang=en&reference=FRBTIFR-BTI-2026-03226"
     },
     {
@@ -2262,8 +2464,8 @@ window.BTI_DATA = {
      "hs4": "6203",
      "ref": "FRBTIFR-BTI-2025-06985",
      "date": "2026-07-02",
-     "title": "Vücudun alt kısmını örten, doğal liflerden (%50 pamuk) ve sentetik liflerden (%48 polyester, %2 spandex tipi elastan) oluşan dokuma tekstil malzemeden mekanik olarak imal edilmiş, pantolon biçiminde bir giysi. Bu pantolon, … olarak tanınabilir…",
-     "gerekce": "Genel Kurallar 1 ve 6: Sınıflandırma, bölüm ve fasıl notlarıyla ve ayrıca pozisyon, alt pozisyon ve KN kodu metniyle belirlenir. Genel Kural 5 b): Ambalajın sınıflandırması …'i takip eder…",
+     "title": "Vêtement recouvrant la partie inférieure du corps, confectionné mécaniquement en matière textile de tissu de fibres naturelles (50 % coton) et de fibres synthétiques (48 % polyester, 2 % d’élasthanne de type spandex), se présentant sous la forme d’un pantalon. Ce pantalon, reconn…",
+     "gerekce": "Règles générales 1 et 6 : le classement est déterminé par les notes de section et de chapitre, ainsi que par le libellé de position, de sous-position et de code NC.Règle générale 5 b) : le classement de l’emballage suit …",
      "url": "https://ec.europa.eu/taxation_customs/dds2/ebti/ebti_details.jsp?showHeader=false&Lang=en&reference=FRBTIFR-BTI-2025-06985"
     },
     {
@@ -2276,8 +2478,8 @@ window.BTI_DATA = {
      "hs4": "4419",
      "ref": "FRBTIFR-BTI-2025-07317",
      "date": "2026-07-02",
-     "title": "Perakende satış için birlikte ambalajlanmış, masa veya mutfak için bir mal takımı; şunlardan oluşur: - aksesuarları düzenlemek için tasarlanmış bölmeleri bulunan, kesme tahtası tipinde, yuvarlak biçimli, tropikal hevea (kauçuk ağacı) ahşabından bir tabla; - dört adet … kullanımlık bir set…",
-     "gerekce": "Genel Kurallar 1 ve 6: Sınıflandırma, bölüm ve fasıl notlarıyla ve ayrıca pozisyon, alt pozisyon ve KN kodu metniyle belirlenir. Genel Kural 2 b): Karışık ürünlerin sınıflandırması…",
+     "title": "Assortiment de marchandises, pour la table ou la cuisine, conditionnées ensemble pour la vente au détail, composé :- d'un plateau en bois tropical d'hévéa, de forme ronde, de type planche à découper avec aménagements conçus pour ranger les accessoires ;- d’un ensemble de quatre u…",
+     "gerekce": "Règles générales 1 et 6 : le classement est déterminé par les notes de section et de chapitre, ainsi que par le libellé de position, de sous-position et de code NC.Règle générale 2b) : le classement des produits mélangés…",
      "url": "https://ec.europa.eu/taxation_customs/dds2/ebti/ebti_details.jsp?showHeader=false&Lang=en&reference=FRBTIFR-BTI-2025-07317"
     },
     {
@@ -2304,8 +2506,8 @@ window.BTI_DATA = {
      "hs4": "6104",
      "ref": "FRBTIFR-BTI-2025-06992",
      "date": "2026-07-02",
-     "title": "Vücudun üst kısmını örtmeye yönelik, erkek veya kadın için olduğu ayırt edilemeyen, uzun kollu ceket tipinde, sentetik liflerden (Polyester) örme kumaştan imal edilmiş bir giysi. İkisi … olan üç panelden oluşan giysi…",
-     "gerekce": "Genel Kurallar 1 ve 6: Sınıflandırma, bölüm ve fasıl notlarıyla ve ayrıca pozisyon, alt pozisyon ve KN kodu metniyle belirlenir. Genel Kural 5 b): Ambalaj, …'nin sınıflandırmasını takip eder…",
+     "title": "Vêtement destiné à couvrir la partie supérieure du corps, non reconnaissable comme étant pour homme ou pour femme, de type veste à manches longues, confectionné dans une étoffe de bonneterie de fibres synthétiques (Polyester). Le vêtement, constitué par trois panneaux (dont deux …",
+     "gerekce": "Règles générales 1 et 6 : le classement est déterminé par les notes de section et de chapitre, ainsi que par le libellé de position, de sous-position et de code NC.Règle générale 5 b) : l'emballage suit le classement de …",
      "url": "https://ec.europa.eu/taxation_customs/dds2/ebti/ebti_details.jsp?showHeader=false&Lang=en&reference=FRBTIFR-BTI-2025-06992"
     },
     {
@@ -2318,8 +2520,8 @@ window.BTI_DATA = {
      "hs4": "6203",
      "ref": "FRBTIFR-BTI-2025-06987",
      "date": "2026-07-02",
-     "title": "Vücudun alt kısmını örtmeye yönelik, doğal liflerden (%50 pamuk) ve sentetik liflerden (%48 polyester ve %2 elastan) oluşan dokuma tekstil malzemeden imal edilmiş, iş pantolonu biçiminde bir giysi. Bu pantolon, … olarak tanınabilir…",
-     "gerekce": "Genel Kurallar 1 ve 6: Sınıflandırma, bölüm ve fasıl notlarıyla ve ayrıca pozisyon, alt pozisyon ve KN kodu metniyle belirlenir. Genel Kural 5 b): İçinde mallar bulunan ambalajlar…",
+     "title": "Vêtement destiné à couvrir la partie inférieure du corps confectionné en matière textile de tissu de fibres naturelles (50 % coton) et de fibres synthétiques (48 % polyester et 2 % élasthanne), se présentant sous la forme d’un pantalon de travail. Ce pantalon, reconnaissable comm…",
+     "gerekce": "Règles générales 1 et 6 : le classement est déterminé par les notes de section et de chapitre, ainsi que par le libellé de position, de sous-position et de code NC.Règle générale 5 b) : les emballages contenant des march…",
      "url": "https://ec.europa.eu/taxation_customs/dds2/ebti/ebti_details.jsp?showHeader=false&Lang=en&reference=FRBTIFR-BTI-2025-06987"
     },
     {
@@ -2346,8 +2548,8 @@ window.BTI_DATA = {
      "hs4": "6104",
      "ref": "FRBTIFR-BTI-2025-06898",
      "date": "2026-07-02",
-     "title": "Vücudun üst kısmını örten, uzun kollu ceket tipinde, erkek veya kadın için olduğu ayırt edilemeyen, polyester örme kumaştan imal edilmiş bir giysi. Ürün ne kapüşon, ne sonradan eklenmiş astar, ne de tabanında herhangi bir sıkma/büzme unsuru içerir. Ürün … kadar iner…",
-     "gerekce": "Genel Kurallar 1 ve 6: Sınıflandırma, bölüm ve fasıl notlarıyla ve ayrıca pozisyon, alt pozisyon ve KN kodu metniyle belirlenir. XI. Bölümün 7 no.lu notu: Bu ürün imal edilmiştir (konfeksiyondur). N…",
+     "title": "Vêtement couvrant le haut du corps, de type veste à manches longues, non reconnaissable comme étant pour homme ou pour femme, confectionné en bonneterie de polyester. L'article ne comporte ni capuche, ni doublure rapportée, ni aucun élément resserrant à la base. Le produit descen…",
+     "gerekce": "Règles générales 1 et 6 : le classement est déterminé par les notes de section et de chapitre, ainsi que par le libellé de position, de sous-position et de code NC.Note 7 de la section XI : cet article est confectionné.N…",
      "url": "https://ec.europa.eu/taxation_customs/dds2/ebti/ebti_details.jsp?showHeader=false&Lang=en&reference=FRBTIFR-BTI-2025-06898"
     },
     {
@@ -2360,8 +2562,8 @@ window.BTI_DATA = {
      "hs4": "6110",
      "ref": "FRBTIFR-BTI-2025-06994",
      "date": "2026-07-02",
-     "title": "Vücudun üst kısmını örtmeye yönelik, kazak (pull-over) tipinde, pamuktan örme kumaştan (tüylendirilmemiş, ilmekli olmayan, kadifesiz) imal edilmiş bir giysi. Ürün, erkek veya kadın için olduğu ayırt edilemez. Tabanında herhangi bir sıkma/büzme unsuru yoktur. …",
-     "gerekce": "Genel Kurallar 1 ve 6: Sınıflandırma, bölüm ve fasıl notlarıyla ve ayrıca pozisyon, alt pozisyon ve KN kodu metniyle belirlenir. İmal edilmiş (konfeksiyon) eşyaları tanımlayan XI. Bölümün 7 no.lu notu…",
+     "title": "Vêtement destiné à recouvrir la partie supérieure du corps, de type pull-over, confectionné en étoffe de bonneterie (non grattée, ni bouclée ni velours) de coton. L'article n'est pas reconnaissable comme étant pour hommes ou pour femmes.Il n’y aucun élément resserrant à la base. …",
+     "gerekce": "Règles générales 1 et 6 : le classement est déterminé par les notes de section et de chapitre, ainsi que par le libellé de position, de sous-position et de code NC.Note 7 de la Section XI définissant les articles confect…",
      "url": "https://ec.europa.eu/taxation_customs/dds2/ebti/ebti_details.jsp?showHeader=false&Lang=en&reference=FRBTIFR-BTI-2025-06994"
     },
     {
@@ -2374,8 +2576,8 @@ window.BTI_DATA = {
      "hs4": "6403",
      "ref": "FRBTIFR-BTI-2025-06993",
      "date": "2026-07-02",
-     "title": "Bileği örten fakat baldırı örtmeyen, doğal deriden (nubuk) sayası ve naylon ekli sayaya sahip, poliüretandan dış tabanı olan, güvenlik ayakkabısı olarak adlandırılan bir çift koruyucu ayakkabı. Ürün, plastik malzemeden (poliüretan…) bir ara tabana sahiptir…",
-     "gerekce": "Genel Kurallar 1 ve 6: Sınıflandırma, bölüm ve fasıl notlarıyla ve ayrıca pozisyon, alt pozisyon ve KN kodu metniyle belirlenir. Genel Kural 5 b): Ambalajlar … ile birlikte sınıflandırılır…",
+     "title": "Paire de chaussure de protection dites de sécurité, couvrant la cheville mais pas le mollet, dotées d’une tige en cuir naturel (nubuck) avec insert en nylon et d'une semelle extérieure en polyuréthane. Le produit dispose d’une semelle intercalaire en matière plastique (polyurétha…",
+     "gerekce": "Règles générales 1 et 6 : le classement est déterminé par les notes de section et de chapitre, ainsi que par le libellé de position, de sous-position et de code NC.Règle générale 5 b) : les emballages sont classés avec l…",
      "url": "https://ec.europa.eu/taxation_customs/dds2/ebti/ebti_details.jsp?showHeader=false&Lang=en&reference=FRBTIFR-BTI-2025-06993"
     },
     {
@@ -2388,8 +2590,8 @@ window.BTI_DATA = {
      "hs4": "6403",
      "ref": "FRBTIFR-BTI-2025-06900",
      "date": "2026-07-02",
-     "title": "Bilekliği örtmeyen, güvenlik ayakkabısı olarak adlandırılan bir çift koruyucu ayakkabı; kaplamalı deriden (Nubuk deri) bir sayaya, kauçuktan bir dış tabana, plastik malzemeden (EVA) çıkarılabilir bir tabanlığa ve çelikten delinmeye karşı korumalı bir tabana sahiptir. Ürün...",
-     "gerekce": "Genel kurallar 1 ve 6: Sınıflandırma, bölüm ve fasıl notları ile pozisyon, alt pozisyon ve KN (Kombine Nomanklatür) kodu metinlerine göre belirlenir. Fasıl 64'ün 3 b) notu: «tabii deri» ifadesi...",
+     "title": "Paire de chaussure de protection dites de sécurité, ne couvrant pas la cheville, dotées d’un dessus en cuir enduit (cuir Nubuck), d'une semelle extérieure en caoutchouc, d’une semelle amovible en matière plastique (EVA), et d’une semelle anti-perforation en acier.Le produit dispo…",
+     "gerekce": "Règles générales 1 et 6 : le classement est déterminé par les notes de section et de chapitre, ainsi que par le libellé de position, de sous-position et de code NC.Note 3 b) du Chapitre 64 : l'expression « cuir naturel »…",
      "url": "https://ec.europa.eu/taxation_customs/dds2/ebti/ebti_details.jsp?showHeader=false&Lang=en&reference=FRBTIFR-BTI-2025-06900"
     },
     {
@@ -2402,8 +2604,8 @@ window.BTI_DATA = {
      "hs4": "6306",
      "ref": "FRBTIFR-BTI-2025-07544",
      "date": "2026-07-02",
-     "title": "Dikdörtgen şeklinde branda türünde tekstil malzemesinden bir eşya; 2 mm genişliğinde plastik malzemeden (Polietilen) şeritlerden dokunmuş, her iki yüzeyi çıplak gözle görülemeyen plastik malzemeden (Polietilen) bir tabaka ile kaplanmış (kumaşın örgüsü...) bir kumaştan imal edilmiştir.",
-     "gerekce": "Genel kurallar 1 ve 6: Sınıflandırma, bölüm ve fasıl notları ile pozisyon, alt pozisyon ve KN kodu metinlerine göre belirlenir. Genel kural 2b): Karışık ürünlerin sınıflandırılması...",
+     "title": "Article en matière textile de type bâche de forme rectangulaire, confectionnée en tissu de lames de matière plastique (Polyéthylène) d'une largeur de 2 mm, enduit sur les deux faces d'une feuille de matière plastique (Polyéthylène) non visible à l’œil nu (l'armure du tissu étant …",
+     "gerekce": "Règles générales 1 et 6 : le classement est déterminé par les notes de section et de chapitre, ainsi que par le libellé de position, de sous-position et de code NC.Règle générale 2b) : le classement des produits mélangés…",
      "url": "https://ec.europa.eu/taxation_customs/dds2/ebti/ebti_details.jsp?showHeader=false&Lang=en&reference=FRBTIFR-BTI-2025-07544"
     },
     {
@@ -2416,8 +2618,8 @@ window.BTI_DATA = {
      "hs4": "8203",
      "ref": "FRBTIFR-BTI-2026-02743",
      "date": "2026-07-02",
-     "title": "Sıkıştırma pensesi. Bu pense, 6,8 mm'lik kablolar için RZ136COMP tipi F konnektörleri sıkıştırmaya yönelik bir el aletidir. Çalışan kısmı çeliktendir ve sapı PVC ile kaplıdır. Pense 20 cm uzunluğundadır.",
-     "gerekce": "Genel kurallar 1 ve 6: Sınıflandırma, bölüm ve fasıl notları ile pozisyon, alt pozisyon ve KN kodu metinlerine göre belirlenir. Genel kural 3.b): Karışık eşyalar veya takımlar...",
+     "title": "Pince à compresser. La pince correspond à un outil à main destiné à compresser les connecteurs F de type RZ136COMP pour câbles de 6,8mm. La partie travaillante est en acier, et la poignée est recouverte de PVC. La pince mesure 20cm de long.",
+     "gerekce": "Règles générales 1 et 6 : le classement est déterminé par les notes de section et de chapitre, ainsi que par le libellé de position, de sous-position et de code NC. Règle générale 3.b): Les articles mélangés ou les assor…",
      "url": "https://ec.europa.eu/taxation_customs/dds2/ebti/ebti_details.jsp?showHeader=false&Lang=en&reference=FRBTIFR-BTI-2026-02743"
     },
     {
@@ -2430,8 +2632,8 @@ window.BTI_DATA = {
      "hs4": "8544",
      "ref": "FRBTIFR-BTI-2026-02744",
      "date": "2026-07-02",
-     "title": "Analog ve dijital ses yayını (radyo) ve televizyon sinyallerinin dağıtım sistemlerinde kullanılmaya yönelik koaksiyel kablo. 5 ile 3000 MHz arasındaki kullanım frekansları için tasarlanmıştır. Aşağıdaki unsurlardan oluşur: - bir öz...",
-     "gerekce": "Genel kurallar 1 ve 6: Sınıflandırma, bölüm ve fasıl notları ile pozisyon, alt pozisyon ve KN kodu metinlerine göre belirlenir. 8544 tarife pozisyonuna ait Armonize Sistem İzahnamesi (NESH), ki bunlar...",
+     "title": "Câble coaxial, destiné à être utilisé dans des systèmes de distribution de signaux de radiodiffusion sonores et de télévision analogique et numériques.Ils sont conçus pour des fréquences d’utilisation comprises entre 5 et 3000 MHz.Il est constitué des éléments suivants :- une âme…",
+     "gerekce": "Règles générales 1 et 6 : le classement est déterminé par les notes de section et de chapitre, ainsi que par le libellé de position, de sous-position et de code NC.NESH de la position tarifaire du 8544, qui reprennent le…",
      "url": "https://ec.europa.eu/taxation_customs/dds2/ebti/ebti_details.jsp?showHeader=false&Lang=en&reference=FRBTIFR-BTI-2026-02744"
     },
     {
@@ -2444,8 +2646,8 @@ window.BTI_DATA = {
      "hs4": "9031",
      "ref": "FRBTIFR-BTI-2026-03300",
      "date": "2026-07-02",
-     "title": "Demiryolu hatları üzerinde ölçüm yapmaya yönelik, motorsuz, elle çalıştırılan demiryolu ölçüm arabası. Sarı renkli, 6060 alüminyumdan özel yapım kaynaklı mekanik bir yapıdan oluşur ve yaklaşık 25 kg ağırlığındadır. Özellikleri: - Palpör ile temas yoluyla mekanik ölçüm...",
-     "gerekce": "Genel kurallar 1 ve 6: Sınıflandırma, bölüm ve fasıl notları ile pozisyon, alt pozisyon ve KN kodu metinlerine göre belirlenir. Genel kural 5a): Kılıflar ve benzeri kaplar...",
+     "title": "Chariot de mesure ferroviaire manuel non motorisé destiné à la réalisation de mesures sur les voies ferrées.Il est constitué d’une structure mécanosoudée sur mesure en aluminium 6060, de couleur jaune, et pèse environ 25kg.Caractéristiques :- Mesure mécanique par contact avec pal…",
+     "gerekce": "Règles générales 1 et 6 : le classement est déterminé par les notes de section et de chapitre, ainsi que par le libellé de position, de sous-position et de code NC. Règle générale 5a) : les étuis et contenant similaires …",
      "url": "https://ec.europa.eu/taxation_customs/dds2/ebti/ebti_details.jsp?showHeader=false&Lang=en&reference=FRBTIFR-BTI-2026-03300"
     },
     {
@@ -2458,8 +2660,8 @@ window.BTI_DATA = {
      "hs4": "4821",
      "ref": "FRBTIFR-BTI-2025-06995",
      "date": "2026-07-02",
-     "title": "Yazılım lisansı orijinallik «etiketi (sticker)» şeklinde kağıttan bir etiket; rastgele renkli, bir yüzü kendinden yapışkanlı ve diğer yüzü basılıdır. Etiket, benzersiz bir tanımlayıcı ile birlikte yazılım aktivasyon lisanslarına ilişkin ibareleri içerir...",
-     "gerekce": "Genel kurallar 1 ve 6: Sınıflandırma, bölüm ve fasıl notları ile pozisyon, alt pozisyon ve KN kodu metinlerine göre belirlenir. Genel kural 5 b): Ambalajın sınıflandırılması...",
+     "title": "Étiquette en papier se présentant sous la forme d’un « sticker » d’authenticité de licence logicielle, de couleur aléatoire, autoadhésive sur une face, et imprimé sur l’autre face. L’étiquette comporte les mentions de licences d'activation de logiciels avec un identifiant unique …",
+     "gerekce": "Règles générales 1 et 6 : le classement est déterminé par les notes de section et de chapitre, ainsi que par le libellé de position, de sous-position et de code NC.Règle générale 5 b) : le classement de l’emballage suit …",
      "url": "https://ec.europa.eu/taxation_customs/dds2/ebti/ebti_details.jsp?showHeader=false&Lang=en&reference=FRBTIFR-BTI-2025-06995"
     },
     {
@@ -2472,8 +2674,8 @@ window.BTI_DATA = {
      "hs4": "7307",
      "ref": "FRBTIFR-BTI-2026-03697",
      "date": "2026-07-02",
-     "title": "Kaynak yapılabilir boru bağlantı parçaları; en büyük dış çapı 121 mm'yi aşmayan ve cidar kalınlığı 2 mm'ye eşit veya bundan az olan 316L paslanmaz çelikten bir manşon şeklindedir. İç yüzeyin ortalama pürüzlülüğü (Ra) 0,8 mikrondan azdır...",
-     "gerekce": "Genel kurallar 1 ve 6: Sınıflandırma, bölüm ve fasıl notları ile pozisyon, alt pozisyon ve KN kodu metinlerine göre belirlenir. XV. Bölümün adi metalleri tanımlayan 3 numaralı notu...",
+     "title": "Accessoires de tuyauterie à souder prenant la forme d’une douille en acier inoxydable 316L dont le plus grand diamètre extérieur n'excède pas 121 mm et dont l'épaisseur de paroi est inférieure ou égale à 2mm. La rugosité moyenne (Ra) de la surface interne est inférieure à 0,8 mic…",
+     "gerekce": "Règles générales 1 et 6 : le classement est déterminé par les notes de section et de chapitre, ainsi que par le libellé de position, de sous-position et de code NC.Note 3 de la section XV, qui définit les métaux communs …",
      "url": "https://ec.europa.eu/taxation_customs/dds2/ebti/ebti_details.jsp?showHeader=false&Lang=en&reference=FRBTIFR-BTI-2026-03697"
     },
     {
@@ -2486,8 +2688,8 @@ window.BTI_DATA = {
      "hs4": "8536",
      "ref": "FRBTIFR-BTI-2026-02749",
      "date": "2026-07-02",
-     "title": "6,8 mm çapındaki kablolar için vidalanabilir F tipi koaksiyel konnektörler. Gövdesi çinko alaşımındandır.",
-     "gerekce": "Genel kurallar 1 ve 6: Sınıflandırma, bölüm ve fasıl notları ile pozisyon, alt pozisyon ve KN kodu metinlerine göre belirlenir. 8536 tarife pozisyonuna ait Armonize Sistem İzahnamesi (NESH), Paragraf III, P...",
+     "title": "Connecteurs coaxiaux de type F à visser, pour câbles de 6,8 mm de diamètre.Le corps est en alliage de zinc.",
+     "gerekce": "Règles générales 1 et 6 : le classement est déterminé par les notes de section et de chapitre, ainsi que par le libellé de position, de sous-position et de code NC.NESH de la position tarifaire du 8536, Paragraphe III, P…",
      "url": "https://ec.europa.eu/taxation_customs/dds2/ebti/ebti_details.jsp?showHeader=false&Lang=en&reference=FRBTIFR-BTI-2026-02749"
     },
     {
@@ -2500,8 +2702,8 @@ window.BTI_DATA = {
      "hs4": "8544",
      "ref": "FRBTIFR-BTI-2026-02745",
      "date": "2026-07-02",
-     "title": "Analog ve dijital ses radyo yayını ve televizyon sinyallerine yönelik dağıtım sistemleri için, 5 ile 3000 MHz arasındaki kullanım frekanslarında kullanılan, dış kılıfı … olan, B Sınıfı (Ekran verimliliği: > 75 dB) dahili koaksiyel kablo …",
-     "gerekce": "Genel Kurallar 1 ve 6: sınıflandırma, bölüm ve fasıl notları ile pozisyon, alt pozisyon ve KN kodu metinlerine göre belirlenir. 8544 tarife pozisyonunun NESH açıklama notları, … kapsayan …",
+     "title": "Câble intérieur coaxial – Classe B (Efficacité d’écran : > 75 dB) pour des systèmes de distribution destinés aux signaux de radiodiffusion sonores et de télévision analogiques et numériques pour des fréquences d’utilisation comprises entre 5 et 3000 MHz, avec gaine extérieure en …",
+     "gerekce": "Règles générales 1 et 6 : le classement est déterminé par les notes de section et de chapitre, ainsi que par le libellé de position, de sous-position et de code NC.NESH de la position tarifaire du 8544, qui reprennent le…",
      "url": "https://ec.europa.eu/taxation_customs/dds2/ebti/ebti_details.jsp?showHeader=false&Lang=en&reference=FRBTIFR-BTI-2026-02745"
     },
     {
@@ -2514,8 +2716,8 @@ window.BTI_DATA = {
      "hs4": "6307",
      "ref": "SEBTITV-2026-10394",
      "date": "2026-07-02",
-     "title": "Metalden bir çerçeve ve ayaklar ile tekstil malzemesinden bir yatak kısmından oluşan, dikdörtgen bir köpek yatağı şeklinde hazır (konfeksiyon) tekstil eşyası. Eşya ayrıca, plastik çubuklar yardımıyla köpek yatağına tutturulan, tekstil malzemesinden bir güneşlik (tente) de içermektedir. Eşya beyana göre dış mekân…",
-     "gerekce": "Kombine Nomanklatürün yorumlanmasına ilişkin Genel Kurallar 1, 2 a, 2 b, 3 b, 5 b ve 6 esasına göre sınıflandırma. XI. Bölüme ilişkin 7 f ve 8 a numaralı Notlar ve 63. Fasıla ilişkin 1 numaralı Not. … Bölüme ilişkin AS İzahnamesi (Böl…",
+     "title": "Konfektionerad textilvara i form av en rektangulär hundbädd bestående av en ram och ben av metall samt bädd av textilmaterial. Varan inkluderar också ett soltak av textilmaterial som fästs till hundbädden med hjälp av plastpinnar.Varan är enligt uppgift avsedd att användas utomhu…",
+     "gerekce": "Klassificering på grundval av de allmänna bestämmelserna regel 1, 2 a, 2 b, 3 b, 5 b och 6 för tolkning av Kombinerade nomenklaturen.Anmärkning 7 f och 8 a till avdelning XI och anmärkning 1 till kapitel 63.FAHS till avd…",
      "url": "https://ec.europa.eu/taxation_customs/dds2/ebti/ebti_details.jsp?showHeader=false&Lang=en&reference=SEBTITV-2026-10394"
     },
     {
@@ -2528,8 +2730,8 @@ window.BTI_DATA = {
      "hs4": "8536",
      "ref": "FRBTIFR-BTI-2026-02746",
      "date": "2026-07-02",
-     "title": "75 Ohm yük adaptörü. Bu, multiswitch (çoklu anahtar) tesisatları çerçevesinde kullanılır. F tipi (Koaksiyel) konnektörlere takılır. Maksimum kullanım gerilimi 12V DC'dir. Ambalajlama: 100 adetlik poşet.",
-     "gerekce": "Genel Kurallar 1 ve 6: sınıflandırma, bölüm ve fasıl notları ile pozisyon, alt pozisyon ve KN kodu metinlerine göre belirlenir. Genel Kural 5.b): ambalajlar, birlikte oldukları eşya ile … sınıflandırılır …",
+     "title": "Adaptateur de charge 75 Ohms. Celui-ci est utilisé dans le cadre d’installations multiswitchs Il est branché sur des connecteurs de type F (Coaxiaux).La tension max d’utilisation est de 12V DC.Conditionnement : sachet de 100 pièces.",
+     "gerekce": "Règles générales 1 et 6 : le classement est déterminé par les notes de section et de chapitre, ainsi que par le libellé de position, de sous-position et de code NC.Règle générale 5.b) : les emballages sont classés avec l…",
      "url": "https://ec.europa.eu/taxation_customs/dds2/ebti/ebti_details.jsp?showHeader=false&Lang=en&reference=FRBTIFR-BTI-2026-02746"
     },
     {
@@ -2542,8 +2744,8 @@ window.BTI_DATA = {
      "hs4": "8536",
      "ref": "FRBTIFR-BTI-2026-02747",
      "date": "2026-07-02",
-     "title": "10,4 mm kablo için sıkıştırmalı (kıvırmalı) F tipi koaksiyel konnektör. Bu konnektör 10,4 mm çapındaki kablolar için kullanılır. Kalıcı bir bağlantı ve iyi bir bağlanabilirlik sağlar. Maksimum kullanım gerilimi: 48V DC. Ambalajlama: 50 adetlik poşet. Bileşim: pirinç / … kaplama …",
-     "gerekce": "Genel Kurallar 1 ve 6: sınıflandırma, bölüm ve fasıl notları ile pozisyon, alt pozisyon ve KN kodu metinlerine göre belirlenir. Genel Kural 5.b): ambalajlar, birlikte oldukları eşya ile … sınıflandırılır …",
+     "title": "Connecteur coaxial de type F à sertir pour câble 10,4 mm. Ce connecteur est utilisé pour les câbles de diamètre 10,4 mm. Il assure une liaison durable et une bonne connectivité. Tension max d’utilisation: 48VDC.Conditionnement : sachet de 50 piècesComposition : laiton / recouvrem…",
+     "gerekce": "Règles générales 1 et 6 : le classement est déterminé par les notes de section et de chapitre, ainsi que par le libellé de position, de sous-position et de code NC.Règle générale 5.b): les emballages sont classés avec le…",
      "url": "https://ec.europa.eu/taxation_customs/dds2/ebti/ebti_details.jsp?showHeader=false&Lang=en&reference=FRBTIFR-BTI-2026-02747"
     },
     {
@@ -2556,8 +2758,8 @@ window.BTI_DATA = {
      "hs4": "8203",
      "ref": "FRBTIFR-BTI-2026-02748",
      "date": "2026-07-02",
-     "title": "Sıkıştırma (kıvırma) pensesi. Pense, RZ136, RZ136HQ ve RZ176 tiplerindeki F konnektörlerini sıkıştırmaya yönelik mekanik bir el aletidir. Çalışan (işleyen) kısmı çeliktendir ve sapı PVC ile kaplıdır. Pense 21 cm uzunluğundadır.",
-     "gerekce": "Genel Kurallar 1. ve 6.: sınıflandırma, bölüm ve fasıl notları ile pozisyon, alt pozisyon ve KN kodu metinlerine göre belirlenir. XV. Bölüm 3. Notu: Nomanklatürde, … kastedilir …",
+     "title": "Pince à sertir. La pince correspond à un outil à main mécanique destiné à sertir les connecteurs F de type RZ136, RZ136HQ et RZ176. La partie travaillante est en acier, et la poignée est recouverte de PVC. La pince mesure 21cm de long.",
+     "gerekce": "Règles générales 1. et 6. : le classement est déterminé par les notes de section et de chapitre, ainsi que par le libellé de position, de sous-position et de code NC.Note 3 de la section XV : Dans la Nomenclature, on ent…",
      "url": "https://ec.europa.eu/taxation_customs/dds2/ebti/ebti_details.jsp?showHeader=false&Lang=en&reference=FRBTIFR-BTI-2026-02748"
     },
     {
@@ -2570,8 +2772,8 @@ window.BTI_DATA = {
      "hs4": "8479",
      "ref": "SEBTITV-2026-08909",
      "date": "2026-07-02",
-     "title": "Kurutma odası nem alma cihazı (kurutma odası nem gidericisi), beyana göre; diğerlerinin yanı sıra kompresör, kondansatör (yoğuşturucu), evaporatör (buharlaştırıcı) ve soğutucu akışkan içeren bir ısı pompası ünitesi, elektrikle çalışan bir fan (vantilatör), filtre, yoğuşma suyu (kondens) çıkışı ve dokunmatik ekranlı ayrı bir kumanda ünitesi ile donatılmıştır. Eşya zamanlayıcı (timer) ile kontrol edilir ve sırasıyla 2 ve 4 saatlik iki kurutma programına sahiptir. Eşy…",
-     "gerekce": "Kombine Nomanklatürün yorumlanmasına ilişkin Genel Kurallar 1 ve 6 esasına göre sınıflandırma. 8479 HS numarasına ilişkin AS İzahnamesi. 8479, 8479 89 ve 8479 89 97 KN numaralarına ilişkin metin.",
+     "title": "Torkrumsavfuktare, enligt uppgift försedd med bl.a. värmepumpsenhet med kompressor, kondensor, evaporator och köldmedium, eldriven fläkt, filter, kondensutlopp samt en separat manöverenhet med touchdisplay. Varan styrs via timer och har två torkprogram om 2 respektive 4 timmar.Va…",
+     "gerekce": "Klassificering på grundval av de allmänna bestämmelserna regel 1 och 6 för tolkning av Kombinerade nomenklaturen.FAHS till HS-nr 8479.Texten till KN-nummer 8479, 8479 89 och 8479 89 97.",
      "url": "https://ec.europa.eu/taxation_customs/dds2/ebti/ebti_details.jsp?showHeader=false&Lang=en&reference=SEBTITV-2026-08909"
     },
     {
@@ -2584,8 +2786,8 @@ window.BTI_DATA = {
      "hs4": "8451",
      "ref": "SEBTITV-2026-08290",
      "date": "2026-07-02",
-     "title": "Elektrikli kurutma dolabı, beyana göre tekstil eşyalarının kurutulması için. Eşya birden fazla modelde bulunur ve galvanizli ve toz boyalı (elektrostatik toz boyalı) saçtan yapılmış, bağımsız (serbest duran) bir dolaptan oluşur. Modele bağlı olarak kurutma dolabı; diğerlerinin yanı sıra bir veya iki kapı, ısı pompa… temelli bir kurutma sistemi ile donatılmıştır.",
-     "gerekce": "Kombine Nomanklatürün yorumlanmasına ilişkin Genel Kurallar 1 ve 6 esasına göre sınıflandırma. 8451 HS numarasına ilişkin AS İzahnamesi. 8451, 8451 29 ve 8451 29 00 KN numaralarına ilişkin metin.",
+     "title": "Elektriskt torkskåp, enligt uppgift för torkning av textilvaror.Varan förekommer i flera modeller och utgörs av ett fristående skåp av galvaniserad och pulverlackerad plåt. Beroende på modell är torkskåpet bland annat försett med en eller två dörrar, torksystem baserat på värmepu…",
+     "gerekce": "Klassificering på grundval av de allmänna bestämmelserna regel 1 och 6 för tolkning av Kombinerade nomenklaturen.FAHS till HS-nr 8451.Texten till KN-nummer 8451, 8451 29 och 8451 29 00.",
      "url": "https://ec.europa.eu/taxation_customs/dds2/ebti/ebti_details.jsp?showHeader=false&Lang=en&reference=SEBTITV-2026-08290"
     },
     {
@@ -2598,8 +2800,8 @@ window.BTI_DATA = {
      "hs4": "9403",
      "ref": "FRBTIFR-BTI-2026-04867",
      "date": "2026-07-02",
-     "title": "Çelikten, monte edilmiş, 450 veya 600 mm derinliğinde, kablo dağıtımı için bir başlangıç noktası sağlamak üzere her türlü \"office (ofis)\" ortamına kurulmaya yönelik 19'' duvar tipi kabin. 19 inç formatındaki her türlü malzeme … içine kurulabilir …",
-     "gerekce": "Genel Kurallar 1 ve 6: sınıflandırma, bölüm ve fasıl notları ile pozisyon, alt pozisyon ve KN kodu metinlerine göre belirlenir. Genel Kural 3.b): karışık, bileşik eşyalar …",
+     "title": "Coffret mural 19’’ en acier, assemblé, d’une profondeur de 450 ou 600mm destiné à être installé dans tous les environnements « office » pour permettre un point de départ pour la distribution de câblages.Tous types de matériel en format 19 pouces est susceptible d'être installé da…",
+     "gerekce": "Règles générales 1 et 6 : le classement est déterminé par les notes de section et de chapitre, ainsi que par le libellé de position, de sous-position et de code NC.Règle générale 3.b) : les articles mélangés, composites …",
      "url": "https://ec.europa.eu/taxation_customs/dds2/ebti/ebti_details.jsp?showHeader=false&Lang=en&reference=FRBTIFR-BTI-2026-04867"
     },
     {
@@ -2612,8 +2814,8 @@ window.BTI_DATA = {
      "hs4": "9403",
      "ref": "FRBTIFR-BTI-2026-04868",
      "date": "2026-07-02",
-     "title": "600 mm derinliğinde, elektronik bileşenleri barındırmaya yönelik duvar tipi kabin. Galvanizli sacdan yapılmış olup elektrostatik toz boya ile son işlemden geçirilmiştir. Bileşim: - RAL 7035 gri 19'' duvar tipi kabin, - kilitli 2 kelebek kollu dolu ön kapı …",
-     "gerekce": "Genel Kurallar 1 ve 6: sınıflandırma, bölüm ve fasıl notları ile pozisyon, alt pozisyon ve KN kodu metinlerine göre belirlenir. Genel Kural 3.b): karışık, bileşik eşyalar …",
+     "title": "Coffret mural, de profondeur 600mm, destiné à recevoir des composants électroniques.Il est réalisé en tôle galvanisé avec finition par peinture en poudre électrostatique.Composition :- coffret mural 19 ‘’ gris RAL 7035,- porte avant pleine équipée de 2 poignées papillon avec serr…",
+     "gerekce": "Règles générales 1 et 6 : le classement est déterminé par les notes de section et de chapitre, ainsi que par le libellé de position, de sous-position et de code NC.Règle générale 3.b) : les articles mélangés, composites …",
      "url": "https://ec.europa.eu/taxation_customs/dds2/ebti/ebti_details.jsp?showHeader=false&Lang=en&reference=FRBTIFR-BTI-2026-04868"
     },
     {
@@ -2626,8 +2828,8 @@ window.BTI_DATA = {
      "hs4": "3926",
      "ref": "FRBTIFR-BTI-2025-07149",
      "date": "2026-07-02",
-     "title": "İşletmeci tarafından iletilen verilere göre, ürün, ağırlıklı olarak plastik maddeden bir eşya olup, şunlardan oluşan bir anahtarlık biçimindedir: - plastik maddeden (poliüretan – PU) büyük boyutlu (12 cm) bir askı/kayış; - metal (çinko) dekoratif unsurlar …",
-     "gerekce": "Genel Kurallar 1 ve 6: sınıflandırma, bölüm ve fasıl notları ile pozisyon, alt pozisyon ve KN kodu metinlerine göre belirlenir. Genel Kural 2 b): karışık ürünlerin sınıflandırılması …",
+     "title": "Selon les données transmises par l'opérateur, le produit est un ouvrage en matière plastique majoritaire se présentant sous la forme d’un porte-clé composé :- d’une lanière de grande taille (12 cm) en matière plastique (polyuréthanne – PU) ;- d’éléments décoratifs en métal (zinc)…",
+     "gerekce": "Règles générales 1 et 6 : le classement est déterminé par les notes de section et de chapitre, ainsi que par le libellé de position, de sous-position et de code NC.Règle générale 2 b) : le classement des produits mélangé…",
      "url": "https://ec.europa.eu/taxation_customs/dds2/ebti/ebti_details.jsp?showHeader=false&Lang=en&reference=FRBTIFR-BTI-2025-07149"
     },
     {
@@ -2668,8 +2870,8 @@ window.BTI_DATA = {
      "hs4": "8479",
      "ref": "FRBTIFR-BTI-2026-01576",
      "date": "2026-07-02",
-     "title": "Boşaltma borularını, küvetleri, lavaboları vb. açmak için kullanılmaya yönelik, elle çalıştırılan, tek pistonlu bir hava pompası biçiminde pnömatik temizleme cihazı. Aşağıdaki unsurlardan oluşur: - plastik maddeden (ABS) bir gövde …",
-     "gerekce": "Genel Kurallar 1 ve 6: sınıflandırma, bölüm ve fasıl notları ile pozisyon, alt pozisyon ve KN kodu metinlerine göre belirlenir. Genel Kural 3.b): karışık, bileşik eşyalar …",
+     "title": "Appareil de nettoyage pneumatique, se présentant sous la forme d’une pompe à air, à main, à simple piston, destinée à être utilisée pour déboucher les tuyaux d’évacuation, les baignoires, éviers, etc.Elle est constituée des éléments suivants :- un corps en matière plastique (ABS)…",
+     "gerekce": "Règles générales 1 et 6 : le classement est déterminé par les notes de section et de chapitre, ainsi que par le libellé de position, de sous-position et de code NC.Règle générale 3.b) : les articles mélangés, composites,…",
      "url": "https://ec.europa.eu/taxation_customs/dds2/ebti/ebti_details.jsp?showHeader=false&Lang=en&reference=FRBTIFR-BTI-2026-01576"
     },
     {
@@ -2682,8 +2884,8 @@ window.BTI_DATA = {
      "hs4": "7326",
      "ref": "FRBTIFR-BTI-2025-06344",
      "date": "2026-07-02",
-     "title": "Titreşim önleyici manşonlar için, eksenel tepkileri absorbe etmek ve boru tesisatının sabit noktalarını rahatlatmak amacıyla tasarlanmış açıklık sınırlayıcı kit. Ürün, 10 mm kalınlığında 4 üçgen plaka, 2 adet 8.8 gergi çubuğu (tirant), 8. sınıf 8 adet kontra somun ve 4 adet r… (rondela)…'dan oluşmaktadır.",
-     "gerekce": "Genel kurallar 1 ve 6: sınıflandırma, pozisyon ve alt pozisyonların metinleri ile bölüm ve fasıl notları tarafından belirlenir. Genel kural 3 b): karışık, bileşik eşyalar veya birleşik ürünler…",
+     "title": "Kit limiteur d’écartement pour manchons antivibratoires, destiné à absorber les réactions axiales et soulager les points fixes de la tuyauterie. L’article se compose de 4 plaques triangulaires d’épaisseur 10 mm, de 2 tirants 8.8, de 8 contre écrous classe 8, et de 4 rondelles d’é…",
+     "gerekce": "Règles générales 1 et 6 : le classement est déterminé par les termes des positions et sous-positions ainsi que par les notes de sections et de chapitres.Règle générale 3 b) : les articles mélangés, composites ou les asso…",
      "url": "https://ec.europa.eu/taxation_customs/dds2/ebti/ebti_details.jsp?showHeader=false&Lang=en&reference=FRBTIFR-BTI-2025-06344"
     },
     {
@@ -2696,8 +2898,8 @@ window.BTI_DATA = {
      "hs4": "3926",
      "ref": "DKBTI26-1858339",
      "date": "2026-07-02",
-     "title": "Ürün, köşelerine yakın ve dört kenarı boyunca eşit dağılmış şekilde takılmış metal halkalara sahip, sağlam ancak yumuşak, dikdörtgen bir plastik parçadır. Ürünün asılabildiği ve bir sergide arka fon olarak kullanılabildiği belirtilmiştir. Verilen bilgilere göre ürün, plastik ile kaplanmış polyesterden oluş…",
-     "gerekce": "Kombine nomenklatüre ilişkin genel tarifelendirme hükümleri 1 ve 6 ve 3926, 3926 90, 3926 90 97 ve 3926 90 97 90 mal kodu metni. Fasıl 39'a ilişkin 1 numaralı hüküm. Fasıl 59'a ilişkin 2 a) hükmü paragraf 3. Diğer taraftan…",
+     "title": "Varen er et kraftigt, men blødt, rektangulært stykke plast, der har isat metalringe nær hjørnerne og jævn fordelt langs alle fire sider.Det er oplyst, at varen kan hænges op og bruges som baggrund i en udstilling.Ifølge det oplyste består varen af polyester, der er belagt med pla…",
+     "gerekce": "Almindelig tariferingsbestemmelse 1 og 6 til den kombinerede nomenklatur og teksten til varekode 3926, 3926 90, 3926 90 97 og 3926 90 97 90Bestemmelse 1 til kapitel 39Bestemmelse 2 a) stykke 3 til kapitel 59Andet I finde…",
      "url": "https://ec.europa.eu/taxation_customs/dds2/ebti/ebti_details.jsp?showHeader=false&Lang=en&reference=DKBTI26-1858339"
     },
     {
@@ -2710,8 +2912,8 @@ window.BTI_DATA = {
      "hs4": "6106",
      "ref": "FRBTIFR-BTI-2025-08334",
      "date": "2026-07-02",
-     "title": "Vücudun üst kısmını örten, erkek veya kadın için olduğu ayırt edilemeyen, örme kumaştan (%60 polyester, %40 pamuk) yapılmış, uyluk üst kısmına kadar uzanan bluz tipi giysi. Ürün kısa kollara, açık omuzlara, bir yaka… (dekolte)… içermektedir.",
-     "gerekce": "Genel kurallar 1 ve 6: sınıflandırma, bölüm ve fasıl notları ile pozisyon, alt pozisyon ve KN kodu ifadesi tarafından belirlenir. Genel kural 5 b): ambalajın sınıflandırılması, içerdiği eşyanın sınıflandırmasını takip eder…",
+     "title": "Vêtement type blouse couvrant la partie supérieure du corps, non reconnaissable comme étant pour hommes ou pour femmes, confectionné en bonneterie (60% polyester, 40 % coton), arrivant en haut des cuisses. L’article contient des manches courtes, des épaules dénudées, une encolure…",
+     "gerekce": "Règles générales 1 et 6 : le classement est déterminé par les notes de section et de chapitre, ainsi que par le libellé de position, de sous-position et de code NC.Règle générale 5 b) : le classement de l’emballage suit …",
      "url": "https://ec.europa.eu/taxation_customs/dds2/ebti/ebti_details.jsp?showHeader=false&Lang=en&reference=FRBTIFR-BTI-2025-08334"
     },
     {
@@ -2724,8 +2926,8 @@ window.BTI_DATA = {
      "hs4": "8414",
      "ref": "FRBTIFR-BTI-2025-08781",
      "date": "2026-07-02",
-     "title": "12V şişirici-söndürücü. Kablo uzunluğu: 1.8 m. Malzeme: %77 PP + %23 elektrikli bileşenler.",
-     "gerekce": "Genel kurallar 1 ve 3 a): sınıflandırma, kombine nomenklatürün (KN) pozisyon ve alt pozisyon metinleri ile bölüm ve fasıl notları tarafından belirlenir. Genel kural 3 a): …durumunda…",
+     "title": "Gonfleur dégonfleur 12VLongueur du cordon: 1.8mBaterieux 77% PP + 23% composants électrique",
+     "gerekce": "Règles générales 1 et 3 a) : le classement est déterminé par le texte des positions et sous-positions de la nomenclature combinée (NC), ainsi que par les notes de section et de chapitre.Règle générale 3 a) : dans le cas …",
      "url": "https://ec.europa.eu/taxation_customs/dds2/ebti/ebti_details.jsp?showHeader=false&Lang=en&reference=FRBTIFR-BTI-2025-08781"
     },
     {
@@ -2738,8 +2940,8 @@ window.BTI_DATA = {
      "hs4": "6307",
      "ref": "FRBTIFR-BTI-2025-07237",
      "date": "2026-07-02",
-     "title": "Polyester sentetik liflerden örme kumaştan yapılmış, çam eteği (yılbaşı ağacı eteği) tipinde hazır eşya. Etek dairesel biçimdedir ve çam gövdesinin geçişi için ortasında bir delik bulunmaktadır. Bir kurdele aracılığıyla kapalı tutulmaktadır. Bu eşya…",
-     "gerekce": "Genel kurallar 1 ve 6: sınıflandırma, bölüm ve fasıl notları ile pozisyon, alt pozisyon ve KN kodu ifadesi tarafından belirlenir. Fasıl 95'in 1 x) hariç tutma notu: … eşyalar hariç tutulmuştur…",
+     "title": "Article confectionné, de type jupe de sapin, confectionné en bonneterie de fibres synthétiques de polyester.La jupe est de forme circulaire et elle comporte un trou en son centre prévu pour le passage du tronc du sapin. Elle est maintenue fermée par le biais d'un ruban.Cet articl…",
+     "gerekce": "Règles générales 1 et 6 : le classement est déterminé par les notes de section et de chapitre, ainsi que par le libellé de position, de sous-position et de code NC.Note d'exclusion 1 x) du Chapitre 95 : sont exclus les a…",
      "url": "https://ec.europa.eu/taxation_customs/dds2/ebti/ebti_details.jsp?showHeader=false&Lang=en&reference=FRBTIFR-BTI-2025-07237"
     },
     {
@@ -2752,8 +2954,8 @@ window.BTI_DATA = {
      "hs4": "6307",
      "ref": "FRBTIFR-BTI-2025-07742",
      "date": "2026-07-02",
-     "title": "Sentetik lif (polyester) dokuma kumaştan tekstil malzemesinden yapılmış, kol bandı (pazıbent) biçiminde hazır eşya. Bu kol bandı, fermuarla açılan bir açıklığa sahip entegre bir cepe sahiptir. Kol bandı 3 farklı renkte (pembe, gri ve turkuaz) mevcuttur…",
-     "gerekce": "Genel kurallar 1 ve 6: sınıflandırma, bölüm ve fasıl notları ile pozisyon, alt pozisyon ve KN kodu ifadesi tarafından belirlenir. XI. bölümün 7 f) notu: hazır eşya tanımı…",
+     "title": "Article confectionné en matière textile de tissu de fibres synthétiques (polyester) se présentant sous la forme d’un brassard. Ce brassard est doté d’une poche intégrée avec une ouverture par fermeture éclair. Le brassard existe en 3 différentes couleurs (rose, gris et turquoise)…",
+     "gerekce": "Règles générales 1 et 6 : le classement est déterminé par les notes de section et de chapitre, ainsi que par le libellé de position, de sous-position et de code NC.Note 7 f) de la section XI : définition d’un article con…",
      "url": "https://ec.europa.eu/taxation_customs/dds2/ebti/ebti_details.jsp?showHeader=false&Lang=en&reference=FRBTIFR-BTI-2025-07742"
     },
     {
@@ -2766,8 +2968,8 @@ window.BTI_DATA = {
      "hs4": "6307",
      "ref": "FRBTIFR-BTI-2025-07236",
      "date": "2026-07-02",
-     "title": "Sentetik lif (polyester) dokuma kumaştan yapılmış, çam eteği (yılbaşı ağacı eteği) tipinde tekstil eşyası. Ürün kar tanesi motifleri içermektedir ve kenarları kıvrılıp dikilmiştir (ourle). Çam eteği, çam gövdesi için düğmelerle kapatılan bir açıklığa sahip dairesel biçimdedir. Bu…",
-     "gerekce": "Genel kurallar 1 ve 6: sınıflandırma, bölüm ve fasıl notları ile pozisyon, alt pozisyon ve KN kodu ifadesi tarafından belirlenir. Genel kural 5 b): ambalajlar içerdikleri eşyanın sınıflandırmasını takip eder…",
+     "title": "Article textile, de type jupe de sapin, confectionné en tissu tissé, de fibre synthétique (polyester). Le produit comporte des motifs de flocon et ses bords sont ourlés.La jupe de sapin est de forme circulaire avec une ouverture (pour le tronc du sapin) fermée par des boutons.Cet…",
+     "gerekce": "Règles générales 1 et 6 : le classement est déterminé par les notes de section et de chapitre, ainsi que par le libellé de position, de sous-position et de code NCRègle générale 5 b) : les emballages suivent le classemen…",
      "url": "https://ec.europa.eu/taxation_customs/dds2/ebti/ebti_details.jsp?showHeader=false&Lang=en&reference=FRBTIFR-BTI-2025-07236"
     },
     {
@@ -2794,8 +2996,8 @@ window.BTI_DATA = {
      "hs4": "7318",
      "ref": "FRBTIFR-BTI-2026-02750",
      "date": "2026-07-02",
-     "title": "İletişim panosunun bitişik bir bölge ile birleştirilmesi için özel olarak tasarlanmış, elektro-galvanizli çelikten dişli vida. Vida altıgen bir başa sahiptir ve çekme dayanımı 800 MPa'dan düşüktür. Ayrıca dağıtıcının (répartiteur) sabitlenmesi için de kullanılır…",
-     "gerekce": "Genel kurallar 1 ve 6: sınıflandırma, bölüm ve fasıl notları ile pozisyon, alt pozisyon ve KN kodu ifadesi tarafından belirlenir. Genel kural 5 b): ambalajlar içerdikleri eşya ile birlikte sınıflandırılır…",
+     "title": "Vis filetée, en acier électro-zingué, spécifiquement conçue pour l’assemblage de la platine de communication avec une zone attenante.La vis dispose d'une tête hexagonale et sa résistance à la traction est inférieure à 800 Mpa.Elle est également utilisée pour fixer le répartiteur …",
+     "gerekce": "Règles générales 1 et 6 : le classement est déterminé par les notes de section et de chapitre, ainsi que par le libellé de position, de sous-position et de code NC.Règle générale 5.b) : les emballages sont classés avec l…",
      "url": "https://ec.europa.eu/taxation_customs/dds2/ebti/ebti_details.jsp?showHeader=false&Lang=en&reference=FRBTIFR-BTI-2026-02750"
     },
     {
@@ -2808,8 +3010,8 @@ window.BTI_DATA = {
      "hs4": "8544",
      "ref": "FRBTIFR-BTI-2026-03414",
      "date": "2026-07-02",
-     "title": "Bilgisayarlarda sinyal iletimi (RS232, RS422, RS485 veya Modbus) için kullanılmak üzere tasarlanmış blendajlı (ekranlı) elektrik kablosu. Kablo şunları içerir: - Tel çapı 0,51 mm'den küçük olan, kalaylı bakırdan mamul, her biri ayrı ayrı bir kılıfla izole edilmiş iletken çiftleri…",
-     "gerekce": "Genel Kurallar 1 ve 6: Sınıflandırma, bölüm ve fasıl notları ile pozisyon, alt pozisyon ve KN (Kombine Nomanklatür) kodu metinlerine göre belirlenir. 8544 tarife pozisyonuna ait NESH (Armonize Sistem İzahnamesi) hükümlerini içeren…",
+     "title": "Câble électrique blindé destiné à être utilisé dans les ordinateurs pour la transmission de signaux (RS232, RS422, RS485 ou Modbus.Le câble comprend : - des paires de conducteurs en cuivre étamé d’un diamètre de brin inférieur à 0,51 mm, isolés individuellement par une gaine cons…",
+     "gerekce": "Règles générales 1 et 6 : le classement est déterminé par les notes de section et de chapitre, ainsi que par le libellé de position, de sous-position et de code NC.NESH de la position tarifaire du 8544, qui reprennent le…",
      "url": "https://ec.europa.eu/taxation_customs/dds2/ebti/ebti_details.jsp?showHeader=false&Lang=en&reference=FRBTIFR-BTI-2026-03414"
     },
     {
@@ -2822,8 +3024,8 @@ window.BTI_DATA = {
      "hs4": "9403",
      "ref": "FRBTIFR-BTI-2026-04866",
      "date": "2026-07-02",
-     "title": "Sağlam mekanik yapıya sahip, Link+ serisi 27U veya 42U, 19 inçlik çelikten mamul kablolama veya patch (dağıtım) kabini. 650 kg yük taşıma kapasitesine ve mükemmel bir denge sağlayan bir iskelete sahiptir. Kolay bir … sağlayan çift yan panellerle (genişlik 800 mm) donatılmıştır…",
-     "gerekce": "Genel Kurallar 1 ve 6: Sınıflandırma, bölüm ve fasıl notları ile pozisyon, alt pozisyon ve KN kodu metinlerine göre belirlenir. Genel Kural 3.b): Karışık, birleşik eşya…",
+     "title": "Baie de brassage ou de câblage en acier 19’’ de gamme Link+ 27U ou 42U avec structure mécanique rigide.Elle dispose d’une capacité de charge de 650Kg et d’une ossature offrant une excellente stabilité.Elle est équipée de double panneaux latéraux (largeur 800mm) permettant une sim…",
+     "gerekce": "Règles générales 1 et 6 : le classement est déterminé par les notes de section et de chapitre, ainsi que par le libellé de position, de sous-position et de code NC.Règle générale 3.b) : les articles mélangés, composites …",
      "url": "https://ec.europa.eu/taxation_customs/dds2/ebti/ebti_details.jsp?showHeader=false&Lang=en&reference=FRBTIFR-BTI-2026-04866"
     },
     {
@@ -3085,8 +3287,8 @@ window.BTI_DATA = {
      "hs4": "6116",
      "ref": "FRBTIFR-BTI-2025-08637",
      "date": "2026-07-01",
-     "title": "5 parmaklı bir koruyucu eldiven şeklinde olan giyim aksesuarı; sentetik liflerden (akrilik) örme mensucattan mamul olup, gözenekli (alveollü) kauçuk (lateks) ile kısmen kaplanmış ancak lamine (tabakalandırılmış) edilmemiştir ve çıplak gözle görülebilir niteliktedir, …'e göre…",
-     "gerekce": "Genel Kurallar 1 ve 6: Sınıflandırma, bölüm ve fasıl notları ile pozisyon, alt pozisyon ve KN kodu metinlerine göre belirlenir. Genel Kural 5.b): Eşyanın ambalajları ve kapları…",
+     "title": "Accessoire du vêtement se présentant sous la forme d’un gant de protection à 5 doigts, confectionné en matière textile de bonneterie de fibres synthétiques (acrylique), partiellement enduite mais non stratifiée de caoutchouc (latex) alvéolaire et perceptible à l’œil nu, selon les…",
+     "gerekce": "Règles générales 1 et 6 : le classement est déterminé par les notes de section et de chapitre, ainsi que par le libellé de position, de sous-position et de code NC.Règle générale 5.b) : les emballages et contenants des m…",
      "url": "https://ec.europa.eu/taxation_customs/dds2/ebti/ebti_details.jsp?showHeader=false&Lang=en&reference=FRBTIFR-BTI-2025-08637"
     },
     {
@@ -11882,11 +12084,39 @@ window.BTI_DATA = {
   {
    "date": "2026-06-15",
    "date_tr": "15 Haziran 2026",
-   "count": 142,
+   "count": 144,
    "sources": [
     "eu"
    ],
    "decisions": [
+    {
+     "source": "eu",
+     "source_label": "Avrupa Birliği (EBTI)",
+     "color": "#2E6BE6",
+     "flag": "🇧🇪",
+     "origin": "Belçika",
+     "hs": "76169990",
+     "hs4": "7616",
+     "ref": "BEBTIDT.50.024.731",
+     "date": "2026-06-15",
+     "title": "Bir dijital wave/MP3 kaydedicinin arka yüzünün bir bölümünü oluşturan bir alüminyum plakadır. Belirli bir şekilde preslenmiş olup, diğerlerinin yanı sıra kumanda düğmeleri ve bağlantılar için delikler içermektedir. Deliklerin kenarları bazen kullanıma yönelik talimatlarla baskılı…",
+     "gerekce": "Sınıflandırma, Kombine Nomenklatürün yorumlanmasına ilişkin 1 ve 6 numaralı genel kurallara ve 7616 pozisyonunun metnine, GS-kodu 7616 99, GN-kodu 7616 99 90 ve Taric-kodu 7616 99 90 99'a dayanılarak belirlenmiştir. XV. …",
+     "url": "https://ec.europa.eu/taxation_customs/dds2/ebti/ebti_details.jsp?showHeader=false&Lang=en&reference=BEBTIDT.50.024.731"
+    },
+    {
+     "source": "eu",
+     "source_label": "Avrupa Birliği (EBTI)",
+     "color": "#2E6BE6",
+     "flag": "🇧🇪",
+     "origin": "Belçika",
+     "hs": "85229000",
+     "hs4": "8522",
+     "ref": "BEBTIDT.50.024.732",
+     "date": "2026-06-15",
+     "title": "Bir SD/CD kayıt cihazının muhafazasının alt kısmı. Bütün ürün siyah plastikten imal edilmiştir. Alt kısım, LR6 tipi 6 adet pil için bir pil bölmesi içerir. Pil bölmesi, pilleri (BTI'nin parçası değildir) öngörülen konumlarında tutarak elektrik beslemesinin sağlanmasını mümkün kıl…",
+     "gerekce": "Sınıflandırma, Kombine Nomenklatür'ün yorumlanmasına ilişkin 1 ve 6 numaralı genel kurallar temelinde ve 8522 pozisyonunun, GS-kodu 8522 90 ve Taric-kodu 8522 90 00 90 metni temelinde belirlenmiştir. XVI. Bölüme ilişkin …",
+     "url": "https://ec.europa.eu/taxation_customs/dds2/ebti/ebti_details.jsp?showHeader=false&Lang=en&reference=BEBTIDT.50.024.732"
+    },
     {
      "source": "eu",
      "source_label": "Avrupa Birliği (EBTI)",
@@ -24821,85 +25051,5 @@ window.BTI_DATA = {
     }
    ]
   }
- ],
- "source_counts": {
-  "eu": 1422,
-  "us": 74,
-  "ca": 1,
-  "tr": 222
- },
- "chapters": [
-  "04",
-  "05",
-  "06",
-  "09",
-  "12",
-  "13",
-  "14",
-  "15",
-  "16",
-  "17",
-  "18",
-  "19",
-  "20",
-  "21",
-  "22",
-  "23",
-  "25",
-  "27",
-  "28",
-  "29",
-  "30",
-  "32",
-  "33",
-  "34",
-  "35",
-  "38",
-  "39",
-  "40",
-  "42",
-  "43",
-  "44",
-  "46",
-  "48",
-  "49",
-  "54",
-  "56",
-  "57",
-  "58",
-  "59",
-  "60",
-  "61",
-  "62",
-  "63",
-  "64",
-  "65",
-  "66",
-  "67",
-  "68",
-  "69",
-  "70",
-  "71",
-  "72",
-  "73",
-  "74",
-  "75",
-  "76",
-  "79",
-  "81",
-  "82",
-  "83",
-  "84",
-  "85",
-  "87",
-  "88",
-  "89",
-  "90",
-  "91",
-  "94",
-  "95",
-  "96",
-  "97",
-  "98"
  ]
 };
