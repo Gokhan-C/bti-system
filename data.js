@@ -1,13 +1,13 @@
 window.BTI_DATA = {
- "generated_at": "2026-07-05 10:39",
- "today": "2026-07-05",
- "today_tr": "5 Temmuz 2026",
+ "generated_at": "2026-07-06 06:01",
+ "today": "2026-07-06",
+ "today_tr": "6 Temmuz 2026",
  "latest_date": "2026-07-04",
  "latest_is_today": false,
- "total_decisions": 1729,
+ "total_decisions": 1730,
  "total_days": 74,
  "source_counts": {
-  "eu": 1432,
+  "eu": 1433,
   "us": 74,
   "ca": 1,
   "tr": 222
@@ -18251,7 +18251,7 @@ window.BTI_DATA = {
   {
    "date": "2026-05-19",
    "date_tr": "19 Mayıs 2026",
-   "count": 1,
+   "count": 2,
    "sources": [
     "eu"
    ],
@@ -18269,6 +18269,20 @@ window.BTI_DATA = {
      "title": "Sağlanan bilgilere göre ürün, EN GJS 400-15 dökme demirden yapılmış, açık mavi/açık mavi akışkan yatakta uygulanan iç ve dış kısmı epoksi tozu ile boyanmış, erkek/dişi dişli uçlarla donatılmış bir kullanıcı branşman vanasının bir parçasıdır. İki adet M12 dişli delikle donatılmış …",
      "gerekce": "Birleşik Nomanklatür 1 ve 6'nın genel yorum kuralları. 8481 pozisyonu ve 8481 90 00 ve 8481 90 00 90 alt pozisyonlarının metni. Not 2 b) Birleşik Nomenklatürün XVI. Bölümü.",
      "url": "https://ec.europa.eu/taxation_customs/dds2/ebti/ebti_details.jsp?showHeader=false&Lang=en&reference=ITBTI2026-0106"
+    },
+    {
+     "source": "eu",
+     "source_label": "Avrupa Birliği (EBTI)",
+     "color": "#2E6BE6",
+     "flag": "🇮🇹",
+     "origin": "İtalya",
+     "hs": "90213990",
+     "hs4": "9021",
+     "ref": "ITBTI2026-0248",
+     "date": "2026-05-19",
+     "title": "Perkütan implant için protez saçlar. Biyouyumlu sentetik malzemeden yapılmış bir monofilamentten oluşan, cerrahi olarak implante edilebilir tıbbi cihaz. Monofilamentin bir ucunda kök görevi gören küçük bir düğüm bulunur. Cihaz tek kullanımlıktır ve kalıcı alopesi nedeniyle (sikat…",
+     "gerekce": "Kombine nomenklatürün yorumlanmasına ilişkin 1 ve 6 numaralı genel kurallar; 9021, 9021 39 ve 9021 39 90 pozisyonlarının metni.",
+     "url": "https://ec.europa.eu/taxation_customs/dds2/ebti/ebti_details.jsp?showHeader=false&Lang=en&reference=ITBTI2026-0248"
     }
    ]
   },
