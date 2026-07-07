@@ -144,19 +144,15 @@ def eu_source_url(ref: str, country: str, date_iso: str) -> str:
 
 
 def us_source_url(number: str, collection: str) -> str:
-    """ABD/CBP ruling için ÇALIŞAN dış kaynak linki (customsmobile aynası).
+    """ABD/CBP ruling için resmi CBP CROSS deep-link'i.
 
-    CBP CROSS (rulings.cbp.gov) tek-karar deep-link'lerini Akamai ile dışarıdan
-    engelliyor (403 Access Denied). customsmobile.com aynı CBP ruling'lerini
-    GET ile erişilebilir gösterir:
-        rulings/docview?doc_id=<KOLEKSİYON> <NUMARA>   (ör. "NY N358843")
-    Koleksiyon yoksa yalnız numara denenir.
+    Not (2026-07): customsmobile.com aynası bu ruling'leri artık tutmuyor
+    ("document is not found" hatası). CBP kendi sitesindeki Akamai bloğunu da
+    kaldırdı; tek-karar deep-link'i (rulings.cbp.gov/ruling/<NUMARA>) yeniden
+    doğrudan erişilebilir. Bu URL connector'ın ürettiği source_url ile aynıdır.
     """
-    from urllib.parse import quote
     num = (number or "").strip()
-    coll = (collection or "").strip()
-    doc_id = f"{coll} {num}".strip() if coll else num
-    return f"https://www.customsmobile.com/rulings/docview?doc_id={quote(doc_id)}"
+    return f"https://rulings.cbp.gov/ruling/{num}"
 
 
 def clip(text: str, n: int = 220) -> str:
