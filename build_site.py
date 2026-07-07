@@ -143,30 +143,13 @@ def eu_source_url(ref: str, country: str, date_iso: str) -> str:
     return f"{base}?showHeader=false&Lang=en&reference={r}"
 
 
-def us_slug(number: str) -> str:
-    """CBP ruling numarasını güvenli dosya adına çevirir (N362034 → N362034)."""
-    return re.sub(r"[^A-Za-z0-9_-]", "_", (number or "").strip()) or "cbp"
-
-
-def us_official_url(number: str) -> str:
-    """ABD/CBP ruling için resmî CROSS ARAMA linki.
-
-    /ruling/<NUMARA> tek-karar deep-link'i Akamai tarafından TR'den 403
-    veriyor; arama yolu da her zaman açılmayabiliyor. Bu yüzden detay
-    sayfasında YEDEK link olarak sunulur (birincil: customsmobile aynası).
-    """
-    from urllib.parse import quote
-    return f"https://rulings.cbp.gov/search?term={quote((number or '').strip())}"
-
-
 def us_mirror_url(number: str, collection: str) -> str:
     """ABD/CBP ruling'in customsmobile.com aynasındaki tam metni.
 
-    Not (2026-07): ayna kararların ÇOĞUNU tutuyor (test: 7'de 4 tam metin);
-    eksik olanlar muhtemelen indeks gecikmesi. CBP'nin kendi deep-link'i
-    Akamai 403 verdiği için tarayıcıdan güvenilir açılan tek tam-metin
-    kaynağı bu. Detay sayfasında birincil buton olarak kullanılır; karar
-    aynada yoksa kullanıcı yedek CROSS arama linkini kullanır.
+    Not (2026-07): CBP'nin kendi deep-link'i (rulings.cbp.gov/ruling/<n>)
+    Akamai tarafından TR'den 403 verdiği için tarayıcıdan güvenilir açılan
+    tam-metin kaynağı customsmobile aynasıdır. Ayna kararların çoğunu
+    tutuyor; çok yeni kararlar indeks gecikmesiyle birkaç gün sonra düşer.
         rulings/docview?doc_id=<KOLEKSİYON> <NUMARA>   (ör. "NY N362034")
     """
     from urllib.parse import quote
@@ -230,9 +213,9 @@ def normalize(src_dir, meta, rec, data):
             "date": iso_from_any(rec.get("date_fmt", "")),
             "title": clip(title, 280),
             "gerekce": clip(summ.get("teknik_gerekce", ""), 220),
-            # dış link (customsmobile / cbp deep-link) tarayıcıdan çalışmıyor →
-            # kendi sitemizdeki yerel detay sayfasına bağla (bkz. write_us_detail_pages).
-            "url": f"us/{us_slug(rec.get('number', ''))}.html",
+            # özet zaten modalda gösteriliyor → doğrudan customsmobile tam metnine git.
+            # (CBP'nin kendi deep-link'i Akamai 403 verdiği için ayna kullanılır.)
+            "url": us_mirror_url(rec.get("number", ""), rec.get("collection", "")),
         }
 
     if slug == "ca":
@@ -370,92 +353,6 @@ def write_tr_detail_pages():
 </div></body></html>"""
 
             with open(os.path.join(out_dir, f"{tr_slug(ref)}.html"), "w", encoding="utf-8") as fp:
-                fp.write(page)
-            count += 1
-
-    return count
-
-
-def write_us_detail_pages():
-    """Her ABD/CBP kararı için statik detay sayfası (site/us/<NUMARA>.html) üretir.
-    Bulutlar bu sayfaya bağlanır; dış kaynak linkleri (customsmobile aynası ve
-    CBP deep-link) tarayıcıdan çalışmadığı için karar özeti kendi sitemizde
-    gösterilir. Alttaki buton CROSS ARAMA yoluyla resmî kayda götürür."""
-    import html as _html
-
-    out_dir = os.path.join(OUT_DIR, "us")
-    os.makedirs(out_dir, exist_ok=True)
-    count = 0
-
-    for f in glob.glob(f"{REPORTS_BASE}/US_CBP/*/_report_data.json"):
-        try:
-            data = json.load(open(f, encoding="utf-8"))
-        except Exception:
-            continue
-        for rec in data.get("records", []):
-            number = (rec.get("number") or "").strip()
-            if not number:
-                continue
-            tariffs = (rec.get("tariffs") or "").strip()
-            collection = (rec.get("collection") or "").strip()
-            date_tr = fmt_date_tr(iso_from_any(rec.get("date_fmt", "")))
-            summ = rec.get("summary") or {}
-            desc = _html.escape(summ.get("esya_tanimi", "") or "").replace("\n", "<br>")
-            just = _html.escape(summ.get("teknik_gerekce", "") or "").replace("\n", "<br>")
-            e_num = _html.escape(number)
-            e_tar = _html.escape(tariffs or "—")
-            e_coll = _html.escape(collection or "—")
-            official = us_official_url(number)
-            mirror = us_mirror_url(number, collection)
-
-            page = f"""<!DOCTYPE html>
-<html lang="tr"><head><meta charset="utf-8">
-<meta name="viewport" content="width=device-width,initial-scale=1">
-<title>{e_num} · ABD CBP · GTİP {hs4(tariffs.split(',')[0] if tariffs else '')}</title>
-<style>
- *{{box-sizing:border-box}}
- body{{margin:0;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;
-   background:#eef3fb;color:#16202b;line-height:1.6}}
- .wrap{{max-width:760px;margin:0 auto;padding:32px 22px 64px}}
- a.back{{display:inline-flex;align-items:center;gap:7px;color:#5f7184;text-decoration:none;font-size:14px;font-weight:600}}
- a.back:hover{{color:#16202b}}
- .card{{background:#fff;border:1px solid #e6ebf2;border-radius:20px;padding:34px 32px;margin-top:18px;
-   box-shadow:0 14px 40px rgba(40,90,160,.07)}}
- .tag{{display:inline-flex;align-items:center;gap:8px;font-size:13px;font-weight:700;color:#C0392B}}
- .tag i{{width:10px;height:10px;border-radius:50%;background:#C0392B;display:inline-block}}
- h1{{font-size:30px;letter-spacing:-1px;margin:14px 0 4px;font-family:'Space Grotesk',sans-serif}}
- .meta{{display:flex;flex-wrap:wrap;gap:10px;margin-top:16px}}
- .chip{{background:#f4f7fc;border:1px solid #e6ebf2;border-radius:11px;padding:9px 14px;font-size:13px}}
- .chip b{{display:block;font-size:11px;color:#8693a6;font-weight:700;letter-spacing:.04em;text-transform:uppercase;margin-bottom:2px}}
- .chip .mono{{font-family:'JetBrains Mono',ui-monospace,monospace;font-weight:700}}
- .sec{{margin-top:26px}}
- .sec h2{{font-size:12px;letter-spacing:.08em;text-transform:uppercase;color:#6f86ad;margin:0 0 7px}}
- .sec p{{margin:0;font-size:15.5px;color:#23303f}}
- .official{{display:inline-flex;align-items:center;gap:8px;margin-top:28px;background:#16202b;color:#fff;
-   text-decoration:none;font-weight:700;font-size:14px;padding:13px 22px;border-radius:12px}}
- .official.alt{{background:#f4f7fc;color:#16202b;border:1px solid #d5deea;margin-left:10px}}
- .note{{font-size:12.5px;color:#8693a6;margin-top:12px}}
-</style></head>
-<body><div class="wrap">
- <a class="back" href="../index.html">← GTİP Bulutları'na dön</a>
- <div class="card">
-   <span class="tag"><i></i>Amerika Birleşik Devletleri · CBP Tarife Sınıflandırma Kararı</span>
-   <h1>GTİP {hs4(tariffs.split(',')[0] if tariffs else '')}</h1>
-   <div class="meta">
-     <div class="chip"><b>Karar No</b><span class="mono">{e_num}</span></div>
-     <div class="chip"><b>HTS / GTİP</b><span class="mono">{e_tar}</span></div>
-     <div class="chip"><b>Koleksiyon</b>{e_coll}</div>
-     <div class="chip"><b>Karar Tarihi</b>{date_tr}</div>
-   </div>
-   <div class="sec"><h2>Eşyanın Tanımı</h2><p>{desc or '—'}</p></div>
-   <div class="sec"><h2>Sınıflandırmanın Gerekçesi</h2><p>{just or '—'}</p></div>
-   <a class="official" href="{mirror}" target="_blank" rel="noopener">↗ Tam metni aç (CustomsMobile)</a>
-   <a class="official alt" href="{official}" target="_blank" rel="noopener">CBP CROSS'ta ara</a>
-   <div class="note">Tam İngilizce metin CustomsMobile aynasında açılır. "Document is not found" görürseniz karar aynaya henüz eklenmemiştir — bu durumda "CBP CROSS'ta ara" bağlantısını kullanıp <b>{e_num}</b> numaralı sonuca tıklayın.</div>
- </div>
-</div></body></html>"""
-
-            with open(os.path.join(out_dir, f"{us_slug(number)}.html"), "w", encoding="utf-8") as fp:
                 fp.write(page)
             count += 1
 
@@ -692,7 +589,6 @@ def write_feeds(days, out_dir):
 
 def main():
     tr_pages = write_tr_detail_pages()
-    us_pages = write_us_detail_pages()
     by_date = collect()
 
     days = []
@@ -721,8 +617,6 @@ def main():
     print(f"  RSS: {len(feeds)} feed ({', '.join(os.path.basename(f) for f in feeds)})")
     if tr_pages:
         print(f"  TR detay sayfaları: {tr_pages} → {os.path.join(OUT_DIR, 'tr')}/")
-    if us_pages:
-        print(f"  ABD detay sayfaları: {us_pages} → {os.path.join(OUT_DIR, 'us')}/")
     if days:
         print(f"  En güncel gün: {days[0]['date_tr']} ({days[0]['count']} karar)")
 
