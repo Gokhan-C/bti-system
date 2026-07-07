@@ -149,21 +149,31 @@ def us_slug(number: str) -> str:
 
 
 def us_official_url(number: str) -> str:
-    """ABD/CBP ruling için resmî CROSS ARAMA linki (paylaşılabilir).
+    """ABD/CBP ruling için resmî CROSS ARAMA linki.
 
-    Not (2026-07): iki dış link de tarayıcıdan çalışmıyordu —
-      • customsmobile.com aynası bu ruling'leri artık tutmuyor
-        ("Document is not found").
-      • rulings.cbp.gov/ruling/<NUMARA> tek-karar deep-link'i Akamai tarafından
-        dış-referer'lı doğrudan navigasyonda 403 ("you don't have permission")
-        veriyor.
-    Bu yüzden bulutlar artık kendi sitemizdeki yerel detay sayfasına bağlanır
-    (bkz. write_us_detail_pages). Detay sayfasındaki "resmî doğrula" butonu ise
-    CROSS'un ARAMA yolunu (search?term=<NUMARA>) kullanır; bu yol /ruling/ deep-
-    link'inin aksine paylaşılabilir ve Akamai tarafından engellenmez.
+    /ruling/<NUMARA> tek-karar deep-link'i Akamai tarafından TR'den 403
+    veriyor; arama yolu da her zaman açılmayabiliyor. Bu yüzden detay
+    sayfasında YEDEK link olarak sunulur (birincil: customsmobile aynası).
     """
     from urllib.parse import quote
     return f"https://rulings.cbp.gov/search?term={quote((number or '').strip())}"
+
+
+def us_mirror_url(number: str, collection: str) -> str:
+    """ABD/CBP ruling'in customsmobile.com aynasındaki tam metni.
+
+    Not (2026-07): ayna kararların ÇOĞUNU tutuyor (test: 7'de 4 tam metin);
+    eksik olanlar muhtemelen indeks gecikmesi. CBP'nin kendi deep-link'i
+    Akamai 403 verdiği için tarayıcıdan güvenilir açılan tek tam-metin
+    kaynağı bu. Detay sayfasında birincil buton olarak kullanılır; karar
+    aynada yoksa kullanıcı yedek CROSS arama linkini kullanır.
+        rulings/docview?doc_id=<KOLEKSİYON> <NUMARA>   (ör. "NY N362034")
+    """
+    from urllib.parse import quote
+    num = (number or "").strip()
+    coll = (collection or "").strip()
+    doc_id = f"{coll} {num}".strip() if coll else num
+    return f"https://www.customsmobile.com/rulings/docview?doc_id={quote(doc_id)}"
 
 
 def clip(text: str, n: int = 220) -> str:
@@ -396,6 +406,7 @@ def write_us_detail_pages():
             e_tar = _html.escape(tariffs or "—")
             e_coll = _html.escape(collection or "—")
             official = us_official_url(number)
+            mirror = us_mirror_url(number, collection)
 
             page = f"""<!DOCTYPE html>
 <html lang="tr"><head><meta charset="utf-8">
@@ -422,6 +433,7 @@ def write_us_detail_pages():
  .sec p{{margin:0;font-size:15.5px;color:#23303f}}
  .official{{display:inline-flex;align-items:center;gap:8px;margin-top:28px;background:#16202b;color:#fff;
    text-decoration:none;font-weight:700;font-size:14px;padding:13px 22px;border-radius:12px}}
+ .official.alt{{background:#f4f7fc;color:#16202b;border:1px solid #d5deea;margin-left:10px}}
  .note{{font-size:12.5px;color:#8693a6;margin-top:12px}}
 </style></head>
 <body><div class="wrap">
@@ -437,8 +449,9 @@ def write_us_detail_pages():
    </div>
    <div class="sec"><h2>Eşyanın Tanımı</h2><p>{desc or '—'}</p></div>
    <div class="sec"><h2>Sınıflandırmanın Gerekçesi</h2><p>{just or '—'}</p></div>
-   <a class="official" href="{official}" target="_blank" rel="noopener">↗ Resmî kayıtta doğrula (CBP CROSS)</a>
-   <div class="note">Açılan CBP CROSS arama sayfasında karar numarası <b>{e_num}</b> ile listelenen sonuca tıklayarak kararın tam İngilizce metnine ulaşabilirsiniz.</div>
+   <a class="official" href="{mirror}" target="_blank" rel="noopener">↗ Tam metni aç (CustomsMobile)</a>
+   <a class="official alt" href="{official}" target="_blank" rel="noopener">CBP CROSS'ta ara</a>
+   <div class="note">Tam İngilizce metin CustomsMobile aynasında açılır. "Document is not found" görürseniz karar aynaya henüz eklenmemiştir — bu durumda "CBP CROSS'ta ara" bağlantısını kullanıp <b>{e_num}</b> numaralı sonuca tıklayın.</div>
  </div>
 </div></body></html>"""
 
