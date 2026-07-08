@@ -99,13 +99,36 @@
 
   .note{margin-top:16px;padding:13px 18px;background:#fff;border:1px solid var(--line);border-left:3px solid var(--eu);border-radius:12px;font-size:14px;color:var(--muted)}
   .legendline{margin-top:16px;display:flex;gap:18px;flex-wrap:wrap;align-items:center;font-size:13px;color:var(--muted)}
-  .legendline .tailnote{margin-left:auto;color:var(--faint)}
+  .legendline .tailnote{color:var(--faint)}
 
   #skyField{position:relative;margin-top:22px;min-height:560px;border-radius:28px;overflow:hidden;border:1px solid #d4e8fb;
     background:linear-gradient(180deg,var(--sky-hi) 0%, var(--sky-lo) 100%);box-shadow:inset 0 0 90px rgba(120,180,255,.22)}
   .cloudbtn{position:absolute;border:none;background:transparent;padding:0;animation:bob 5s ease-in-out infinite;transition:transform .18s}
   .cloudbtn:hover{transform:scale(1.13);z-index:30}
   .emptysky{position:absolute;inset:0;display:flex;flex-direction:column;gap:8px;align-items:center;justify-content:center;color:var(--muted);font-size:15px;text-align:center;padding:20px}
+
+  /* ---------- MOBİL ---------- */
+  @media (max-width:640px){
+    .hero{min-height:auto;padding:52px 18px 60px}
+    .hero h1{margin-top:16px}
+    .hero .sub{margin-top:13px}
+    .stats{margin-top:26px;gap:10px}
+    .stat{min-width:0;flex:1 1 calc(50% - 5px);padding:14px 15px}
+    .stat .v{font-size:23px;margin-top:6px}
+    .ctas{margin-top:28px;gap:10px}
+    .btn{padding:14px 20px;font-size:14.5px}
+    .info{padding:52px 18px 22px}
+    .grid4{margin-top:26px;gap:14px}
+    .icard{padding:22px}
+    .sky{padding:34px 0 68px}
+    .wrap{padding:0 16px}
+    .skyhead{gap:10px}
+    .daynav{margin-left:auto}
+    .toolbar{padding:10px 0}
+    .toolrow{gap:8px}
+    .search{flex:1 1 100%}
+    select.fasil{flex:1 1 auto;max-width:none}
+  }
 
   /* ---------- LISTE ---------- */
   #listField{margin-top:22px;display:none}
@@ -222,7 +245,6 @@
   <div class="wrap"><div class="note" id="note" style="display:none"></div></div>
 
   <div class="wrap legendline" id="legendline">
-    <span style="font-weight:600;color:var(--ink)">Renk = kararı veren idare</span>
     <span class="tailnote">bulut = bir karar · sayı = GTİP'in ilk 4 hanesi · dokun → detay</span>
   </div>
 
@@ -441,12 +463,6 @@
     hs.textContent = d.hs4;
     hs.style.cssText = "font-family:'JetBrains Mono',monospace;font-weight:700;font-size:"+Math.round(w*0.24)+"px;letter-spacing:-.5px;line-height:1;color:"+s.color;
     content.appendChild(hs);
-    if(w>=56){
-      var sc = document.createElement('div');
-      sc.textContent = s.short;
-      sc.style.cssText = "font-family:'JetBrains Mono',monospace;font-weight:600;font-size:10px;letter-spacing:.07em;opacity:.6;margin-top:3px;color:"+s.color;
-      content.appendChild(sc);
-    }
     btn.appendChild(content);
     btn.addEventListener('mouseenter', function(e){ showTip(e,d); });
     btn.addEventListener('mousemove', moveTip);
@@ -661,7 +677,7 @@
       var b = document.createElement('button');
       b.className = 'chip'; b.style.setProperty('--c', s.color);
       b.setAttribute('aria-pressed', 'true');
-      b.innerHTML = '<i></i>'+(s.flag?s.flag+' ':'')+s.short;
+      b.innerHTML = '<i></i>'+(s.flag||s.short);
       b.title = s.name;
       b.addEventListener('click', function(){
         S.src[k] = !S.src[k];
