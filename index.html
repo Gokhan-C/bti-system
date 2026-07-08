@@ -88,7 +88,7 @@
   .search input{border:none;outline:none;flex:1;font-size:14.5px;background:transparent;color:var(--ink)}
   .search .clr{border:none;background:transparent;color:var(--faint);font-size:16px;line-height:1;padding:2px 4px;display:none}
   .chips{display:flex;gap:7px;flex-wrap:wrap}
-  .chip{display:inline-flex;align-items:center;gap:7px;border:1px solid #d7e0ea;background:#fff;border-radius:100px;padding:8px 14px;font-size:13px;font-weight:600;color:var(--muted);transition:all .15s}
+  .chip{display:inline-flex;align-items:center;gap:7px;border:1px solid #d7e0ea;background:#fff;border-radius:100px;padding:8px 15px;font-size:15px;font-weight:700;letter-spacing:.02em;color:var(--muted);transition:all .15s}
   .chip i{width:9px;height:9px;border-radius:50%;display:inline-block;background:var(--c)}
   .chip[aria-pressed="true"]{color:var(--ink);border-color:var(--c);box-shadow:inset 0 0 0 1px var(--c)}
   .chip[aria-pressed="false"]{opacity:.45}
@@ -279,10 +279,10 @@
 (function(){
   'use strict';
   var SRC = {
-    eu:{name:'Avrupa Birliği', short:'AB',  flag:'🇪🇺', sys:'EBTI',      color:'#2f6bdf', tint:'#ffffff'},
-    us:{name:'Amerika',        short:'ABD', flag:'🇺🇸', sys:'CBP CROSS', color:'#d07d2a', tint:'#fffaf2'},
-    ca:{name:'Kanada',         short:'CAN', flag:'🇨🇦', sys:'CBSA',      color:'#169b8b', tint:'#f3fbfa'},
-    uk:{name:'İngiltere',      short:'İNG', flag:'🇬🇧', sys:'HMRC ATaR', color:'#3d5aa9', tint:'#f4f6fc'},
+    eu:{name:'Avrupa Birliği', short:'EU',  flag:'🇪🇺', sys:'EBTI',      color:'#2f6bdf', tint:'#ffffff'},
+    us:{name:'Amerika',        short:'US',  flag:'🇺🇸', sys:'CBP CROSS', color:'#d07d2a', tint:'#fffaf2'},
+    ca:{name:'Kanada',         short:'CA',  flag:'🇨🇦', sys:'CBSA',      color:'#169b8b', tint:'#f3fbfa'},
+    uk:{name:'İngiltere',      short:'UK',  flag:'🇬🇧', sys:'HMRC ATaR', color:'#3d5aa9', tint:'#f4f6fc'},
     tr:{name:'Türkiye',        short:'TR',  flag:'🇹🇷', sys:'BTB',       color:'#e30a17', tint:'#fff4f4'}
   };
   var FASIL = {
@@ -463,6 +463,12 @@
     hs.textContent = d.hs4;
     hs.style.cssText = "font-family:'JetBrains Mono',monospace;font-weight:700;font-size:"+Math.round(w*0.24)+"px;letter-spacing:-.5px;line-height:1;color:"+s.color;
     content.appendChild(hs);
+    if(w>=52){
+      var sc = document.createElement('div');
+      sc.textContent = s.short;
+      sc.style.cssText = "font-family:'JetBrains Mono',monospace;font-weight:700;font-size:11px;letter-spacing:.06em;opacity:.72;margin-top:3px;color:"+s.color;
+      content.appendChild(sc);
+    }
     btn.appendChild(content);
     btn.addEventListener('mouseenter', function(e){ showTip(e,d); });
     btn.addEventListener('mousemove', moveTip);
@@ -677,7 +683,7 @@
       var b = document.createElement('button');
       b.className = 'chip'; b.style.setProperty('--c', s.color);
       b.setAttribute('aria-pressed', 'true');
-      b.innerHTML = '<i></i>'+(s.flag||s.short);
+      b.innerHTML = '<i></i>'+s.short;
       b.title = s.name;
       b.addEventListener('click', function(){
         S.src[k] = !S.src[k];
