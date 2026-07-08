@@ -1,15 +1,16 @@
 window.BTI_DATA = {
- "generated_at": "2026-07-08 06:06",
+ "generated_at": "2026-07-08 11:50",
  "today": "2026-07-08",
  "today_tr": "8 Temmuz 2026",
  "latest_date": "2026-07-07",
  "latest_is_today": false,
- "total_decisions": 1874,
+ "total_decisions": 1949,
  "total_days": 76,
  "source_counts": {
   "eu": 1543,
   "us": 108,
   "ca": 1,
+  "uk": 75,
   "tr": 222
  },
  "chapters": [
@@ -17,8 +18,10 @@ window.BTI_DATA = {
   "04",
   "05",
   "06",
+  "07",
   "08",
   "09",
+  "11",
   "12",
   "13",
   "14",
@@ -93,9 +96,10 @@ window.BTI_DATA = {
   {
    "date": "2026-07-07",
    "date_tr": "7 Temmuz 2026",
-   "count": 38,
+   "count": 49,
    "sources": [
-    "eu"
+    "eu",
+    "uk"
    ],
    "decisions": [
     {
@@ -113,6 +117,20 @@ window.BTI_DATA = {
      "url": "https://ec.europa.eu/taxation_customs/dds2/ebti/ebti_details.jsp?showHeader=false&Lang=en&reference=SEBTITV-2026-05920"
     },
     {
+     "source": "uk",
+     "source_label": "İngiltere (HMRC)",
+     "color": "#012169",
+     "flag": "🇬🇧",
+     "origin": "İngiltere",
+     "hs": "9705100045",
+     "hs4": "9705",
+     "ref": "600016167",
+     "date": "2026-07-07",
+     "title": "1989 model BMW K75 motosiklet (740cc, 3 silindirli, sıvı soğutmalı, 75 hp) — tarihi/koleksiyon değeri taşıyan koleksiyonluk eşya",
+     "gerekce": "Eşya, GIR 1 ve GIR 6 ile 9705 pozisyonunda \"tarihî, bilim ve teknoloji tarihine ilişkin koleksiyonlar ve koleksiyoncu eşyası\" kapsamında değerlendirilmiştir. Fasıl 97'ye Ek Not 1 ve 9705 AS İzahnamesi Not (A)(3) uyarınca…",
+     "url": "https://www.tax.service.gov.uk/search-for-advance-tariff-rulings/ruling/600016167"
+    },
+    {
      "source": "eu",
      "source_label": "Avrupa Birliği (EBTI)",
      "color": "#2E6BE6",
@@ -125,6 +143,20 @@ window.BTI_DATA = {
      "title": "Havalandırma ızgarası; bildirildiğine göre 83 adet havalandırma deliği (20 mm Ø) bulunan bükülmüş paslanmaz çelik sacdır. Izgara, bir hava kargo konteynerindeki fazla ısının havalandırma yoluyla atılmasında kullanılmak üzere tasarlanmış paslanmaz çelik sacdan üretilmiştir. Izgara…",
      "gerekce": "Sınıflandırma, Kombine Nomanklatürün yorumlanmasına ilişkin 1 ve 6 numaralı genel yorum kuralları esas alınarak yapılmıştır. 7326 AS pozisyonuna ilişkin AS Açıklama Notları. 7326, 7326 90 ve 7326 90 98 KN kodlarının metn…",
      "url": "https://ec.europa.eu/taxation_customs/dds2/ebti/ebti_details.jsp?showHeader=false&Lang=en&reference=SEBTITV-2026-10533"
+    },
+    {
+     "source": "uk",
+     "source_label": "İngiltere (HMRC)",
+     "color": "#012169",
+     "flag": "🇬🇧",
+     "origin": "İngiltere",
+     "hs": "9705100045",
+     "hs4": "9705",
+     "ref": "600015989",
+     "date": "2026-07-07",
+     "title": "Ettore Sottsass tasarımı \"Harlow TPA 240\" yemek masası ve altı adet \"Harlow S 44\" sandalye takımı (yaklaşık 1971, tasarım tarihi açısından koleksiyon değeri taşıyan mobilya)",
+     "gerekce": "Eşya, 20. yüzyılın en etkili tasarımcılarından Ettore Sottsass'ın imzasını taşıması nedeniyle sıradan mobilya (94. fasıl) değil, tarihî ilgi alanına giren koleksiyoncu parçası olarak değerlendirilmiştir. GYK 1 uyarınca 9…",
+     "url": "https://www.tax.service.gov.uk/search-for-advance-tariff-rulings/ruling/600015989"
     },
     {
      "source": "eu",
@@ -141,6 +173,20 @@ window.BTI_DATA = {
      "url": "https://ec.europa.eu/taxation_customs/dds2/ebti/ebti_details.jsp?showHeader=false&Lang=en&reference=FRBTIFR-BTI-2026-02498"
     },
     {
+     "source": "uk",
+     "source_label": "İngiltere (HMRC)",
+     "color": "#012169",
+     "flag": "🇬🇧",
+     "origin": "İngiltere",
+     "hs": "9705100074",
+     "hs4": "9705",
+     "ref": "600015954",
+     "date": "2026-07-07",
+     "title": "Gino Sarfatti tasarımı, model 2109 varyantı, nadir iki katmanlı avize (lake metal, cam; yaklaşık 1960–1962; 80x80x150 cm)",
+     "gerekce": "Ürün, tanınmış tasarımcı Gino Sarfatti'ye ait nadir bir varyant olması nedeniyle tarihi ilgi taşıyan koleksiyon parçası sayılarak GIR 1 ile 9705 pozisyonuna, GIR 6 ile 970510 alt pozisyonuna (arkeolojik, etnografik veya …",
+     "url": "https://www.tax.service.gov.uk/search-for-advance-tariff-rulings/ruling/600015954"
+    },
+    {
      "source": "eu",
      "source_label": "Avrupa Birliği (EBTI)",
      "color": "#2E6BE6",
@@ -153,6 +199,20 @@ window.BTI_DATA = {
      "title": "Tekstillerin bakımına yönelik, çift taraflı, tüm tekstiller için fırça şeklinde ev eşyası. Fırçanın sapı polipropilenden, başlık kumaşı ise polyesterden yapılmıştır. Boyutlar: 290*78*27 mm.",
      "gerekce": "Genel Yorum Kuralları 1 ve 6: sınıflandırma, bölüm ve fasıl notları ile pozisyon, alt pozisyon ve KN kodu metinleri esas alınarak belirlenir. Genel Yorum Kuralı 5.b): Ambalajlar, içerdikleri eşya ile birlikte sınıflandır…",
      "url": "https://ec.europa.eu/taxation_customs/dds2/ebti/ebti_details.jsp?showHeader=false&Lang=en&reference=FRBTIFR-BTI-2026-02845"
+    },
+    {
+     "source": "uk",
+     "source_label": "İngiltere (HMRC)",
+     "color": "#012169",
+     "flag": "🇬🇧",
+     "origin": "İngiltere",
+     "hs": "9705100045",
+     "hs4": "9705",
+     "ref": "600015950",
+     "date": "2026-07-07",
+     "title": "Paolo Buffa tasarımı bir çift meşe karyola (1940'lar), tarihi/koleksiyon değeri taşıyan tasarım mobilyası",
+     "gerekce": "Eşya, ünlü İtalyan tasarımcı Paolo Buffa'ya ait 1940'lar dönemi orijinal tasarım mobilyası olarak sıradan mobilya (Fasıl 94) değil, tarihi öneme sahip koleksiyon parçası kabul edilmiştir. GIR 1 ile 9705 pozisyonuna (tari…",
+     "url": "https://www.tax.service.gov.uk/search-for-advance-tariff-rulings/ruling/600015950"
     },
     {
      "source": "eu",
@@ -169,6 +229,20 @@ window.BTI_DATA = {
      "url": "https://ec.europa.eu/taxation_customs/dds2/ebti/ebti_details.jsp?showHeader=false&Lang=en&reference=FRBTIFR-BTI-2026-02848"
     },
     {
+     "source": "uk",
+     "source_label": "İngiltere (HMRC)",
+     "color": "#012169",
+     "flag": "🇬🇧",
+     "origin": "İngiltere",
+     "hs": "1806909011",
+     "hs4": "1806",
+     "ref": "600015931",
+     "date": "2026-07-07",
+     "title": "Kısmen bitter çikolata (%35) kaplı kurutulmuş şeftali, 100 g'lık perakende folyo ambalajlarda",
+     "gerekce": "Eşya, kakao içeren gıda müstahzarı niteliğinde olduğundan GYK 1 uyarınca 1806 pozisyonunda, GYK 6 ile 1806 90 \"diğerleri\" alt pozisyonunda sınıflandırılmıştır. Net muhtevası 1 kg'ı geçmeyen hazır ambalajlarda olması nede…",
+     "url": "https://www.tax.service.gov.uk/search-for-advance-tariff-rulings/ruling/600015931"
+    },
+    {
      "source": "eu",
      "source_label": "Avrupa Birliği (EBTI)",
      "color": "#2E6BE6",
@@ -181,6 +255,20 @@ window.BTI_DATA = {
      "title": "\"Flip\" oyunu şeklinde iskambil kartı oyunu. Boyutlar: 150 mm x 105 mm x 38 mm. Ambalaj: içinde oyun için gerekli bileşenlerin ve oyun kurallarının bulunduğu, karton çan tipi kutu (mavi-yeşil tonlarda, başlığı parlak efektli pembe çerçeveli sarı renkte). Ürün kâğıt ve kartondan ya…",
      "gerekce": "Genel Yorum Kuralları 1 ve 6: sınıflandırma, bölüm ve fasıl notları ile pozisyon, alt pozisyon ve KN kodu metinleri esas alınarak belirlenir. Genel Yorum Kuralı 5 a): kılıflar ve benzeri mahfazalar, içerdikleri eşya ile …",
      "url": "https://ec.europa.eu/taxation_customs/dds2/ebti/ebti_details.jsp?showHeader=false&Lang=en&reference=FRBTIFR-BTI-2026-02809"
+    },
+    {
+     "source": "uk",
+     "source_label": "İngiltere (HMRC)",
+     "color": "#012169",
+     "flag": "🇬🇧",
+     "origin": "İngiltere",
+     "hs": "1806909011",
+     "hs4": "1806",
+     "ref": "600015930",
+     "date": "2026-07-07",
+     "title": "Kısmen bitter çikolata (%22) kaplı, kaju cevizli çekirdeği çıkarılmış kuru hurma; 100 g'lık perakende folyo ambalajlarda",
+     "gerekce": "Eşya, kakao içeren gıda müstahzarı niteliğinde olduğundan GYK 1 uyarınca 1806 pozisyonunda; GYK 6 ile 180690 \"diğerleri\" alt pozisyonunda sınıflandırılmış, 100 g'lık folyo ambalaj GYK 5(b) kapsamında değerlendirilmiştir.…",
+     "url": "https://www.tax.service.gov.uk/search-for-advance-tariff-rulings/ruling/600015930"
     },
     {
      "source": "eu",
@@ -197,6 +285,20 @@ window.BTI_DATA = {
      "url": "https://ec.europa.eu/taxation_customs/dds2/ebti/ebti_details.jsp?showHeader=false&Lang=en&reference=FRBTIFR-BTI-2026-03499"
     },
     {
+     "source": "uk",
+     "source_label": "İngiltere (HMRC)",
+     "color": "#012169",
+     "flag": "🇬🇧",
+     "origin": "İngiltere",
+     "hs": "1806909011",
+     "hs4": "1806",
+     "ref": "600015929",
+     "date": "2026-07-07",
+     "title": "Kısmen bitter çikolata (%30) kaplı kurutulmuş ananas, 100 g'lık perakende folyo ambalajda",
+     "gerekce": "Ürün kakao içeren gıda müstahzarı olarak GYK 1 uyarınca 1806 pozisyonunda, GYK 5(b) ile 100 g'lık folyo ambalajı esas eşya ile birlikte sınıflandırılmıştır. GYK 6 ile 1806.90 \"diğerleri\" alt pozisyonuna, net muhtevası 1 …",
+     "url": "https://www.tax.service.gov.uk/search-for-advance-tariff-rulings/ruling/600015929"
+    },
+    {
      "source": "eu",
      "source_label": "Avrupa Birliği (EBTI)",
      "color": "#2E6BE6",
@@ -209,6 +311,20 @@ window.BTI_DATA = {
      "title": "Aşağıdaki özelliklere sahip beton karıştırıcı (betoniyer): Besleme: 230V~ (alternatif akım) 50 Hz; Motor: 650W S1/800W S6 %30 IP44; Tambur kapasitesi: 160 litre; Azami karıştırma kapasitesi: 130 l; Volan çapı: 54,5 cm; Tambur iç çapı: 38 cm; Dış çap: 39 cm; Dönüş hızı: 29,5 dev/d…",
      "gerekce": "Genel Yorum Kuralları 1 ve 6: sınıflandırma, bölüm ve fasıl notları ile pozisyon, alt pozisyon ve KN kodu metinleri esas alınarak belirlenir. 8474 tarife pozisyonuna ilişkin AS Açıklama Notları, Kısım I, paragraf C, bent…",
      "url": "https://ec.europa.eu/taxation_customs/dds2/ebti/ebti_details.jsp?showHeader=false&Lang=en&reference=FRBTIFR-BTI-2026-01590"
+    },
+    {
+     "source": "uk",
+     "source_label": "İngiltere (HMRC)",
+     "color": "#012169",
+     "flag": "🇬🇧",
+     "origin": "İngiltere",
+     "hs": "1806909011",
+     "hs4": "1806",
+     "ref": "600015928",
+     "date": "2026-07-07",
+     "title": "Kısmen bitter çikolata (%35) kaplı kurutulmuş mango; 100 g'lık perakende folyo ambalajda",
+     "gerekce": "Kakao içeren gıda müstahzarı niteliğindeki ürün, GIR 1 ve Fasıl 18 Not 1 uyarınca 1806 pozisyonunda sınıflandırılmıştır. GIR 6 ile 180690 \"diğerleri\" alt pozisyonuna, net muhtevası 1 kg'ı geçmeyen iç ambalajda olması ned…",
+     "url": "https://www.tax.service.gov.uk/search-for-advance-tariff-rulings/ruling/600015928"
     },
     {
      "source": "eu",
@@ -225,6 +341,20 @@ window.BTI_DATA = {
      "url": "https://ec.europa.eu/taxation_customs/dds2/ebti/ebti_details.jsp?showHeader=false&Lang=en&reference=FIBTIFI001210-2026-BTI72"
     },
     {
+     "source": "uk",
+     "source_label": "İngiltere (HMRC)",
+     "color": "#012169",
+     "flag": "🇬🇧",
+     "origin": "İngiltere",
+     "hs": "4823908580",
+     "hs4": "4823",
+     "ref": "600015841",
+     "date": "2026-07-07",
+     "title": "A4 dosyalama ayraçları (separatör/divider); 210 g/m² kartondan, kenarında çıkıntılı sekme (tab) bulunan, 10'lu paket (kırmızı, turuncu, sarı, yeşil, mavi renklerden 2'şer adet), ağzı kapatılmış şeffaf plastik torba içinde.",
+     "gerekce": "Ürün, ölçüsüne/şekline göre kesilmiş diğer kâğıt ve karton eşya kapsamında GIR 1 uyarınca 4823 pozisyonunda sınıflandırılmış; Fasıl 48 Not 10 istisnası ile 4823 pozisyonuna ilişkin AS İzahnamesi dikkate alınmıştır. Yazı/…",
+     "url": "https://www.tax.service.gov.uk/search-for-advance-tariff-rulings/ruling/600015841"
+    },
+    {
      "source": "eu",
      "source_label": "Avrupa Birliği (EBTI)",
      "color": "#2E6BE6",
@@ -239,6 +369,20 @@ window.BTI_DATA = {
      "url": "https://ec.europa.eu/taxation_customs/dds2/ebti/ebti_details.jsp?showHeader=false&Lang=en&reference=FRBTIFR-BTI-2026-02718"
     },
     {
+     "source": "uk",
+     "source_label": "İngiltere (HMRC)",
+     "color": "#012169",
+     "flag": "🇬🇧",
+     "origin": "İngiltere",
+     "hs": "8708999790",
+     "hs4": "8708",
+     "ref": "600015687",
+     "date": "2026-07-07",
+     "title": "Motorlu araçlara monte edilmek üzere tasarlanmış, polipropilenden mamul, 5 litre kapasiteli plastik yakıt besleme (header) deposu",
+     "gerekce": "Eşya, 8701-8705 pozisyonlarındaki motorlu taşıtlarda kullanılmak üzere tasarlanmış bir aksam olduğundan GIR 1 uyarınca 8708 pozisyonunda sınıflandırılmıştır. GIR 6 ile bu pozisyonda başka yerde belirtilmeyen \"diğer aksam…",
+     "url": "https://www.tax.service.gov.uk/search-for-advance-tariff-rulings/ruling/600015687"
+    },
+    {
      "source": "eu",
      "source_label": "Avrupa Birliği (EBTI)",
      "color": "#2E6BE6",
@@ -251,6 +395,20 @@ window.BTI_DATA = {
      "title": "Başvuru sahibi tarafından iletilen bilgilere göre ürün, petrolün işlenmesinden elde edilen, aromatik olarak modifiye edilmiş alifatik hidrokarbonların C5 fraksiyonlarının polimerizasyonu yoluyla elde edilen, ilk (primer) formda bir petrol reçinesidir. Soluk sarı/açık sarı renkte,…",
      "gerekce": "Kombine Nomanklatürün yorumuna ilişkin 1 ve 6 no.lu genel kurallar. 39. Fasla ilişkin 1, 3(c) ve 6(b) no.lu fasıl notları. Armonize Sistemin 3911 pozisyonuna ilişkin açıklama notları.",
      "url": "https://ec.europa.eu/taxation_customs/dds2/ebti/ebti_details.jsp?showHeader=false&Lang=en&reference=ROBTI2026-005544"
+    },
+    {
+     "source": "uk",
+     "source_label": "İngiltere (HMRC)",
+     "color": "#012169",
+     "flag": "🇬🇧",
+     "origin": "İngiltere",
+     "hs": "9019109000",
+     "hs4": "9019",
+     "ref": "600015632",
+     "date": "2026-07-07",
+     "title": "Jakuzi (hot tub) jetlerine basınçlı su ve havayı dağıtan, PVC'den mamul, merkezi gövdeli ve çok çıkışlı manifold (dağıtıcı) parçası",
+     "gerekce": "Eşya, jakuzinin hidroterapi/masaj mekanizmasının çalışması için zorunlu olan, basınçlı su ve havayı jetlere eşit dağıtan ve bu cihaza özgü üretilmiş bir parçadır. Fasıl 90 Not 2(b) uyarınca, esas itibarıyla 9019 pozisyon…",
+     "url": "https://www.tax.service.gov.uk/search-for-advance-tariff-rulings/ruling/600015632"
     },
     {
      "source": "eu",
@@ -635,9 +793,10 @@ window.BTI_DATA = {
   {
    "date": "2026-07-06",
    "date_tr": "6 Temmuz 2026",
-   "count": 100,
+   "count": 103,
    "sources": [
     "eu",
+    "uk",
     "us"
    ],
    "decisions": [
@@ -670,6 +829,20 @@ window.BTI_DATA = {
      "url": "https://www.customsmobile.com/rulings/docview?doc_id=NY%20N362034"
     },
     {
+     "source": "uk",
+     "source_label": "İngiltere (HMRC)",
+     "color": "#012169",
+     "flag": "🇬🇧",
+     "origin": "İngiltere",
+     "hs": "1905908000",
+     "hs4": "1905",
+     "ref": "600015963",
+     "date": "2026-07-06",
+     "title": "\"Chicken Fire Crackers\" – tavuk, sebze ve baharat karışımı ile doldurulmuş hamur işi (pastane mamulü), plastik torba/dış kutu ambalajında",
+     "gerekce": "Eşya, GYK 1 uyarınca 1905 pozisyonu metni (\"Ekmek, pasta, kek, bisküvi ve diğer ekmekçi mamulleri...\") kapsamında hamur işi/ekmekçi mamulü olarak sınıflandırılmıştır. GYK 5(b) ambalajın (plastik torba/dış kutu) eşya ile …",
+     "url": "https://www.tax.service.gov.uk/search-for-advance-tariff-rulings/ruling/600015963"
+    },
+    {
      "source": "eu",
      "source_label": "Avrupa Birliği (EBTI)",
      "color": "#2E6BE6",
@@ -698,6 +871,20 @@ window.BTI_DATA = {
      "url": "https://www.customsmobile.com/rulings/docview?doc_id=NY%20N362075"
     },
     {
+     "source": "uk",
+     "source_label": "İngiltere (HMRC)",
+     "color": "#012169",
+     "flag": "🇬🇧",
+     "origin": "İngiltere",
+     "hs": "5703908090",
+     "hs4": "5703",
+     "ref": "600015876",
+     "date": "2026-07-06",
+     "title": "Hindistan cevizi lifinden (koko/coir), tafting yöntemiyle üretilmiş, kaymayı önleyici kauçuk tabanlı, 60 x 40 cm boyutlarında dikdörtgen paspas (kapı önü paspası)",
+     "gerekce": "Eşya, tafting yöntemiyle üretilmiş dokumaya elverişli maddeden yer kaplaması olduğundan GİR 1 uyarınca 5703 pozisyonunda sınıflandırılmıştır. Koko lifi \"diğer dokumaya elverişli maddeler\" kapsamına girdiğinden GİR 6 ile …",
+     "url": "https://www.tax.service.gov.uk/search-for-advance-tariff-rulings/ruling/600015876"
+    },
+    {
      "source": "eu",
      "source_label": "Avrupa Birliği (EBTI)",
      "color": "#2E6BE6",
@@ -724,6 +911,20 @@ window.BTI_DATA = {
      "title": "7 Haziran 2026 tarihli yazınızda tarife sınıflandırma kararı talep etmiştiniz. Talebiniz ile birlikte numune yerine ürünlerin fotoğrafları da sunulmuştur. \"Yeniden Kullanılabilir Noel Hediye Çantaları\" olarak tanımlanan ürünler, geleneksel kağıt hediye paketlerine alternatif olar…",
      "gerekce": "Yeniden Kullanılabilir Noel Hediyesi Çantaları için geçerli alt pozisyon, HTSUS 6307.90.9891 olacaktır ve bu alt pozisyon, \"Elbise modelleri de dahil olmak üzere diğer hazır ürünler: Diğer: Diğer: Diğer: Diğer: Diğer.\" V…",
      "url": "https://www.customsmobile.com/rulings/docview?doc_id=NY%20N362124"
+    },
+    {
+     "source": "uk",
+     "source_label": "İngiltere (HMRC)",
+     "color": "#012169",
+     "flag": "🇬🇧",
+     "origin": "İngiltere",
+     "hs": "8516797090",
+     "hs4": "8516",
+     "ref": "600015834",
+     "date": "2026-07-06",
+     "title": "USB-C ile şarj edilebilir, ikiye ayrılabilir (snap-on) cep tipi elektrikli el ısıtıcısı, 3 ısı kademeli",
+     "gerekce": "Eşya, ev tipi kullanıma yönelik elektrotermik bir cihaz olduğundan GIR 1 uyarınca 8516 pozisyonunda sınıflandırılmıştır. GIR 6 ile alt pozisyon düzeyinde kahve/çay makinesi ve ekmek kızartıcısı dışındaki \"diğer elektrote…",
+     "url": "https://www.tax.service.gov.uk/search-for-advance-tariff-rulings/ruling/600015834"
     },
     {
      "source": "eu",
@@ -2168,9 +2369,10 @@ window.BTI_DATA = {
   {
    "date": "2026-07-03",
    "date_tr": "3 Temmuz 2026",
-   "count": 101,
+   "count": 105,
    "sources": [
-    "eu"
+    "eu",
+    "uk"
    ],
    "decisions": [
     {
@@ -2188,6 +2390,20 @@ window.BTI_DATA = {
      "url": "https://ec.europa.eu/taxation_customs/dds2/ebti/ebti_details.jsp?showHeader=false&Lang=en&reference=ITBTI2025-0450"
     },
     {
+     "source": "uk",
+     "source_label": "İngiltere (HMRC)",
+     "color": "#012169",
+     "flag": "🇬🇧",
+     "origin": "İngiltere",
+     "hs": "9705100045",
+     "hs4": "9705",
+     "ref": "600015981",
+     "date": "2026-07-03",
+     "title": "1929 yapımı, lutiye Evasio Emilio Guerra elinden çıkma keman (ladin ve akçaağaç gövde, abanoz tuş; iç etikette yapımcı adı ve yapım yılı mevcut)",
+     "gerekce": "Eşya, tanınmış lutiye Guerra tarafından 1929'da el yapımı olarak üretilmiş olması nedeniyle koleksiyon ve koleksiyoncu eşyası niteliği taşıdığından, GIR 1 uyarınca 9705 pozisyonunda (tarihi değeri haiz koleksiyon parçala…",
+     "url": "https://www.tax.service.gov.uk/search-for-advance-tariff-rulings/ruling/600015981"
+    },
+    {
      "source": "eu",
      "source_label": "Avrupa Birliği (EBTI)",
      "color": "#2E6BE6",
@@ -2200,6 +2416,20 @@ window.BTI_DATA = {
      "title": "Sistema di copertura brevettato, progettato per i veicoli privi di spazio tra la cassa e la cabina di guida, installato sul paracabina e particolarmente indicato per le casse ribaltabili, posteriori e trilaterali di autoveicoli destinati al trasporto di merci, Il sistema è proget…",
      "gerekce": "Regole generali per l’interpretazione della nomenclatura combinata 1, 2 a) e 6. Testo dei codici della Nomenclatura combinata 8708, 8708 99, 8708 99 97.Nota 3 sezione XVII Ai sensi dei capitoli da 86 a 88, i riferimenti …",
      "url": "https://ec.europa.eu/taxation_customs/dds2/ebti/ebti_details.jsp?showHeader=false&Lang=en&reference=ITBTI2025-0942"
+    },
+    {
+     "source": "uk",
+     "source_label": "İngiltere (HMRC)",
+     "color": "#012169",
+     "flag": "🇬🇧",
+     "origin": "İngiltere",
+     "hs": "2001100090",
+     "hs4": "2001",
+     "ref": "600015966",
+     "date": "2026-07-03",
+     "title": "Turşu aromalı galeta unu (pane) ile kaplanmış, pişirilmiş ve dondurulmuş dilimlenmiş kornişon turşusu (plastik torba/dış koli içinde)",
+     "gerekce": "Eşya, sirke/asetik asitle hazırlanmış sebzeleri kapsayan 2001 pozisyonunda GIR 1 ile sınıflandırılmış; pane kaplı bileşik ürüne esas karakterini kornişonun verdiği GIR 3(b) ile tespit edilmiştir. GIR 5(b) ambalajın (plas…",
+     "url": "https://www.tax.service.gov.uk/search-for-advance-tariff-rulings/ruling/600015966"
     },
     {
      "source": "eu",
@@ -2216,6 +2446,20 @@ window.BTI_DATA = {
      "url": "https://ec.europa.eu/taxation_customs/dds2/ebti/ebti_details.jsp?showHeader=false&Lang=en&reference=FIBTIFI001210-2026-BTI70"
     },
     {
+     "source": "uk",
+     "source_label": "İngiltere (HMRC)",
+     "color": "#012169",
+     "flag": "🇬🇧",
+     "origin": "İngiltere",
+     "hs": "9705100045",
+     "hs4": "9705",
+     "ref": "600015906",
+     "date": "2026-07-03",
+     "title": "Marcadier Barzoi (1967-1969, Fransa) — yaklaşık 30 adet üretilmiş, ilk tescili 1968 olan, restorasyon projesi olarak ithal edilen koleksiyonluk klasik binek otomobil",
+     "gerekce": "Araç, üretimi sona ermiş ve yaklaşık 30 adetlik sınırlı üretimiyle günümüze az sayıda örneği koleksiyoncularda bulunan, teknoloji ve sosyal tarih açısından önem taşıyan tarihi nitelikte bir koleksiyon parçası sayılarak G…",
+     "url": "https://www.tax.service.gov.uk/search-for-advance-tariff-rulings/ruling/600015906"
+    },
+    {
      "source": "eu",
      "source_label": "Avrupa Birliği (EBTI)",
      "color": "#2E6BE6",
@@ -2228,6 +2472,20 @@ window.BTI_DATA = {
      "title": "Teräksestä hitsaamalla valmistettu siltaelementti. Koostuu teräspalkeista ja -levystä. Tarkoitettu ajosillaksi esim. työmaille tai infrastruktuurikohteisiin mm. kaapeli- tai putkikaivantojen ylitykseen. Valmistetaan eri pituisina ja levyisinä erilaisiin tarpeisiin. Lyhyemmät sill…",
      "gerekce": "Yhdistetyn nimikkeistön yleiset tulkintasäännöt 1, 3a ja 6.Nimikkeen 7308 teksti ja sen alanimikkeiden tekstit.(Yhdistetty nimikkeistö, komission täytäntöönpanoasetus (EU) 2025/1926, julkaisupäivä 31.10.2025, Euroopan un…",
      "url": "https://ec.europa.eu/taxation_customs/dds2/ebti/ebti_details.jsp?showHeader=false&Lang=en&reference=FIBTIFI001210-2026-BTI71"
+    },
+    {
+     "source": "uk",
+     "source_label": "İngiltere (HMRC)",
+     "color": "#012169",
+     "flag": "🇬🇧",
+     "origin": "İngiltere",
+     "hs": "8545190000",
+     "hs4": "8545",
+     "ref": "600015731",
+     "date": "2026-07-03",
+     "title": "Membran elektrot grubu (MEA) için tasarlanmış, katalizör kaplı gaz difüzyon tabakası (GDL) elektrodu; gözenekli karbon kağıdı/karbon kumaşı taban, mikro gözenekli tabaka (MPL) ve katalizör tabakasından oluşur.",
+     "gerekce": "Ürün, elektriksel amaçlarla kullanılan karbon esaslı elektrot niteliğinde olduğundan GIR 1 uyarınca 8545 pozisyonunda (\"kömür elektrotlar... ve elektrik işlerinde kullanılan grafitten veya diğer karbondan eşya\") sınıflan…",
+     "url": "https://www.tax.service.gov.uk/search-for-advance-tariff-rulings/ruling/600015731"
     },
     {
      "source": "eu",
@@ -3592,10 +3850,11 @@ window.BTI_DATA = {
   {
    "date": "2026-07-02",
    "date_tr": "2 Temmuz 2026",
-   "count": 105,
+   "count": 119,
    "sources": [
     "eu",
-    "tr"
+    "tr",
+    "uk"
    ],
    "decisions": [
     {
@@ -3611,6 +3870,20 @@ window.BTI_DATA = {
      "title": "Ürün, göğüslüklü (önlük kısımlı) ve klipsli tokalarla ayarlanabilen elastik askılara sahip bir çift yağmur pantolonudur. Her pantolon paçasının alt kısmında içinden elastik geçen bir kanal (büzgü yolu) ve paçanın her iki yanına dikilmiş bir elastik bulunmaktadır. Ürünün bel kısmı…",
      "gerekce": "Kombine Nomanklatürün yorumuna ilişkin 1, 3 b) ve 6 numaralı Genel Yorum Kuralları ile 6113 ve 6113 00 90 00 eşya kodlarının metni. XI. Bölüme ilişkin 7 f) notu. 59. Fasıla ilişkin 2 numaralı not. 5903 pozisyonuna ilişki…",
      "url": "https://ec.europa.eu/taxation_customs/dds2/ebti/ebti_details.jsp?showHeader=false&Lang=en&reference=DKBTI26-0805694"
+    },
+    {
+     "source": "uk",
+     "source_label": "İngiltere (HMRC)",
+     "color": "#012169",
+     "flag": "🇬🇧",
+     "origin": "İngiltere",
+     "hs": "1905908000",
+     "hs4": "1905",
+     "ref": "600016008",
+     "date": "2026-07-02",
+     "title": "Pişirilmiş ve dondurulmuş sebzeli börek (spring rolls), yaklaşık 16 adet, plastik torba/dış kutu ambalajlı",
+     "gerekce": "Ürün, GIR 1 uyarınca 1905 pozisyonunun metni (\"ekmek, pastacılık ürünleri, kek, bisküvi ve diğer fırıncılık mamulleri\") kapsamında değerlendirilmiştir. GIR 5b ile plastik torba/dış kutu ambalajı eşya ile birlikte sınıfla…",
+     "url": "https://www.tax.service.gov.uk/search-for-advance-tariff-rulings/ruling/600016008"
     },
     {
      "source": "tr",
@@ -3641,6 +3914,20 @@ window.BTI_DATA = {
      "url": "https://ec.europa.eu/taxation_customs/dds2/ebti/ebti_details.jsp?showHeader=false&Lang=en&reference=FRBTIFR-BTI-2025-07313"
     },
     {
+     "source": "uk",
+     "source_label": "İngiltere (HMRC)",
+     "color": "#012169",
+     "flag": "🇬🇧",
+     "origin": "İngiltere",
+     "hs": "1905908000",
+     "hs4": "1905",
+     "ref": "600015961",
+     "date": "2026-07-02",
+     "title": "Pişirilmiş ve dondurulmuş tavuklu tuz-biber (salt and pepper) böreği/spring roll (8'li), plastik torba ve dış kutuda perakende ambalajlı fırıncılık mamulü.",
+     "gerekce": "Ürün, hamur bazlı sarılmış ve pişirilmiş bir mamul olduğundan GİK 1 uyarınca 1905 pozisyonundaki \"ekmekçilik, pastacılık ve diğer fırıncılık mamulleri\" kapsamında değerlendirilmiştir. GİK 5(b) ile plastik torba/dış kutu …",
+     "url": "https://www.tax.service.gov.uk/search-for-advance-tariff-rulings/ruling/600015961"
+    },
+    {
      "source": "tr",
      "source_label": "Türkiye (BTB)",
      "color": "#E30A17",
@@ -3667,6 +3954,20 @@ window.BTI_DATA = {
      "title": "Avuç içi ve parmak kısımlarında dış yüzeyi ağırlıklı olarak gri renkli tabii köseleden (sığa ait kösele kırması/ayrık deri — croûte de cuir) yapılmış bir çift iş eldiveni. Eldivenin sırt kısmı kırmızı renkli, doğal lifli (pamuk) dokuma tekstil malzemesinden imal edilmiştir. Eldiv…",
      "gerekce": "Genel Yorum Kuralları 1 ve 6: Sınıflandırma, bölüm ve fasıl notları ile pozisyon, alt pozisyon ve KN kodu metinlerine göre belirlenir. Genel Yorum Kuralı 2 b): Karışım halindeki ürünlerin veya bileşik eşyanın sınıflandır…",
      "url": "https://ec.europa.eu/taxation_customs/dds2/ebti/ebti_details.jsp?showHeader=false&Lang=en&reference=FRBTIFR-BTI-2025-06299"
+    },
+    {
+     "source": "uk",
+     "source_label": "İngiltere (HMRC)",
+     "color": "#012169",
+     "flag": "🇬🇧",
+     "origin": "İngiltere",
+     "hs": "1905908000",
+     "hs4": "1905",
+     "ref": "600015960",
+     "date": "2026-07-02",
+     "title": "Pişirilmiş ve dondurulmuş tavuklu (Chicken Tikka) spring rolls (börek/rulo), 8'li, plastik poşet ve dış kutu ambalajında perakende satışa hazır ürün.",
+     "gerekce": "Ürün, GYK 1 uyarınca 1905 pozisyonunun (\"ekmek, pastacılık ürünleri, kek, bisküvi ve diğer fırıncılık mamulleri\") lafzı kapsamında hamur bazlı fırıncılık/unlu mamul olarak değerlendirilmiştir. GYK 5(b) ambalajın (plastik…",
+     "url": "https://www.tax.service.gov.uk/search-for-advance-tariff-rulings/ruling/600015960"
     },
     {
      "source": "tr",
@@ -3697,6 +3998,20 @@ window.BTI_DATA = {
      "url": "https://ec.europa.eu/taxation_customs/dds2/ebti/ebti_details.jsp?showHeader=false&Lang=en&reference=FRBTIFR-BTI-2025-09061"
     },
     {
+     "source": "uk",
+     "source_label": "İngiltere (HMRC)",
+     "color": "#012169",
+     "flag": "🇬🇧",
+     "origin": "İngiltere",
+     "hs": "9705100045",
+     "hs4": "9705",
+     "ref": "600015953",
+     "date": "2026-07-02",
+     "title": "Gio Ponti tasarımı daybed (yaklaşık 1928; kök ceviz, abanoz, nikel kaplama metal, kumaş) — tarihi/koleksiyon değeri taşıyan mobilya parçası",
+     "gerekce": "Eşya, GIR 1 uyarınca 9705 pozisyonundaki \"tarihi, etnografik vb. koleksiyon ve koleksiyoncu parçaları\" kapsamında değerlendirilmiş, GIR 6 ile 970510 alt pozisyonuna yerleştirilmiştir. Gio Ponti gibi ulusal öneme sahip bi…",
+     "url": "https://www.tax.service.gov.uk/search-for-advance-tariff-rulings/ruling/600015953"
+    },
+    {
      "source": "tr",
      "source_label": "Türkiye (BTB)",
      "color": "#E30A17",
@@ -3723,6 +4038,20 @@ window.BTI_DATA = {
      "title": "Tatlandırıcı ilave edilmiş bisküvi türünde, sütlü çikolata ile kaplanmış, su içeriği %12'den az olan, 150 g ağırlığında karton kutu içinde perakende satışa hazır hale getirilmiş bisküvicilik ürünü.",
      "gerekce": "Genel Yorum Kuralları 1 ve 6: Sınıflandırma, bölüm ve fasıl notları ile pozisyon ve alt pozisyon metinlerine göre belirlenir. Genel Yorum Kuralı 5 b): Ambalaj, eşyanın sınıflandırmasını izler. 190532/1 numaralı Sınıfland…",
      "url": "https://ec.europa.eu/taxation_customs/dds2/ebti/ebti_details.jsp?showHeader=false&Lang=en&reference=FRBTIFR-BTI-2025-08867"
+    },
+    {
+     "source": "uk",
+     "source_label": "İngiltere (HMRC)",
+     "color": "#012169",
+     "flag": "🇬🇧",
+     "origin": "İngiltere",
+     "hs": "9705100045",
+     "hs4": "9705",
+     "ref": "600015949",
+     "date": "2026-07-02",
+     "title": "Paolo Buffa tasarımı (yak. 1940) duvara monte meşe/boyalı meşe portmanto; tarihi/koleksiyon değeri olan tasarım mobilyası (256 x 31 x 28 cm)",
+     "gerekce": "Eşya, tanınmış İtalyan tasarımcı Paolo Buffa'ya ait olması nedeniyle sanat/sosyal tarih ve ulusal öneme sahip kişilerin yaşamına ilişkin tarihi değer taşıyan koleksiyon parçası sayılmış, GIR 1 ile 9705 pozisyonuna ve GIR…",
+     "url": "https://www.tax.service.gov.uk/search-for-advance-tariff-rulings/ruling/600015949"
     },
     {
      "source": "tr",
@@ -3753,6 +4082,20 @@ window.BTI_DATA = {
      "url": "https://ec.europa.eu/taxation_customs/dds2/ebti/ebti_details.jsp?showHeader=false&Lang=en&reference=FRBTIFR-BTI-2025-07130"
     },
     {
+     "source": "uk",
+     "source_label": "İngiltere (HMRC)",
+     "color": "#012169",
+     "flag": "🇬🇧",
+     "origin": "İngiltere",
+     "hs": "7323990090",
+     "hs4": "7323",
+     "ref": "600015935",
+     "date": "2026-07-02",
+     "title": "Harry Potter temalı, tekrar kullanılabilir teneke (kalay kaplı çelik) beze kutusu içinde sunulan kurabiye süsleme seti (hazır pişmiş kurabiyeler + mavi krema/icing tüpü)",
+     "gerekce": "Set halindeki eşyada GIR 3(b) uyarınca esas niteliği tekrar kullanılabilir teneke kutunun verdiği kabul edilmiş; bu nedenle eşya, XV. Bölüm Not 3 ve 7323 pozisyonu AEİN A(1) açıklamaları çerçevesinde demir/çelikten ev iş…",
+     "url": "https://www.tax.service.gov.uk/search-for-advance-tariff-rulings/ruling/600015935"
+    },
+    {
      "source": "tr",
      "source_label": "Türkiye (BTB)",
      "color": "#E30A17",
@@ -3779,6 +4122,20 @@ window.BTI_DATA = {
      "title": "Beyan edilen bilgilere göre ürün, motorlu taşıtların farlarındaki LED diyotlar için bir kontrol ünitesidir. Kontrol ünitesi, farın münferit aydınlatma fonksiyonlarına ait ışık kaynaklarını beslemek üzere tasarlanmıştır. Mikroişlemci kontrollü bir DC/DC gerilim dönüştürücüsü olup,…",
      "gerekce": "Kombine Nomanklatürün yorumuna ilişkin Genel Yorum Kuralları 1 ve 6. XVI. Bölüme ilişkin 2 a) notu. 8504 pozisyonuna ilişkin AS Açıklama Notları, II) bölümü, D) bendi. Kombine Nomanklatürün 8504, 8504 40 ve 8504 40 95 ko…",
      "url": "https://ec.europa.eu/taxation_customs/dds2/ebti/ebti_details.jsp?showHeader=false&Lang=en&reference=CZBTI43%2F392761%2F2026-300000-ZI%2F01"
+    },
+    {
+     "source": "uk",
+     "source_label": "İngiltere (HMRC)",
+     "color": "#012169",
+     "flag": "🇬🇧",
+     "origin": "İngiltere",
+     "hs": "9705100074",
+     "hs4": "9705",
+     "ref": "600015903",
+     "date": "2026-07-02",
+     "title": "Gio Ponti ve Luigi Zortea tasarımı, 1948 dolayı, sırlı pişmiş topraktan (earthenware) nadir bir çift duvar aplik lambası (her biri yakl. 54,6 x 24,8 x 13,3 cm)",
+     "gerekce": "Eşya, 1948 tarihli Gio Ponti tasarımı nadir bir çift olması nedeniyle tarihsel/etnografik ilgiye sahip koleksiyon parçası kabul edilerek GYK 1 uyarınca 9705 pozisyonunda, GYK 6 uyarınca 9705.10 alt pozisyonunda sınıfland…",
+     "url": "https://www.tax.service.gov.uk/search-for-advance-tariff-rulings/ruling/600015903"
     },
     {
      "source": "tr",
@@ -3809,6 +4166,20 @@ window.BTI_DATA = {
      "url": "https://ec.europa.eu/taxation_customs/dds2/ebti/ebti_details.jsp?showHeader=false&Lang=en&reference=CZBTI43%2F379726%2F2026-300000-ZI%2F01"
     },
     {
+     "source": "uk",
+     "source_label": "İngiltere (HMRC)",
+     "color": "#012169",
+     "flag": "🇬🇧",
+     "origin": "İngiltere",
+     "hs": "2001901000",
+     "hs4": "2001",
+     "ref": "600015833",
+     "date": "2026-07-02",
+     "title": "Mango parçaları, şeker ve baharat içeren, 340 g cam kavanozda perakende ambalajlı mango çatnisi (mango chutney)",
+     "gerekce": "Eşya, sirke veya asetik asitle hazırlanmış meyve/sebze müstahzarlarını kapsayan 2001 pozisyonunda GYK 1 uyarınca sınıflandırılmış; karışımın ayırt edici özelliğini mango verdiğinden GYK 3(b) uygulanmıştır. Cam kavanoz am…",
+     "url": "https://www.tax.service.gov.uk/search-for-advance-tariff-rulings/ruling/600015833"
+    },
+    {
      "source": "eu",
      "source_label": "Avrupa Birliği (EBTI)",
      "color": "#2E6BE6",
@@ -3821,6 +4192,20 @@ window.BTI_DATA = {
      "title": "3 aletten oluşan elektrikçi kiti şunları içerir: - Cırcırlı (mandallı) bir kablo kesici: maksimum kapasite: 240 mm², tel çapı 32 mm - 240 mm²'ye kadar - maksimum 32 mm çapında kablo. Isıl işlem görmüş tahrik dişlisine sahip cırcır mekanizması. Sertleştirilmiş çelik bıçaklar, çok …",
      "gerekce": "Genel Yorum Kuralları 1 ve 6: sınıflandırma, bölüm ve fasıl notları ile pozisyon, alt pozisyon ve KN kodu metinlerine göre belirlenir. XV. Bölüm Not 3: Nomenklatürde \"adi metaller\" ifadesi şunları kapsar: dökme demir, de…",
      "url": "https://ec.europa.eu/taxation_customs/dds2/ebti/ebti_details.jsp?showHeader=false&Lang=en&reference=FRBTIFR-BTI-2026-01645"
+    },
+    {
+     "source": "uk",
+     "source_label": "İngiltere (HMRC)",
+     "color": "#012169",
+     "flag": "🇬🇧",
+     "origin": "İngiltere",
+     "hs": "2001902000",
+     "hs4": "2001",
+     "ref": "600015832",
+     "date": "2026-07-02",
+     "title": "Yeşil acı biber turşusu (green chilli pickle); biber parçaları, limon suyu ve baharat içerir, 300 g cam kavanozda perakende ambalajlı.",
+     "gerekce": "Ürün, sirke veya asetik asit yerine limon suyu ile hazırlanmış olsa da sebze müstahzarı olarak GİK 1 uyarınca 2001 pozisyonunda (\"Sebzeler, meyveler, sert kabuklu meyveler ve bitkilerin diğer kısımlarının müstahzarları\")…",
+     "url": "https://www.tax.service.gov.uk/search-for-advance-tariff-rulings/ruling/600015832"
     },
     {
      "source": "eu",
@@ -3837,6 +4222,20 @@ window.BTI_DATA = {
      "url": "https://ec.europa.eu/taxation_customs/dds2/ebti/ebti_details.jsp?showHeader=false&Lang=en&reference=FRBTIFR-BTI-2025-06990"
     },
     {
+     "source": "uk",
+     "source_label": "İngiltere (HMRC)",
+     "color": "#012169",
+     "flag": "🇬🇧",
+     "origin": "İngiltere",
+     "hs": "2001909221",
+     "hs4": "2001",
+     "ref": "600015831",
+     "date": "2026-07-02",
+     "title": "300 g'lık cam kavanozda ambalajlanmış, mango parçaları ve baharat içeren mango turşusu (mango pickle)",
+     "gerekce": "Eşya, GYK 1 uyarınca sebze, meyve ve bitkilerin diğer kısımlarından elde edilen müstahzarları kapsayan 2001 pozisyonunda; GYK 3(b) uyarınca eşyaya mukayyet vasfını mango verdiğinden bu esasla sınıflandırılmıştır. GYK 5(b…",
+     "url": "https://www.tax.service.gov.uk/search-for-advance-tariff-rulings/ruling/600015831"
+    },
+    {
      "source": "eu",
      "source_label": "Avrupa Birliği (EBTI)",
      "color": "#2E6BE6",
@@ -3849,6 +4248,20 @@ window.BTI_DATA = {
      "title": "Sofra veya mutfak için, perakende satış amacıyla birlikte ambalajlanmış eşya takımı; şunlardan oluşur: - akasya ahşabından, dikdörtgen şekilli, aksesuarların yerleştirilmesi için tasarlanmış bölmeleri bulunan kesme tahtası tipinde bir tepsi/tabla; - perçinli saplı bir peynir bıça…",
      "gerekce": "Genel Yorum Kuralları 1 ve 6: sınıflandırma, bölüm ve fasıl notları ile pozisyon, alt pozisyon ve KN kodu metinlerine göre belirlenir. Genel Yorum Kuralı 2(b): karışık ürünlerin veya bileşik eşyanın sınıflandırılması, Ge…",
      "url": "https://ec.europa.eu/taxation_customs/dds2/ebti/ebti_details.jsp?showHeader=false&Lang=en&reference=FRBTIFR-BTI-2025-07318"
+    },
+    {
+     "source": "uk",
+     "source_label": "İngiltere (HMRC)",
+     "color": "#012169",
+     "flag": "🇬🇧",
+     "origin": "İngiltere",
+     "hs": "2001909799",
+     "hs4": "2001",
+     "ref": "600015830",
+     "date": "2026-07-02",
+     "title": "300 g'lık cam kavanozda perakende satışa hazır, mango parçaları, limon, yeşil biber, havuç ve baharatlardan oluşan karışık meyve-sebze turşusu",
+     "gerekce": "Eşya, sirke veya asetik asitle hazırlanmış sebze, meyve ve bitki parçaları müstahzarı olarak GYK 1 uyarınca 2001 pozisyonunda değerlendirilmiştir. 300 g'lık cam kavanoz GYK 5(b) kapsamında eşya ile birlikte sınıflandırıl…",
+     "url": "https://www.tax.service.gov.uk/search-for-advance-tariff-rulings/ruling/600015830"
     },
     {
      "source": "eu",
@@ -3865,6 +4278,20 @@ window.BTI_DATA = {
      "url": "https://ec.europa.eu/taxation_customs/dds2/ebti/ebti_details.jsp?showHeader=false&Lang=en&reference=FRBTIFR-BTI-2025-08210"
     },
     {
+     "source": "uk",
+     "source_label": "İngiltere (HMRC)",
+     "color": "#012169",
+     "flag": "🇬🇧",
+     "origin": "İngiltere",
+     "hs": "2008309079",
+     "hs4": "2008",
+     "ref": "600015829",
+     "date": "2026-07-02",
+     "title": "300 g'lık cam kavanozda, baharatlarla hazırlanmış misket limonu turşusu (lime pickle)",
+     "gerekce": "Eşya, başka yerde belirtilmeyen, sirke dışı yöntemle hazırlanmış/konserve edilmiş yenilebilir meyve niteliğinde olduğundan GYK 1 uyarınca 2008 pozisyonunda sınıflandırılmıştır. Karışıma esas niteliğini misket limonları v…",
+     "url": "https://www.tax.service.gov.uk/search-for-advance-tariff-rulings/ruling/600015829"
+    },
+    {
      "source": "eu",
      "source_label": "Avrupa Birliği (EBTI)",
      "color": "#2E6BE6",
@@ -3879,6 +4306,20 @@ window.BTI_DATA = {
      "url": "https://ec.europa.eu/taxation_customs/dds2/ebti/ebti_details.jsp?showHeader=false&Lang=en&reference=FRBTIFR-BTI-2025-07889"
     },
     {
+     "source": "uk",
+     "source_label": "İngiltere (HMRC)",
+     "color": "#012169",
+     "flag": "🇬🇧",
+     "origin": "İngiltere",
+     "hs": "9705100045",
+     "hs4": "9705",
+     "ref": "600015814",
+     "date": "2026-07-02",
+     "title": "Pietro Chiesa tasarımı, yaklaşık 1935 tarihli cam, pirinç ve kumaştan masa lambası (tarihi/koleksiyon değeri taşıyan tasarım eseri)",
+     "gerekce": "Eşya, sıradan bir aydınlatma cihazı (94.05) olarak değil, GİK 1 ve 6 ile Fasıl 97 Genel Not (C) ve 9705 AS İzahname Not (A)(3) uyarınca tarihi öneme sahip koleksiyon parçası olarak 9705.10 alt pozisyonunda sınıflandırılm…",
+     "url": "https://www.tax.service.gov.uk/search-for-advance-tariff-rulings/ruling/600015814"
+    },
+    {
      "source": "eu",
      "source_label": "Avrupa Birliği (EBTI)",
      "color": "#2E6BE6",
@@ -3891,6 +4332,20 @@ window.BTI_DATA = {
      "title": "Operatör tarafından iletilen verilere göre sentetik liflerden örme mensucattan hazırlanmış (konfeksiyonlanmış), hayvanlar için dolgulu sepet/yatak tipinde eşya. Ürün kulübe (hutte) biçiminde, oval şekilli olup yatma alanının içinde bir minder ve kaymaz çıkıntılı (tırtıklı) bir ta…",
      "gerekce": "Genel Yorum Kuralları 1 ve 6: sınıflandırma, bölüm ve fasıl notları ile pozisyon, alt pozisyon ve KN kodu metinlerine göre belirlenir. Genel Yorum Kuralı 2(b): karışık veya bileşik eşyanın sınıflandırılması. Sınıflandırm…",
      "url": "https://ec.europa.eu/taxation_customs/dds2/ebti/ebti_details.jsp?showHeader=false&Lang=en&reference=FRBTIFR-BTI-2025-07896"
+    },
+    {
+     "source": "uk",
+     "source_label": "İngiltere (HMRC)",
+     "color": "#012169",
+     "flag": "🇬🇧",
+     "origin": "İngiltere",
+     "hs": "8507208010",
+     "hs4": "8507",
+     "ref": "600015749",
+     "date": "2026-07-02",
+     "title": "Hava taşıtları için acil durum güç kaynağı ünitesi (EPS); sabitlenmiş (immobilize) elektrolitli ve kendinden sızdırmaz emniyet valfli şarj edilebilir kurşun-asit aküler ile entegre kontrol elektroniği içeren, yedek uçuş aletlerine geçici 24 V DC (~5 A / ~150 W) güç sağlayan bağım…",
+     "gerekce": "Eşya, GIR 1 uyarınca 8507 pozisyonunun \"elektrik akümülatörleri\" tanımı kapsamında değerlendirilmiş; entegre kontrol elektroniğine rağmen esas karakterini akümülatör vermektedir (Bölüm XVI Not 2(a) ve Fasıl 85 Not 3). GI…",
+     "url": "https://www.tax.service.gov.uk/search-for-advance-tariff-rulings/ruling/600015749"
     },
     {
      "source": "eu",
@@ -5073,10 +5528,11 @@ window.BTI_DATA = {
   {
    "date": "2026-07-01",
    "date_tr": "1 Temmuz 2026",
-   "count": 93,
+   "count": 112,
    "sources": [
     "eu",
-    "tr"
+    "tr",
+    "uk"
    ],
    "decisions": [
     {
@@ -5092,6 +5548,20 @@ window.BTI_DATA = {
      "title": "Sepet tipi çeşitli eşyalar olup, Polyester'den tübüler (boru şeklinde) kordonlardan hazır hale getirilmiştir; kordonlar sıkı ve kompakt örgülü olup, Polipropilen'den dokunmamış bir tülden oluşan bir özü (çekirdeği) kaplamaktadır. Örgüler daire şeklinde sarılmış ve sepetin tabanın…",
      "gerekce": "Genel Yorum Kuralları 1 ve 6: sınıflandırma, bölüm ve fasıl notları ile pozisyon, alt pozisyon ve KN kodu metinlerine göre belirlenir. Genel Yorum Kuralı 5 b): ambalajlar, içerdikleri eşya ile birlikte sınıflandırılır. 4…",
      "url": "https://ec.europa.eu/taxation_customs/dds2/ebti/ebti_details.jsp?showHeader=false&Lang=en&reference=FRBTIFR-BTI-2025-05280"
+    },
+    {
+     "source": "uk",
+     "source_label": "İngiltere (HMRC)",
+     "color": "#012169",
+     "flag": "🇬🇧",
+     "origin": "İngiltere",
+     "hs": "2005995090",
+     "hs4": "2005",
+     "ref": "600015970",
+     "date": "2026-07-01",
+     "title": "Humus (nohut ve susam ezmesi/tahin bazlı, jalapenolu kremsi sos; 500 g kaplarda, koliler içinde)",
+     "gerekce": "Ürün, sirke veya asetik asit dışında bir yöntemle hazırlanmış, dondurulmamış sebze müstahzarı olduğundan GYK 1 uyarınca 2005 pozisyonunda sınıflandırılmıştır. GYK 3(b) gereği eşyaya esas niteliğini nohut verdiğinden sebz…",
+     "url": "https://www.tax.service.gov.uk/search-for-advance-tariff-rulings/ruling/600015970"
     },
     {
      "source": "tr",
@@ -5122,6 +5592,20 @@ window.BTI_DATA = {
      "url": "https://ec.europa.eu/taxation_customs/dds2/ebti/ebti_details.jsp?showHeader=false&Lang=en&reference=SEBTITV-2026-09309"
     },
     {
+     "source": "uk",
+     "source_label": "İngiltere (HMRC)",
+     "color": "#012169",
+     "flag": "🇬🇧",
+     "origin": "İngiltere",
+     "hs": "2005998098",
+     "hs4": "2005",
+     "ref": "600015969",
+     "date": "2026-07-01",
+     "title": "Humus – nohut ve susam ezmesinden (tahin) hazırlanmış kremsi meze/sos, 500 g'lık kaplarda, dış karton kutularda",
+     "gerekce": "Ürün, sirke veya asetik asit dışında bir yöntemle hazırlanmış, dondurulmamış sebze müstahzarı olarak GIR 1 uyarınca 2005 pozisyonunda sınıflandırılmıştır. Nohut ve susam ezmesi karışımında eşyaya esas niteliğini veren bi…",
+     "url": "https://www.tax.service.gov.uk/search-for-advance-tariff-rulings/ruling/600015969"
+    },
+    {
      "source": "eu",
      "source_label": "Avrupa Birliği (EBTI)",
      "color": "#2E6BE6",
@@ -5134,6 +5618,20 @@ window.BTI_DATA = {
      "title": "Egzersiz matı; beyan edilen bilgiye göre köşeleri yuvarlatılmış, desen kabartmalı yüzeyli, dikilmiş etiketli olup boyutları 200 x 68 x 0,6 cm'dir (U x G x Y). Ürün, beyan edilen bilgiye göre yoga, pilates ve diğer egzersizlerin yapılması sırasında kullanılmak üzere tasarlanmıştır…",
      "gerekce": "Kombine Nomanklatürün yorumlanmasına ilişkin Genel Yorum Kuralları 1, 5 b) ve 6 esas alınarak sınıflandırma. 40. Fasıla ilişkin Not 1, 4 ve 9. 40. Fasıla ilişkin AS İzahnamesi ve 4016 AS pozisyonuna ilişkin AS İzahnamesi…",
      "url": "https://ec.europa.eu/taxation_customs/dds2/ebti/ebti_details.jsp?showHeader=false&Lang=en&reference=SEBTITV-2026-09310"
+    },
+    {
+     "source": "uk",
+     "source_label": "İngiltere (HMRC)",
+     "color": "#012169",
+     "flag": "🇬🇧",
+     "origin": "İngiltere",
+     "hs": "1602321990",
+     "hs4": "1602",
+     "ref": "600015965",
+     "date": "2026-07-01",
+     "title": "Pişirilmiş ve dondurulmuş tavuk göğsü esaslı BBQ soslu ısırımlık parçalar (\"Chicken BBQ Bites\", 200 g, plastik torba/dış kutu ambalajında)",
+     "gerekce": "Eşya, pişirilmiş tavuk etinden hazırlanmış bir gıda müstahzarı olduğundan GYK 1 uyarınca 1602 pozisyonunda (hazırlanmış/konserve edilmiş et) sınıflandırılmış, GYK 5(b) ile perakende ambalajı eşya ile birlikte değerlendir…",
+     "url": "https://www.tax.service.gov.uk/search-for-advance-tariff-rulings/ruling/600015965"
     },
     {
      "source": "eu",
@@ -5150,6 +5648,20 @@ window.BTI_DATA = {
      "url": "https://ec.europa.eu/taxation_customs/dds2/ebti/ebti_details.jsp?showHeader=false&Lang=en&reference=FRBTIFR-BTI-2025-04776"
     },
     {
+     "source": "uk",
+     "source_label": "İngiltere (HMRC)",
+     "color": "#012169",
+     "flag": "🇬🇧",
+     "origin": "İngiltere",
+     "hs": "1602392900",
+     "hs4": "1602",
+     "ref": "600015964",
+     "date": "2026-07-01",
+     "title": "Hoisin soslu, pişirilmiş ve dondurulmuş 8 adet ördek pancake lolipopu (ördek eti, hoisin sos, soya yağı, asitlik düzenleyiciler, tuz, maya; plastik torba/dış kutu ambalajında)",
+     "gerekce": "Ürün, pişirilmiş ördek etinden hazırlanmış bir gıda müstahzarı olduğundan GYK 1 uyarınca 1602 pozisyonunda (hazırlanmış veya konserve edilmiş diğer et) sınıflandırılmıştır; ambalaj GYK 5(b) kapsamında eşya ile birlikte d…",
+     "url": "https://www.tax.service.gov.uk/search-for-advance-tariff-rulings/ruling/600015964"
+    },
+    {
      "source": "eu",
      "source_label": "Avrupa Birliği (EBTI)",
      "color": "#2E6BE6",
@@ -5162,6 +5674,20 @@ window.BTI_DATA = {
      "title": "Elektronik sigara parçası - elektronik bileşenler ve bağlantı elemanları içeren gövde. Ürün bataryasızdır. Elektronik sigara bataryası (şarj edilebilir) için tutucu/gövde olup, içine batarya yerleştirilip buharlaştırma parçasıyla birleştirildiğinde elektronik sigara olarak kullan…",
      "gerekce": "Kombine Nomanklatürün (KN) 1, 3 b) ve 6 numaralı Genel Yorum Kuralları. KN XVI. Bölüm Not 2 b). Armonize Sistem İzahnamesinin (HSEN, 2022) 8543 pozisyonuna ilişkin açıklamalarının 11) numaralı bendi hükümleri.",
      "url": "https://ec.europa.eu/taxation_customs/dds2/ebti/ebti_details.jsp?showHeader=false&Lang=en&reference=LTBTI2026-DEC-0270%2F27"
+    },
+    {
+     "source": "uk",
+     "source_label": "İngiltere (HMRC)",
+     "color": "#012169",
+     "flag": "🇬🇧",
+     "origin": "İngiltere",
+     "hs": "1602321990",
+     "hs4": "1602",
+     "ref": "600015962",
+     "date": "2026-07-01",
+     "title": "Pişirilmiş, plastik torba/kutu içinde perakende ambalajlı \"BBQ Chicken Bubble Dog\" — ağırlıkça %57 veya daha fazla tavuk eti içeren hazır tavuk (horoz/tavuk, Gallus domesticus) müstahzarı",
+     "gerekce": "Ürün, tavuk göğsü esaslı, pişirilmiş bir hazır gıda olup GYK 1 uyarınca 1602 pozisyonunda (hazırlanmış veya konserve edilmiş et) sınıflandırılmıştır; GYK 6 ile Gallus domesticus türü kümes hayvanı etini kapsayan 1602 32 …",
+     "url": "https://www.tax.service.gov.uk/search-for-advance-tariff-rulings/ruling/600015962"
     },
     {
      "source": "eu",
@@ -5178,6 +5704,20 @@ window.BTI_DATA = {
      "url": "https://ec.europa.eu/taxation_customs/dds2/ebti/ebti_details.jsp?showHeader=false&Lang=en&reference=DKBTI26-1902136"
     },
     {
+     "source": "uk",
+     "source_label": "İngiltere (HMRC)",
+     "color": "#012169",
+     "flag": "🇬🇧",
+     "origin": "İngiltere",
+     "hs": "1602321990",
+     "hs4": "1602",
+     "ref": "600015959",
+     "date": "2026-07-01",
+     "title": "Pişirilmiş ve dondurulmuş, tatlı acı biber (sweet chilli) soslu tavuk göğsü şişleri (10'lu, plastik torba/dış kutu ambalajında)",
+     "gerekce": "Ürün, pişirilmiş tavuk göğsü etinden hazırlanmış bir gıda müstahzarı olduğundan GIR 1 ve Fasıl 16 Not 1-2 uyarınca 1602 pozisyonunda (hazırlanmış/konserve edilmiş et) sınıflandırılmıştır. GIR 6 ile alt pozisyon 160232 (G…",
+     "url": "https://www.tax.service.gov.uk/search-for-advance-tariff-rulings/ruling/600015959"
+    },
+    {
      "source": "eu",
      "source_label": "Avrupa Birliği (EBTI)",
      "color": "#2E6BE6",
@@ -5190,6 +5730,20 @@ window.BTI_DATA = {
      "title": "Vulkanize edilmiş, gözeneksiz (alveolsüz) ve sertleştirilmemiş kauçuktan (akrilonitril-bütadien) giyim aksesuarı olup, mavi renkli, 5 parmaklı koruyucu eldiven şeklinde sunulmaktadır. Bu eldivenin bilek kısmında kıvrılmış (rulo) bir kenar bulunmaktadır. Eşya iki modelde (pudralı …",
      "gerekce": "Genel Yorum Kuralları 1 ve 6: sınıflandırma, bölüm ve fasıl notları ile pozisyon, alt pozisyon ve KN kodu metinlerine göre belirlenir. Genel Yorum Kuralı 5 b): ambalajlar, içerdikleri eşya ile birlikte sınıflandırılır. \"…",
      "url": "https://ec.europa.eu/taxation_customs/dds2/ebti/ebti_details.jsp?showHeader=false&Lang=en&reference=FRBTIFR-BTI-2025-08643"
+    },
+    {
+     "source": "uk",
+     "source_label": "İngiltere (HMRC)",
+     "color": "#012169",
+     "flag": "🇬🇧",
+     "origin": "İngiltere",
+     "hs": "1602321990",
+     "hs4": "1602",
+     "ref": "600015958",
+     "date": "2026-07-01",
+     "title": "Pişirilmiş ve dondurulmuş tavuk şiş (chicken satay/sticky chicken skewers), plastik torba ve dış kutu ambalajında",
+     "gerekce": "Ürün, tavuk göğsü esaslı, soslanmış (satay/oryantal sos), pişirilmiş ve dondurulmuş hazır et müstahzarı olup GIR 1 uyarınca 1602 pozisyonunda (hazırlanmış veya konserve edilmiş et) sınıflandırılmıştır. GIR 6 ile Gallus d…",
+     "url": "https://www.tax.service.gov.uk/search-for-advance-tariff-rulings/ruling/600015958"
     },
     {
      "source": "eu",
@@ -5206,6 +5760,20 @@ window.BTI_DATA = {
      "url": "https://ec.europa.eu/taxation_customs/dds2/ebti/ebti_details.jsp?showHeader=false&Lang=en&reference=FRBTIFR-BTI-2026-00762"
     },
     {
+     "source": "uk",
+     "source_label": "İngiltere (HMRC)",
+     "color": "#012169",
+     "flag": "🇬🇧",
+     "origin": "İngiltere",
+     "hs": "1602321990",
+     "hs4": "1602",
+     "ref": "600015957",
+     "date": "2026-07-01",
+     "title": "Pişirilmiş ve dondurulmuş tavuk satay şiş (10'lu), tavuk göğsü, satay baharatı, mısır nişastası, soya fasulyesi yağı ve dekstroz içeren, plastik torba/dış kutu ambalajlı hazır tavuk eti müstahzarı",
+     "gerekce": "Eşya, pişirilmiş tavuk göğsü esaslı hazır et müstahzarı olduğundan GYK 1 uyarınca 1602 pozisyonunda (diğer hazırlanmış veya konserve edilmiş et), GYK 6 ile Gallus domesticus türü kümes hayvanlarına ait 160232 alt pozisyo…",
+     "url": "https://www.tax.service.gov.uk/search-for-advance-tariff-rulings/ruling/600015957"
+    },
+    {
      "source": "eu",
      "source_label": "Avrupa Birliği (EBTI)",
      "color": "#2E6BE6",
@@ -5218,6 +5786,20 @@ window.BTI_DATA = {
      "title": "Ürün, bir paketleme makinesinin kaynak sistemine ait sözde bir kaynak çubuğudur (svejsebjælke). Ürün, her iki ucunda montaj için braketler bulunan uzun bir metal ray görünümündedir. Ray boyunca, her biri iki yay tutan iki braket monte edilmiştir. Ürün, paketleme makinesindeki bir…",
      "gerekce": "Kombine Nomanklatür'ün yorumuna ilişkin 1 ve 6 numaralı Genel Yorum Kuralları ile 8422, 8422 90 ve 8422 90 90 eşya kodlarının metni. XVI. Bölüme ilişkin 2 a) ve 2 b) numaralı Notlar. Diğer: İtiraz yolu bilgilendirmesine,…",
      "url": "https://ec.europa.eu/taxation_customs/dds2/ebti/ebti_details.jsp?showHeader=false&Lang=en&reference=DKBTI26-0139136-1"
+    },
+    {
+     "source": "uk",
+     "source_label": "İngiltere (HMRC)",
+     "color": "#012169",
+     "flag": "🇬🇧",
+     "origin": "İngiltere",
+     "hs": "9503007000",
+     "hs4": "9503",
+     "ref": "600015946",
+     "date": "2026-07-01",
+     "title": "Örümcek ağı desenli kırmızı eldiven, ağ fırlatıcı (web shooter) ve ağ sıvısı/su kartuşundan oluşan plastik oyuncak seti (rol yapma/roleplay oyuncağı)",
+     "gerekce": "Eşya, GIR 1 uyarınca 9503 pozisyonunun (\"diğer oyuncaklar\") metnine göre sınıflandırılmış; eldiven, fırlatıcı ve kartuşun birlikte sunulması nedeniyle \"takım veya set halindeki diğer oyuncaklar\" kapsamında 95030070 alt p…",
+     "url": "https://www.tax.service.gov.uk/search-for-advance-tariff-rulings/ruling/600015946"
     },
     {
      "source": "eu",
@@ -5234,6 +5816,20 @@ window.BTI_DATA = {
      "url": "https://ec.europa.eu/taxation_customs/dds2/ebti/ebti_details.jsp?showHeader=false&Lang=en&reference=DKBTI26-0139136-2"
     },
     {
+     "source": "uk",
+     "source_label": "İngiltere (HMRC)",
+     "color": "#012169",
+     "flag": "🇬🇧",
+     "origin": "İngiltere",
+     "hs": "3204190074",
+     "hs4": "3204",
+     "ref": "600015941",
+     "date": "2026-07-01",
+     "title": "C.I. Solvent Red 135 boyar madde (CAS RN 20749-68-2), ağırlıkça %90 veya daha fazla saflıkta sentetik organik çözücü boyası",
+     "gerekce": "Eşya, sentetik organik boyar madde niteliğinde olduğundan GYK 1 uyarınca 3204 pozisyonunda sınıflandırılmıştır. GYK 6 ile 320419 alt pozisyonuna (\"diğerleri; 3204 11 ila 3204 19 alt pozisyonlarındaki boyar maddelerin kar…",
+     "url": "https://www.tax.service.gov.uk/search-for-advance-tariff-rulings/ruling/600015941"
+    },
+    {
      "source": "eu",
      "source_label": "Avrupa Birliği (EBTI)",
      "color": "#2E6BE6",
@@ -5246,6 +5842,20 @@ window.BTI_DATA = {
      "title": "Beyana göre diğerlerinin yanı sıra aşağıdaki teknik özellik ve niteliklere sahip, sözde bir panel vidası (flanşlı/yakalı vida): - ahşabın sabitlenmesinde kullanılır; - adi metalden (ruspert silver kaplamalı çelik) imal edilmiştir; - yivsiz (oluksuz) altıgen başlıdır; - yaklaşık 7…",
      "gerekce": "Kombine Nomanklatür'ün yorumuna ilişkin 1 ve 6 numaralı Genel Yorum Kuralları. XV. Bölüme ilişkin 2 a) ve 3 numaralı Notlar. 72. Fasla ilişkin 1 d) numaralı Not. Gümrük Kodu Komitesi, Tarife ve İstatistik Nomanklatürü Bö…",
      "url": "https://ec.europa.eu/taxation_customs/dds2/ebti/ebti_details.jsp?showHeader=false&Lang=en&reference=NLBTI2026-0153"
+    },
+    {
+     "source": "uk",
+     "source_label": "İngiltere (HMRC)",
+     "color": "#012169",
+     "flag": "🇬🇧",
+     "origin": "İngiltere",
+     "hs": "6104630000",
+     "hs4": "6104",
+     "ref": "600015887",
+     "date": "2026-07-01",
+     "title": "Kadın örme tayt (leggings); %78 naylon, %22 elastan; bel kısmında fermuarlı cep dahil cepli; lacivert ve siyah renk seçenekli.",
+     "gerekce": "Eşya, GYK 1 uyarınca 6104 pozisyonunun metni (kadınlar ve kız çocuklar için örme pantolon vb. giyim eşyası) kapsamında sınıflandırılmış; GYK 6 ile sentetik liflerden pantolonları kapsayan 610463 alt pozisyonuna yerleştir…",
+     "url": "https://www.tax.service.gov.uk/search-for-advance-tariff-rulings/ruling/600015887"
     },
     {
      "source": "eu",
@@ -5262,6 +5872,20 @@ window.BTI_DATA = {
      "url": "https://ec.europa.eu/taxation_customs/dds2/ebti/ebti_details.jsp?showHeader=false&Lang=en&reference=NLBTI2026-0154"
     },
     {
+     "source": "uk",
+     "source_label": "İngiltere (HMRC)",
+     "color": "#012169",
+     "flag": "🇬🇧",
+     "origin": "İngiltere",
+     "hs": "6112419000",
+     "hs4": "6112",
+     "ref": "600015822",
+     "date": "2026-07-01",
+     "title": "Kız çocuk için örme tek parça (1-piece) sörf mayosu; ana kumaş %82 polyester %18 elastan, astar %100 polyester",
+     "gerekce": "Eşya, GIR 1 uyarınca 6112 pozisyonunun metni (\"örme veya kroşe tracksuit, kayak kıyafeti ve mayolar\") kapsamında sınıflandırılmıştır. GIR 6 ile sentetik liflerden kadın/kız çocuk mayolarını kapsayan 6112.41 alt pozisyonu…",
+     "url": "https://www.tax.service.gov.uk/search-for-advance-tariff-rulings/ruling/600015822"
+    },
+    {
      "source": "eu",
      "source_label": "Avrupa Birliği (EBTI)",
      "color": "#2E6BE6",
@@ -5274,6 +5898,20 @@ window.BTI_DATA = {
      "title": "Elektronik sigara parçası - elektronik bileşenler ve bağlantı noktaları (konnektörler) içeren gövde. Ürün bataryasızdır. Elektronik sigara bataryası (şarj edilebilir) için tutucu/gövde olup, içine batarya yerleştirilip buharlaştırma kısmıyla birleştirildiğinde elektronik sigara o…",
      "gerekce": "Kombine Nomanklatür'ün (KN) 1, 3 b) ve 6 numaralı Genel Yorum Kuralları. KN XVI. Bölümüne ilişkin 2 numaralı Notun b) bendi. Armonize Sistem'in (HSEN, 2022) 8543 pozisyonuna ilişkin Açıklama Notlarının 11) numaralı bendi…",
      "url": "https://ec.europa.eu/taxation_customs/dds2/ebti/ebti_details.jsp?showHeader=false&Lang=en&reference=LTBTI2026-DEC-0268%2F27"
+    },
+    {
+     "source": "uk",
+     "source_label": "İngiltere (HMRC)",
+     "color": "#012169",
+     "flag": "🇬🇧",
+     "origin": "İngiltere",
+     "hs": "9705100045",
+     "hs4": "9705",
+     "ref": "600015805",
+     "date": "2026-07-01",
+     "title": "Max Ingrand tasarımı (~1961) \"Micro\" model 2093, kısmen asitle işlenmiş cam ve nikel kaplamalı pirinçten beş adet duvar aplik seti (koleksiyon parçası)",
+     "gerekce": "Eşya, GIR 1 uyarınca 9705 pozisyonunun metni (koleksiyon ve koleksiyoncu eşyası) ve HSEN 9705 Not (A)(3) kapsamında tarihi değere sahip koleksiyon parçası olarak değerlendirilmiştir. GIR 6 ile 970510 alt pozisyonuna (ark…",
+     "url": "https://www.tax.service.gov.uk/search-for-advance-tariff-rulings/ruling/600015805"
     },
     {
      "source": "eu",
@@ -5290,6 +5928,20 @@ window.BTI_DATA = {
      "url": "https://ec.europa.eu/taxation_customs/dds2/ebti/ebti_details.jsp?showHeader=false&Lang=en&reference=ATBTI2026000052-DEC"
     },
     {
+     "source": "uk",
+     "source_label": "İngiltere (HMRC)",
+     "color": "#012169",
+     "flag": "🇬🇧",
+     "origin": "İngiltere",
+     "hs": "8525810000",
+     "hs4": "8525",
+     "ref": "600015776",
+     "date": "2026-07-01",
+     "title": "Laboratuvar ve endüstriyel test ortamlarında kullanılan, 1 megapiksel sensörlü, iki HD-SDI çıkışlı, saniyede 1.000.000 kareye kadar çekim yapabilen yüksek hızlı dijital kamera",
+     "gerekce": "Eşya, GIR 1 uyarınca 8525 pozisyonunun (televizyon kameraları, dijital kameralar ve video kamera kaydediciler) kapsamında değerlendirilmiştir. GIR 6 ve 85. Fasıl 1 no.lu alt pozisyon notu uyarınca, ağır çekim/kare kare a…",
+     "url": "https://www.tax.service.gov.uk/search-for-advance-tariff-rulings/ruling/600015776"
+    },
+    {
      "source": "eu",
      "source_label": "Avrupa Birliği (EBTI)",
      "color": "#2E6BE6",
@@ -5302,6 +5954,20 @@ window.BTI_DATA = {
      "title": "Beş parmaklı koruyucu eldiven biçiminde giyim eşyası aksesuarı; operatör tarafından sağlanan verilere göre, kısmen gözenekli (alveolar) kauçuk (lateks) ile kaplanmış ancak sıvanmamış, kaplaması çıplak gözle görülebilen sentetik liflerden (akrilik) örme mensucat dokumaya elverişli…",
      "gerekce": "Genel Yorum Kuralları 1 ve 6: sınıflandırma, bölüm ve fasıl notları ile pozisyon, alt pozisyon ve KN kodu metinlerine göre belirlenir. Genel Yorum Kuralı 5 b): eşya ile birlikte sunulan ambalajlar ve kaplar, eşya ile bir…",
      "url": "https://ec.europa.eu/taxation_customs/dds2/ebti/ebti_details.jsp?showHeader=false&Lang=en&reference=FRBTIFR-BTI-2025-08507"
+    },
+    {
+     "source": "uk",
+     "source_label": "İngiltere (HMRC)",
+     "color": "#012169",
+     "flag": "🇬🇧",
+     "origin": "İngiltere",
+     "hs": "8525810000",
+     "hs4": "8525",
+     "ref": "600015775",
+     "date": "2026-07-01",
+     "title": "Hassas test ve araştırma uygulamaları için tasarlanmış, video kaydı yapmayan, saniyede 10.850 kareye kadar ardışık fotoğraf çeken yüksek hızlı dijital kamera (12-bit CMOS sensörlü, 1280×960 çözünürlük).",
+     "gerekce": "Eşya, GIR 1 uyarınca 8525 pozisyonunun metnine göre (televizyon kameraları, dijital kameralar ve video kamera kaydediciler) sınıflandırılmıştır. GIR 6 ve Fasıl 85'e ilişkin 1 no.lu alt pozisyon notu uyarınca, saniyede 1.…",
+     "url": "https://www.tax.service.gov.uk/search-for-advance-tariff-rulings/ruling/600015775"
     },
     {
      "source": "eu",
@@ -5318,6 +5984,20 @@ window.BTI_DATA = {
      "url": "https://ec.europa.eu/taxation_customs/dds2/ebti/ebti_details.jsp?showHeader=false&Lang=en&reference=FRBTIFR-BTI-2025-08637"
     },
     {
+     "source": "uk",
+     "source_label": "İngiltere (HMRC)",
+     "color": "#012169",
+     "flag": "🇬🇧",
+     "origin": "İngiltere",
+     "hs": "8525810000",
+     "hs4": "8525",
+     "ref": "600015774",
+     "date": "2026-07-01",
+     "title": "Hassas test ve araştırma amaçlı yüksek hızlı dijital kamera (video kaydı yapmayan, 12-bit CMOS sensörlü, 1280×960 çözünürlükte saniyede 10.850 kareye kadar görüntü yakalayan)",
+     "gerekce": "Eşya, GYK 1 uyarınca 8525 pozisyonu (\"televizyon kameraları, dijital kameralar ve video kamera kaydediciler\") kapsamında değerlendirilmiştir. GYK 6 ve 85. Fasıl 1 no.lu alt pozisyon notu uyarınca, saniyede 10.850 kare ya…",
+     "url": "https://www.tax.service.gov.uk/search-for-advance-tariff-rulings/ruling/600015774"
+    },
+    {
      "source": "eu",
      "source_label": "Avrupa Birliği (EBTI)",
      "color": "#2E6BE6",
@@ -5330,6 +6010,20 @@ window.BTI_DATA = {
      "title": "Plastikten (polikarbonat) yapı için donanım eşyası, duvarlara sabit olarak monte edilmek üzere tasarlanmış aksesuar ve garnitür tipinde olup, kare şeklinde bir kutu (buat) biçiminde sunulmaktadır. Kabloların geçişi için ön kesimli (predelikli) olan bu sıva üstü kutu, iki adet vid…",
      "gerekce": "Genel Yorum Kuralları 1 ve 6: sınıflandırma, bölüm ve fasıl notları ile pozisyon, alt pozisyon ve KN kodu metinlerine göre belirlenir. Fasıl 39 Not 1: plastik maddelerin tanımı. Fasıl 39 Not 11 ij): Kapılara, pencerelere…",
      "url": "https://ec.europa.eu/taxation_customs/dds2/ebti/ebti_details.jsp?showHeader=false&Lang=en&reference=FRBTIFR-BTI-2026-01538"
+    },
+    {
+     "source": "uk",
+     "source_label": "İngiltere (HMRC)",
+     "color": "#012169",
+     "flag": "🇬🇧",
+     "origin": "İngiltere",
+     "hs": "3808919090",
+     "hs4": "3808",
+     "ref": "600015765",
+     "date": "2026-07-01",
+     "title": "Geraniol yağı emdirilmiş, sivrisinek kovucu silikon bileklik (2'li paket, şeffaf pencereli karton kart üzerinde perakende ambalajlı)",
+     "gerekce": "Eşya, geraniol yağı içeren ve sivrisinek kovucu işlev gören bir üründür; GİK 1 uyarınca 3808 pozisyonunun \"insektisitler... perakende satışa hazır şekil veya ambalajlarda ya da müstahzar veya eşya halinde (örneğin kükürt…",
+     "url": "https://www.tax.service.gov.uk/search-for-advance-tariff-rulings/ruling/600015765"
     },
     {
      "source": "eu",
@@ -5346,6 +6040,20 @@ window.BTI_DATA = {
      "url": "https://ec.europa.eu/taxation_customs/dds2/ebti/ebti_details.jsp?showHeader=false&Lang=en&reference=FRBTIFR-BTI-2026-02685"
     },
     {
+     "source": "uk",
+     "source_label": "İngiltere (HMRC)",
+     "color": "#012169",
+     "flag": "🇬🇧",
+     "origin": "İngiltere",
+     "hs": "9506620000",
+     "hs4": "9506",
+     "ref": "600015752",
+     "date": "2026-07-01",
+     "title": "Şişirilebilir futbol topu (5 numara, %60 PVC %40 bütil kauçuk, 22 cm çap, supaplı, dikişli altıgen panelli)",
+     "gerekce": "Eşya, GIR 1 uyarınca 9506 pozisyonunda (genel fiziksel egzersiz, jimnastik, atletizm ve diğer sporlara ait eşya ve ekipman) sınıflandırılmıştır. GIR 6 ile 950662 alt pozisyonuna (şişirilebilir toplar; golf ve masa tenisi…",
+     "url": "https://www.tax.service.gov.uk/search-for-advance-tariff-rulings/ruling/600015752"
+    },
+    {
      "source": "eu",
      "source_label": "Avrupa Birliği (EBTI)",
      "color": "#2E6BE6",
@@ -5358,6 +6066,20 @@ window.BTI_DATA = {
      "title": "Koruyucu eldiven tipinde giyim eşyası aksesuarı; pamuk ve polyesterden örme kumaştan mamul olup, kloroprenden, gözeneksiz (alveolsüz) sentetik kauçuktan art arda iki katmanla lamine edilmiştir (biri tüm yüzeyi kaplayan, 969 g/m² ağırlığında düz mavi bir katman; diğeri kısmi, 1404…",
      "gerekce": "Genel Yorum Kuralları 1 ve 6: sınıflandırma, bölüm ve fasıl notları ile pozisyon, alt pozisyon ve KN kodu metinlerine göre belirlenir. Genel Yorum Kuralı 5 b): ambalaj, eşyanın sınıflandırmasını izler. Bölüm XI Not 7: bu…",
      "url": "https://ec.europa.eu/taxation_customs/dds2/ebti/ebti_details.jsp?showHeader=false&Lang=en&reference=FRBTIFR-BTI-2026-02409"
+    },
+    {
+     "source": "uk",
+     "source_label": "İngiltere (HMRC)",
+     "color": "#012169",
+     "flag": "🇬🇧",
+     "origin": "İngiltere",
+     "hs": "8525810000",
+     "hs4": "8525",
+     "ref": "600015737",
+     "date": "2026-07-01",
+     "title": "Endüstriyel hassas fotoğrafçılık için yüksek hızlı dijital kamera (video kaydı yapmayan, saniyede 233.338 kareye kadar çekim, uçucu belleğe kayıt)",
+     "gerekce": "Eşya, video kaydetmeyip yalnızca hızlı ardışık görüntü yakalayan bir dijital kamera olduğundan GIR 1 uyarınca 8525 pozisyonunda (televizyon kameraları, dijital kameralar ve video kamera kaydediciler) sınıflandırılmıştır.…",
+     "url": "https://www.tax.service.gov.uk/search-for-advance-tariff-rulings/ruling/600015737"
     },
     {
      "source": "eu",
@@ -6386,10 +7108,11 @@ window.BTI_DATA = {
   {
    "date": "2026-06-30",
    "date_tr": "30 Haziran 2026",
-   "count": 47,
+   "count": 53,
    "sources": [
     "eu",
     "tr",
+    "uk",
     "us"
    ],
    "decisions": [
@@ -6422,6 +7145,20 @@ window.BTI_DATA = {
      "url": "https://www.customsmobile.com/rulings/docview?doc_id=HQ%20H355076"
     },
     {
+     "source": "uk",
+     "source_label": "İngiltere (HMRC)",
+     "color": "#012169",
+     "flag": "🇬🇧",
+     "origin": "İngiltere",
+     "hs": "9023008000",
+     "hs4": "9023",
+     "ref": "600015884",
+     "date": "2026-06-30",
+     "title": "Veteriner diş radyografisi eğitimi için anatomik model seti (taşıma çantalı eğitim/demonstrasyon kiti)",
+     "gerekce": "Set, canlı hayvan kullanmadan diş röntgeni pozisyonlama eğitimi için tasarlanmış olup yalnızca gösteri ve eğitim amaçlıdır; klinik kullanıma uygun olmadığından GIR 1 uyarınca 9023 pozisyonunda sınıflandırılmıştır. Esas n…",
+     "url": "https://www.tax.service.gov.uk/search-for-advance-tariff-rulings/ruling/600015884"
+    },
+    {
      "source": "tr",
      "source_label": "Türkiye (BTB)",
      "color": "#E30A17",
@@ -6448,6 +7185,20 @@ window.BTI_DATA = {
      "title": "Sarı renkli, toz oluşturmayan, kükürt kokusu veren toz halinde diğer kükürt; ürün, işletmenin beyanına göre kauçuk vulkanizasyon maddesi olarak kullanılmaktadır.",
      "gerekce": "Birleştirilmiş Nomenklatürün yorumuna ilişkin 1. ve 6. genel kurallar. 25. Fasıla ait 1. sayılı not. 25. Fasıla ait 2. sayılı not, a) bendi (geçerli değildir). HS açıklamaları 25. Fasıl, Genel Hükümler, 1. madde. HS açık…",
      "url": "https://ec.europa.eu/taxation_customs/dds2/ebti/ebti_details.jsp?showHeader=false&Lang=en&reference=ATBTI2026000151-DEC"
+    },
+    {
+     "source": "uk",
+     "source_label": "İngiltere (HMRC)",
+     "color": "#012169",
+     "flag": "🇬🇧",
+     "origin": "İngiltere",
+     "hs": "9405500010",
+     "hs4": "9405",
+     "ref": "600015857",
+     "date": "2026-06-30",
+     "title": "Kumtaşı taban ve çıkarılabilir borosilikat cam hazneden oluşan el yapımı mum tutucu (şamdan)",
+     "gerekce": "Eşya, GIR 1 uyarınca 9405 pozisyonundaki \"aydınlatma cihazları ve aksamı\" kapsamında değerlendirilmiş; elektrikli olmayan aydınlatma cihazı niteliği nedeniyle GIR 6 ile 940550 alt pozisyonuna yerleştirilmiştir. Kumtaşı t…",
+     "url": "https://www.tax.service.gov.uk/search-for-advance-tariff-rulings/ruling/600015857"
     },
     {
      "source": "tr",
@@ -6478,6 +7229,20 @@ window.BTI_DATA = {
      "url": "https://ec.europa.eu/taxation_customs/dds2/ebti/ebti_details.jsp?showHeader=false&Lang=en&reference=ATBTI2026000153-DEC"
     },
     {
+     "source": "uk",
+     "source_label": "İngiltere (HMRC)",
+     "color": "#012169",
+     "flag": "🇬🇧",
+     "origin": "İngiltere",
+     "hs": "8526912000",
+     "hs4": "8526",
+     "ref": "600015794",
+     "date": "2026-06-30",
+     "title": "Denizcilik sektöründe offshore konumlandırma için kullanılan, çok frekanslı GNSS alıcılı, 3 dahili PCB üzerine monte elektronik bileşenlerden oluşan ve alüminyum muhafazalı entegre mobil konumlandırma sensör kiti (demodülatörlü).",
+     "gerekce": "Eşya, GIR 1 uyarınca 8526 pozisyonunun (radar, telsiz seyrüsefer yardım cihazları) kapsamına girmekte olup GNSS alıcısı içermesi nedeniyle GIR 6 ile 852691 (telsiz seyrüsefer yardım cihazları) alt pozisyonuna sınıflandır…",
+     "url": "https://www.tax.service.gov.uk/search-for-advance-tariff-rulings/ruling/600015794"
+    },
+    {
      "source": "tr",
      "source_label": "Türkiye (BTB)",
      "color": "#E30A17",
@@ -6504,6 +7269,20 @@ window.BTI_DATA = {
      "title": "Ürün, laktik asit bakterilerinin (Lactococcus lactis) fermantasyonuyla elde edilen, doğal antimikrobiyal bir polipeptid olan nizin ile sodyum klorürden oluşan toz halinde bir müstahzardır. Üretim sürecinin sonunda, nizinin ekstraksiyon ve konsantrasyon aşamalarında önemli miktarl…",
      "gerekce": "Ürünün sınıflandırması, birleştirilmiş nomenklatürün yorumuna ilişkin 1. ve 6. genel kurallar ile 3824 pozisyonunun metni, 3824 99 GTİP kodu, 3824 99 96 KN kodu ve 3824 99 96 99 TARIC koduna dayanılarak belirlenmiştir. K…",
      "url": "https://ec.europa.eu/taxation_customs/dds2/ebti/ebti_details.jsp?showHeader=false&Lang=en&reference=BEBTIDT.50.024.447"
+    },
+    {
+     "source": "uk",
+     "source_label": "İngiltere (HMRC)",
+     "color": "#012169",
+     "flag": "🇬🇧",
+     "origin": "İngiltere",
+     "hs": "2008307590",
+     "hs4": "2008",
+     "ref": "600015764",
+     "date": "2026-06-30",
+     "title": "Portakal jölesi içinde mandalina parçaları (su, mandalina, konsantre elma suyu, kıvam vericiler ve asitlik düzenleyiciler içeren), 120 g'lık ısıl yapıştırma kapaklı plastik kaplarda perakende hazır meyve tatlısı.",
+     "gerekce": "Ürün, başka pozisyonda yer almayan, hazırlanmış/konserve edilmiş meyve niteliğinde olduğundan GİK 1 uyarınca 2008 pozisyonunda; turunçgil meyvesi olması nedeniyle GİK 6 ile 2008.30 alt pozisyonunda sınıflandırılmıştır. K…",
+     "url": "https://www.tax.service.gov.uk/search-for-advance-tariff-rulings/ruling/600015764"
     },
     {
      "source": "tr",
@@ -6534,6 +7313,20 @@ window.BTI_DATA = {
      "url": "https://ec.europa.eu/taxation_customs/dds2/ebti/ebti_details.jsp?showHeader=false&Lang=en&reference=PLBTIWIT-2026-000654"
     },
     {
+     "source": "uk",
+     "source_label": "İngiltere (HMRC)",
+     "color": "#012169",
+     "flag": "🇬🇧",
+     "origin": "İngiltere",
+     "hs": "8479899790",
+     "hs4": "8479",
+     "ref": "600015666",
+     "date": "2026-06-30",
+     "title": "Suya titreşim desenleri kodlamak için kullanılan, homeopatik preparat hazırlamaya yönelik, çelik gövde içinde kapasitör, kristal ve bakır plakalar içeren, elle imal edilmiş alfanümerik transdüser (kişisel kullanım amaçlı düşük güçlü cihaz)",
+     "gerekce": "Cihaz, bu fasılın başka pozisyonlarında belirtilmeyen kendine özgü fonksiyonlu makine ve mekanik cihaz niteliğinde olduğundan GYK 1 uyarınca 8479 pozisyonunda sınıflandırılmıştır. GYK 6 ile \"diğerleri\" alt pozisyonu 8479…",
+     "url": "https://www.tax.service.gov.uk/search-for-advance-tariff-rulings/ruling/600015666"
+    },
+    {
      "source": "tr",
      "source_label": "Türkiye (BTB)",
      "color": "#E30A17",
@@ -6560,6 +7353,20 @@ window.BTI_DATA = {
      "title": "Kararın konusunu, 3 adet lityum-iyon-polimer pil, 1 adet şarj istasyonu ve 1 adet kablodan oluşan bir drone pil seti oluşturmaktadır.",
      "gerekce": "Komisyon'un (AB) 2025/1926 sayılı Uygulama Tüzüğü'nün I. Eki'nin Birinci Kısım I. Bölüm A noktasında tanımlanan Birleştirilmiş Nomenklatür yorum kurallarından 1., 3.b) ve 6. kural. Söz konusu Tüzüğün I. Eki'nin İkinci Kı…",
      "url": "https://ec.europa.eu/taxation_customs/dds2/ebti/ebti_details.jsp?showHeader=false&Lang=en&reference=HUBTIHU190000-2026-7965099872"
+    },
+    {
+     "source": "uk",
+     "source_label": "İngiltere (HMRC)",
+     "color": "#012169",
+     "flag": "🇬🇧",
+     "origin": "İngiltere",
+     "hs": "6912008900",
+     "hs4": "6912",
+     "ref": "600015436",
+     "date": "2026-06-30",
+     "title": "Köpekler için mama/su kabı; %60 geri dönüştürülmüş seramik + %40 stoneware karışımından, parlak yakut kırmızısı sırlı, altın detaylı yuvarlak kap",
+     "gerekce": "Ürün, porselen veya çini dışındaki seramikten ev eşyası niteliğinde olduğundan GIR 1 uyarınca 6912 pozisyonunda sınıflandırılmış; GIR 5b ile ambalaj (tekil karton kutu içinde koli) eşyayla birlikte değerlendirilmiştir. H…",
+     "url": "https://www.tax.service.gov.uk/search-for-advance-tariff-rulings/ruling/600015436"
     },
     {
      "source": "tr",
@@ -7056,10 +7863,11 @@ window.BTI_DATA = {
   {
    "date": "2026-06-29",
    "date_tr": "29 Haziran 2026",
-   "count": 21,
+   "count": 22,
    "sources": [
     "eu",
-    "tr"
+    "tr",
+    "uk"
    ],
    "decisions": [
     {
@@ -7075,6 +7883,20 @@ window.BTI_DATA = {
      "title": "Başvuru sahibinin açıklaması ve ekli görüntülere göre ürün, küçük çocuklara yönelik interaktif bir müzikli oyuncak olup emekleme pozisyonunda yürüyen bir ayıyı temsil etmektedir. Oyuncak tekstil malzemesinden yapılmıştır ve kısmen dolgu malzemesiyle doldurulmuştur; baş ve uzuvlar…",
      "gerekce": "Kombine Nomenklatürünün yorumlanmasına ilişkin 1, 3 b) ve 6 numaralı genel kurallar. Komisyon'un belirli eşyaların Kombine Nomenklatüre göre sınıflandırılmasına dair 2 Mart 2015 tarihli ve (EU) 2015/352 sayılı Yönetmeliğ…",
      "url": "https://ec.europa.eu/taxation_customs/dds2/ebti/ebti_details.jsp?showHeader=false&Lang=en&reference=ROBTI2026-005485"
+    },
+    {
+     "source": "uk",
+     "source_label": "İngiltere (HMRC)",
+     "color": "#012169",
+     "flag": "🇬🇧",
+     "origin": "İngiltere",
+     "hs": "2204101500",
+     "hs4": "2204",
+     "ref": "600016053",
+     "date": "2026-06-29",
+     "title": "200 ml şişede Prosecco köpüklü şarap (sarı etiketli, tel kafesli mantar tıpalı; 3 adet çikolata ile kutulu, karar yalnız Prosecco'ya ait)",
+     "gerekce": "GIR 1 uyarınca eşya, 2204 pozisyonu \"taze üzüm şarabı\" kapsamında değerlendirilmiş; GIR 6 ile 220410 \"köpüklü şarap\" alt pozisyonuna, 22 no.lu Fasıl Alt Pozisyon Notu 1 ve 2204 AS İzahnamesi dikkate alınarak 22041015 \"Pr…",
+     "url": "https://www.tax.service.gov.uk/search-for-advance-tariff-rulings/ruling/600016053"
     },
     {
      "source": "tr",
@@ -7427,10 +8249,11 @@ window.BTI_DATA = {
   {
    "date": "2026-06-26",
    "date_tr": "26 Haziran 2026",
-   "count": 105,
+   "count": 107,
    "sources": [
     "eu",
-    "tr"
+    "tr",
+    "uk"
    ],
    "decisions": [
     {
@@ -7446,6 +8269,20 @@ window.BTI_DATA = {
      "title": "Endüstriyel, lojistik veya üretim alanlarının sınırlandırılmasına ve fiziksel olarak korunmasına yönelik, monte edilebilir yapısal elemanlardan oluşan modüler çevre koruma sistemi. Sistem; çerçeveli veya çerçevesiz metal kafes paneller, çelik sac paneller ve birbirleriyle kombinl…",
      "gerekce": "Birleşik Nomenclature'ün yorumlanmasına ilişkin 1, 2 a) ve 6 No'lu genel kurallar. BN kodlarının metni: 7308, 7308 90, 7308 90 98.",
      "url": "https://ec.europa.eu/taxation_customs/dds2/ebti/ebti_details.jsp?showHeader=false&Lang=en&reference=ITBTI2025-0017"
+    },
+    {
+     "source": "uk",
+     "source_label": "İngiltere (HMRC)",
+     "color": "#012169",
+     "flag": "🇬🇧",
+     "origin": "İngiltere",
+     "hs": "9705100074",
+     "hs4": "9705",
+     "ref": "600015804",
+     "date": "2026-06-26",
+     "title": "Venini \"Cardin lights\" – 1970 dolayı üretim, tarihi/koleksiyon değeri olan beş parçalık aydınlatma seti (renkli cam, aynalı cam, boyalı alüminyum; her biri 60 cm çap)",
+     "gerekce": "Eşya, 20. yüzyıl İtalyan cam sanatının uluslararası tanınmış üreticisi Venini'ye ait yaklaşık 1970 tarihli parçalar olarak tarihi ilgiye sahip koleksiyon parçası niteliğinde görülmüş ve GYK 1 ile Fasıl 97 Genel Not (C) v…",
+     "url": "https://www.tax.service.gov.uk/search-for-advance-tariff-rulings/ruling/600015804"
     },
     {
      "source": "tr",
@@ -7474,6 +8311,20 @@ window.BTI_DATA = {
      "title": "Çevre koruyucularına monte edilen kilitler, kilit sistemleri ve güvenlik anahtarlarının kurulumu için özel olarak tasarlanmış çelik braketi. Bileşen, modüler çevre koruyucularına ve bunlara ait erişim kapılarına monte edilen kilitlerin, kilit sistemlerinin ve güvenlik anahtarları…",
      "gerekce": "Birleşik Nomenclature'ün yorumlanmasına ilişkin 1 ve 6 No'lu genel kurallar. BN kodlarının metni: 7308, 7308 90 ve 7308 90 98.",
      "url": "https://ec.europa.eu/taxation_customs/dds2/ebti/ebti_details.jsp?showHeader=false&Lang=en&reference=ITBTI2025-0018"
+    },
+    {
+     "source": "uk",
+     "source_label": "İngiltere (HMRC)",
+     "color": "#012169",
+     "flag": "🇬🇧",
+     "origin": "İngiltere",
+     "hs": "5806321000",
+     "hs4": "5806",
+     "ref": "600015557",
+     "date": "2026-06-26",
+     "title": "Çocuklar için el işi/hobi seti: gerçek kenarlı (hakiki kıvrık kenar) dar dokunmuş poliester kurdele (toplam 20 m, çeşitli renklerde) ve PET'ten mamul pul/payet şeritler (toplam 6 m), plastik poşet ambalajda perakende set.",
+     "gerekce": "Set, GYK 3(b) uyarınca esas niteliğini dar dokunmuş kurdeleden aldığından GYK 1 ile 5806 pozisyonunda (5807 dışındaki dar dokunmuş mensucat) sınıflandırılmıştır. GYK 6 ile sentetik-suni liflerden diğer dokunmuş mensucatı…",
+     "url": "https://www.tax.service.gov.uk/search-for-advance-tariff-rulings/ruling/600015557"
     },
     {
      "source": "tr",
@@ -8908,10 +9759,11 @@ window.BTI_DATA = {
   {
    "date": "2026-06-25",
    "date_tr": "25 Haziran 2026",
-   "count": 57,
+   "count": 65,
    "sources": [
     "eu",
-    "tr"
+    "tr",
+    "uk"
    ],
    "decisions": [
     {
@@ -8927,6 +9779,20 @@ window.BTI_DATA = {
      "title": "Beyan edilen bilgilere göre aşağıdaki özellikleri ve içerikleri barındıran bir besin takviyesi:- İnsan tüketimine yöneliktir;- Aşağıdaki bileşenleri içermektedir:- - Kalsiyum bütirat;- - D3 vitamini;- - Biyotin;- Kapsül formundadır.Ürün, metal kapaklı cam kavanozda, 60 kapsül içe…",
      "gerekce": "Kombine Nomenclatür'ün yorumlanmasına ilişkin 1., 5b. ve 6. genel kurallar.21. fasla ilişkin ek (KN) not 5.21.06 pozisyonuna ilişkin Uyumlaştırılmış Sistem izahnamesi.2106, 2106 90 ve 2106 90 92 KN kodlarının metni.17 Ma…",
      "url": "https://ec.europa.eu/taxation_customs/dds2/ebti/ebti_details.jsp?showHeader=false&Lang=en&reference=NLBTI2026-0077-2"
+    },
+    {
+     "source": "uk",
+     "source_label": "İngiltere (HMRC)",
+     "color": "#012169",
+     "flag": "🇬🇧",
+     "origin": "İngiltere",
+     "hs": "4016930090",
+     "hs4": "4016",
+     "ref": "600015943",
+     "date": "2026-06-25",
+     "title": "Hava aracı pilonu ile bitişik yapı arasına monte edilen, montaj delikleri açılmış, nihai formda vulkanize kauçuk pilon contası (sızdırmazlık elemanı)",
+     "gerekce": "Eşya, sertleştirilmemiş vulkanize kauçuktan mamul nihai bir sızdırmazlık parçası olduğundan GIR 1 ve Fasıl 40 Not 1 uyarınca 4016 pozisyonunda değerlendirilmiştir. GIR 6 ile \"contalar, rondelalar ve diğer sızdırmazlık el…",
+     "url": "https://www.tax.service.gov.uk/search-for-advance-tariff-rulings/ruling/600015943"
     },
     {
      "source": "tr",
@@ -8957,6 +9823,20 @@ window.BTI_DATA = {
      "url": "https://ec.europa.eu/taxation_customs/dds2/ebti/ebti_details.jsp?showHeader=false&Lang=en&reference=NLBTI2026-0089"
     },
     {
+     "source": "uk",
+     "source_label": "İngiltere (HMRC)",
+     "color": "#012169",
+     "flag": "🇬🇧",
+     "origin": "İngiltere",
+     "hs": "7013990010",
+     "hs4": "7013",
+     "ref": "600015873",
+     "date": "2026-06-25",
+     "title": "Borosilikat camdan el imali fanus (hurricane) ve mango ağacı tabanlı mumluk seti",
+     "gerekce": "Eşya, GIR 1 uyarınca 7013 pozisyonunun metni (\"sofra, mutfak, tuvalet, büro, ev tezyinatı ve benzeri işler için cam eşya\") kapsamında sınıflandırılmış; mango ağacı taban bulunsa da esas niteliği cam fanus vermektedir. GI…",
+     "url": "https://www.tax.service.gov.uk/search-for-advance-tariff-rulings/ruling/600015873"
+    },
+    {
      "source": "tr",
      "source_label": "Türkiye (BTB)",
      "color": "#E30A17",
@@ -8985,6 +9865,20 @@ window.BTI_DATA = {
      "url": "https://ec.europa.eu/taxation_customs/dds2/ebti/ebti_details.jsp?showHeader=false&Lang=en&reference=NLBTI2026-0090"
     },
     {
+     "source": "uk",
+     "source_label": "İngiltere (HMRC)",
+     "color": "#012169",
+     "flag": "🇬🇧",
+     "origin": "İngiltere",
+     "hs": "0712390039",
+     "hs4": "0712",
+     "ref": "600015769",
+     "date": "2026-06-25",
+     "title": "Aslan yelesi mantarı (Hericium erinaceus) tozu — buharla sterilize edilip öğütülmüş meyve gövdelerinden elde edilen, tüketime hazır mantar tozu (20 kg PE/alüminyum folyo torbalarda)",
+     "gerekce": "Ürün, kurutulmuş ve toz haline getirilmiş ancak başka işlem görmemiş mantar niteliğinde olduğundan GIR 1 uyarınca 0712 pozisyonunda (\"kurutulmuş sebzeler, bütün, kesilmiş, dilimlenmiş, kırılmış veya toz halinde, fakat ba…",
+     "url": "https://www.tax.service.gov.uk/search-for-advance-tariff-rulings/ruling/600015769"
+    },
+    {
      "source": "eu",
      "source_label": "Avrupa Birliği (EBTI)",
      "color": "#2E6BE6",
@@ -8997,6 +9891,20 @@ window.BTI_DATA = {
      "title": "Yavaş pişirilmiş BBQ kutusu.Perakende satışa hazır olarak ambalajlanmış bir barbekü yemeği kutusu.Kutu; pulled pork (çekme domuz eti), mini kaburgalar, sosisler, Teksas BBQ sosu ve kömürde közlenmiş mısır kaburgalarından oluşmaktadır.Her et ürünü, vakumla kapatılmış torba içinde …",
      "gerekce": "Genel Yorum Kuralları 1, 3b ve 6.16. faslına ve 1602 pozisyonuna ilişkin HS izahnamesi.1602, 1602 42 ve 1602 42 10 kodlarının metni.Setlere ilişkin kılavuz 2013/C 105/01.",
      "url": "https://ec.europa.eu/taxation_customs/dds2/ebti/ebti_details.jsp?showHeader=false&Lang=en&reference=IEBTIIENEN004-2026-BTI131"
+    },
+    {
+     "source": "uk",
+     "source_label": "İngiltere (HMRC)",
+     "color": "#012169",
+     "flag": "🇬🇧",
+     "origin": "İngiltere",
+     "hs": "9705100045",
+     "hs4": "9705",
+     "ref": "600015759",
+     "date": "2026-06-25",
+     "title": "Ettore Sottsass Jr. tasarımı, 1959 dolayları \"Canada\" model bir çift sandalye (tarihi/koleksiyon değeri taşıyan tasarım mobilyası)",
+     "gerekce": "Eşya, 20. yüzyıl tasarım tarihinin önemli isimlerinden Ettore Sottsass'a ait olması ve büyük müze koleksiyonlarında yer alan üretimlerden olması nedeniyle GYK 1 uyarınca 9705 pozisyonunda \"tarihi değeri olan koleksiyon p…",
+     "url": "https://www.tax.service.gov.uk/search-for-advance-tariff-rulings/ruling/600015759"
     },
     {
      "source": "eu",
@@ -9013,6 +9921,20 @@ window.BTI_DATA = {
      "url": "https://ec.europa.eu/taxation_customs/dds2/ebti/ebti_details.jsp?showHeader=false&Lang=en&reference=FRBTIFR-BTI-2025-08547"
     },
     {
+     "source": "uk",
+     "source_label": "İngiltere (HMRC)",
+     "color": "#012169",
+     "flag": "🇬🇧",
+     "origin": "İngiltere",
+     "hs": "1106309080",
+     "hs4": "1106",
+     "ref": "600015656",
+     "date": "2026-06-25",
+     "title": "%100 dondurulmuş acerola püresinden elde edilmiş, dondurularak kurutulmuş (freeze-dried) acerola tozu; orta-koyu turuncu renkli ince toz, doğrudan tüketime veya tariflerde bileşen olarak kullanıma uygun, 10 kg'lık gıda sınıfı folyo torbada",
+     "gerekce": "Ürün, Fasıl 8 kapsamındaki bir meyveden (acerola) elde edilen toz olduğundan GİK 1 uyarınca 1106 pozisyonunda (\"Fasıl 8 ürünlerinin un, ezme ve tozları\") sınıflandırılmıştır. GİK 6 ile 110630 alt pozisyonu (\"Fasıl 8 ürün…",
+     "url": "https://www.tax.service.gov.uk/search-for-advance-tariff-rulings/ruling/600015656"
+    },
+    {
      "source": "eu",
      "source_label": "Avrupa Birliği (EBTI)",
      "color": "#2E6BE6",
@@ -9025,6 +9947,20 @@ window.BTI_DATA = {
      "title": "Beyan edilen bilgilere göre aşağıdaki özellikleri ve içerikleri barındıran bir besin takviyesi:- İnsan tüketimine yöneliktir;- Aşağıdaki bileşenleri içermektedir:- - Brokoli tohumu özü;- - Yaban turpu tozu;- - Siyah hardal tohumu özü;- - Sinigrin;- - Fosfolipid kompleksi;- - Kurk…",
      "gerekce": "Kombine Nomenclatür'ün yorumlanmasına ilişkin 1., 5b. ve 6. genel kurallar.21. fasla ilişkin ek (KN) not 5.21.06 pozisyonuna ilişkin Uyumlaştırılmış Sistem izahnamesi.2106, 2106 90 ve 2106 90 92 KN kodlarının metni.18 Ma…",
      "url": "https://ec.europa.eu/taxation_customs/dds2/ebti/ebti_details.jsp?showHeader=false&Lang=en&reference=NLBTI2026-0076-1"
+    },
+    {
+     "source": "uk",
+     "source_label": "İngiltere (HMRC)",
+     "color": "#012169",
+     "flag": "🇬🇧",
+     "origin": "İngiltere",
+     "hs": "1702909500",
+     "hs4": "1702",
+     "ref": "600015652",
+     "date": "2026-06-25",
+     "title": "%100 organik hindistan cevizi çiçeği nektarından buharlaştırma yoluyla üretilen kahverengi ince granül hindistan cevizi şekeri (25 kg polietilen torbada)",
+     "gerekce": "Ürün, hindistan cevizi palmiyesi çiçeğinden toplanan nektarın buharlaştırılmasıyla elde edilen katı halde bir şeker olup, GIR 1 uyarınca 1702 pozisyonundaki \"diğer şekerler\" kapsamında değerlendirilmiştir. GIR 6 ile 1702…",
+     "url": "https://www.tax.service.gov.uk/search-for-advance-tariff-rulings/ruling/600015652"
     },
     {
      "source": "eu",
@@ -9041,6 +9977,20 @@ window.BTI_DATA = {
      "url": "https://ec.europa.eu/taxation_customs/dds2/ebti/ebti_details.jsp?showHeader=false&Lang=en&reference=NLBTI2026-0077-1"
     },
     {
+     "source": "uk",
+     "source_label": "İngiltere (HMRC)",
+     "color": "#012169",
+     "flag": "🇬🇧",
+     "origin": "İngiltere",
+     "hs": "0813409510",
+     "hs4": "0813",
+     "ref": "600015651",
+     "date": "2026-06-25",
+     "title": "%100 goji berry (kurt üzümü), dondurularak kurutulmuş (freeze-dried), doğrudan tüketime veya gıda bileşeni olarak kullanıma uygun, 30 g plastik torbada perakende ambalajlı.",
+     "gerekce": "Ürün, GIR 1 uyarınca 0813 pozisyonunun \"kurutulmuş meyveler (0801-0806 hariç)\" tanımı kapsamında değerlendirilmiş; freeze-dried işlem kurutma sayıldığından bu pozisyonda kalmıştır. GIR 6 ile 081340 \"diğer meyveler\" alt p…",
+     "url": "https://www.tax.service.gov.uk/search-for-advance-tariff-rulings/ruling/600015651"
+    },
+    {
      "source": "eu",
      "source_label": "Avrupa Birliği (EBTI)",
      "color": "#2E6BE6",
@@ -9053,6 +10003,20 @@ window.BTI_DATA = {
      "title": "Halat üretiminde kullanılan, çapı 3 mm'yi aşmayan kıvrımlar/bükmeler. Kıvrımlar sağ bükümlü veya sol bükümlü versiyonlarda bulunabilir. Kıvrımlar, galvanizli çelik tellerden (paslanmaz çelik dışındaki çelikten) imal edilmekte olup sayıları, üretilecek halatın yapısına bağlıdır. O…",
      "gerekce": "Ürünün sınıflandırması, Birleşik Tarife Nomenklatürünün (BTN) 1. ve 6. Genel Yorum Kuralları ile Ortak Gümrük Tarifesi'nin (OGT) 72. Bölümüne ait 1(d) nolu not esas alınarak belirlenmiş olup, azami kesit boyutu 3 mm'yi a…",
      "url": "https://ec.europa.eu/taxation_customs/dds2/ebti/ebti_details.jsp?showHeader=false&Lang=en&reference=PLBTIWIT-2026-000644"
+    },
+    {
+     "source": "uk",
+     "source_label": "İngiltere (HMRC)",
+     "color": "#012169",
+     "flag": "🇬🇧",
+     "origin": "İngiltere",
+     "hs": "1106309080",
+     "hs4": "1106",
+     "ref": "600015650",
+     "date": "2026-06-25",
+     "title": "%100 organik acai (Euterpe Precatoria) pulpundan elde edilmiş, kabuk ve çekirdek içermeyen, dondurularak kurutulmuş (freeze-dried) koyu mor acai meyve tozu; 5 kg/10 kg hava geçirmez folyo torbalarda dökme halde sunulmaktadır.",
+     "gerekce": "Eşya, Fasıl 8 kapsamındaki meyvelerden (acai) elde edilmiş un/ezme/toz niteliğinde olduğundan GİK 1 uyarınca 1106 pozisyonunda sınıflandırılmıştır. GİK 6 uyarınca \"Fasıl 8 ürünlerinden olanlar\" alt pozisyonu 1106 30, muz…",
+     "url": "https://www.tax.service.gov.uk/search-for-advance-tariff-rulings/ruling/600015650"
     },
     {
      "source": "eu",
@@ -9717,9 +10681,10 @@ window.BTI_DATA = {
   {
    "date": "2026-06-24",
    "date_tr": "24 Haziran 2026",
-   "count": 94,
+   "count": 101,
    "sources": [
-    "eu"
+    "eu",
+    "uk"
    ],
    "decisions": [
     {
@@ -9737,6 +10702,20 @@ window.BTI_DATA = {
      "url": "https://ec.europa.eu/taxation_customs/dds2/ebti/ebti_details.jsp?showHeader=false&Lang=en&reference=FRBTIFR-BTI-2025-08347-07"
     },
     {
+     "source": "uk",
+     "source_label": "İngiltere (HMRC)",
+     "color": "#012169",
+     "flag": "🇬🇧",
+     "origin": "İngiltere",
+     "hs": "9705100045",
+     "hs4": "9705",
+     "ref": "600015913",
+     "date": "2026-06-24",
+     "title": "1994 model Toyota Land Cruiser itfaiye aracı (4.2 lt atmosferik dizel, 5 ileri manuel, sağdan direksiyonlu, 7 koltuklu, orijinal durumda, müze parçası olarak kullanılacak tarihi araç)",
+     "gerekce": "Araç, orijinal halinde korunmuş ve Japonya'da itfaiye aracı olarak imal edilip kullanılmış tarihi bir taşıt olup müze parçası olarak sergilenecektir; bu nedenle GİK 1 ve 6 ile Fasıl 97 Ek Not 1 ve 9705 AS İzahnamesi Not …",
+     "url": "https://www.tax.service.gov.uk/search-for-advance-tariff-rulings/ruling/600015913"
+    },
+    {
      "source": "eu",
      "source_label": "Avrupa Birliği (EBTI)",
      "color": "#2E6BE6",
@@ -9749,6 +10728,20 @@ window.BTI_DATA = {
      "title": "40 parçalık öğrenci kiti, şunlardan oluşmaktadır: - kapaklı klipsli şeffaf polipropilen plastikten yapılmış 33 litrelik saklama kutusu; - 26,5 cm çapında 4'lü porselen düz tabak seti; - plastik saklama bölmeli, 16 parça renkli paslanmaz çelik sofra takımı (4 bıçak, 4 çatal, 4 yem…",
      "gerekce": "Genel Kural 1 ve 6: Sınıflandırma, fasıl ve bölüm notları ile pozisyon, alt pozisyon ve KN kodunun ifadesine göre belirlenir. Genel Kural 5 b): Ambalaj, malın sınıflandırmasını takip eder. 69. Fasıl'ın 1 numaralı Notu: B…",
      "url": "https://ec.europa.eu/taxation_customs/dds2/ebti/ebti_details.jsp?showHeader=false&Lang=en&reference=FRBTIFR-BTI-2025-08347-08"
+    },
+    {
+     "source": "uk",
+     "source_label": "İngiltere (HMRC)",
+     "color": "#012169",
+     "flag": "🇬🇧",
+     "origin": "İngiltere",
+     "hs": "4421910000",
+     "hs4": "4421",
+     "ref": "600015846",
+     "date": "2026-06-24",
+     "title": "Bambu çubuklu, ahşap/kağıt mini kokteyl şemsiyesi (20'li paket, içecek süsü)",
+     "gerekce": "Eşyaya esas karakterini veren unsur bambu kokteyl çubuğu olduğundan GYK 1 ve 3(b) uyarınca 4421 pozisyonunda (ahşaptan diğer eşya) sınıflandırılmıştır. GYK 5(b) ile torba ambalaj eşya ile birlikte değerlendirilmiş, GYK 6…",
+     "url": "https://www.tax.service.gov.uk/search-for-advance-tariff-rulings/ruling/600015846"
     },
     {
      "source": "eu",
@@ -9765,6 +10758,20 @@ window.BTI_DATA = {
      "url": "https://ec.europa.eu/taxation_customs/dds2/ebti/ebti_details.jsp?showHeader=false&Lang=en&reference=FRBTIFR-BTI-2026-01140"
     },
     {
+     "source": "uk",
+     "source_label": "İngiltere (HMRC)",
+     "color": "#012169",
+     "flag": "🇬🇧",
+     "origin": "İngiltere",
+     "hs": "4421910000",
+     "hs4": "4421",
+     "ref": "600015845",
+     "date": "2026-06-24",
+     "title": "Bambu çubuklu, çeşitli renklerde 50'li kutu kokteyl şemsiyesi (parti/içecek süsü)",
+     "gerekce": "Eşyanın mütalaasında GIR 1 ile 4421 pozisyonu (ahşaptan diğer eşya) esas alınmış, GIR 3(b) uyarınca eşyaya esas niteliğini veren unsurun bambu kokteyl çubuğu olduğu değerlendirilmiştir. GIR 5(b) ile kutulu ambalaj eşya i…",
+     "url": "https://www.tax.service.gov.uk/search-for-advance-tariff-rulings/ruling/600015845"
+    },
+    {
      "source": "eu",
      "source_label": "Avrupa Birliği (EBTI)",
      "color": "#2E6BE6",
@@ -9777,6 +10784,20 @@ window.BTI_DATA = {
      "title": "Çapı 1 mm'nin altında olan, termoşekillendirme yöntemiyle bir arada tutulan paralel sentetik (polipropilen – PP) filamentlerden oluşan, atkısız şerit. Şeridin dış yüzeyi şeffaf ve parlak bir plastik (polietilen tereftalat) filmle kaplıdır. Bu şerit, plastik makara üzerine sarılı …",
      "gerekce": "Genel Kural 1 ve 6: Sınıflandırma, fasıl ve bölüm notları ile pozisyon, alt pozisyon ve KN kodunun ifadesine göre belirlenir. Genel Kural 5 b): Şeridi saran makaranın sınıflandırması, şeridin sınıflandırmasını takip eder…",
      "url": "https://ec.europa.eu/taxation_customs/dds2/ebti/ebti_details.jsp?showHeader=false&Lang=en&reference=FRBTIFR-BTI-2025-07148"
+    },
+    {
+     "source": "uk",
+     "source_label": "İngiltere (HMRC)",
+     "color": "#012169",
+     "flag": "🇬🇧",
+     "origin": "İngiltere",
+     "hs": "6404191000",
+     "hs4": "6404",
+     "ref": "600015842",
+     "date": "2026-06-24",
+     "title": "Bayan terlik (mule tipi, arkası açık, burnu açık); üst yüzü polyester suni kürk/tekstil, dış tabanı genleştirilmiş hücresel EVA köpük.",
+     "gerekce": "Eşya, dış tabanı kauçuk/plastikten (hücresel EVA) ve yüzü dokumaya elverişli maddeden ayakkabıyı kapsayan 6404 pozisyonunda GYK 1 uyarınca sınıflandırılmıştır. GYK 6 ile spor ayakkabısı olmayan \"diğerleri\" kapsamındaki 6…",
+     "url": "https://www.tax.service.gov.uk/search-for-advance-tariff-rulings/ruling/600015842"
     },
     {
      "source": "eu",
@@ -9793,6 +10814,20 @@ window.BTI_DATA = {
      "url": "https://ec.europa.eu/taxation_customs/dds2/ebti/ebti_details.jsp?showHeader=false&Lang=en&reference=FRBTIFR-BTI-2025-08703"
     },
     {
+     "source": "uk",
+     "source_label": "İngiltere (HMRC)",
+     "color": "#012169",
+     "flag": "🇬🇧",
+     "origin": "İngiltere",
+     "hs": "7314490000",
+     "hs4": "7314",
+     "ref": "600015813",
+     "date": "2026-06-24",
+     "title": "Çelik telden dokunmuş, kaplamasız elek/filtre gözenekli mensucat (eriyik plastik filtrasyonunda kullanılan mesh filtre elekleri)",
+     "gerekce": "Eşya, demir veya çelik telden mensucat (dokunmuş elek) niteliğinde olup GYK 1 uyarınca 7314 pozisyonunda, XV. Bölüm Not 3 ve 7314 AS İzahnamesi (a) 4. paragraf dikkate alınarak sınıflandırılmıştır. Çinko veya plastik kap…",
+     "url": "https://www.tax.service.gov.uk/search-for-advance-tariff-rulings/ruling/600015813"
+    },
+    {
      "source": "eu",
      "source_label": "Avrupa Birliği (EBTI)",
      "color": "#2E6BE6",
@@ -9807,6 +10842,20 @@ window.BTI_DATA = {
      "url": "https://ec.europa.eu/taxation_customs/dds2/ebti/ebti_details.jsp?showHeader=false&Lang=en&reference=FRBTIFR-BTI-2025-08347-01"
     },
     {
+     "source": "uk",
+     "source_label": "İngiltere (HMRC)",
+     "color": "#012169",
+     "flag": "🇬🇧",
+     "origin": "İngiltere",
+     "hs": "8525810000",
+     "hs4": "8525",
+     "ref": "600015736",
+     "date": "2026-06-24",
+     "title": "Yüksek hızlı dijital kamera (saniyede 303.460 kareye kadar çekim yapabilen, 4 MP, 12-bit CMOS sensörlü, 2048×1952 piksel çözünürlüklü, görüntüleri uçucu belleğe kaydeden yüksek hız kamerası)",
+     "gerekce": "Eşya, GIR 1 uyarınca 8525 pozisyonu (televizyon kameraları, dijital kameralar ve video kamera kaydediciler) kapsamında değerlendirilmiştir. Saniyede 0,5 milisaniyeyi aşan hızda kare yakalama kapasitesi nedeniyle, Fasıl 8…",
+     "url": "https://www.tax.service.gov.uk/search-for-advance-tariff-rulings/ruling/600015736"
+    },
+    {
      "source": "eu",
      "source_label": "Avrupa Birliği (EBTI)",
      "color": "#2E6BE6",
@@ -9819,6 +10868,20 @@ window.BTI_DATA = {
      "title": "40 parçalık öğrenci kiti. 40 parçanın arasında yer alan, kapaklı klipsli şeffaf polipropilen 33 litrelik saklama kutusunun içinde şunlar bulunmaktadır: - 26,5 cm çapında 4'lü porselen düz tabak seti; - plastik saklama bölmeli, 16 parça renkli paslanmaz çelik sofra takımı (4 bıçak…",
      "gerekce": "Genel Kural 1 ve 6: Sınıflandırma, fasıl ve bölüm notları ile pozisyon, alt pozisyon ve KN kodunun ifadesine göre belirlenir. Genel Kural 3 b): Karışık, bileşik veya çeşit ürünler, söz konusu durumda paslanmaz çelik bıça…",
      "url": "https://ec.europa.eu/taxation_customs/dds2/ebti/ebti_details.jsp?showHeader=false&Lang=en&reference=FRBTIFR-BTI-2025-08347-02"
+    },
+    {
+     "source": "uk",
+     "source_label": "İngiltere (HMRC)",
+     "color": "#012169",
+     "flag": "🇬🇧",
+     "origin": "İngiltere",
+     "hs": "8525810000",
+     "hs4": "8525",
+     "ref": "600015735",
+     "date": "2026-06-24",
+     "title": "Laboratuvar ve endüstriyel kullanım amaçlı, en düşük çözünürlükte saniyede 287.000 kareye kadar ardışık sabit görüntü yakalayabilen yüksek hızlı dijital kamera (video kaydı yapmaz)",
+     "gerekce": "Eşya, GYK 1 uyarınca 8525 pozisyonunun \"televizyon kameraları, dijital kameralar ve video kamera kaydediciler\" ifadesi kapsamında sınıflandırılmıştır. GYK 6 ve Fasıl 85'in 1 no.lu alt pozisyon notu gereğince, saniyede 0,…",
+     "url": "https://www.tax.service.gov.uk/search-for-advance-tariff-rulings/ruling/600015735"
     },
     {
      "source": "eu",

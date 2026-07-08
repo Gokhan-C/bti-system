@@ -3,10 +3,10 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>GTİP Bulutları — 4 ülkenin günlük bağlayıcı tarife kararları</title>
-<meta name="description" content="AB (EBTI), ABD (CBP CROSS), Kanada (CBSA) ve Türkiye (BTB) gümrük idarelerinin bağlayıcı tarife sınıflandırma kararları her gün tek ekranda. GTİP koduna göre ara, kaynağa tek tıkla ulaş.">
+<title>GTİP Bulutları — 5 ülkenin günlük bağlayıcı tarife kararları</title>
+<meta name="description" content="AB (EBTI), ABD (CBP CROSS), Kanada (CBSA), İngiltere (HMRC ATaR) ve Türkiye (BTB) gümrük idarelerinin bağlayıcı tarife sınıflandırma kararları her gün tek ekranda. GTİP koduna göre ara, kaynağa tek tıkla ulaş.">
 <meta property="og:title" content="GTİP Bulutları — gümrük sınıflandırma kararları gözlemevi">
-<meta property="og:description" content="AB, ABD, Kanada ve Türkiye'nin günlük bağlayıcı tarife kararları tek gökyüzünde. Arşivde GTİP koduna göre arama yap.">
+<meta property="og:description" content="AB, ABD, Kanada, İngiltere ve Türkiye'nin günlük bağlayıcı tarife kararları tek gökyüzünde. Arşivde GTİP koduna göre arama yap.">
 <meta property="og:type" content="website">
 <link rel="alternate" type="application/rss+xml" title="GTİP Bulutları — günlük tarife kararları" href="feed.xml">
 <link rel="alternate" type="application/rss+xml" title="Fasıl 28 — Anorganik kimyasallar" href="feed-fasil-28.xml">
@@ -165,7 +165,7 @@
 
   <span class="badge"><i></i><span id="badgeTxt">her gün otomatik güncellenir</span></span>
   <h1 class="disp">Dünyanın tarife kararları,<br>her gün gökyüzünde.</h1>
-  <p class="sub">Avrupa Birliği, Amerika, Kanada ve Türkiye gümrük idarelerinin yayımladığı bağlayıcı tarife sınıflandırma kararlarını tek ekranda topluyoruz. Bir buluta dokun, kararın detayını gör, orijinal kaynağına uç.</p>
+  <p class="sub">Avrupa Birliği, Amerika, Kanada, İngiltere ve Türkiye gümrük idarelerinin yayımladığı bağlayıcı tarife sınıflandırma kararlarını tek ekranda topluyoruz. Bir buluta dokun, kararın detayını gör, orijinal kaynağına uç.</p>
 
   <div class="stats" id="statCards"></div>
 
@@ -182,7 +182,7 @@
   <div class="eyebrow">Bu site ne yapıyor</div>
   <h2 class="disp">Dört idarenin tarife kararları, tek bir gökyüzünde</h2>
   <div class="grid4">
-    <div class="icard"><div class="n">01</div><h3>4 idare, tek ekran</h3><p>AB (EBTI), ABD (CBP CROSS), Kanada (CBSA) ve Türkiye (BTB) kararları her gün otomatik toplanır.</p></div>
+    <div class="icard"><div class="n">01</div><h3>5 idare, tek ekran</h3><p>AB (EBTI), ABD (CBP CROSS), Kanada (CBSA), İngiltere (HMRC ATaR) ve Türkiye (BTB) kararları her gün otomatik toplanır.</p></div>
     <div class="icard"><div class="n">02</div><h3>Arşivde ara</h3><p>GTİP kodu, referans numarası veya ürün adıyla tüm arşivde arama yap; fasıl ve ülke filtrele.</p></div>
     <div class="icard"><div class="n">03</div><h3>Detay ve kaynak</h3><p>Bir karara dokun: ürün tanımı ve sınıflandırma gerekçesini gör, resmi kaynağa tek tıkla git.</p></div>
     <div class="icard"><div class="n">04</div><h3>Bulut veya liste</h3><p>Günü gökyüzünde keşfet ya da liste görünümüne geçip kararları fasıl fasıl tara.</p></div>
@@ -260,6 +260,7 @@
     eu:{name:'Avrupa Birliği', short:'AB',  flag:'🇪🇺', sys:'EBTI',      color:'#2f6bdf', tint:'#ffffff'},
     us:{name:'Amerika',        short:'ABD', flag:'🇺🇸', sys:'CBP CROSS', color:'#d07d2a', tint:'#fffaf2'},
     ca:{name:'Kanada',         short:'CAN', flag:'🇨🇦', sys:'CBSA',      color:'#169b8b', tint:'#f3fbfa'},
+    uk:{name:'İngiltere',      short:'İNG', flag:'🇬🇧', sys:'HMRC ATaR', color:'#3d5aa9', tint:'#f4f6fc'},
     tr:{name:'Türkiye',        short:'TR',  flag:'🇹🇷', sys:'BTB',       color:'#e30a17', tint:'#fff4f4'}
   };
   var FASIL = {
@@ -284,7 +285,7 @@
     '92':'Müzik aletleri','93':'Silahlar ve mühimmat','94':'Mobilyalar ve aydınlatma cihazları','95':'Oyuncaklar ve spor malzemeleri','96':'Çeşitli mamul eşya','97':'Sanat eserleri ve antikalar'
   };
 
-  var S = { day:0, view:'sky', q:'', fasil:'', src:{eu:true,us:true,ca:true,tr:true},
+  var S = { day:0, view:'sky', q:'', fasil:'', src:{eu:true,us:true,ca:true,uk:true,tr:true},
             data:null, cache:new Map(), archiveLoaded:false, archiveLoading:false, fallback:false };
   var canHover = !!(window.matchMedia && window.matchMedia('(hover: hover)').matches);
 
@@ -644,7 +645,7 @@
     var chapters = data.chapters || extrasFrom(data.days).chapters;
 
     // hero istatistik kartları
-    $('statCards').innerHTML = ['eu','us','ca','tr'].map(function(k){
+    $('statCards').innerHTML = ['eu','us','ca','uk','tr'].map(function(k){
       var s = SRC[k];
       return '<div class="stat"><div class="nm"><i style="background:'+s.color+'"></i>'+(s.flag?s.flag+' ':'')+s.name+'</div>'+
         '<div class="v" style="color:'+s.color+'">'+(sc[k]||0)+'</div>'+
@@ -655,7 +656,7 @@
 
     // kaynak çipleri
     var chips = $('chips');
-    ['eu','us','ca','tr'].forEach(function(k){
+    ['eu','us','ca','uk','tr'].forEach(function(k){
       var s = SRC[k];
       var b = document.createElement('button');
       b.className = 'chip'; b.style.setProperty('--c', s.color);
