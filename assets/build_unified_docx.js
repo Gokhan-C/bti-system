@@ -30,6 +30,7 @@ const BLUE_MID   = '2E75B6';
 const BLUE_LIGHT = 'EBF3FB';
 const RED_US     = '7B241C';
 const RED_CA     = '922B21';
+const NAVY_UK    = '012169';
 const RED_BOLD   = 'C0392B';
 const LINK_COLOR = '1155CC';
 const WHITE      = 'FFFFFF';
@@ -580,6 +581,38 @@ function makeCaCbsaSection(cbsaData) {
   return content;
 }
 
+// ── İngiltere HMRC bölümü ────────────────────────────────────────────────────
+
+function makeUkHmrcSection(ukData) {
+  const content = [];
+
+  content.push(spacer());
+  content.push(makeSectionBanner('BİRLEŞİK KRALLIK HMRC', NAVY_UK));
+  content.push(spacer());
+  content.push(...makeDocTitle('İngiltere HMRC Tarife Sınıflandırma Kararları (ATaR)', `HMRC  |  ${ukData.date_str}`));
+
+  const records = ukData.records || [];
+  if (records.length === 0) {
+    content.push(makeNoResultsNotice());
+  } else {
+    records.forEach(rec => {
+      content.push(makeRulingLink(rec.source_url));
+      content.push(makeRulingHeading(`İngiltere HMRC Kararı: ${rec.ruling_id}  |  ${rec.date_fmt}`, '1F4E79'));
+      content.push(makeInfoTable([
+        ['Karar Numarası',    rec.ruling_id],
+        ['Karar Tarihi',      rec.date_fmt],
+        ['Geçerlilik Bitişi', rec.expiry || '-'],
+        ['GTİP Kodu',         rec.hts],
+        ['Anahtar Kelimeler', rec.keywords || '-'],
+      ]));
+      content.push(spacer());
+      content.push(...makeSummarySection(rec.summary || {}));
+    });
+  }
+
+  return content;
+}
+
 // ── Ana fonksiyon ────────────────────────────────────────────────────────────
 
 async function main() {
@@ -597,6 +630,7 @@ async function main() {
   if (data.eu_ebti)  content.push(...makeEuSection(data.eu_ebti));
   if (data.us_cbp)   content.push(...makeUsCbpSection(data.us_cbp));
   if (data.ca_cbsa)  content.push(...makeCaCbsaSection(data.ca_cbsa));
+  if (data.uk_hmrc)  content.push(...makeUkHmrcSection(data.uk_hmrc));
 
   const doc = new Document({
     styles: { default: { document: { run: { font: 'Arial', size: 20 } } } },

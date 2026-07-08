@@ -20,6 +20,7 @@ COUNTRY_COLORS = {
     "eu_ebti":  {"color": "003399", "label_color": "2E75B6"},
     "us_cbp":   {"color": "B22234", "label_color": "C0392B"},
     "ca_cbsa":  {"color": "FF0000", "label_color": "C0392B"},
+    "uk_hmrc":  {"color": "012169", "label_color": "C8102E"},
 }
 
 
@@ -148,6 +149,10 @@ def _build_unified_report(
         cbsa = dict(data_map["ca_cbsa"])
         cbsa.setdefault("date_str", date_str)
         unified_data["ca_cbsa"] = cbsa
+    if "uk_hmrc" in data_map and data_map["uk_hmrc"]:
+        hmrc = dict(data_map["uk_hmrc"])
+        hmrc.setdefault("date_str", date_str)
+        unified_data["uk_hmrc"] = hmrc
 
     # ── Geçici JSON dosyasına yaz, Node.js'i çalıştır ───────────────────────
     tmp_json = output_base / f"_unified_tmp_{date_str}.json"

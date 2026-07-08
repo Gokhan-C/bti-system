@@ -27,6 +27,7 @@ SOURCES = {
     "EU_EBTI": {"slug": "eu", "label": "Avrupa Birliği (EBTI)", "flag": "🇪🇺", "color": "#2E6BE6"},
     "US_CBP":  {"slug": "us", "label": "Amerika (CBP)",         "flag": "🇺🇸", "color": "#C0392B"},
     "CA_CBSA": {"slug": "ca", "label": "Kanada (CBSA)",          "flag": "🇨🇦", "color": "#D34040"},
+    "UK_HMRC": {"slug": "uk", "label": "İngiltere (HMRC)",       "flag": "🇬🇧", "color": "#012169"},
     "TR_BTB":  {"slug": "tr", "label": "Türkiye (BTB)",         "flag": "🇹🇷", "color": "#E30A17"},
 }
 
@@ -50,7 +51,7 @@ TR_MONTHS = ["Ocak", "Şubat", "Mart", "Nisan", "Mayıs", "Haziran",
 PAGES_BASE = "https://gokhan-c.github.io/bti-system/"
 
 # RSS başlıklarında kaynak kısaltmaları
-SRC_SHORT = {"eu": "AB", "us": "ABD", "ca": "CAN", "tr": "TR"}
+SRC_SHORT = {"eu": "AB", "us": "ABD", "ca": "CAN", "uk": "İNG", "tr": "TR"}
 
 # Fasıl (GTİP ilk 2 hane) → Türkçe ad. index.html'deki FASIL ile aynı.
 FASIL_TR = {
@@ -233,6 +234,21 @@ def normalize(src_dir, meta, rec, data):
             "url": rec.get("source_url", ""),
         }
 
+    if slug == "uk":
+        hts = rec.get("hts", "")
+        summ = rec.get("summary") or {}
+        title = summ.get("esya_tanimi") or ""
+        return {
+            "source": "uk", "source_label": meta["label"], "color": meta["color"],
+            "flag": meta["flag"], "origin": "İngiltere",
+            "hs": hts, "hs4": hs4(hts),
+            "ref": rec.get("ruling_id", ""),
+            "date": iso_from_any(rec.get("date_fmt", "")),
+            "title": clip(title, 280),
+            "gerekce": clip(summ.get("teknik_gerekce", ""), 220),
+            "url": rec.get("source_url", ""),
+        }
+
     if slug == "tr":
         gtip = rec.get("gtip") or rec.get("hs", "")
         ref = rec.get("ref", "")
@@ -264,8 +280,8 @@ def interleave_sources(decs):
     buckets = defaultdict(list)
     for d in decs:
         buckets[d["source"]].append(d)
-    # Kaynak sırası sabit: eu, us, ca, tr (sonra varsa diğerleri)
-    order = [s for s in ("eu", "us", "ca", "tr") if s in buckets]
+    # Kaynak sırası sabit: eu, us, ca, uk, tr (sonra varsa diğerleri)
+    order = [s for s in ("eu", "us", "ca", "uk", "tr") if s in buckets]
     order += [s for s in buckets if s not in order]
     out = []
     i = 0
@@ -361,7 +377,7 @@ def write_tr_detail_pages():
 
 def compute_extras(days):
     """Tüm arşivden kaynak sayıları ve arşivde geçen fasıl (2 haneli) kodları."""
-    source_counts = {"eu": 0, "us": 0, "ca": 0, "tr": 0}
+    source_counts = {"eu": 0, "us": 0, "ca": 0, "uk": 0, "tr": 0}
     chapters = set()
     for day in days:
         for d in day.get("decisions", []):
@@ -528,7 +544,7 @@ def write_feeds(days, out_dir):
             ch = str(d.get("hs4", "") or "")[:2]
             if ch:
                 ch_ct[ch] += 1
-        parts = [f"{SRC_SHORT[s]} {src_ct[s]}" for s in ("eu", "us", "ca", "tr") if src_ct.get(s)]
+        parts = [f"{SRC_SHORT[s]} {src_ct[s]}" for s in ("eu", "us", "ca", "uk", "tr") if src_ct.get(s)]
         src_str = (" (" + " · ".join(parts) + ")") if parts else ""
         title = f"{day['date_tr']} — {day['count']} yeni tarife kararı{src_str}"
         # açıklama: en çok karar çıkan 5 fasıl

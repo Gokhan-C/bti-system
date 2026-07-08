@@ -38,6 +38,14 @@ connectors:
     api_url: "https://ccp-pcc.cbsa-asfc.cloud-nuage.canada.ca/carmwebservices/v2/carm/publicrulings/list"
     api_detail_url: "https://ccp-pcc.cbsa-asfc.cloud-nuage.canada.ca/carmwebservices/v2/carm/publicrulings/rulingsdetails/{id}"
 
+  uk_hmrc:
+    enabled: true
+    display_name: "İngiltere HMRC"
+    translator: "claude"
+    recent_days: 14      # start date bu kadar günden eskiyse rapora girmez
+    search_pages: 3      # boş aramanın ilk N sayfası taranır (sayfa başı 25 karar)
+    base_url: "https://www.tax.service.gov.uk/search-for-advance-tariff-rulings"
+
   tr_btb:
     enabled: true
     display_name: "Türkiye BTB"
