@@ -556,7 +556,7 @@
     var note = $('note');
     if(!g && S.day===0 && !data.latest_is_today){
       note.style.display = 'block';
-      note.innerHTML = 'Bugün <strong>'+esc(data.today_tr||'')+'</strong> için henüz yeni karar yayımlanmadı (idareler genelde hafta içi yayımlar). En son yayımlanan gün gösteriliyor: <strong>'+esc(day?day.date_tr:'')+'</strong>.';
+      note.innerHTML = '<strong>'+esc(data.today_tr||'')+'</strong> kararları yarın sabah <strong>06:00</strong> güncellemesinde eklenecek. Şu an en son yayımlanan gün gösteriliyor: <strong>'+esc(day?day.date_tr:'')+'</strong>.';
     } else note.style.display = 'none';
 
     $('vSky').classList.toggle('on', effView==='sky');
