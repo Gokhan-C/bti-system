@@ -6,7 +6,14 @@
 <atom:link href="https://gokhan-c.github.io/bti-system/feed-fasil-84.xml" rel="self" type="application/rss+xml"/>
 <description>Fasıl 84 (Makineler ve mekanik cihazlar) altındaki yeni tarife kararları.</description>
 <language>tr</language>
-<lastBuildDate>Sat, 11 Jul 2026 06:31:47 -0000</lastBuildDate>
+<lastBuildDate>Sun, 12 Jul 2026 05:21:57 -0000</lastBuildDate>
+<item>
+<title>84195080 — Yoğuşmalı gaz kazanları için tasarlanmış, paslanmaz çelikten ısı eşanjörü. Gazın yanması sırasında </title>
+<link>https://ec.europa.eu/taxation_customs/dds2/ebti/ebti_details.jsp?showHeader=false&amp;Lang=en&amp;reference=FRBTIFR-BTI-2026-03982</link>
+<guid isPermaLink="false">FRBTIFR-BTI-2026-03982|84</guid>
+<pubDate>Fri, 10 Jul 2026 21:00:00 -0000</pubDate>
+<description>[AB] Avrupa Birliği (EBTI) · 11 Temmuz 2026 — Genel Kurallar 1 ve 6: sınıflandırma, bölüm ve fasıl notları ile pozisyon, alt pozisyon ve KN kodu metinlerine göre belirlenir. Genel Kural 5 b): Ambalajlar, içerdikleri eşya ile birlikte sınıflandırılır. Bölüm XVI'nın 2…</description>
+</item>
 <item>
 <title>84714100 — -beyana göre- diğerlerinin yanı sıra aşağıdaki özelliklere ve bileşime sahip, interaktif monitör ol</title>
 <link>https://ec.europa.eu/taxation_customs/dds2/ebti/ebti_details.jsp?showHeader=false&amp;Lang=en&amp;reference=NLBTI2026-0194</link>
@@ -419,13 +426,6 @@
 <guid isPermaLink="false">ITBTI2026-0010|84</guid>
 <pubDate>Tue, 30 Jun 2026 21:00:00 -0000</pubDate>
 <description>[AB] Avrupa Birliği (EBTI) · 1 Temmuz 2026 — Kombine Nomanklatürün yorumlanmasına ilişkin genel yorum kuralları 1 ve 6. 8421 pozisyonunun ve 8421 32 00 90 alt pozisyonlarının metni.</description>
-</item>
-<item>
-<title>84213200 — Motorlu taşıtlar için metal substratlı katalitik konvertör. Eşya, gazların filtrelenmesi veya işlen</title>
-<link>https://ec.europa.eu/taxation_customs/dds2/ebti/ebti_details.jsp?showHeader=false&amp;Lang=en&amp;reference=ITBTI2026-0009</link>
-<guid isPermaLink="false">ITBTI2026-0009|84</guid>
-<pubDate>Tue, 30 Jun 2026 21:00:00 -0000</pubDate>
-<description>[AB] Avrupa Birliği (EBTI) · 1 Temmuz 2026 — Kombine Nomanklatürün yorumlanmasına ilişkin genel yorum kuralları 1 ve 6. 8421 pozisyonunun ve 8421 32 ile 8421 3200 90 alt pozisyonlarının metni.</description>
 </item>
 </channel>
 </rss>
