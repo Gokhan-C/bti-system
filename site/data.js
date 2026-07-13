@@ -1,13 +1,13 @@
 window.BTI_DATA = {
- "generated_at": "2026-07-12 08:21",
- "today": "2026-07-12",
- "today_tr": "12 Temmuz 2026",
+ "generated_at": "2026-07-13 06:17",
+ "today": "2026-07-13",
+ "today_tr": "13 Temmuz 2026",
  "latest_date": "2026-07-11",
  "latest_is_today": false,
- "total_decisions": 2272,
+ "total_decisions": 2274,
  "total_days": 80,
  "source_counts": {
-  "eu": 1859,
+  "eu": 1861,
   "us": 108,
   "ca": 1,
   "uk": 81,
@@ -15164,7 +15164,7 @@ window.BTI_DATA = {
   {
    "date": "2026-06-24",
    "date_tr": "24 Haziran 2026",
-   "count": 103,
+   "count": 105,
    "sources": [
     "eu",
     "uk"
@@ -15230,15 +15230,15 @@ window.BTI_DATA = {
      "source": "eu",
      "source_label": "Avrupa Birliği (EBTI)",
      "color": "#2E6BE6",
-     "flag": "🇫🇷",
-     "origin": "Fransa",
-     "hs": "69111000",
-     "hs4": "6911",
-     "ref": "FRBTIFR-BTI-2025-08347-07",
+     "flag": "🇪🇸",
+     "origin": "İspanya",
+     "hs": "09051000",
+     "hs4": "0905",
+     "ref": "ESBTIESBTI2026REN768",
      "date": "2026-06-24",
-     "title": "40 parçalık öğrenci kiti, şunlardan oluşmaktadır: - kapaklı klipsli şeffaf polipropilen plastikten yapılmış 33 litrelik saklama kutusu; - 26,5 cm çapında 4'lü porselen düz tabak seti; - plastik saklama bölmeli, 16 parça renkli paslanmaz çelik sofra takımı (4 bıçak, 4 çatal, 4 yem…",
-     "gerekce": "Genel Kural 1 ve 6: Sınıflandırma, fasıl ve bölüm notları ile pozisyon, alt pozisyon ve KN kodunun ifadesine göre belirlenir. Genel Kural 5 b): Ambalaj, malın sınıflandırmasını takip eder. 69. Fasıl'ın 1 numaralı Notu: B…",
-     "url": "https://ec.europa.eu/taxation_customs/dds2/ebti/ebti_details.jsp?showHeader=false&Lang=en&reference=FRBTIFR-BTI-2025-08347-07"
+     "title": "Vainas de vainilla enteras. Se presentan embolsadas al vacío en paquetes de 2 unidades y colocadas en tubo de PVC.Concebido para uso alimentario, en especial para preparar platos dulces o bebidas aromatizadas.",
+     "gerekce": "RGI 1 y 6. Texto de los códigos de la NC 0905 y 0905.10.00NESA de la partida 0905.",
+     "url": "https://ec.europa.eu/taxation_customs/dds2/ebti/ebti_details.jsp?showHeader=false&Lang=en&reference=ESBTIESBTI2026REN768"
     },
     {
      "source": "uk",
@@ -15258,15 +15258,15 @@ window.BTI_DATA = {
      "source": "eu",
      "source_label": "Avrupa Birliği (EBTI)",
      "color": "#2E6BE6",
-     "flag": "🇫🇷",
-     "origin": "Fransa",
-     "hs": "69111000",
-     "hs4": "6911",
-     "ref": "FRBTIFR-BTI-2025-08347-08",
+     "flag": "🇪🇸",
+     "origin": "İspanya",
+     "hs": "21039090",
+     "hs4": "2103",
+     "ref": "ESBTIESBTI2026REN769",
      "date": "2026-06-24",
-     "title": "40 parçalık öğrenci kiti, şunlardan oluşmaktadır: - kapaklı klipsli şeffaf polipropilen plastikten yapılmış 33 litrelik saklama kutusu; - 26,5 cm çapında 4'lü porselen düz tabak seti; - plastik saklama bölmeli, 16 parça renkli paslanmaz çelik sofra takımı (4 bıçak, 4 çatal, 4 yem…",
-     "gerekce": "Genel Kural 1 ve 6: Sınıflandırma, fasıl ve bölüm notları ile pozisyon, alt pozisyon ve KN kodunun ifadesine göre belirlenir. Genel Kural 5 b): Ambalaj, malın sınıflandırmasını takip eder. 69. Fasıl'ın 1 numaralı Notu: B…",
-     "url": "https://ec.europa.eu/taxation_customs/dds2/ebti/ebti_details.jsp?showHeader=false&Lang=en&reference=FRBTIFR-BTI-2025-08347-08"
+     "title": "Extracto de vainilla con agua y alcohol, al que se ha añadido azúcar. Se presenta en botella de cristal de 125ml, para la venta al por menor.Concebido para uso alimentario como aromatizante en la industria alimentaria y en la preparación de comidas, preferentemente postres y dulc…",
+     "gerekce": "RGI 1 y 6. Texto de los códigos de la NC 2103, 2103.90 y 2103.90.90NESA de la partida 1302.NESA de la partida 2103, apartado A.Reglamento de Ejecución (UE) nº 960/17.",
+     "url": "https://ec.europa.eu/taxation_customs/dds2/ebti/ebti_details.jsp?showHeader=false&Lang=en&reference=ESBTIESBTI2026REN769"
     },
     {
      "source": "uk",
@@ -15288,13 +15288,13 @@ window.BTI_DATA = {
      "color": "#2E6BE6",
      "flag": "🇫🇷",
      "origin": "Fransa",
-     "hs": "94032080",
-     "hs4": "9403",
-     "ref": "FRBTIFR-BTI-2026-01140",
+     "hs": "69111000",
+     "hs4": "6911",
+     "ref": "FRBTIFR-BTI-2025-08347-07",
      "date": "2026-06-24",
-     "title": "Dış mekânda teras kullanımına yönelik, metal varil gövdeli ayaküstü yemek masası. Üst yüzeye sabitlenmiş ahşap görünümlü Trespa plakalı metal varil gövdesinden imal edilmektedir.",
-     "gerekce": "Genel Kural 1 ve 6: Sınıflandırma, fasıl ve bölüm notları ile pozisyon, alt pozisyon ve KN kodunun ifadesine göre belirlenir. Genel Kural 3 b): Karışık, bileşik veya çeşit ürünler, söz konusu durumda metal iskelet olmak …",
-     "url": "https://ec.europa.eu/taxation_customs/dds2/ebti/ebti_details.jsp?showHeader=false&Lang=en&reference=FRBTIFR-BTI-2026-01140"
+     "title": "40 parçalık öğrenci kiti, şunlardan oluşmaktadır: - kapaklı klipsli şeffaf polipropilen plastikten yapılmış 33 litrelik saklama kutusu; - 26,5 cm çapında 4'lü porselen düz tabak seti; - plastik saklama bölmeli, 16 parça renkli paslanmaz çelik sofra takımı (4 bıçak, 4 çatal, 4 yem…",
+     "gerekce": "Genel Kural 1 ve 6: Sınıflandırma, fasıl ve bölüm notları ile pozisyon, alt pozisyon ve KN kodunun ifadesine göre belirlenir. Genel Kural 5 b): Ambalaj, malın sınıflandırmasını takip eder. 69. Fasıl'ın 1 numaralı Notu: B…",
+     "url": "https://ec.europa.eu/taxation_customs/dds2/ebti/ebti_details.jsp?showHeader=false&Lang=en&reference=FRBTIFR-BTI-2025-08347-07"
     },
     {
      "source": "uk",
@@ -15316,13 +15316,13 @@ window.BTI_DATA = {
      "color": "#2E6BE6",
      "flag": "🇫🇷",
      "origin": "Fransa",
-     "hs": "58064000",
-     "hs4": "5806",
-     "ref": "FRBTIFR-BTI-2025-07148",
+     "hs": "69111000",
+     "hs4": "6911",
+     "ref": "FRBTIFR-BTI-2025-08347-08",
      "date": "2026-06-24",
-     "title": "Çapı 1 mm'nin altında olan, termoşekillendirme yöntemiyle bir arada tutulan paralel sentetik (polipropilen – PP) filamentlerden oluşan, atkısız şerit. Şeridin dış yüzeyi şeffaf ve parlak bir plastik (polietilen tereftalat) filmle kaplıdır. Bu şerit, plastik makara üzerine sarılı …",
-     "gerekce": "Genel Kural 1 ve 6: Sınıflandırma, fasıl ve bölüm notları ile pozisyon, alt pozisyon ve KN kodunun ifadesine göre belirlenir. Genel Kural 5 b): Şeridi saran makaranın sınıflandırması, şeridin sınıflandırmasını takip eder…",
-     "url": "https://ec.europa.eu/taxation_customs/dds2/ebti/ebti_details.jsp?showHeader=false&Lang=en&reference=FRBTIFR-BTI-2025-07148"
+     "title": "40 parçalık öğrenci kiti, şunlardan oluşmaktadır: - kapaklı klipsli şeffaf polipropilen plastikten yapılmış 33 litrelik saklama kutusu; - 26,5 cm çapında 4'lü porselen düz tabak seti; - plastik saklama bölmeli, 16 parça renkli paslanmaz çelik sofra takımı (4 bıçak, 4 çatal, 4 yem…",
+     "gerekce": "Genel Kural 1 ve 6: Sınıflandırma, fasıl ve bölüm notları ile pozisyon, alt pozisyon ve KN kodunun ifadesine göre belirlenir. Genel Kural 5 b): Ambalaj, malın sınıflandırmasını takip eder. 69. Fasıl'ın 1 numaralı Notu: B…",
+     "url": "https://ec.europa.eu/taxation_customs/dds2/ebti/ebti_details.jsp?showHeader=false&Lang=en&reference=FRBTIFR-BTI-2025-08347-08"
     },
     {
      "source": "uk",
@@ -15344,13 +15344,13 @@ window.BTI_DATA = {
      "color": "#2E6BE6",
      "flag": "🇫🇷",
      "origin": "Fransa",
-     "hs": "57029290",
-     "hs4": "5702",
-     "ref": "FRBTIFR-BTI-2025-08703",
+     "hs": "94032080",
+     "hs4": "9403",
+     "ref": "FRBTIFR-BTI-2026-01140",
      "date": "2026-06-24",
-     "title": "Tüylü veya flok kaplı olmayan, kadife içermeyen, dikdörtgen biçimli banyo paspası türünde dokunmuş halı; ağırlık itibarıyla çoğunluğu sentetik lif olan polyester ve akrilik liflerden (%52,1), doğal pamuk liflerinden (%40,4) ve yapay viskoz liflerinden (%7,5) oluşan ipliklerle ima…",
-     "gerekce": "Genel Kural 1 ve 6: Sınıflandırma, fasıl ve bölüm notları ile pozisyon, alt pozisyon ve KN kodunun ifadesine göre belirlenir. Genel Kural 5 b): Ambalaj, malın sınıflandırmasını takip eder. XI. Bölüm'ün 2 A) sayılı Notu v…",
-     "url": "https://ec.europa.eu/taxation_customs/dds2/ebti/ebti_details.jsp?showHeader=false&Lang=en&reference=FRBTIFR-BTI-2025-08703"
+     "title": "Dış mekânda teras kullanımına yönelik, metal varil gövdeli ayaküstü yemek masası. Üst yüzeye sabitlenmiş ahşap görünümlü Trespa plakalı metal varil gövdesinden imal edilmektedir.",
+     "gerekce": "Genel Kural 1 ve 6: Sınıflandırma, fasıl ve bölüm notları ile pozisyon, alt pozisyon ve KN kodunun ifadesine göre belirlenir. Genel Kural 3 b): Karışık, bileşik veya çeşit ürünler, söz konusu durumda metal iskelet olmak …",
+     "url": "https://ec.europa.eu/taxation_customs/dds2/ebti/ebti_details.jsp?showHeader=false&Lang=en&reference=FRBTIFR-BTI-2026-01140"
     },
     {
      "source": "uk",
@@ -15365,6 +15365,34 @@ window.BTI_DATA = {
      "title": "Laboratuvar ve endüstriyel kullanım amaçlı, en düşük çözünürlükte saniyede 287.000 kareye kadar ardışık sabit görüntü yakalayabilen yüksek hızlı dijital kamera (video kaydı yapmaz)",
      "gerekce": "Eşya, GYK 1 uyarınca 8525 pozisyonunun \"televizyon kameraları, dijital kameralar ve video kamera kaydediciler\" ifadesi kapsamında sınıflandırılmıştır. GYK 6 ve Fasıl 85'in 1 no.lu alt pozisyon notu gereğince, saniyede 0,…",
      "url": "https://www.tax.service.gov.uk/search-for-advance-tariff-rulings/ruling/600015735"
+    },
+    {
+     "source": "eu",
+     "source_label": "Avrupa Birliği (EBTI)",
+     "color": "#2E6BE6",
+     "flag": "🇫🇷",
+     "origin": "Fransa",
+     "hs": "58064000",
+     "hs4": "5806",
+     "ref": "FRBTIFR-BTI-2025-07148",
+     "date": "2026-06-24",
+     "title": "Çapı 1 mm'nin altında olan, termoşekillendirme yöntemiyle bir arada tutulan paralel sentetik (polipropilen – PP) filamentlerden oluşan, atkısız şerit. Şeridin dış yüzeyi şeffaf ve parlak bir plastik (polietilen tereftalat) filmle kaplıdır. Bu şerit, plastik makara üzerine sarılı …",
+     "gerekce": "Genel Kural 1 ve 6: Sınıflandırma, fasıl ve bölüm notları ile pozisyon, alt pozisyon ve KN kodunun ifadesine göre belirlenir. Genel Kural 5 b): Şeridi saran makaranın sınıflandırması, şeridin sınıflandırmasını takip eder…",
+     "url": "https://ec.europa.eu/taxation_customs/dds2/ebti/ebti_details.jsp?showHeader=false&Lang=en&reference=FRBTIFR-BTI-2025-07148"
+    },
+    {
+     "source": "eu",
+     "source_label": "Avrupa Birliği (EBTI)",
+     "color": "#2E6BE6",
+     "flag": "🇫🇷",
+     "origin": "Fransa",
+     "hs": "57029290",
+     "hs4": "5702",
+     "ref": "FRBTIFR-BTI-2025-08703",
+     "date": "2026-06-24",
+     "title": "Tüylü veya flok kaplı olmayan, kadife içermeyen, dikdörtgen biçimli banyo paspası türünde dokunmuş halı; ağırlık itibarıyla çoğunluğu sentetik lif olan polyester ve akrilik liflerden (%52,1), doğal pamuk liflerinden (%40,4) ve yapay viskoz liflerinden (%7,5) oluşan ipliklerle ima…",
+     "gerekce": "Genel Kural 1 ve 6: Sınıflandırma, fasıl ve bölüm notları ile pozisyon, alt pozisyon ve KN kodunun ifadesine göre belirlenir. Genel Kural 5 b): Ambalaj, malın sınıflandırmasını takip eder. XI. Bölüm'ün 2 A) sayılı Notu v…",
+     "url": "https://ec.europa.eu/taxation_customs/dds2/ebti/ebti_details.jsp?showHeader=false&Lang=en&reference=FRBTIFR-BTI-2025-08703"
     },
     {
      "source": "eu",
