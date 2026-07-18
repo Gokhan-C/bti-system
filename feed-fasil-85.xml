@@ -6,7 +6,14 @@
 <atom:link href="https://gokhan-c.github.io/bti-system/feed-fasil-85.xml" rel="self" type="application/rss+xml"/>
 <description>Fasıl 85 (Elektrikli makine ve cihazlar) altındaki yeni tarife kararları.</description>
 <language>tr</language>
-<lastBuildDate>Fri, 17 Jul 2026 16:59:33 -0000</lastBuildDate>
+<lastBuildDate>Sat, 18 Jul 2026 04:00:02 -0000</lastBuildDate>
+<item>
+<title>85443000 — Ürünler, taşıtın elektrik tesisatında elektrik akımının ve/veya elektrik sinyallerinin iletilmesi i</title>
+<link>https://ec.europa.eu/taxation_customs/dds2/ebti/ebti_details.jsp?showHeader=false&amp;Lang=en&amp;reference=ROBTI2026-005437</link>
+<guid isPermaLink="false">ROBTI2026-005437|85</guid>
+<pubDate>Thu, 16 Jul 2026 21:00:00 -0000</pubDate>
+<description>[AB] Avrupa Birliği (EBTI) · 17 Temmuz 2026 — Kombine Nomanklatürün yorumlanmasına ilişkin genel kurallar: 1 ve 6. 8544 pozisyonuna ilişkin Armonize Sistem İzahname Notları (NESA).</description>
+</item>
 <item>
 <title>8544429090 — Hydronix sensörleri için özel elektrik bağlantı kablosu; sensöre güç sağlar ve sensör ile ekipman</title>
 <link>https://www.tax.service.gov.uk/search-for-advance-tariff-rulings/ruling/600015802</link>
@@ -419,13 +426,6 @@
 <guid isPermaLink="false">CZBTI37/426836/2026-300000-ZI/01|85</guid>
 <pubDate>Wed, 08 Jul 2026 21:00:00 -0000</pubDate>
 <description>[AB] Avrupa Birliği (EBTI) · 9 Temmuz 2026 — Kombine Nomenklatürün yorumlanmasına ilişkin genel kurallar 1 ve 6. XVI. Bölüme ilişkin 2 b) numaralı Not. HS'nin 8503 numarasına ilişkin Açıklama Notları. Kombine Nomenklatürün 8503 00, 8503 00 98 kodları ile Taric kodu…</description>
-</item>
-<item>
-<title>85285210 — Beyan edilen bilgilere göre, 27" köşegen (diyagonal) uzunluğa, 1920 x 1080 çözünürlüğe, en fazla 12</title>
-<link>https://ec.europa.eu/taxation_customs/dds2/ebti/ebti_details.jsp?showHeader=false&amp;Lang=en&amp;reference=CZBTI46%2F402825%2F2026-300000-ZI%2F01</link>
-<guid isPermaLink="false">CZBTI46/402825/2026-300000-ZI/01|85</guid>
-<pubDate>Wed, 08 Jul 2026 21:00:00 -0000</pubDate>
-<description>[AB] Avrupa Birliği (EBTI) · 9 Temmuz 2026 — Kombine Nomenklatürün yorumlanmasına ilişkin 1, 3 b) ve 6 numaralı Genel Kurallar. Fasıl 84'e ilişkin 6 D) numaralı Not, 5) bendi. DGÖ'nün (Dünya Gümrük Örgütü) 8528 52/3, 4, 5, 6, 7, 8 numaralı Eşyanın Tarife Sınıflandı…</description>
 </item>
 </channel>
 </rss>
