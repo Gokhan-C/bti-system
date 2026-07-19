@@ -1,13 +1,13 @@
 window.BTI_DATA = {
- "generated_at": "2026-07-18 07:00",
- "today": "2026-07-18",
- "today_tr": "18 Temmuz 2026",
- "latest_date": "2026-07-17",
+ "generated_at": "2026-07-19 08:31",
+ "today": "2026-07-19",
+ "today_tr": "19 Temmuz 2026",
+ "latest_date": "2026-07-18",
  "latest_is_today": false,
- "total_decisions": 2742,
- "total_days": 86,
+ "total_decisions": 2751,
+ "total_days": 87,
  "source_counts": {
-  "eu": 2294,
+  "eu": 2303,
   "us": 109,
   "ca": 1,
   "uk": 113,
@@ -98,6 +98,58 @@ window.BTI_DATA = {
   "98"
  ],
  "days": [
+  {
+   "date": "2026-07-18",
+   "date_tr": "18 Temmuz 2026",
+   "count": 3,
+   "sources": [
+    "eu"
+   ],
+   "decisions": [
+    {
+     "source": "eu",
+     "source_label": "Avrupa Birliği (EBTI)",
+     "color": "#2E6BE6",
+     "flag": "🇧🇪",
+     "origin": "Belçika",
+     "hs": "70196300",
+     "hs4": "7019",
+     "ref": "BEBTIDT.50.025.226",
+     "date": "2026-07-18",
+     "title": "Siyah bir madde ile emprenye edilmiş, bez ayağı (düz) örgülü sık bir dokuma. Bileşim: filament iplikten yapılmış cam elyafı dokuma, flor içeren polimer (teflon) ile emprenye edilmiştir. Kütle (kaplama dahil): yaklaşık 131 g/m². Genişliği 33 cm'dir.",
+     "gerekce": "Sınıflandırma, Kombine Nomenklatür'ün yorumlanmasına ilişkin 1 ve 6 numaralı genel kurallara ve 7019 pozisyonunun metnine, 7019 63 GS koduna ve 7019 63 00 85 Taric koduna dayanmaktadır. 7019 pozisyonuna ilişkin GS (Armon…",
+     "url": "https://ec.europa.eu/taxation_customs/dds2/ebti/ebti_details.jsp?showHeader=false&Lang=en&reference=BEBTIDT.50.025.226"
+    },
+    {
+     "source": "eu",
+     "source_label": "Avrupa Birliği (EBTI)",
+     "color": "#2E6BE6",
+     "flag": "🇧🇪",
+     "origin": "Belçika",
+     "hs": "70196300",
+     "hs4": "7019",
+     "ref": "BEBTIDT.50.025.314",
+     "date": "2026-07-18",
+     "title": "Sık dokunmuş, düz örgülü (bezayağı örgü), siyah bir madde ile emprenye edilmiş bir kumaş. Bileşim: flament iplikten yapılmış cam elyafı kumaşı, flor içeren polimer (teflon) ile emprenye edilmiştir. Kütle (kaplama ile birlikte): yaklaşık 131 g/m². Genişlik 108 cm'dir.",
+     "gerekce": "Sınıflandırma, Kombine Nomenklatürün yorumlanmasına ilişkin 1 ve 6 numaralı genel kurallar temelinde ve 7019 pozisyonunun metni, GS (Armonize Sistem) kodu 7019 63 ile TARIC kodu 7019 63 00 85 temelinde belirlenmiştir. 70…",
+     "url": "https://ec.europa.eu/taxation_customs/dds2/ebti/ebti_details.jsp?showHeader=false&Lang=en&reference=BEBTIDT.50.025.314"
+    },
+    {
+     "source": "eu",
+     "source_label": "Avrupa Birliği (EBTI)",
+     "color": "#2E6BE6",
+     "flag": "🇧🇪",
+     "origin": "Belçika",
+     "hs": "70196400",
+     "hs4": "7019",
+     "ref": "BEBTIDT.50.025.315",
+     "date": "2026-07-18",
+     "title": "Het gaat hier om een dicht weefsel in platbinding, met aan beide zijden een zwarte deklaag.Samenstelling: glasvezelweefsel van filamentgaren, met een coating van fluorhoudend polymeer (teflon). Deze coating dringt niet geheel in het weefsel door, waardoor er geen sprake is van im…",
+     "gerekce": "De indeling is gebaseerd op de algemene regels 1 en 6 voor de interpretatie van de gecombineerde nomenclatuur en de tekst van post 7019, GS-code 7019 64 en Taric-code 7019 64 00 85.GS-toelichtingen op post 7019 GN-toelic…",
+     "url": "https://ec.europa.eu/taxation_customs/dds2/ebti/ebti_details.jsp?showHeader=false&Lang=en&reference=BEBTIDT.50.025.315"
+    }
+   ]
+  },
   {
    "date": "2026-07-17",
    "date_tr": "17 Temmuz 2026",
@@ -3036,7 +3088,7 @@ window.BTI_DATA = {
   {
    "date": "2026-07-15",
    "date_tr": "15 Temmuz 2026",
-   "count": 103,
+   "count": 109,
    "sources": [
     "eu",
     "uk"
@@ -4483,6 +4535,90 @@ window.BTI_DATA = {
      "title": "Aramid lifi (kevlar) ile örme (triko) sentetik tekstil malzemesinden yapılmış beş parmaklı koruyucu eldiven. Bu eldiven, bilekte sıkılaştıran bir lastik kenara (ribana) ve tabanında bir bitiş sürfilesine (overlok kenar temizleme dikişine) sahiptir. Ürün birçok bedende mevcuttur, …",
      "gerekce": "Genel kurallar 1 ve 6: sınıflandırma, bölüm ve fasıl notları ile pozisyon, alt pozisyon ve NC (Kombine Nomanklatür) kodu metni tarafından belirlenir. Genel kural 5 b): eşya ile birlikte sunulan ambalajlar ve kaplar, norm…",
      "url": "https://ec.europa.eu/taxation_customs/dds2/ebti/ebti_details.jsp?showHeader=false&Lang=en&reference=FRBTIFR-BTI-2026-01127"
+    },
+    {
+     "source": "eu",
+     "source_label": "Avrupa Birliği (EBTI)",
+     "color": "#2E6BE6",
+     "flag": "🇷🇴",
+     "origin": "Romanya",
+     "hs": "73181542",
+     "hs4": "7318",
+     "ref": "ROBTI2026-005475",
+     "date": "2026-07-15",
+     "title": "Conform descrierii solicitantului și a fotografiei publicate în baza de date, produsul reprezintă un prezon (șurub fără cap) din oțel (altul decât inoxidabil), sub forma unei tije metalice fără cap, filetată la ambele capete.Un capăt este prevăzut cu filet metric pentru metal, ia…",
+     "gerekce": "Regulile generale pentru interpretarea Nomenclaturii combinate: 1 și 6.NESA de la poziția 7318, lit. (A).",
+     "url": "https://ec.europa.eu/taxation_customs/dds2/ebti/ebti_details.jsp?showHeader=false&Lang=en&reference=ROBTI2026-005475"
+    },
+    {
+     "source": "eu",
+     "source_label": "Avrupa Birliği (EBTI)",
+     "color": "#2E6BE6",
+     "flag": "🇷🇴",
+     "origin": "Romanya",
+     "hs": "73181595",
+     "hs4": "7318",
+     "ref": "ROBTI2026-005478",
+     "date": "2026-07-15",
+     "title": "Conform descrierii solicitantului și a fotografiei publicate în baza de date, produsul reprezintă un șurub torbant (șurub cu filet metric, cap bombat și guler pătrat / carriage bolt sau șurub de blocare), fabricat în conformitate cu standardul DIN 603. Este un element de fixare c…",
+     "gerekce": "Regulile generale pentru interpretarea Nomenclaturii combinate: 1 și 6.NESA de la poziția 7318, lit. (A).",
+     "url": "https://ec.europa.eu/taxation_customs/dds2/ebti/ebti_details.jsp?showHeader=false&Lang=en&reference=ROBTI2026-005478"
+    },
+    {
+     "source": "eu",
+     "source_label": "Avrupa Birliği (EBTI)",
+     "color": "#2E6BE6",
+     "flag": "🇷🇴",
+     "origin": "Romanya",
+     "hs": "73181699",
+     "hs4": "7318",
+     "ref": "ROBTI2026/005482",
+     "date": "2026-07-15",
+     "title": "Conform descrierii solicitantului și a fotografiei publicate în baza de date, produsul reprezintă o piuliță hexagonală, din oțel, prevăzută cu flanșă (guler), cu diametru interior de minimum 14 mm. Dimensiunile disponibile sunt cuprinse între 14 mm și 30 mm. Poate suferi un trata…",
+     "gerekce": "Regulile generale pentru interpretarea Nomenclaturii combinate: 1 și 6.NESA de la poziția 7318, lit. (A).",
+     "url": "https://ec.europa.eu/taxation_customs/dds2/ebti/ebti_details.jsp?showHeader=false&Lang=en&reference=ROBTI2026%2F005482"
+    },
+    {
+     "source": "eu",
+     "source_label": "Avrupa Birliği (EBTI)",
+     "color": "#2E6BE6",
+     "flag": "🇷🇴",
+     "origin": "Romanya",
+     "hs": "73181692",
+     "hs4": "7318",
+     "ref": "ROBTI2026-005483",
+     "date": "2026-07-15",
+     "title": "Başvuru sahibinin açıklamasına ve veri tabanında yayımlanan fotoğrafa göre ürün, flanşlı (bilezikli), en fazla 12 mm iç metrik dişe sahip, çelikten yapılmış altıgen bir somundur. Mevcut boyutlar 2 mm ile 12 mm arasında değişmektedir. Yüzey işlemine (elektrolitik çinko kaplama) ta…",
+     "gerekce": "Kombine Nomenklatürün yorumlanmasına ilişkin genel kurallar: 1 ve 6. 7318 pozisyonuna ait AS (Armonize Sistem) İzahnamesi, (A) bendi.",
+     "url": "https://ec.europa.eu/taxation_customs/dds2/ebti/ebti_details.jsp?showHeader=false&Lang=en&reference=ROBTI2026-005483"
+    },
+    {
+     "source": "eu",
+     "source_label": "Avrupa Birliği (EBTI)",
+     "color": "#2E6BE6",
+     "flag": "🇷🇴",
+     "origin": "Romanya",
+     "hs": "73181499",
+     "hs4": "7318",
+     "ref": "ROBTI2026-005484",
+     "date": "2026-07-15",
+     "title": "Başvuru sahibinin tanımına ve veri tabanında yayımlanan fotoğrafa göre, ürün, alçıpan (gips-karton) duvarlara çeşitli yapı elemanlarının sabitlenmesinde kullanılan, sivri uçlu, delici, kendinden kılavuz açan (autofiletant) çelik bir vidadır. Vidalanarak alçıpan duvarın kalınlığı …",
+     "gerekce": "Kombine Nomenklatürün yorumlanmasına ilişkin genel kurallar: 1 ve 6. 7318 pozisyonuna ait Armonize Sistem İzahnamesi (NESA), harf (A).",
+     "url": "https://ec.europa.eu/taxation_customs/dds2/ebti/ebti_details.jsp?showHeader=false&Lang=en&reference=ROBTI2026-005484"
+    },
+    {
+     "source": "eu",
+     "source_label": "Avrupa Birliği (EBTI)",
+     "color": "#2E6BE6",
+     "flag": "🇷🇴",
+     "origin": "Romanya",
+     "hs": "73182200",
+     "hs4": "7318",
+     "ref": "ROBTI2026-005486",
+     "date": "2026-07-15",
+     "title": "Başvuru sahibinin tanımına ve veri tabanında yayımlanan fotoğrafa göre ürün, DIN 9021 standardına uygun olarak üretilmiş, çelikten geniş düz bir pul (rondela) niteliğindedir. Dış çap, iç çapın yaklaşık üç katı kadardır. Ürün elektrolitik olarak çinko kaplanmıştır.",
+     "gerekce": "Kombine Nomenklatür'ün yorumlanmasına ilişkin genel kurallar: 1 ve 6. 7318 pozisyonuna ait AS İzahnamesi (NESA), harf E.",
+     "url": "https://ec.europa.eu/taxation_customs/dds2/ebti/ebti_details.jsp?showHeader=false&Lang=en&reference=ROBTI2026-005486"
     }
    ]
   },
