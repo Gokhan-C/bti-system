@@ -1,13 +1,13 @@
 window.BTI_DATA = {
- "generated_at": "2026-07-19 08:31",
- "today": "2026-07-19",
- "today_tr": "19 Temmuz 2026",
+ "generated_at": "2026-07-20 06:33",
+ "today": "2026-07-20",
+ "today_tr": "20 Temmuz 2026",
  "latest_date": "2026-07-18",
  "latest_is_today": false,
- "total_decisions": 2751,
- "total_days": 87,
+ "total_decisions": 2753,
+ "total_days": 88,
  "source_counts": {
-  "eu": 2303,
+  "eu": 2305,
   "us": 109,
   "ca": 1,
   "uk": 113,
@@ -37554,6 +37554,44 @@ window.BTI_DATA = {
      "title": "KESİM PLOTTER MAKİNASI: YK-905X Model, dijital olarak tasarlanmış, malzemeleri milimetrik hassasiyetle kesmek için kullanılan, yink kesim plotter makinası.",
      "gerekce": "a. Genel yorum kuralları (1) ve (6) maddeleri. b. Türk Gümrük Tarife Cetvelinin 8479 açıklama notları",
      "url": "tr/TR330000260010.html"
+    }
+   ]
+  },
+  {
+   "date": "2026-04-27",
+   "date_tr": "27 Nisan 2026",
+   "count": 2,
+   "sources": [
+    "eu"
+   ],
+   "decisions": [
+    {
+     "source": "eu",
+     "source_label": "Avrupa Birliği (EBTI)",
+     "color": "#2E6BE6",
+     "flag": "🇦🇹",
+     "origin": "Avusturya",
+     "hs": "61169300",
+     "hs4": "6116",
+     "ref": "ATBTI2026000015-DEC",
+     "date": "2026-04-27",
+     "title": "Parmaklı eldiven- sentetik kimyasal liflerden yapılmış tek renkli bir örme kumaştan oluşur,- kaplama mevcut değildir,- dikilerek konfeksiyonlanmıştır,- orijinal ambalajında.(Bilgiler başvuru sahibine göredir, resim için eke bakınız)",
+     "gerekce": "Kombine Nomenklatür'ün Yorumlanmasına İlişkin Genel Kural (AV) 1, 5b ve 6; Bölüm XI'e ilişkin Not 7b; Bölüm XI'e ilişkin Alt Pozisyon Notu 2; Fasıl 54'e ilişkin Not 1a; Fasıl 61'e ilişkin Not 1; Armonize Sistem'e (HS) il…",
+     "url": "https://ec.europa.eu/taxation_customs/dds2/ebti/ebti_details.jsp?showHeader=false&Lang=en&reference=ATBTI2026000015-DEC"
+    },
+    {
+     "source": "eu",
+     "source_label": "Avrupa Birliği (EBTI)",
+     "color": "#2E6BE6",
+     "flag": "🇦🇹",
+     "origin": "Avusturya",
+     "hs": "61169300",
+     "hs4": "6116",
+     "ref": "ATBTI2026000016-DEC",
+     "date": "2026-04-27",
+     "title": "Parmaklı eldiven- sentetik kimyasal liflerden yapılmış tek renkli bir örme kumaştan oluşur,- avuç içinde desenli olarak yaklaşık 1 mm büyüklüğünde plastik noktalarla kaplanmıştır,- kaplama mevcut değildir,- dikilerek konfeksiyonlanmıştır,- orijinal ambalajında.(Bilgiler başvuru s…",
+     "gerekce": "Kombine Nomenklatür'ün Yorumlanmasına İlişkin Genel Kural (AV) 1, 5b ve 6; Bölüm XI'e ilişkin Not 7b; Bölüm XI'e ilişkin Alt Pozisyon Notu 2; Fasıl 54'e ilişkin Not 1a; Fasıl 59'a ilişkin Not 2a 4; Fasıl 61'e ilişkin Not…",
+     "url": "https://ec.europa.eu/taxation_customs/dds2/ebti/ebti_details.jsp?showHeader=false&Lang=en&reference=ATBTI2026000016-DEC"
     }
    ]
   },
