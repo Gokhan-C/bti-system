@@ -6,7 +6,14 @@
 <atom:link href="https://gokhan-c.github.io/bti-system/feed.xml" rel="self" type="application/rss+xml"/>
 <description>AB, ABD, Kanada ve Türkiye bağlayıcı tarife kararlarının günlük özeti.</description>
 <language>tr</language>
-<lastBuildDate>Mon, 20 Jul 2026 03:33:43 -0000</lastBuildDate>
+<lastBuildDate>Tue, 21 Jul 2026 03:39:58 -0000</lastBuildDate>
+<item>
+<title>20 Temmuz 2026 — 164 yeni tarife kararı (AB 76 · ABD 84 · İNG 4)</title>
+<link>https://gokhan-c.github.io/bti-system/#g=2026-07-20</link>
+<guid isPermaLink="false">https://gokhan-c.github.io/bti-system/#g=2026-07-20</guid>
+<pubDate>Sun, 19 Jul 2026 21:00:00 -0000</pubDate>
+<description>En çok karar çıkan fasıllar: 84 Makineler ve mekanik cihazlar (16) · 39 Plastikler ve mamulleri (14) · 21 Yenilen çeşitli gıda müstahzarları (13) · 87 Motorlu kara taşıtları (10) · 85 Elektrikli makine ve cihazlar (9)</description>
+</item>
 <item>
 <title>18 Temmuz 2026 — 3 yeni tarife kararı (AB 3)</title>
 <link>https://gokhan-c.github.io/bti-system/#g=2026-07-18</link>
@@ -97,13 +104,6 @@
 <guid isPermaLink="false">https://gokhan-c.github.io/bti-system/#g=2026-07-04</guid>
 <pubDate>Fri, 03 Jul 2026 21:00:00 -0000</pubDate>
 <description>En çok karar çıkan fasıllar: 20 Sebze ve meyve müstahzarları (3) · 84 Makineler ve mekanik cihazlar (3) · 21 Yenilen çeşitli gıda müstahzarları (2)</description>
-</item>
-<item>
-<title>3 Temmuz 2026 — 105 yeni tarife kararı (AB 101 · İNG 4)</title>
-<link>https://gokhan-c.github.io/bti-system/#g=2026-07-03</link>
-<guid isPermaLink="false">https://gokhan-c.github.io/bti-system/#g=2026-07-03</guid>
-<pubDate>Thu, 02 Jul 2026 21:00:00 -0000</pubDate>
-<description>En çok karar çıkan fasıllar: 63 Diğer hazır eşya, kullanılmış giysiler (15) · 39 Plastikler ve mamulleri (13) · 85 Elektrikli makine ve cihazlar (9) · 73 Demir veya çelikten eşya (8) · 61 Örme giyim eşyası (6)</description>
 </item>
 </channel>
 </rss>
