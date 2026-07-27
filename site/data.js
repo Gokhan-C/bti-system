@@ -1,13 +1,13 @@
 window.BTI_DATA = {
- "generated_at": "2026-07-26 07:11",
- "today": "2026-07-26",
- "today_tr": "26 Temmuz 2026",
- "latest_date": "2026-07-25",
+ "generated_at": "2026-07-27 06:03",
+ "today": "2026-07-27",
+ "today_tr": "27 Temmuz 2026",
+ "latest_date": "2026-07-26",
  "latest_is_today": false,
- "total_decisions": 3305,
- "total_days": 94,
+ "total_decisions": 3306,
+ "total_days": 95,
  "source_counts": {
-  "eu": 2748,
+  "eu": 2749,
   "us": 193,
   "ca": 2,
   "uk": 135,
@@ -101,6 +101,30 @@ window.BTI_DATA = {
   "98"
  ],
  "days": [
+  {
+   "date": "2026-07-26",
+   "date_tr": "26 Temmuz 2026",
+   "count": 1,
+   "sources": [
+    "eu"
+   ],
+   "decisions": [
+    {
+     "source": "eu",
+     "source_label": "Avrupa Birliği (EBTI)",
+     "color": "#2E6BE6",
+     "flag": "🇪🇪",
+     "origin": "Estonya",
+     "hs": "89069099",
+     "hs4": "8906",
+     "ref": "EEBTI2026-8",
+     "date": "2026-07-26",
+     "title": "Söz konusu ürün, 4,5 m uzunluğunda; 1,75 m genişliğinde ve yaklaşık 355 kg ağırlığında alüminyum bir küçük tekne (deniz aracı) gövdesidir. Ürün deniz alüminyumundan (5083 alaşımı) imal edilmiş olup, alüminyum alaşımı sac yüzeylerle kaplanan kaynaklı montaj taşıyıcı konstrüksiyona…",
+     "gerekce": "Sınıflandırmanın genel kuralları 1 ve 6. Grup 89 not 1. 8906 pozisyonunun tanımı.",
+     "url": "https://ec.europa.eu/taxation_customs/dds2/ebti/ebti_details.jsp?showHeader=false&Lang=en&reference=EEBTI2026-8"
+    }
+   ]
+  },
   {
    "date": "2026-07-25",
    "date_tr": "25 Temmuz 2026",
