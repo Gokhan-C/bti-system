@@ -6,16 +6,23 @@
 <atom:link href="https://gokhan-c.github.io/bti-system/feed.xml" rel="self" type="application/rss+xml"/>
 <description>AB, ABD, Kanada ve Türkiye bağlayıcı tarife kararlarının günlük özeti.</description>
 <language>tr</language>
-<lastBuildDate>Fri, 31 Jul 2026 05:07:09 -0000</lastBuildDate>
+<lastBuildDate>Sat, 01 Aug 2026 06:48:11 -0000</lastBuildDate>
 <item>
-<title>30 Temmuz 2026 — 59 yeni tarife kararı (AB 53 · İNG 5 · TR 1)</title>
+<title>31 Temmuz 2026 — 111 yeni tarife kararı (AB 40 · ABD 63 · İNG 6 · TR 2)</title>
+<link>https://gokhan-c.github.io/bti-system/#g=2026-07-31</link>
+<guid isPermaLink="false">https://gokhan-c.github.io/bti-system/#g=2026-07-31</guid>
+<pubDate>Thu, 30 Jul 2026 21:00:00 -0000</pubDate>
+<description>En çok karar çıkan fasıllar: 85 Elektrikli makine ve cihazlar (17) · 84 Makineler ve mekanik cihazlar (15) · 39 Plastikler ve mamulleri (8) · 68 Taş, alçı, çimentodan eşya (7) · 73 Demir veya çelikten eşya (5)</description>
+</item>
+<item>
+<title>30 Temmuz 2026 — 60 yeni tarife kararı (AB 54 · İNG 5 · TR 1)</title>
 <link>https://gokhan-c.github.io/bti-system/#g=2026-07-30</link>
 <guid isPermaLink="false">https://gokhan-c.github.io/bti-system/#g=2026-07-30</guid>
 <pubDate>Wed, 29 Jul 2026 21:00:00 -0000</pubDate>
 <description>En çok karar çıkan fasıllar: 84 Makineler ve mekanik cihazlar (8) · 85 Elektrikli makine ve cihazlar (5) · 39 Plastikler ve mamulleri (4) · 76 Alüminyum ve mamulleri (4) · 95 Oyuncaklar ve spor malzemeleri (4)</description>
 </item>
 <item>
-<title>29 Temmuz 2026 — 25 yeni tarife kararı (AB 24 · İNG 1)</title>
+<title>29 Temmuz 2026 — 27 yeni tarife kararı (AB 26 · İNG 1)</title>
 <link>https://gokhan-c.github.io/bti-system/#g=2026-07-29</link>
 <guid isPermaLink="false">https://gokhan-c.github.io/bti-system/#g=2026-07-29</guid>
 <pubDate>Tue, 28 Jul 2026 21:00:00 -0000</pubDate>
@@ -97,13 +104,6 @@
 <guid isPermaLink="false">https://gokhan-c.github.io/bti-system/#g=2026-07-17</guid>
 <pubDate>Thu, 16 Jul 2026 21:00:00 -0000</pubDate>
 <description>En çok karar çıkan fasıllar: 63 Diğer hazır eşya, kullanılmış giysiler (10) · 39 Plastikler ve mamulleri (7) · 19 Unlu mamuller (4) · 29 Organik kimyasallar (3) · 34 Sabunlar, yıkama müstahzarları (3)</description>
-</item>
-<item>
-<title>16 Temmuz 2026 — 141 yeni tarife kararı (AB 134 · İNG 7)</title>
-<link>https://gokhan-c.github.io/bti-system/#g=2026-07-16</link>
-<guid isPermaLink="false">https://gokhan-c.github.io/bti-system/#g=2026-07-16</guid>
-<pubDate>Wed, 15 Jul 2026 21:00:00 -0000</pubDate>
-<description>En çok karar çıkan fasıllar: 29 Organik kimyasallar (15) · 21 Yenilen çeşitli gıda müstahzarları (11) · 73 Demir veya çelikten eşya (11) · 85 Elektrikli makine ve cihazlar (8) · 49 Basılı kitaplar, gazeteler (7)</description>
 </item>
 </channel>
 </rss>
