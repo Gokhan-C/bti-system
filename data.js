@@ -1,16 +1,16 @@
 window.BTI_DATA = {
- "generated_at": "2026-08-07 06:24",
- "today": "2026-08-07",
- "today_tr": "7 Ağustos 2026",
- "latest_date": "2026-08-06",
+ "generated_at": "2026-08-08 09:24",
+ "today": "2026-08-08",
+ "today_tr": "8 Ağustos 2026",
+ "latest_date": "2026-08-07",
  "latest_is_today": false,
- "total_decisions": 3961,
- "total_days": 105,
+ "total_decisions": 3964,
+ "total_days": 106,
  "source_counts": {
   "eu": 3227,
   "us": 279,
   "ca": 3,
-  "uk": 183,
+  "uk": 186,
   "tr": 269
  },
  "chapters": [
@@ -102,6 +102,58 @@ window.BTI_DATA = {
   "98"
  ],
  "days": [
+  {
+   "date": "2026-08-07",
+   "date_tr": "7 Ağustos 2026",
+   "count": 3,
+   "sources": [
+    "uk"
+   ],
+   "decisions": [
+    {
+     "source": "uk",
+     "source_label": "İngiltere (HMRC)",
+     "color": "#012169",
+     "flag": "🇬🇧",
+     "origin": "İngiltere",
+     "hs": "3403198000",
+     "hs4": "3403",
+     "ref": "600015715",
+     "date": "2026-08-07",
+     "title": "A synthetic oil based lubricant and anti-corrosion oil used for tool and knife care. It is composed of Synthetic base oil, with added mineral oil and other additives. It is packed in 10ml bottles.",
+     "gerekce": "(Özet üretilemedi)",
+     "url": "https://www.tax.service.gov.uk/search-for-advance-tariff-rulings/ruling/600015715"
+    },
+    {
+     "source": "uk",
+     "source_label": "İngiltere (HMRC)",
+     "color": "#012169",
+     "flag": "🇬🇧",
+     "origin": "İngiltere",
+     "hs": "7326909890",
+     "hs4": "7326",
+     "ref": "600015624",
+     "date": "2026-08-07",
+     "title": "Lifting Frames & Beams Lifting frame or beam used to distribute load and enable safe handling and deployment of concrete mattresses during subsea installation. Used to handle & install concrete bi-flex and uni-flex mattresses. Can also be used to deploy and handle rock bags. This…",
+     "gerekce": "(Özet üretilemedi)",
+     "url": "https://www.tax.service.gov.uk/search-for-advance-tariff-rulings/ruling/600015624"
+    },
+    {
+     "source": "uk",
+     "source_label": "İngiltere (HMRC)",
+     "color": "#012169",
+     "flag": "🇬🇧",
+     "origin": "İngiltere",
+     "hs": "7326909890",
+     "hs4": "7326",
+     "ref": "600015616",
+     "date": "2026-08-07",
+     "title": "Upsized Lost Half A single use component to assist with the installation of a Cable Protection System in the Offshore Wind Industry. Component is designed to break away after install. A bespoke part that forms part of the Pull In Head system. Made up of BSEN 100025 s355 high yiel…",
+     "gerekce": "(Özet üretilemedi)",
+     "url": "https://www.tax.service.gov.uk/search-for-advance-tariff-rulings/ruling/600015616"
+    }
+   ]
+  },
   {
    "date": "2026-08-06",
    "date_tr": "6 Ağustos 2026",
