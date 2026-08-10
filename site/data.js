@@ -1,13 +1,13 @@
 window.BTI_DATA = {
- "generated_at": "2026-08-09 06:25",
- "today": "2026-08-09",
- "today_tr": "9 Ağustos 2026",
- "latest_date": "2026-08-08",
+ "generated_at": "2026-08-10 08:58",
+ "today": "2026-08-10",
+ "today_tr": "10 Ağustos 2026",
+ "latest_date": "2026-08-09",
  "latest_is_today": false,
- "total_decisions": 3991,
- "total_days": 107,
+ "total_decisions": 3992,
+ "total_days": 108,
  "source_counts": {
-  "eu": 3254,
+  "eu": 3255,
   "us": 279,
   "ca": 3,
   "uk": 186,
@@ -102,6 +102,30 @@ window.BTI_DATA = {
   "98"
  ],
  "days": [
+  {
+   "date": "2026-08-09",
+   "date_tr": "9 Ağustos 2026",
+   "count": 1,
+   "sources": [
+    "eu"
+   ],
+   "decisions": [
+    {
+     "source": "eu",
+     "source_label": "Avrupa Birliği (EBTI)",
+     "color": "#2E6BE6",
+     "flag": "🇫🇷",
+     "origin": "Fransa",
+     "hs": "95030099",
+     "hs4": "9503",
+     "ref": "FRBTIFR-BTI-2026-04645",
+     "date": "2026-08-09",
+     "title": "Table d'activités comprenant un boulier, des formes emboîtables et empilables, un circuit avec des véhicules amovibles.Matière : bois FSC.Dimensions : 40 x 40 x 45 cm.Jouet fabriqué à la machine, assemblé et conditionné à la main.",
+     "gerekce": "Règles générales 1 et 6 : le classement est déterminé par les notes de section et de chapitre, ainsi que par le libellé de position, de sous-position et de code NC.Règle générale 3.b) : les articles mélangés, composites,…",
+     "url": "https://ec.europa.eu/taxation_customs/dds2/ebti/ebti_details.jsp?showHeader=false&Lang=en&reference=FRBTIFR-BTI-2026-04645"
+    }
+   ]
+  },
   {
    "date": "2026-08-08",
    "date_tr": "8 Ağustos 2026",
