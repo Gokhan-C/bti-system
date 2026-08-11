@@ -167,7 +167,7 @@ def main():
             break
         except Exception as e:
             failed += len(chunk)
-            print(f"  ! parti {start // args.batch + 1} hatası: {str(e)[:90]}")
+            print(f"  ! parti {start // args.batch + 1} hatası: {str(e)[:90]}", flush=True)
             continue
 
         for j, new in zip(chunk, results):
@@ -179,7 +179,7 @@ def main():
         if updates:
             apply_updates(updates)
             updates = {}
-        print(f"  {min(start + args.batch, len(jobs))}/{len(jobs)} işlendi (çevrilen: {done})")
+        print(f"  {min(start + args.batch, len(jobs))}/{len(jobs)} işlendi (çevrilen: {done})", flush=True)
 
     print(f"\n✓ Çevrilen alan: {done}" + (f" · başarısız: {failed}" if failed else ""))
     print("Şimdi siteyi tazele:  python3 site/build_site.py")
