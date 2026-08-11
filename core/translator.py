@@ -16,14 +16,42 @@ CHUNK_SIZE = 4500  # Google Translate karakter limiti
 
 # ── Claude CLI ────────────────────────────────────────────────────────────────
 
+class ClaudeAuthError(RuntimeError):
+    """claude CLI oturumu geçersiz — çeviri/özet yapılamaz.
+
+    Bu hata sessizce yutulmamalı: yutulursa her gün çevrilmemiş kayıt birikir.
+    Çözümü kullanıcı yapar: terminalde `claude` çalıştırıp yeniden giriş.
+    """
+
+
+AUTH_HINTS = (
+    "failed to authenticate", "oauth session expired", "please run /login",
+    "not logged in", "authentication_error", "invalid api key",
+)
+
+
 def call_claude(prompt: str, timeout: int = 180) -> str:
     result = subprocess.run(
         ["claude", "-p", prompt, "--allowedTools", ""],
         capture_output=True, text=True, timeout=timeout,
     )
+    out = (result.stdout or "").strip()
+    err = (result.stderr or "").strip()
+
+    # claude CLI kimlik hatasını STDOUT'a yazıp returncode=1 döndürür; eskiden
+    # yalnızca stderr okunduğu için hata mesajı boş kalıyor ve asıl sebep
+    # ("OAuth session expired") kayboluyordu.
+    blob = (out + " " + err).lower()
+    if any(h in blob for h in AUTH_HINTS):
+        raise ClaudeAuthError(
+            "claude CLI oturumu geçersiz (" + (out or err)[:120] + "). "
+            "Terminalde `claude` komutunu çalıştırıp yeniden giriş yapın."
+        )
     if result.returncode != 0:
-        raise RuntimeError(result.stderr[:300])
-    return result.stdout.strip()
+        raise RuntimeError((err or out or "claude CLI hata döndürdü")[:300])
+    if not out:
+        raise RuntimeError("claude CLI boş yanıt döndürdü")
+    return out
 
 
 def translate_batch_claude(batch: list[dict[str, Any]]) -> list[dict[str, Any]]:
@@ -124,6 +152,10 @@ def translate_all_claude(
             logger.info(f"  Claude çevirisi: {start + 1}-{min(start + batch_size, total)}/{total}")
         try:
             translated.extend(translate_batch_claude(batch))
+        except ClaudeAuthError:
+            # Oturum geçersizse geri kalan her kayıt da çevrilemez; sessizce ham
+            # metin biriktirmek yerine hemen dur ve sebebi yukarı taşı.
+            raise
         except Exception as e:
             if logger:
                 logger.warning(f"  Çeviri hatası ({e}), orijinal metin kullanılıyor")
@@ -196,6 +228,8 @@ def summarize_ruling_claude(
 
     try:
         response = call_claude(prompt)
+    except ClaudeAuthError:
+        raise  # oturum geçersiz — ham metin biriktirme, sebebi yukarı taşı
     except Exception as e:
         if logger:
             logger.warning(f"Özet hatası ({ruling_number}): {e}")
@@ -259,6 +293,8 @@ def summarize_cbp_ruling_claude(
 
     try:
         response = call_claude(prompt)
+    except ClaudeAuthError:
+        raise  # oturum geçersiz — ham metin biriktirme, sebebi yukarı taşı
     except Exception as e:
         if logger:
             logger.warning(f"CBP özet hatası ({ruling_number}): {e}")
