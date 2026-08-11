@@ -1,16 +1,16 @@
 window.BTI_DATA = {
- "generated_at": "2026-08-10 08:58",
- "today": "2026-08-10",
- "today_tr": "10 Ağustos 2026",
- "latest_date": "2026-08-09",
+ "generated_at": "2026-08-11 06:01",
+ "today": "2026-08-11",
+ "today_tr": "11 Ağustos 2026",
+ "latest_date": "2026-08-10",
  "latest_is_today": false,
- "total_decisions": 3992,
- "total_days": 108,
+ "total_decisions": 3993,
+ "total_days": 109,
  "source_counts": {
   "eu": 3255,
   "us": 279,
   "ca": 3,
-  "uk": 186,
+  "uk": 187,
   "tr": 269
  },
  "chapters": [
@@ -102,6 +102,30 @@ window.BTI_DATA = {
   "98"
  ],
  "days": [
+  {
+   "date": "2026-08-10",
+   "date_tr": "10 Ağustos 2026",
+   "count": 1,
+   "sources": [
+    "uk"
+   ],
+   "decisions": [
+    {
+     "source": "uk",
+     "source_label": "İngiltere (HMRC)",
+     "color": "#012169",
+     "flag": "🇬🇧",
+     "origin": "İngiltere",
+     "hs": "9029203890",
+     "hs4": "9029",
+     "ref": "600015944",
+     "date": "2026-08-10",
+     "title": "ABS Sensor Cap. The sensor cap is used in hub unit bearing. One side of the hub unit is attached to the axle, the other to the wheel. The sensor cap is fitted to the top of the unit and sends measurements to the ABS braking system on the vehicle. The ABS sensor cap is an electrom…",
+     "gerekce": "(Özet üretilemedi)",
+     "url": "https://www.tax.service.gov.uk/search-for-advance-tariff-rulings/ruling/600015944"
+    }
+   ]
+  },
   {
    "date": "2026-08-09",
    "date_tr": "9 Ağustos 2026",
