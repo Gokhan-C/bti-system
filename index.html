@@ -175,6 +175,19 @@
 
   footer{text-align:center;padding:44px 24px 64px;color:var(--faint);font-size:13px;border-top:1px solid var(--line)}
   footer .t{font-family:'Space Grotesk',sans-serif;font-weight:600;color:var(--muted);font-size:14px}
+
+  /* ---- Favorilerim ---- */
+  #sheet .acts .fav{border:1px solid #f0d69a;background:#fffaf0;color:#8a6a1d;border-radius:13px;padding:13px 20px;font-weight:700;font-size:14px;cursor:pointer;font-family:inherit}
+  #sheet .acts .fav.on{background:#fdf3d8;border-color:#e9c46a;color:#7a5a0d}
+  #sheet .favnote{margin-top:14px}
+  #sheet .favnote label{display:block;font-size:11px;letter-spacing:.06em;text-transform:uppercase;color:#6f86ad;font-weight:700;margin-bottom:5px}
+  #sheet .favnote textarea{width:100%;min-height:60px;border:1px solid var(--line);background:#fbfdff;border-radius:12px;padding:11px 13px;font-size:14px;font-family:inherit;color:#23303f;resize:vertical;outline:none;line-height:1.5}
+  #sheet .favnote textarea:focus{border-color:#2f6bdf;background:#fff;box-shadow:0 0 0 4px rgba(47,107,223,.08)}
+  #sheet .favnote .ok{font-size:12px;color:#22a06b;font-weight:600;opacity:0;transition:opacity .2s}
+  #sheet .favnote .ok.on{opacity:1}
+  .cloudstar{position:absolute;z-index:6;line-height:1;cursor:pointer;user-select:none;
+    text-shadow:0 1px 3px rgba(40,70,120,.28);transition:opacity .15s,transform .15s}
+  .cloudstar:hover{transform:scale(1.25)}
 </style>
 </head>
 <body>
@@ -195,6 +208,7 @@
   <div class="ctas">
     <button class="btn dark" onclick="scrollToId('sky')">Günün kararlarını gör ↓</button>
     <a class="btn lite" href="dashboard.html">İstatistik paneli →</a>
+    <a class="btn lite" href="favorites.html" id="favLink">★ Favorilerim →</a>
     <button class="btn lite" onclick="scrollToId('info')">Nasıl çalışır?</button>
   </div>
   <div class="scrollhint">aşağı kaydır ↓</div>
@@ -275,6 +289,7 @@
   <div id="sheet" role="dialog" aria-modal="true" aria-label="Karar detayı"></div>
 </div>
 
+<script src="favorites.js"></script>
 <script>
 (function(){
   'use strict';
@@ -385,9 +400,15 @@
     if(d.ref) html += '<div class="sec">Referans</div><div class="txt mono" style="font-size:13px">'+esc(d.ref)+'</div>';
     if(d.title) html += '<div class="sec">Ürün tanımı</div><div class="txt">'+esc(d.title)+'</div>';
     if(d.gerekce) html += '<div class="sec">Sınıflandırma gerekçesi</div><div class="txt">'+esc(d.gerekce)+'</div>';
+    var isFav = window.BTIFav && BTIFav.has(d);
     html += '<div class="acts">';
     if(d.url) html += '<a class="btn dark go" href="'+esc(d.url)+'" target="_blank" rel="noopener">Resmî kaynağı aç ↗</a>';
-    html += '<button class="cp" id="shCp">Bağlantıyı kopyala</button></div>';
+    html += '<button class="cp" id="shCp">Bağlantıyı kopyala</button>';
+    if(window.BTIFav) html += '<button class="fav'+(isFav?' on':'')+'" id="shFav">'+(isFav?'★ Favorilerimde':'☆ Favorilerime kaydet')+'</button>';
+    html += '</div>';
+    if(window.BTIFav) html += '<div class="favnote" id="shNoteWrap"'+(isFav?'':' hidden')+'>'+
+      '<label>Notum <span class="ok" id="shNoteOk">✓ kaydedildi</span></label>'+
+      '<textarea id="shNote" placeholder="Bu kararı neden kaydettin? (otomatik kaydedilir)"></textarea></div>';
     $('sheet').innerHTML = html;
     $('ovl').classList.add('open'); $('ovl').setAttribute('aria-hidden','false');
     document.body.style.overflow = 'hidden';
@@ -399,6 +420,36 @@
         $('shCp').textContent = 'Kopyalandı ✓'; setTimeout(function(){ var b=$('shCp'); if(b) b.textContent='Bağlantıyı kopyala'; }, 1600);
       }).catch(function(){ window.prompt('Kopyala:', text); });
     };
+
+    /* --- Favorilerim: kaydet / çıkar + not --- */
+    if(window.BTIFav){
+      var favBtn = $('shFav'), noteWrap = $('shNoteWrap'), noteEl = $('shNote'), okEl = $('shNoteOk');
+      var stored = BTIFav.all().filter(function(f){ return f.id === BTIFav.idOf(d); })[0];
+      if(noteEl && stored) noteEl.value = stored.note || '';
+
+      function paintFav(on){
+        favBtn.className = 'fav' + (on ? ' on' : '');
+        favBtn.textContent = on ? '★ Favorilerimde' : '☆ Favorilerime kaydet';
+        if(noteWrap){ if(on) noteWrap.removeAttribute('hidden'); else noteWrap.setAttribute('hidden',''); }
+        refreshFavUI();
+      }
+      favBtn.onclick = function(){
+        var on = BTIFav.toggle(d, noteEl ? noteEl.value : '');
+        paintFav(on);
+        if(on && noteEl) noteEl.focus();
+      };
+      if(noteEl){
+        var nt;
+        noteEl.oninput = function(){
+          clearTimeout(nt);
+          nt = setTimeout(function(){
+            if(!BTIFav.has(d)) BTIFav.add(d, noteEl.value);
+            else BTIFav.setNote(BTIFav.idOf(d), noteEl.value);
+            if(okEl){ okEl.classList.add('on'); setTimeout(function(){ okEl.classList.remove('on'); }, 1400); }
+          }, 450);
+        };
+      }
+    }
     $('shX').focus();
   }
   function closeSheet(){
@@ -420,7 +471,8 @@
       '<span class="mono" style="font-size:11px;color:#8fb0e6">'+esc(d.hs||'')+'</span></div>'+
       '<div style="font-size:11px;color:#8597b8;margin-bottom:6px">'+esc(s.name)+(d.origin?' · '+esc(d.origin):'')+(d.ref?' · '+esc(d.ref):'')+'</div>';
     if(d.title) html += '<div style="font-size:10px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:#6f86ad;margin-top:9px">Ürün Tanımı</div><div style="font-size:12.5px;color:#dfe8f5;line-height:1.55;margin-top:3px">'+esc(d.title)+'</div>';
-    html += '<div style="margin-top:11px;font-size:11.5px;color:#8fb0e6">detay için tıkla</div>';
+    html += '<div style="margin-top:11px;font-size:11.5px;color:#8fb0e6">detay için tıkla'+
+      (window.BTIFav ? ' · <span style="color:#f0a92c">★</span> ile favorilerine kaydet' : '')+'</div>';
     tip.innerHTML = html; tip.style.opacity='1'; moveTip(e);
   }
   function moveTip(e){
@@ -470,11 +522,55 @@
       content.appendChild(sc);
     }
     btn.appendChild(content);
-    btn.addEventListener('mouseenter', function(e){ showTip(e,d); });
+
+    /* Favori yıldızı — bulutun sağ üstünde; üzerine gelince belirir,
+       favorideyse hep görünür. Tıklama bulutun detay açmasını tetiklemez. */
+    var star = null;
+    if(window.BTIFav){
+      star = document.createElement('span');
+      star.className = 'cloudstar';
+      star.style.top = Math.round(h*0.08)+'px';
+      star.style.right = Math.round(w*0.12)+'px';
+      star.style.fontSize = Math.max(13, Math.round(w*0.19))+'px';
+      var paint = function(on){
+        star.textContent = on ? '★' : '☆';
+        star.style.color = on ? '#f0a92c' : '#8fa3bd';
+        star.style.opacity = on ? '1' : '0';
+        star.title = on ? 'Favorilerimden çıkar' : 'Favorilerime kaydet';
+      };
+      paint(BTIFav.has(d));
+      star.addEventListener('click', function(e){
+        e.stopPropagation();
+        paint(BTIFav.toggle(d));
+        star.style.opacity = '1';
+        refreshFavUI();
+      });
+      btn.appendChild(star);
+      btn._paintStar = paint; btn._dec = d;
+    }
+
+    btn.addEventListener('mouseenter', function(e){ showTip(e,d); if(star) star.style.opacity='1'; });
     btn.addEventListener('mousemove', moveTip);
-    btn.addEventListener('mouseleave', hideTip);
+    btn.addEventListener('mouseleave', function(){
+      hideTip();
+      if(star && !BTIFav.has(d)) star.style.opacity='0';
+    });
     btn.addEventListener('click', function(){ hideTip(); openSheet(d); });
     return btn;
+  }
+
+  /* Favori durumu değişince: bulut yıldızları + hero sayacı tazelenir. */
+  function refreshFavUI(){
+    if(!window.BTIFav) return;
+    var f = $('skyField');
+    if(f) Array.prototype.forEach.call(f.querySelectorAll('.cloudbtn'), function(b){
+      if(b._paintStar && b._dec) b._paintStar(BTIFav.has(b._dec));
+    });
+    var link = $('favLink');
+    if(link){
+      var n = BTIFav.count();
+      link.textContent = n ? ('★ Favorilerim ('+n+') →') : '★ Favorilerim →';
+    }
   }
   function renderSky(decs){
     var field = $('skyField');
@@ -731,6 +827,12 @@
   /* ---------- kurulum ---------- */
   function start(){
     setupUI();
+    refreshFavUI();
+    // Başka sekmede favori değişirse burada da tazele
+    window.addEventListener('bti-fav-change', refreshFavUI);
+    window.addEventListener('storage', function(e){
+      if(window.BTIFav && e.key === BTIFav.KEY) refreshFavUI();
+    });
     update().then(function(){
       if(location.hash && (S.q || S.fasil || S.day>0 || S.view==='list')) scrollToId('sky');
     });

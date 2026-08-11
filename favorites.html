@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Favorilerim · GTİP Bulutları</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Hanken+Grotesk:wght@400;500;600;700&family=JetBrains+Mono:wght@500;600;700&display=swap" rel="stylesheet">
+<style>
+ *{box-sizing:border-box;margin:0;padding:0}
+ body{font-family:'Hanken Grotesk',system-ui,-apple-system,sans-serif;color:#16202b;background:#f4f8fc;line-height:1.55;-webkit-font-smoothing:antialiased}
+ .mono{font-family:'JetBrains Mono',ui-monospace,monospace}
+ .wrap{max-width:1080px;margin:0 auto;padding:26px 22px 80px}
+ .back{display:inline-flex;align-items:center;gap:7px;color:#5f7184;text-decoration:none;font-size:14px;font-weight:600}
+ .back:hover{color:#16202b}
+ h1{font-family:'Space Grotesk',sans-serif;font-weight:600;font-size:clamp(26px,3.4vw,38px);letter-spacing:-1.2px;margin-top:6px}
+ .sub{color:#5f7184;font-size:15px;margin-top:2px}
+ .top{display:flex;align-items:flex-start;justify-content:space-between;gap:16px;flex-wrap:wrap}
+ .acts{display:flex;gap:8px;flex-wrap:wrap}
+ .btn{border:1px solid #e2e8f1;background:#fff;border-radius:11px;padding:10px 16px;font-size:13.5px;font-weight:600;color:#5f7184;cursor:pointer;font-family:inherit;text-decoration:none;display:inline-flex;align-items:center;gap:7px}
+ .btn:hover{color:#16202b;border-color:#c7d3e2}
+ .btn.dark{background:#16202b;color:#fff;border-color:#16202b}
+ .searchbar{display:flex;gap:10px;margin-top:22px;flex-wrap:wrap}
+ .searchbar input{flex:1;min-width:240px;border:1px solid #e2e8f1;background:#fff;border-radius:13px;padding:14px 18px;font-size:15px;font-family:inherit;color:#16202b;outline:none}
+ .searchbar input:focus{border-color:#2f6bdf;box-shadow:0 0 0 4px rgba(47,107,223,.10)}
+ .filters{display:flex;gap:8px;flex-wrap:wrap;margin-top:14px}
+ .chipf{border:1px solid #e2e8f1;background:#fff;border-radius:10px;padding:8px 14px;font-size:13.5px;font-weight:600;color:#5f7184;cursor:pointer;display:inline-flex;align-items:center;gap:7px;font-family:inherit}
+ .chipf .dot{width:9px;height:9px;border-radius:50%}
+ .chipf.on{color:#16202b;border-color:#c7d3e2;box-shadow:0 6px 18px rgba(40,90,160,.08)}
+ .count{color:#8693a6;font-size:13.5px;margin-top:16px}
+ .list{margin-top:14px;display:flex;flex-direction:column;gap:14px}
+ .item{background:#fff;border:1px solid #e6ebf2;border-radius:18px;padding:20px 22px;box-shadow:0 10px 30px rgba(40,90,160,.05)}
+ .ih{display:flex;align-items:flex-start;justify-content:space-between;gap:14px;flex-wrap:wrap}
+ .hs{font-family:'JetBrains Mono',monospace;font-weight:700;font-size:24px;letter-spacing:-.5px;line-height:1}
+ .meta{display:flex;align-items:center;gap:10px;flex-wrap:wrap;margin-top:7px;font-size:12.5px;color:#8693a6}
+ .pill{display:inline-flex;align-items:center;gap:6px;font-weight:600}
+ .pill i{width:8px;height:8px;border-radius:50%}
+ .ttl{margin-top:12px;font-size:15px;color:#23303f}
+ .ger{margin-top:8px;font-size:13.5px;color:#5f7184}
+ .noteWrap{margin-top:14px}
+ .noteWrap label{display:block;font-size:11px;letter-spacing:.06em;text-transform:uppercase;color:#6f86ad;font-weight:700;margin-bottom:5px}
+ .noteWrap textarea{width:100%;min-height:62px;border:1px solid #e6ebf2;background:#fbfdff;border-radius:12px;padding:11px 13px;font-size:14px;font-family:inherit;color:#23303f;resize:vertical;outline:none;line-height:1.5}
+ .noteWrap textarea:focus{border-color:#2f6bdf;background:#fff;box-shadow:0 0 0 4px rgba(47,107,223,.08)}
+ .saved{font-size:12px;color:#22a06b;font-weight:600;opacity:0;transition:opacity .2s}
+ .saved.on{opacity:1}
+ .ifoot{display:flex;align-items:center;justify-content:space-between;gap:12px;margin-top:14px;flex-wrap:wrap}
+ .small{border:1px solid #e2e8f1;background:#fff;border-radius:9px;padding:8px 13px;font-size:13px;font-weight:600;color:#5f7184;cursor:pointer;font-family:inherit;text-decoration:none;display:inline-flex;align-items:center;gap:6px}
+ .small:hover{color:#16202b}
+ .small.rm:hover{color:#d94a4a;border-color:#f0c9c9}
+ .empty{background:#fff;border:1px dashed #d7e0ea;border-radius:20px;padding:60px 30px;text-align:center;margin-top:22px}
+ .empty .star{font-size:44px;line-height:1}
+ .empty h3{font-family:'Space Grotesk',sans-serif;font-size:20px;font-weight:600;margin-top:14px}
+ .empty p{color:#5f7184;font-size:15px;margin-top:8px;max-width:460px;margin-left:auto;margin-right:auto}
+ .empty .btn{margin-top:20px}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div class="top">
+    <div>
+      <a class="back" href="index.html">← GTİP Bulutları</a>
+      <h1>★ Favorilerim</h1>
+      <div class="sub" id="sub">Kaydettiğin kararlar bu tarayıcıda saklanır.</div>
+    </div>
+    <div class="acts">
+      <a class="btn" href="dashboard.html">İstatistik paneli</a>
+      <button class="btn" id="expCsv">CSV indir</button>
+      <button class="btn" id="expJson">JSON indir</button>
+    </div>
+  </div>
+
+  <div id="content"></div>
+</div>
+
+<script src="favorites.js"></script>
+<script>
+const SRC = {
+  eu:{name:'Avrupa Birliği', short:'AB', color:'#2f6bdf'},
+  us:{name:'Amerika',        short:'ABD',color:'#d07d2a'},
+  ca:{name:'Kanada',         short:'KAN',color:'#169b8b'},
+  tr:{name:'Türkiye',        short:'TR', color:'#e30a17'},
+  uk:{name:'Birleşik Krallık',short:'UK',color:'#6b4ee6'},
+};
+const srcOf = s => SRC[s] || {name:s||'—', short:(s||'?').toUpperCase(), color:'#8693a6'};
+let q = '', srcFilter = 'all';
+
+const esc = t => (t||'').replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+
+function fmtDate(iso){
+  if(!iso) return '';
+  const m=['Ocak','Şubat','Mart','Nisan','Mayıs','Haziran','Temmuz','Ağustos','Eylül','Ekim','Kasım','Aralık'];
+  const p=String(iso).split('-');
+  return p.length===3 ? `${+p[2]} ${m[+p[1]-1]} ${p[0]}` : iso;
+}
+
+function render(){
+  const el = document.getElementById('content');
+  const total = BTIFav.count();
+
+  if(!total){
+    el.innerHTML = `<div class="empty">
+      <div class="star">☆</div>
+      <h3>Henüz favori kararın yok</h3>
+      <p>Gökyüzünde bir bulutun üzerine gelip sağ üstteki <b>★</b> işaretine tıkla, ya da istatistik panelindeki karar listesinden yıldızla. Kaydettiklerin burada birikir — not ekleyebilir, sonra arayabilirsin.</p>
+      <a class="btn dark" href="index.html">Gökyüzüne git</a>
+    </div>`;
+    document.getElementById('sub').textContent = 'Kaydettiğin kararlar bu tarayıcıda saklanır.';
+    return;
+  }
+
+  let list = BTIFav.search(q);
+  if(srcFilter !== 'all') list = list.filter(f => f.source === srcFilter);
+
+  const present = [...new Set(BTIFav.all().map(f=>f.source))];
+  const chips = ['all', ...present].map(s=>{
+    const on = srcFilter===s;
+    if(s==='all') return `<button class="chipf ${on?'on':''}" data-src="all"><span class="dot" style="background:#16202b"></span>Tümü (${total})</button>`;
+    const m=srcOf(s), n=BTIFav.all().filter(f=>f.source===s).length;
+    return `<button class="chipf ${on?'on':''}" data-src="${s}"><span class="dot" style="background:${m.color}"></span>${m.name} (${n})</button>`;
+  }).join('');
+
+  el.innerHTML = `
+    <div class="searchbar">
+      <input id="q" type="search" placeholder="GTİP, ürün, gerekçe, not veya ülke ara…" value="${esc(q)}">
+    </div>
+    <div class="filters">${chips}</div>
+    <div class="count">${list.length} karar${q?` · "${esc(q)}" araması`:''}</div>
+    <div class="list">${list.map(itemHtml).join('') || '<div class="empty"><div class="star">🔍</div><h3>Eşleşen karar yok</h3><p>Arama terimini değiştirmeyi dene.</p></div>'}</div>`;
+
+  document.getElementById('sub').textContent = `${total} kayıtlı karar · bu tarayıcıda saklanır`;
+
+  const qi = document.getElementById('q');
+  if(qi){
+    qi.oninput = e => { q = e.target.value; const p=e.target.selectionStart; render();
+      const n=document.getElementById('q'); if(n){ n.focus(); n.setSelectionRange(p,p);} };
+  }
+  el.querySelectorAll('.chipf').forEach(b=>b.onclick=()=>{ srcFilter=b.dataset.src; render(); });
+  el.querySelectorAll('textarea[data-id]').forEach(t=>{
+    let tm;
+    t.oninput = () => {
+      clearTimeout(tm);
+      tm = setTimeout(()=>{
+        BTIFav.setNote(t.dataset.id, t.value);
+        const s=t.parentElement.querySelector('.saved');
+        if(s){ s.classList.add('on'); setTimeout(()=>s.classList.remove('on'),1400); }
+      }, 450);
+    };
+  });
+  el.querySelectorAll('[data-rm]').forEach(b=>b.onclick=()=>{
+    BTIFav.remove(b.dataset.rm); render();
+  });
+}
+
+function itemHtml(f){
+  const m = srcOf(f.source);
+  return `<div class="item">
+    <div class="ih">
+      <div>
+        <div class="hs" style="color:${m.color}">${esc(f.hs4||'—')}</div>
+        <div class="meta">
+          <span class="pill" style="color:${m.color}"><i style="background:${m.color}"></i>${esc(m.name)}</span>
+          ${f.origin&&f.origin!==m.name?`<span>· ${esc(f.origin)}</span>`:''}
+          ${f.hs?`<span class="mono">· ${esc(f.hs)}</span>`:''}
+          ${f.ref?`<span class="mono">· ${esc(f.ref)}</span>`:''}
+          ${f.date?`<span>· ${fmtDate(f.date)}</span>`:''}
+        </div>
+      </div>
+    </div>
+    ${f.title?`<div class="ttl">${esc(f.title)}</div>`:''}
+    ${f.gerekce?`<div class="ger">${esc(f.gerekce)}</div>`:''}
+    <div class="noteWrap">
+      <label>Notum <span class="saved">✓ kaydedildi</span></label>
+      <textarea data-id="${esc(f.id)}" placeholder="Bu karar hakkında notun… (otomatik kaydedilir)">${esc(f.note||'')}</textarea>
+    </div>
+    <div class="ifoot">
+      ${f.url?`<a class="small" href="${esc(f.url)}" target="${f.url.startsWith('http')?'_blank':'_self'}" rel="noopener">↗ Kararı aç</a>`:'<span></span>'}
+      <button class="small rm" data-rm="${esc(f.id)}">★ Favorilerden çıkar</button>
+    </div>
+  </div>`;
+}
+
+document.getElementById('expCsv').onclick = () =>
+  BTIFav.download('favori_bti_kararlarim.csv', '﻿'+BTIFav.exportCSV(), 'text/csv');
+document.getElementById('expJson').onclick = () =>
+  BTIFav.download('favori_bti_kararlarim.json', BTIFav.exportJSON(), 'application/json');
+
+window.addEventListener('bti-fav-change', ()=>{ /* aynı sekmede render zaten çağrılıyor */ });
+window.addEventListener('storage', e=>{ if(e.key===BTIFav.KEY) render(); });
+render();
+</script>
+</body>
+</html>
