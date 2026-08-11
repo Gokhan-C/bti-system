@@ -41,11 +41,27 @@ HS_KEYWORDS = [
 from docx.shared import Pt, RGBColor
 
 
-def _is_hs_classification(detail: dict) -> bool:
-    if detail.get("tariffs"):
+def _is_hs_classification(detail: dict, listing: dict | None = None) -> bool:
+    """Karar bir HS tarife sınıflandırması mı?
+
+    En güvenilir sinyal CBSA'nın kendi 'type' alanıdır
+    ("Tariff Classification Advance Ruling"); liste ve detay yanıtlarının
+    ikisinde de bulunur. Detay yanıtında 'tariffs' / 'text' /
+    'analysisAndJustification' alanları YOKTUR — gerçek alanlar
+    'classificationNumber' ve 'analysis'. Eski sürüm olmayan alanlara baktığı
+    için kararların büyük kısmını yanlışlıkla eliyordu.
+    """
+    rtype = ((detail.get("type") or "") + " " + ((listing or {}).get("type") or "")).upper()
+    if "TARIFF CLASSIFICATION" in rtype:
         return True
-    text    = (detail.get("text") or detail.get("analysisAndJustification") or "")[:600].upper()
-    subject = (detail.get("subject") or detail.get("decision") or "")[:300].upper()
+    # Menşe/kıymet/işaretleme kararlarını açıkça ele
+    if any(k in rtype for k in ("ORIGIN", "VALUATION", "MARKING")):
+        return False
+    if detail.get("tariffs") or detail.get("classificationNumber"):
+        return True
+    text = (detail.get("analysis") or detail.get("text")
+            or detail.get("analysisAndJustification") or "")[:600].upper()
+    subject = (detail.get("decision") or detail.get("subject") or "")[:300].upper()
     return any(kw in text or kw in subject for kw in HS_KEYWORDS)
 
 
@@ -105,15 +121,17 @@ class CaCbsaConnector(BaseConnector):
             ruling_type = ruling.get("typeOfRuling") or ruling.get("rulingType") or "-"
 
             detail   = _fetch_detail(ruling_id, detail_url_tpl)
-            if not _is_hs_classification(detail):
+            if not _is_hs_classification(detail, ruling):
                 time.sleep(0.3)
                 continue
 
-            analysis  = detail.get("analysisAndJustification") or detail.get("analysis") or ""
+            analysis  = detail.get("analysis") or detail.get("analysisAndJustification") or ""
             decision  = detail.get("decision") or "-"
-            applicant = detail.get("applicantName") or detail.get("applicant") or "-"
+            applicant = detail.get("applicant") or detail.get("applicantName") or "-"
             origin    = detail.get("countryOfOrigin") or detail.get("origin") or "-"
             prod_desc = detail.get("productDescription") or detail.get("description") or product
+            # GTİP: liste kaydı boşsa detaydan tamamla
+            hts = hts if hts and hts != "-" else (detail.get("classificationNumber") or "-")
             source_url = (
                 f"https://ccp-pcc.cbsa-asfc.cloud-nuage.canada.ca"
                 f"/en/national-rulings/national-rulings-details/{ruling_id}"

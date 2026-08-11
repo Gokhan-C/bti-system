@@ -58,6 +58,9 @@
  th{font-size:11px;letter-spacing:.05em;text-transform:uppercase;color:#8693a6;font-weight:700}
  tr.dec{cursor:pointer}
  tr.dec:hover td{background:#f7faff}
+ td.star{cursor:pointer;font-size:17px;line-height:1;color:#c3cfdf;width:34px;text-align:center;user-select:none}
+ td.star:hover{color:#f0a92c;transform:scale(1.15)}
+ td.star.on{color:#f0a92c}
  td .t{color:#23303f}
  .pill{display:inline-flex;align-items:center;gap:6px;font-size:12px;font-weight:600;color:#5f7184}
  .pill i{width:8px;height:8px;border-radius:50%}
@@ -71,6 +74,7 @@
   <div class="top">
     <div>
       <a class="back" href="index.html">← GTİP Bulutları</a>
+      <a class="back" href="favorites.html" id="favLink" style="margin-left:14px">★ Favorilerim</a>
       <h1>İstatistik Paneli</h1>
       <div class="sub" id="sub">Yükleniyor…</div>
     </div>
@@ -119,14 +123,18 @@
 </div>
 
 <script src="data.js"></script>
+<script src="favorites.js"></script>
 <script>
 const DATA = window.BTI_DATA || {days:[]};
 const SRC = {
-  eu:{name:'Avrupa Birliği', short:'AB', color:'#2f6bdf', flag:'🇪🇺'},
-  us:{name:'Amerika',        short:'ABD',color:'#d07d2a', flag:'🇺🇸'},
-  ca:{name:'Kanada',         short:'KAN',color:'#169b8b', flag:'🇨🇦'},
-  tr:{name:'Türkiye',        short:'TR', color:'#e30a17', flag:'🇹🇷'},
+  eu:{name:'Avrupa Birliği',  short:'AB', color:'#2f6bdf', flag:'🇪🇺'},
+  us:{name:'Amerika',         short:'ABD',color:'#d07d2a', flag:'🇺🇸'},
+  ca:{name:'Kanada',          short:'KAN',color:'#169b8b', flag:'🇨🇦'},
+  uk:{name:'İngiltere',       short:'UK', color:'#3d5aa9', flag:'🇬🇧'},
+  tr:{name:'Türkiye',         short:'TR', color:'#e30a17', flag:'🇹🇷'},
 };
+/* Bilinmeyen bir kaynak eklenirse panel çökmesin (SRC[x] undefined olmasın). */
+const srcOf = s => SRC[s] || {name:s||'—', short:(s||'?').toUpperCase(), color:'#8693a6', flag:''};
 // HS Fasıl (ilk 2 hane) → kısa Türkçe ad (yaygın olanlar; gerisi "Fasıl XX")
 const HS2 = {
  '02':'Etler','03':'Balık, su ürünleri','04':'Süt ürünleri, yumurta','07':'Sebzeler','08':'Meyveler',
@@ -153,7 +161,7 @@ const chapName = c => HS2[c] || ('Fasıl '+c);
 let state = { period:'month', tab:'all', listLimit:25 };
 
 const all = DATA.days.flatMap(d => d.decisions.map(x => Object.assign({}, x, {_date:d.date})));
-const presentSources = [...new Set(all.map(x=>x.source))].filter(s=>SRC[s]);
+const presentSources = [...new Set(all.map(x=>x.source))];
 const curMonth = (DATA.today || (DATA.days[0]&&DATA.days[0].date) || '').slice(0,7);
 const monthName = (()=>{const m=['Ocak','Şubat','Mart','Nisan','Mayıs','Haziran','Temmuz','Ağustos','Eylül','Ekim','Kasım','Aralık'];const p=curMonth.split('-');return p[1]?m[+p[1]-1]+' '+p[0]:'';})();
 
@@ -175,7 +183,7 @@ function esc(t){ return (t||'').replace(/[&<>]/g,c=>({'&':'&amp;','<':'&lt;','>'
 function countBy(arr, key){ const m={}; arr.forEach(x=>{const k=key(x); if(k) m[k]=(m[k]||0)+1;}); return m; }
 function sortEntries(obj){ return Object.entries(obj).sort((a,b)=>b[1]-a[1]); }
 
-function accent(){ return state.tab==='all' ? '#16202b' : SRC[state.tab].color; }
+function accent(){ return state.tab==='all' ? '#16202b' : srcOf(state.tab).color; }
 
 function renderTabs(){
   const el = document.getElementById('tabs');
@@ -186,7 +194,7 @@ function renderTabs(){
     return `<button class="tab ${on?'on':''}" ${color?'data-accent':''} style="${style}" data-tab="${id}">${dot}${label}</button>`;
   };
   let h = mk('all','Tümü',null);
-  presentSources.forEach(s=>{ h += mk(s, SRC[s].flag+' '+SRC[s].name, SRC[s].color); });
+  presentSources.forEach(s=>{ h += mk(s, srcOf(s).flag+' '+srcOf(s).name, srcOf(s).color); });
   el.innerHTML = h;
   el.querySelectorAll('button').forEach(b=>b.onclick=()=>{ state.tab=b.dataset.tab; state.listLimit=25; render(); });
 }
@@ -208,7 +216,7 @@ function render(){
   document.querySelectorAll('#period button').forEach(b=>b.classList.toggle('on', b.dataset.p===state.period));
 
   const periodLabel = state.period==='month'?('Bu Ay · '+monthName):state.period==='d30'?'Son 30 Gün':'Tüm Zamanlar';
-  document.getElementById('sub').innerHTML = `${periodLabel} · ${state.tab==='all'?'tüm ülkeler':SRC[state.tab].flag+' '+SRC[state.tab].name}`;
+  document.getElementById('sub').innerHTML = `${periodLabel} · ${state.tab==='all'?'tüm ülkeler':srcOf(state.tab).flag+' '+srcOf(state.tab).name}`;
 
   // ── kartlar ──
   const days = new Set(f.map(x=>x._date));
@@ -253,9 +261,9 @@ function render(){
   document.getElementById('ctrNote').textContent = state.tab==='all'?'':'sekme tek ülkeye filtreli';
   document.getElementById('country').innerHTML = sEntries.map(([s,n])=>{
     const w=Math.max(4,n/maxS*100);
-    return `<div class="row"><div class="code" style="color:${SRC[s].color}">${SRC[s].flag}</div>
-      <div><div class="bar"><i style="width:${w}%;background:${SRC[s].color}"></i></div>
-      <div class="lab">${SRC[s].name}</div></div><div class="cnt">${n}</div></div>`;
+    return `<div class="row"><div class="code" style="color:${srcOf(s).color}">${srcOf(s).flag}</div>
+      <div><div class="bar"><i style="width:${w}%;background:${srcOf(s).color}"></i></div>
+      <div class="lab">${srcOf(s).name}</div></div><div class="cnt">${n}</div></div>`;
   }).join('');
 
   // ── günlük aktivite (yığılmış) ──
@@ -267,19 +275,21 @@ function render(){
   const order = state.tab==='all'?presentSources:[state.tab];
   document.getElementById('daily').innerHTML = dlist.map(d=>{
     const tot=Object.values(perDay[d]).reduce((a,b)=>a+b,0);
-    const segs=order.filter(s=>perDay[d][s]).map(s=>`<div class="seg2" style="height:${perDay[d][s]/maxDay*150}px;background:${SRC[s].color}"></div>`).join('');
+    const segs=order.filter(s=>perDay[d][s]).map(s=>`<div class="seg2" style="height:${perDay[d][s]/maxDay*150}px;background:${srcOf(s).color}"></div>`).join('');
     return `<div class="dcol" title="${d} · ${tot} karar">${segs}</div>`;
   }).join('') || '<div class="empty">Veri yok.</div>';
-  document.getElementById('dailyLegend').innerHTML = order.map(s=>`<span><i style="background:${SRC[s].color}"></i>${SRC[s].name}</span>`).join('');
+  document.getElementById('dailyLegend').innerHTML = order.map(s=>`<span><i style="background:${srcOf(s).color}"></i>${srcOf(s).name}</span>`).join('');
 
   // ── karar listesi ──
   const sorted = f.slice().sort((a,b)=> a._date<b._date?1:a._date>b._date?-1:0);
   const shown = sorted.slice(0, state.listLimit);
   document.getElementById('listNote').textContent = f.length+' karar';
   if(!sorted.length){ document.getElementById('list').innerHTML='<div class="empty">Bu seçimde karar yok.</div>'; return; }
-  let rows = shown.map(x=>{
-    const s=SRC[x.source];
-    return `<tr class="dec" data-url="${tip(x.url)}">
+  let rows = shown.map((x,i)=>{
+    const s=srcOf(x.source);
+    const on = window.BTIFav && BTIFav.has(x);
+    return `<tr class="dec" data-url="${tip(x.url)}" data-i="${i}">
+      <td class="star ${on?'on':''}" data-fav="${i}" title="${on?'Favorilerimden çıkar':'Favorilerime kaydet'}">${on?'★':'☆'}</td>
       <td class="mono" style="font-weight:700;color:${s.color}">${x.hs4||'—'}</td>
       <td><span class="pill"><i style="background:${s.color}"></i>${s.short}${x.origin&&x.origin!==s.name?' · '+esc(x.origin):''}</span></td>
       <td class="mono" style="color:#8693a6;white-space:nowrap">${x._date}</td>
@@ -288,9 +298,25 @@ function render(){
   }).join('');
   let more = sorted.length>state.listLimit ? `<div class="more"><button id="moreBtn">Daha fazla göster (${sorted.length-state.listLimit})</button></div>` : '';
   document.getElementById('list').innerHTML =
-    `<table><thead><tr><th>GTİP</th><th>Kaynak</th><th>Tarih</th><th>Ürün</th></tr></thead><tbody>${rows}</tbody></table>${more}`;
+    `<table><thead><tr><th></th><th>GTİP</th><th>Kaynak</th><th>Tarih</th><th>Ürün</th></tr></thead><tbody>${rows}</tbody></table>${more}`;
+  // Yıldız → favori (satır tıklamasını tetiklemez)
+  document.querySelectorAll('[data-fav]').forEach(td=>td.onclick=e=>{
+    e.stopPropagation();
+    if(!window.BTIFav) return;
+    const dec = shown[+td.dataset.fav];
+    const on = BTIFav.toggle(dec);
+    td.textContent = on?'★':'☆';
+    td.classList.toggle('on', on);
+    td.title = on?'Favorilerimden çıkar':'Favorilerime kaydet';
+    paintFavLink();
+  });
   document.querySelectorAll('tr.dec').forEach(tr=>tr.onclick=()=>{ const u=tr.dataset.url; if(u) window.open(u, u.startsWith('http')?'_blank':'_self'); });
   const mb=document.getElementById('moreBtn'); if(mb) mb.onclick=()=>{ state.listLimit+=50; render(); };
+}
+
+function paintFavLink(){
+  const l=document.getElementById('favLink');
+  if(l && window.BTIFav){ const n=BTIFav.count(); l.textContent = n?`★ Favorilerim (${n})`:'★ Favorilerim'; }
 }
 
 function card(k,v,s){ return `<div class="card"><div class="k">${k}</div><div class="v">${v}</div><div class="s">${s}</div></div>`; }
@@ -298,6 +324,8 @@ function card(k,v,s){ return `<div class="card"><div class="k">${k}</div><div cl
 document.querySelectorAll('#period button').forEach(b=>b.onclick=()=>{ state.period=b.dataset.p; state.listLimit=25; render(); });
 renderTabs();
 render();
+paintFavLink();
+window.addEventListener('storage', e=>{ if(window.BTIFav && e.key===BTIFav.KEY){ render(); paintFavLink(); } });
 </script>
 </body>
 </html>

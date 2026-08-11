@@ -1,15 +1,15 @@
 window.BTI_DATA = {
- "generated_at": "2026-08-11 06:01",
- "today": "2026-08-11",
- "today_tr": "11 Ağustos 2026",
+ "generated_at": "2026-08-12 00:24",
+ "today": "2026-08-12",
+ "today_tr": "12 Ağustos 2026",
  "latest_date": "2026-08-10",
  "latest_is_today": false,
- "total_decisions": 3993,
+ "total_decisions": 4008,
  "total_days": 109,
  "source_counts": {
   "eu": 3255,
   "us": 279,
-  "ca": 3,
+  "ca": 18,
   "uk": 187,
   "tr": 269
  },
@@ -24571,7 +24571,7 @@ window.BTI_DATA = {
   {
    "date": "2026-07-10",
    "date_tr": "10 Temmuz 2026",
-   "count": 161,
+   "count": 163,
    "sources": [
     "ca",
     "eu",
@@ -24598,13 +24598,13 @@ window.BTI_DATA = {
      "color": "#D34040",
      "flag": "🇨🇦",
      "origin": "Kanada",
-     "hs": "8302.50.00.90",
+     "hs": "8302.50.00.10",
      "hs4": "8302",
-     "ref": "8000013832",
+     "ref": "8000014153",
      "date": "2026-07-10",
-     "title": "&&The product under review is a “Breakaway Clothing Hook”. It is an anti-ligature clothing unit with four (4) hooks per unit used in women’s correctional facilities. The hook is engineered with a weight-activated collapsible mechanism for high-risk environments. The hook collapse…",
+     "title": "&&The goods are three models of brackets designed to secure audiovisual devices to monitors that are specialized for virtual meetings in conference rooms, namely items called “MD-AVBracket-L, MD-AVBracket-S and MD-PTZBracket”. The goods are L or S shaped brackets made of powder-c…",
      "gerekce": "(Özet üretilemedi)",
-     "url": "https://ccp-pcc.cbsa-asfc.cloud-nuage.canada.ca/en/national-rulings/national-rulings-details/8000013832"
+     "url": "https://ccp-pcc.cbsa-asfc.cloud-nuage.canada.ca/en/national-rulings/national-rulings-details/8000014153"
     },
     {
      "source": "uk",
@@ -24635,6 +24635,20 @@ window.BTI_DATA = {
      "url": "https://ec.europa.eu/taxation_customs/dds2/ebti/ebti_details.jsp?showHeader=false&Lang=en&reference=NLBTI2026-0194"
     },
     {
+     "source": "ca",
+     "source_label": "Kanada (CBSA)",
+     "color": "#D34040",
+     "flag": "🇨🇦",
+     "origin": "Kanada",
+     "hs": "7315.82.00.20",
+     "hs4": "7315",
+     "ref": "8000013578",
+     "date": "2026-07-10",
+     "title": "&&The good is a high-strength hoist lifting chain. A hoist lifting chain is a welded-link steel chain engineered to bear loads in vertical lifting applications. Hoist chains are manufactured to precise tolerances, subjected to heat treatment, and designed to operate with the load…",
+     "gerekce": "(Özet üretilemedi)",
+     "url": "https://ccp-pcc.cbsa-asfc.cloud-nuage.canada.ca/en/national-rulings/national-rulings-details/8000013578"
+    },
+    {
      "source": "uk",
      "source_label": "İngiltere (HMRC)",
      "color": "#012169",
@@ -24661,6 +24675,20 @@ window.BTI_DATA = {
      "title": "Sözde etkileşimli bir monitör olup -beyana göre- diğerlerinin yanı sıra aşağıdaki özelliklere ve bileşime sahiptir:- (büyük) sınıflarda kullanım için etkileşimli bir dokunmatik ekran;- eğitim amaçları ve video konferanslar için;- uygulamalarla (app) çalışmak ve bunların işlemleri…",
      "gerekce": "Kombine nomenklatürün yorumlanmasına ilişkin 1, 5b ve 6 numaralı genel kurallar.84. Fasıla ilişkin 6 numaralı notun A harfiIDR 8471.41/1 tarifelemesi (AB Resmi Gazetesi C, 26 Ekim 2023)Ürün, bir elektronik beyaz tahtanın…",
      "url": "https://ec.europa.eu/taxation_customs/dds2/ebti/ebti_details.jsp?showHeader=false&Lang=en&reference=NLBTI2026-0195"
+    },
+    {
+     "source": "ca",
+     "source_label": "Kanada (CBSA)",
+     "color": "#D34040",
+     "flag": "🇨🇦",
+     "origin": "Kanada",
+     "hs": "8302.50.00.90",
+     "hs4": "8302",
+     "ref": "8000013832",
+     "date": "2026-07-10",
+     "title": "&&The product under review is a “Breakaway Clothing Hook”. It is an anti-ligature clothing unit with four (4) hooks per unit used in women’s correctional facilities. The hook is engineered with a weight-activated collapsible mechanism for high-risk environments. The hook collapse…",
+     "gerekce": "(Özet üretilemedi)",
+     "url": "https://ccp-pcc.cbsa-asfc.cloud-nuage.canada.ca/en/national-rulings/national-rulings-details/8000013832"
     },
     {
      "source": "eu",
@@ -27869,8 +27897,9 @@ window.BTI_DATA = {
   {
    "date": "2026-07-08",
    "date_tr": "8 Temmuz 2026",
-   "count": 58,
+   "count": 60,
    "sources": [
+    "ca",
     "eu",
     "tr",
     "uk"
@@ -27889,6 +27918,20 @@ window.BTI_DATA = {
      "title": "Ürün, %100 natamisin (CAS 7681-93-8) içeren, toz halinde sunulan bir maddedir; antifungal etkiye sahip bu madde, Streptomyces natalensis bakterisi yardımıyla fermantasyon yoluyla elde edilmekte, ardından optimum çözünürlük sağlamak amacıyla yeniden kristalize edilmektedir. Ürün, …",
      "gerekce": "Sınıflandırma, Kombine Nomanklatürün yorumlanmasına ilişkin 1 ve 6 numaralı genel kurallara, ayrıca 3808 pozisyonunun metnine, 3808 92 AS koduna ve 3808 92 90 KN koduna göre yapılmıştır. VI. Bölüm 2 no'lu Not. 29. Fasıl …",
      "url": "https://ec.europa.eu/taxation_customs/dds2/ebti/ebti_details.jsp?showHeader=false&Lang=en&reference=BEBTIDT.50.024.448"
+    },
+    {
+     "source": "ca",
+     "source_label": "Kanada (CBSA)",
+     "color": "#D34040",
+     "flag": "🇨🇦",
+     "origin": "Kanada",
+     "hs": "8483.90.00.20",
+     "hs4": "8483",
+     "ref": "8000013995",
+     "date": "2026-07-08",
+     "title": "&&The Go-Lift Hub Gear 151222-147, the Go-Lift Idler Gear 151229-148 and the Go-Lift Motor Gear 210108-ac01, are exported from Pacific Rim Direct, Maryland Heights, Missouri, United States of America and Meco Inc., Nanjing, China. The importer has declared that the addition of an…",
+     "gerekce": "(Özet üretilemedi)",
+     "url": "https://ccp-pcc.cbsa-asfc.cloud-nuage.canada.ca/en/national-rulings/national-rulings-details/8000013995"
     },
     {
      "source": "uk",
@@ -27931,6 +27974,20 @@ window.BTI_DATA = {
      "title": "Dikdörtgen kapı takozu tipinde, plastik maddeden çeşitli eşya. Ürün, evsel kullanım için tasarlanmıştır.",
      "gerekce": "Genel kurallar 1 ve 6: sınıflandırma, bölüm ve fasıl notlarıyla ve ayrıca pozisyon, alt pozisyon ve KN kodu metniyle belirlenir. Fasıl 39'un 1 no'lu Notu: «plastik maddeler» teriminin tanımı. Plastik maddeden çeşitli eşy…",
      "url": "https://ec.europa.eu/taxation_customs/dds2/ebti/ebti_details.jsp?showHeader=false&Lang=en&reference=FRBTIFR-BTI-2026-04579"
+    },
+    {
+     "source": "ca",
+     "source_label": "Kanada (CBSA)",
+     "color": "#D34040",
+     "flag": "🇨🇦",
+     "origin": "Kanada",
+     "hs": "9401.71.10.10",
+     "hs4": "9401",
+     "ref": "8000014155",
+     "date": "2026-07-08",
+     "title": "&&The H2 Norway Bravo Norsit Leather Recliner with Ottoman is a furniture set for domestic, sedentary purposes. The upholstered leather recliner has features including 360 swivel action, adjustable headrest, reclining function, and an adaptative footstool. The recliner’s seat and…",
+     "gerekce": "(Özet üretilemedi)",
+     "url": "https://ccp-pcc.cbsa-asfc.cloud-nuage.canada.ca/en/national-rulings/national-rulings-details/8000014155"
     },
     {
      "source": "uk",
@@ -36572,8 +36629,9 @@ window.BTI_DATA = {
   {
    "date": "2026-06-29",
    "date_tr": "29 Haziran 2026",
-   "count": 22,
+   "count": 23,
    "sources": [
+    "ca",
     "eu",
     "tr",
     "uk"
@@ -36592,6 +36650,20 @@ window.BTI_DATA = {
      "title": "Başvuru sahibinin açıklaması ve ekli görüntülere göre ürün, küçük çocuklara yönelik interaktif bir müzikli oyuncak olup emekleme pozisyonunda yürüyen bir ayıyı temsil etmektedir. Oyuncak tekstil malzemesinden yapılmıştır ve kısmen dolgu malzemesiyle doldurulmuştur; baş ve uzuvlar…",
      "gerekce": "Kombine Nomenklatürünün yorumlanmasına ilişkin 1, 3 b) ve 6 numaralı genel kurallar. Komisyon'un belirli eşyaların Kombine Nomenklatüre göre sınıflandırılmasına dair 2 Mart 2015 tarihli ve (EU) 2015/352 sayılı Yönetmeliğ…",
      "url": "https://ec.europa.eu/taxation_customs/dds2/ebti/ebti_details.jsp?showHeader=false&Lang=en&reference=ROBTI2026-005485"
+    },
+    {
+     "source": "ca",
+     "source_label": "Kanada (CBSA)",
+     "color": "#D34040",
+     "flag": "🇨🇦",
+     "origin": "Kanada",
+     "hs": "4402.90.10.00",
+     "hs4": "4402",
+     "ref": "8000013655",
+     "date": "2026-06-29",
+     "title": "&&The hardwood charcoal is produced through a carbonization process using natural hardwood as the raw material. No chemical additives, binders, or accelerants are used in the production process. The hardwood is first cut into appropriate sizes and placed in a charcoal kiln. The w…",
+     "gerekce": "(Özet üretilemedi)",
+     "url": "https://ccp-pcc.cbsa-asfc.cloud-nuage.canada.ca/en/national-rulings/national-rulings-details/8000013655"
     },
     {
      "source": "uk",
@@ -36972,8 +37044,9 @@ window.BTI_DATA = {
   {
    "date": "2026-06-26",
    "date_tr": "26 Haziran 2026",
-   "count": 107,
+   "count": 109,
    "sources": [
+    "ca",
     "eu",
     "tr",
     "uk"
@@ -36992,6 +37065,20 @@ window.BTI_DATA = {
      "title": "Endüstriyel, lojistik veya üretim alanlarının sınırlandırılmasına ve fiziksel olarak korunmasına yönelik, monte edilebilir yapısal elemanlardan oluşan modüler çevre koruma sistemi. Sistem; çerçeveli veya çerçevesiz metal kafes paneller, çelik sac paneller ve birbirleriyle kombinl…",
      "gerekce": "Birleşik Nomenclature'ün yorumlanmasına ilişkin 1, 2 a) ve 6 No'lu genel kurallar. BN kodlarının metni: 7308, 7308 90, 7308 90 98.",
      "url": "https://ec.europa.eu/taxation_customs/dds2/ebti/ebti_details.jsp?showHeader=false&Lang=en&reference=ITBTI2025-0017"
+    },
+    {
+     "source": "ca",
+     "source_label": "Kanada (CBSA)",
+     "color": "#D34040",
+     "flag": "🇨🇦",
+     "origin": "Kanada",
+     "hs": "8708.99.99.99",
+     "hs4": "8708",
+     "ref": "8000013652",
+     "date": "2026-06-26",
+     "title": "&&The good subject to this advance ruling is an assault barrier / bus transit safety enclosure designed for installation in public transit vehicles (such as buses) to protect the operator. It is a fully assembled modular enclosure system consisting of a rigid steel frame and tran…",
+     "gerekce": "(Özet üretilemedi)",
+     "url": "https://ccp-pcc.cbsa-asfc.cloud-nuage.canada.ca/en/national-rulings/national-rulings-details/8000013652"
     },
     {
      "source": "uk",
@@ -37034,6 +37121,20 @@ window.BTI_DATA = {
      "title": "Çevre koruyucularına monte edilen kilitler, kilit sistemleri ve güvenlik anahtarlarının kurulumu için özel olarak tasarlanmış çelik braketi. Bileşen, modüler çevre koruyucularına ve bunlara ait erişim kapılarına monte edilen kilitlerin, kilit sistemlerinin ve güvenlik anahtarları…",
      "gerekce": "Birleşik Nomenclature'ün yorumlanmasına ilişkin 1 ve 6 No'lu genel kurallar. BN kodlarının metni: 7308, 7308 90 ve 7308 90 98.",
      "url": "https://ec.europa.eu/taxation_customs/dds2/ebti/ebti_details.jsp?showHeader=false&Lang=en&reference=ITBTI2025-0018"
+    },
+    {
+     "source": "ca",
+     "source_label": "Kanada (CBSA)",
+     "color": "#D34040",
+     "flag": "🇨🇦",
+     "origin": "Kanada",
+     "hs": "8703.80.00.90",
+     "hs4": "8703",
+     "ref": "8000013754",
+     "date": "2026-06-26",
+     "title": "&&The goods are electric ATVs designed for children aged 3-12 years old. They are equipped with a 36, 48 or 60- volt battery, and are capable of reaching maximum speeds of 20-32 km/h. They sport inflatable rubber tires, a disc brake system, and shock absorbent suspensions. Each A…",
+     "gerekce": "(Özet üretilemedi)",
+     "url": "https://ccp-pcc.cbsa-asfc.cloud-nuage.canada.ca/en/national-rulings/national-rulings-details/8000013754"
     },
     {
      "source": "uk",
@@ -39404,8 +39505,9 @@ window.BTI_DATA = {
   {
    "date": "2026-06-24",
    "date_tr": "24 Haziran 2026",
-   "count": 105,
+   "count": 107,
    "sources": [
+    "ca",
     "eu",
     "uk"
    ],
@@ -39423,6 +39525,20 @@ window.BTI_DATA = {
      "title": "4K UHD çözünürlüklü (3840 × 2160), dahili işletim sistemli, dahili hoparlörlü (çıkış gücü 2 x 10 W), Bluetooth ve Wi-Fi için iki kablosuz arabirimli, lazer gücünün otomatik kontrolü için ışık sensörlü, görüntü geometrisi ve netliğinin otomatik ayarı için kameralı dijital, akıllı,…",
      "gerekce": "Kombine Nomenklatürün yorumlanmasına ilişkin Genel Kurallar 1 ve 6; 84. Fasıl'a ilişkin 6(E) No.lu Not; DGÖ (WCO) görüşü 8528 62/2; 8528 pozisyonuna ilişkin Armonize Sistem (HS) İzahname notları (1) ve (C), 8528 62 00 il…",
      "url": "https://ec.europa.eu/taxation_customs/dds2/ebti/ebti_details.jsp?showHeader=false&Lang=en&reference=SIBTI2026%2F0044"
+    },
+    {
+     "source": "ca",
+     "source_label": "Kanada (CBSA)",
+     "color": "#D34040",
+     "flag": "🇨🇦",
+     "origin": "Kanada",
+     "hs": "9403.20.00.99",
+     "hs4": "9403",
+     "ref": "8000013800",
+     "date": "2026-06-24",
+     "title": "&&The product is a purpose-built, mobile floor stand designed specifically for the MeetingBoard 65 Pro, which is described as a 65-inch all-in-one smart video conferencing and interactive collaboration display designed for modern hybrid corporate or educational workspaces.&&&&The…",
+     "gerekce": "(Özet üretilemedi)",
+     "url": "https://ccp-pcc.cbsa-asfc.cloud-nuage.canada.ca/en/national-rulings/national-rulings-details/8000013800"
     },
     {
      "source": "uk",
@@ -39451,6 +39567,20 @@ window.BTI_DATA = {
      "title": "4K UHD çözünürlüklü (3840 × 2160), dahili işletim sistemli, dahili hoparlörlü (çıkış gücü 2x 15 W + 2x 10 W), Bluetooth ve Wi-Fi için iki kablosuz arabirimli, lazer gücünün otomatik kontrolü için ışık sensörlü, görüntü geometrisi ve netliğinin otomatik ayarı için kameralı dijital…",
      "gerekce": "Kombine Nomenklatürün yorumlanmasına ilişkin Genel Kurallar 1 ve 6; 84. Fasıl'a ilişkin 6(E) No.lu Not; DGÖ (WCO) görüşü 8528 62/2; 8528 pozisyonuna ilişkin Armonize Sistem (HS) İzahname notları (1) ve (C), 8528 62 00 il…",
      "url": "https://ec.europa.eu/taxation_customs/dds2/ebti/ebti_details.jsp?showHeader=false&Lang=en&reference=SIBTI2026%2F0043"
+    },
+    {
+     "source": "ca",
+     "source_label": "Kanada (CBSA)",
+     "color": "#D34040",
+     "flag": "🇨🇦",
+     "origin": "Kanada",
+     "hs": "7307.99.00.19",
+     "hs4": "7307",
+     "ref": "8000013449",
+     "date": "2026-06-24",
+     "title": "&&A custom-fabricated steel pipeline sleeve intended for use in the repair and reinforcement of an existing pipeline. The steel sleeve is installed around the damaged area of the pipeline to restore its structural integrity and support safe ongoing operation. The sleeve has a 6\" …",
+     "gerekce": "(Özet üretilemedi)",
+     "url": "https://ccp-pcc.cbsa-asfc.cloud-nuage.canada.ca/en/national-rulings/national-rulings-details/8000013449"
     },
     {
      "source": "uk",
@@ -46144,8 +46274,9 @@ window.BTI_DATA = {
   {
    "date": "2026-06-11",
    "date_tr": "11 Haziran 2026",
-   "count": 11,
+   "count": 14,
    "sources": [
+    "ca",
     "eu",
     "tr"
    ],
@@ -46165,6 +46296,20 @@ window.BTI_DATA = {
      "url": "https://ec.europa.eu/taxation_customs/dds2/ebti/ebti_details.jsp?showHeader=false&Lang=en&reference=ESBTIESBTI2026REN923"
     },
     {
+     "source": "ca",
+     "source_label": "Kanada (CBSA)",
+     "color": "#D34040",
+     "flag": "🇨🇦",
+     "origin": "Kanada",
+     "hs": "4420.19.00.00",
+     "hs4": "4420",
+     "ref": "8000013362",
+     "date": "2026-06-11",
+     "title": "&&The Wood Decorations for this advance ruling are Style Numbers WCZ4451 and WCZ4452.&&Style Number WCZ4451 is a decoration with the separate wood letters, “PAPA” composed of medium density fiberboard (MDF) measuring 1.2 cm in thickness attached to a MDF base measuring 2 cm in th…",
+     "gerekce": "(Özet üretilemedi)",
+     "url": "https://ccp-pcc.cbsa-asfc.cloud-nuage.canada.ca/en/national-rulings/national-rulings-details/8000013362"
+    },
+    {
      "source": "tr",
      "source_label": "Türkiye (BTB)",
      "color": "#E30A17",
@@ -46179,6 +46324,20 @@ window.BTI_DATA = {
      "url": "tr/TR330000260016.html"
     },
     {
+     "source": "ca",
+     "source_label": "Kanada (CBSA)",
+     "color": "#D34040",
+     "flag": "🇨🇦",
+     "origin": "Kanada",
+     "hs": "4420.19.00.00",
+     "hs4": "4420",
+     "ref": "8000013361",
+     "date": "2026-06-11",
+     "title": "&&The Wood Decorations for this advance ruling are Style Numbers Z4443, Z4444, Z4410, Z4416, and WCZ4455. Style Number Z4443 is a wood “cut out” of a hammer affixed to a wood base with the printed statement “My Dad Can Fix Anything”. It is composed of 95% medium density fiberboar…",
+     "gerekce": "(Özet üretilemedi)",
+     "url": "https://ccp-pcc.cbsa-asfc.cloud-nuage.canada.ca/en/national-rulings/national-rulings-details/8000013361"
+    },
+    {
      "source": "tr",
      "source_label": "Türkiye (BTB)",
      "color": "#E30A17",
@@ -46191,6 +46350,20 @@ window.BTI_DATA = {
      "title": "ODA PARFÜMÜ: Finmanlife marka, 6 ml edatında oda parfümü.",
      "gerekce": "a. Genel yorum kuralları (1), ve (6) maddeleri. b. Türk Gümrük Tarife Cetvelinin 3307 Tarife Pozisyonu Açıklama Notları.",
      "url": "tr/TR330000260020.html"
+    },
+    {
+     "source": "ca",
+     "source_label": "Kanada (CBSA)",
+     "color": "#D34040",
+     "flag": "🇨🇦",
+     "origin": "Kanada",
+     "hs": "4420.19.00.00",
+     "hs4": "4420",
+     "ref": "8000013360",
+     "date": "2026-06-11",
+     "title": "&&The Wood Decorations for this advance ruling are Style Numbers WCZ4408, WCZ4428 and WCZ4453. Style Number WCZ4408 is a decoration with the separate wood letters, “TEACHERS” painted different colours and affixed to a wood base. The wood base is in the shape and painted like a ru…",
+     "gerekce": "(Özet üretilemedi)",
+     "url": "https://ccp-pcc.cbsa-asfc.cloud-nuage.canada.ca/en/national-rulings/national-rulings-details/8000013360"
     },
     {
      "source": "tr",
@@ -46376,8 +46549,9 @@ window.BTI_DATA = {
   {
    "date": "2026-06-09",
    "date_tr": "9 Haziran 2026",
-   "count": 8,
+   "count": 10,
    "sources": [
+    "ca",
     "eu",
     "tr"
    ],
@@ -46395,6 +46569,20 @@ window.BTI_DATA = {
      "title": "Duvara veya kapıya monte edilen elektronik cihaz gövdesi; içi delinmiş delikler, çeşitli açıklıklar ve dikdörtgen bir kesim bulunan üç parçadan oluşmaktadır. Ön ve arka parçalar mıknatıslarla orta parçaya sabitlenmiştir. Alüminyumdan imal edilmiş olup monte edilmiş gövdenin boyut…",
      "gerekce": "Birleşik Nomenklatürün yorumlanmasına ilişkin 1. ve 6. Genel Kurallar; XVI. Bölüm'ün 2(b) Notu; 8517 tarife pozisyonuna ilişkin HS Açıklayıcı Notları'nın parçalar bölümü.",
      "url": "https://ec.europa.eu/taxation_customs/dds2/ebti/ebti_details.jsp?showHeader=false&Lang=en&reference=SIBTI2026%2F0035"
+    },
+    {
+     "source": "ca",
+     "source_label": "Kanada (CBSA)",
+     "color": "#D34040",
+     "flag": "🇨🇦",
+     "origin": "Kanada",
+     "hs": "9102.12.00.00",
+     "hs4": "9102",
+     "ref": "8000013455",
+     "date": "2026-06-09",
+     "title": "&&Based on the information provided, the product at issue is a wearable multifunction device. It incorporates a watch, timer, alarm, fitness tracker, heart rate monitor and GPS navigation. The goods feature a 1.3\" sapphire glass screen, are powered by rechargeable Li-ion battery …",
+     "gerekce": "(Özet üretilemedi)",
+     "url": "https://ccp-pcc.cbsa-asfc.cloud-nuage.canada.ca/en/national-rulings/national-rulings-details/8000013455"
     },
     {
      "source": "tr",
@@ -46423,6 +46611,20 @@ window.BTI_DATA = {
      "title": "Çok kullanımlık elektronik akıllı etiket. Plastik gövde ve e-kağıt teknolojisine dayalı ekrandan oluşmaktadır. Elektronik devre ve lityum iyon pil içermektedir. Verileri \"Bluetooth\" bağlantısı aracılığıyla alır. Temel işlevi veri görüntülemedir. Boyutu 105 x 65 x 3 mm'dir. Resim,…",
      "gerekce": "Birleşik Nomenclature'ün yorumlanmasına ilişkin 1. ve 6. Genel Kurallar; XVI. Bölüme ait 3. Not; 8531 tarife pozisyonuna ilişkin HS Açıklayıcı Notları.",
      "url": "https://ec.europa.eu/taxation_customs/dds2/ebti/ebti_details.jsp?showHeader=false&Lang=en&reference=SIBTI2026%2F0034"
+    },
+    {
+     "source": "ca",
+     "source_label": "Kanada (CBSA)",
+     "color": "#D34040",
+     "flag": "🇨🇦",
+     "origin": "Kanada",
+     "hs": "7308.90.00.99",
+     "hs4": "7308",
+     "ref": "8000013075",
+     "date": "2026-06-09",
+     "title": "&&The goods are base plates designed to properly cap the end of a truss. Their dimensions are 2' x 2' and they are made of black powder coated steel. They can be used in complete truss systems or in single truss structures (“truss totem”). The trusses are made of aluminum and the…",
+     "gerekce": "(Özet üretilemedi)",
+     "url": "https://ccp-pcc.cbsa-asfc.cloud-nuage.canada.ca/en/national-rulings/national-rulings-details/8000013075"
     },
     {
      "source": "tr",
@@ -46585,8 +46787,9 @@ window.BTI_DATA = {
   {
    "date": "2026-06-03",
    "date_tr": "3 Haziran 2026",
-   "count": 5,
+   "count": 6,
    "sources": [
+    "ca",
     "eu",
     "tr"
    ],
@@ -46604,6 +46807,20 @@ window.BTI_DATA = {
      "title": "Başvuru sahibi tarafından sunulan açıklama ve veri tabanında yayımlanan görsellere göre, ürün; 3-18 aylık çocuklara yönelik, içinde müzik modülü bulunan, iki renk seçeneğiyle (mavi ve pembe) bir oyuncak ayı şeklinde tekstil malzemesinden yapılmış interaktif bir oyuncaktır. Oyunca…",
      "gerekce": "Birleşik Nomenclatür'ün 1., 3b) ve 6. Genel Yorum Kuralları. 2.3.2015 tarihli (AB) 352/2015 sayılı Tüzük (AB Resmî Gazetesi L 61, 5.3.2015, s.5). 9503 pozisyonuna ilişkin Açıklayıcı Notlar, D) bendi birinci paragraf ve (…",
      "url": "https://ec.europa.eu/taxation_customs/dds2/ebti/ebti_details.jsp?showHeader=false&Lang=en&reference=ROBTI2026-005388"
+    },
+    {
+     "source": "ca",
+     "source_label": "Kanada (CBSA)",
+     "color": "#D34040",
+     "flag": "🇨🇦",
+     "origin": "Kanada",
+     "hs": "7007.29.00.00",
+     "hs4": "7007",
+     "ref": "8000013357",
+     "date": "2026-06-03",
+     "title": "&&Laminated glass units designed to be installed as windows on an existing building. The units consist of 2 pieces of 1/4\" glass, which are cut to size, and laminated together with a 0.060” of polyvinyl butyral interlayer.",
+     "gerekce": "(Özet üretilemedi)",
+     "url": "https://ccp-pcc.cbsa-asfc.cloud-nuage.canada.ca/en/national-rulings/national-rulings-details/8000013357"
     },
     {
      "source": "tr",
