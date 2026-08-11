@@ -95,13 +95,23 @@ def translate_batch(texts: list[str]) -> list[str]:
     return out
 
 
-def collect_jobs(only_source=None):
-    """Çevrilecek işleri topla: (dosya, kayıt_index, alan_yolu, metin)"""
+def collect_jobs(only_source=None, shard=None):
+    """Çevrilecek işleri topla: (dosya, kayıt_index, alan_yolu, metin)
+
+    shard=(i, n) verilirse DOSYALAR n parçaya bölünür ve yalnız i'ninci parça
+    işlenir. Bölme dosya bazlıdır (kayıt bazlı değil): böylece paralel
+    çalıştırılan süreçler asla aynı JSON'a yazmaz, biri diğerinin yazdığını
+    ezemez.
+    """
     jobs = []
+    file_no = -1
     for src, (kind, fields) in SOURCES.items():
         if only_source and src != only_source:
             continue
         for path in sorted(glob.glob(f"{REPORTS}/{src}/*/_report_data.json")):
+            file_no += 1
+            if shard and file_no % shard[1] != shard[0]:
+                continue
             try:
                 data = json.load(open(path, encoding="utf-8"))
             except Exception:
@@ -136,9 +146,15 @@ def main():
     ap.add_argument("--source", help="tek kaynak (EU_EBTI / US_CBP / CA_CBSA / UK_HMRC)")
     ap.add_argument("--limit", type=int, help="en fazla kaç kayıt çevrilsin")
     ap.add_argument("--batch", type=int, default=6, help="tek çağrıda kaç metin (varsayılan 6)")
+    ap.add_argument("--shard", help="paralel çalıştırma: 'i/n' (dosyaları n'e böl, i'ninciyi işle)")
     args = ap.parse_args()
 
-    jobs = collect_jobs(args.source)
+    shard = None
+    if args.shard:
+        i, n = args.shard.split("/")
+        shard = (int(i), int(n))
+
+    jobs = collect_jobs(args.source, shard)
     if args.limit:
         jobs = jobs[:args.limit]
 
