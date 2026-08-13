@@ -409,6 +409,17 @@ def write_us_detail_pages():
             coll_lbl = {"NY": "New York", "HQ": "Headquarters"}.get(coll, coll) or "—"
             mirror = us_mirror_url(num, coll)
 
+            # Kararın TAM orijinal metni (CBP API'den). Dış kaynaklar taze
+            # kararlarda açılmadığı için doküman doğrudan burada gösterilir.
+            full = (rec.get("full_text") or "").strip()
+            subject = (rec.get("subject") or "").strip()
+            full_html = ""
+            if full:
+                full_html = (
+                    '<div class="sec"><h2>Kararın tam metni (orijinal)</h2>'
+                    f'<pre class="full">{_html.escape(full)}</pre></div>'
+                )
+
             page = f"""<!DOCTYPE html>
 <html lang="tr"><head><meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
@@ -438,6 +449,9 @@ def write_us_detail_pages():
  .alt{{display:inline-flex;align-items:center;gap:8px;background:#fff;color:#16202b;border:1px solid #d7e0ea;
    text-decoration:none;font-weight:700;font-size:14px;padding:13px 22px;border-radius:12px}}
  .note{{font-size:12.5px;color:#8693a6;margin-top:14px}}
+ pre.full{{white-space:pre-wrap;word-wrap:break-word;font-family:ui-monospace,SFMono-Regular,Menlo,monospace;
+   font-size:13px;line-height:1.65;color:#23303f;background:#f7fafd;border:1px solid #e6ebf2;
+   border-radius:12px;padding:18px;margin:0;max-height:560px;overflow:auto}}
 </style></head>
 <body><div class="wrap">
  <a class="back" href="../index.html">← GTİP Bulutları'na dön</a>
@@ -450,16 +464,18 @@ def write_us_detail_pages():
      <div class="chip"><b>Koleksiyon</b>{_html.escape(coll_lbl)}</div>
      <div class="chip"><b>Tarih</b>{date_tr}</div>
    </div>
-   <div class="sec"><h2>Eşyanın Tanımı</h2><p>{desc or '—'}</p></div>
-   <div class="sec"><h2>Sınıflandırmanın Gerekçesi</h2><p>{just or '—'}</p></div>
+   {f'<div class="sec"><h2>Konu</h2><p>{_html.escape(subject)}</p></div>' if subject else ''}
+   <div class="sec"><h2>Eşyanın Tanımı (Türkçe özet)</h2><p>{desc or '—'}</p></div>
+   <div class="sec"><h2>Sınıflandırmanın Gerekçesi (Türkçe özet)</h2><p>{just or '—'}</p></div>
+   {full_html}
    <div class="acts">
-     <a class="official" href="{mirror}" target="_blank" rel="noopener">↗ Tam metin (CustomsMobile)</a>
+     <a class="official" href="{mirror}" target="_blank" rel="noopener">↗ CustomsMobile'da aç</a>
      <a class="alt" href="https://rulings.cbp.gov/home" target="_blank" rel="noopener">CBP CROSS'ta ara</a>
    </div>
-   <div class="note">Tam metin bağlantısı CBP arşivinin CustomsMobile aynasına gider; ayna
-   yeni kararları birkaç gün gecikmeyle aldığı için çok taze kararlarda
-   "Document not found" görebilirsiniz. Bu durumda CBP CROSS'ta
-   <b>{e_num}</b> numarasıyla arayabilirsiniz — kararın Türkçe özeti yukarıda durur.</div>
+   <div class="note">Kararın tam metni yukarıda, doğrudan CBP'nin kendi kayıtlarından alınmıştır.
+   Dış bağlantılar yalnızca doğrulama içindir: CBP tek-karar bağlantılarını dışarıdan engelliyor,
+   CustomsMobile aynası da yeni kararları birkaç gün gecikmeyle aldığı için taze kararlarda
+   "Document not found" verebilir.</div>
  </div>
 </div></body></html>"""
 
