@@ -214,9 +214,10 @@ def normalize(src_dir, meta, rec, data):
             "date": iso_from_any(rec.get("date_fmt", "")),
             "title": clip(title, 280),
             "gerekce": clip(summ.get("teknik_gerekce", ""), 220),
-            # özet zaten modalda gösteriliyor → doğrudan customsmobile tam metnine git.
-            # (CBP'nin kendi deep-link'i Akamai 403 verdiği için ayna kullanılır.)
-            "url": us_mirror_url(rec.get("number", ""), rec.get("collection", "")),
+            # CBP deep-link'i Akamai 403 veriyor, customsmobile aynası ise yeni
+            # kararları gecikmeli aldığı için "Document not found" dönüyordu.
+            # Kendi statik sayfamız her zaman açılır; ayna + CBP linkleri onun içinde.
+            "url": f"us/{tr_slug(rec.get('number',''))}.html",
         }
 
     if slug == "ca":
@@ -369,6 +370,100 @@ def write_tr_detail_pages():
 </div></body></html>"""
 
             with open(os.path.join(out_dir, f"{tr_slug(ref)}.html"), "w", encoding="utf-8") as fp:
+                fp.write(page)
+            count += 1
+
+    return count
+
+
+def write_us_detail_pages():
+    """Her ABD/CBP ruling'i için statik detay sayfası (site/us/<NUMBER>.html).
+
+    Neden gerekli: CBP CROSS (rulings.cbp.gov) tek-karar deep-link'lerini Akamai
+    ile dışarıdan engelliyor (403), customsmobile aynası ise CBP arşivini
+    GECİKMELİ kopyalıyor — yeni yayımlanan kararlarda "Document ... is not found"
+    veriyor. Kendi sayfamız her zaman açılır; dış kaynak linkleri de altında durur.
+    """
+    import html as _html
+
+    out_dir = os.path.join(OUT_DIR, "us")
+    os.makedirs(out_dir, exist_ok=True)
+    count = 0
+
+    for f in glob.glob(f"{REPORTS_BASE}/US_CBP/*/_report_data.json"):
+        try:
+            data = json.load(open(f, encoding="utf-8"))
+        except Exception:
+            continue
+        for rec in data.get("records", []):
+            num = (rec.get("number") or "").strip()
+            if not num:
+                continue
+            summ = rec.get("summary") or {}
+            tariffs = (rec.get("tariffs") or "").strip()
+            coll = (rec.get("collection") or "").strip()
+            date_tr = fmt_date_tr(iso_from_any(rec.get("date_fmt", "")))
+            desc = _html.escape(summ.get("esya_tanimi", "") or "").replace("\n", "<br>")
+            just = _html.escape(summ.get("teknik_gerekce", "") or "").replace("\n", "<br>")
+            e_num, e_tar = _html.escape(num), _html.escape(tariffs)
+            coll_lbl = {"NY": "New York", "HQ": "Headquarters"}.get(coll, coll) or "—"
+            mirror = us_mirror_url(num, coll)
+
+            page = f"""<!DOCTYPE html>
+<html lang="tr"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>{e_num} · ABD CBP · HTS {hs4(tariffs)}</title>
+<style>
+ *{{box-sizing:border-box}}
+ body{{margin:0;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;
+   background:#eef3fb;color:#16202b;line-height:1.6}}
+ .wrap{{max-width:760px;margin:0 auto;padding:32px 22px 64px}}
+ a.back{{display:inline-flex;align-items:center;gap:7px;color:#5f7184;text-decoration:none;font-size:14px;font-weight:600}}
+ a.back:hover{{color:#16202b}}
+ .card{{background:#fff;border:1px solid #e6ebf2;border-radius:20px;padding:34px 32px;margin-top:18px;
+   box-shadow:0 14px 40px rgba(40,90,160,.07)}}
+ .tag{{display:inline-flex;align-items:center;gap:8px;font-size:13px;font-weight:700;color:#d07d2a}}
+ .tag i{{width:10px;height:10px;border-radius:50%;background:#d07d2a;display:inline-block}}
+ h1{{font-size:30px;letter-spacing:-1px;margin:14px 0 4px}}
+ .meta{{display:flex;flex-wrap:wrap;gap:10px;margin-top:16px}}
+ .chip{{background:#f4f7fc;border:1px solid #e6ebf2;border-radius:11px;padding:9px 14px;font-size:13px}}
+ .chip b{{display:block;font-size:11px;color:#8693a6;font-weight:700;letter-spacing:.04em;text-transform:uppercase;margin-bottom:2px}}
+ .chip .mono{{font-family:'JetBrains Mono',ui-monospace,monospace;font-weight:700}}
+ .sec{{margin-top:26px}}
+ .sec h2{{font-size:12px;letter-spacing:.08em;text-transform:uppercase;color:#6f86ad;margin:0 0 7px}}
+ .sec p{{margin:0;font-size:15.5px;color:#23303f}}
+ .acts{{display:flex;flex-wrap:wrap;gap:10px;margin-top:28px}}
+ .official{{display:inline-flex;align-items:center;gap:8px;background:#16202b;color:#fff;
+   text-decoration:none;font-weight:700;font-size:14px;padding:13px 22px;border-radius:12px}}
+ .alt{{display:inline-flex;align-items:center;gap:8px;background:#fff;color:#16202b;border:1px solid #d7e0ea;
+   text-decoration:none;font-weight:700;font-size:14px;padding:13px 22px;border-radius:12px}}
+ .note{{font-size:12.5px;color:#8693a6;margin-top:14px}}
+</style></head>
+<body><div class="wrap">
+ <a class="back" href="../index.html">← GTİP Bulutları'na dön</a>
+ <div class="card">
+   <span class="tag"><i></i>Amerika · CBP Ruling (CROSS)</span>
+   <h1>HTS {hs4(tariffs)}</h1>
+   <div class="meta">
+     <div class="chip"><b>Ruling No</b><span class="mono">{e_num}</span></div>
+     <div class="chip"><b>HTS</b><span class="mono">{e_tar}</span></div>
+     <div class="chip"><b>Koleksiyon</b>{_html.escape(coll_lbl)}</div>
+     <div class="chip"><b>Tarih</b>{date_tr}</div>
+   </div>
+   <div class="sec"><h2>Eşyanın Tanımı</h2><p>{desc or '—'}</p></div>
+   <div class="sec"><h2>Sınıflandırmanın Gerekçesi</h2><p>{just or '—'}</p></div>
+   <div class="acts">
+     <a class="official" href="{mirror}" target="_blank" rel="noopener">↗ Tam metin (CustomsMobile)</a>
+     <a class="alt" href="https://rulings.cbp.gov/home" target="_blank" rel="noopener">CBP CROSS'ta ara</a>
+   </div>
+   <div class="note">Tam metin bağlantısı CBP arşivinin CustomsMobile aynasına gider; ayna
+   yeni kararları birkaç gün gecikmeyle aldığı için çok taze kararlarda
+   "Document not found" görebilirsiniz. Bu durumda CBP CROSS'ta
+   <b>{e_num}</b> numarasıyla arayabilirsiniz — kararın Türkçe özeti yukarıda durur.</div>
+ </div>
+</div></body></html>"""
+
+            with open(os.path.join(out_dir, f"{tr_slug(num)}.html"), "w", encoding="utf-8") as fp:
                 fp.write(page)
             count += 1
 
@@ -605,6 +700,7 @@ def write_feeds(days, out_dir):
 
 def main():
     tr_pages = write_tr_detail_pages()
+    us_pages = write_us_detail_pages()
     by_date = collect()
 
     days = []
@@ -633,6 +729,8 @@ def main():
     print(f"  RSS: {len(feeds)} feed ({', '.join(os.path.basename(f) for f in feeds)})")
     if tr_pages:
         print(f"  TR detay sayfaları: {tr_pages} → {os.path.join(OUT_DIR, 'tr')}/")
+    if us_pages:
+        print(f"  US detay sayfaları: {us_pages} → {os.path.join(OUT_DIR, 'us')}/")
     if days:
         print(f"  En güncel gün: {days[0]['date_tr']} ({days[0]['count']} karar)")
 
