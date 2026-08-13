@@ -1,5 +1,5 @@
 window.BTI_DATA = {
- "generated_at": "2026-08-13 06:55",
+ "generated_at": "2026-08-13 22:31",
  "today": "2026-08-13",
  "today_tr": "13 Ağustos 2026",
  "latest_date": "2026-08-12",
@@ -140,7 +140,7 @@ window.BTI_DATA = {
      "date": "2026-08-12",
      "title": "19 Kasım 2025 tarihli mektubunuzda, Gharda Chemicals International adına Amerika Birleşik Devletleri-Meksika-Kanada Anlaşması (USMCA) kapsamında Dicamba DMA ve Dicamba DGA Herbisitlerin tarife sınıflandırması ve uygunluğu hakkında bağlayıcı bir karar talep ettiniz. Göz önünde bul…",
      "gerekce": "2,5 galonluk sürahilerde ithal edilen Dicamba DMA ve Dicamba DGA Herbisitler için geçerli alt pozisyon, \"Herbisitler, filizlenmeyi önleyici ürünler ve bitki büyümesini düzenleyiciler: Herhangi bir aromatik veya değiştiri…",
-     "url": "https://www.customsmobile.com/rulings/docview?doc_id=NY%20N356212"
+     "url": "us/N356212.html"
     },
     {
      "source": "uk",
@@ -196,7 +196,7 @@ window.BTI_DATA = {
      "date": "2026-08-12",
      "title": "26 Mayıs 2026 tarihli yazınızda basılı dini kitaplara ilişkin tarife tasnifi kararı talep etmiştiniz. İncelememiz için açıklama ve bir örnek gönderildi. Karar talebinizde, malların geleneksel İbranice öğelerden, özellikle dua kitapları, dini kitaplar, İnciller ve dua ve çalışma a…",
      "gerekce": "“İbranice Mezmurlar Kitabı (Tehillim)” kitabı için geçerli alt başlık, İnciller, vasiyetnameler, dua kitapları ve diğer dini kitapları sağlayan 4901.99.0040, Amerika Birleşik Devletleri Uyumlaştırılmış Tarife Çizelgesi (…",
-     "url": "https://www.customsmobile.com/rulings/docview?doc_id=NY%20N361813"
+     "url": "us/N361813.html"
     },
     {
      "source": "uk",
@@ -238,7 +238,7 @@ window.BTI_DATA = {
      "date": "2026-08-12",
      "title": "27 Mayıs 2026 tarihli mektubunuzda müşteriniz Anhamm Liquid Barrier Products Gmbh adına tarife sınıflandırma kararı talep etmişsiniz. Talebinizle birlikte açıklayıcı literatür, ürün açıklamaları ve malzeme listesi sağlanmıştır. Söz konusu ürünler iki tip Çelik Sıvı Muhafaza Bariy…",
      "gerekce": "Çelik Sıvı Muhafaza Bariyerleri için geçerli alt pozisyon, yapıları (9406 pozisyonundaki prefabrik binalar hariç) ve yapı parçalarını (örneğin, köprüler ve köprü bölümleri, kilit kapıları, kuleler, kafes direkleri, çatıl…",
-     "url": "https://www.customsmobile.com/rulings/docview?doc_id=NY%20N361833"
+     "url": "us/N361833.html"
     },
     {
      "source": "uk",
@@ -280,7 +280,7 @@ window.BTI_DATA = {
      "date": "2026-08-12",
      "title": "29 Mayıs 2026 tarihli yazınızda tarife sınıflandırma kararı talep etmiştiniz. Söz konusu ürün, binek araçlarda kullanılan bir orijinal ekipman üreticisi (OEM) ürünü olan bir üfleme yastığı (Parça Adı: BLOW PAD FRT LH NO.1_ICE), Parça Numarası: WE76CA06001A olarak tanımlanmaktadır…",
      "gerekce": "Üfleme pedi için geçerli alt pozisyon (Parça Adı: BLOW PAD FRT LH NO.1_ICE), Parça Numarası: WE76CA06001A, 8708.29.5160 olacaktır, Amerika Birleşik Devletleri Uyumlaştırılmış Tarife Tablosu (HTSUS), \"8701 ila 8705 pozisy…",
-     "url": "https://www.customsmobile.com/rulings/docview?doc_id=NY%20N361882"
+     "url": "us/N361882.html"
     },
     {
      "source": "uk",
@@ -322,7 +322,7 @@ window.BTI_DATA = {
      "date": "2026-08-12",
      "title": "3 Haziran 2026 tarihli mektubunuzda iki adet dış mekan hindistan cevizi paspası için tarife sınıflandırma kararı talep etmiştiniz. İki paspasın örnekleri ve üretim sürecini detaylandıran fotoğraflar sağlandı. Numuneler talep edildiği takdirde iade edilecektir. \"STRIPE-2\" olarak t…",
      "gerekce": "\"STRIPE-2\" dış mekan hindistan cevizi kapı paspası için geçerli alt pozisyon, Amerika Birleşik Devletleri Harmonize Tarife Tablosu (HTSUS) 5702.20.2000 olacaktır; bu alt pozisyon, \"Kelem\", Schumacks\", \"Karamanie\" ve benz…",
-     "url": "https://www.customsmobile.com/rulings/docview?doc_id=NY%20N362043"
+     "url": "us/N362043.html"
     },
     {
      "source": "uk",
@@ -364,7 +364,7 @@ window.BTI_DATA = {
      "date": "2026-08-12",
      "title": "3 Haziran 2026 tarihli yazınızda tarife sınıflandırma kararı talep etmiştiniz. Talebinize ürünün fotoğrafları ve açıklamaları eklenmiştir. Söz konusu ürün, Ürün numarası 1851620 olan LED Yay Dekorasyonu olarak tanımlanmaktadır. İki kat polyester örgü kumaş ve beyaz ve kırmızı LED…",
      "gerekce": "LED Yay Dekorasyonu, Ürün numarası 1851620 için geçerli alt pozisyon, adi metalden çanlar, gonglar ve benzerlerini sağlayan 8306.29.0000, HTSUS olacaktır; adi metallerden heykelcikler ve diğer süs eşyaları; adi metallerd…",
-     "url": "https://www.customsmobile.com/rulings/docview?doc_id=NY%20N362060"
+     "url": "us/N362060.html"
     },
     {
      "source": "uk",
@@ -406,7 +406,7 @@ window.BTI_DATA = {
      "date": "2026-08-12",
      "title": "5 Haziran 2026 tarihli yazınızda tarife sınıflandırma kararı talep etmiştiniz. Örnek yerine görseller sunulmuştur. Söz konusu ürün \"PSJH27 ARTIF WRTH WLDFLWR\", ürün numarası DB1-RS161 olarak tanımlanmaktadır. Bu çelenk, kalıplanmış plastik saplara tutturulmuş mavi plastik çiçekle…",
      "gerekce": "Bu dekoratif yapay çelenk için geçerli alt pozisyon, \"PSJH27 ARTIF WRTH WLDFLWR\", ürün numarası DB1-RS161, 6702.10.2000, Amerika Birleşik Devletleri Harmonize Tarife Tablosu (HTSUS) olacaktır; bu listede \"[a]yapay çiçekl…",
-     "url": "https://www.customsmobile.com/rulings/docview?doc_id=NY%20N362098"
+     "url": "us/N362098.html"
     },
     {
      "source": "uk",
@@ -448,7 +448,7 @@ window.BTI_DATA = {
      "date": "2026-08-12",
      "title": "5 Haziran 2026 tarihli yazınızda tarife sınıflandırma kararı talep etmiştiniz. Örnek yerine görseller sunulmuştur. Söz konusu ürün, \"PSJH27 ARTIF WRTH MINI 2A\", ürün numarası DB1-RSMRA016BC olarak tanımlanmaktadır. Biri mavi plastik çiçekli, diğeri pembe plastik çiçekli iki çelen…",
      "gerekce": "Bu dekoratif yapay çelenk seti için geçerli alt pozisyon, \"PSJH27 ARTIF WRTH MINI 2A\", ürün numarası DB1-RSMRA016BC, 6702.10.2000, Amerika Birleşik Devletleri Harmonize Tarife Tablosu (HTSUS) olacaktır; bu tarifede \"yapa…",
-     "url": "https://www.customsmobile.com/rulings/docview?doc_id=NY%20N362099"
+     "url": "us/N362099.html"
     },
     {
      "source": "uk",
@@ -490,7 +490,7 @@ window.BTI_DATA = {
      "date": "2026-08-12",
      "title": "14 Haziran 2026 tarihli yazınızda tarife sınıflandırma kararı talep etmiştiniz. Talebiniz doğrultusunda numune yerine fotoğraflar gönderilmiştir. Ürün adı \"ZANZIBAR No 56\" olan söz konusu ürün, ayrı olarak ithal edilen, çıkarılabilir bir yastık kılıfını muhafaza etmek üzere tasar…",
      "gerekce": "(Gerekçe metni bulunamadı)",
-     "url": "https://www.customsmobile.com/rulings/docview?doc_id=NY%20N362291"
+     "url": "us/N362291.html"
     },
     {
      "source": "uk",
@@ -532,7 +532,7 @@ window.BTI_DATA = {
      "date": "2026-08-12",
      "title": "22 Mayıs 2026 tarihli yazınızda çocuklara yönelik karton ciltli kitap için tarife tasnifi kararı talep etmiştiniz. Kitabın ayrıntılı açıklaması ve PDF sürümü incelememiz için gönderildi. Söz konusu eser \"Julia ve Emi'nin Hawaiian Fishy Friends\" başlıklı ciltli karton kitaptır. Ki…",
      "gerekce": "Ciltli karton kitap \"Julia and Emi's Hawaiian Fishy Friends\" için geçerli alt başlık 4901.99.0070, HTSUS olacaktır; bu, tek sayfa halinde olsun ya da olmasın, Basılı kitaplar, broşürler, broşürler ve benzeri basılı malze…",
-     "url": "https://www.customsmobile.com/rulings/docview?doc_id=NY%20N361760"
+     "url": "us/N361760.html"
     },
     {
      "source": "uk",
@@ -574,7 +574,7 @@ window.BTI_DATA = {
      "date": "2026-08-12",
      "title": "29 Mayıs 2026 tarihli yazınızda tarife sınıflandırma kararı talep etmiştiniz. FuseLOX Servikal Kafes, C3-C7 seviyelerinde anterior servikal interbody füzyonunu kolaylaştırmayı amaçlayan bir intervertebral vücut füzyon cihazıdır (IBFD). Cihaz, ASTM F2026'ya uygun PEEK OPTIMA-LT1'd…",
      "gerekce": "SmartLOX Servikal Plaka Sistemi için geçerli alt başlık, \"Ortopedik veya kırık aletleri ve bunların parça ve aksesuarları: Kemik plakaları, vidalar ve çiviler ve diğer dahili sabitleme cihazları veya aletleri\"ni öngören …",
-     "url": "https://www.customsmobile.com/rulings/docview?doc_id=NY%20N361888"
+     "url": "us/N361888.html"
     },
     {
      "source": "eu",
@@ -602,7 +602,7 @@ window.BTI_DATA = {
      "date": "2026-08-12",
      "title": "22 Mayıs 2026 tarihli yazınızda tarife sınıflandırma kararı talep etmiştiniz. Göz önünde bulundurulan öğeler arasında kompakt bir freze makinesi, F2 XYZ Makine Düzeneği, F2 Sağ Kapak Düzeneği, F2 Arka Kapak Düzeneği ve F2 Manifold Düzeneği yer alıyor. Kompakt freze makinesi Fastm…",
      "gerekce": "Kompakt freze makinesi, F2 XYZ Makine Düzeneği, F2 Sağ Kapak Düzeneği, F2 Arka Kapak Düzeneği ve F2 Manifold Düzeneği için geçerli alt pozisyon, tıp, cerrahi, dişçilik veya veterinerlik bilimlerinde kullanılan \"diğer\" al…",
-     "url": "https://www.customsmobile.com/rulings/docview?doc_id=NY%20N361752"
+     "url": "us/N361752.html"
     },
     {
      "source": "eu",
@@ -630,7 +630,7 @@ window.BTI_DATA = {
      "date": "2026-08-12",
      "title": "22 Mayıs 2026 tarihli yazınızda tarife sınıflandırma kararı talep etmiştiniz. Söz konusu prefabrik modüller Teksas'taki bir petrokimya üretim tesisine kalıcı olarak kurulacak. Modüller, etan ham maddesini etilen ve hidrokarbon ürünlerine dönüştürmek için yüksek sıcaklıkta kırma k…",
      "gerekce": "Alt Radyan Bölüm, Üst Radyan Bölüm, Konveksiyon Bölümleri, Yığın ve Çok Yüksek Basınçlı Buhar Tamburu ve İndüksiyonlu Çekiş Fan Modülü için geçerli alt pozisyon, \"Isıtma gibi sıcaklık değişikliğini içeren bir işlemle mal…",
-     "url": "https://www.customsmobile.com/rulings/docview?doc_id=NY%20N361753"
+     "url": "us/N361753.html"
     },
     {
      "source": "eu",
@@ -658,7 +658,7 @@ window.BTI_DATA = {
      "date": "2026-08-12",
      "title": "22 Mayıs 2026 tarihli yazınızda tarife sınıflandırma kararı talep etmiştiniz. Göz önünde bulundurulan öğeler arasında, kompakt diş frezeleme makinesi Fastmill.io'nun (NY N361752'de ayrı bir kapak altında ele alınmıştır) alt montajları olan F2 Kapı Düzeneği, F2 Soğutma Sıvısı Tekn…",
      "gerekce": "F2 Kapı Düzeneği, F2 Soğutma Sıvısı Tekne Düzeneği, F2 Soğutma Sıvısı Giriş Düzeneği ve F2 Havza Düzeneği için geçerli alt başlık, tıbbi, cerrahi, dişçilik veya veterinerlik bilimlerinde kullanılan \"diğer\" alet ve aparat…",
-     "url": "https://www.customsmobile.com/rulings/docview?doc_id=NY%20N361754"
+     "url": "us/N361754.html"
     },
     {
      "source": "eu",
@@ -686,7 +686,7 @@ window.BTI_DATA = {
      "date": "2026-08-12",
      "title": "22 Mayıs 2026 tarihli yazınızda tarife sınıflandırma kararı talep etmiştiniz. Göz önünde bulundurulan öğeler arasında, kompakt bir diş frezeleme makinesi olan Fastmill.io'nun (NY N361752'de ayrı bir kapak altında adresi verilmektedir) alt montajları olan F2 Taban Destek Düzeneği …",
      "gerekce": "F2 Taban Destek Düzeneği ve F2 Taban Bölücü Düzeneği için geçerli alt başlık, tıbbi, cerrahi, dişçilik veya veterinerlik bilimlerinde kullanılan \"diğer\" alet ve aparatları ve bunların parça ve aksesuarlarını sağlayan Ame…",
-     "url": "https://www.customsmobile.com/rulings/docview?doc_id=NY%20N361755"
+     "url": "us/N361755.html"
     },
     {
      "source": "eu",
@@ -714,7 +714,7 @@ window.BTI_DATA = {
      "date": "2026-08-12",
      "title": "25 Mayıs 2026 tarihli yazınızda tarife sınıflandırma kararı talep etmiştiniz. F27 HAL BOW AST, SKU BC0525-HAL olarak tanımlanan ve iki stilde duvar/kapı dekorasyonundan oluşan bir ürünün fotoğraflarını ve ayrıntılı açıklamasını gönderdiniz. Her iki stilde de 12 inç genişliğinde v…",
      "gerekce": "F27 HAL BOW AST, SKU BC0525-HAL için geçerli alt pozisyon, 9505.90.6000, Amerika Birleşik Devletleri Uyumlaştırılmış Tarife Tablosu (HTSUS) olacaktır; bu listede \"Sihirbazlık numaraları ve pratik şaka malzemeleri de dahi…",
-     "url": "https://www.customsmobile.com/rulings/docview?doc_id=NY%20N361768"
+     "url": "us/N361768.html"
     },
     {
      "source": "eu",
@@ -742,7 +742,7 @@ window.BTI_DATA = {
      "date": "2026-08-12",
      "title": "26 Mayıs 2026 tarihli yazınızda tarife sınıflandırma kararı talep etmiştiniz. Söz konusu öğe, manyetik bir makale sınıflandırma sistemidir (MASS). Sistem, demirli metalleri karışık geri dönüştürülebilir atık akışlarından insan yardımı olmadan ayırmak için malzeme geri kazanım ve …",
      "gerekce": "Tek bir sevkiyatta birlikte ithal edilen manyetik eşya sınıflandırma sistemi (MASS) için geçerli alt pozisyon, \"Bu bölümün başka bir yerinde belirtilmeyen veya yer almayan, ayrı işlevlere sahip makineler ve mekanik cihaz…",
-     "url": "https://www.customsmobile.com/rulings/docview?doc_id=NY%20N361808"
+     "url": "us/N361808.html"
     },
     {
      "source": "eu",
@@ -770,7 +770,7 @@ window.BTI_DATA = {
      "date": "2026-08-12",
      "title": "29 Mayıs 2026 tarihli yazınızda tarife sınıflandırma kararı talep etmiştiniz. İncelememiz için dört belge vakasının örneklerini gönderdiniz. Söz konusu makaleler belge davalarıdır. Stil numaraları mevcut değildi. Büromuzla yaptığınız yazışmada, bu eşyaların öncelikle tüketiciler …",
      "gerekce": "Hakiki deri çantalar için geçerli alt pozisyon, kısmen dış yüzeyi deri veya bileşim deriden, diğer kısmı diğer olmak üzere diğer kap ve kasaları sağlayan 4202.91.9090, Amerika Birleşik Devletleri Uyumlaştırılmış Tarife T…",
-     "url": "https://www.customsmobile.com/rulings/docview?doc_id=NY%20N361890"
+     "url": "us/N361890.html"
     },
     {
      "source": "eu",
@@ -798,7 +798,7 @@ window.BTI_DATA = {
      "date": "2026-08-12",
      "title": "02 Haziran 2026 tarihli yazınızda tarife sınıflandırma kararı talep etmişsiniz. Örnek yerine görseller sunulmuştur. Söz konusu ürün, vinil plak ceketleri için tasarlanmış polipropilen plastik koruyucu dış kılıflar olarak tanımlanıyor. Depolama, taşıma, sergileme ve taşıma sırasın…",
      "gerekce": "ilgili alt pozisyon, “3901 ila 3914 pozisyonlarında yer alan plastikten diğer eşyalar ve diğer malzemelerden eşyalar: [o]diğer: [o]diğer: [o]diğer” ifadesini öngören Amerika Birleşik Devletleri Uyumlaştırılmış Tarife Tab…",
-     "url": "https://www.customsmobile.com/rulings/docview?doc_id=NY%20N361986"
+     "url": "us/N361986.html"
     },
     {
      "source": "eu",
@@ -826,7 +826,7 @@ window.BTI_DATA = {
      "date": "2026-08-12",
      "title": "2 Haziran 2026 tarihli yazınızda tarife sınıflandırma kararı talep etmişsiniz. Örnek yerine görseller sunulmuştur. Söz konusu ürün, DrainMate™ yağ tahliye kabınıza dahil edilmek üzere ağ şeklinde bir poliüretan köpük bileşeni olarak tanımlanmaktadır. Dairesel şekilli ve kullanılm…",
      "gerekce": "ilgili alt pozisyon, “3901 ila 3914 pozisyonlarında yer alan plastikten diğer eşyalar ve diğer malzemelerden eşyalar: [o]diğer: [o]diğer: [o]diğer” ifadesini öngören Amerika Birleşik Devletleri Uyumlaştırılmış Tarife Tab…",
-     "url": "https://www.customsmobile.com/rulings/docview?doc_id=NY%20N362002"
+     "url": "us/N362002.html"
     },
     {
      "source": "eu",
@@ -854,7 +854,7 @@ window.BTI_DATA = {
      "date": "2026-08-12",
      "title": "3 Haziran 2026 tarihli yazınızda dört kol saati için tarife tasnifi kararı talep etmiştiniz. Örneklerin yerine açıklamalar ve fotoğraflar verildi. Madde 1, 2, 3 ve 4 olarak tanımlanan dört ürün, 25 mücevher içeren, otomatik (kendinden kurmalı) mekanizmalara sahip, mekanik olarak …",
      "gerekce": "Madde 1 ve Madde 2 için geçerli alt pozisyon, kıymetli metal veya kıymetli metalle kaplı metal dışında kasaları olan, elektrikle çalışmayan, otomatik kurmalı, mekanizmasında 17'den fazla mücevher bulunan ve tekstil malze…",
-     "url": "https://www.customsmobile.com/rulings/docview?doc_id=NY%20N362026"
+     "url": "us/N362026.html"
     },
     {
      "source": "eu",
@@ -882,7 +882,7 @@ window.BTI_DATA = {
      "date": "2026-08-12",
      "title": "3 Haziran 2026 tarihli mektubunuzda, müşteriniz Evolv Technologies Holdings, Inc. adına tarife sınıflandırma kararı talep etmişsiniz. Söz konusu madde “Ekspres” olarak anılmaktadır. “Express”, stadyumlar, okullar, hastaneler ve etkinlik mekanları gibi yerlerde insanları hızlı ve …",
      "gerekce": "\"Ekspres\" gizli silah tespit sistemi için geçerli alt pozisyon, \"8512 veya 8530 pozisyonundakiler hariç elektrikli sesli veya görsel sinyalizasyon cihazları (örneğin ziller, sirenler, gösterge panelleri, hırsız veya yang…",
-     "url": "https://www.customsmobile.com/rulings/docview?doc_id=NY%20N362045"
+     "url": "us/N362045.html"
     },
     {
      "source": "eu",
@@ -910,7 +910,7 @@ window.BTI_DATA = {
      "date": "2026-08-12",
      "title": "4 Haziran 2026 tarihli yazınızda tarife sınıflandırma kararı talep etmiştiniz. Talebiniz doğrultusunda numune yerine ürünün fotoğrafları sunulmuştur. \"Yatak Koruyucu Renk Örnek Kitabı\" olarak tanımlanan MB5001 ürün numarası, Çin'de örülmüş üç yatak koruyucu kumaştan oluşan bir te…",
      "gerekce": "\"Yatak Koruyucu Renk Örnek Kitabı\" için geçerli alt başlık, \"Elbise modelleri dahil diğer hazır ürünler: Diğer: Diğer: Diğer: Diğer: Diğer\" ifadesini sağlayan 6307.90.9891, HTSUS olacaktır. Gümrük vergisi oranı yüzde 7 o…",
-     "url": "https://www.customsmobile.com/rulings/docview?doc_id=NY%20N362090"
+     "url": "us/N362090.html"
     },
     {
      "source": "eu",
@@ -938,7 +938,7 @@ window.BTI_DATA = {
      "date": "2026-08-12",
      "title": "Müşteriniz Grundens USA Ltd. adına 18 Mayıs 2026 tarihli mektubunuzda tarife sınıflandırma kararı talep etmişsiniz. Numuneniz talep edildiği takdirde iade edilecektir. Stil 20069, %100 polyester örgü polar kumaştan erkek ceketidir. Giysinin, yakanın üst kısmına kadar uzanan bir f…",
      "gerekce": "20069 ve 20063 stilleri için geçerli alt pozisyon, 30.2010, HTSUS 6101 olacaktır; bu alt pozisyon, erkekler veya erkek çocuklar için paltolar, kabanlar, pelerinler, pelerinler, anoraklar (kayak ceketleri dahil), rüzgarlı…",
-     "url": "https://www.customsmobile.com/rulings/docview?doc_id=NY%20N361819"
+     "url": "us/N361819.html"
     },
     {
      "source": "eu",
@@ -966,7 +966,7 @@ window.BTI_DATA = {
      "date": "2026-08-12",
      "title": "21 Mayıs 2026 tarihli yazınızda tarife sınıflandırma kararı talep etmiştiniz. Gönderilen kadın ayakkabısı örneği incelendi ve talep edilmesi halinde iade edilecektir. Stil 786707, ayak bileğini kapatmayan gündelik düz kadın ayakkabısıdır. Sunulan laboratuvar raporu, üst kısmın (e…",
      "gerekce": "Stil 786707 ayakkabılar için geçerli alt pozisyon, dış tabanı ve üst kısmı kauçuk veya plastikten olan diğer ayakkabıları öngören 6402.99.3165, Amerika Birleşik Devletleri Harmonize Tarife Cetveli (HTSUS) olacaktır: Diğe…",
-     "url": "https://www.customsmobile.com/rulings/docview?doc_id=NY%20N361820"
+     "url": "us/N361820.html"
     },
     {
      "source": "eu",
@@ -994,7 +994,7 @@ window.BTI_DATA = {
      "date": "2026-08-12",
      "title": "28 Mayıs 2026 tarihli mektubunuzda tarife sınıflandırma kararı ve Nairobi Protokolü kapsamında gümrüksüz muameleye uygunluk talebinde bulunmuşsunuz. Göz önünde bulundurulan öğe, CC0082 parça numarası olarak tanımlanan, Telesair Bonhawa solunum terapisi nemlendiricisinin bir bileş…",
      "gerekce": "Ana Kart BH09 için geçerli alt başlık 8537.10.9170, HTSUS olacaktır ve bu başlık şu ifadeyi içerir: \"Elektrik kontrolü veya elektriğin dağıtımı için iki veya daha fazla 8535 veya 8536 aparatla donatılmış panolar, panelle…",
-     "url": "https://www.customsmobile.com/rulings/docview?doc_id=NY%20N361880"
+     "url": "us/N361880.html"
     },
     {
      "source": "eu",
@@ -1022,7 +1022,7 @@ window.BTI_DATA = {
      "date": "2026-08-12",
      "title": "2 Haziran 2026 tarihli yazınızda Kinetic Custom Trailers adına tarife sınıflandırma kararı talep etmişsiniz. Söz konusu öğenin iki (2) tamamlanmamış römork olduğu belirlendi. İlk parçanın Kinetik Yüksek Kapasiteli “CTU” Treyler olduğu belirlendi. Kinetic treyler, petrol kuyusu sa…",
      "gerekce": "Kinetik Yüksek Kapasiteli CTU ve Ekipman montajlı Step Deck römorklar için geçerli alt pozisyon, \"Römorklar ve yarı römorklar; mekanik olarak tahrik edilmeyen diğer araçlar ve bunların parçaları: Diğer römorklar ve yarı …",
-     "url": "https://www.customsmobile.com/rulings/docview?doc_id=NY%20N361982"
+     "url": "us/N361982.html"
     },
     {
      "source": "eu",
@@ -1050,7 +1050,7 @@ window.BTI_DATA = {
      "date": "2026-08-12",
      "title": "2 Haziran 2026 tarihli mektubunuzda müvekkiliniz SNT Motiv adına tarife sınıflandırma kararı talep etmişsiniz. Söz konusu ürüne laminasyon göbeği ve şaft adı verilir. Elektrik motorlarının bir bileşeni olan MO1-23L010 parça numaralı laminasyon göbeği, belirli şekillerde kesilmiş …",
      "gerekce": "Parça numarası MO1-23L010 olan laminasyon çekirdeği için geçerli alt pozisyon, yalnızca veya esas itibarıyla 8501 veya 8502 pozisyonlarındaki makinelerle kullanıma uygun Parçaları sağlayan Amerika Birleşik Devletleri Uyu…",
-     "url": "https://www.customsmobile.com/rulings/docview?doc_id=NY%20N362016"
+     "url": "us/N362016.html"
     },
     {
      "source": "eu",
@@ -1078,7 +1078,7 @@ window.BTI_DATA = {
      "date": "2026-08-12",
      "title": "28 Mayıs 2026 tarihli mektubunuzda müşteriniz Tremco CPG, Inc. adına tarife sınıflandırma kararı talep etmişsiniz. Örnek yerine görseller sunulmuştur. Söz konusu ürün, fiberglas takviyeli plastik (FRP) inşaat demiri olan \"LiteBar\" olarak tanımlanıyor. Beton güçlendirme uygulamala…",
      "gerekce": "ilgili alt pozisyon, “3901 ila 3914 pozisyonlarında yer alan plastikten diğer eşyalar ve diğer malzemelerden eşyalar: [o]diğer: [o]diğer: [o]diğer” ifadesini öngören Amerika Birleşik Devletleri Uyumlaştırılmış Tarife Tab…",
-     "url": "https://www.customsmobile.com/rulings/docview?doc_id=NY%20N361872"
+     "url": "us/N361872.html"
     },
     {
      "source": "eu",
@@ -4835,7 +4835,7 @@ window.BTI_DATA = {
      "date": "2026-08-04",
      "title": "13 Ocak 2026 tarihli yazınızda metal tutucuya önceden sarılmış polipropilen halat için tarife sınıflandırma kararı talep etmiştiniz. Bu ofise iki numune sağlandı ve laboratuvar analizi için iletildi. Numuneler referans amacıyla saklanacaktır. Çelik tel destek kancası üzerinde önc…",
      "gerekce": "Çelik tel destek kancası üzerinde önceden sarılmış yeşil polipropilen bahçecilik kordonu olarak tanımlanan Ürün No. 1, SKU No. 1212116 için geçerli alt pozisyon, \"67 desiteks veya daha fazla ve hiçbir kesit boyutu 1 mm'y…",
-     "url": "https://www.customsmobile.com/rulings/docview?doc_id=NY%20N357741"
+     "url": "us/N357741.html"
     },
     {
      "source": "uk",
@@ -4891,7 +4891,7 @@ window.BTI_DATA = {
      "date": "2026-08-04",
      "title": "17 Haziran 2026'de müşteriniz Metalworks Ningbo Aida Inc. adına ülke menşeini belirlemeye ilişkin bir karar talebinde bulundunuz. Söz konusu ürünler, damla kulak (model # SSPEX-DE, SSCEP-DE), erkek dirsek (model # SSPEX-ME, SSCEP-ME) ve tee (model # SSPEX-T, SSCEP-T) PEX fittingl…",
      "gerekce": "Düşen kulaklı ve erkek dirsek bağlantı parçaları için geçerli alt pozisyon, tüp veya boru bağlantı parçalarını (örneğin, kaplinler, demir veya çelikten dirsekler, kollar): döküm bağlantı parçaları: diğer: diğer: diğer: d…",
-     "url": "https://www.customsmobile.com/rulings/docview?doc_id=NY%20N362609"
+     "url": "us/N362609.html"
     },
     {
      "source": "uk",
@@ -4947,7 +4947,7 @@ window.BTI_DATA = {
      "date": "2026-08-04",
      "title": "1 Temmuz 2026 tarihli mektubunuzda, müşteriniz Primark US adına tarife sınıflandırması kararı talebinde bulundunuz. Söz konusu mal, 991195503 stil numaralı bir bozuk para cüzdanı olup, yaklaşık 10,5 santimetre yüksek ve 14 santimetre geniştir. Ürün, üstte fermuardan oluşan ve iç …",
      "gerekce": "991195503 stil numaralı bozuk para cüzdanı için geçerli alt başlık, 7018.90.5000 HTSUS olacak olup, bu \"Cam boncuklar, taklit inci, taklit değerli ve yarı değerli taşlar ve bunların benzeri cam küçük eşya ve bunların tak…",
-     "url": "https://www.customsmobile.com/rulings/docview?doc_id=NY%20N362785"
+     "url": "us/N362785.html"
     },
     {
      "source": "uk",
@@ -4989,7 +4989,7 @@ window.BTI_DATA = {
      "date": "2026-08-04",
      "title": "2 Temmuz 2026 tarihli mektubunuzda, tarife sınıflandırması kararı talep etmişsiniz. Söz konusu mallar, bir motorlu taşıtın çatısına takılan ve hareketli veya sabit çatı pencereleri olarak işlev gören çerçeveli cam sun-roof montajlarıdır. Parça numarası 916047JA0A (Ürün Adı GLASS …",
      "gerekce": "Çerçeveli sun-roof cam montajları için geçerli alt başlık 8708.22.0000, HTSUS olacaktır. Bu başlık, başlıklar 8701 ila 8705 kapsamındaki motorlu taşıtların parça ve aksesuarlarını, ön camları, arka pencereleri ve bu bölü…",
-     "url": "https://www.customsmobile.com/rulings/docview?doc_id=NY%20N362830"
+     "url": "us/N362830.html"
     },
     {
      "source": "uk",
@@ -5031,7 +5031,7 @@ window.BTI_DATA = {
      "date": "2026-08-04",
      "title": "2 Temmuz 2026 tarihli yazınızda tarife sınıflandırma kararı talep etmiştiniz. Örnek yerine görseller sunulmuştur. Söz konusu ürün, kalıplanmış plastik bir kartuş olarak tanımlanmaktadır. 100 mililitre kapasiteli içi boş silindirik bir namlu ve namlu içinde kayan bir piston olmak …",
      "gerekce": "Bu plastik kartuş için geçerli alt pozisyon 3926.90.2100, HTSUS olacaktır ve bu pozisyon \"3901 ila 3914 pozisyonlarında yer alan plastikten diğer eşya ve diğer malzemelerden eşya: [i]diğer: ce torbaları; duş torbaları, l…",
-     "url": "https://www.customsmobile.com/rulings/docview?doc_id=NY%20N362836"
+     "url": "us/N362836.html"
     },
     {
      "source": "uk",
@@ -5073,7 +5073,7 @@ window.BTI_DATA = {
      "date": "2026-08-04",
      "title": "6 Temmuz 2026 tarihli yazınızda tarife sınıflandırma kararı talep etmiştiniz. Söz konusu ürün, model numarası RPCE-L-SP+E+S-1-1200X800-B-SP6+F9+IS2-VR1, VR2-LH50, RH360, AO, 3P220 olan Richpeace Otomatik Perforasyon, Nakış ve Dikiş (Döner Kafalı) Makinesidir. Bu programlanabilir,…",
      "gerekce": "Richpeace Otomatik Delik Açma, Nakış ve Dikiş (Döner Başlık) Makinesi, model numarası RPCE-L-SP+E+S-1-1200X800-B-SP6+F9+IS2-VR1, VR2-LH50, RH360, AO, 3P220 için geçerli alt başlık 8452.21.9000, HTSUS olacaktır. Bu başlık…",
-     "url": "https://www.customsmobile.com/rulings/docview?doc_id=NY%20N362892"
+     "url": "us/N362892.html"
     },
     {
      "source": "eu",
@@ -5101,7 +5101,7 @@ window.BTI_DATA = {
      "date": "2026-08-04",
      "title": "10 Temmuz 2026 tarihli mektubunuzda, müşteriniz Mutual Trading Co. Ltd. (El Monte, CA) adına tarife sınıflandırma kararı talep etmişsiniz. Gönderiminizle birlikte bir içerik dökümü, üretim sürecinin bir açıklaması ve ürünün fotoğraflarını sağladınız. Söz konusu ürün Dondurulmuş K…",
      "gerekce": "Yukarıda açıklanan Dondurulmuş Karides İçi Spring Roll için geçerli alt başlık 1605.29.0500, Birleşik Devletler Uyumlu Tarife Tarifesi (HTSUS) olacaktır. Bu başlık şunları kapsar: \"Kabuklular, yumuşakçalar ve diğer sulu …",
-     "url": "https://www.customsmobile.com/rulings/docview?doc_id=NY%20N363127"
+     "url": "us/N363127.html"
     },
     {
      "source": "eu",
@@ -5129,7 +5129,7 @@ window.BTI_DATA = {
      "date": "2026-08-04",
      "title": "14 Temmuz 2026 tarihli mektubunuzda, müşteriniz Old Master Products, Inc. adına bağlayıcı tarife sınıflandırması kararı talep etmişsiniz. Ürün bilgileri ve örnekleri inceleme için sunulmuştur. Söz konusu ürünler, mühendislik yapılı veya çok katmanlı ahşap döşemenin üç stildir. Bi…",
      "gerekce": "Panel 1 için geçerli alt başlık 4418.75.7000, HTSUS olacaktır. Bu başlık, ahşap yapı ve marangozluk işleri, hücresel ahşap paneller ve monte döşeme panelleri de dahil olmak üzere; çatı kiremitleri ve parçaları: Monte döş…",
-     "url": "https://www.customsmobile.com/rulings/docview?doc_id=NY%20N363306"
+     "url": "us/N363306.html"
     },
     {
      "source": "eu",
@@ -5157,7 +5157,7 @@ window.BTI_DATA = {
      "date": "2026-08-04",
      "title": "Müşteriniz ChemSpec Ltd. adına gönderdiğiniz 22 Aralık 2025 tarihli mektubunuzda ve daha önce gönderdiğiniz bir tarife sınıflandırma kararını talep etmiştiniz. Mevcut ürün N-Fenil-N-(triklorometilsülfenil)-benzensülfonamiddir. Ürün adı “Safic-Chem REC” olan Safic-Chem REC, tıbbi …",
      "gerekce": "Safic-Chem REC için geçerli alt başlık 2935.90.7500, HTSUS olacaktır. Bu başlık, Sulfonamidler: Diğer: Diğer: Diğer: VI. Bölümüne ek ABD notu 3'de açıklanan ürünler kapsamını belirtir. Genel vergi oranı ad valorem olarak…",
-     "url": "https://www.customsmobile.com/rulings/docview?doc_id=NY%20N357263"
+     "url": "us/N357263.html"
     },
     {
      "source": "eu",
@@ -5185,7 +5185,7 @@ window.BTI_DATA = {
      "date": "2026-08-04",
      "title": "22 Ocak 2026 tarihli yazınızda tarife sınıflandırma kararı talep etmiştiniz. Söz konusu mala Kar Yağışı Taşı adı verilmektedir. Karar talebinizle birlikte bir örnek gönderildi ve analiz için Gümrük ve Sınır Koruma (CBP) Laboratuvarına iletildi. Bu analiz tamamlandı. Kar yağışı, k…",
      "gerekce": "Snowfall taşı için uygulanabilir alt başlık, HTSUS'a göre 6802.93.0090 olacaktır; bu başlık \"İşlenmiş anıt veya yapı taşı (arduvaz hariç) ve bunlardan ürünler, 6801 başlığının malları hariç... Diğer: Granit: Diğer\" sağla…",
-     "url": "https://www.customsmobile.com/rulings/docview?doc_id=NY%20N358093"
+     "url": "us/N358093.html"
     },
     {
      "source": "eu",
@@ -5213,7 +5213,7 @@ window.BTI_DATA = {
      "date": "2026-08-04",
      "title": "6 Şubat 2026 tarihli yazınızda tarife sınıflandırma kararı talep etmişsiniz. Söz konusu malın adı Kazablanka taşıdır. Karar talebinizle birlikte bir örnek gönderildi ve analiz için Gümrük ve Sınır Koruma (CBP) Laboratuvarına iletildi. Bu analiz tamamlandı. Kazablanka, gri ve siya…",
      "gerekce": "Kazablanka taşı için geçerli alt pozisyon 6802.93.0090, HTSUS olacaktır ve bu pozisyon \"6801 pozisyonundaki ürünler hariç işlenmiş anıtsal veya inşaat taşları (arduvaz hariç) ve bunlardan eşya: Diğer: Granit: Diğer.\" Gen…",
-     "url": "https://www.customsmobile.com/rulings/docview?doc_id=NY%20N358620"
+     "url": "us/N358620.html"
     },
     {
      "source": "eu",
@@ -5241,7 +5241,7 @@ window.BTI_DATA = {
      "date": "2026-08-04",
      "title": "23 Haziran 2026 tarihli mektubunuzda, Benteler Steel & Tube Corp. adına gümrük tarifesi sınıflandırması kararı talep ettiniz. İnceleme konusu olan mallar, yarı bitmiş hava yastığı şişirme tüpleri, Parça Numaraları CTL_T921A, CTL_V910A, CTL_V677A, CTL_V678A, CTL_R671A, CTL_V690D v…",
      "gerekce": "Yarı mamul hava yastığı şişirme tüpleri için geçerli alt pozisyon, \"8701 ila 8705 pozisyonlarındaki motorlu taşıtların parça ve aksesuarları: Diğer parça ve aksesuarlar: Şişirme sistemli güvenlik hava yastıkları; bunları…",
-     "url": "https://www.customsmobile.com/rulings/docview?doc_id=NY%20N362508"
+     "url": "us/N362508.html"
     },
     {
      "source": "eu",
@@ -5269,7 +5269,7 @@ window.BTI_DATA = {
      "date": "2026-08-04",
      "title": "29 Haziran 2026 tarihli yazınızda tarife sınıflandırma kararı talep etmiştiniz. Gönderdiğiniz numuneler talep edildiği takdirde iade edilecektir. Orta boy erkek bedeninde sunulan Stil 1025AD, iç yüzeyi hafifçe fırçalanmış, yüzde 92 polyester ve yüzde 8 spandeks örgü kumaştan yapı…",
      "gerekce": "Stil 1025AD için geçerli alt pozisyon, aşağıdakileri öngören 6105.20.2010, HTSUS olacaktır: Erkek veya erkek çocuk gömlekleri (örme veya tığ işi): Suni ve sentetik elyaftan: Diğer: Erkek. Genel vergi oranı değer üzerinde…",
-     "url": "https://www.customsmobile.com/rulings/docview?doc_id=NY%20N362700"
+     "url": "us/N362700.html"
     },
     {
      "source": "eu",
@@ -5297,7 +5297,7 @@ window.BTI_DATA = {
      "date": "2026-08-04",
      "title": "30 Haziran 2026 tarihli mektubunuzda Discus Dental LLC adına tarife sınıflandırma kararı talep etmişsiniz. Söz konusu malın, basınçlı döküm çinko alaşımından yapılmış bir halka olduğu belirtilmektedir. Gönderiminizdeki resimler, çinko alaşımlı halkanın, dış çevre boyunca uzanan b…",
      "gerekce": "Çinko alaşımlı halka için geçerli alt pozisyon, “8508 pozisyonundaki elektrikli süpürgeler hariç, kendi kendine elektrik motorlu elektromekanik ev aletleri; bunların aksamı: Parçalar: Diğer: Diğer: Diğer”i öngören 8509.9…",
-     "url": "https://www.customsmobile.com/rulings/docview?doc_id=NY%20N362770"
+     "url": "us/N362770.html"
     },
     {
      "source": "eu",
@@ -5325,7 +5325,7 @@ window.BTI_DATA = {
      "date": "2026-08-04",
      "title": "1 Temmuz 2026 tarihli mektubunuzda, müvekkiliniz Ideematec adına tarife sınıflandırma kararı talep etmişsiniz. Söz konusu ürünler, uzunlukları boyunca delikler açılmış olan sigma şekilli, alaşımsız çelik çinko kaplı direkler/profillerdir. Bu soğuk haddelenmiş çelik direklerin yük…",
      "gerekce": "Sigma şekilli, alaşımsız çelik çinko kaplı direkler için geçerli alt pozisyon, demir veya alaşımsız çelikten köşebentler, şekiller ve kesitler sağlayan 7216.91.0010, HTSUS olacaktır: Soğuk şekillendirilmiş veya soğuk işl…",
-     "url": "https://www.customsmobile.com/rulings/docview?doc_id=NY%20N362807"
+     "url": "us/N362807.html"
     },
     {
      "source": "eu",
@@ -5353,7 +5353,7 @@ window.BTI_DATA = {
      "date": "2026-08-04",
      "title": "1 Temmuz 2026 tarihli mektubunuzda hareketli battaniye için sınıflandırma ve menşe ülke tespiti talep ediyorsunuz. Talebiniz ile birlikte numune yerine ürünün fotoğrafları da sunulmuştur. “Dokuma Kapitone Hareketli Battaniye” olarak tanımlanan ürün, mobilyaların taşınırken hasar …",
      "gerekce": "(Gerekçe metni bulunamadı)",
-     "url": "https://www.customsmobile.com/rulings/docview?doc_id=NY%20N362809"
+     "url": "us/N362809.html"
     },
     {
      "source": "eu",
@@ -5381,7 +5381,7 @@ window.BTI_DATA = {
      "date": "2026-08-04",
      "title": "3 Temmuz 2026 tarihli mektubunuzda WithMasters Inc. adına bir tarife sınıflandırma kararı talep etmiştiniz. Ürün, Katı İşlemci (Model OLO RT-500 US1) olarak tanımlanıyor ve bunu şu şekilde tanımlıyorsunuz: Katı İşlemci, bireysel konutlarda kullanılmak üzere tasarlanmış, elektrikl…",
      "gerekce": "Katı İşlemci için geçerli alt pozisyon, evsel amaçlarla kullanılan türden diğer elektrotermik cihazları, diğer elektrotermik cihazları ve diğerlerini sağlayan 8516.79.0000, HTSUS olacaktır. Gümrük vergisi oranı yüzde 2,7…",
-     "url": "https://www.customsmobile.com/rulings/docview?doc_id=NY%20N362844"
+     "url": "us/N362844.html"
     },
     {
      "source": "eu",
@@ -5409,7 +5409,7 @@ window.BTI_DATA = {
      "date": "2026-08-04",
      "title": "15 Temmuz 2026 tarihli yazınızda tarife sınıflandırma kararı talep etmiştiniz. Bu talepte değerlendirilen ürünler, ayrı ayrı AXGD1, PGB1 ve XGD model numaraları olarak tanımlanan Littelfuse ESD baskılayıcıların üç versiyonudur. Her üç model de hassas elektronik ekipmanlar ve yüks…",
      "gerekce": "ESD baskılayıcılar için geçerli alt pozisyon, “1.000 V'u aşmayan bir voltaj için…elektrik devrelerini anahtarlamaya veya korumaya yönelik elektrikli cihazlar: Elektrik devrelerini korumaya yönelik diğer cihazlar: Diğer”i…",
-     "url": "https://www.customsmobile.com/rulings/docview?doc_id=NY%20N363339"
+     "url": "us/N363339.html"
     },
     {
      "source": "eu",
@@ -5437,7 +5437,7 @@ window.BTI_DATA = {
      "date": "2026-08-04",
      "title": "16 Temmuz 2026 tarihli mektubunuzda, müşteriniz LAfiob International Co. (Sana'a, Yemen Cumhuriyeti) adına tarife sınıflandırma kararı talep etmişsiniz. Söz konusu ürün Buharlaştırılmış Süt'tür. Raf ömrüne sahip buharlaştırılmış dolgulu süt ürünü, arıtılmış su, yağsız süt tozu, t…",
      "gerekce": "Buharlaştırılmış Süt için geçerli alt pozisyon, 4. fasıldaki ek ABD not 10'da açıklanan sınırlar dahilinde ithal edilmesi halinde, 1901.90.6100, Amerika Birleşik Devletleri Uyumlaştırılmış Tarife Tablosu (HTSUS) olacaktı…",
-     "url": "https://www.customsmobile.com/rulings/docview?doc_id=NY%20N363358"
+     "url": "us/N363358.html"
     },
     {
      "source": "eu",
@@ -5465,7 +5465,7 @@ window.BTI_DATA = {
      "date": "2026-08-04",
      "title": "Söz konusu mallar, HTSUS 6307.90.98 alt pozisyonu altında uygun bir şekilde sınıflandırılmış olup bu alt pozisyon, yüzde 7 gümrük vergisine sahip olan ve HTSUS 9903.88.15 alt pozisyonu altında yüzde 7 gümrük vergisine sahip olan \"Diğer hazır eşya: Diğer: Diğer: Diğer\" şeklinde sı…",
      "gerekce": "(Gerekçe metni bulunamadı)",
-     "url": "https://www.customsmobile.com/rulings/docview?doc_id=HQ%20H344922"
+     "url": "us/H344922.html"
     },
     {
      "source": "eu",
@@ -5493,7 +5493,7 @@ window.BTI_DATA = {
      "date": "2026-08-04",
      "title": "H348342 8 Mayıs 2026 OT:RR:CTF:EMAIN H348342 PF KATEGORİ: Sınıflandırma TARİFE NO.: 8471.80.10 Bay Carl W. Mertz TP-Link Kuzey Amerika 145 South State College Blvd, Suite 400 Brea, CA 92821 RE: New York Karar Mektubunun Tadilatı (NY) N294888; USB 3.0 7 Bağlantı Noktalı Hub'ın tar…",
      "gerekce": "(Gerekçe metni bulunamadı)",
-     "url": "https://www.customsmobile.com/rulings/docview?doc_id=HQ%20H348342"
+     "url": "us/H348342.html"
     },
     {
      "source": "eu",
@@ -7547,7 +7547,7 @@ window.BTI_DATA = {
      "date": "2026-07-31",
      "title": "Söz konusu mal, yukarıda yer alan 1(c) nolu Not uyarınca Bölüm XI kapsamı dışında tutulmuştur. Öncelikle, yukarıda belirtilen 14. Fasılın 1. Notunda belirtilen hariç tutma kapsamına girip girmediğini, yani \"bitkisel maddeler veya esas olarak tekstil imalatında kullanılan türden b…",
      "gerekce": "(Gerekçe metni bulunamadı)",
-     "url": "https://www.customsmobile.com/rulings/docview?doc_id=HQ%20H334131"
+     "url": "us/H334131.html"
     },
     {
      "source": "uk",
@@ -7603,7 +7603,7 @@ window.BTI_DATA = {
      "date": "2026-07-31",
      "title": "8 Kasım 2025 tarihli mektubunuzda, müşteriniz Qualita Granitos E Marmores LTDA adına tarife sınıflandırma kararı talep etmişsiniz. Söz konusu mala Beyaz Delicatus taşı adı verilmektedir. Karar talebinizle birlikte bir numune teslim edilmiş ve analiz için Gümrük ve Sınır Koruma La…",
      "gerekce": "Beyaz Delikatus taşı için geçerli alt pozisyon, Amerika Birleşik Devletleri Uyumlaştırılmış Tarife Cetveli (HTSUS) 6802.99.0090 olacaktır; bu listede \"6801 pozisyonundaki mallar hariç işlenmiş anıtsal veya inşaat taşları…",
-     "url": "https://www.customsmobile.com/rulings/docview?doc_id=NY%20N355895"
+     "url": "us/N355895.html"
     },
     {
      "source": "uk",
@@ -7659,7 +7659,7 @@ window.BTI_DATA = {
      "date": "2026-07-31",
      "title": "8 Kasım 2025 tarihli mektubunuzda, müşteriniz Qualita Granitos E Marmores LTDA adına tarife sınıflandırma kararı talep etmişsiniz. Söz konusu mala İstanbul taşı adı verilmektedir. Karar talebinizle birlikte bir numune teslim edilmiş ve analiz için Gümrük ve Sınır Koruma Laboratuv…",
      "gerekce": "İstanbul taşı için geçerli alt pozisyon, Amerika Birleşik Devletleri Uyumlaştırılmış Tarife Cetveli (HTSUS) 6802.93.0090 olacaktır; bu alt pozisyon, “6801 pozisyonundaki mallar hariç işlenmiş anıtsal veya inşaat taşları …",
-     "url": "https://www.customsmobile.com/rulings/docview?doc_id=NY%20N355898"
+     "url": "us/N355898.html"
     },
     {
      "source": "uk",
@@ -7701,7 +7701,7 @@ window.BTI_DATA = {
      "date": "2026-07-31",
      "title": "8 Kasım 2025 tarihli mektubunuzda, müşteriniz Qualita Granitos E Marmores LTDA adına tarife sınıflandırma kararı talep etmişsiniz. Söz konusu ürüne Süper Siyah taş adı verilmektedir. Karar talebinizle birlikte bir numune teslim edilmiş ve analiz için Gümrük ve Sınır Koruma Labora…",
      "gerekce": "Süper Kara taş için geçerli alt pozisyon, Amerika Birleşik Devletleri Uyumlaştırılmış Tarife Cetveli (HTSUS) 6802.99.0090 olacaktır; bu listede \"6801 pozisyonunda yer alan mallar hariç işlenmiş anıtsal veya inşaat taşlar…",
-     "url": "https://www.customsmobile.com/rulings/docview?doc_id=NY%20N355899"
+     "url": "us/N355899.html"
     },
     {
      "source": "uk",
@@ -7743,7 +7743,7 @@ window.BTI_DATA = {
      "date": "2026-07-31",
      "title": "24 Haziran 2026 tarihli yazınızda tarife sınıflandırma kararı talep etmişsiniz. Talebiniz doğrultusunda örnek yerine fotoğraf ve videolar sunulmuştur. Jeotekstil kumaş ve 17 adet ahşap kazıktan oluşan, “kazıklı cep çiti” olarak tanımlanan ürünün, yağmur sırasında tortu veya topra…",
      "gerekce": "Tahta kazıklı alüvyon çit için geçerli alt pozisyon, HTSUS 6307.90.9891 olacaktır ve bu alt pozisyon, \"Elbise desenleri de dahil olmak üzere diğer hazır eşyalar: Diğer: Diğer: Diğer: Diğer: Diğer.\" Genel vergi oranı değe…",
-     "url": "https://www.customsmobile.com/rulings/docview?doc_id=NY%20N362525"
+     "url": "us/N362525.html"
     },
     {
      "source": "uk",
@@ -7785,7 +7785,7 @@ window.BTI_DATA = {
      "date": "2026-07-31",
      "title": "Müşteriniz Camar Mill Systems Limited adına 24 Haziran 2026 tarihli mektubunuzda tarife sınıflandırma kararı talep etmişsiniz. Bu mektubun bölünmüş bir kararın parçası olduğunu lütfen unutmayın. Pelet sonrası sıvı aplikatörü ve salınım gözlemcisi ayrı bir kararda ele alınacaktır.…",
      "gerekce": "Camar Kütle Akış Ölçer için geçerli alt pozisyon, Amerika Birleşik Devletleri Harmonize Tarife Cetveli (HTSUS) 8423.81.0040 olacaktır ve bu başlık şu şekilde olacaktır: \"Ağırlıkla çalışan sayma veya kontrol makineleri da…",
-     "url": "https://www.customsmobile.com/rulings/docview?doc_id=NY%20N362556"
+     "url": "us/N362556.html"
     },
     {
      "source": "uk",
@@ -7827,7 +7827,7 @@ window.BTI_DATA = {
      "date": "2026-07-31",
      "title": "27 Haziran 2026 tarihli yazınızda tarife sınıflandırma kararı talep etmiştiniz. İki farklı boyuttaki Demir Tabela Braketinin fotoğrafları ve ürün açıklamaları talebiniz ile birlikte tarafınıza iletilmiştir. L şeklindeki braketlerin her biri, duvara montaj tarafını oluşturmak için…",
      "gerekce": "İki farklı boyuttaki Demir İşaret Braketleri için geçerli alt pozisyon, mobilya, kapı, merdiven, pencere, panjur, karoseri, saraçlık, sandıklar, sandıklar, tabutlar veya benzerleri için uygun adi metal montajlar, bağlant…",
-     "url": "https://www.customsmobile.com/rulings/docview?doc_id=NY%20N362680"
+     "url": "us/N362680.html"
     },
     {
      "source": "eu",
@@ -7855,7 +7855,7 @@ window.BTI_DATA = {
      "date": "2026-07-31",
      "title": "29 Haziran 2026 tarihli mektubunuzda Kendin Yap Akrilik Boya Seti için tarife sınıflandırma kararı talep etmiştiniz. Gönderiminizde konu ürün DIY Akrilik Boyama Seti olarak belirtilmiştir. Bu aktivite seti her yaşa uygun olup perakende satışa uygun olarak ithal edilmektedir. Kit,…",
      "gerekce": "DIY Akrilik Boyama Kiti için geçerli alt başlık, Sanatçıların, öğrencilerin veya tabela ressamlarının renklerini, değişen renk tonlarını, eğlence renklerini ve benzerlerini tabletlerde, tüplerde, kavanozlarda, şişelerde,…",
-     "url": "https://www.customsmobile.com/rulings/docview?doc_id=NY%20N362701"
+     "url": "us/N362701.html"
     },
     {
      "source": "eu",
@@ -7883,7 +7883,7 @@ window.BTI_DATA = {
      "date": "2026-07-31",
      "title": "1 Temmuz 2026 tarihli yazınızda tarife sınıflandırma kararı talep etmiştiniz. İncelememiz için tanımlayıcı literatür sağlandı. Göz önünde bulundurulan öğe, hafif uçaklar, planörler ve mikro ışıklar için tasarlanmış hassas bir yedek alet olan NV2C-28V-SF navigasyon pusulasıdır. Ar…",
      "gerekce": "NV2C-28V-SF yön bulma pusulası için geçerli alt başlık, Amerika Birleşik Devletleri Harmonize Tarife Tablosu (HTSUS) 9014.10.9000 olacaktır; bu listede \"Yön bulma pusulaları; diğer seyir aletleri ve cihazları; bunların p…",
-     "url": "https://www.customsmobile.com/rulings/docview?doc_id=NY%20N362780"
+     "url": "us/N362780.html"
     },
     {
      "source": "eu",
@@ -7911,7 +7911,7 @@ window.BTI_DATA = {
      "date": "2026-07-31",
      "title": "Müşteriniz CVS Pharmacy A.Ş. adına 6 Temmuz 2026 tarihli mektubunuzda tarife sınıflandırma kararı talep etmişsiniz. Söz konusu ürün, ürün numarası 865735 olarak tanımlanan, yaprak dökmeyen ağaç şeklinde bir dekoratif eşyadır. Eşya yüksek borosilikat camdan yapılmıştır ve yaklaşık…",
      "gerekce": "865735 ürün numarası için geçerli alt pozisyon 7013.99.8090, HTSUS olacaktır ve bu pozisyon “Masa, mutfak, tuvalet, ofis, iç mekan dekorasyonu veya benzeri amaçlarla kullanılan türde cam eşya… Diğer cam eşyalar: Diğer: D…",
-     "url": "https://www.customsmobile.com/rulings/docview?doc_id=NY%20N362900"
+     "url": "us/N362900.html"
     },
     {
      "source": "eu",
@@ -7939,7 +7939,7 @@ window.BTI_DATA = {
      "date": "2026-07-31",
      "title": "7 Temmuz 2026 tarihli yazınızda tarife sınıflandırma kararı talep etmiştiniz. Bilgilendirme materyali talebinizle birlikte gönderildi. Söz konusu öğe, bir kadın savaşçının giydiği zırhı andıran özel yapım metal bir rönesans fuarı kostümüdür. Bu kostümü oluşturan iki parça var; he…",
      "gerekce": "Metal kostüm için geçerli alt pozisyon, \"Alüminyumdan diğer eşyalar: Diğer: Diğer: Diğer: Diğer: Diğer\" ifadesini öngören 7616.99.5190, HTSUS olacaktır. Genel vergi oranı değer üzerinden yüzde 2,5 olacaktır.",
-     "url": "https://www.customsmobile.com/rulings/docview?doc_id=NY%20N362905"
+     "url": "us/N362905.html"
     },
     {
      "source": "eu",
@@ -7967,7 +7967,7 @@ window.BTI_DATA = {
      "date": "2026-07-31",
      "title": "Müşteriniz CVS Pharmacy A.Ş. adına 7 Temmuz 2026 tarihli mektubunuzda tarife sınıflandırma kararı talep etmişsiniz. Söz konusu ürün, ürün numaraları 866042 ve 866041 olarak tanımlanan iki dekoratif cam silindirden oluşmaktadır. Silindirlerin tasarımı aynıdır ancak biri kırmızı, d…",
      "gerekce": "866042 ve 866041 sıra numaralı ürünler için geçerli alt pozisyon, “Masa, mutfak, tuvalet, ofis, iç mekan dekorasyonu veya benzeri amaçlar için kullanılan türden cam eşya”yı öngören 7013.99.8090, HTSUS olacaktır. amaç... …",
-     "url": "https://www.customsmobile.com/rulings/docview?doc_id=NY%20N362910"
+     "url": "us/N362910.html"
     },
     {
      "source": "eu",
@@ -7995,7 +7995,7 @@ window.BTI_DATA = {
      "date": "2026-07-31",
      "title": "13 Temmuz 2026 tarihli yazınızda tarife sınıflandırma kararı talep etmiştiniz. Bir numune gönderilmiştir ve talep edildiği takdirde saklanacaktır. Söz konusu ürün, bir Çay Bardağı Aksesuar Seti olan OEM27-0411 Öğesidir. Dekoratif bir kafa bandı, çiçekli bir gerdanlık ve iki çiçek…",
      "gerekce": "Dekoratif saç bandı için geçerli alt pozisyon 9615.19.6000, HTSUS olacaktır ve bu pozisyon \"Taraklar, tokalar ve benzerleri; saç tokaları, kıvırma tokaları, kıvırma sapları, saç kıvırıcıları ve benzerleri (8516 pozisyonu…",
-     "url": "https://www.customsmobile.com/rulings/docview?doc_id=NY%20N363263"
+     "url": "us/N363263.html"
     },
     {
      "source": "eu",
@@ -8023,7 +8023,7 @@ window.BTI_DATA = {
      "date": "2026-07-31",
      "title": "N363356 17 Temmuz 2026 CLA-2:85:OT:RR:NC:N2:212 KATEGORİ: Sınıflandırma TARİFE NO.: 8536.90.8585 Bay Jiwon Kwon Cusan Gümrük Hizmetleri Şirketi #309, 35, Magokjungang 2-ro, Gangseo-gu Seul 07806 Güney Kore RE: Kore'den bir topraklama çubuğunun tarife sınıflandırması. N356072 Sayı…",
      "gerekce": "Model Numaraları IL-IB, IL-EB2 ve IL-EB3 olan Topraklama Çubuğu için geçerli alt pozisyon, \"1.000 V'u aşmayan bir voltaj için...elektrik devrelerine veya elektrik devrelerinde bağlantı yapmaya yönelik...elektrikli aparat…",
-     "url": "https://www.customsmobile.com/rulings/docview?doc_id=NY%20N363356"
+     "url": "us/N363356.html"
     },
     {
      "source": "eu",
@@ -8051,7 +8051,7 @@ window.BTI_DATA = {
      "date": "2026-07-31",
      "title": "Söz konusu ürüne Andino White Stone adı veriliyor. Karar talebinizle birlikte bir numune teslim edilmiş ve analiz için Gümrük ve Sınır Koruma Laboratuvarına iletilmiştir. Bu analiz tamamlandı. Andino White, gri ve koyu kırmızı lekelerle benekli krem ​​​​renkli bir taştır. Sağladı…",
      "gerekce": "Andino Beyaz taşı için geçerli alt pozisyon, Amerika Birleşik Devletleri Uyumlaştırılmış Tarife Cetveli (HTSUS) 6802.99.0090 olacaktır; bu listede \"6801 pozisyonundaki mallar hariç işlenmiş anıtsal veya inşaat taşları (a…",
-     "url": "https://www.customsmobile.com/rulings/docview?doc_id=NY%20N355239"
+     "url": "us/N355239.html"
     },
     {
      "source": "eu",
@@ -8079,7 +8079,7 @@ window.BTI_DATA = {
      "date": "2026-07-31",
      "title": "18 Haziran 2026 tarihli yazınızda tarife sınıflandırma kararı talep etmiştiniz. Söz konusu öğe, bir araç benzinli (kıvılcım ateşlemeli) motorun valf mekanizmasında kullanılması amaçlanan, iki yarım daire parçadan oluşan pens tipi bir bileşen olduğunu belirttiğiniz bir kilit valfi…",
      "gerekce": "Kilit valfi yay tutucusu için geçerli alt pozisyon, \"Sadece veya esas olarak 8407 veya 8408 pozisyonlarındaki motorlarla kullanılmaya uygun parçalar: Diğer: Diğer: Diğer: Diğer\" ifadesini öngören 8409.91.5085, HTSUS olac…",
-     "url": "https://www.customsmobile.com/rulings/docview?doc_id=NY%20N362417"
+     "url": "us/N362417.html"
     },
     {
      "source": "eu",
@@ -8107,7 +8107,7 @@ window.BTI_DATA = {
      "date": "2026-07-31",
      "title": "22 Haziran 2026 tarihli yazınızda tarife sınıflandırma kararı talep etmiştiniz. İncelememiz için bir fotoğraf ve ürün açıklamaları gönderildi. Söz konusu malın Ağır 20 oz olduğu belirtiliyor. Alüminyum Bardaklar. Kapların 0,18 mm alüminyum alaşımından yapıldığını, dışının polipro…",
      "gerekce": "Hefty 20 oz için geçerli alt pozisyon. Alüminyum Bardaklar 7615.10.7180, HTSUS, Alüminyumdan masa, mutfak veya diğer ev eşyası ve bunların aksamı…: Masa, mutfak veya diğer ev eşyası ve bunların aksamı…Diğer: Yemek pişirm…",
-     "url": "https://www.customsmobile.com/rulings/docview?doc_id=NY%20N362469"
+     "url": "us/N362469.html"
     },
     {
      "source": "eu",
@@ -8135,7 +8135,7 @@ window.BTI_DATA = {
      "date": "2026-07-31",
      "title": "22 Haziran 2026 tarihli mektubunuzda, muhtemel sevkiyatlara yönelik baskılı metal posterlere ilişkin tarife sınıflandırma kararı talep etmiştiniz. İncelememiz için üç numune ve ürün bilgisi gönderildi. Göz önünde bulundurulan öğeler, \"Displate Metal Posterler\" olarak tanımlanan ü…",
      "gerekce": "Tasarım numarası 5017887_1001_TEXTRA, \"Yaratılış Sütunları\" Madde 1 için geçerli alt pozisyon, basılı resimler ve fotoğraflar da dahil olmak üzere diğer basılı malzemeleri sağlayan 4911.91.4040, HTSUS olacaktır: Diğer: R…",
-     "url": "https://www.customsmobile.com/rulings/docview?doc_id=NY%20N362474"
+     "url": "us/N362474.html"
     },
     {
      "source": "eu",
@@ -8163,7 +8163,7 @@ window.BTI_DATA = {
      "date": "2026-07-31",
      "title": "22 Haziran 2026 tarihli yazınızda tarife sınıflandırma kararı talep etmiştiniz. İncelememiz için fotoğraf ve ürün açıklamaları gönderdiniz. Baccharis ürün adını atadığınız söz konusu ürün, hakiki sığır derisinden yapılmış bir taşıma çantasıdır. Kitaplar, küçük giyim eşyaları ve s…",
      "gerekce": "Bez çanta için geçerli alt pozisyon, dış yüzeyi deri olan seyahat, spor ve benzeri çantaları öngören Amerika Birleşik Devletleri Uyumlaştırılmış Tarife Tablosu (HTSUS) 4202.91.0030 olacaktır. Genel vergi oranı ad valorem…",
-     "url": "https://www.customsmobile.com/rulings/docview?doc_id=NY%20N362493"
+     "url": "us/N362493.html"
     },
     {
      "source": "eu",
@@ -8191,7 +8191,7 @@ window.BTI_DATA = {
      "date": "2026-07-31",
      "title": "17 Haziran 2026 tarihinde ofisimize ulaşan mektubunuzda, müşteriniz Metalworks Ningbo Aida Inc. adına menşe ülke kararı talep etmişsiniz. Söz konusu ürünler PEX tesisat armatürleri olarak tanımlanmaktadır: 1) kaplin (model # SSPEX-C, SSCEP-C); 2) fiş (model # SSPEX-P, SSCEP-P); 3…",
      "gerekce": "Kaplin, fiş, dişi adaptör ve erkek adaptör için geçerli alt pozisyon, demir veya çelikten: diğer, paslanmaz çelikten: diğer: diğer boru veya boru bağlantı parçalarını (örneğin, kaplinler, dirsekler, manşonlar) öngören Am…",
-     "url": "https://www.customsmobile.com/rulings/docview?doc_id=NY%20N362608"
+     "url": "us/N362608.html"
     },
     {
      "source": "eu",
@@ -8219,7 +8219,7 @@ window.BTI_DATA = {
      "date": "2026-07-31",
      "title": "29 Haziran 2026 tarihli yazınızda tarife sınıflandırma kararı talep etmiştiniz. Öğe/SKU DM0030003, bir Epoksi Reçine \"Kendi Anahtarlığınızı Yaratın\" kitidir. Gönderiminizle birlikte kitin bir örneği de sağlanmıştır. Kit, berrak sıvı iki bileşenli epoksi reçine AB (reçine artı ser…",
      "gerekce": "Epoksi Reçine “Kendi Anahtarlığınızı Yaratın” kiti için geçerli alt başlık, poliasetalleri, diğer polieterleri ve epoksit reçinelerini birincil formlarda sağlayan Amerika Birleşik Devletleri Harmonize Tarife Tablosu (HTS…",
-     "url": "https://www.customsmobile.com/rulings/docview?doc_id=NY%20N362694"
+     "url": "us/N362694.html"
     },
     {
      "source": "eu",
@@ -8247,7 +8247,7 @@ window.BTI_DATA = {
      "date": "2026-07-31",
      "title": "2 Temmuz 2026 tarihli mektubunuzda, müşteriniz International Stationery Company Limited adına sınıflandırma, menşe ülke ve işaretleme kararı talep etmiştiniz. Söz konusu ürünler, her biri 7,0 inç x 0,3 inç boyutlarında ve 4 milimetrelik balmumu/kil çekirdekli 24 yuvarlak renkli k…",
      "gerekce": "Renkli kalemler için geçerli alt pozisyon 9609.10.0000, HTSUS olacaktır ve bu alt pozisyon, “Kurşun kalemler (9608 pozisyonundaki kurşun kalemler hariç), boya kalemleri, kurşun kalem uçları, pastel boyalar, kara kalemler…",
-     "url": "https://www.customsmobile.com/rulings/docview?doc_id=NY%20N362828"
+     "url": "us/N362828.html"
     },
     {
      "source": "eu",
@@ -8275,7 +8275,7 @@ window.BTI_DATA = {
      "date": "2026-07-31",
      "title": "8 Temmuz 2026 tarihli mektubunuzda müşteriniz CVS Pharmacy, Inc. adına bağlayıcı bir tarife sınıflandırma kararı talep etmişsiniz. Ürün bilgileri ve fotoğrafları incelememiz için gönderilmiştir. Söz konusu ürün, dekoratif bir baykuş figürü olan Madde 865858'dir. Figürün formu str…",
      "gerekce": "Dekoratif baykuş figürü olan 865858 Kalemi için geçerli alt pozisyon, 4602.19.8000, HTSUS olacaktır; bu, sepet işi, hasır işi ve doğrudan örgü malzemelerinden şekil verilerek yapılan veya 4601 pozisyonundaki eşyalardan y…",
-     "url": "https://www.customsmobile.com/rulings/docview?doc_id=NY%20N362969"
+     "url": "us/N362969.html"
     },
     {
      "source": "eu",
@@ -8303,7 +8303,7 @@ window.BTI_DATA = {
      "date": "2026-07-31",
      "title": "9 Temmuz 2026 tarihli yazınızda tarife sınıflandırması ve menşe ülke belirleme kararı talep etmişsiniz. Söz konusu ürün, bir binanın iskeletini oluşturmak üzere tasarlanmış yapısal çelik çerçevedir. Yapısal çelik çerçeve bileşenleri, duvar çerçeve panelleri, çatı çerçeve düzenekl…",
      "gerekce": "Yukarıda açıklandığı gibi, yapısal çelik çerçeveler için geçerli alt pozisyon, Yapılar (9406 pozisyonundaki prefabrik yapılar hariç) ve yapı parçalarını (örneğin, köprüler ve köprü bölümleri, kilit kapıları, kuleler, kaf…",
-     "url": "https://www.customsmobile.com/rulings/docview?doc_id=NY%20N363014"
+     "url": "us/N363014.html"
     },
     {
      "source": "eu",
@@ -8331,7 +8331,7 @@ window.BTI_DATA = {
      "date": "2026-07-31",
      "title": "26 Haziran 2026 tarihli mektubunuzda, müşteriniz Dazian, LLC adına bağlayıcı bir tarife sınıflandırma kararı talep etmişsiniz. Ürün bilgileri ve numuneler incelememiz için gönderildi. Söz konusu ürünler, bir kağıt desteğine yapıştırılmış dokulu vinil tabakasından yapılmış duvar k…",
      "gerekce": "Stil 140D ve 150E olmak üzere iki duvar kaplamasının geçerli alt pozisyonu, Duvar kağıdı ve benzeri duvar kaplamalarını sağlayan 4814.20.0000, HTSUS olacaktır; Kağıttan pencere asetatları: Ön tarafı damarlı, kabartmalı, …",
-     "url": "https://www.customsmobile.com/rulings/docview?doc_id=NY%20N363046"
+     "url": "us/N363046.html"
     },
     {
      "source": "eu",
@@ -8359,7 +8359,7 @@ window.BTI_DATA = {
      "date": "2026-07-31",
      "title": "10 Temmuz 2026 tarihli mektubunuzda, müşteriniz Chrome Cherry LLC adına tarife sınıflandırma kararı talep etmişsiniz. Söz konusu ürün, \"FabLittleBag - Adet Dönemi Ürünleri için Bireysel Mühürlenebilir Hijyenik Atık Torbası ve ilgili duvara monte plastik dağıtıcı\" olarak anılmakta…",
      "gerekce": "Ayrı olarak ithal edildiğinde FabLittleBag'ler için geçerli alt pozisyon, malların taşınmasına veya paketlenmesine yönelik eşyaları sağlayan 3923.21.0095, HTSUS olacaktır; plastiklerden: çuvallar ve poşetler (koniler dah…",
-     "url": "https://www.customsmobile.com/rulings/docview?doc_id=NY%20N363213"
+     "url": "us/N363213.html"
     },
     {
      "source": "eu",
@@ -8387,7 +8387,7 @@ window.BTI_DATA = {
      "date": "2026-07-31",
      "title": "24 Ekim 2025 tarihli yazınızda tarife sınıflandırma kararı talep etmiştiniz. Söz konusu mala Beyaz Buz taşı adı verilmektedir. Karar talebinizle birlikte bir numune teslim edilmiş ve analiz için Gümrük ve Sınır Koruma Laboratuvarına iletilmiştir. Bu analiz tamamlandı. White Ice, …",
      "gerekce": "Beyaz Buz taşı için geçerli alt pozisyon, Amerika Birleşik Devletleri Uyumlaştırılmış Tarife Cetveli (HTSUS) 6802.99.0090 olacaktır; bu listede \"6801 pozisyonunda yer alan mallar hariç işlenmiş anıtsal veya inşaat taşlar…",
-     "url": "https://www.customsmobile.com/rulings/docview?doc_id=NY%20N355231"
+     "url": "us/N355231.html"
     },
     {
      "source": "eu",
@@ -8415,7 +8415,7 @@ window.BTI_DATA = {
      "date": "2026-07-31",
      "title": "8 Kasım 2025 tarihli mektubunuzda, müşteriniz Qualita Granitos E Marmores LTDA adına tarife sınıflandırma kararı talep etmişsiniz. Söz konusu mal Bahamalar Beyaz taşı olarak adlandırılıyor. Karar talebinizle birlikte bir numune teslim edilmiş ve analiz için Gümrük ve Sınır Koruma…",
      "gerekce": "Bahamalar Beyaz Taşı için geçerli alt pozisyon, Amerika Birleşik Devletleri Uyumlaştırılmış Tarife Cetveli (HTSUS) 6802.99.0090 olacaktır; bu listede \"6801 pozisyonundaki mallar hariç işlenmiş anıtsal veya inşaat taşları…",
-     "url": "https://www.customsmobile.com/rulings/docview?doc_id=NY%20N355897"
+     "url": "us/N355897.html"
     },
     {
      "source": "eu",
@@ -8443,7 +8443,7 @@ window.BTI_DATA = {
      "date": "2026-07-31",
      "title": "Hythe Holdings, Inc., dba Astura Medical adına 18 Haziran 2026 tarihli mektubunuzda tarife sınıflandırma kararı talep etmişsiniz. Söz konusu ürünler MASADA Modüler Spinal Fiksasyon Sistemi, MASADA Minimal İnvazif Spinal Fiksasyon Sistemi, MASADA Sakral-Alar-İliak Vida Sistemi, OL…",
      "gerekce": "MASADA Modüler Spinal Fiksasyon Sistemi, MASADA Minimal İnvaziv Spinal Fiksasyon Sistemi, MASADA Sakral-Alar-İliyak Vida Sistemi, OLYMPIC Posterior Spinal Fiksasyon Sistemi ve OLYMPIC Minimal İnvazif Spinal Fiksasyon Sis…",
-     "url": "https://www.customsmobile.com/rulings/docview?doc_id=NY%20N362426"
+     "url": "us/N362426.html"
     },
     {
      "source": "eu",
@@ -8471,7 +8471,7 @@ window.BTI_DATA = {
      "date": "2026-07-31",
      "title": "19 Haziran 2026 tarihli mektubunuzda, müşteriniz Stacked Commerce adına verilen Avustralya-Amerika Birleşik Devletleri Serbest Ticaret Anlaşması (AUSFTA) uyarınca tarife sınıflandırması ve tercihli tarife uygulamasına uygunluk talebinde bulundunuz. Sorgunuza içeriklerin dökümü ve…",
      "gerekce": "Ürün için geçerli alt pozisyon, \"Cheezels Orijinal Peynir Aromalı Atıştırmalıklar\", ekmek, pasta, kek, bisküvi ve diğer fırıncılık ürünlerini… diğer… diğer… mısır cipsi ve benzeri gevrek tuzlu atıştırmalık yiyecekleri sa…",
-     "url": "https://www.customsmobile.com/rulings/docview?doc_id=NY%20N362449"
+     "url": "us/N362449.html"
     },
     {
      "source": "eu",
@@ -8499,7 +8499,7 @@ window.BTI_DATA = {
      "date": "2026-07-31",
      "title": "22 Haziran 2026 tarihli mektubunuzda müşteriniz James Ross Limited adına tarife sınıflandırma kararı talep etmişsiniz. Söz konusu ürün, Rossilatör, Parça numaraları RSL JR, RSL HD3, RSL STD ve kağıt makinesi sistemlerinde, özellikle şekillendirme, pres veya kurutma bölümlerinde k…",
      "gerekce": "Rossilatör için geçerli alt başlık, Parça numarası RSL JR, 8501.10.4020, HTSUS olacaktır; bu başlık, \"Elektrik motorları…: Çıkışı 37,5 W'u aşmayan motorlar: 18,65 W'nin altında: Diğer: AC.\" Genel vergi oranı değer üzerin…",
-     "url": "https://www.customsmobile.com/rulings/docview?doc_id=NY%20N362473"
+     "url": "us/N362473.html"
     },
     {
      "source": "eu",
@@ -8527,7 +8527,7 @@ window.BTI_DATA = {
      "date": "2026-07-31",
      "title": "17 Haziran 2026 tarihli yazınızda tarife sınıflandırma kararı talep etmiştiniz. İsteğinizle birlikte bir örnek, üretim sürecinin açıklaması ve fotoğraflar gönderildi. Öğe # 3362 için gönderilen fotoğraflar ve açıklama, bir kadının birbirine dikilmiş deri parçalardan yapılmış, kap…",
      "gerekce": "Şekillendirilmemiş deri çizme üst kısmı (Ürün# 3362) için geçerli alt pozisyon, ayakkabı parçalarını sağlayan 6406.10.6500, Amerika Birleşik Devletleri Uyumlaştırılmış Tarife Tablosu (HTSUS) olacaktır; üst kısımlar ve bu…",
-     "url": "https://www.customsmobile.com/rulings/docview?doc_id=NY%20N362483"
+     "url": "us/N362483.html"
     },
     {
      "source": "eu",
@@ -8555,7 +8555,7 @@ window.BTI_DATA = {
      "date": "2026-07-31",
      "title": "24 Haziran 2026 tarihli mektubunuzda, müvekkiliniz Five Points Development Group adına tarife sınıflandırma kararı talep etmişsiniz. Söz konusu ürün, bir araç asansörü, iki otomatik mobil robot, bir palet tampon makinesi, giriş odası bileşenleri, şarj cihazları, elektrik dolaplar…",
      "gerekce": "Araç kaldırma ve palet tamponu için geçerli alt pozisyon, \"Diğer kaldırma, taşıma, yükleme veya boşaltma makineleri (örneğin asansörler, yürüyen merdivenler, konveyörler, teleferikler): Diğer makineler: Diğer\" ifadesini …",
-     "url": "https://www.customsmobile.com/rulings/docview?doc_id=NY%20N362546"
+     "url": "us/N362546.html"
     },
     {
      "source": "eu",
@@ -8583,7 +8583,7 @@ window.BTI_DATA = {
      "date": "2026-07-31",
      "title": "24 Haziran 2026 tarihli mektubunuzda, müvekkiliniz Five Points Development Group adına tarife sınıflandırma kararı talep etmişsiniz. Söz konusu ürün, otomatik bir mobil robot, dikey bir asansör, bir elektrik kabini, bir iletişim kabini, bir şarj cihazı ve alüminyum saklama kutula…",
      "gerekce": "Asansör için geçerli alt pozisyon, \"Diğer kaldırma, taşıma, yükleme veya boşaltma makineleri (örneğin asansörler, yürüyen merdivenler, konveyörler, teleferikler): Diğer makineler: Diğer\" ifadesini öngören 8428.90.0390, H…",
-     "url": "https://www.customsmobile.com/rulings/docview?doc_id=NY%20N362547"
+     "url": "us/N362547.html"
     },
     {
      "source": "eu",
@@ -8611,7 +8611,7 @@ window.BTI_DATA = {
      "date": "2026-07-31",
      "title": "26 Haziran 2026 tarihli yazınızda tarife sınıflandırma kararı talep etmiştiniz. Söz konusu ürünler CapLOX II® Poliaksiyal Pedikül Vidaları, TowerLOX® Poliaksiyal Pedikül Vidaları, MIS Genişletilmiş Sekmeli Pedikül Vidaları (TowerLOX-EXT®), CapLOX II® Kilitleme Ayar Vidaları ve To…",
      "gerekce": "Poliaksiyal Pedikül Vidaları, MIS Genişletilmiş Sekmeli Pedikül Vidaları ve Kilitli Ayar Vidaları için geçerli alt pozisyon, \"Ortopedik veya kırık aletleri ve bunların parça ve aksesuarları: Kemik plakaları, vidalar ve ç…",
-     "url": "https://www.customsmobile.com/rulings/docview?doc_id=NY%20N362665"
+     "url": "us/N362665.html"
     },
     {
      "source": "eu",
@@ -8639,7 +8639,7 @@ window.BTI_DATA = {
      "date": "2026-07-31",
      "title": "2 Temmuz 2026 tarihli yazınızda tarife sınıflandırma kararı talep etmiştiniz. \"Squishy Cloud Buddies\"in fotoğrafları ve ürün açıklamaları sorunuzla birlikte gönderildi. Squishy Cloud Buddies, SKU# 7550, üç karakter şeklinde gelir: tavşan, havuç ve civciv, her biri yaklaşık 13 inç…",
      "gerekce": "\"Squishy Cloud Buddies\", SKU# 7550 için geçerli alt başlık, 9503.00.0073, HTSUS olacaktır ve bu başlık şu anlama gelir: \"Üç tekerlekli bisikletler, scooterlar, pedallı arabalar ve benzeri tekerlekli oyuncaklar... bebekle…",
-     "url": "https://www.customsmobile.com/rulings/docview?doc_id=NY%20N362816"
+     "url": "us/N362816.html"
     },
     {
      "source": "eu",
@@ -8667,7 +8667,7 @@ window.BTI_DATA = {
      "date": "2026-07-31",
      "title": "2 Temmuz 2026 tarihli mektubunuzda, Marlboro, New Jersey'de bulunan müşteriniz Hilman Inc. adına tarife sınıflandırma kararı talep etmişsiniz. Söz konusu ürün, endüstriyel yük taşıma arabalarında özel bir bileşen olduğunu belirttiğiniz ağır hizmet tipi bir yük tekerleği tertibatı…",
      "gerekce": "Yük tekerleği tertibatı için geçerli alt pozisyon, Römorklar ve yarı römorkları öngören Amerika Birleşik Devletleri Uyumlaştırılmış Tarife Tablosu (HTSUS) 8716.90.5060 olacaktır; mekanik olarak tahrik edilmeyen diğer ara…",
-     "url": "https://www.customsmobile.com/rulings/docview?doc_id=NY%20N362825"
+     "url": "us/N362825.html"
     },
     {
      "source": "eu",
@@ -8695,7 +8695,7 @@ window.BTI_DATA = {
      "date": "2026-07-31",
      "title": "7 Temmuz 2026 tarihli yazınızda tarife sınıflandırma kararı talep etmiştiniz. Ürün SKU'su: IGZ-82-SH-3672-EGR, 82 Serisi Tek Asılı Pencere Sistemi, çıkış konfigürasyonu, dikey olarak kayan, tek asılı bir penceredir. Plastikleştirilmemiş PVC'den kalıptan çekilmiş, çelik parçalarla…",
      "gerekce": "PVC tek asma pencere sistemi için geçerli alt pozisyon, başka yerde belirtilmeyen veya yer almayan inşaatçılara yönelik plastikten yapılmış malzemeleri öngören Amerika Birleşik Devletleri Uyumlaştırılmış Tarife Tablosu (…",
-     "url": "https://www.customsmobile.com/rulings/docview?doc_id=NY%20N362904"
+     "url": "us/N362904.html"
     },
     {
      "source": "eu",
@@ -8723,7 +8723,7 @@ window.BTI_DATA = {
      "date": "2026-07-31",
      "title": "10 Temmuz 2026 tarihli yazınızda tarife sınıflandırma kararı talep etmiştiniz. Söz konusu ürün, Vio45-6A model numaralı kullanılmış bir Yanmar kendinden tahrikli mini hidrolik ekskavatördür. Ekskavatörde, bekolu kepçe ataşmanı için tasarlanmış mekanik bir kol, mini dozer bıçağı v…",
      "gerekce": "Model numarası Vio45-6A olan Yanmar mini hidrolik ekskavatör için geçerli alt başlık, Amerika Birleşik Devletleri Harmonize Tarife Tablosu (HTSUS) 8429.52.1050 olacaktır; bu listede şu ifadeler yer almaktadır: \"Kendinden…",
-     "url": "https://www.customsmobile.com/rulings/docview?doc_id=NY%20N363147"
+     "url": "us/N363147.html"
     },
     {
      "source": "eu",
@@ -8751,7 +8751,7 @@ window.BTI_DATA = {
      "date": "2026-07-31",
      "title": "22 Aralık 2025 tarihli yazınızda tarife sınıflandırma kararı talep etmiştiniz. Fotoğraflar ve bir numune teslim edildi ve analiz için Gümrük laboratuvarına gönderildi. Ürün paslanmaz çelik bir su şişesidir. Ürünün çift cidarlı vakumlu içme kabı olduğunu belirtmişsiniz. Paslanmaz …",
      "gerekce": "Paslanmaz çelik su şişesi için geçerli alt pozisyon, Amerika Birleşik Devletleri Uyumlaştırılmış Tarife Cetveli (HTSUS) 9617.00.1000 olacaktır ve bu başlıkta \"Vakum şişeleri ve diğer vakum kapları, tamamlanmış; bunların …",
-     "url": "https://www.customsmobile.com/rulings/docview?doc_id=NY%20N357245"
+     "url": "us/N357245.html"
     },
     {
      "source": "us",
@@ -8765,7 +8765,7 @@ window.BTI_DATA = {
      "date": "2026-07-31",
      "title": "6 Mayıs 2026 tarihli yazınızda tarife sınıflandırma kararı talep etmiştiniz. İsteğinizle birlikte bir iplik örneği de sağlanmıştır. Numune laboratuvar analizi için gönderildi ve referans amacıyla saklanacak. Stok Numarasının bulunmadığını belirttiğiniz konu ürün “30/1 (Ne) %50 Pa…",
      "gerekce": "30/1 (Ne) Polyester ve Pamuk Karışımlı Karde Ring İplik için geçerli alt pozisyon, “Perakende satışa sunulmamış sentetik devamsız liflerden iplikler (dikiş ipliği hariç): Polyester devamsız liflerden diğer iplikler: Esas…",
-     "url": "https://www.customsmobile.com/rulings/docview?doc_id=NY%20N361298"
+     "url": "us/N361298.html"
     },
     {
      "source": "us",
@@ -8779,7 +8779,7 @@ window.BTI_DATA = {
      "date": "2026-07-31",
      "title": "16 Haziran 2026 tarihli yazınızda, müvekkiliniz PETS+İNSAN TÜKETİM ÜRÜNLERİ adına tarife sınıflandırma kararı talep etmişsiniz. Başvurunuzda konu ürün Kumaş Tazeleyici Sprey olarak belirtilmiştir. Tekstil yüzeyleri için yüzey aktif yardımcı yıkama preparatı olarak tanımlanır. Lif…",
      "gerekce": "Kumaş Tazeleyici Sprey için geçerli alt pozisyon, Organik yüzey aktif maddeleri (sabun dışında) öngören Amerika Birleşik Devletleri Uyumlaştırılmış Tarife Tablosu (HTSUS) 3402.50.51000 olacaktır; yüzey aktif müstahzarlar…",
-     "url": "https://www.customsmobile.com/rulings/docview?doc_id=NY%20N362369"
+     "url": "us/N362369.html"
     },
     {
      "source": "us",
@@ -8793,7 +8793,7 @@ window.BTI_DATA = {
      "date": "2026-07-31",
      "title": "17 Haziran 2026 tarihli mektubunuzda, müşteriniz BD Engine Brake Inc. adına işaretleme ve ek görevler amacıyla tarife sınıflandırması ve menşe ülke belirleme hükmü talep etmişsiniz. Söz konusu öğe, parça numarası 1047511 olan BD Diesel Turbo Thruster II Kitidir. Kit, silikon kılı…",
      "gerekce": "Turbo itici kiti için geçerli alt pozisyon, Hava veya vakum pompalarını, hava veya diğer gaz kompresörlerini ve fanlarını sağlayan Amerika Birleşik Devletleri Harmonize Tarife Tablosu (HTSUS) 8414.59.3000 olacaktır; filt…",
-     "url": "https://www.customsmobile.com/rulings/docview?doc_id=NY%20N362414"
+     "url": "us/N362414.html"
     },
     {
      "source": "us",
@@ -8807,7 +8807,7 @@ window.BTI_DATA = {
      "date": "2026-07-31",
      "title": "18 Haziran 2026 tarihli yazınızda tarife sınıflandırma kararı talep etmiştiniz. 20 mg ve 40 mg gecikmeli salımlı tabletler halinde ithal edilen Pantoprazol Sodyum, proton pompa inhibitörleri (PPI'ler) adı verilen bir ilaç sınıfına aittir. Eroziv özofajit, mide asidi aşırı salgıla…",
      "gerekce": "Dozaj formunda Pantoprazol Sodyum Tabletleri için geçerli alt pozisyon, Amerika Birleşik Devletleri Harmonize Tarife Cetveli (HTSUS) 3004.90.9255 olacaktır ve bu başlık şu şekilde olacaktır: \"Tedavi amaçlı veya profilakt…",
-     "url": "https://www.customsmobile.com/rulings/docview?doc_id=NY%20N362421"
+     "url": "us/N362421.html"
     },
     {
      "source": "us",
@@ -8821,7 +8821,7 @@ window.BTI_DATA = {
      "date": "2026-07-31",
      "title": "19 Haziran 2026 tarihli yazınızda tarife sınıflandırma kararı talep etmişsiniz. Söz konusu ürün, Nissan H61P kamyoneti için özel olarak tasarlanmış, kamyonet kargo kutusunun yan duvarlarına monte edilen bir kayar ray düzeneğidir. CHANNEL ASSY-SIDE RR (Parça numarası 93396 9BS0A) …",
      "gerekce": "CHANNEL ASSY-SIDE RR (Parça numarası 93396 9BS0A) için geçerli alt pozisyon, Amerika Birleşik Devletleri Uyumlaştırılmış Tarife Tablosu (HTSUS) 8708.29.5190 olacaktır; bu listede \"8701 ila 8705 pozisyonlarındaki motorlu …",
-     "url": "https://www.customsmobile.com/rulings/docview?doc_id=NY%20N362453"
+     "url": "us/N362453.html"
     },
     {
      "source": "us",
@@ -8835,7 +8835,7 @@ window.BTI_DATA = {
      "date": "2026-07-31",
      "title": "23 Haziran 2026 tarihli yazınızda tarife sınıflandırma kararı talep etmişsiniz. Numuneniz talep ettiğiniz şekilde iade edilecektir. Stil 274224, yüzde 100 polyester örgü kumaştan yapılmış bir kadın üst vücut giysisidir. Uzunlamasına birbirine dikilmiş dört panelden yapılmıştır ve…",
      "gerekce": "Stil 274224 için geçerli alt pozisyon, Amerika Birleşik Devletleri Harmonize Tarife Tablosu (HTSUS) 6104.33.2000 olacaktır ve aşağıdakileri öngörmektedir: Kadın ve kız çocuklar için… takım elbise tipi ceketler, blazerler…",
-     "url": "https://www.customsmobile.com/rulings/docview?doc_id=NY%20N362503"
+     "url": "us/N362503.html"
     },
     {
      "source": "us",
@@ -8849,7 +8849,7 @@ window.BTI_DATA = {
      "date": "2026-07-31",
      "title": "23 Haziran 2026 tarihli yazınızda tarife sınıflandırma kararı talep etmişsiniz. Söz konusu ürün, 38220980 parça numarasıyla tanımlanan lamine rotor çekirdeği olarak tanımlanıyor; bu, özellikle elektrikli hidrolik direksiyon motoruyla kullanılmak üzere tasarlanmış bir rotor düzene…",
      "gerekce": "Lamine rotor çekirdeği için geçerli alt pozisyon, \"Sadece veya esas olarak 8501 veya 8502 pozisyonlarındaki makinalarda kullanılmaya uygun parçalar: 8501 pozisyonundaki mallar için statorlar ve rotorlar: 18,65 W'nin altı…",
-     "url": "https://www.customsmobile.com/rulings/docview?doc_id=NY%20N362523"
+     "url": "us/N362523.html"
     },
     {
      "source": "us",
@@ -8863,7 +8863,7 @@ window.BTI_DATA = {
      "date": "2026-07-31",
      "title": "29 Haziran 2026 tarihli yazınızda tarife sınıflandırma kararı talep etmiştiniz. Örnek yerine görsel sağlanmıştır. Söz konusu eşya dekoratif bir ataş olarak tanımlanmaktadır. İki inç uzunluğunda ve bir inç genişliğindedir ve altın renkli çinko alaşımlı telden geleneksel ataş konfi…",
      "gerekce": "Dekoratif ataş için geçerli alt pozisyon, gevşek yapraklı ciltler veya dosyalar, mektup klipleri, harf köşeleri, ataşlar… adi metalden, diğer parçalar, ataçlar ve bunların parçaları da dahil olmak üzere tamamen telden ya…",
-     "url": "https://www.customsmobile.com/rulings/docview?doc_id=NY%20N362726"
+     "url": "us/N362726.html"
     },
     {
      "source": "us",
@@ -8877,7 +8877,7 @@ window.BTI_DATA = {
      "date": "2026-07-31",
      "title": "29 Haziran 2026 tarihli mektubunuzda, müşteriniz Allieai, Inc, DBA Highscore, Inc. adına tarife sınıflandırma kararı talep etmiştiniz. Söz konusu ürün, Sixunited STHT1 – AMD AI Max+ 395 Thin Mini ITX Anakart olarak tanımlanıyor. Söz konusu cihaz, üzerine kritik bileşen olarak AMD…",
      "gerekce": "Sixunited STHT1 – AMD AI Max+ 395 Thin Mini ITX Anakart için geçerli alt pozisyon, “Otomatik veri işleme makineleri ve bunların birimleri… 8471.41 veya 8471.49 alt pozisyonundakiler dışındaki işlem birimleri, aynı muhafa…",
-     "url": "https://www.customsmobile.com/rulings/docview?doc_id=NY%20N362742"
+     "url": "us/N362742.html"
     },
     {
      "source": "us",
@@ -8891,7 +8891,7 @@ window.BTI_DATA = {
      "date": "2026-07-31",
      "title": "30 Haziran 2026 tarihli yazınızda poliüretan film bant ve lamine tekstil bant için tarife sınıflandırma kararı talep etmiştiniz. Ürünlerin numuneleri bu ofise iletilmiş olup eğitim amaçlı olarak saklanacaktır. Ürün #1, \"TAPE 4122\", dikiş yalıtımı ve giysi su yalıtımı için tasarla…",
      "gerekce": "Madde 1, \"Bant 4122\" poliüretan bant için geçerli alt pozisyon, 3920.99.2000, Amerika Birleşik Devletleri Uyumlaştırılmış Tarife Çizelgesi (\"HTSUS\") olacaktır; bu listede \"Gözensiz plastiklerden diğer malzemelerle takviy…",
-     "url": "https://www.customsmobile.com/rulings/docview?doc_id=NY%20N362756"
+     "url": "us/N362756.html"
     },
     {
      "source": "us",
@@ -8905,7 +8905,7 @@ window.BTI_DATA = {
      "date": "2026-07-31",
      "title": "30 Haziran 2026 tarihli yazınızda tarife sınıflandırma kararı talep etmişsiniz. Söz konusu ürünler taş kağıt oluklu kutular olarak tanımlanıyor. Taş kağıt kutuların ağırlıkça yüzde 70 ila 80 oranında kalsiyum karbonat ve ağırlıkça yüzde 20 ila 30 oranında polietilen içerdiğini be…",
      "gerekce": "Taş kağıt oluklu kutular için geçerli alt pozisyon, plastikten malların taşınmasına veya paketlenmesine yönelik eşyaları öngören 3923.10.9000, HTSUS olacaktır: kutular, kasalar, kasalar ve benzeri eşyalar: diğer. Genel v…",
-     "url": "https://www.customsmobile.com/rulings/docview?doc_id=NY%20N362761"
+     "url": "us/N362761.html"
     },
     {
      "source": "us",
@@ -8919,7 +8919,7 @@ window.BTI_DATA = {
      "date": "2026-07-31",
      "title": "15 Haziran 2026 tarihli yazınızda lamine kumaşa ilişkin tarife sınıflandırma kararı talep etmişsiniz. “A00007/201/403 - Blocker FR3 - 155 GSM” Fransa'dan bitmiş halde ithal edildiği söylenen lamine bir tekstildir. Kumaş, suni elyaflardan oluşan dokuma yüzeyli kumaş, aleve dayanık…",
      "gerekce": "\"A00007/201/403 - Blocker FR3 - 155 GSM\" için geçerli alt pozisyon, \"5902 pozisyonundakiler dışındaki plastiklerle emdirilmiş, kaplanmış, kaplanmış veya lamine edilmiş tekstil mensucat: Poliüretanlı: Suni ve sentetik lif…",
-     "url": "https://www.customsmobile.com/rulings/docview?doc_id=NY%20N362803"
+     "url": "us/N362803.html"
     },
     {
      "source": "us",
@@ -8933,7 +8933,7 @@ window.BTI_DATA = {
      "date": "2026-07-31",
      "title": "6 Temmuz 2026 tarihli mektubunuzda tarife sınıflandırma kararı talep etmişsiniz ve müşteriniz Hubbell Power Systems, Inc. adına tarife sınıflandırma kararı talep etmişsiniz. Bu taleple birlikte değerlendirilen dört öğe bulunmaktadır; bunların tümü yüksek gerilim havai enerji ilet…",
      "gerekce": "Dört kör uçlu konnektör modeli için geçerli alt pozisyon, “1.000 V'u aşan bir voltaj için… elektrik devrelerini anahtarlamak veya korumak veya elektrik devrelerine veya devrelerde bağlantı yapmak için kullanılan elektrik…",
-     "url": "https://www.customsmobile.com/rulings/docview?doc_id=NY%20N362881"
+     "url": "us/N362881.html"
     },
     {
      "source": "us",
@@ -8947,7 +8947,7 @@ window.BTI_DATA = {
      "date": "2026-07-31",
      "title": "6 Temmuz 2026 tarihli mektubunuzda True Innovations and Design LLC adına tarife sınıflandırma kararı talep etmişsiniz. Örneklerin yerine inceleme için teknik ve açıklayıcı literatür, ürün açıklamaları ve üretim özeti sağlandı. Öğe 1, “Renwick Kanepe (model 3668E-9173-41Z),” ahşap…",
      "gerekce": "1. kalem için geçerli alt pozisyon, 9401.61.6011, HTSUS olacaktır ve bu pozisyon, “Yatağa dönüştürülebilir olsun olmasın (9402 pozisyonundakiler hariç) Koltuklar ve bunların parçalarını: Ahşap çerçeveli diğer koltuklar: …",
-     "url": "https://www.customsmobile.com/rulings/docview?doc_id=NY%20N362889"
+     "url": "us/N362889.html"
     },
     {
      "source": "us",
@@ -8961,7 +8961,7 @@ window.BTI_DATA = {
      "date": "2026-07-31",
      "title": "8 Temmuz 2026 tarihli mektubunuzda müşteriniz CVS Pharmacy, Inc. adına bağlayıcı bir tarife sınıflandırma kararı talep etmişsiniz. Ürün bilgileri ve fotoğrafları incelememiz için gönderilmiştir. Söz konusu ürün, dekoratif bir kirpi figürü olan Madde 865823'tür. Şeklin boyutlarını…",
      "gerekce": "Dekoratif kirpi figürü olan 865823 Kalemi için geçerli alt pozisyon, 4602.19.8000, HTSUS olacaktır; bu pozisyon, doğrudan örgü malzemelerinden şekil verilerek yapılan veya 4601 pozisyonundaki eşyalardan yapılan Sepet işi…",
-     "url": "https://www.customsmobile.com/rulings/docview?doc_id=NY%20N362965"
+     "url": "us/N362965.html"
     },
     {
      "source": "us",
@@ -8975,7 +8975,7 @@ window.BTI_DATA = {
      "date": "2026-07-31",
      "title": "7 Temmuz 2026 tarihli yazınızda tarife sınıflandırma kararı talep etmiştiniz. Hiçbir örnek sağlanmadı; ancak fotoğraflar sağlandı. El yapımı yeniden doldurulabilir defter kapağı, koruyucu bir kapak oluşturacak şekilde katlanmış tek bir deri parçasından oluşur. Kapak sığır derisin…",
      "gerekce": "Deri defter kapağı için geçerli alt pozisyon, diğer deri veya bileşimli deri eşyalarını öngören Amerika Birleşik Devletleri Uyumlaştırılmış Tarife Tablosu (HTSUS) 4205.00.8000 olacaktır: diğer: diğer: diğer. Gümrük tarif…",
-     "url": "https://www.customsmobile.com/rulings/docview?doc_id=NY%20N363025"
+     "url": "us/N363025.html"
     },
     {
      "source": "us",
@@ -8989,7 +8989,7 @@ window.BTI_DATA = {
      "date": "2026-07-31",
      "title": "2 Kasım 2025 tarihli mektubunuzda, müvekkiliniz Gramaco Stone Source adına tarife sınıflandırma kararı talep etmişsiniz. Söz konusu mala Çöl Atlası taşı adı veriliyor. Karar talebinizle birlikte bir numune teslim edilmiş ve analiz için Gümrük ve Sınır Koruma Laboratuvarına iletil…",
      "gerekce": "Çöl Atlası taşı için geçerli alt pozisyon, Amerika Birleşik Devletleri Uyumlaştırılmış Tarife Cetveli (HTSUS) 6802.99.0090 olacaktır; bu listede \"6801 pozisyonundaki mallar hariç işlenmiş anıtsal veya inşaat taşları (ard…",
-     "url": "https://www.customsmobile.com/rulings/docview?doc_id=NY%20N355576"
+     "url": "us/N355576.html"
     },
     {
      "source": "us",
@@ -9003,7 +9003,7 @@ window.BTI_DATA = {
      "date": "2026-07-31",
      "title": "12 Haziran 2026 tarihli mektubunuzda, Güney Kore'de bulunan müşteriniz Dongah Manufacturing Corp adına tarife sınıflandırma kararı talep etmişsiniz. Söz konusu olan, emme manifoldu ile silindir kafası arasında sızdırmazlık sağlamak, ortam havasının girişini ve dahili sıvıların sı…",
      "gerekce": "FKM contaları için geçerli alt pozisyon, “Sadece veya esas olarak 8407 veya 8408 pozisyonlarındaki motorlarla kullanıma uygun parçalar: Diğer: Diğer: Diğer: 8701.21, 8701.22, 8701.23 alt pozisyonundaki araçlara takılacak…",
-     "url": "https://www.customsmobile.com/rulings/docview?doc_id=NY%20N362265"
+     "url": "us/N362265.html"
     },
     {
      "source": "us",
@@ -9017,7 +9017,7 @@ window.BTI_DATA = {
      "date": "2026-07-31",
      "title": "25 Haziran 2026 tarihli yazınızda tarife sınıflandırma kararı talep etmişsiniz. Söz konusu ürün, 860658054 parça numarasıyla tanımlanan boş bir alüminyum elektrik kabinidir ve bu kabin, güç dağıtım ekipmanı, fiber optik ekipman ve diğer elektrikli ekipman gibi ithalattan sonra ek…",
      "gerekce": "Boş alüminyum elektrik kabini için geçerli alt pozisyon, \"Sadece veya esas olarak 8535, 8536 veya 8537 pozisyonlarında yer alan cihazlarla kullanılmaya uygun parçalar: 8537 pozisyonunda yer alan cihazlarla donatılmamış p…",
-     "url": "https://www.customsmobile.com/rulings/docview?doc_id=NY%20N362600"
+     "url": "us/N362600.html"
     },
     {
      "source": "us",
@@ -9031,7 +9031,7 @@ window.BTI_DATA = {
      "date": "2026-07-31",
      "title": "1 Temmuz 2026 tarihli yazınızda tarife sınıflandırma kararı talep etmiştiniz. Örnek yerine görseller sunulmuştur. Söz konusu ürünler iki dekoratif saç bandıdır. Her ikisi de tamamen siyah dokuma polyester kumaşla kaplanmış yarı sert metal at nalı şeklindeki çerçeveden oluşur. Kaf…",
      "gerekce": "(Gerekçe metni bulunamadı)",
-     "url": "https://www.customsmobile.com/rulings/docview?doc_id=NY%20N362777"
+     "url": "us/N362777.html"
     },
     {
      "source": "us",
@@ -9045,7 +9045,7 @@ window.BTI_DATA = {
      "date": "2026-07-31",
      "title": "7 Temmuz 2026 tarihli mektubunuzda, müşteriniz Innovation Products, Inc. adına bağlayıcı bir tarife sınıflandırma kararı talep etmişsiniz. Ürün bilgileri ve fotoğrafları incelememiz için gönderilmiştir. Söz konusu ürün çok katmanlı bir ahşap paneldir. Panel yaklaşık 2440 mm x 122…",
      "gerekce": "Çok katmanlı ahşap panel için geçerli alt pozisyon, Diğer ahşap ürünleri öngören 4421.99.9880, HTSUS olacaktır: Diğer: Diğer: Diğer: Diğer: Diğer. Genel vergi oranı ad valorem olarak yüzde 3,3 olacaktır.",
-     "url": "https://www.customsmobile.com/rulings/docview?doc_id=NY%20N362909"
+     "url": "us/N362909.html"
     },
     {
      "source": "us",
@@ -9059,7 +9059,7 @@ window.BTI_DATA = {
      "date": "2026-07-31",
      "title": "8 Temmuz 2026 tarihli mektubunuzda Dollgen Corp., LLC adına tarife sınıflandırma kararı talep etmişsiniz. Her biri yaklaşık 11,02 inç x 1,57 inç ölçülerinde, sekiz parlak renkli 48 kağıt şeridinden oluşan, ürün numarası 45534701 olan kağıt zincir çelenk olarak tanımlanan bir öğen…",
      "gerekce": "Ürün numarası 45534701 olan kağıt zincir çelenk için geçerli alt pozisyon, \"Sihirbazlık numaraları ve pratik şaka malzemeleri de dahil olmak üzere şenlik, karnaval veya diğer eğlence eşyaları; bunların parça ve aksesuarl…",
-     "url": "https://www.customsmobile.com/rulings/docview?doc_id=NY%20N362934"
+     "url": "us/N362934.html"
     },
     {
      "source": "us",
@@ -9073,7 +9073,7 @@ window.BTI_DATA = {
      "date": "2026-07-31",
      "title": "22 Haziran 2026 tarihli yazınızda tarife sınıflandırma kararı talep etmiştiniz. Parça numarası 117832, bir akrilonitril-butadien-stiren (ABS) plastik duvara montaj braketidir. Braket, bir WiFi yönlendiricisini monte etmek/tutmak için duvara monte edilmek üzere tasarlanmıştır. Sun…",
      "gerekce": "Plastik duvara montaj braketi için geçerli alt pozisyon, başka bir yerde belirtilmeyen veya yer almayan, inşaatçılara yönelik plastik malzeme sağlayan Amerika Birleşik Devletleri Uyumlaştırılmış Tarife Tablosu (HTUS) 392…",
-     "url": "https://www.customsmobile.com/rulings/docview?doc_id=NY%20N362786"
+     "url": "us/N362786.html"
     }
    ]
   },
@@ -10954,7 +10954,7 @@ window.BTI_DATA = {
      "date": "2026-07-27",
      "title": "H359928 20 Mayıs 2026 OT:RR:CTF:VSP H359928 ACH KATEGORİ: Sınıflandırma TARİFE NO.: 9817.00.96 Merkez Direktörü İlaç, Sağlık ve Kimyasallar Merkezi Mükemmeliyet ve Uzmanlık Merkezi ABD Gümrük ve Sınır Koruması 1100 Raymond Blvd. Newark, NJ 07102 RE: Protesto No. 2604-26-100449'un…",
      "gerekce": "(Gerekçe metni bulunamadı)",
-     "url": "https://www.customsmobile.com/rulings/docview?doc_id=HQ%20H359928"
+     "url": "us/H359928.html"
     },
     {
      "source": "tr",
@@ -10996,7 +10996,7 @@ window.BTI_DATA = {
      "date": "2026-07-27",
      "title": "H334468 9 Haziran 2025 OT:RR:CTF:FTMH334468 MJD KATEGORİ: Sınıflandırma TARİF NO: 6104.62.20 Merkez DirektörüABD Gümrük ve Sınır Koruma Giyim, Ayakkabı ve Tekstil CEE 555 Battery Street, Oda 401 San Francisco, CA 94111 Dikkatine:Grace Carmichael, İthalat UzmanıYnt:1401-23-107538 …",
      "gerekce": "(Gerekçe metni bulunamadı)",
-     "url": "https://www.customsmobile.com/rulings/docview?doc_id=HQ%20H334468"
+     "url": "us/H334468.html"
     },
     {
      "source": "tr",
@@ -17500,7 +17500,7 @@ window.BTI_DATA = {
      "date": "2026-07-20",
      "title": "12 Haziran 2026 tarihli mektubunuzda müşteriniz Cobra Puma Golf adına sınıflandırma, menşe ülke ve işaretleme kararı talep etmiştiniz. Üç golf sopası kafasının üretim süreçlerinin bir açıklaması incelememiz için sunuldu. Söz konusu ürün, Golf Sopası Başı, 52° (ürün numarası HD0T0…",
      "gerekce": "Üç golf kulübü başkanı için geçerli alt pozisyon, \"Genel fiziksel egzersiz, jimnastik, atletizm, diğer sporlar veya açık hava oyunlarına yönelik eşya ve ekipmanlar... Golf sopaları ve diğer golf ekipmanları; bunların par…",
-     "url": "https://www.customsmobile.com/rulings/docview?doc_id=NY%20N362267"
+     "url": "us/N362267.html"
     },
     {
      "source": "uk",
@@ -17542,7 +17542,7 @@ window.BTI_DATA = {
      "date": "2026-07-20",
      "title": "15 Haziran 2026 tarihli yazınızda manyok bazlaması için tarife tasnifi kararı talep etmiştiniz. Sorgunuza içerik dökümü, beslenme etiketi ve ürünün fotoğrafları eşlik etti. “Yukan Tek Malzemeli Pizza Kabuğu”, glutensiz pizza hazırlıkları, ekmek alternatifleri ve yemek eşlikleri i…",
      "gerekce": "\"Yukan Tek Malzemeli Pizza Kabuğu\" için geçerli alt pozisyon, Amerika Birleşik Devletleri Harmonize Tarife Tablosu (HTSUS) 2008.99.6500 olacaktır; bu listede \"Meyveler, sert kabuklu yemişler ve başka şekilde hazırlanmış …",
-     "url": "https://www.customsmobile.com/rulings/docview?doc_id=NY%20N362304"
+     "url": "us/N362304.html"
     },
     {
      "source": "uk",
@@ -17584,7 +17584,7 @@ window.BTI_DATA = {
      "date": "2026-07-20",
      "title": "25 Haziran 2026 tarihli yazınızda tarife sınıflandırma kararı talep etmiştiniz. Numuneniz talep edildiği takdirde iade edilecektir. Stil LD-4330, hem örgü hem de dokuma bileşenlerden yapılmış bir erkek ceketidir. Kapüşon, kollar, arka roba ve omuzlar %100 poliamid dokuma kumaştan…",
      "gerekce": "LD-4330 stili için geçerli alt pozisyon 6201.40.7511 olacaktır; HTSUS, erkek veya erkek çocuk için paltolar, kabanlar, pelerinler, pelerinler, anoraklar (kayak ceketleri dahil), rüzgarlıklar ve benzeri eşyaları (yastıklı…",
-     "url": "https://www.customsmobile.com/rulings/docview?doc_id=NY%20N362589"
+     "url": "us/N362589.html"
     },
     {
      "source": "uk",
@@ -17626,7 +17626,7 @@ window.BTI_DATA = {
      "date": "2026-07-20",
      "title": "26 Haziran 2026 tarihli yazınızda tarife sınıflandırma kararı talep etmiştiniz. Örnek yerine resimler ve ürün literatürü sağlanmıştır. Söz konusu ürün, “Kıl Segmentli Actisweep Endüstriyel İtmeli Süpürge” olarak tanımlanıyor. Yoğun endüstriyel sınıf iç ve dış mekan temizlik işlem…",
      "gerekce": "“Kıl Segmentli Actisweep Endüstriyel İtmeli Süpürge” için geçerli alt pozisyon, “Süpürgeler, fırçalar (makinelerin, cihazların veya araçların parçalarını oluşturan fırçalar dahil), elle çalıştırılan mekanik yer süpürücül…",
-     "url": "https://www.customsmobile.com/rulings/docview?doc_id=NY%20N362612"
+     "url": "us/N362612.html"
     },
     {
      "source": "uk",
@@ -17668,7 +17668,7 @@ window.BTI_DATA = {
      "date": "2026-07-20",
      "title": "30 Haziran 2026 tarihli yazınızda tarife sınıflandırma kararı talep etmişsiniz. \"SHERP N1200\" olarak tanımlanan söz konusu öğe, ticari, endüstriyel, tarımsal, çevresel ve bilimsel operasyonlarda arazide kullanım için tasarlandığını belirttiğiniz amfibi bir arazi aracıdır. Bu mode…",
      "gerekce": "\"SHERP N1200\" için geçerli alt pozisyon, \"Malların taşınması için motorlu taşıtlar: Diğer, yalnızca sıkıştırma ateşlemeli içten yanmalı pistonlu motorlu (dizel veya yarı dizel): G.V.W. 5 metrik tonu geçmeyen\" ifadesini ö…",
-     "url": "https://www.customsmobile.com/rulings/docview?doc_id=NY%20N362757"
+     "url": "us/N362757.html"
     },
     {
      "source": "eu",
@@ -17696,7 +17696,7 @@ window.BTI_DATA = {
      "date": "2026-07-20",
      "title": "8 Temmuz 2026 tarihli yazınızda yastık kılıfı için tarife sınıflandırması talebinde bulunmuşsunuz. Örnek yerine çeşitli yastık kılıflarının fotoğrafları verildi. “KB Baskılı Yastık Kılıfı 18/18” olarak tanımlanan söz konusu ürün, 18 x 18 inç ölçülerinde dekoratif yastık kılıfıdır…",
      "gerekce": "\"KB Baskılı Yastık Kılıfı 18/18\" olarak tanımlanan dekoratif yastık kılıfı için geçerli alt pozisyon, \"9404 pozisyonu hariç diğer mefruşat eşyaları: Diğer: Örme veya tığ işi olmayan, sentetik elyaftan\" ifadesini öngören …",
-     "url": "https://www.customsmobile.com/rulings/docview?doc_id=NY%20N362992"
+     "url": "us/N362992.html"
     },
     {
      "source": "eu",
@@ -17724,7 +17724,7 @@ window.BTI_DATA = {
      "date": "2026-07-20",
      "title": "8 Kasım 2025 tarihli mektubunuzda müşteriniz Qualita Granitos E Marmores LTDA adına tarife sınıflandırma kararı talep etmişsiniz. Söz konusu mala Zürih taşı adı verilmektedir. Karar talebinizle birlikte bir örnek gönderildi ve analiz için Gümrük ve Sınır Koruma (CBP) Laboratuvarı…",
      "gerekce": "Zürih taşı için geçerli alt pozisyon 6802.93.0090, HTSUS olacaktır ve bu pozisyon, \"6801 pozisyonunda yer alan ürünler hariç işlenmiş anıtsal veya inşaat taşları (kayağan taşı hariç) ve bunlardan eşya: Diğer: Granit: Diğ…",
-     "url": "https://www.customsmobile.com/rulings/docview?doc_id=NY%20N355896"
+     "url": "us/N355896.html"
     },
     {
      "source": "eu",
@@ -17752,7 +17752,7 @@ window.BTI_DATA = {
      "date": "2026-07-20",
      "title": "Müşteriniz EMS Mind Reader LLC adına 15 Haziran 2026 tarihli mektubunuzda tarife sınıflandırma kararı talep etmişsiniz. Talebiniz ile birlikte ürünün fotoğrafı da gönderildi. Söz konusu ürün, GS750 ürün numaralı beyaz plastik bir çamaşır kutusudur. Yaklaşık 17,72 inç uzunluğunda,…",
      "gerekce": "GS750 ürün numarasına sahip plastik çamaşır kutusu için geçerli alt pozisyon, 3924.90.5650, Amerika Birleşik Devletleri Uyumlaştırılmış Tarife Tablosu (HTSUS) olacaktır; bu, plastikten... ev eşyalarını... sağlar: diğer: …",
-     "url": "https://www.customsmobile.com/rulings/docview?doc_id=NY%20N362334"
+     "url": "us/N362334.html"
     },
     {
      "source": "eu",
@@ -17780,7 +17780,7 @@ window.BTI_DATA = {
      "date": "2026-07-20",
      "title": "16 Haziran 2026 tarihli yazınızda tarife sınıflandırma kararı talep etmişsiniz. Gönderiminizle birlikte bir örnek sağlanmıştır ve talebiniz üzerine saklanacaktır. Söz konusu ürün, bir otomotiv debriyajında ​​kullanılan, RCB621 parçası olan bir debriyaj salma yatağıdır. Debriyaj p…",
      "gerekce": "Debriyaj salma yatağı, parça RCB621 için geçerli alt pozisyon, “8701 ila 8705 pozisyonlarındaki motorlu taşıtların parça ve aksesuarları: Diğer parça ve aksesuarlar: Debriyajlar ve bunların parçaları: Diğer araçlar için:…",
-     "url": "https://www.customsmobile.com/rulings/docview?doc_id=NY%20N362365"
+     "url": "us/N362365.html"
     },
     {
      "source": "eu",
@@ -17808,7 +17808,7 @@ window.BTI_DATA = {
      "date": "2026-07-20",
      "title": "18 Haziran 2026 tarihli mektubunuzda, müşteriniz Caire Inc. adına tarife sınıflandırma kararı talep etmişsiniz. Söz konusu öğeler, BT036-1 ve BT036-2 model numaralarıyla tanımlanan Freestyle Konforlu Oksijen Konsantratörleri için pil şarj cihazları olarak tanımlanmaktadır. Her ik…",
      "gerekce": "Model numaraları BT036-1 ve BT036-2 olan akü şarj cihazı için geçerli alt pozisyon, \"Elektrik transformatörleri, statik dönüştürücüler (örneğin doğrultucular) ve indüktörler; bunların parçaları: Statik dönüştürücüler: Di…",
-     "url": "https://www.customsmobile.com/rulings/docview?doc_id=NY%20N362423"
+     "url": "us/N362423.html"
     },
     {
      "source": "eu",
@@ -17836,7 +17836,7 @@ window.BTI_DATA = {
      "date": "2026-07-20",
      "title": "18 Haziran 2026 tarihli mektubunuzda Kanada'nın Edmonton şehrinde yerleşik müşteriniz Travel Buggy Inc. adına tarife sınıflandırma kararı talep etmişsiniz. Söz konusu ürünün, elektrik motorlu bir tekerlekli sandalye olan Seyahat Arabası, Model F24 olduğu belirlendi. F24'ün kronik…",
      "gerekce": "Travel Buggy Model F24 için geçerli alt başlık, Amerika Birleşik Devletleri Uyumlaştırılmış Tarife Tablosu (HTSUS) 8713.90.0060 olacaktır; bu, \"Motorlu veya başka bir şekilde mekanik tahrikli olsun veya olmasın, engelli …",
-     "url": "https://www.customsmobile.com/rulings/docview?doc_id=NY%20N362435"
+     "url": "us/N362435.html"
     },
     {
      "source": "eu",
@@ -17864,7 +17864,7 @@ window.BTI_DATA = {
      "date": "2026-07-20",
      "title": "22 Haziran 2026 tarihli yazınızda tarife sınıflandırma kararı talep etmişsiniz. Söz konusu ürün, lokomotif aks jeneratörü olarak da tanımlanan ZTR AxleGen olarak tanımlanıyor. Söz konusu cihaz, metal bir mahfaza içindeki bir şafta tutturulmuş bir manyetik veya optik kodlayıcıdan …",
      "gerekce": "ZTR AxleGen için geçerli alt pozisyon 8543.70.4500, HTSUS olacaktır ve bu başlıkta şu ifadeler yer almaktadır: \"Bu bölümün başka bir yerinde belirtilmeyen veya yer almayan, ayrı işlevlere sahip elektrikli makineler ve ci…",
-     "url": "https://www.customsmobile.com/rulings/docview?doc_id=NY%20N362482"
+     "url": "us/N362482.html"
     },
     {
      "source": "eu",
@@ -17892,7 +17892,7 @@ window.BTI_DATA = {
      "date": "2026-07-20",
      "title": "11 Mayıs 2026 tarihli yazınızda tarife sınıflandırma kararı talep etmiştiniz. Numuneniz bu ofiste saklanacaktır. Stil 912222, %87 poliamid ve %13 elastan dantel benzeri örgü örgü kumaştan yapılmış bir kadın atletidir. İç çamaşırında V yaka, raflı sütyen ve elastik, ayarlanabilir …",
      "gerekce": "912222 stili için geçerli alt pozisyon, 6109.90.1065 olacaktır, HTSUS, örme veya tığ işi tişörtler, atletler, askılı üstler ve benzeri giysileri kapsar: Diğer tekstil malzemelerinden: Suni ve sentetik elyaflardan: Kadın …",
-     "url": "https://www.customsmobile.com/rulings/docview?doc_id=NY%20N362518"
+     "url": "us/N362518.html"
     },
     {
      "source": "eu",
@@ -17920,7 +17920,7 @@ window.BTI_DATA = {
      "date": "2026-07-20",
      "title": "25 Haziran 2026 tarihli yazınızda tarife sınıflandırma kararı talep etmiştiniz. Hazır ürünü sentetik resif akvaryumu tuzu bileşiği olarak tanımlıyorsunuz. Gıda sınıfı sodyum klorür, susuz sodyum sülfat, susuz magnezyum sülfat, magnezyum klorür heksahidrat, potasyum klorür, kalsiy…",
      "gerekce": "Sentetik resif akvaryumu tuzu bileşiği için geçerli alt pozisyon, başka yerde belirtilmeyen veya yer almayan, dökümhane kalıpları veya maçaları için hazırlanmış bağlayıcılar, kimyasal ürünler ve kimya veya müttefik endüs…",
-     "url": "https://www.customsmobile.com/rulings/docview?doc_id=NY%20N362602"
+     "url": "us/N362602.html"
     },
     {
      "source": "eu",
@@ -17948,7 +17948,7 @@ window.BTI_DATA = {
      "date": "2026-07-20",
      "title": "29 Haziran 2026 tarihli yazınızda tarife sınıflandırma kararı talep etmiştiniz. Söz konusu ürün, dikey, yatay veya omurga sistemleri gibi yapısal kablolama projelerinde yaygın olarak kullanılan bir gigabit ethernet veri kablosu olarak tanımlanan Solid Plenum Cat6 kablosu olarak t…",
      "gerekce": "Solid Plenum Cat6 kablo için geçerli alt pozisyon, 8544.49.3080, HTSUS olacaktır ve bu başlık şu şekilde olacaktır: \"Yalıtılmış (emaye veya anotlanmış dahil) tel, kablo (koaksiyel kablo dahil) ve diğer yalıtılmış elektri…",
-     "url": "https://www.customsmobile.com/rulings/docview?doc_id=NY%20N362750"
+     "url": "us/N362750.html"
     },
     {
      "source": "eu",
@@ -17976,7 +17976,7 @@ window.BTI_DATA = {
      "date": "2026-07-20",
      "title": "2 Temmuz 2026 tarihli mektubunuzda İngiltere'den yüzer tekne koruyucularına ilişkin tarife sınıflandırma kararı talep etmiştiniz. Ürün bilgileri talebinizle birlikte gönderildi. Söz konusu öğeler yüzer gövde koruyucularının beş modelidir. Suyla teması ve hareketi sınırlandırarak …",
      "gerekce": "Yüzer tekne koruyucuları için geçerli alt pozisyon, “Diğer yüzer yapılar (örneğin sallar, tanklar, batardolar, iskeleler, şamandıralar ve işaret lambaları): Diğer: Diğer” ifadesini öngören 8907.90.0090, HTSUS olacaktır. …",
-     "url": "https://www.customsmobile.com/rulings/docview?doc_id=NY%20N362823"
+     "url": "us/N362823.html"
     },
     {
      "source": "eu",
@@ -18004,7 +18004,7 @@ window.BTI_DATA = {
      "date": "2026-07-20",
      "title": "15 Aralık 2025 tarihli yazınızda ve daha önceki başvurularınızda tarife sınıflandırma kararı talep etmiştiniz. Bir örnek gönderilmiştir ve referans amacıyla saklanacaktır. Mevcut ürün, Finamul 6016 ürün adıyla gıda endüstrisi emülsiyonlaştırıcısı olarak tanımlanmaktadır. Sizin du…",
      "gerekce": "Finamul 6016 için geçerli alt pozisyon, dökümhane kalıpları veya maçaları için hazırlanmış bağlayıcıları sağlayan Amerika Birleşik Devletleri Harmonize Tarife Tablosu (HTSUS) 3824.99.4190 olacaktır; Başka yerde belirtilm…",
-     "url": "https://www.customsmobile.com/rulings/docview?doc_id=NY%20N357024"
+     "url": "us/N357024.html"
     },
     {
      "source": "eu",
@@ -18032,7 +18032,7 @@ window.BTI_DATA = {
      "date": "2026-07-20",
      "title": "9 Haziran 2026 tarihli mektubunuzda, müşteriniz Magusa Global Cargo adına tarife sınıflandırma kararı talep etmişsiniz. Söz konusu ürün, AuraSerenity markası altında perakende satış için paketlenmiş 14 adet Palo Santo (Bursera Graveolens) çubuğu, bir bakır klips ve bir adet büzgü…",
      "gerekce": "Palo Santo çubukları için geçerli alt pozisyon, Amerika Birleşik Devletleri Uyumlaştırılmış Tarife Tablosu (HTSUS) 3307.41.0000 olacaktır; bu listede \"Dini törenler sırasında kullanılan koku verici müstahzarlar dahil, od…",
-     "url": "https://www.customsmobile.com/rulings/docview?doc_id=NY%20N362193"
+     "url": "us/N362193.html"
     },
     {
      "source": "eu",
@@ -18060,7 +18060,7 @@ window.BTI_DATA = {
      "date": "2026-07-20",
      "title": "12 Haziran 2026 tarihli yazınızda tarife sınıflandırma kararı talep etmiştiniz. Numuneler sağlanmıştır ve talep edildiği takdirde saklanacaktır. Her biri \"elmas anahtarlık seti\" olarak tanımlanan dört adet el işi seti değerlendiriliyor. Tüketicinin kristal elmaslarla süsleyeceği …",
      "gerekce": "Ürün numaraları DS0031003, DS0031006, DS0031007 ve DS0042003 olan bu dört kit için geçerli alt pozisyon, 3926.40.0090, Amerika Birleşik Devletleri Uyumlaştırılmış Tarife Tablosu (HTSUS) olacaktır; [s]tatuetler ve diğer s…",
-     "url": "https://www.customsmobile.com/rulings/docview?doc_id=NY%20N362269"
+     "url": "us/N362269.html"
     },
     {
      "source": "eu",
@@ -18088,7 +18088,7 @@ window.BTI_DATA = {
      "date": "2026-07-20",
      "title": "12 Haziran 2026 tarihli yazınızda tarife sınıflandırma kararı talep etmiştiniz. Bir örnek sağlanmıştır ve talep edildiği takdirde saklanacaktır. Söz konusu ürün, DK0069001 numaralı saç pençesi tokası el sanatları seti olarak tanımlanmaktadır. Şu öğeleri içerir: plastik bir pençe …",
      "gerekce": "(Gerekçe metni bulunamadı)",
-     "url": "https://www.customsmobile.com/rulings/docview?doc_id=NY%20N362270"
+     "url": "us/N362270.html"
     },
     {
      "source": "eu",
@@ -18116,7 +18116,7 @@ window.BTI_DATA = {
      "date": "2026-07-20",
      "title": "Müşteriniz ASI Southeast Inc. adına 12 Haziran 2026 tarihli mektubunuzda, duş vinil perdesi için tarife sınıflandırması ve Amerika Birleşik Devletleri Uyumlaştırılmış Tarife Tablosu (HTSUS) 9801.00.1098 alt başlığının uygulanabilirliği hakkında karar talep etmişsiniz. Söz konusu …",
      "gerekce": "Duş vinil perdesi için geçerli alt pozisyon, \"Plastikten sofra takımları, mutfak eşyaları, diğer ev eşyaları ve hijyenik veya tuvalet eşyaları: Diğer: Paneller ve saçaklar dahil perdeler ve perdeler;... Perdeler ve örtül…",
-     "url": "https://www.customsmobile.com/rulings/docview?doc_id=NY%20N362285"
+     "url": "us/N362285.html"
     },
     {
      "source": "eu",
@@ -18144,7 +18144,7 @@ window.BTI_DATA = {
      "date": "2026-07-20",
      "title": "15 Haziran 2026 tarihli mektubunuzda Dieter's Metal Fabricating Ltd. adına tarife sınıflandırma kararı talep etmiştiniz. Söz konusu ürün, doğrudan takılan motorlu araç gövde bileşeni olarak kullanılan SKU: MD9428 kabin eteğidir. Ürün paslanmaz çelikten yapılmıştır ve entegre ışık…",
      "gerekce": "Kabin eteği için geçerli alt pozisyon, SKU: MD9428, Amerika Birleşik Devletleri Harmonize Tarife Tablosu (HTSUS) 8708.29.5190 olacaktır; bu listede \"8701 ila 8705 pozisyonlarındaki motorlu taşıtların parça ve aksesuarlar…",
-     "url": "https://www.customsmobile.com/rulings/docview?doc_id=NY%20N362298"
+     "url": "us/N362298.html"
     },
     {
      "source": "eu",
@@ -18172,7 +18172,7 @@ window.BTI_DATA = {
      "date": "2026-07-20",
      "title": "17 Haziran 2026 tarihli yazınızda tarife sınıflandırma kararı talep etmişsiniz. Numunelerin yerine, inceleme için teknik ve açıklayıcı literatür, bir ürün açıklaması ve bir üretim özeti sağlanmıştır. Öğe VX 8806.000, \"VX Bölmeli Muhafaza Sistemi\", yaklaşık 31\" genişliğinde, 79\" y…",
      "gerekce": "Söz konusu mal için geçerli alt pozisyon, Amerika Birleşik Devletleri Uyumlaştırılmış Tarife Cetveli (HTSUS) 9403.10.0040 olacaktır; bu alt pozisyon, \"Diğer mobilyalar ve bunların parçaları: Ofislerde kullanılan türden m…",
-     "url": "https://www.customsmobile.com/rulings/docview?doc_id=NY%20N362389"
+     "url": "us/N362389.html"
     },
     {
      "source": "eu",
@@ -18200,7 +18200,7 @@ window.BTI_DATA = {
      "date": "2026-07-20",
      "title": "19 Haziran 2026 tarihli mektubunuzda, müşteriniz Global Water Solutions USA, LLC adına tarife sınıflandırma kararı talep etmişsiniz. Söz konusu ürünler, jet pompalar, hidrofor pompalar, santrifüj pompalar ve dalgıç pompalar dahil olmak üzere çeşitli su pompalama sistemlerinde kul…",
      "gerekce": "Diyafram ve mesane basınç tankları için geçerli alt pozisyon, bu bölümün başka bir yerinde belirtilmeyen veya yer almayan, ayrı işlevlere sahip makineler ve mekanik cihazlar sağlayan 8479.89.9597, Amerika Birleşik Devlet…",
-     "url": "https://www.customsmobile.com/rulings/docview?doc_id=NY%20N362456"
+     "url": "us/N362456.html"
     },
     {
      "source": "eu",
@@ -18228,7 +18228,7 @@ window.BTI_DATA = {
      "date": "2026-07-20",
      "title": "19 Haziran 2026 tarihli mektubunuzda müşteriniz Tobii Dynavox LLC adına tarife sınıflandırma kararı talep etmişsiniz. Söz konusu ürün, ayrıca göz izleme giriş cihazı olarak da tanımlanacak olan PCEye Yardımcı Göz Takip Cihazı olarak tanımlanıyor. Söz konusu cihaz, metal bir mahfa…",
      "gerekce": "PCEye Yardımcı Göz Takip Cihazı için geçerli alt başlık, “Otomatik veri işleme makineleri ve bunların birimleri…Giriş veya çıkış birimleri, aynı mahfaza içinde depolama birimleri içersin veya içermesin: Diğer: Diğer: Diğ…",
-     "url": "https://www.customsmobile.com/rulings/docview?doc_id=NY%20N362458"
+     "url": "us/N362458.html"
     },
     {
      "source": "eu",
@@ -18256,7 +18256,7 @@ window.BTI_DATA = {
      "date": "2026-07-20",
      "title": "23 Haziran 2026 tarihli mektubunuzda müşteriniz EMDE Bohrtechnik Nentershausen GmbH adına tarife sınıflandırma kararı talep etmişsiniz. Söz konusu öğeler iki burgu parçası ve iki tam burgudan oluşmaktadır. Bitmiş helezonlar, tamamen monte edildiğinde kaya delme ve toprak delme iş…",
      "gerekce": "CFA Starter için geçerli alt başlık, parça no. 500015384, Tam Deplasmanlı Burgu, parça no. 500008955 ve Soilmix Burgu, parça no. 500021553, 8207.19.3090, Amerika Birleşik Devletleri Uyumlaştırılmış Tarife Çizelgesi (HTSU…",
-     "url": "https://www.customsmobile.com/rulings/docview?doc_id=NY%20N362513"
+     "url": "us/N362513.html"
     },
     {
      "source": "eu",
@@ -18284,7 +18284,7 @@ window.BTI_DATA = {
      "date": "2026-07-20",
      "title": "N362516 8 Temmuz 2026 CLA-2-:OT:RR:NC:N3:356 KATEGORİ: Sınıflandırma TARİF NO: 6106.20.2010 Bayan Sarah Tanaka Wacoal America, Inc. One Wacoal Plaza Lyndhurst, NJ 07071 RE: Dominik Cumhuriyeti'nden kadın bluzlarının tarife sınıflandırması Sayın Bayan Tanaka: 17 Haziran 2026 tarih…",
      "gerekce": "W61383 ve W64383 Stilleri için geçerli alt pozisyon, 20.2010, HTSUS 6106 olacaktır ve aşağıdakileri öngörmektedir: Kadın veya kız çocuklar için örme veya tığ işi bluz ve gömlekler: Suni ve sentetik elyaftan: Diğer: Kadın…",
-     "url": "https://www.customsmobile.com/rulings/docview?doc_id=NY%20N362516"
+     "url": "us/N362516.html"
     },
     {
      "source": "eu",
@@ -18312,7 +18312,7 @@ window.BTI_DATA = {
      "date": "2026-07-20",
      "title": "N362517 8 Temmuz 2026 CLA-2-61:OT:RR:NC:N3:356 KATEGORİ: Sınıflandırma TARİF NO: 6104.69.2060; 6114.30.1020 Bayan Sarah Tanaka Wacoal America, Inc. One Wacoal Plaza Lyndhurst, NJ 07071 RE: Dominik Cumhuriyeti'ndeki kadın giysilerinin tarife sınıflandırması Sayın Bayan Tanaka: 17 …",
      "gerekce": "Stil 811354 için geçerli alt pozisyon, 6114.30.1020, HTSUS olacaktır ve aşağıdakileri öngörmektedir: Örme veya tığ işi diğer giysiler: Suni ve sentetik elyaftan: Üstler: Kadın veya kız çocukları için. Genel vergi oranı a…",
-     "url": "https://www.customsmobile.com/rulings/docview?doc_id=NY%20N362517"
+     "url": "us/N362517.html"
     },
     {
      "source": "eu",
@@ -18340,7 +18340,7 @@ window.BTI_DATA = {
      "date": "2026-07-20",
      "title": "12 Mayıs 2026 tarihli yazınızda tarife sınıflandırma kararı talep etmiştiniz. Numuneniz bu ofiste saklanacaktır. Stil 948313, %98 naylon ve %2 elastan dantel benzeri örgü örgü kumaştan yapılmış bir kadın iç çamaşırıdır. İç çamaşırında %100 pamuklu ağ astarı, açık elastik bel band…",
      "gerekce": "948313 stili için geçerli alt pozisyon, 6108.92.0005, HTSUS olacaktır; bu pozisyon, kadınlar ve kız çocukları için kombinezonlar, jüponlar, külotlar, külotlar, gecelikler, pijamalar, sabahlıklar, bornozlar, sabahlıklar v…",
-     "url": "https://www.customsmobile.com/rulings/docview?doc_id=NY%20N362519"
+     "url": "us/N362519.html"
     },
     {
      "source": "eu",
@@ -18368,7 +18368,7 @@ window.BTI_DATA = {
      "date": "2026-07-20",
      "title": "23 Haziran 2026 tarihli yazınızda 301. madde ve diğer görevler kapsamında tarife sınıflandırması ve menşe ülke tespiti talep etmişsiniz. Üründen bir numune incelenmek üzere teslim edildi ve ofisimizde saklanacak. Numunenin 6 Parçalı El Alet Seti (parça numarası GS106528) olduğu b…",
      "gerekce": "6 Parçalı El Alet Seti (parça numarası GS106528) için geçerli alt pozisyon, \"Bu bölümün başka bir yerinde belirtilmeyen veya yer almayan ölçüm veya kontrol aletleri, cihazları ve makineleri; profil projektörleri; bunları…",
-     "url": "https://www.customsmobile.com/rulings/docview?doc_id=NY%20N362524"
+     "url": "us/N362524.html"
     },
     {
      "source": "eu",
@@ -18396,7 +18396,7 @@ window.BTI_DATA = {
      "date": "2026-07-20",
      "title": "Müşteriniz Caesarstone USA Inc. adına 3 Kasım 2025 tarihli mektubunuzda tarife sınıflandırma kararı talep etmişsiniz. Söz konusu ürün, Numune 5141 (Frosty Carrina) ve Numune 4001 (Taze Beton) olarak tanımlanan iki kristal silika içermeyen aglomere levhadan oluşmaktadır. Temsili n…",
      "gerekce": "Numune 5141 (Donmuş Carrina) ve Numune 4001 (Taze Beton) için geçerli alt pozisyon, “Diğer cam eşyalar: Diğer” ifadesini öngören 7020.00.6000, HTSUS olacaktır. Genel vergi oranı yüzde 5 ad valorem olacaktır.",
-     "url": "https://www.customsmobile.com/rulings/docview?doc_id=NY%20N355647"
+     "url": "us/N355647.html"
     },
     {
      "source": "eu",
@@ -18424,7 +18424,7 @@ window.BTI_DATA = {
      "date": "2026-07-20",
      "title": "Söz konusu öğenin 2017 Polaris RZR XP4 1000 UTV, VIN 3NSVFE997HF921579 olduğu belirlendi. Polaris RZR, dört yolcu için iki sıra yan yana oturma yeri ile donatılmıştır ve gücünü 999cc kıvılcım ateşlemeli içten yanmalı motordan alır. Söz konusu aracı satın aldığınız Meksika'nın Pue…",
      "gerekce": "2017 Polaris RZR XP4 1000 için geçerli alt pozisyon, Amerika Birleşik Devletleri Harmonize Tarife Tablosu (HTSUS) 8703.21.0150 olacaktır; bu listede şu ifade yer almaktadır: \"Motorlu taşıtlar ve esas olarak insan taşımak…",
-     "url": "https://www.customsmobile.com/rulings/docview?doc_id=NY%20N362119"
+     "url": "us/N362119.html"
     },
     {
      "source": "eu",
@@ -18452,7 +18452,7 @@ window.BTI_DATA = {
      "date": "2026-07-20",
      "title": "10 Haziran 2026 tarihli mektubunuzda iki shea yağı ürününe ilişkin sınıflandırma, menşe ülke ve işaretleme kararı talep etmiştiniz. Mektubunuza üretim sürecinin açıklayıcı bir açıklaması eşlik etti. \"VitaBio EcoShea™ Kısmen Rafine Edilmiş Shea Yağı\" ve \"VitaBio EcoShea™ Rafine Sh…",
      "gerekce": "\"VitaBio EcoShea™ Kısmen Rafine Edilmiş Shea Yağı\" ve \"VitaBio EcoShea™ Rafine Edilmiş Shea Yağı\" ürünleri için geçerli alt pozisyon, Birleşik Devletler Harmonize Tarife Tablosu 1515.90.2100 olacaktır. Devletler (HTSUS),…",
-     "url": "https://www.customsmobile.com/rulings/docview?doc_id=NY%20N362222"
+     "url": "us/N362222.html"
     },
     {
      "source": "eu",
@@ -18480,7 +18480,7 @@ window.BTI_DATA = {
      "date": "2026-07-20",
      "title": "10 Haziran 2026 tarihli yazınızda tarife sınıflandırma kararı talep etmiştiniz. Üç stildeki dekoratif vazoların fotoğrafları ve açıklamaları sorunuzla birlikte gönderildi. Söz konusu üç ürün, Dökme Alüminyumdan Yapılmış Dekoratif Anıt Kremasyon Kapları olarak tanımlanıyor. Bu alü…",
      "gerekce": "Dökme Alüminyumdan Yapılmış Dekoratif Anıt Yakma Kapları için geçerli alt pozisyon, adi metalden elektriksiz çanlar, gonglar ve benzerlerini sağlayan Amerika Birleşik Devletleri Uyumlaştırılmış Tarife Tablosu (HTSUS) 830…",
-     "url": "https://www.customsmobile.com/rulings/docview?doc_id=NY%20N362225"
+     "url": "us/N362225.html"
     },
     {
      "source": "eu",
@@ -18508,7 +18508,7 @@ window.BTI_DATA = {
      "date": "2026-07-20",
      "title": "10 Haziran 2026 tarihli yazınızda tarife sınıflandırma kararı talep etmiştiniz. Göz önünde bulundurulan öğeler, endüstriyel, ticari, kamu hizmetleri, kurtarma, belediye ve eğlence uygulamalarında arazi kullanımı için tasarlandığını belirttiğiniz dört (4) arazi aracı (UTV) modeli …",
      "gerekce": "Can-Am Defender XU, Can-Am Defender XU MAX, Can-Am Defender XU PRO ve Can-Am Defender XU 6x6 için geçerli alt pozisyon 8704.31.0120, HTSUS olacaktır ve bu başlık şu şekilde olacaktır: \"Malların taşınmasına yönelik motorl…",
-     "url": "https://www.customsmobile.com/rulings/docview?doc_id=NY%20N362226"
+     "url": "us/N362226.html"
     },
     {
      "source": "eu",
@@ -18536,7 +18536,7 @@ window.BTI_DATA = {
      "date": "2026-07-20",
      "title": "12 Haziran 2026 tarihli yazınızda ASSP (Thailand) Co., Ltd. adına vermiş olduğunuz tarife sınıflandırması ve menşe ülke belirleme kararını talep etmişsiniz. Söz konusu makaleler, süspansiyon sistemlerinde kullanılan otomotiv rotilleri, XNB20037, XNB20063 ve XNB30110 modelleridir.…",
      "gerekce": "Bilyeli mafsallar, XNB20037, XNB20063 ve XNB30110 modelleri için geçerli alt pozisyon, “8701 ila 8705 pozisyonlarındaki motorlu taşıtların parça ve aksesuarları: Süspansiyon sistemleri ve bunların parçaları (amortisörler…",
-     "url": "https://www.customsmobile.com/rulings/docview?doc_id=NY%20N362278"
+     "url": "us/N362278.html"
     },
     {
      "source": "eu",
@@ -18564,7 +18564,7 @@ window.BTI_DATA = {
      "date": "2026-07-20",
      "title": "15 Haziran 2026 tarihli yazınızda peeling bezi için tarife sınıflandırma kararı talep etmiştiniz. Ürünün bir örneği bu ofise iletildi ve eğitim amacıyla saklanacak. İthal edilen ürün, iki kat yüzde 100 pamuklu tülbent kumaştan oluşan, tamamlanmamış bir yüz peeling bezidir. İki ku…",
      "gerekce": "(Gerekçe metni bulunamadı)",
-     "url": "https://www.customsmobile.com/rulings/docview?doc_id=NY%20N362359"
+     "url": "us/N362359.html"
     },
     {
      "source": "eu",
@@ -18592,7 +18592,7 @@ window.BTI_DATA = {
      "date": "2026-07-20",
      "title": "7 Haziran 2026 tarihli yazınızda tarife sınıflandırma kararı talep etmiştiniz. Yeniden kullanılabilir Noel masası dekorasyonlarından oluşan, Noel krakerleri olarak tanımlanan (ürün numarası dahil değil) bir araya getirilmiş altı öğeden oluşan bir örnek gönderdiniz. Krakerler birb…",
      "gerekce": "Noel krakerleri için geçerli alt pozisyon, Amerika Birleşik Devletleri Uyumlaştırılmış Tarife Tablosu (HTSUS) 9505.10.2500 olacaktır; bu listede \"Sihirbazlık numaraları ve pratik şaka malzemeleri de dahil olmak üzere şen…",
-     "url": "https://www.customsmobile.com/rulings/docview?doc_id=NY%20N362362"
+     "url": "us/N362362.html"
     },
     {
      "source": "eu",
@@ -18620,7 +18620,7 @@ window.BTI_DATA = {
      "date": "2026-07-20",
      "title": "17 Haziran 2026 tarihli yazınızda pamuklu çarşaf takımı için tarife sınıflandırma kararı talep etmiştiniz. Ürünün bir örneği bu ofise iletildi ve eğitim amacıyla saklanacak. “Merdiven Dantelli Pamuklu Çarşaf Takımı” olarak tanımlanan söz konusu ürün, düz bir çarşaf, bir lastikli …",
      "gerekce": "\"Merdiven Dantelli Pamuklu Çarşaf Seti\" için geçerli alt pozisyon, \"Yatak çarşafları, masa örtüleri, tuvalet örtüleri ve mutfak örtüleri: Diğer yatak örtüleri: Pamuktan: Her türlü nakış, dantel, örgü, kenar, süsleme, biy…",
-     "url": "https://www.customsmobile.com/rulings/docview?doc_id=NY%20N362388"
+     "url": "us/N362388.html"
     },
     {
      "source": "eu",
@@ -18648,7 +18648,7 @@ window.BTI_DATA = {
      "date": "2026-07-20",
      "title": "14 Haziran 2026 tarihli yazınızda tarife sınıflandırma kararı talep etmiştiniz. Talebiniz doğrultusunda numune yerine fotoğraf gönderilmiştir. ZANZIBAR No 53 olarak tanımlanan Öğe 1, ayrı olarak ithal edilen, çıkarılabilir bir yastık kılıfını kaplamak üzere tasarlanmış, 20 x 20 i…",
      "gerekce": "NEGRIL No. 03 olarak tanımlanan dekoratif yastık kılıfı için geçerli alt pozisyon, Amerika Birleşik Devletleri Harmonize Tarife Cetveli (HTSUS) 6304.92.0000 olacaktır; bu listede \"9404 pozisyonundakiler hariç diğer mefru…",
-     "url": "https://www.customsmobile.com/rulings/docview?doc_id=NY%20N362444"
+     "url": "us/N362444.html"
     },
     {
      "source": "eu",
@@ -18676,7 +18676,7 @@ window.BTI_DATA = {
      "date": "2026-07-20",
      "title": "Söz konusu ürün, köpekler ve kediler için tavuk bazlı üç evcil hayvan ödülünden oluşuyor. Ürünler hava geçirmez olmayan kaplarda perakende ambalajlarda ithal ediliyor ve şöyle tanımlanıyor: İlk ürün olan Dondurularak Kurutulmuş Tavuk Göğsü Küpleri, yüzde 100 tavuk göğüs etinden o…",
      "gerekce": "Evcil Hayvan İkramları için geçerli alt pozisyon, Amerika Birleşik Devletleri Uyumlaştırılmış Tarife Cetveli (HTSUS) 2309.10.0090 olacaktır ve bu madde şunları öngörmektedir: \"Hayvan beslemede kullanılan türden müstahzar…",
-     "url": "https://www.customsmobile.com/rulings/docview?doc_id=NY%20N362504"
+     "url": "us/N362504.html"
     },
     {
      "source": "eu",
@@ -18704,7 +18704,7 @@ window.BTI_DATA = {
      "date": "2026-07-20",
      "title": "12 Aralık 2025 tarihli yazınızda tarife sınıflandırma kararı talep etmiştiniz. Söz konusu mala Saturnia taşı adı verilmektedir. Karar talebinizle birlikte bir numune teslim edilmiş ve analiz için Gümrük ve Sınır Koruma Laboratuvarına iletilmiştir. Bu analiz tamamlandı. Saturnia, …",
      "gerekce": "Saturnia taşı için geçerli alt pozisyon, Amerika Birleşik Devletleri Uyumlaştırılmış Tarife Cetveli (HTSUS) 6802.99.0090 olacaktır; bu listede \"6801 pozisyonunda yer alan mallar hariç, işlenmiş anıtsal veya inşaat taşlar…",
-     "url": "https://www.customsmobile.com/rulings/docview?doc_id=NY%20N356982"
+     "url": "us/N356982.html"
     },
     {
      "source": "eu",
@@ -18732,7 +18732,7 @@ window.BTI_DATA = {
      "date": "2026-07-20",
      "title": "9 Haziran 2026 tarihli yazınızda tarife sınıflandırma kararı talep etmiştiniz. BCBS2027H001 ürün numaralı Hasat Kumaş Papyon olarak tanımlanan ve tek taraflı duvar veya kapı askısı dekorasyonundan oluşan bir ürünün fotoğrafını ve ayrıntılı açıklamasını gönderdiniz. Talep eden kiş…",
      "gerekce": "Ürün numarası BCBS2027H001 olan Hasat Kumaş Papyon için geçerli alt pozisyon, \"Sihirbazlık numaraları ve pratik şaka malzemeleri de dahil olmak üzere şenlik, karnaval veya diğer eğlence eşyaları; bunların parça ve aksesu…",
-     "url": "https://www.customsmobile.com/rulings/docview?doc_id=NY%20N362170"
+     "url": "us/N362170.html"
     },
     {
      "source": "eu",
@@ -18760,7 +18760,7 @@ window.BTI_DATA = {
      "date": "2026-07-20",
      "title": "Müşteriniz SH Dream Co. adına 9 Haziran 2026 tarihli mektubunuzda Range Doctor kiti için tarife sınıflandırma ve işaretleme kararı talep etmişsiniz. Başvurunuzda, söz konusu ürün, Range Doctor model adında, mutfak pişirme cihazlarının üst yüzeylerini temizleme ve bakımını yapma i…",
      "gerekce": "Poligon Doktoru kiti için geçerli alt pozisyon, ayakkabı, mobilya, zemin, karoseri, cam veya metal için cilalar ve kremler, temizleme macunları ve tozları ve benzeri müstahzarları (kağıt, vatka, keçe, dokunmamış kumaş, h…",
-     "url": "https://www.customsmobile.com/rulings/docview?doc_id=NY%20N362197"
+     "url": "us/N362197.html"
     },
     {
      "source": "eu",
@@ -18788,7 +18788,7 @@ window.BTI_DATA = {
      "date": "2026-07-20",
      "title": "10 Haziran 2026 tarihli mektubunuzda müşteriniz Celina Tent A.Ş. adına tarife sınıflandırma kararı talep etmişsiniz. Numuneler temin edilmiş olup talep edildiği takdirde muhafaza edilecektir. Değerlendirilen beş ürün var ve hepsi çadır üstleri olarak tanımlanıyor. İlk dördü, her …",
      "gerekce": "Parça numarası 1010FS50 olan \"Polyester Çadır Üstü\" için geçerli alt pozisyon, 6307.90.9891, HTSUS olacaktır ve bu alt pozisyon, \"elbise desenleri de dahil olmak üzere diğer hazır eşyaları içerir: [o]diğer: [o]diğer: [o]…",
-     "url": "https://www.customsmobile.com/rulings/docview?doc_id=NY%20N362208"
+     "url": "us/N362208.html"
     },
     {
      "source": "eu",
@@ -18816,7 +18816,7 @@ window.BTI_DATA = {
      "date": "2026-07-20",
      "title": "15 Haziran 2026 tarihli yazınızda tarife sınıflandırma kararı talep etmiştiniz. Örnekler yerine görseller sağlanmıştır. Düşünülen iki ürün var. Bunlardan ilki, ürün numarası 45244701 olan, kır çiçekleri içeren yapay bir çelenk olarak tanımlanıyor. Bu 22 inçlik çelenk, polistiren …",
      "gerekce": "Sırasıyla 45244701 ve 452447801 ürün numaralı dekoratif yapay çelenk ve çelenk seti için geçerli alt pozisyon, \"[a]yapay çiçekler, yapraklar ve meyveler ve bunların parçaları; yapay çiçeklerden, yapraklardan veya meyvele…",
-     "url": "https://www.customsmobile.com/rulings/docview?doc_id=NY%20N362344"
+     "url": "us/N362344.html"
     },
     {
      "source": "eu",
@@ -18844,7 +18844,7 @@ window.BTI_DATA = {
      "date": "2026-07-20",
      "title": "Müşteriniz Prospero Equipment Corp. adına 19 Haziran 2026 tarihli mektubunuzda tarife sınıflandırma kararı talep etmişsiniz. Söz konusu ürün, tanen ve aroma ekstraksiyonu için komple bir pompalama sistemi olarak tanımlanıyor (model: FWXU 4400/1164 D1150 H4200 0/ATM V2). Sistem, k…",
      "gerekce": "Tanen ve aroma ekstraksiyonuna yönelik komple pompalama sistemi için geçerli alt pozisyon (model: FWXU 4400/1164 D1150 H4200 0/ATM V2) 8438.80.0000, HTSUS olacaktır; bu bölüm, hayvansal veya sabit bitkisel katı veya sıvı…",
-     "url": "https://www.customsmobile.com/rulings/docview?doc_id=NY%20N362451"
+     "url": "us/N362451.html"
     },
     {
      "source": "eu",
@@ -18872,7 +18872,7 @@ window.BTI_DATA = {
      "date": "2026-07-20",
      "title": "30 Haziran 2026 tarihli mektubunuzda müşteriniz CVS Pharmacy, Inc. adına bağlayıcı bir tarife sınıflandırma kararı talep etmişsiniz. Ürün bilgileri ve fotoğrafları incelememiz için gönderilmiştir. Söz konusu ürün, 460331 numaralı dekoratif karton ev veya kilisedir. Ürünün Noel dö…",
      "gerekce": "Dekoratif kağıt ev 460331 kalemi için geçerli alt pozisyon, boyutuna veya şekline göre kesilmiş Diğer kağıt, karton, selüloz vatka ve selüloz elyaf ağlarını öngören 4823.90.6700, HTSUS olacaktır; kağıt hamurundan, kağıtt…",
-     "url": "https://www.customsmobile.com/rulings/docview?doc_id=NY%20N362754"
+     "url": "us/N362754.html"
     },
     {
      "source": "eu",
@@ -18900,7 +18900,7 @@ window.BTI_DATA = {
      "date": "2026-07-20",
      "title": "Söz konusu malın, başkalarının kullanımı veya yararından çok, belirli bir sınıftaki kişilerin kullanımına veya yararına yönelik olması gerekir. Bu \"özel olarak tasarlanmış\" tanımı, gümrüklerin bir ürünün \"özel olarak tasarlanmış\" olduğunun ve kimin yararına olduğunun belirlenmesi…",
      "gerekce": "(Gerekçe metni bulunamadı)",
-     "url": "https://www.customsmobile.com/rulings/docview?doc_id=HQ%20H353417"
+     "url": "us/H353417.html"
     },
     {
      "source": "eu",
@@ -18928,7 +18928,7 @@ window.BTI_DATA = {
      "date": "2026-07-20",
      "title": "12 Aralık 2025 tarihli yazınızda tarife sınıflandırma kararı talep etmiştiniz. Söz konusu mala Kuğu Kahverengisi taşı adı verilmektedir. Karar talebinizle birlikte bir numune teslim edilmiş ve analiz için Gümrük ve Sınır Koruma Laboratuvarına iletilmiştir. Bu analiz tamamlandı. K…",
      "gerekce": "Kuğu Kahverengisi taşı için geçerli alt pozisyon, Amerika Birleşik Devletleri Uyumlaştırılmış Tarife Cetveli (HTSUS) 6802.99.0090 olacaktır; bu listede \"6801 pozisyonundaki mallar hariç işlenmiş anıtsal veya inşaat taşla…",
-     "url": "https://www.customsmobile.com/rulings/docview?doc_id=NY%20N356981"
+     "url": "us/N356981.html"
     },
     {
      "source": "eu",
@@ -18956,7 +18956,7 @@ window.BTI_DATA = {
      "date": "2026-07-20",
      "title": "24 Haziran 2026 tarihli mektubunuzda, müşteriniz Global Product Sourcing, LLC adına bağlayıcı bir tarife sınıflandırma kararı talep ettiniz. Ürün bilgileri ve numuneler incelememiz için gönderildi. Söz konusu ürünler dört adet kömürleşmiş ahşap levhadır. Birincisi, JY2601 düz ken…",
      "gerekce": "Masif meşe levha JY2601 Kalemi için geçerli alt pozisyon, uzunlamasına kesilmiş veya yontulmuş, dilimlenmiş veya soyulmuş, rendelenmiş, zımparalanmış veya uçları birleştirilmiş olsun olmasın, kalınlığı 6 mm'yi aşan Ağaçl…",
-     "url": "https://www.customsmobile.com/rulings/docview?doc_id=NY%20N362532"
+     "url": "us/N362532.html"
     },
     {
      "source": "eu",
@@ -18984,7 +18984,7 @@ window.BTI_DATA = {
      "date": "2026-07-20",
      "title": "Söz konusu mala Zürih taşı adı verilmektedir. Karar talebinizle birlikte bir numune teslim edilmiş ve analiz için Gümrük ve Sınır Koruma Laboratuvarına iletilmiştir. Bu analiz tamamlandı. Zürih, kahverengi benekli ve çizgili, krem ​​renkli bir taştır. Sağladığınız bilgilere göre …",
      "gerekce": "Zürih taşı için geçerli alt pozisyon 6802.93.0090, HTSUS olacaktır ve bu pozisyon, \"6801 pozisyonunda yer alan ürünler hariç işlenmiş anıtsal veya inşaat taşları (kayağan taşı hariç) ve bunlardan eşya: Diğer: Granit: Diğ…",
-     "url": "https://www.customsmobile.com/rulings/docview?doc_id=NY%20N355233"
+     "url": "us/N355233.html"
     },
     {
      "source": "eu",
@@ -19012,7 +19012,7 @@ window.BTI_DATA = {
      "date": "2026-07-20",
      "title": "8 Haziran 2026 tarihli mektubunuzda, Industria Caricia, S.A. de C.V. adına, erkek günlük ayakkabılarının iki stilinin tarife sınıflandırmasına ve ürünlerin Dominik Cumhuriyeti-Orta Amerika-Amerika Birleşik Devletleri Serbest Ticaret Anlaşması (“DR-CAFTA”) kapsamında uygunluğuna i…",
      "gerekce": "(Gerekçe metni bulunamadı)",
-     "url": "https://www.customsmobile.com/rulings/docview?doc_id=NY%20N362166"
+     "url": "us/N362166.html"
     },
     {
      "source": "eu",
@@ -19040,7 +19040,7 @@ window.BTI_DATA = {
      "date": "2026-07-20",
      "title": "Harris ve Ford adına 8 Haziran 2026 tarihli mektubunuzda tarife sınıflandırma kararı talep etmişsiniz. 22 Haziran ve 25 Haziran 2026 tarihli e-posta yoluyla ek bilgi sağlanmıştır. NATURA® WT600, başlangıç ​​malzemesi olarak mumsu tapyoka nişastasından üretilen, fiziksel bir modif…",
      "gerekce": "NATURA® WT600 için geçerli alt pozisyon, \"Dekstrinler ve diğer değiştirilmiş nişastalar (örneğin, önceden jelatinleştirilmiş veya esterleştirilmiş nişastalar) ...: Dekstrinler ve diğer değiştirilmiş nişastalar: Diğer: Di…",
-     "url": "https://www.customsmobile.com/rulings/docview?doc_id=NY%20N362167"
+     "url": "us/N362167.html"
     },
     {
      "source": "eu",
@@ -19068,7 +19068,7 @@ window.BTI_DATA = {
      "date": "2026-07-20",
      "title": "11 Haziran 2026 tarihli yazınızda tarife sınıflandırma kararı talep etmişsiniz. Model 1PAFFLEXR, 6\" şarj edilebilir USB fanı veya taşınabilir bebek arabası fanı olarak tanımlanır. Dairesel fanda bir güç düğmesi, şarj ve fan hızı göstergeleri, fanın asılmasına olanak tanıyan bir k…",
      "gerekce": "1PAFFLEXR modeli fan için geçerli alt başlık, Hava veya vakum pompaları, hava veya diğer gaz kompresörleri ve fanları sağlayan Amerika Birleşik Devletleri Harmonize Tarife Tablosu (HTSUS) 8414.59.6590 olacaktır; filtrele…",
-     "url": "https://www.customsmobile.com/rulings/docview?doc_id=NY%20N362253"
+     "url": "us/N362253.html"
     },
     {
      "source": "eu",
@@ -19096,7 +19096,7 @@ window.BTI_DATA = {
      "date": "2026-07-20",
      "title": "Müşteriniz Interactive Health Technologies, LLC. adına 11 Haziran 2026 tarihli mektubunuzda tarife sınıflandırma kararı talep etmişsiniz. İncelememiz için tanımlayıcı literatür sağlandı. Söz konusu ürün, fiziksel çabayı izlemek ve takip etmek üzere tasarlanmış, bileğe takılan, pi…",
      "gerekce": "Kalp atış hızı monitörü için geçerli alt pozisyon, 9029.20.4080, HTSUS olacaktır ve bu pozisyon şu şekilde olacaktır: \"Dönüş sayaçları, üretim sayaçları, taksimetreler, kilometre sayacı, adımsayarlar ve benzerleri; hızöl…",
-     "url": "https://www.customsmobile.com/rulings/docview?doc_id=NY%20N362258"
+     "url": "us/N362258.html"
     },
     {
      "source": "eu",
@@ -19124,7 +19124,7 @@ window.BTI_DATA = {
      "date": "2026-07-20",
      "title": "18 Haziran 2026 tarihli yazınızda ve daha önceki yazınızda tarife sınıflandırma kararı talep etmiştiniz. İncelenen ürün sizin yüksek karbonlu silikon olarak tanımladığınız silikon-karbon ürünüdür. Ürünün çelik sektöründe karbüratör olarak kullanılacağını belirtiyorsunuz. Silisyum…",
      "gerekce": "Silikon-karbon ürünü için geçerli alt pozisyon, dökümhane kalıpları veya maçaları için hazırlanmış bağlayıcıları öngören 3824.99.9397, HTSUS olacaktır; Başka yerde belirtilmeyen veya yer almayan, kimya veya kimya sanayii…",
-     "url": "https://www.customsmobile.com/rulings/docview?doc_id=NY%20N362427"
+     "url": "us/N362427.html"
     },
     {
      "source": "eu",
@@ -19152,7 +19152,7 @@ window.BTI_DATA = {
      "date": "2026-07-20",
      "title": "Müşteriniz Fournier Industries Inc. adına 23 Haziran 2026 tarihli mektubunuzda tarife sınıflandırma kararı talep etmişsiniz. İncelememiz için tanımlayıcı literatür sağlandı. Değerlendirilen ürün, bir çamur pompası, bir polimer tankı, bir polimer ölçüm pompası, bir topaklaştırıcı …",
      "gerekce": "Fournier Rotary Press için geçerli alt başlık 8421.21.0000 olacaktır, Amerika Birleşik Devletleri Harmonize Tarife Tablosu (HTSUS), \"Santrifüjler, santrifüjlü kurutucular dahil; sıvılar veya gazlar için filtreleme veya s…",
-     "url": "https://www.customsmobile.com/rulings/docview?doc_id=NY%20N362507"
+     "url": "us/N362507.html"
     },
     {
      "source": "eu",
@@ -19180,7 +19180,7 @@ window.BTI_DATA = {
      "date": "2026-07-20",
      "title": "1 Mayıs 2026 tarihli mektubunuzda, müşteriniz Dazian, LLC adına tarife sınıflandırma kararı talep etmişsiniz. Madde 110 A, 215 g/m2 ağırlığında çok katmanlı bir tabakadır. Ön tarafı 40 gr/m2 akrilik kaplama, orta kısmı 140 gr/m2 polyester dokuma kumaştan ve arka tarafı 35 gr/m2 a…",
      "gerekce": "Yapışkansız akrilik levha Madde 110 A için geçerli alt pozisyon, plastikten diğer levha, levha, film, folyo ve şeritleri öngören Amerika Birleşik Devletleri Uyumlaştırılmış Tarife Cetveli (HTSUS) 3921.90.1500 olacaktır: …",
-     "url": "https://www.customsmobile.com/rulings/docview?doc_id=NY%20N362535"
+     "url": "us/N362535.html"
     },
     {
      "source": "eu",
@@ -19208,7 +19208,7 @@ window.BTI_DATA = {
      "date": "2026-07-20",
      "title": "2 Haziran 2026 tarihli yazınızda tarife sınıflandırma kararı talep etmiştiniz. Ürünün bir örneği bu ofise iletildi ve eğitim amacıyla saklanacak. \"Isıtma Yastığı\" olarak tanımlanan örnek, kullanıcının omuzlarına, boynuna ve sırtına takılmak üzere tasarlanmış bir Berkshire® elektr…",
      "gerekce": "\"Isıtma Yastığı\" için geçerli alt pozisyon, \"Giysi modelleri dahil diğer hazır eşya: Diğer: Diğer: Diğer: Diğer: Diğer\" ifadesini öngören 6307.90.9891, HTSUS olacaktır. Gümrük vergisi oranı yüzde 7 olacak.",
-     "url": "https://www.customsmobile.com/rulings/docview?doc_id=NY%20N361988"
+     "url": "us/N361988.html"
     },
     {
      "source": "eu",
@@ -19236,7 +19236,7 @@ window.BTI_DATA = {
      "date": "2026-07-20",
      "title": "Providence Medical Technology, Inc. adına 4 Haziran 2026 tarihli mektubunuzda tarife sınıflandırma kararı talep etmişsiniz. 18 Haziran ve 22 Haziran 2026 tarihli e-posta yoluyla ek bilgi sağlanmıştır. CORUS Navigasyon Erişim Sisteminin sınıflandırması ayrı bir yazışmada ele alına…",
      "gerekce": "CORUS İmplantları ve CORUS Cerrahi Sistemleri için geçerli alt pozisyon, \"Ortopedik veya kırık aletleri ve bunların parça ve aksesuarları: Kemik plakaları, vidalar ve çiviler ve diğer dahili sabitleme cihazları veya alet…",
-     "url": "https://www.customsmobile.com/rulings/docview?doc_id=NY%20N362091"
+     "url": "us/N362091.html"
     },
     {
      "source": "eu",
@@ -19264,7 +19264,7 @@ window.BTI_DATA = {
      "date": "2026-07-20",
      "title": "8 Haziran 2026 tarihli yazınızda tarife sınıflandırma kararı talep etmişsiniz. Talebiniz ile birlikte teknik bilgiler de iletilmiştir. Söz konusu öğe, Ürün No. 110001 olan ve \"Gövde, İnce, GFF, Demo\" olarak tanımlanan bir montaj parçasıdır. Bu öğe, Amerika Birleşik Devletleri'nde…",
      "gerekce": "Montaj parçası için geçerli alt pozisyon, \"Alüminyumdan diğer eşyalar: Diğer: Diğer: Diğer: Diğer: Diğer\" ifadesini öngören 7616.99.5190, HTSUS olacaktır. Genel vergi oranı değer üzerinden yüzde 2,5 olacaktır.",
-     "url": "https://www.customsmobile.com/rulings/docview?doc_id=NY%20N362164"
+     "url": "us/N362164.html"
     },
     {
      "source": "eu",
@@ -19292,7 +19292,7 @@ window.BTI_DATA = {
      "date": "2026-07-20",
      "title": "15 Haziran 2026 tarihli mektubunuzda The GivingEgg'e ilişkin bağlayıcı bir tarife sınıflandırması kararı talep etmiştiniz. Ürün bilgileri ve bir numune incelememiz için gönderildi. Söz konusu ürün The GivingEgg, ürün numarası AW0326.5000'dir. GivingEgg, yaklaşık 3,5\" yüksekliğind…",
      "gerekce": "The GivingEgg için geçerli alt pozisyon, Diğer ahşap ürünleri öngören 4421.99.9880, HTSUS olacaktır: Diğer: Diğer: Diğer: Diğer: Diğer. Genel vergi oranı ad valorem olarak yüzde 3,3 olacaktır.",
-     "url": "https://www.customsmobile.com/rulings/docview?doc_id=NY%20N362356"
+     "url": "us/N362356.html"
     },
     {
      "source": "eu",
@@ -19320,7 +19320,7 @@ window.BTI_DATA = {
      "date": "2026-07-20",
      "title": "15 Haziran 2026 tarihli mektubunuzda nakliye paletine ilişkin bağlayıcı tarife sınıflandırması talebinde bulunmuşsunuz. Ürün bilgileri ve bir numune incelememiz için gönderildi. Söz konusu ürün NetZero nakliye paletidir. Paletin yüzde 71 ahşap parçacıkları, yüzde 25 hindistan cev…",
      "gerekce": "NetZero nakliye paleti için geçerli alt pozisyon, ahşaptan ambalaj kasaları, kutular, kasalar, fıçılar ve benzeri ambalajları öngören 4415.20.8000, HTSUS olacaktır; ahşaptan kablo makaraları; ahşaptan paletler, kutu pale…",
-     "url": "https://www.customsmobile.com/rulings/docview?doc_id=NY%20N362367"
+     "url": "us/N362367.html"
     },
     {
      "source": "eu",
@@ -19348,7 +19348,7 @@ window.BTI_DATA = {
      "date": "2026-07-20",
      "title": "16 Haziran 2026 tarihli yazınızda tarife sınıflandırma kararı talep etmişsiniz. Örnekler yerine görseller sağlanmıştır. Göz önünde bulundurulan saat standlarının üç versiyonu bulunmaktadır. Her modelde, bileklik yanında bir saati görüntülemek için kullanılan bilek boyutunda bir c…",
      "gerekce": "Saat klipsi standı, stil FIXTB0016 için geçerli alt pozisyon, 7326.90.8688, HTSUS olacaktır ve bu alt pozisyon, \"[o]diğer demir veya çelik eşyalar: [o]diğer: [o]diğer: [o]diğer [o]diğer: [o]diğer.\" Birinci sütunda, genel…",
-     "url": "https://www.customsmobile.com/rulings/docview?doc_id=NY%20N362375"
+     "url": "us/N362375.html"
     },
     {
      "source": "eu",
@@ -19376,7 +19376,7 @@ window.BTI_DATA = {
      "date": "2026-07-20",
      "title": "17 Haziran 2026 tarihli mektubunuzda Bob’s İndirim Mobilya adına tarife sınıflandırma kararı talep etmişsiniz. Örneklerin yerine inceleme için teknik ve açıklayıcı literatür, ürün açıklamaları ve üretim özeti sağlandı. Öğe 1, “Oyun Günü Açılır Çift Kişilik Koltuk – Sola Bakan (LF…",
      "gerekce": "1, 2 ve 3'üncü kalemler için geçerli alt pozisyon, HTSUS 9401.61.6011 olacaktır ve bu pozisyon şu şekildedir: \"Yatağa dönüştürülebilir olsun olmasın Koltuklar (9402 pozisyonundakiler hariç) ve bunların parçaları: Ahşap ç…",
-     "url": "https://www.customsmobile.com/rulings/docview?doc_id=NY%20N362411"
+     "url": "us/N362411.html"
     },
     {
      "source": "eu",
@@ -19404,7 +19404,7 @@ window.BTI_DATA = {
      "date": "2026-07-20",
      "title": "18 Haziran 2026 tarihli yazınızda tarife sınıflandırma kararı talep etmiştiniz. Tam Ay Organik Kültürlü Fıstık® yoğurt alternatifleri adı verilen ve organik, bitki bazlı, süt içermeyen vegan ürünler olarak tanımlanan üç ürün inceleniyor. Ürünler tüketime hazır olarak ithal ediliy…",
      "gerekce": "Yukarıda açıklanan Süt Ürünleri İçermeyen Yoğurt Alternatifleri için geçerli alt pozisyon, 2106.90.9997, HTSUS olacaktır ve şunu öngörmektedir: \"Başka yerde belirtilmeyen veya yer almayan gıda müstahzarları... diğer... d…",
-     "url": "https://www.customsmobile.com/rulings/docview?doc_id=NY%20N362430"
+     "url": "us/N362430.html"
     },
     {
      "source": "eu",
@@ -19432,7 +19432,7 @@ window.BTI_DATA = {
      "date": "2026-07-20",
      "title": "29 Mayıs 2026 tarihli yazınızda tarife sınıflandırma kararı talep etmiştiniz. Talebiniz ile birlikte gönderdiğiniz 2 adet spor ayakkabı modeli incelenmiş olup, talep edilmesi halinde iade edilecektir. Stil # 6018774A-BR UA Pulse Storm, ayak bileğinin altında, üniseks bir atletik …",
      "gerekce": "Stil # 6018774A-BR UA Pulse Storm ve Stil # 6011642A-BR UA Pulse için geçerli alt pozisyon, dış tabanı ve üst kısmı kauçuk/plastikten olan diğer ayakkabıları sağlayan 6402.99.9005, HTSUS olacaktır: Diğer ayakkabılar: Diğ…",
-     "url": "https://www.customsmobile.com/rulings/docview?doc_id=NY%20N361892"
+     "url": "us/N361892.html"
     },
     {
      "source": "eu",
@@ -19460,7 +19460,7 @@ window.BTI_DATA = {
      "date": "2026-07-20",
      "title": "22 Mayıs 2026 tarihli yazınızda iki tip pompaya ilişkin tarife sınıflandırma kararı talep etmişsiniz. Birinci ürün, F2 Hava Pompası Grubu olarak anılır. Düzenek bir motor, bir soğutma fanı ve onu diş frezeleme aleti gibi makinelere sabitleyen montaj elemanlarına sahip bir kaydırm…",
      "gerekce": "F2 Hava Pompası Grubu için geçerli alt başlık, Hava veya vakum pompaları, hava veya diğer gaz kompresörleri ve fanları sağlayan Amerika Birleşik Devletleri Harmonize Tarife Tablosu (HTSUS) 8414.80.1660 olacaktır; filtrel…",
-     "url": "https://www.customsmobile.com/rulings/docview?doc_id=NY%20N362037"
+     "url": "us/N362037.html"
     },
     {
      "source": "eu",
@@ -19488,7 +19488,7 @@ window.BTI_DATA = {
      "date": "2026-07-20",
      "title": "3 Haziran 2026 tarihli yazınızda tarife sınıflandırması kararı talebinde bulunmuşsunuz. Talebinize ürünün fotoğrafları ve açıklamaları eklenmiştir. İncelenen mal, kendi kendini sulayan saksı, ürün No. 2052888 olarak tanımlanmaktadır. Bu oval şekilli saksı, çelik ile yapılmış olup…",
      "gerekce": "2052888 numaralı kendi kendini sulayan ekim makinesi için geçerli alt pozisyon, adi metalden elektriksiz çanlar, gonglar ve benzerlerini sağlayan 8306.29.0000, HTSUS olacaktır; adi metallerden heykelcikler ve diğer süs e…",
-     "url": "https://www.customsmobile.com/rulings/docview?doc_id=NY%20N362066"
+     "url": "us/N362066.html"
     },
     {
      "source": "eu",
@@ -19516,7 +19516,7 @@ window.BTI_DATA = {
      "date": "2026-07-20",
      "title": "4 Haziran 2026 tarihli mektubunuzda, kar amacı gütmeyen bir 501(c)(3) kuruluşu olan müşteriniz National Inventors Hall of Fame Inc. (\"National Inventors\") adına bir tarife sınıflandırma kararı talep ettiniz. Sorgunuzla birlikte kapibara robotu, ıhlamur ağacından tekne, plastik di…",
      "gerekce": "Kapibara robotu, ıhlamur ağacından tekne, plastik dişli kutusu, darbe/hareket lambası ve DC motor için geçerli alt pozisyon, Alt Bölüm X, Bölüm 98'e ilişkin ABD Not 1'e uygun olarak ithal edildiğinde, 9810.00.3500, Ameri…",
-     "url": "https://www.customsmobile.com/rulings/docview?doc_id=NY%20N362094"
+     "url": "us/N362094.html"
     },
     {
      "source": "eu",
@@ -19544,7 +19544,7 @@ window.BTI_DATA = {
      "date": "2026-07-20",
      "title": "5 Haziran 2026 tarihli yazınızda tarife sınıflandırma kararı talep etmiştiniz. Ek bilgi e-posta yoluyla sağlandı. Mobility+ Enteral Besleme Pompası Sistemi, uzun süreli enteral (tüp) beslenmeye ihtiyaç duyan kişiler için tasarlanmış, taşınabilir, hafif, elektronik olmayan, tek ku…",
      "gerekce": "Mobility+ Enteral Besleme Pompası Sistemi için geçerli alt başlık, Amerika Birleşik Devletleri Uyumlaştırılmış Tarife Tablosu (HTSUS) 9018.90.8000 olacaktır ve bu başlık şu şekilde olacaktır: \"Tıp, cerrahi, dişçilik veya…",
-     "url": "https://www.customsmobile.com/rulings/docview?doc_id=NY%20N362100"
+     "url": "us/N362100.html"
     },
     {
      "source": "eu",
@@ -19572,7 +19572,7 @@ window.BTI_DATA = {
      "date": "2026-07-20",
      "title": "8 Haziran 2026 tarihli yazınızda tarife sınıflandırma kararı talep etmişsiniz. Numuneleriniz talep ettiğiniz şekilde iade edilecektir. Stil 04276F043A \"W'nin HEATTECH sıfır yaka tişörtü\" yüzde 33 polyester, yüzde 31 akrilik, yüzde 21 suni ipek ve yüzde 15 spandeks örgü kumaştan y…",
      "gerekce": "Stil 04275F059Q için geçerli alt pozisyon, 6109.90.1090, HTSUS olacaktır ve aşağıdakileri öngörmektedir: Tişörtler, atletler, atletler ve benzeri giysiler (örme veya tığ işi): Diğer tekstil malzemelerinden: Suni ve sente…",
-     "url": "https://www.customsmobile.com/rulings/docview?doc_id=NY%20N362151"
+     "url": "us/N362151.html"
     },
     {
      "source": "eu",
@@ -19600,7 +19600,7 @@ window.BTI_DATA = {
      "date": "2026-07-20",
      "title": "15 Haziran 2026 tarihli yazınızda tarife sınıflandırma kararı talep etmiştiniz. Söz konusu ürün, XREAL Aura Artırılmış Gerçeklik (AR) akıllı gözlük paketi olarak tanımlanıyor. Söz konusu paket, birlikte ithal edildiğini ve birbiriyle birlikte kullanılması gerektiğini belirttiğini…",
      "gerekce": "XREAL Aura paketi için geçerli alt pozisyon 8471.49.0000, HTSUS olacaktır ve bu başlıkta \"Otomatik veri işleme makineleri ve bunların birimleri…: Diğer otomatik veri işleme makineleri: Sistemler şeklinde girilen diğer\" i…",
-     "url": "https://www.customsmobile.com/rulings/docview?doc_id=NY%20N362293"
+     "url": "us/N362293.html"
     },
     {
      "source": "eu",
@@ -19628,7 +19628,7 @@ window.BTI_DATA = {
      "date": "2026-07-20",
      "title": "5 Haziran 2026 tarihli yazınızda tarife sınıflandırma kararı talep etmiştiniz. Talebiniz ile birlikte teknik bilgiler de iletilmiştir. Söz konusu ürün, düz bir paslanmaz çelik parçasından yapılmış bir diş ipi çekme aletidir. Bir ucunda parmak tutma yeri, diğer ucunda iki askı ucu…",
      "gerekce": "Diş ipi çekme aleti için geçerli alt pozisyon, \"Demir veya çelikten diğer eşyalar: Diğer: Diğer: Diğer: Diğer: Diğer\" ifadesini öngören 7326.90.8688, HTSUS olacaktır. Genel vergi oranı değer üzerinden yüzde 2,9 olacak.",
-     "url": "https://www.customsmobile.com/rulings/docview?doc_id=NY%20N362117"
+     "url": "us/N362117.html"
     },
     {
      "source": "eu",
@@ -19656,7 +19656,7 @@ window.BTI_DATA = {
      "date": "2026-07-20",
      "title": "8 Haziran 2026 tarihli mektubunuzda, müşteriniz East West Manufacturing LLC adına tarife sınıflandırma kararı talep etmişsiniz. Söz konusu ürün, Amazon lojistik merkezlerinde ürünleri kaldırmak ve taşımak için kullanılan otomatik bir kaldırma robotu olan Hercules H-DU kaldırma bo…",
      "gerekce": "H-DU Bağlantı Kiti Döner, H-DU Arka Şasi Alt Düzeneği, H-DU Panhard Sol Düzeneği ve H-DU Panhard Sağ Düzeneği için geçerli alt pozisyon, \"Yalnızca veya esas olarak 8425 ila 8430 pozisyonlarındaki makinelerle kullanıma uy…",
-     "url": "https://www.customsmobile.com/rulings/docview?doc_id=NY%20N362150"
+     "url": "us/N362150.html"
     },
     {
      "source": "us",
@@ -19670,7 +19670,7 @@ window.BTI_DATA = {
      "date": "2026-07-20",
      "title": "Müşteriniz Blackmore Co. adına 10 Haziran 2026 tarihli mektubunuzda, tesis alt tabaka tepsi doldurucularına ilişkin tarife sınıflandırma kararı talep etmiştiniz. İncelememiz için tanımlayıcı literatür sağlandı. Söz konusu ürün, sera içi veya dışı ortamlar için tasarlanmış endüstr…",
      "gerekce": "Ellepot 2.0 Kap Doldurucu için geçerli alt pozisyon, “Bulaşık yıkama makineleri; şişeleri veya diğer kapları temizleme veya kurutmaya yönelik makineler; şişeleri, teneke kutuları, kutuları, torbaları veya diğer kapları d…",
-     "url": "https://www.customsmobile.com/rulings/docview?doc_id=NY%20N362224"
+     "url": "us/N362224.html"
     },
     {
      "source": "us",
@@ -19684,7 +19684,7 @@ window.BTI_DATA = {
      "date": "2026-07-20",
      "title": "11 Haziran 2026 tarihli yazınızda tarife sınıflandırması, menşe ülke tespiti ve işaretleme kararı talep etmiştiniz. Numune ofisimize gönderildi ancak elime ulaşmadı. Alındıktan sonra, belirttiğiniz gibi referans amacıyla saklayacağız. Göz önünde bulundurulan öğeler, binek araçlar…",
      "gerekce": "Fren balataları, Model 1 ve Model 2 için geçerli alt pozisyon, “8701 ila 8705 pozisyonlarındaki motorlu taşıtların parça ve aksesuarları: Frenler ve servo frenler; bunların parçaları: Diğer araçlar için: Diğer”i öngören …",
-     "url": "https://www.customsmobile.com/rulings/docview?doc_id=NY%20N362232"
+     "url": "us/N362232.html"
     },
     {
      "source": "us",
@@ -19698,7 +19698,7 @@ window.BTI_DATA = {
      "date": "2026-07-20",
      "title": "24 Ekim 2025 tarihli yazınızda tarife sınıflandırma kararı talep etmiştiniz. Söz konusu mala İstambul taşı adı verilmektedir. Karar talebinizle birlikte bir numune teslim edilmiş ve analiz için Gümrük ve Sınır Koruma Laboratuvarına iletilmiştir. Bu analiz tamamlandı. İstambul, ko…",
      "gerekce": "İstambul taşı için geçerli alt pozisyon, 6802.93.0090, HTSUS olacaktır ve bu alt pozisyon, “6801 pozisyonundaki mallar hariç, işlenmiş anıt veya inşaat taşları (kayağan taşı hariç) ve bunlardan eşya: Diğer: Granit: Diğer…",
-     "url": "https://www.customsmobile.com/rulings/docview?doc_id=NY%20N355230"
+     "url": "us/N355230.html"
     },
     {
      "source": "us",
@@ -19712,7 +19712,7 @@ window.BTI_DATA = {
      "date": "2026-07-20",
      "title": "2 Aralık 2025 tarihli yazınızda tarife sınıflandırma kararı talep etmiştiniz. Söz konusu ürüne Piracema Beyaz Taş adı verilmektedir. Karar talebinizle birlikte bir numune teslim edilmiş ve analiz için Gümrük ve Sınır Koruma Laboratuvarına iletilmiştir. Bu analiz tamamlandı. Pirac…",
      "gerekce": "Piracema Beyaz taşı için geçerli alt pozisyon, 6802.99.0090, HTSUS olacaktır ve bu alt pozisyon, \"6801 pozisyonunda yer alan ürünler hariç, işlenmiş anıtsal veya inşaat taşları (arduvaz hariç) ve bunlardan eşya: Diğer: D…",
-     "url": "https://www.customsmobile.com/rulings/docview?doc_id=NY%20N356635"
+     "url": "us/N356635.html"
     },
     {
      "source": "us",
@@ -19726,7 +19726,7 @@ window.BTI_DATA = {
      "date": "2026-07-20",
      "title": "1 Haziran 2026 tarihli mektubunuzda müşteriniz Chervon North America, Inc. adına Çin'den gelen bir güç başlığına ilişkin tarife sınıflandırma kararı talep etmiştiniz. Ürün bilgileri talebinizle birlikte gönderilmiştir. Söz konusu ürün, özel dış mekan bahçe ve bahçecilik kullanım …",
      "gerekce": "56 voltluk lityum iyon arkadan itilebilen güç başlığı için geçerli alt başlık, \"Elde, pnömatik, hidrolik veya bağımsız elektrikli veya elektriksiz motorlu çalışmaya yönelik aletler ve bunların parçaları: Bağımsız elektri…",
-     "url": "https://www.customsmobile.com/rulings/docview?doc_id=NY%20N361972"
+     "url": "us/N361972.html"
     },
     {
      "source": "us",
@@ -19740,7 +19740,7 @@ window.BTI_DATA = {
      "date": "2026-07-20",
      "title": "3 Haziran 2026 tarihli yazınızda tarife sınıflandırma kararı talep etmiştiniz. Söz konusu öğeler, binek araçlarda orijinal ekipman üreticisi (OEM) ürünleri olarak kullanılmak üzere tasarlanmış iki emniyet kemeri bileşenidir. İlk ürün, parça numarası 0430083-Z50 olan kilitleme kam…",
      "gerekce": "Parça numarası 0430083-Z50 olan kilitleme kam aksı için geçerli alt pozisyon, “8701 ila 8705 pozisyonlarındaki motorlu taşıtların parça ve aksesuarları: Karoserlerin diğer parça ve aksesuarları (kabinler dahil): Diğer: D…",
-     "url": "https://www.customsmobile.com/rulings/docview?doc_id=NY%20N362041"
+     "url": "us/N362041.html"
     },
     {
      "source": "us",
@@ -19754,7 +19754,7 @@ window.BTI_DATA = {
      "date": "2026-07-20",
      "title": "15 Haziran 2026 tarihli yazınızda tarife sınıflandırma kararı talep etmiştiniz. Göz önünde bulundurulan öğeler, kendinden tahrikli tarımsal püskürtücülerin ve yüzdürücülerin beş (5) modeli olarak tanımlanmıştır. Bu makinelerin gübre, kimyasal madde, böcek ilacı, bitki ilacı, gübr…",
      "gerekce": "Case Patriot, Case Titan ve New Holland Guardian modelleri için geçerli alt başlık 8424.49.0000 olacaktır, Amerika Birleşik Devletleri Uyumlaştırılmış Tarife Çizelgesi (HTSUS), \"Püskürtme, dağıtma veya püskürtme için mek…",
-     "url": "https://www.customsmobile.com/rulings/docview?doc_id=NY%20N362351"
+     "url": "us/N362351.html"
     },
     {
      "source": "us",
@@ -19768,7 +19768,7 @@ window.BTI_DATA = {
      "date": "2026-07-20",
      "title": "Söz konusu eşya, 3921, HTSUS pozisyonu ve 3924, HTSUS pozisyonu dışında tutulması durumunda, yalnızca 3926 pozisyonu, HTSUS pozisyonunda sınıflandırılabilir. HQ H302153'teki kaymaz kavrama pedleri, köpüklü PVC ile kaplanmış çözgülü örme, polyester açık örgü kumaştan oluşur. Örgü …",
      "gerekce": "(Gerekçe metni bulunamadı)",
-     "url": "https://www.customsmobile.com/rulings/docview?doc_id=HQ%20H305115"
+     "url": "us/H305115.html"
     }
    ]
   },
@@ -24346,7 +24346,7 @@ window.BTI_DATA = {
      "date": "2026-07-14",
      "title": "7326.90.8688 ve 7616.99.5190 alt pozisyonlarında yer alan söz konusu eşya",
      "gerekce": "(Gerekçe metni bulunamadı)",
-     "url": "https://www.customsmobile.com/rulings/docview?doc_id=HQ%20H361779"
+     "url": "us/H361779.html"
     },
     {
      "source": "uk",
@@ -31845,7 +31845,7 @@ window.BTI_DATA = {
      "date": "2026-07-06",
      "title": "N362034 26 Haziran 2026 CLA-2-61:OT:RR:NC:N3:356 KATEGORİ: Sınıflandırma TARİF NO: 6105.20.2010; 6110.30.3053 Bay Yuan Pang The Forgotten Corner LLC 67 Woodsedge Drive, Suite P Powell, OH 43065 RE: Tayvan'dan erkek üst vücut giysilerinin tarife sınıflandırması Sayın Bay Pang: 3 H…",
      "gerekce": "\"TaraNirvana Performance Polo\" Stili için geçerli alt pozisyon, 20.2010, HTSUS 6105 olacaktır ve aşağıdakileri öngörmektedir: Erkek veya erkek çocuk gömlekleri, örme veya tığ işi: Suni ve sentetik elyaftan: Diğer: Erkek.…",
-     "url": "https://www.customsmobile.com/rulings/docview?doc_id=NY%20N362034"
+     "url": "us/N362034.html"
     },
     {
      "source": "uk",
@@ -31887,7 +31887,7 @@ window.BTI_DATA = {
      "date": "2026-07-06",
      "title": "4 Haziran 2026 tarihli yazınızda tarife sınıflandırma kararı talep etmiştiniz. İncelememiz için fotoğraflar ve açıklayıcı bilgiler gönderdiniz. Söz konusu eşya, dış yüzeyi plastik kaplamadan yapılmış bir taşıma çantasıdır. Seyahat sırasında kişisel eşyalarınıza depolama, koruma, …",
      "gerekce": "Bez çanta için geçerli alt pozisyon, dış yüzeyi plastik kaplamalı, seyahat, spor ve benzeri çantaları öngören Amerika Birleşik Devletleri Uyumlaştırılmış Tarife Tablosu (HTSUS) 4202.92.4500 olacaktır. Genel vergi oranı d…",
-     "url": "https://www.customsmobile.com/rulings/docview?doc_id=NY%20N362075"
+     "url": "us/N362075.html"
     },
     {
      "source": "uk",
@@ -31929,7 +31929,7 @@ window.BTI_DATA = {
      "date": "2026-07-06",
      "title": "7 Haziran 2026 tarihli yazınızda tarife sınıflandırma kararı talep etmiştiniz. Talebiniz ile birlikte numune yerine ürünlerin fotoğrafları da sunulmuştur. \"Yeniden Kullanılabilir Noel Hediye Çantaları\" olarak tanımlanan ürünler, geleneksel kağıt hediye paketlerine alternatif olar…",
      "gerekce": "Yeniden Kullanılabilir Noel Hediyesi Çantaları için geçerli alt pozisyon, HTSUS 6307.90.9891 olacaktır ve bu alt pozisyon, \"Elbise modelleri de dahil olmak üzere diğer hazır ürünler: Diğer: Diğer: Diğer: Diğer: Diğer.\" V…",
-     "url": "https://www.customsmobile.com/rulings/docview?doc_id=NY%20N362124"
+     "url": "us/N362124.html"
     },
     {
      "source": "uk",
@@ -31971,7 +31971,7 @@ window.BTI_DATA = {
      "date": "2026-07-06",
      "title": "15 Haziran 2026 tarihli mektubunuzda çok katmanlı ahşap döşemelere ilişkin bağlayıcı bir tarife sınıflandırması ve menşe ülke hükmü talep etmişsiniz. Ürün bilgileri ve görselleri incelememiz için gönderildi. Söz konusu ürün çok katmanlı ahşap döşemedir. Döşeme üç kat ahşaptan olu…",
      "gerekce": "Çok katmanlı ahşap döşeme panelleri için geçerli alt pozisyon, Kontrplak, kaplamalı paneller ve benzeri lamine ahşap sağlayan 4412.52.3105, HTSUS olacaktır: Sunta, laminat levha ve tahta: Diğerleri, en az bir dış katı iğ…",
-     "url": "https://www.customsmobile.com/rulings/docview?doc_id=NY%20N362347"
+     "url": "us/N362347.html"
     },
     {
      "source": "eu",
@@ -31999,7 +31999,7 @@ window.BTI_DATA = {
      "date": "2026-07-06",
      "title": "22 Haziran 2026 tarihli mektubunuzda baskılı ahşap blok dekorlara ilişkin bağlayıcı tarife sınıflandırma kararı talep etmişsiniz. Ürün bilgileri ve görselleri incelememiz için gönderildi. Söz konusu ürün SKU #45105601, Tema Blok Dekorudur. Stiller, ördek, ayı ve kurbağa şeklinde …",
      "gerekce": "SKU #45105601, Tema Blok Dekoru için geçerli alt başlık, Ahşap kakma ve kakma ahşap sağlayan 4420.19.0000, HTSUS olacaktır; mücevherat veya çatal-bıçak takımı ve benzeri eşyalar için ahşaptan kutular ve mahfazalar; ahşap…",
-     "url": "https://www.customsmobile.com/rulings/docview?doc_id=NY%20N362485"
+     "url": "us/N362485.html"
     },
     {
      "source": "eu",
@@ -32027,7 +32027,7 @@ window.BTI_DATA = {
      "date": "2026-07-06",
      "title": "26 Mayıs 2026 tarihli mektubunuzda, müşteriniz Wizard Industries Inc. dba Wizard Screens adına, geri çekilebilir ekran için Amerika Birleşik Devletleri-Meksika-Kanada Anlaşması (USMCA) kapsamında tarife sınıflandırması ve uygunluğu hakkında bir karar talep etmiştiniz. İsteğinizle…",
      "gerekce": "VistaView Plus Geri Çekilebilir ekranı için geçerli alt başlık 6307.90.9891, HTSUS olacaktır ve bu alt başlıkta \"Kıyafet modelleri de dahil olmak üzere diğer hazır ürünler: Diğer: Diğer: Diğer: Diğer: Diğer: Diğer\" ifade…",
-     "url": "https://www.customsmobile.com/rulings/docview?doc_id=NY%20N361799"
+     "url": "us/N361799.html"
     },
     {
      "source": "eu",
@@ -32055,7 +32055,7 @@ window.BTI_DATA = {
      "date": "2026-07-06",
      "title": "27 Mayıs 2026 tarihli mektubunuzda müşteriniz Earthzi Food Company adına tarife sınıflandırma kararı talep etmişsiniz. Söz konusu ürün, kabuğu bozulmadan güneşte kurutulan bütün kurutulmuş limonlar (Citrus limon) olarak tanımlanmaktadır. Limonlar ilave içerik veya koruyucu madde …",
      "gerekce": "Bütün kurutulmuş limonlar için geçerli alt pozisyon, taze veya kurutulmuş turunçgilleri sağlayan Amerika Birleşik Devletleri Uyumlaştırılmış Tarife Tablosu (HTSUS) 0805.50.2050 olacaktır… Limonlar (Citrus limon, Citrus l…",
-     "url": "https://www.customsmobile.com/rulings/docview?doc_id=NY%20N361840"
+     "url": "us/N361840.html"
     },
     {
      "source": "eu",
@@ -32083,7 +32083,7 @@ window.BTI_DATA = {
      "date": "2026-07-06",
      "title": "28 Mayıs 2026 tarihli yazınızda tarife sınıflandırma kararı talep etmiştiniz. 2,5 mg, 5 mg, 10 mg ve 20 mg tablet dozajlarında ithal edilen tadalafil, bir fosfodiesteraz 5 (PDE5) inhibitörüdür. Öncelikle erektil disfonksiyonun tedavisi için endikedir. Aynı zamanda iyi huylu prost…",
      "gerekce": "Dozaj formundaki Tadalafil Tabletleri için geçerli alt pozisyon, Amerika Birleşik Devletleri Harmonize Tarife Cetveli (HTSUS) 3004.90.9276 olacaktır ve bu başlık şu şekilde olacaktır: \"Tedavi amaçlı veya profilaktik kull…",
-     "url": "https://www.customsmobile.com/rulings/docview?doc_id=NY%20N361847"
+     "url": "us/N361847.html"
     },
     {
      "source": "eu",
@@ -32111,7 +32111,7 @@ window.BTI_DATA = {
      "date": "2026-07-06",
      "title": "29 Mayıs 2026 tarihli mektubunuzda müşteriniz Composite Technology International, Inc. (“CTI”) adına tarife sınıflandırma kararı talep etmişsiniz. Talebinizle birlikte açıklayıcı literatür, ürün açıklamaları ve malzeme listesi sağlanmıştır. Söz konusu ürün, ayarlanabilir alüminyu…",
      "gerekce": "Ayarlanabilir alüminyum kapı eşikleri için geçerli alt pozisyon, alüminyum yapılar (9406 pozisyonundaki prefabrik binalar hariç) ve yapı parçalarını (örneğin, köprüler ve köprü bölümleri, kuleler, kafes direkler, çatılar…",
-     "url": "https://www.customsmobile.com/rulings/docview?doc_id=NY%20N361913"
+     "url": "us/N361913.html"
     },
     {
      "source": "eu",
@@ -32139,7 +32139,7 @@ window.BTI_DATA = {
      "date": "2026-07-06",
      "title": "1 Haziran 2026 tarihli yazınızda tarife sınıflandırma kararı talep etmiştiniz. İncelememiz için bir fotoğraf ve açıklayıcı bilgi gönderdiniz. Söz konusu ürün, dış yüzeyi plastikten yapılmış yalıtımlı bir soğutucu çantadır. Yiyecek, içecek ve diğer kişisel eşyaların depolanması, k…",
      "gerekce": "Yalıtımlı soğutucu torba için geçerli alt pozisyon, dış yüzeyi plastik veya tekstil malzemelerinden levhalardan, dış yüzeyi tekstil malzemelerinden, diğer yüzeyleri ise insan yapımı tekstillerden oluşan yalıtımlı yiyecek…",
-     "url": "https://www.customsmobile.com/rulings/docview?doc_id=NY%20N361940"
+     "url": "us/N361940.html"
     },
     {
      "source": "eu",
@@ -32167,7 +32167,7 @@ window.BTI_DATA = {
      "date": "2026-07-06",
      "title": "1 Haziran 2026 tarihli yazınızda tarife sınıflandırma kararı talep etmiştiniz. Söz konusu öğe Alt Dış Muhafazadır (Parça No.CC0002). Ayrı kararlar, Güç Kaynağı Kartı BH-02 (Parça No. CC0036), Isıtıcı Plaka 110V (Parça No. CC0047-01), Isıtıcı Plaka 220V (Parça No. CC0047-02) ve Is…",
      "gerekce": "Alt Dış Muhafaza (Parça No. CC0002) için geçerli alt pozisyon, “Ozon terapisi, oksijen terapisi, aerosol terapisi, suni solunum veya diğer terapötik solunum aparatları ve bunların parçaları ve aksesuarlarını” öngören Ame…",
-     "url": "https://www.customsmobile.com/rulings/docview?doc_id=NY%20N361971"
+     "url": "us/N361971.html"
     },
     {
      "source": "eu",
@@ -32195,7 +32195,7 @@ window.BTI_DATA = {
      "date": "2026-07-06",
      "title": "4 Haziran 2026 tarihli mektubunuzda, müşteriniz ATP Nutrition, Ltd. adına, Amerika Birleşik Devletleri-Meksika-Kanada Anlaşması (USMCA) kapsamında PreCede Cereal'in menşei ülkesi ve uygunluğu hakkında bağlayıcı bir karar talep ettiniz. Sunumunuzda, PreCede Cereal'in erken mahsul …",
      "gerekce": "Brüt ağırlığı 10 kilogramı aşan paketler halinde ithal edilen PreCede Tahıl için geçerli alt pozisyon, azot, fosfor ve potasyum gibi besin elementlerinden ikisini veya üçünü içeren Mineral veya kimyasal gübreleri öngören…",
-     "url": "https://www.customsmobile.com/rulings/docview?doc_id=NY%20N362083"
+     "url": "us/N362083.html"
     },
     {
      "source": "eu",
@@ -32223,7 +32223,7 @@ window.BTI_DATA = {
      "date": "2026-07-06",
      "title": "7 Haziran 2026 tarihli mektubunuzda, yemek çubuğu dayanağıyla birlikte paketlenen yemek çubuklarına ilişkin bağlayıcı bir tarife sınıflandırması kararı talep etmiştiniz. Ürün bilgileri ve fotoğrafları incelememiz için gönderildi. Söz konusu ürün, yemek çubuğu dayanağıyla birlikte…",
      "gerekce": "Bambu yemek çubukları için geçerli alt pozisyon, Ahşaptan sofra takımı ve mutfak eşyasını öngören 4419.12.0000, HTSUS olacaktır: Bambudan: Yemek çubukları. Genel vergi oranı ad valorem olarak yüzde 3,2 olacaktır. Bambu y…",
-     "url": "https://www.customsmobile.com/rulings/docview?doc_id=NY%20N362120"
+     "url": "us/N362120.html"
     },
     {
      "source": "eu",
@@ -32251,7 +32251,7 @@ window.BTI_DATA = {
      "date": "2026-07-06",
      "title": "9 Haziran 2026 tarihli mektubunuzda, müşteriniz Honomobo Corporation adına bağlayıcı bir tarife sınıflandırma kararı talep etmişsiniz. Ürün bilgileri ve görselleri incelememiz için gönderildi. Söz konusu ürün, konut kullanımına yönelik bir prefabrik bina yapısıdır. Ev ünitesinin …",
      "gerekce": "Prefabrik konut bina yapıları için geçerli alt pozisyon, Prefabrik binalar: Ahşaptan yapılmış olanı öngören 9406.10.0000, HTSUS olacaktır. Genel vergi oranı ad valorem olarak yüzde 2,6 olacaktır. Ocak haricindeki cihazla…",
-     "url": "https://www.customsmobile.com/rulings/docview?doc_id=NY%20N362195"
+     "url": "us/N362195.html"
     },
     {
      "source": "eu",
@@ -32279,7 +32279,7 @@ window.BTI_DATA = {
      "date": "2026-07-06",
      "title": "10 Haziran 2026 tarihli mektubunuzda, yapısal ahşap çerçeve kitine ilişkin bağlayıcı tarife sınıflandırma kararı talep etmişsiniz. Ürün bilgileri ve fotoğrafları incelememiz için gönderildi. Söz konusu ürün, sağlam ve kalıcı bir çardak oluşturmak için kullanılan yapısal bir ahşap…",
      "gerekce": "Yapısal ahşap çerçeve kiti için geçerli alt pozisyon, Diğer ahşap ürünleri sağlayan Amerika Birleşik Devletleri Uyumlaştırılmış Tarife Tablosu (HTSUS) 4421.99.9880 olacaktır: Diğer: Diğer: Diğer: Diğer: Diğer. Genel verg…",
-     "url": "https://www.customsmobile.com/rulings/docview?doc_id=NY%20N362220"
+     "url": "us/N362220.html"
     },
     {
      "source": "eu",
@@ -32307,7 +32307,7 @@ window.BTI_DATA = {
      "date": "2026-07-06",
      "title": "29 Mayıs 2026 tarihli yazınızda tarife sınıflandırma kararı talep etmiştiniz. Dört yaka iğnesi üzerinde fotoğraf ve açıklamalar gönderdiniz. Sku# D08185-LP-10, 10 Yıllık Hizmet Yıldönümü Yaka İğnesidir. 20 mm çapında olup 10 ayar altından oluşmaktadır ve her biri 2,2 mm çapında i…",
      "gerekce": "Yaka iğneleri için geçerli alt pozisyon, Amerika Birleşik Devletleri Harmonize Tarife Cetveli (HTSUS) 7113.19.50 olacaktır ve bu başlık şu şekilde olacaktır: \"Kıymetli metallerden veya kıymetli metallerle kaplanmış metal…",
-     "url": "https://www.customsmobile.com/rulings/docview?doc_id=NY%20N361914"
+     "url": "us/N361914.html"
     },
     {
      "source": "eu",
@@ -32335,7 +32335,7 @@ window.BTI_DATA = {
      "date": "2026-07-06",
      "title": "10 Haziran 2026 tarihli mektubunuzda, Kuka (HK) Trade Co. Ltd. adına tarife sınıflandırma kararı talep etmişsiniz. İnceleme için numuneler, teknik ve açıklayıcı literatür, ürün açıklaması ve üretim özeti sunulmuş. Ürün 1987687, \"Gizli Bardak Tutuculu Deri Saklama Konsolu\" modüler…",
      "gerekce": "Söz konusu eşya için geçerli alt pozisyon, \"Yatağa dönüştürülebilen olsun olmasın (9402 pozisyonundakiler hariç) Koltuklar ve bunların parçaları: Ahşap çerçeveli diğer koltuklar: Döşemeli: Diğer: Diğer ev eşyaları\" ifade…",
-     "url": "https://www.customsmobile.com/rulings/docview?doc_id=NY%20N362229"
+     "url": "us/N362229.html"
     },
     {
      "source": "eu",
@@ -32363,7 +32363,7 @@ window.BTI_DATA = {
      "date": "2026-07-06",
      "title": "22 Haziran 2026 tarihli mektubunuzda, Manwah USA Inc. adına bir tarife sınıflandırma kararı talep etmişsiniz. Örnekler yerine, inceleme için teknik ve açıklayıcı literatür, bir ürün açıklaması ve bir üretim özeti sağlanmıştır. Model 5150, “Elektrikli Yatar Şezlong Seksiyonel Kane…",
      "gerekce": "Ayrı olarak ithal edildiğinde komple kanepe bölümü ve tekli kanepe bölümü bileşenleri için geçerli alt pozisyon, Amerika Birleşik Devletleri Uyumlaştırılmış Tarife Cetveli (HTSUS) 9401.61.6011 olacaktır; bu tarifede \"Yat…",
-     "url": "https://www.customsmobile.com/rulings/docview?doc_id=NY%20N362489"
+     "url": "us/N362489.html"
     },
     {
      "source": "eu",
@@ -32391,7 +32391,7 @@ window.BTI_DATA = {
      "date": "2026-07-06",
      "title": "H352973 23 Haziran 2026 OT:RR:CTF:VSP H352973 ACH KATEGORİ: Sınıflandırma TARİFE NO.: 9817.00.96 Jessica E. Lynd White & Case LLP 701 13th St. NW Washington, DC 20005 RE: Alt Başlık 9817.00.96, HTSUS; Negatif Basınçlı Yara Terapi Pompası Sayın Lynd: Bu, Solventum Corporation (\"So…",
      "gerekce": "(Gerekçe metni bulunamadı)",
-     "url": "https://www.customsmobile.com/rulings/docview?doc_id=HQ%20H352973"
+     "url": "us/H352973.html"
     },
     {
      "source": "eu",
@@ -32419,7 +32419,7 @@ window.BTI_DATA = {
      "date": "2026-07-06",
      "title": "26 Mayıs 2026 tarihli yazınızda tarife sınıflandırma kararı talep etmiştiniz. Talebinize ürünün fotoğrafları ve açıklamaları eklenmiştir. Söz konusu ürünler, metal levha sokak plakaları olarak tanımlanmaktadır. Bu kapı adres plakaları yaklaşık 2” x 3” boyutlarındadır ve üzerlerin…",
      "gerekce": "Sac metal sokak numara plakaları için geçerli alt pozisyon, 9405 pozisyonundakiler hariç, adi metalden tabelalar, isim levhaları, adres levhaları ve benzeri plakalar, sayılar, harfler ve diğer semboller ve bunların parça…",
-     "url": "https://www.customsmobile.com/rulings/docview?doc_id=NY%20N361811"
+     "url": "us/N361811.html"
     },
     {
      "source": "eu",
@@ -32447,7 +32447,7 @@ window.BTI_DATA = {
      "date": "2026-07-06",
      "title": "27 Mayıs 2026 tarihli yazınızda tarife sınıflandırma kararı talep etmiştiniz. Talebinize ürünün fotoğrafları ve açıklamaları eklenmiştir. Söz konusu ürün çelikten yapılmış bir TV duvar montaj braketidir. Düz panel TV'yi duvara veya başka bir dikey yapıya monte etme işlevi görür. …",
      "gerekce": "Çelik TV duvar montaj braketi için geçerli alt pozisyon, mobilya, kapı, merdiven, pencere, panjur, karoseri, saraçlık, sandıklar, sandıklar, tabutlar veya benzerleri için uygun adi metal montajlar, bağlantı parçaları ve …",
-     "url": "https://www.customsmobile.com/rulings/docview?doc_id=NY%20N361816"
+     "url": "us/N361816.html"
     },
     {
      "source": "eu",
@@ -32475,7 +32475,7 @@ window.BTI_DATA = {
      "date": "2026-07-06",
      "title": "Mektubunuzda, soğutma sıvısı manifoldu tertibatının, araçların parçalarını sağlayan Amerika Birleşik Devletleri Uyumlaştırılmış Tarife Çizelgesi (HTSUS) 8708 pozisyonunda sınıflandırılmasını öneriyorsunuz. Biz katılmıyoruz. XVII. Bölümün 2(e) Notu, 8401 ila 8479 pozisyonlarında y…",
      "gerekce": "Soğutucu manifold tertibatı için geçerli alt pozisyon, basınç düşürücü vanalar ve termostatik kontrollü vanalar dahil olmak üzere borular, kazan gövdeleri, tanklar, fıçılar veya benzerleri için musluklar, musluklar, vana…",
-     "url": "https://www.customsmobile.com/rulings/docview?doc_id=NY%20N361850"
+     "url": "us/N361850.html"
     },
     {
      "source": "eu",
@@ -32503,7 +32503,7 @@ window.BTI_DATA = {
      "date": "2026-07-06",
      "title": "2 Haziran 2026 tarihli mektubunuzda, Edmonton, Kanada'da bulunan müşteriniz Travel Buggy Inc. adına tarife sınıflandırma kararı talep etmişsiniz. Söz konusu ürün, elektrikli motorlu bir tekerlekli sandalye olan Travel Buggy Model DASH (HP206). HP206'nın kronik engelli kullanıcıla…",
      "gerekce": "Seyahat Buggy Modeli DASH (HP206) için geçerli alt başlık, 8713.90.0060, Amerika Birleşik Devletleri Uyumlaştırılmış Tarife Çizelgesi (HTSUS) olacaktır; bu, \"Motorlu veya başka bir şekilde mekanik tahrikli olsun veya olm…",
-     "url": "https://www.customsmobile.com/rulings/docview?doc_id=NY%20N362004"
+     "url": "us/N362004.html"
     },
     {
      "source": "eu",
@@ -32531,7 +32531,7 @@ window.BTI_DATA = {
      "date": "2026-07-06",
      "title": "22 Mayıs 2026 tarihli yazınızda tarife sınıflandırma kararı talep etmiştiniz. Bu talepte dikkate alınan ürün, ana kontrol kartı (çok sayıda elektrikli bileşenle doldurulmuş bir baskılı devre kartı düzeneği (PCBA), programlanabilir bir mantık denetleyicisi, bir etherCAT bağdaştırı…",
      "gerekce": "F2 Elektrik Muhafaza Düzeneği için geçerli alt pozisyon, 8537.10.9160, HTSUS olacaktır ve bu pozisyon, \"8535 veya 8536 pozisyonunda yer alan iki veya daha fazla aparatla donatılmış, 90. fasılda yer alan alet veya aparatl…",
-     "url": "https://www.customsmobile.com/rulings/docview?doc_id=NY%20N362038"
+     "url": "us/N362038.html"
     },
     {
      "source": "eu",
@@ -32559,7 +32559,7 @@ window.BTI_DATA = {
      "date": "2026-07-06",
      "title": "3 Haziran 2026 tarihli yazınızda tarife sınıflandırma kararı talep etmiştiniz. Söz konusu ürün, metal oksit yarı iletken alan etkili transistörler (MOSFET), parça numaraları DMC2053UVTQ-7 ve DMC2053UVTQ-13 olarak tanımlanıyor; bunlar arkadan aydınlatma, DC-DC dönüştürücüler ve gü…",
      "gerekce": "Metal oksit yarı iletken alan etkili transistörler (MOSFET), parça numaraları DMC2053UVTC-7 ve DMC2053UVTQ-13 için geçerli alt başlık, “Yarı iletken cihazlar (örneğin diyotlar, transistörler, yarı iletken bazlı transdüse…",
-     "url": "https://www.customsmobile.com/rulings/docview?doc_id=NY%20N362044"
+     "url": "us/N362044.html"
     },
     {
      "source": "eu",
@@ -32587,7 +32587,7 @@ window.BTI_DATA = {
      "date": "2026-07-06",
      "title": "12 Aralık 2025 tarihli yazınızda tarife sınıflandırma kararı talep etmiştiniz. Söz konusu mala Çöl Atlası taşı adı veriliyor. Karar talebinizle birlikte bir numune teslim edilmiş ve analiz için Gümrük ve Sınır Koruma Laboratuvarına iletilmiştir. Bu analiz tamamlandı. Desert Atlas…",
      "gerekce": "Çöl Atlası taşı için geçerli alt pozisyon, Amerika Birleşik Devletleri Uyumlaştırılmış Tarife Cetveli (HTSUS) 6802.99.0090 olacaktır; bu listede \"6801 pozisyonunda yer alan mallar hariç, işlenmiş anıtsal veya inşaat taşl…",
-     "url": "https://www.customsmobile.com/rulings/docview?doc_id=NY%20N356980"
+     "url": "us/N356980.html"
     },
     {
      "source": "eu",
@@ -32615,7 +32615,7 @@ window.BTI_DATA = {
      "date": "2026-07-06",
      "title": "12 Aralık 2025 tarihli yazınızda tarife sınıflandırma kararı talep etmiştiniz. Söz konusu mala Kopenhag taşı adı veriliyor. Karar talebinizle birlikte bir numune teslim edilmiş ve analiz için Gümrük ve Sınır Koruma Laboratuvarına iletilmiştir. Bu analiz tamamlandı. Kopenhag, koyu…",
      "gerekce": "Kopenhag taşı için geçerli alt pozisyon, 6802.93.0010, HTSUS olacaktır ve bu pozisyon, \"6801 pozisyonundaki ürünler hariç, işlenmiş anıtsal veya inşaat taşları (kayağan taşı hariç) ve bunlardan eşyalar...: Granit: 6802.2…",
-     "url": "https://www.customsmobile.com/rulings/docview?doc_id=NY%20N356983"
+     "url": "us/N356983.html"
     },
     {
      "source": "eu",
@@ -32643,7 +32643,7 @@ window.BTI_DATA = {
      "date": "2026-07-06",
      "title": "24 Mayıs 2026 tarihli yazınızda tarife sınıflandırma kararı talep etmiştiniz. Talebinize ürünün fotoğrafları ve açıklamaları eklenmiştir. İncelemeye alınan ürünler alüminyum kartvizit ve masa tabelaları olarak tanımlanıyor. Her öğe alüminyumdan yapılmıştır ve 3,375 inç x 2,125 in…",
      "gerekce": "Alüminyum kartvizitler ve masa tabelaları için geçerli alt pozisyon, 9405 pozisyonu hariç, adi metalden tabelalar, isim levhaları, adres levhaları ve benzeri plakalar, sayılar, harfler ve diğer semboller ile bunların par…",
-     "url": "https://www.customsmobile.com/rulings/docview?doc_id=NY%20N361767"
+     "url": "us/N361767.html"
     },
     {
      "source": "eu",
@@ -32671,7 +32671,7 @@ window.BTI_DATA = {
      "date": "2026-07-06",
      "title": "25 Mayıs 2026 tarihli yazınızda tarife sınıflandırma kararı talep etmiştiniz. Talebinize ürünün fotoğrafları ve açıklamaları eklenmiştir. Söz konusu ürünler ağır hizmet tipi çelik tente braketleri olarak tanımlanmaktadır. Montaj için kesilmiş, kaynaklanmış ve önceden delinmiş, bo…",
      "gerekce": "Ağır hizmet tipi çelik tente braketleri için geçerli alt pozisyon, Adi metal bağlantı elemanları, bağlantı parçaları ve benzeri eşyaları öngören Amerika Birleşik Devletleri Uyumlaştırılmış Tarife Tablosu (HTSUS) 8302.41.…",
-     "url": "https://www.customsmobile.com/rulings/docview?doc_id=NY%20N361771"
+     "url": "us/N361771.html"
     },
     {
      "source": "eu",
@@ -32699,7 +32699,7 @@ window.BTI_DATA = {
      "date": "2026-07-06",
      "title": "28 Mayıs 2026 tarihli yazınızda tarife sınıflandırma kararı talep etmiştiniz. Örnek yerine teknik çizimler verilmiştir. Söz konusu ürün, 1231728 ürün numaralı panoramik bir pencere olarak tanımlanmaktadır. Pencerenin, tüp kaydırak ve salıncak seti içeren üç seviyeli bir kule olan…",
      "gerekce": "Panoramik pencere için geçerli alt pozisyon, ürün numarası 123728, 9506.99.6080, HTSUS olacaktır ve bu başlık \"Genel fiziksel egzersiz, jimnastik, atletizm, diğer sporlar veya açık hava oyunlarına yönelik eşya ve ekipman…",
-     "url": "https://www.customsmobile.com/rulings/docview?doc_id=NY%20N361878"
+     "url": "us/N361878.html"
     },
     {
      "source": "eu",
@@ -32727,7 +32727,7 @@ window.BTI_DATA = {
      "date": "2026-07-06",
      "title": "28 Mayıs 2026 tarihli mektubunuzda, müşteriniz Iris USA Inc. adına tarife sınıflandırma kararı talep etmişsiniz. Ürün bilgileri ve fotoğraf incelememiz için gönderilmiştir. Söz konusu ürün, jumbo rulo formundaki emici kağıt olarak tanımlanmaktadır. Kağıt ruloları, geleneksel bir …",
      "gerekce": "Emici kağıt ruloları için geçerli alt pozisyon, tuvalet veya yüz mendil stoku, havlu veya peçete stoku ve ev veya sıhhi amaçlarla kullanılan türden benzer kağıtları, selüloz vatka ve selüloz elyaf ağlarını (krepelenmiş, …",
-     "url": "https://www.customsmobile.com/rulings/docview?doc_id=NY%20N361879"
+     "url": "us/N361879.html"
     },
     {
      "source": "eu",
@@ -32755,7 +32755,7 @@ window.BTI_DATA = {
      "date": "2026-07-06",
      "title": "29 Mayıs 2026 tarihli yazınızda tarife sınıflandırma kararı talep etmiştiniz. Söz konusu ürün, Yapay Zeka (AI) destekli otonom araç platformu olarak tanımlanan Neoracer olarak tanımlanıyor. Cihaz, fırçalanmış bir motor ve 4 tekerlekten çekişli aktarma organları ile donatılmış 1:1…",
      "gerekce": "Neoracer için geçerli alt pozisyon 8543.70.9860, HTSUS olacaktır; bu alt pozisyon, \"Bu bölümün başka bir yerinde belirtilmeyen veya yer almayan, ayrı işlevlere sahip elektrikli makineler ve cihazlar; bunların parçaları: …",
-     "url": "https://www.customsmobile.com/rulings/docview?doc_id=NY%20N361915"
+     "url": "us/N361915.html"
     },
     {
      "source": "eu",
@@ -32783,7 +32783,7 @@ window.BTI_DATA = {
      "date": "2026-07-06",
      "title": "4 Haziran 2026 tarihli mektubunuzda üç boyutlu Pokémon modeliyle ilgili bağlayıcı tarife sınıflandırma kararı talep etmiştiniz. Ürün bilgileri ve bir numune incelememiz için gönderildi. Söz konusu ürün SKU #44712401, Pokémon 3D Puzzle Model Kit'tir. Ürün, kullanıcının bir araya g…",
      "gerekce": "SKU #44712401, Pokémon 3D Puzzle Model Kit'in geçerli alt başlığı, boyutuna veya şekline göre kesilmiş Diğer kağıt, karton, selüloz vatka ve selüloz elyaf ağlarını sağlayan 4823.90.6700, HTSUS olacaktır; kağıt hamurundan…",
-     "url": "https://www.customsmobile.com/rulings/docview?doc_id=NY%20N362089"
+     "url": "us/N362089.html"
     },
     {
      "source": "eu",
@@ -32811,7 +32811,7 @@ window.BTI_DATA = {
      "date": "2026-07-06",
      "title": "Söz konusu ürün, titanyum alaşımından oluşan genişletilebilir bir bel kafesidir. Lomber vücutlararası füzyon ameliyatları sırasında ve sonrasında destek ve düzeltme sağlamak amacıyla iki lomber veya lumbosakral vertebral gövde arasına yerleştirilebilen, çeşitli uzunluk ve yüksekl…",
      "gerekce": "(Gerekçe metni bulunamadı)",
-     "url": "https://www.customsmobile.com/rulings/docview?doc_id=HQ%20H359802"
+     "url": "us/H359802.html"
     },
     {
      "source": "eu",
@@ -38175,7 +38175,7 @@ window.BTI_DATA = {
      "date": "2026-06-30",
      "title": "H355076 22 Haziran 2026 OT:RR:CTF:CPMMA H355076 HAYIR KATEGORİ: Sınıflandırma TARİFE NO: 7312.10.3012 Bayan Laura Dissegna Bay Carlo Formaggio CB Trafilati Acciai SPA Via Laghi 64 Tezze sul Brenta, 36056 İtalya RE: NY N354221 onayı; Alaşımsız Çelik Öngerilmeli Beton (PC) Tellerin…",
      "gerekce": "(Gerekçe metni bulunamadı)",
-     "url": "https://www.customsmobile.com/rulings/docview?doc_id=HQ%20H355076"
+     "url": "us/H355076.html"
     },
     {
      "source": "uk",
@@ -44248,7 +44248,7 @@ window.BTI_DATA = {
      "date": "2026-06-22",
      "title": "tarihli mektubunuzda 12 Şubat 2026 Tarife sınıflandırma kararı talebinde bulundunuz. Laboratuvar analizleri nedeniyle cevabımız gecikti. Gönderdiğiniz numune bu analiz sırasında imha edilmiştir ve iade edilmeyecektir. Stil WCG1026 \"Calia\", yüzde 92 polyester ve yüzde 8 elastanekn…",
      "gerekce": "Stil WCG1026 için geçerli alt pozisyon, Amerika Birleşik Devletleri Harmonize Tarife Tablosu (HTSUS) 6106.20.2010 olacaktır ve bu başlık şunları öngörmektedir: Kadın veya kız çocuklar için örme veya tığ işi bluz ve gömle…",
-     "url": "https://www.customsmobile.com/rulings/docview?doc_id=NY%20N358843"
+     "url": "us/N358843.html"
     },
     {
      "source": "eu",
@@ -44276,7 +44276,7 @@ window.BTI_DATA = {
      "date": "2026-06-22",
      "title": "tarihli mektubunuzda 19 Mayıs 2026 Tarife sınıflandırma kararı talebinde bulundunuz. Gönderiminize hiçbir örnek eklenmemiştir. Parça numarası ADA-RR olan Öğe 1, alüminyum alaşımından yapılmış 180 derecelik bir döngü dönüşü olarak tanımlanmaktadır. Bu bükülmüş boru, bir braket ile…",
      "gerekce": "Madde 1, parça numarası ADA-RR, 180 derece döngü dönüşü için geçerli alt başlık, alüminyum tüpler ve borular sağlayan 7608.20.0030,HTUS olacaktır: alüminyum alaşımlarından: dikişsiz. Görev oranı yüzde 5,7 ad valorem olac…",
-     "url": "https://www.customsmobile.com/rulings/docview?doc_id=NY%20N361621"
+     "url": "us/N361621.html"
     },
     {
      "source": "eu",
@@ -44304,7 +44304,7 @@ window.BTI_DATA = {
      "date": "2026-06-22",
      "title": "tarihli mektubunuzda 24 Nisan 2026 CareismaticBrands adına tarife sınıflandırma kararı talep ettiniz. Laboratuvar analizleri nedeniyle cevabımız gecikti. Gönderdiğiniz numune bu analiz sırasında imha edilmiştir ve iade edilmeyecektir. Stil MC00046, yüzde 95 polyester ve yüzde 5 s…",
      "gerekce": "Stil MC00046 için geçerli alt pozisyon, 20.2010, HTSUS 6106 olacaktır ve aşağıdakileri öngörmektedir: Kadın veya kız çocuk için örme veya tığ işi bluz ve gömlekler: Suni ve sentetik elyaftan: Diğer: Kadın. Genel gümrük v…",
-     "url": "https://www.customsmobile.com/rulings/docview?doc_id=NY%20N361556"
+     "url": "us/N361556.html"
     },
     {
      "source": "eu",
@@ -44332,7 +44332,7 @@ window.BTI_DATA = {
      "date": "2026-06-22",
      "title": "tarihli mektubunuzda 14 Mayıs 2026 Tarife sınıflandırma kararı talebinde bulundunuz. T numuneleri talep üzerine iade edilecektir. Stil 600712 \"Alfa Polar Yelek\" %91 polyester ve %9 spandeks dokuma kumaştan yapılmış, kalça hizasında kolsuz erkek ceketidir. Astarsız kolsuz ceket, d…",
      "gerekce": "Stil 600712 için geçerli alt pozisyon, erkek veya erkek çocuk paltolarını öngören Amerika Birleşik Devletleri Uyumlaştırılmış Tarife Tablosu (HTSUS) 6201.40.7000 olacaktır. araba paltoları, pelerinler, pelerinler, anorak…",
-     "url": "https://www.customsmobile.com/rulings/docview?doc_id=NY%20N361697"
+     "url": "us/N361697.html"
     },
     {
      "source": "eu",
@@ -44360,7 +44360,7 @@ window.BTI_DATA = {
      "date": "2026-06-22",
      "title": "tarihli mektubunuzda 12 Mayıs 2026 Tarife sınıflandırma kararı talebinde bulundunuz. Gönderdiğiniz numune istediğiniz gibi iade edilecektir. Stil D27-00003, dış yüzeyi yoğun bir şekilde tüylü ve iç yüzeyi hafifçe tüylü olan yüzde 100 polyester örgü kumaştan yapılmış bir erkek üst…",
      "gerekce": "Stil D27-00003 için geçerli alt pozisyon, Amerika Birleşik Devletleri Harmonize Tarife Tablosu (HTSUS) 6110.30.3053 olacaktır ve aşağıdakileri öngörmektedir: Kazaklar, kazaklar, sweatshirtler, yelekler (yelekler) ve benz…",
-     "url": "https://www.customsmobile.com/rulings/docview?doc_id=NY%20N361705"
+     "url": "us/N361705.html"
     },
     {
      "source": "eu",
@@ -44388,7 +44388,7 @@ window.BTI_DATA = {
      "date": "2026-06-22",
      "title": "tarihli mektubunuzda 22 Mayıs 2026 , iCPKt olmayan DIY anvas için tarife sınıflandırma kararı talep etmişsiniz. Başvurunuzda, iCPKt olmayan DIY anvas i ile ilgili olarak, söz konusu ürünün DCPKt olduğu belirtilmiştir. Bu aktivite seti perakende satışa uygun bir durumda ithal edil…",
      "gerekce": "IY anvas için geçerli alt pozisyon, 213.10.0000, Amerika Birleşik Devletleri'nin (HTSUS) Harmonize Tarife Çizelgesi DCPKt3 olacaktır; bu, Sanatçıların, öğrencilerin veya tabela ressamlarının renklerini, değişen renk tonl…",
-     "url": "https://www.customsmobile.com/rulings/docview?doc_id=NY%20N361728"
+     "url": "us/N361728.html"
     },
     {
      "source": "eu",
@@ -44416,7 +44416,7 @@ window.BTI_DATA = {
      "date": "2026-06-22",
      "title": "tarihli mektubunuzda 22 Mayıs 2026 Tarife sınıflandırma kararı talebinde bulundunuz. Gönderdiğiniz numune istenildiği gibi iade edilecektir. Style, hem örgü hem de dokuma bileşenlerden oluşan bir kadın bluzudur. Yaka, 271-SW222435kolların arka kısmı ve arka panelin tamamı %57 pam…",
      "gerekce": "Stil için geçerli alt pozisyon, Kadın veya kız çocuk bluzları, gömlekleri ve gömlek-bluzlarını öngören 206.40.3035, 271-SW2224356 Amerika Birleşik Devletleri'nin (HTSUS) Harmonize Tarife Tablosu olacaktır: Sentetik elyaf…",
-     "url": "https://www.customsmobile.com/rulings/docview?doc_id=NY%20N361742"
+     "url": "us/N361742.html"
     },
     {
      "source": "eu",
@@ -44444,7 +44444,7 @@ window.BTI_DATA = {
      "date": "2026-06-22",
      "title": "tarihli mektubunuzda 28 Mayıs 2026 , müşteriniz ThalesAvionics, Inc. adına bir tarife sınıflandırma kararı talep ettiniz. Söz konusu ürün, akıllı video görüntüleme birimi (SVDU) olarak da tanımlanan Optiq Görsel Görüntüleme Birimi olarak tanımlanmaktadır. Söz konusu cihazlar, bel…",
      "gerekce": "Optiq Görsel Görüntüleme Birimi veya SVDU için geçerli alt pozisyon, \"Otomatik veri işleme makineleri ve bunların birimleri; ...: Diğer otomatik veri işleme makineleri: Aynı mahfaza içinde en az bir merkezi işlem birimi …",
-     "url": "https://www.customsmobile.com/rulings/docview?doc_id=NY%20N361860"
+     "url": "us/N361860.html"
     },
     {
      "source": "eu",
@@ -44472,7 +44472,7 @@ window.BTI_DATA = {
      "date": "2026-06-22",
      "title": "tarihli mektubunuzda 1 Haziran 2026 , müşteriniz AvivaMetals, Inc. adına tarife sınıflandırma kararı talep ettiniz. İthal edilecek ürünler, petrol ve gaz, otomotiv, inşaat, denizcilik ve diğer endüstriyel ekipman ve bileşenlerde kullanılmak üzere C95400 Alüminyum Bronz (9C) içi b…",
      "gerekce": "İçi boş çubuklar için geçerli alt pozisyon, Bakır çubuklar, çubuklar ve profilleri öngören Amerika Birleşik Devletleri Harmonize Tarife Tablosu (HTSUS) 7407.29.1680 olacaktır: Bakır alaşımlarından: Diğer: Profiller: İçi …",
-     "url": "https://www.customsmobile.com/rulings/docview?doc_id=NY%20N361949"
+     "url": "us/N361949.html"
     },
     {
      "source": "eu",
@@ -44500,7 +44500,7 @@ window.BTI_DATA = {
      "date": "2026-06-22",
      "title": "tarihli mektubunuzda 19 Ağustos 2025 , yaylı sanat seti için tarife sınıflandırma kararı talep ettiniz. Eksiksiz bir numune kiti sağlandı. İplik bileşeni laboratuvar analizi için gönderildi. Geri kalan kit. T bileşenleri referans amacıyla saklanacaktır. Let's String Kit\" olarak t…",
      "gerekce": "\"Let's String Kit\" olarak tanımlanan SKU #LS1 için geçerli alt pozisyon, \"67 desiteks veya daha fazla ve hiçbir kesit boyutu 1 mm'yi geçmeyen sentetik monofilament; görünür genişliği 5 mm'yi geçmeyen sentetik tekstil mal…",
-     "url": "https://www.customsmobile.com/rulings/docview?doc_id=NY%20N352616"
+     "url": "us/N352616.html"
     },
     {
      "source": "eu",
@@ -44528,7 +44528,7 @@ window.BTI_DATA = {
      "date": "2026-06-22",
      "title": "tarihli mektubunuzda 13 Mayıs 2026 Çin'den dört kitap için tarife sınıflandırma kararı talep ettiniz. İncelememiz için iç sayfaların ayrıntılı açıklaması ve resimleri verilmiştir. İncelemeye alınanlar arasında “Sevgili Anne, Sen En İyisin”, “Sevgili Baba, Sen En İyisin”, “Sevgili…",
      "gerekce": "“Sevgili Anne, Sen En İyisin”, “Sevgili Baba, Sen En İyisin”, “Sevgili Büyükanne, Sen En İyisin” ve “Sevgili Büyükbaba, Sen En İyisin” başlıklı ciltli kitaplar için geçerli alt başlık 4901.99.0070, tek sayfa halinde olsu…",
-     "url": "https://www.customsmobile.com/rulings/docview?doc_id=NY%20N361503"
+     "url": "us/N361503.html"
     },
     {
      "source": "eu",
@@ -44556,7 +44556,7 @@ window.BTI_DATA = {
      "date": "2026-06-22",
      "title": "tarihli mektubunuzda 15 Mayıs 2026 , Werner Co. adına tarife sınıflandırma kararı talep ettiniz. Malın fotoğrafları ve açıklamaları talebinize dahil edildi. İncelenen ilk ürün AC10-14-02 parça numaralı merdiven krikosu olarak tanımlanıyor. Sıkıştırma mekanizmalı, üçgen şekilli al…",
      "gerekce": "Parça numarası AC10-14-02 olan merdiven krikosu için geçerli alt pozisyon, şapka askıları, şapka askıları, braketler ve benzeri donanımlar ile bunların parçalarını sağlayan 8302.50.0000, HTSUS olacaktır. Genel gümrük ver…",
-     "url": "https://www.customsmobile.com/rulings/docview?doc_id=NY%20N361563"
+     "url": "us/N361563.html"
     },
     {
      "source": "eu",
@@ -44584,7 +44584,7 @@ window.BTI_DATA = {
      "date": "2026-06-22",
      "title": "tarihli mektubunuzda 18 Mayıs 2026 Tarife sınıflandırma kararı talebinde bulundunuz. Sorunuza içerik dökümü ve perakende ambalajın fotoğrafları eşlik etti. Söz konusu ürün, \"Quorn Hindi Usulü Kızartma\", ana bileşen olan et içermeyen bir protein olan mikoproteinden üretilen Quorn …",
      "gerekce": "Quorn taklit et ürünü için geçerli alt pozisyon, “başka bir yerde belirtilmeyen veya yer almayan gıda müstahzarları…diğer…diğer…diğer…dondurulmuş” ifadesini öngören Amerika Birleşik Devletleri Harmonize Tarife Tablosu (H…",
-     "url": "https://www.customsmobile.com/rulings/docview?doc_id=NY%20N361593"
+     "url": "us/N361593.html"
     },
     {
      "source": "eu",
@@ -44612,7 +44612,7 @@ window.BTI_DATA = {
      "date": "2026-06-22",
      "title": "tarihli mektubunuzda 24 Mayıs 2026 , tarife sınıflandırma kararı talep ettiniz.Eşyaların, çeşitli türdeki yüklerin taşınmasında kullanılan karayolu römorkları olduğu belirlendi.İlk parçanın, 1994 model Aspen alçak boy römorku olduğu belirlendi. Lowboy treyler (veya alçak yataklı/…",
      "gerekce": "1994 Aspen alçak boy treyler ve 2015 Precision tandem dingilli kaz boynu treyleri için geçerli alt pozisyon, Amerika Birleşik Devletleri'nin Uyumlaştırılmış Tarife Tablosu (HTUSUS) 8716.39.0050 olacaktır. “Römorklar ve y…",
-     "url": "https://www.customsmobile.com/rulings/docview?doc_id=NY%20N361766"
+     "url": "us/N361766.html"
     },
     {
      "source": "eu",
@@ -44640,7 +44640,7 @@ window.BTI_DATA = {
      "date": "2026-06-22",
      "title": "tarihli mektubunuzda 1 Haziran 2026 Müşteriniz PrimarkUS adına tarife sınıflandırma kararı talep ettiniz. Gönderdiğiniz numune iade edilmeyecektir. Stil 991177927, 64 polyester, 29 viskon (rayon) ve yüzde 7 elastan ribanalı örgü kumaştan yapılmış kadın atletidir. Giysi omuzlardan…",
      "gerekce": "Stil 991177927 için geçerli alt pozisyon, Amerika Birleşik Devletleri'nin Harmonize Tarife Tablosu (HTSUS) 6109.90.1065 olacaktır ve aşağıdakileri öngörmektedir: Tişörtler, atletler, kolsuz üstler ve benzeri giysiler, ör…",
-     "url": "https://www.customsmobile.com/rulings/docview?doc_id=NY%20N361928"
+     "url": "us/N361928.html"
     },
     {
      "source": "eu",
@@ -44668,7 +44668,7 @@ window.BTI_DATA = {
      "date": "2026-06-22",
      "title": "tarihli mektubunuzda 2 Haziran 2026 Tarife sınıflandırma kararı talebinde bulundunuz. Bir numune bu ofise verildi ve eğitim amaçlı olarak saklanacak. “Dekoratif Bot Yastığı” olarak tanımlanan numune, kovboy çizmesine benzeyecek şekilde tasarlanmış ve şekillendirilmiş yastık benze…",
      "gerekce": "Dekoratif yastık benzeri eşyalar için geçerli alt pozisyon, elbise desenleri de dahil olmak üzere diğer hazır eşyalar için geçerli olan 6307.90.9891, HTSUS olacaktır: Diğer: Diğer: Diğer: Diğer: Diğer.” Genel vergi oranı…",
-     "url": "https://www.customsmobile.com/rulings/docview?doc_id=NY%20N361981"
+     "url": "us/N361981.html"
     },
     {
      "source": "eu",
@@ -44696,7 +44696,7 @@ window.BTI_DATA = {
      "date": "2026-06-22",
      "title": "tarihli mektubunuzda 2 Haziran 2026 , tarife sınıflandırma kararı talep ettiniz. Söz konusu malın Wiha model #35393 olduğu belirtiliyor. Gönderdiğiniz resimler, perakende satış için paketlenmiş beş farklı boyutta çelik Allen Anahtarından oluşan bir set olduğunu gösteriyor. Altıge…",
      "gerekce": "Allen Anahtar seti, Wiha model #35393 için geçerli alt başlık, elle çalıştırılan somun anahtarları ve anahtarlar (tork ölçüm anahtarları dahil ancak kademe anahtarları hariç) sağlayan 8204.11.0060, HTSUS olacaktır; lokma…",
-     "url": "https://www.customsmobile.com/rulings/docview?doc_id=NY%20N361997"
+     "url": "us/N361997.html"
     },
     {
      "source": "eu",
@@ -44724,7 +44724,7 @@ window.BTI_DATA = {
      "date": "2026-06-22",
      "title": "tarihli mektubunuzda 23 Nisan 2025 Tarife sınıflandırma kararı talebinde bulundunuz. Laboratuvar analizleri nedeniyle cevabımız gecikti. Gönderdiğiniz numune bu analiz sırasında imha edilmiştir ve iade edilmeyecektir. Stil 239318, belirtilen elyaf içeriğinin yüzde 81 poliamid ve …",
      "gerekce": "Stil 239318 için geçerli alt pozisyon, 6110.30.3020, HTSUS olacaktır ve aşağıdakileri sağlar: Kazaklar, kazaklar, sweatshirtler, yelekler (yelekler) ve benzeri eşyalar (örme): Suni ve sentetik elyaftan: Diğer: Diğer: Diğ…",
-     "url": "https://www.customsmobile.com/rulings/docview?doc_id=NY%20N348145"
+     "url": "us/N348145.html"
     },
     {
      "source": "eu",
@@ -44752,7 +44752,7 @@ window.BTI_DATA = {
      "date": "2026-06-22",
      "title": "tarihli mektubunuzda 10 Temmuz 2025 Tarife sınıflandırma kararı talebinde bulundunuz. Gönderdiğiniz numunenin imha edildiği laboratuvar analizi nedeniyle yanıtımız gecikti. Stil AC3717, dış katmanı %100 polyester dokuma kumaştan, orta katmanı poliüretan filmden ve iç katmanı %100…",
      "gerekce": "AC3717 stili için geçerli alt pozisyon, 30.2010, HTSUS 6101 olacaktır; bu pozisyon, erkekler veya erkek çocuklar için paltolar, kabanlar, pelerinler, pelerinler, anoraklar (kayak ceketleri dahil), rüzgarlıklar ve örme ve…",
-     "url": "https://www.customsmobile.com/rulings/docview?doc_id=NY%20N351214"
+     "url": "us/N351214.html"
     },
     {
      "source": "eu",
@@ -44780,7 +44780,7 @@ window.BTI_DATA = {
      "date": "2026-06-22",
      "title": "tarihli mektubunuzda 8 Mayıs 2026 , müşteriniz TobiiDynavox LLC adına bir tarife sınıflandırma kararı talep ettiniz. Söz konusu ürün, AAC cihazlarının TD I-13, TD I-16 ve TD I-110 olarak tanımlanan üç versiyonudur. Bu öğeler, ALS, serebral palsi ve motor fonksiyon ve konuşma fonk…",
      "gerekce": "TD I-13, TD I-16 ve TD I-110 AAC cihazları için geçerli alt pozisyon, \"Bu bölümün başka bir yerinde belirtilmeyen veya yer almayan, ayrı işlevlere sahip elektrikli makineler ve cihazlar; bunların parçaları: Diğer makinel…",
-     "url": "https://www.customsmobile.com/rulings/docview?doc_id=NY%20N361616"
+     "url": "us/N361616.html"
     },
     {
      "source": "eu",
@@ -44808,7 +44808,7 @@ window.BTI_DATA = {
      "date": "2026-06-22",
      "title": "tarihli mektubunuzda 21 Mayıs 2026 Müşteriniz Grundéns USA Ltd adına tarife sınıflandırma kararı talep ettiniz. Herhangi bir örnek verilmedi. Başvurularla birlikte fotoğraflar da sağlanmıştır. Stil #60002 yedek çizme bandı, eşit genişlik ve kalınlığa sahip, düz, sürekli dairesel …",
      "gerekce": "Stil #60002 için geçerli alt pozisyon, 3901 ila 3914 pozisyonlarında yer alan plastikten diğer eşyaları ve diğer malzemelerden eşyaları sağlayan 3926.20.9050 (HTSUS) olacaktır: Giyim eşyaları ve giyim aksesuarları (eldiv…",
-     "url": "https://www.customsmobile.com/rulings/docview?doc_id=NY%20N361710"
+     "url": "us/N361710.html"
     },
     {
      "source": "eu",
@@ -44836,7 +44836,7 @@ window.BTI_DATA = {
      "date": "2026-06-22",
      "title": "tarihli mektubunuzda 5 Haziran 2026 , müşteriniz The Nordam Group LLC adına bir tarife sınıflandırma kararı talep ettiniz. Söz konusu ürün, sürekli cam elyaf takviyesi içeren, film formunda termoset fenolik reçine bazlı bir ön emprenye maddesidir. Cam elyaf takviyesinin tamamen f…",
      "gerekce": "Prepreg için geçerli alt pozisyon, plastiklerden diğer levhalar, levhalar, filmler, folyo ve şeritleri öngören Amerika Birleşik Devletleri Harmonize Tarife Tablosu (HTUS) 3921.90.4090 olacaktır: diğer: diğer: esnek:diğer…",
-     "url": "https://www.customsmobile.com/rulings/docview?doc_id=NY%20N362111"
+     "url": "us/N362111.html"
     },
     {
      "source": "eu",
@@ -44864,7 +44864,7 @@ window.BTI_DATA = {
      "date": "2026-06-22",
      "title": "tarihli mektubunuzda 7 Temmuz 2025 Tarife sınıflandırma kararı talebinde bulundunuz. Laboratuvar analizleri nedeniyle cevabımız gecikti. Gönderdiğiniz numune bu analiz sırasında imha edilmiştir ve iade edilmeyecektir. Stil 261-SW421136, belirtilen elyaf içeriğinin yüzde 50 polyes…",
      "gerekce": "Stil 261-SW421136 için geçerli alt pozisyon, 6110.90.9030, HTSUS olacaktır ve aşağıdakileri öngörmektedir: Kazaklar, kazaklar, sweatshirtler, yelekler (yelekler) ve benzeri eşyalar (örme veya tığ işi): Diğer tekstil malz…",
-     "url": "https://www.customsmobile.com/rulings/docview?doc_id=NY%20N351060"
+     "url": "us/N351060.html"
     },
     {
      "source": "eu",
@@ -44892,7 +44892,7 @@ window.BTI_DATA = {
      "date": "2026-06-22",
      "title": "tarihli mektubunuzda 13 Mayıs 2026 Çin'den gelen bir kitap için tarife sınıflandırma kararı talep ettiniz. İncelememiz için kitabın ayrıntılı açıklaması ve bir PDF dosyası sağlanmıştır. Söz konusu kitap, \"Kaybolursa Buradan Başlayın\" başlıklı ciltli bir kitaptır. Kitap 200 sayfa …",
      "gerekce": "“Kayıp Olursa Buradan Başlayın” başlıklı ciltli kitabın geçerli alt başlığı 4901.99.0070,HTUS olacak ve “Basılı kitap, broşür, broşür ve benzeri basılı materyaller (tek sayfa olsun olmasın): Diğer: Diğer: Diğer: Diğer: C…",
-     "url": "https://www.customsmobile.com/rulings/docview?doc_id=NY%20N361497"
+     "url": "us/N361497.html"
     },
     {
      "source": "eu",
@@ -44920,7 +44920,7 @@ window.BTI_DATA = {
      "date": "2026-06-22",
      "title": "tarihli mektubunuzda 15 Mayıs 2026 , müşteriniz EuroSummer, Inc. adına bir tarife sınıflandırma kararı talep ettiniz. Sorunuza bir içerik listesi, ürün spesifikasyon sayfaları ve beş ürünün resimleri eşlik etti. İlk ürün olan \"Dondurulmuş Bavyera Pretzel Çörekler\", futbol topu ta…",
      "gerekce": "Ürünler için geçerli alt pozisyon, \"Dondurulmuş Bavyera Pretzel Çörekler\", \"Dondurulmuş Alman Pretzels\", \"Dondurulmuş Altı Tohumlu Ekşi Mayalı Ekmek\", \"Dondurulmuş Alp Çavdar Ekşi Mayalı Somun\" ve \"Dondurulmuş Kabak Çeki…",
-     "url": "https://www.customsmobile.com/rulings/docview?doc_id=NY%20N361555"
+     "url": "us/N361555.html"
     },
     {
      "source": "eu",
@@ -44948,7 +44948,7 @@ window.BTI_DATA = {
      "date": "2026-06-22",
      "title": "tarihli mektubunuzda 20 Mayıs 2026 , bir tarife sınıflandırma kararı talep ettiniz. Söz konusu ürün, W11803498 parça numaralı, seviye ayar somunu takımı olarak anılmaktadır. Düzenek, yapışkan dairesel bir başlığa sahip, özel olarak tasarlanmış bir çelik cıvata üzerine vidalanmış …",
      "gerekce": "Dengeleyici somun takımı için geçerli alt pozisyon 8418.99.8050, HTSUS olacaktır; bu pozisyon buzdolapları, dondurucular ve diğer soğutma veya dondurucu ekipmanlar, elektrikli veya diğer; ısı pompaları (8415 pozisyonunda…",
-     "url": "https://www.customsmobile.com/rulings/docview?doc_id=NY%20N361677"
+     "url": "us/N361677.html"
     },
     {
      "source": "eu",
@@ -44976,7 +44976,7 @@ window.BTI_DATA = {
      "date": "2026-06-22",
      "title": "tarihli mektubunuzda 24 Mayıs 2026 , müşteriniz Dongguan Jinlintai Paper Products Co., Ltd. adına bağlayıcı bir tarife sınıflandırma kararı talep ettiniz. Karar, kalıplanmış kağıt hamuru ambalaj ekleri için talep edildi. Ürün bilgileri ve fotoğrafları incelememiz için gönderildi.…",
      "gerekce": "Kalıplanmış kağıt hamuru ambalaj ekleri için geçerli alt pozisyon, boyutuna veya şekline göre kesilmiş Diğer kağıt, karton, selüloz vatka ve selüloz elyaf ağlarını öngören Amerika Birleşik Devletleri Harmonize Tarife Tab…",
-     "url": "https://www.customsmobile.com/rulings/docview?doc_id=NY%20N361765"
+     "url": "us/N361765.html"
     },
     {
      "source": "eu",
@@ -45004,7 +45004,7 @@ window.BTI_DATA = {
      "date": "2026-06-22",
      "title": "tarihli mektubunuzda 27 Mayıs 2026 , bir tarife sınıflandırma kararı talep ettiniz. Söz konusu ürün, bahçecilik, bahçıvanlık ve çim bakımı uygulamaları için tohumlar, gübreler ve pestisitler gibi granüler malzemeleri dağıtmak üzere tasarlanmış, taşınabilir, pille çalışan, elektri…",
      "gerekce": "Elle tutulan motorlu tohum serpme makinesi için geçerli alt pozisyon, başka yerde belirtilmeyen veya yer almayan (84. Bölümde) bireysel işlevlere sahip makineler ve mekanik cihazlar sağlayan Amerika Birleşik Devletleri H…",
-     "url": "https://www.customsmobile.com/rulings/docview?doc_id=NY%20N361835"
+     "url": "us/N361835.html"
     },
     {
      "source": "eu",
@@ -45032,7 +45032,7 @@ window.BTI_DATA = {
      "date": "2026-06-22",
      "title": "tarihli mektubunuzda 29 Mayıs 2026 , müşteriniz AviridiInc adına bir tarife sınıflandırma kararı talep ettiniz. Söz konusu mal, CIMA Pulpformer™ 1200 Duo Molded Fiberan endüstriyel üretim hattında tasarlanmış ve geliştirilmiş Paketleme Sistemi (“CIMA Pulpformer™”) olarak tanımlan…",
      "gerekce": "Bu belge için geçerli alt pozisyon, her türden kesme makineleri ve bunların parçaları da dahil olmak üzere, kağıt hamuru, kağıt veya karton hazırlamaya yönelik diğer makineleri sağlayan CIMA Pulpformer™ 1200 Duo Kalıplı …",
-     "url": "https://www.customsmobile.com/rulings/docview?doc_id=NY%20N361911"
+     "url": "us/N361911.html"
     },
     {
      "source": "eu",
@@ -45060,7 +45060,7 @@ window.BTI_DATA = {
      "date": "2026-06-22",
      "title": "tarihli mektubunuzda 2 Haziran 2026 , tarife sınıflandırma kararı talebinde bulunmuşsunuz. Söz konusu ürün, yemeye hazır Dondurulmuş Karides Scampi Yemeğidir. Ürün, tereyağı, su, parmesan peyniri, ayçiçek yağı, sarımsak, tuz, doğranmış soğan, koyulaştırıcı madde, limon suyu, sarı…",
      "gerekce": "Dondurulmuş Karides Scampi Yemeği için geçerli alt pozisyon, Amerika Birleşik Devletleri Harmonize Tarife Tablosu (HTSUS) 1605.29.0500 olacaktır ve bu alt pozisyon şunları öngörmektedir: \"Hazırlanmış veya korunmuş kabukl…",
-     "url": "https://www.customsmobile.com/rulings/docview?doc_id=NY%20N361989"
+     "url": "us/N361989.html"
     },
     {
      "source": "eu",
@@ -45088,7 +45088,7 @@ window.BTI_DATA = {
      "date": "2026-06-22",
      "title": "tarihli mektubunuzda 3 Haziran 2026 , tarife sınıflandırma kararı talep ettiniz. İlgili öğe CollisionEye®arkadan çarpışma uyarı sistemi olarak anılmaktadır. Bu sistem dört zorunlu bileşenden oluşan bir videodan oluşur: nesne algılama için bir kamera, olası tehlikeleri işleyip tes…",
      "gerekce": "CollisionEye® arkadan çarpışma uyarı sistemi 530.80.00 için geçerli alt başlık, “demiryolları, tramvay hatları, metrolar, yollar, iç su yolları, park tesisleri, liman tesisleri veya havaalanları için trafik kontrol ekipm…",
-     "url": "https://www.customsmobile.com/rulings/docview?doc_id=NY%20N362040"
+     "url": "us/N362040.html"
     },
     {
      "source": "eu",
@@ -45116,7 +45116,7 @@ window.BTI_DATA = {
      "date": "2026-06-22",
      "title": "tarihli mektubunuzda 11 Mayıs 2026 2 adet çocuk kitabına ilişkin tarife tasnifi kararı talep etmiştiniz. Her kitabın örnekleri ve açıklamaları incelememiz için gönderildi. İlk öğe, \"Dele ve Aminata'nın Jollof Savaşı\" başlıklı ciltli bir kitaptır. Kitap, metin içeren 36 resimli sa…",
      "gerekce": "“Dele ve Aminata’nın Jollof Savaşı” ve “Farklı İyilik” başlıklı iki ciltli çocuk kitabı için geçerli alt başlık, tek sayfa halinde olsun veya olmasın Basılı kitap, broşür, kitapçık ve benzeri basılı materyalleri sağlayan…",
-     "url": "https://www.customsmobile.com/rulings/docview?doc_id=NY%20N361446"
+     "url": "us/N361446.html"
     },
     {
      "source": "eu",
@@ -45144,7 +45144,7 @@ window.BTI_DATA = {
      "date": "2026-06-22",
      "title": "tarihli mektubunuzda 8 Mayıs 2026 Feradyne OutdoorsLLC adına tarife sınıflandırma kararı talep ettiniz. İnceleme için numunelerin yerine teknik ve açıklayıcı literatür ve ürün açıklamaları sağlanmıştır. Öğe 1, \"Koku Kırıcı Dolabı\" ve öğe 2, \"Koku Kırıcı Dolabı Lite\", zeminde dura…",
      "gerekce": "\"Scent Crusher Locker\" ve \"Scent Crusher Locker Lite\" için geçerli alt pozisyon, \"Diğer mobilyalar ve bunların parçaları: Kamış, sepetçi söğüdü, bambu veya benzeri malzemeler dahil diğer malzemelerden mobilyalar: Diğer: …",
-     "url": "https://www.customsmobile.com/rulings/docview?doc_id=NY%20N361582"
+     "url": "us/N361582.html"
     },
     {
      "source": "eu",
@@ -45172,7 +45172,7 @@ window.BTI_DATA = {
      "date": "2026-06-22",
      "title": "tarihli mektubunuzda 22 Mayıs 2026 , tarife sınıflandırma kararı talep etmişsiniz. Söz konusu ürün, düğün buketinden elde edilen, korunmuş çiçeklerden oluşan, el işçiliği ile hazırlanmış benzersiz dekoratif duvar sanatından oluşmaktadır. Ana bileşenler, korunmuş doğal çiçekler, e…",
      "gerekce": "Çerçeveli Korunmuş Çiçek Buketi için geçerli alt pozisyon, Amerika Birleşik Devletleri Uyumlaştırılmış Tarife Tablosu 0603.90.0000 olacaktır ve bu pozisyon şunları öngörmektedir: \"Buketler için veya süs amaçlı olarak uyg…",
-     "url": "https://www.customsmobile.com/rulings/docview?doc_id=NY%20N361717"
+     "url": "us/N361717.html"
     },
     {
      "source": "eu",
@@ -49828,7 +49828,7 @@ window.BTI_DATA = {
      "date": "2026-05-22",
      "title": "H354096 10 Mart 2026 OT:RR:CTF:VSP JH KATEGORİ: Sınıflandırma TARİFE NO.: 9817.00.96 Elizabeth Merritt 5674 El Camino Real, Suite N, Carlsbad, CA 92008 RE: Engelliler için ürünler; Alt başlık 9817.00.96; Elevate Sstep Foot Drop Sock Sayın Ms. Merritt, Bu, Thorwear Inc. dba Elevat…",
      "gerekce": "Sstep için geçerli alt pozisyon, külotlu çoraplar, taytlar, uzun çoraplar, çoraplar ve diğer çorapları sağlayan 6115.96.60 HTSUS idi ve Sstep'in potansiyel olarak ağırlıklı olarak kronik veya kalıcı engelli bireylerin ya…",
-     "url": "https://www.customsmobile.com/rulings/docview?doc_id=HQ%20H354096"
+     "url": "us/H354096.html"
     },
     {
      "source": "tr",
@@ -49856,7 +49856,7 @@ window.BTI_DATA = {
      "date": "2026-05-22",
      "title": "H347000 21 Ocak 2026 CLA-2 RR:CTF:VSP JH KATEGORİ: Sınıflandırma TARİFE NO.: 9817.00.96 Mark Neville Uluslararası Ticaret Danışmanları 2153 Clementine St. Naples, FL 34120 RE: Protesto No. 3501-25-103394'ün İlave İnceleme Başvurusu; Engellilere Yönelik Makaleler; 9817.00.96 alt p…",
      "gerekce": "(Gerekçe metni bulunamadı)",
-     "url": "https://www.customsmobile.com/rulings/docview?doc_id=HQ%20H347000"
+     "url": "us/H347000.html"
     },
     {
      "source": "tr",
@@ -51011,7 +51011,7 @@ window.BTI_DATA = {
      "date": "2026-05-20",
      "title": "14 Nisan 2026 tarihli mektubunuzda, müşteriniz AJC Modular adına bağlayıcı bir tarife sınıflandırması ve menşe ülke kararı talep etmişsiniz. Ürün bilgileri ve resimleri incelememiz için gönderildi. Söz konusu ürün, konut kullanımına yönelik bir prefabrik bina yapısıdır. Yapısal ç…",
      "gerekce": "Prefabrik bina yapısı için geçerli alt pozisyon, Prefabrik binalar: Diğer: Metalden: Diğer'i öngören 9406.90.0130, HTSUS olacaktır. Genel vergi oranı değer üzerinden yüzde 2,9 olacak. 94.06 pozisyonuna ilişkin Armonize S…",
-     "url": "https://www.customsmobile.com/rulings/docview?doc_id=NY%20N360709"
+     "url": "us/N360709.html"
     },
     {
      "source": "eu",
@@ -51039,7 +51039,7 @@ window.BTI_DATA = {
      "date": "2026-05-20",
      "title": "14 Nisan 2026 tarihli mektubunuzda ASSP (Thailand) Co., Ltd. adına tarife sınıflandırması ve menşe ülke belirleme kararı talep etmiştiniz. Söz konusu ürün, otomotiv süspansiyon sistemlerinin temel güvenlik ve işlevsel bileşeni olan Model No.: XNK20392 stabilizatör bağlantısıdır. …",
      "gerekce": "Dengeleyici bağlantı için geçerli alt pozisyon, Model No.: XNK20392, \"8701 ila 8705 pozisyonlarındaki motorlu taşıtların parça ve aksesuarları: Süspansiyon sistemleri ve bunların parçaları (amortisörler dahil): Parçalar:…",
-     "url": "https://www.customsmobile.com/rulings/docview?doc_id=NY%20N360729"
+     "url": "us/N360729.html"
     },
     {
      "source": "eu",
@@ -51067,7 +51067,7 @@ window.BTI_DATA = {
      "date": "2026-05-20",
      "title": "16 Nisan 2026 tarihli yazınızda tarife sınıflandırma kararı talep etmişsiniz. Bilgilendirme materyali talebinizle birlikte gönderildi. Göz önünde bulundurulan öğeler, Roll-A-Ramp'ın A45237 serisi erişilebilirlik rampaları için rampa segmentleridir. Bu rampalar tekerlekli sandalye…",
      "gerekce": "Rampa bölümleri için geçerli alt pozisyon, \"Alüminyumdan diğer eşyalar: Diğer: Diğer: Diğer: Diğer: Diğer\" ifadesini öngören 7616.99.5190, HTSUS olacaktır. Genel vergi oranı değer üzerinden yüzde 2,5 olacaktır. Başvurunu…",
-     "url": "https://www.customsmobile.com/rulings/docview?doc_id=NY%20N360785"
+     "url": "us/N360785.html"
     },
     {
      "source": "eu",
@@ -51095,7 +51095,7 @@ window.BTI_DATA = {
      "date": "2026-05-20",
      "title": "16 Nisan 2026 tarihli yazınızda tarife sınıflandırma kararı talep etmişsiniz. Göz önünde bulundurulan öğenin, kullanılmış golf toplarını almak ve iade etmek için golf sahaları ve sürüş alanları çevresinde golf topu toplayıcıyı çekmek üzere tasarlanmış otonom bir robotik traktör o…",
      "gerekce": "Korechi Pik'r traktörü için geçerli alt pozisyon, Amerika Birleşik Devletleri Harmonize Tarife Tablosu (HTSUS) 8701.91.5000 olacaktır; bu listede \"Traktörler (8709 pozisyonundaki traktörler hariç): Diğerleri, motor gücü:…",
-     "url": "https://www.customsmobile.com/rulings/docview?doc_id=NY%20N360787"
+     "url": "us/N360787.html"
     },
     {
      "source": "eu",
@@ -51123,7 +51123,7 @@ window.BTI_DATA = {
      "date": "2026-05-20",
      "title": "27 Nisan 2026 tarihli mektubunuzda müşteriniz Vivi LLC adına tarife sınıflandırma kararı talep etmişsiniz. İlgili öğeler Vivi 200 Serisi kutuları, VWP-205-16 ve VWP-210-16 Modelleri olarak anılır. Bu cihazlar, bilgisayarları ve diğer mobil cihazları birbirine bağlayan, bilgilerin…",
      "gerekce": "Vivi 200 Serisi kutuları, VWP-205-16 ve VWP-210-16 Modelleri için geçerli alt başlık, \"Hücresel ağlar veya diğer kablosuz ağlar için akıllı telefonlar ve diğer telefonlar da dahil olmak üzere telefon setleri; kablolu ile…",
-     "url": "https://www.customsmobile.com/rulings/docview?doc_id=NY%20N361030"
+     "url": "us/N361030.html"
     },
     {
      "source": "eu",
@@ -51151,7 +51151,7 @@ window.BTI_DATA = {
      "date": "2026-05-20",
      "title": "29 Nisan 2026 tarihli yazınızda tarife sınıflandırma kararı talep etmiştiniz. İncelenen ürünün, Palsgaard® ChoMilk 150 ürün adına sahip, çikolatalı süt üretiminde kullanılan bir katkı maddesi olduğu söyleniyor. Palsgaard® ChoMilk 150'nin, yağ asitlerinin mono- ve digliseritlerind…",
      "gerekce": "Palsgaard® ChoMilk 150 için geçerli alt pozisyon, dökümhane kalıpları veya maçaları için hazırlanmış bağlayıcıları sağlayan 3824.99.9397, HTSUS olacaktır; Başka bir yerde belirtilmeyen veya yer almayan, kimya veya kimya …",
-     "url": "https://www.customsmobile.com/rulings/docview?doc_id=NY%20N361129"
+     "url": "us/N361129.html"
     },
     {
      "source": "eu",
@@ -51179,7 +51179,7 @@ window.BTI_DATA = {
      "date": "2026-05-20",
      "title": "5 Mayıs 2026 tarihli mektubunuzda, Lewisville, Teksas'ta bulunan müşteriniz Triarc Tank, LLC adına tarife sınıflandırma kararı talep etmişsiniz. Göz önünde bulundurulan öğe, şematik çizim LL74001050001 olan bir propan tankeri römorku olarak tanımlandı; bu, son kullanıcıların prop…",
      "gerekce": "Propan tankeri için geçerli alt pozisyon, şematik çizim LL74001050001, \"Römorklar ve yarı römorklar; mekanik olarak tahrik edilmeyen diğer araçlar ve bunların parçaları: Malların taşınmasına yönelik diğer römorklar ve ya…",
-     "url": "https://www.customsmobile.com/rulings/docview?doc_id=NY%20N361291"
+     "url": "us/N361291.html"
     },
     {
      "source": "eu",
@@ -51207,7 +51207,7 @@ window.BTI_DATA = {
      "date": "2026-05-20",
      "title": "6 Nisan 2026 tarihli yazınızda tarife sınıflandırma kararı talep etmiştiniz. 10 mg/mL olarak ithal edilen Brivaracetam Oral Solüsyon antikonvülsan bir ilaçtır. 1 aylık ve daha büyük hastalarda kısmi başlangıçlı nöbetlerin tedavisinde endikedir.",
      "gerekce": "Dozaj formundaki Brivaracetam Oral Çözeltisi için geçerli alt başlık, Amerika Birleşik Devletleri Harmonize Tarife Tablosu (HTSUS) 3004.90.9243 olacaktır; bu listede \"Terapötik veya profilaktik kullanımlar için karışık v…",
-     "url": "https://www.customsmobile.com/rulings/docview?doc_id=NY%20N360453"
+     "url": "us/N360453.html"
     },
     {
      "source": "eu",
@@ -51235,7 +51235,7 @@ window.BTI_DATA = {
      "date": "2026-05-20",
      "title": "7 Nisan 2026 tarihli yazınızda tarife sınıflandırma kararı talep etmiştiniz. 1 mg'lık flakonlar halinde ithal edilen Glukagon Enjeksiyonu, bir polipeptit hormonudur. Öncelikle şiddetli hipoglisemili hastaların tedavisinde endikedir. Ayrıca belirli radyolojik prosedürler sırasında…",
      "gerekce": "Dozaj formunda Glukagon Enjeksiyonu için geçerli alt pozisyon, Amerika Birleşik Devletleri Harmonize Tarife Cetveli (HTSUS) 3004.39.0055 olacaktır; bu alt pozisyon, \"Tedavi amaçlı veya profilaktik kullanıma yönelik karış…",
-     "url": "https://www.customsmobile.com/rulings/docview?doc_id=NY%20N360491"
+     "url": "us/N360491.html"
     },
     {
      "source": "eu",
@@ -51263,7 +51263,7 @@ window.BTI_DATA = {
      "date": "2026-05-20",
      "title": "7 Nisan 2026 tarihli yazınızda tarife sınıflandırma kararı talep etmiştiniz. 1 gramlık tabletler halinde ithal edilen Colestipol Hidroklorür, bir safra asidi tutucudur. Primer hiperkolesterolemili hastalarda LDL-C kolesterol düzeylerini azaltmak için diyet ve egzersize yardımcı o…",
      "gerekce": "Dozaj formundaki Kolestipol Hidroklorür Tabletleri için geçerli alt pozisyon, Amerika Birleşik Devletleri Harmonize Tarife Cetveli (HTSUS) 3004.90.9225 olacaktır ve bu başlık şu şekilde olacaktır: \"Tedavi amaçlı veya pro…",
-     "url": "https://www.customsmobile.com/rulings/docview?doc_id=NY%20N360493"
+     "url": "us/N360493.html"
     },
     {
      "source": "eu",
@@ -51291,7 +51291,7 @@ window.BTI_DATA = {
      "date": "2026-05-20",
      "title": "17 Mart 2026 tarihli yazınızda tarife sınıflandırma kararı talep etmiştiniz. Teknik materyal talebinizle birlikte gönderildi. Söz konusu ürün, seri adı Sleipner E50 olan tekerlekli bir ekskavatör taşıyıcısıdır. 28 - 58 tonluk ağır iş paletli ekskavatörleri madencilik veya taş oca…",
      "gerekce": "Tekerlekli ekskavatör taşıyıcı için geçerli alt pozisyon, \"Demir veya çelikten diğer eşyalar: Diğer: Diğer: Diğer: Diğer: Diğer\" ifadesini öngören 7326.90.8688, HTSUS olacaktır. Genel vergi oranı değer üzerinden yüzde 2,…",
-     "url": "https://www.customsmobile.com/rulings/docview?doc_id=NY%20N360648"
+     "url": "us/N360648.html"
     },
     {
      "source": "eu",
@@ -51319,7 +51319,7 @@ window.BTI_DATA = {
      "date": "2026-05-20",
      "title": "14 Nisan 2026 tarihli yazınızda tarife sınıflandırması talep etmiştiniz. Söz konusu ürün, her iki tarafı da 0,15 mm'lik alüminyum folyoya sahip 1,7 mm'lik polietilen kompozit panel olarak tanımlanıyor. Paneller tabela ve dekorasyon amaçlı kullanılmakta olup, süsleme veya kabartma…",
      "gerekce": "Kompozit panel için geçerli alt pozisyon, kalınlığı (herhangi bir arkalık hariç) 0,2 mm'yi geçmeyen alüminyum folyoyu (baskılı olsun veya olmasın veya kağıt, karton, plastik veya benzeri destek malzemeleriyle desteklenmi…",
-     "url": "https://www.customsmobile.com/rulings/docview?doc_id=NY%20N360725"
+     "url": "us/N360725.html"
     },
     {
      "source": "eu",
@@ -51347,7 +51347,7 @@ window.BTI_DATA = {
      "date": "2026-05-20",
      "title": "20 Ağustos 2025 tarihli yazınızda tarife sınıflandırma kararı talep etmiştiniz. Söz konusu mala Kopenhag taşı adı veriliyor. Numuneler, karar talebinizle birlikte iletilmiş ve analiz için Gümrük ve Sınır Koruma Laboratuvarı'na iletilmiştir. Bu analiz tamamlandı. Kopenhag krem, aç…",
      "gerekce": "Kopenhag taşı için geçerli alt pozisyon 6802.93.0010, HTSUS olacaktır; bu alt pozisyon, \"Pozisyondaki mallar hariç, işlenmiş anıtsal veya inşaat taşları (arduvaz hariç) ve bunlardan eşya\" anlamına gelir. 6801…: Diğerleri…",
-     "url": "https://www.customsmobile.com/rulings/docview?doc_id=NY%20N361062"
+     "url": "us/N361062.html"
     },
     {
      "source": "eu",
@@ -51375,7 +51375,7 @@ window.BTI_DATA = {
      "date": "2026-05-20",
      "title": "20 Ağustos 2025 tarihli yazınızda tarife sınıflandırma kararı talep etmiştiniz. Söz konusu mala Kar Yağışı taşı adı verilmektedir. Numuneler, karar talebinizle birlikte iletilmiş ve analiz için Gümrük ve Sınır Koruma Laboratuvarı'na iletilmiştir. Bu analiz tamamlandı. Snow Fall, …",
      "gerekce": "Kar Yağışı taşı için geçerli alt pozisyon, 6802.93.0010, HTSUS olacaktır; bu pozisyon, \"6801 pozisyonundaki ürünler hariç, işlenmiş anıtsal veya inşaat taşları (kayağan taşı hariç) ve bunlardan eşyalar...: Diğer: Granit:…",
-     "url": "https://www.customsmobile.com/rulings/docview?doc_id=NY%20N361063"
+     "url": "us/N361063.html"
     },
     {
      "source": "eu",
@@ -51403,7 +51403,7 @@ window.BTI_DATA = {
      "date": "2026-05-20",
      "title": "9 Ekim 2025 tarihli yazınızda tarife sınıflandırma kararı talep etmiştiniz. Söz konusu mala Caravelas taşı adı verilmektedir. Karar talebinizle birlikte bir numune teslim edilmiş ve analiz için Gümrük ve Sınır Koruma Laboratuvarına iletilmiştir. Bu analiz tamamlandı. Caravelas, k…",
      "gerekce": "Caravelas taşı için geçerli alt pozisyon 6802.93.0010, HTSUS olacaktır ve bu pozisyon \"6801 pozisyonundaki ürünler hariç işlenmiş anıtsal veya inşaat taşları (arduvaz hariç) ve bunlardan eşyalar...: Diğer: Granit: 6802.2…",
-     "url": "https://www.customsmobile.com/rulings/docview?doc_id=NY%20N354811"
+     "url": "us/N354811.html"
     },
     {
      "source": "eu",
@@ -51431,7 +51431,7 @@ window.BTI_DATA = {
      "date": "2026-05-20",
      "title": "8 Nisan 2026 tarihli mektubunuzda müvekkiliniz Ford Motor Company adına tarife sınıflandırma kararı talep etmişsiniz. Söz konusu ürün, parça numarası MB3B-8475-XX olan aktif bir ızgara panjurudur. Bir aracın ızgarasının arkasına monte edilen aktif ızgara kapağı, birden fazla hare…",
      "gerekce": "Aktif ızgara kapağı MB3B-8475-XX için geçerli alt pozisyon, Musluklar, musluklar, vanalar ve benzeri cihazları sağlayan 8481.80.9025, HTSUS olacaktır… bunların parçaları: Diğer cihazlar: Diğer: Diğer: Elektrikli veya ele…",
-     "url": "https://www.customsmobile.com/rulings/docview?doc_id=NY%20N360522"
+     "url": "us/N360522.html"
     },
     {
      "source": "eu",
@@ -51459,7 +51459,7 @@ window.BTI_DATA = {
      "date": "2026-05-20",
      "title": "10 Nisan 2026 tarihli yazınızda tarife sınıflandırma kararı talep etmişsiniz. Talebiniz ile birlikte fotoğraflar da gönderilmiştir. Söz konusu malın ayakkabı ağacı olduğu belirtilmektedir. GTIN numaraları aşağıdaki gibidir: 00850076596002 Fresh Flow Ayakkabı Ağaçları (KIRMIZI 5'l…",
      "gerekce": "Plastik ayakkabı ağacı için geçerli alt pozisyon 3924.90.5650, HTSUS olacaktır ve bu pozisyon \"...plastiklerden diğer ev eşyaları: diğer: diğer...diğer\" ifadesini sağlar. Genel vergi oranı ad valorem olarak yüzde 3,4 ola…",
-     "url": "https://www.customsmobile.com/rulings/docview?doc_id=NY%20N360630"
+     "url": "us/N360630.html"
     },
     {
      "source": "eu",
@@ -51487,7 +51487,7 @@ window.BTI_DATA = {
      "date": "2026-05-20",
      "title": "9 Nisan 2026 tarihli yazınızda tarife sınıflandırması talep etmiştiniz. Söz konusu ürünler, Japonya'dan gelen yüksek basınçlı dizel yakıt enjeksiyon tüpleri olarak tanımlanıyor. Bu dikişsiz, soğuk haddelenmiş alaşımlı çelik boruların iç çapı 3 mm, dış çapı ise 8 mm'dir. Molibden …",
      "gerekce": "Yüksek basınçlı dizel yakıt enjeksiyon boruları için geçerli alt pozisyon, dikişsiz, demirden (dökme demir hariç) veya çelikten, diğer, dairesel kesitli, diğer alaşımlı çelikten, soğuk çekilmiş veya soğuk haddelenmiş (so…",
-     "url": "https://www.customsmobile.com/rulings/docview?doc_id=NY%20N360647"
+     "url": "us/N360647.html"
     },
     {
      "source": "eu",
@@ -51515,7 +51515,7 @@ window.BTI_DATA = {
      "date": "2026-05-20",
      "title": "14 Nisan 2026 tarihli yazınızda tarife sınıflandırma kararı talep etmiştiniz. Örnek yerine görseller sunulmuştur. Söz konusu ürün, ASM-RSMR001 ürün numaralı, 16 inçlik bir ortanca çelengi olarak tanımlanıyor. Çelenk, her ikisi de polyester kumaştan yapılmış mavi ve beyaz ortanca …",
      "gerekce": "Ürün numarası ASM-RSMR001 olan bu dekoratif yapay çelenk için geçerli alt pozisyon, 6702.90.3500, Amerika Birleşik Devletleri Uyumlaştırılmış Tarife Çizelgesi (HTSUS) olacaktır; bu listede \"yapay çiçekler, yapraklar ve m…",
-     "url": "https://www.customsmobile.com/rulings/docview?doc_id=NY%20N360690"
+     "url": "us/N360690.html"
     },
     {
      "source": "eu",
@@ -51543,7 +51543,7 @@ window.BTI_DATA = {
      "date": "2026-05-20",
      "title": "14 Nisan 2026 tarihli mektubunuzda bağlayıcı tarife sınıflandırma kararı talep etmişsiniz. Ürün bilgileri ve bir numune incelememiz için gönderildi. Söz konusu ürünler dikdörtgen, oluklu mukavva, katlanır nakliye kutusu (HumanWare parça numarası ACCB-0099) ve koruyucu ambalaj mal…",
      "gerekce": "Katlanır oluklu mukavva kutu için geçerli alt pozisyon, kağıttan, kartondan, selüloz vatkadan veya selüloz elyaf ağlarından kartonlar, kutular, kasalar, torbalar ve diğer ambalaj kaplarını öngören 4819.10.0040, HTSUS ola…",
-     "url": "https://www.customsmobile.com/rulings/docview?doc_id=NY%20N360694"
+     "url": "us/N360694.html"
     },
     {
      "source": "eu",
@@ -51571,7 +51571,7 @@ window.BTI_DATA = {
      "date": "2026-05-20",
      "title": "15 Nisan 2026 tarihli yazınızda 301. madde ve diğer görevler kapsamında tarife sınıflandırması ve menşe ülke tespiti talep etmişsiniz. Üründen bir numune incelenmek üzere teslim edildi ve ofisimizde saklanacak. Örnek, WORKPRO 19 Parça Ev Alet Seti (parça numarası WP209157) olarak…",
      "gerekce": "WORKPRO 19 Parçalı Ev Alet Seti (ürün numarası WP209157) için geçerli alt pozisyon, perakende satışa yönelik setler halinde 8202 ila 8205 arasındaki başlıklardan iki veya daha fazlasının aletlerini sağlayan Amerika Birle…",
-     "url": "https://www.customsmobile.com/rulings/docview?doc_id=NY%20N360759"
+     "url": "us/N360759.html"
     },
     {
      "source": "eu",
@@ -51599,7 +51599,7 @@ window.BTI_DATA = {
      "date": "2026-05-20",
      "title": "23 Nisan 2026 tarihli mektubunuzda, müşteriniz Confluent Medical Technologies adına menşe ülke kararı talep etmişsiniz. Söz konusu ürünler, ASTM F2063'e göre üretilen nikel-titanyum (NiTi) tel ve nikel-titanyum (NiTi) şerit (düz tel) olarak tanımlanmaktadır. Bu ürünlerin tıbbi ci…",
      "gerekce": "Nikel-titanyum tel ve şerit (yassı tel) için geçerli alt pozisyon, Nikel çubuklar, çubuklar, profiller ve telleri öngören Amerika Birleşik Devletleri Harmonize Tarife Tablosu (HTSUS) 7505.22.1000 olacaktır: Tel: Nikel al…",
-     "url": "https://www.customsmobile.com/rulings/docview?doc_id=NY%20N360963"
+     "url": "us/N360963.html"
     },
     {
      "source": "eu",
@@ -51627,7 +51627,7 @@ window.BTI_DATA = {
      "date": "2026-05-20",
      "title": "24 Nisan 2026 tarihli yazınızda tarife sınıflandırma kararı talep etmişsiniz. Söz konusu ürün RFID kart kaplama sayfalarıdır. Levhalar, akıllı kartların üretim sürecinde bileşen olarak kullanılan bir dizi RFID çipi ve PVC plastik tabakalara lamine edilmiş bir anten içerir. İthal …",
      "gerekce": "Söz konusu RFID kart iç sayfaları için geçerli alt pozisyon, Disk, bantlar, katı hal kalıcı depolama aygıtları, \"akıllı kartlar\" ve kaydedilmiş olsun veya olmasın ses veya diğer olayların kaydedilmesi için diğer ortamlar…",
-     "url": "https://www.customsmobile.com/rulings/docview?doc_id=NY%20N361009"
+     "url": "us/N361009.html"
     },
     {
      "source": "eu",
@@ -51655,7 +51655,7 @@ window.BTI_DATA = {
      "date": "2026-05-20",
      "title": "26 Nisan 2026 tarihli yazınızda tarife sınıflandırma kararı talep etmişsiniz. İlgili öğeye \"H-Mod CEP Kiti\", SKU # 807-00034-001.A2 adı verilir. Bu öğe, iki yalıtımlı kablo, bir baskılı devre kartı düzeneği ve elektrik konnektörlerinden oluşan bir elektrik kablo düzeneğidir. Bu d…",
      "gerekce": "\"H-Mod CEP Kiti\", SKU # 807-00034-001.A2 için geçerli alt başlık, \"Hücresel ağlar veya diğer kablosuz ağlar için akıllı telefonlar ve diğer telefonlar da dahil olmak üzere telefon setleri; kablolu veya diğer kablosuz ağl…",
-     "url": "https://www.customsmobile.com/rulings/docview?doc_id=NY%20N361016"
+     "url": "us/N361016.html"
     },
     {
      "source": "eu",
@@ -51683,7 +51683,7 @@ window.BTI_DATA = {
      "date": "2026-05-20",
      "title": "28 Nisan 2026 tarihli yazınızda tarife sınıflandırma kararı talep etmişsiniz. Bu taleple ilgili olarak dört madde söz konusudur ve bunların tümü, özellikle fiziksel buhar biriktirme (PVD) makinelerinde kullanılan Hassas Planet Takım Taşıyıcı Dişli Kutuları olarak tanımlanmaktadır…",
      "gerekce": "Parça numaraları 330-16-000017, 330-16-000023, 330-16-000026 ve 330-16-000038 olan Hassas Planet Takım Taşıyıcı Dişli Kutuları için geçerli alt başlık 8543.90.1200, HTSUS olacaktır; bu faslın başka yerlerinde belirtilmiş…",
-     "url": "https://www.customsmobile.com/rulings/docview?doc_id=NY%20N361071"
+     "url": "us/N361071.html"
     },
     {
      "source": "eu",
@@ -51711,7 +51711,7 @@ window.BTI_DATA = {
      "date": "2026-05-20",
      "title": "30 Temmuz 2025 tarihli yazınızda tarife sınıflandırma kararı talep etmiştiniz. Gümrük ve Sınır Koruma (CBP) laboratuvar analizleri nedeniyle yanıtımız gecikti. Numune laboratuvar analizi sırasında imha edildi. Stil HJ222, erkek 3'ü 1 arada dış giyim ceketidir. İki adet kalça hiza…",
      "gerekce": "HJ222 stilindeki dış ceket için geçerli alt pozisyon, 5602, 5603, 5903, 5906 veya 5907 pozisyonlarındaki kumaşlardan oluşan giysileri öngören 6210.20.5029, HTSUS olacaktır: 6201 pozisyonunda tanımlanan türde diğer giysil…",
-     "url": "https://www.customsmobile.com/rulings/docview?doc_id=NY%20N351827"
+     "url": "us/N351827.html"
     },
     {
      "source": "eu",
@@ -51739,7 +51739,7 @@ window.BTI_DATA = {
      "date": "2026-05-20",
      "title": "9 Nisan 2026 tarihli yazınızda tarife sınıflandırma kararı talep etmiştiniz. Göz önünde bulundurulan ürün, BFlex 2 Esnek Bronkoskopun bir bileşeni olan ince, esnek, içi boş bir yerleştirme tüpü olan Örgülü Şaft BFlex 5.0'dır (Ürün No. 0120-1063 Rev.00). Plastik içine gömülü pasla…",
      "gerekce": "Örgülü Şaft BFlex 5.0 (Ürün No. 0120-1063 Rev.00) için geçerli alt pozisyon, 9018.19.4000, HTSUS olacaktır ve bu başlık şu ifadeleri içerir: \"Tıp, cerrahi, dişçilik veya veterinerlik bilimlerinde kullanılan, sintigrafik …",
-     "url": "https://www.customsmobile.com/rulings/docview?doc_id=NY%20N360598"
+     "url": "us/N360598.html"
     },
     {
      "source": "eu",
@@ -51767,7 +51767,7 @@ window.BTI_DATA = {
      "date": "2026-05-20",
      "title": "12 Nisan 2026 tarihli yazınızda tarife sınıflandırma kararı talep etmiştiniz. Numuneler sağlanmıştır ve talep edildiği takdirde saklanacaktır. Bu istek iki kitten oluşmaktadır. Değerlendirilen ilk ürün \"Charm it Up - Classic 4: Sparkly Unicorn Tote Bag\" olarak tanımlanıyor. Aşağı…",
      "gerekce": "ilgili alt pozisyon, \"3901 ila 3914 pozisyonlarında yer alan plastikten diğer eşya ve diğer malzemelerden eşya: [o]diğer: [o]diğer: [o]diğer\" ifadesini öngören 3926.90.9989, HTSUS olacaktır. Birinci sütunda, genel vergi …",
-     "url": "https://www.customsmobile.com/rulings/docview?doc_id=NY%20N360636"
+     "url": "us/N360636.html"
     },
     {
      "source": "eu",
@@ -51795,7 +51795,7 @@ window.BTI_DATA = {
      "date": "2026-05-20",
      "title": "12 Nisan 2026 tarihli yazınızda tarife sınıflandırma kararı talep etmiştiniz. Numuneler sağlanmıştır ve talep edildiği takdirde saklanacaktır. Bu istek iki kitten oluşmaktadır. İlk ürün “Decoden Magic Wandercore - Classic 4: Galaktik Taşıma Çantası” olarak tanımlanıyor. İkinci ür…",
      "gerekce": "ilgili alt pozisyon, \"3901 ila 3914 pozisyonlarında yer alan plastikten diğer eşya ve diğer malzemelerden eşya: [o]diğer: [o]diğer: [o]diğer\" ifadesini öngören 3926.90.9989, HTSUS olacaktır. Birinci sütunda, genel vergi …",
-     "url": "https://www.customsmobile.com/rulings/docview?doc_id=NY%20N360637"
+     "url": "us/N360637.html"
     },
     {
      "source": "eu",
@@ -51823,7 +51823,7 @@ window.BTI_DATA = {
      "date": "2026-05-20",
      "title": "12 Nisan 2026 tarihli yazınızda tarife sınıflandırma kararı talep etmiştiniz. Bir örnek sağlanmıştır ve talep edildiği takdirde saklanacaktır. Söz konusu ürün “Decoden Magic - Classic 4: Trinket Box Creator” olarak tanımlanıyor. Bu kit şu öğeleri içerir: şeffaf bir plastik kutu, …",
      "gerekce": "ilgili alt pozisyon, \"3901 ila 3914 pozisyonlarında yer alan plastikten diğer eşya ve diğer malzemelerden eşya: [o]diğer: [o]diğer: [o]diğer\" ifadesini öngören 3926.90.9989, HTSUS olacaktır. Birinci sütunda, genel vergi …",
-     "url": "https://www.customsmobile.com/rulings/docview?doc_id=NY%20N360638"
+     "url": "us/N360638.html"
     },
     {
      "source": "eu",
@@ -51851,7 +51851,7 @@ window.BTI_DATA = {
      "date": "2026-05-20",
      "title": "14 Nisan 2026 tarihli mektubunuzda müşteriniz OilQuick Americas LLC adına tarife sınıflandırma kararı talep etmişsiniz. Söz konusu ürün, OilQuick otomatik hızlı bağlantı sistemi, model numarası QQ40 olarak tanımlanıyor ve ekleri (örneğin kürekler, kazık çakma makineleri, kırıcıla…",
      "gerekce": "OilQuick otomatik çabuk bağlantı sistemi için geçerli alt pozisyon, \"Yalnızca veya esas olarak 8425 ila 8430 pozisyonlarında yer alan makinalarda kullanılmaya uygun parçalar: 8426, 8429 veya 8430 pozisyonlarında yer alan…",
-     "url": "https://www.customsmobile.com/rulings/docview?doc_id=NY%20N360779"
+     "url": "us/N360779.html"
     },
     {
      "source": "eu",
@@ -51879,7 +51879,7 @@ window.BTI_DATA = {
      "date": "2026-05-20",
      "title": "13 Nisan 2026 tarihli mektubunuzda Storebound LLC adına tarife sınıflandırma kararı talep etmişsiniz. Ürün, ev içi kullanım için tasarlanmış 6 litre kapasiteye sahip Dash 5 Quart Patlamış Mısır Makinesi olarak tanımlanıyor. Sağlanan belgeler, bu patlamış mısır makinesinin bir piş…",
      "gerekce": "Dash 5 Quart Patlamış Mısır Makinesi için geçerli alt pozisyon, evsel amaçlarla kullanılan türden diğer elektrotermik cihazları, diğer elektrotermik cihazları ve diğerlerini sağlayan Amerika Birleşik Devletleri Uyumlaştı…",
-     "url": "https://www.customsmobile.com/rulings/docview?doc_id=NY%20N360662"
+     "url": "us/N360662.html"
     },
     {
      "source": "eu",
@@ -56001,7 +56001,7 @@ window.BTI_DATA = {
      "date": "2026-05-11",
      "title": "Çelikten mamul mobilya aksesuarları (pegboard ve K-Rail ray), çelik raf sistemlerine entegre depolama/organizasyon bileşenleri",
      "gerekce": "Söz konusu ürünler, yalnızca belirli üretici modelleriyle uyumlu özel montaj delikleri nedeniyle bağımsız kullanımı olmayan, raf sistemine özgü parçalardır. GRI 1 ve 6 kapsamında 94.03 pozisyonundaki mobilyaların parçası…",
-     "url": "https://www.customsmobile.com/rulings/docview?doc_id=NY%20N360896"
+     "url": "us/N360896.html"
     },
     {
      "source": "eu",
@@ -56029,7 +56029,7 @@ window.BTI_DATA = {
      "date": "2026-05-11",
      "title": "Alman menşeli, metal şeritleri gererek düzelten ve yüzeyi düzleştiren germe-bükme-tesviye hattı (stretch-bend-leveling line)",
      "gerekce": "Makine, metal şeridi gerilim altında düzelterek deformasyonları gidermekte olup temel bileşenleri dekoiler, fren-S-bridle, tesviye makinesi ve sarıcıdan oluşmaktadır. CNC donanımı bulunmadığı teyit edilmiş, PLC kontrollü…",
-     "url": "https://www.customsmobile.com/rulings/docview?doc_id=NY%20N360897"
+     "url": "us/N360897.html"
     },
     {
      "source": "eu",
@@ -56057,7 +56057,7 @@ window.BTI_DATA = {
      "date": "2026-05-11",
      "title": "Kamboçya menşeli çeşitli ayakkabı modelleri (çocuk atletik ayakkabısı dahil)",
      "gerekce": "TDSS27-SN-28299-1 modeli, kanca-ilmek (hook-and-loop) kapamalı olması nedeniyle slip-on olarak sınıflandırılamaz; atletik görünüm ve fiziksel özellikleri dikkate alınarak 6404.11.8590 altında sınıflandırılmıştır. Dış tab…",
-     "url": "https://www.customsmobile.com/rulings/docview?doc_id=NY%20N361081"
+     "url": "us/N361081.html"
     },
     {
      "source": "eu",
@@ -56085,7 +56085,7 @@ window.BTI_DATA = {
      "date": "2026-05-11",
      "title": "Magnezyum oksit kompozisyonlu, dua eden melek figürü (çam yaprağı ve kırmızı meyve çelengi tutan, 48\"x19\"x9.5\" boyutlarında dekoratif heykelcik)",
      "gerekce": "Ürün, yalnızca Noel sezonunda satışa sunulan ve tatil sonrası raftan kaldırılan münhasır Noel dekorasyonu niteliğindedir. Magnezyum oksit malzemeli taş görünümlü melek figürü, Noel temalı tasarımı (çelenk, melek) ve satı…",
-     "url": "https://www.customsmobile.com/rulings/docview?doc_id=NY%20N360842"
+     "url": "us/N360842.html"
     },
     {
      "source": "eu",
@@ -56113,7 +56113,7 @@ window.BTI_DATA = {
      "date": "2026-05-11",
      "title": "Bluetooth bağlantılı kahve hassas tartısı (BEA900, maks. 2 kg, 0,1 g hassasiyet, USB-C şarjlı)",
      "gerekce": "Ürün, 5 cg'den daha az hassasiyete sahip teraziler dışındaki tartı makinelerini kapsayan 84.23 pozisyonuna girmektedir. Maksimum kapasitesi 2 kg olduğundan HTSUS 8423.81.0040 alt pozisyonu (kapasitesi 30 kg'ı aşmayan tar…",
-     "url": "https://www.customsmobile.com/rulings/docview?doc_id=NY%20N360876"
+     "url": "us/N360876.html"
     },
     {
      "source": "eu",
