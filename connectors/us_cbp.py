@@ -278,6 +278,11 @@ class UsCbpConnector(BaseConnector):
                 "tariffs":    tariffs,
                 "summary":    summary,
                 "source_url": source_url,
+                # Kararın TAM orijinal metni. CBP deep-link'i dışarıdan 403,
+                # CustomsMobile aynası da yeni kararları gecikmeli aldığı için
+                # tam metni burada saklayıp kendi detay sayfamızda gösteriyoruz.
+                "full_text":  text,
+                "subject":    subject,
             })
             time.sleep(0.3)
 
