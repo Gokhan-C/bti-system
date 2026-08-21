@@ -1,13 +1,13 @@
 window.BTI_DATA = {
- "generated_at": "2026-08-21 19:23",
+ "generated_at": "2026-08-21 20:33",
  "today": "2026-08-21",
  "today_tr": "21 Ağustos 2026",
  "latest_date": "2026-08-21",
  "latest_is_today": true,
- "total_decisions": 4540,
+ "total_decisions": 4543,
  "total_days": 118,
  "source_counts": {
-  "eu": 3605,
+  "eu": 3608,
   "us": 403,
   "ca": 18,
   "uk": 239,
@@ -6500,7 +6500,7 @@ window.BTI_DATA = {
   {
    "date": "2026-08-11",
    "date_tr": "11 Ağustos 2026",
-   "count": 65,
+   "count": 66,
    "sources": [
     "eu",
     "uk"
@@ -6678,15 +6678,15 @@ window.BTI_DATA = {
      "source": "eu",
      "source_label": "Avrupa Birliği (EBTI)",
      "color": "#2E6BE6",
-     "flag": "🇨🇿",
-     "origin": "Çekya",
-     "hs": "21061020",
-     "hs4": "2106",
-     "ref": "CZBTI47/486548/2026-300000-ZI/01",
+     "flag": "🇷🇴",
+     "origin": "Romanya",
+     "hs": "73181290",
+     "hs4": "7318",
+     "ref": "ROBTI2026-005516",
      "date": "2026-08-11",
-     "title": "Beyan edilen veriler uyarınca, bitki kökenli gıda hazırlaması olan bezelye proteini söz konusudur. Kuru maddedeki protein içeriği %85 ağırlıkçasını aşmaz. Toz halindeki bezelye proteini, olgun bezelye tanelerinin öğütülmesi, kurutulması ve son ayrıştırma ile yapılır. Süt yağı, sü…",
-     "gerekce": "Birleştirilmiş nomenklatürün yorumlanması için genel kurallar 1 ve 6. HS için 2106 maddesine ilişkin açıklamalar. Birleştirilmiş nomenklatürün 2106 10 20, 2106 10 80 ve 3504 00 90 alt maddelerine ilişkin açıklamalar. Bir…",
-     "url": "https://ec.europa.eu/taxation_customs/dds2/ebti/ebti_details.jsp?showHeader=false&Lang=en&reference=CZBTI47%2F486548%2F2026-300000-ZI%2F01"
+     "title": "Ürün, DIN 7505'e uygun paslanmaz çelik dışında çelikten yapılmış, ahşap vidası olan bir vidadır. Vida, ahşap birleştirmelerinde kullanılır. Boyutlar: 2,5 ile 6 mm arasında çaplar, 10 ile 300 mm arasında uzunluklar. İki varyant halinde sunulabilir: gömülü başlı veya bombeli başlı …",
+     "gerekce": "Birleştirilmiş Nomenclatürün genel yorumlama kuralları: 1 ve 6. 7318 pozisyonundan NESA.",
+     "url": "https://ec.europa.eu/taxation_customs/dds2/ebti/ebti_details.jsp?showHeader=false&Lang=en&reference=ROBTI2026-005516"
     },
     {
      "source": "uk",
@@ -6706,15 +6706,15 @@ window.BTI_DATA = {
      "source": "eu",
      "source_label": "Avrupa Birliği (EBTI)",
      "color": "#2E6BE6",
-     "flag": "🇳🇱",
-     "origin": "Hollanda",
-     "hs": "69120089",
-     "hs4": "6912",
-     "ref": "NLBTI2026-0300",
+     "flag": "🇨🇿",
+     "origin": "Çekya",
+     "hs": "21061020",
+     "hs4": "2106",
+     "ref": "CZBTI47/486548/2026-300000-ZI/01",
      "date": "2026-08-11",
-     "title": "Bildiri uyarınca aşağıdakileri içeren ve bunlar gibi özellikleri olan evcil hayvanlar için seramik mama kabı: küçük ve orta büyüklükteki hayvanların (kuru) mamalarını yemelerine yönelik; seramikten yapılmış; sinterleme işlemi uygulanmış; yuvarlak kap şeklinde; çeşitli boyut ve re…",
-     "gerekce": "Birleştirilmiş nomenklatürün yorumlanması için genel kurallar 1 ve 6. 69. Bölüme 1 nolu not. GS maddesi 6912 hakkında açıklama. GN kodları 6912 00 ve 6912 00 89'un metni. Laboratuvar 22 Mayıs 2026 tarihinde danışılmıştır…",
-     "url": "https://ec.europa.eu/taxation_customs/dds2/ebti/ebti_details.jsp?showHeader=false&Lang=en&reference=NLBTI2026-0300"
+     "title": "Beyan edilen veriler uyarınca, bitki kökenli gıda hazırlaması olan bezelye proteini söz konusudur. Kuru maddedeki protein içeriği %85 ağırlıkçasını aşmaz. Toz halindeki bezelye proteini, olgun bezelye tanelerinin öğütülmesi, kurutulması ve son ayrıştırma ile yapılır. Süt yağı, sü…",
+     "gerekce": "Birleştirilmiş nomenklatürün yorumlanması için genel kurallar 1 ve 6. HS için 2106 maddesine ilişkin açıklamalar. Birleştirilmiş nomenklatürün 2106 10 20, 2106 10 80 ve 3504 00 90 alt maddelerine ilişkin açıklamalar. Bir…",
+     "url": "https://ec.europa.eu/taxation_customs/dds2/ebti/ebti_details.jsp?showHeader=false&Lang=en&reference=CZBTI47%2F486548%2F2026-300000-ZI%2F01"
     },
     {
      "source": "uk",
@@ -6736,13 +6736,13 @@ window.BTI_DATA = {
      "color": "#2E6BE6",
      "flag": "🇳🇱",
      "origin": "Hollanda",
-     "hs": "34029010",
-     "hs4": "3402",
-     "ref": "NLBTI2026-0313",
+     "hs": "69120089",
+     "hs4": "6912",
+     "ref": "NLBTI2026-0300",
      "date": "2026-08-11",
-     "title": "Bildiri uyarınca aşağıdaki bileşenleri ve özellikleri içeren yarı mamul ürün: başlıca emülsifiyer olarak kullanılmaktadır; kırılmış beyaz tanecikler halinde; sakkaroz distearat; sakkaroz stearat; setil palmitat; setearil alkol; behenilalkol; sklerotium sakız; ksantan sakız. Ürün …",
-     "gerekce": "Birleştirilmiş nomenklatürün yorumlanması için genel kurallar 1 ve 6. 34. Bölüme 3 nolu not. Maddesi 34.02 hakkında Uyumlandırılmış Sistem açıklaması. GN kodları 3402, 3402 90 ve 3402 90 10'un metni. Laboratuvar 2 Hazira…",
-     "url": "https://ec.europa.eu/taxation_customs/dds2/ebti/ebti_details.jsp?showHeader=false&Lang=en&reference=NLBTI2026-0313"
+     "title": "Bildiri uyarınca aşağıdakileri içeren ve bunlar gibi özellikleri olan evcil hayvanlar için seramik mama kabı: küçük ve orta büyüklükteki hayvanların (kuru) mamalarını yemelerine yönelik; seramikten yapılmış; sinterleme işlemi uygulanmış; yuvarlak kap şeklinde; çeşitli boyut ve re…",
+     "gerekce": "Birleştirilmiş nomenklatürün yorumlanması için genel kurallar 1 ve 6. 69. Bölüme 1 nolu not. GS maddesi 6912 hakkında açıklama. GN kodları 6912 00 ve 6912 00 89'un metni. Laboratuvar 22 Mayıs 2026 tarihinde danışılmıştır…",
+     "url": "https://ec.europa.eu/taxation_customs/dds2/ebti/ebti_details.jsp?showHeader=false&Lang=en&reference=NLBTI2026-0300"
     },
     {
      "source": "uk",
@@ -6757,6 +6757,34 @@ window.BTI_DATA = {
      "title": "Angelo Lelii tasarımlı, circa 1959 tarihli pirinç ve akrilik masa lambası (2 adet)",
      "gerekce": "Ürün, İtalyan tasarımcı Angelo Lelii'nin bilim ve teknoloji tarihi açısından önemli eseri olarak 9705 başlığı (tarihi ve koleksiyonluk değer taşıyan eşya) kapsamında sınıflandırılmıştır. Lelii'nin Arredoluce kurucusu ve …",
      "url": "https://www.tax.service.gov.uk/search-for-advance-tariff-rulings/ruling/600015757"
+    },
+    {
+     "source": "eu",
+     "source_label": "Avrupa Birliği (EBTI)",
+     "color": "#2E6BE6",
+     "flag": "🇳🇱",
+     "origin": "Hollanda",
+     "hs": "34029010",
+     "hs4": "3402",
+     "ref": "NLBTI2026-0313",
+     "date": "2026-08-11",
+     "title": "Bildiri uyarınca aşağıdaki bileşenleri ve özellikleri içeren yarı mamul ürün: başlıca emülsifiyer olarak kullanılmaktadır; kırılmış beyaz tanecikler halinde; sakkaroz distearat; sakkaroz stearat; setil palmitat; setearil alkol; behenilalkol; sklerotium sakız; ksantan sakız. Ürün …",
+     "gerekce": "Birleştirilmiş nomenklatürün yorumlanması için genel kurallar 1 ve 6. 34. Bölüme 3 nolu not. Maddesi 34.02 hakkında Uyumlandırılmış Sistem açıklaması. GN kodları 3402, 3402 90 ve 3402 90 10'un metni. Laboratuvar 2 Hazira…",
+     "url": "https://ec.europa.eu/taxation_customs/dds2/ebti/ebti_details.jsp?showHeader=false&Lang=en&reference=NLBTI2026-0313"
+    },
+    {
+     "source": "uk",
+     "source_label": "İngiltere (HMRC)",
+     "color": "#012169",
+     "flag": "🇬🇧",
+     "origin": "İngiltere",
+     "hs": "4421999999",
+     "hs4": "4421",
+     "ref": "600015694",
+     "date": "2026-08-11",
+     "title": "Solid pine wood taban ve transparent acrylic panellerden oluşan, entegre LED aydınlatmalı vinil plak standı/tutuşu",
+     "gerekce": "Ahşap esas madde olarak Heading 4421 (diğer ahşap malzemeler) altında sınıflandırılmıştır. Acrylic paneller dekoratif karakter taşıması nedeniyle esas madde statüsü değiştirmemektedir. GIR3(c) uyarınca eşit değerde birde…",
+     "url": "https://www.tax.service.gov.uk/search-for-advance-tariff-rulings/ruling/600015694"
     },
     {
      "source": "eu",
@@ -6778,13 +6806,13 @@ window.BTI_DATA = {
      "color": "#012169",
      "flag": "🇬🇧",
      "origin": "İngiltere",
-     "hs": "4421999999",
-     "hs4": "4421",
-     "ref": "600015694",
+     "hs": "8473308000",
+     "hs4": "8473",
+     "ref": "600014778",
      "date": "2026-08-11",
-     "title": "Solid pine wood taban ve transparent acrylic panellerden oluşan, entegre LED aydınlatmalı vinil plak standı/tutuşu",
-     "gerekce": "Ahşap esas madde olarak Heading 4421 (diğer ahşap malzemeler) altında sınıflandırılmıştır. Acrylic paneller dekoratif karakter taşıması nedeniyle esas madde statüsü değiştirmemektedir. GIR3(c) uyarınca eşit değerde birde…",
-     "url": "https://www.tax.service.gov.uk/search-for-advance-tariff-rulings/ruling/600015694"
+     "title": "Yayın kamerası kontrol paneli (8 kameralı sistem, CCU kontrolleri, iris/pedestal/shutter/beyaz balans/RGB kazanç ayarları)",
+     "gerekce": "Ürün, heading 8471'in makineleri (dijital işlem cihazları) için münhasıran veya esas olarak kullanıma uygun parça ve aksesuar niteliğine sahiptir. GIR 1 ve GIR 6 uyarınca 8473 başlığının 8473.30 alt pozisyonuna, elektron…",
+     "url": "https://www.tax.service.gov.uk/search-for-advance-tariff-rulings/ruling/600014778"
     },
     {
      "source": "eu",
@@ -6808,11 +6836,11 @@ window.BTI_DATA = {
      "origin": "İngiltere",
      "hs": "8473308000",
      "hs4": "8473",
-     "ref": "600014778",
+     "ref": "600014777",
      "date": "2026-08-11",
-     "title": "Yayın kamerası kontrol paneli (8 kameralı sistem, CCU kontrolleri, iris/pedestal/shutter/beyaz balans/RGB kazanç ayarları)",
-     "gerekce": "Ürün, heading 8471'in makineleri (dijital işlem cihazları) için münhasıran veya esas olarak kullanıma uygun parça ve aksesuar niteliğine sahiptir. GIR 1 ve GIR 6 uyarınca 8473 başlığının 8473.30 alt pozisyonuna, elektron…",
-     "url": "https://www.tax.service.gov.uk/search-for-advance-tariff-rulings/ruling/600014778"
+     "title": "Yazılım kontrolü sağlayan kişisel bilgisayar için donanım anahtarlama paneli, aydınlatmalı düğmeler ve taşınabilir tasarım",
+     "gerekce": "8471 başlığının makinaları için yan parça ve aksesuarlarına ilişkin 8473 başlığı kapsamında sınıflandırılmıştır. Ürün, yalnızca bu makinalarla kullanılmaya uygun olması nedeniyle GIR 1 ve GIR 6 kurallarına göre 8473.30.8…",
+     "url": "https://www.tax.service.gov.uk/search-for-advance-tariff-rulings/ruling/600014777"
     },
     {
      "source": "eu",
@@ -6827,20 +6855,6 @@ window.BTI_DATA = {
      "title": "Ahşap kutuda perakende satış için birlikte paketlenmiş, yeniden kullanılabilir çereze tabağı tipinde, birkaç gıda hazırlaması ve baharatı içeren koleksiyon, şu şekilde oluşturulmuş: 80g kurutulmuş domates bazlı sürülebilir ürün 1 potası, 100g zeytin bazlı sürülebilir ürün 1 potas…",
      "gerekce": "Genel kurallar 1 ve 6: Sınıflandırma, bölüm ve bölüm notları ile madde ve alt madde başlıkları tarafından belirlenir. Genel kural 5b): Ambalaj, mal ile birlikte sınıflandırılır. 20. Bölümün 3 nolu notu: Madde numaraları …",
      "url": "https://ec.europa.eu/taxation_customs/dds2/ebti/ebti_details.jsp?showHeader=false&Lang=en&reference=FRBTIFR-BTI-2025-08282-02"
-    },
-    {
-     "source": "uk",
-     "source_label": "İngiltere (HMRC)",
-     "color": "#012169",
-     "flag": "🇬🇧",
-     "origin": "İngiltere",
-     "hs": "8473308000",
-     "hs4": "8473",
-     "ref": "600014777",
-     "date": "2026-08-11",
-     "title": "Yazılım kontrolü sağlayan kişisel bilgisayar için donanım anahtarlama paneli, aydınlatmalı düğmeler ve taşınabilir tasarım",
-     "gerekce": "8471 başlığının makinaları için yan parça ve aksesuarlarına ilişkin 8473 başlığı kapsamında sınıflandırılmıştır. Ürün, yalnızca bu makinalarla kullanılmaya uygun olması nedeniyle GIR 1 ve GIR 6 kurallarına göre 8473.30.8…",
-     "url": "https://www.tax.service.gov.uk/search-for-advance-tariff-rulings/ruling/600014777"
     },
     {
      "source": "eu",
@@ -7421,12 +7435,27 @@ window.BTI_DATA = {
   {
    "date": "2026-08-10",
    "date_tr": "10 Ağustos 2026",
-   "count": 3,
+   "count": 4,
    "sources": [
+    "eu",
     "tr",
     "uk"
    ],
    "decisions": [
+    {
+     "source": "eu",
+     "source_label": "Avrupa Birliği (EBTI)",
+     "color": "#2E6BE6",
+     "flag": "🇷🇴",
+     "origin": "Romanya",
+     "hs": "73181900",
+     "hs4": "7318",
+     "ref": "ROBTI2026-005513",
+     "date": "2026-08-10",
+     "title": "Talep edenin açıklaması ve veri tabanında yayınlanan fotoğrafa göre, ürün bir sabitleme ankörü temsil eder. Özel dişli bir vidadan, metalik dübelden (metalik gövde) ve özel sabitleme sadeinden oluşan çelikten yapılmış genişleyen bir üründür. Ürün, tezgah çerçevelerine sabitleme e…",
+     "gerekce": "Birleştirilmiş Nomenclatürün genel yorumlama kuralları: 1 ve 6. 20.6.2011 tarihli (AB) 602/2011 Yönetmelik (OJ L 163, 23.6.2011, s. 8). 7318 pozisyonundan NESA.",
+     "url": "https://ec.europa.eu/taxation_customs/dds2/ebti/ebti_details.jsp?showHeader=false&Lang=en&reference=ROBTI2026-005513"
+    },
     {
      "source": "uk",
      "source_label": "İngiltere (HMRC)",
@@ -29476,7 +29505,7 @@ window.BTI_DATA = {
   {
    "date": "2026-07-14",
    "date_tr": "14 Temmuz 2026",
-   "count": 69,
+   "count": 70,
    "sources": [
     "eu",
     "uk",
@@ -30420,6 +30449,20 @@ window.BTI_DATA = {
      "title": "Cep veya el çantası aksesuarı, kart cüzdanı türü, dikdörtgen şekli; çıplak gözle görülebilir dış yüzeyinin çoğu poliyester Jacquard kumaşı (tekstil malzeme) ile yapılmış. Ürün, kenarları dana derisi ile süslenmiş kapaklı kapanış mekanizması ile donatılmıştır. Boyutlar: 13 × 9,5 ×…",
      "gerekce": "Genel Kurallar 1 ve 6: Sınıflandırma, bölüm ve bölüm notaları ile pozisyon, alt-pozisyon ve NC kodu tanımları tarafından belirlenecektir. Genel Kural 2 b): Karışık veya bileşik ürünlerin sınıflandırması, Genel Kural 3'te…",
      "url": "https://ec.europa.eu/taxation_customs/dds2/ebti/ebti_details.jsp?showHeader=false&Lang=en&reference=FRBTIFR-BTI-2025-08718"
+    },
+    {
+     "source": "eu",
+     "source_label": "Avrupa Birliği (EBTI)",
+     "color": "#2E6BE6",
+     "flag": "🇷🇴",
+     "origin": "Romanya",
+     "hs": "73181900",
+     "hs4": "7318",
+     "ref": "ROBTI2026-005515",
+     "date": "2026-07-14",
+     "title": "Talep edenin açıklaması ve ek fotoğrafa göre, ürün metalik dübelle donanmış bir vida temsil eder. Ürün genişleyen bir elementtir ve uzun gövdeli metalik sabitleme ankörü (conexpand) temsil eder. Başsız dişli bir çubuk ve silindirik başlı bir çubuk, uzun metalik dübel (gövde) ve ç…",
+     "gerekce": "Birleştirilmiş Nomenclatürün genel yorumlama kuralları no. 1 ve 6. (AB) no. 602/2011 Belirli malların NCNESA'da sınıflandırılması hakkında Yönetmelik. 7318 tarife pozisyonundan NESA.",
+     "url": "https://ec.europa.eu/taxation_customs/dds2/ebti/ebti_details.jsp?showHeader=false&Lang=en&reference=ROBTI2026-005515"
     },
     {
      "source": "eu",
