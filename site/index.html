@@ -396,6 +396,8 @@
       '<span class="mono" style="font-size:13px;color:var(--faint)">'+esc(d.hs||'')+'</span></div>' +
       '<div class="meta">'+(d.flag?esc(d.flag)+' ':'')+esc(s.name)+(d.origin&&d.origin!==s.name?' · '+esc(d.origin):'')+
         (s.sys?' · '+esc(s.sys):'')+(d.date?' · '+esc(d.date):'')+
+        // AB'de gün gruplaması geçerlilik başlangıcına göre; karar tarihi farklıysa onu da göster
+        (d.date_issue && d.date_issue!==d.date?'<br>Geçerlilik başlangıcı: '+esc(d.date)+' · Karar tarihi: '+esc(d.date_issue):'')+
         (fasilAd?'<br>Fasıl '+esc(String(d.hs4).slice(0,2))+' · '+esc(fasilAd):'')+'</div>';
     if(d.ref) html += '<div class="sec">Referans</div><div class="txt mono" style="font-size:13px">'+esc(d.ref)+'</div>';
     if(d.title) html += '<div class="sec">Ürün tanımı</div><div class="txt">'+esc(d.title)+'</div>';

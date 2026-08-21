@@ -187,7 +187,11 @@ def normalize(src_dir, meta, rec, data):
 
     if slug == "eu":
         hs = rec.get("hs", "")
-        date_iso = iso_from_any(rec.get("date_issue", ""))
+        # Gün gruplaması GEÇERLİLİK BAŞLANGICINA göre: EBTI'nin günlük yayını da
+        # (valstartdate araması) buna göredir, böylece EBTI'de bir günde görünen
+        # karar sitede de aynı günde çıkar. Karar tarihi ayrıca saklanır.
+        date_issue_iso = iso_from_any(rec.get("date_issue", ""))
+        date_start_iso = iso_from_any(rec.get("date_start", "")) or date_issue_iso
         country = rec.get("country", "")
         cname, cflag = EU_COUNTRY.get(country, (country, "🇪🇺"))
         return {
@@ -195,10 +199,11 @@ def normalize(src_dir, meta, rec, data):
             "flag": cflag, "origin": cname,
             "hs": hs, "hs4": hs4(hs),
             "ref": rec.get("ref", ""),
-            "date": date_iso,
+            "date": date_start_iso,
+            "date_issue": date_issue_iso,
             "title": clip(rec.get("desc_tr", ""), 280),
             "gerekce": clip(rec.get("just_tr", ""), 220),
-            "url": eu_source_url(rec.get("ref", ""), country, date_iso),
+            "url": eu_source_url(rec.get("ref", ""), country, date_issue_iso),
         }
 
     if slug == "us":

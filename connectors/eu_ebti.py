@@ -344,6 +344,9 @@ class EuEbtiConnector(BaseConnector):
                 "country":    row.get("ISSUING_COUNTRY", "").strip(),
                 "hs":         hs,
                 "date_issue": (row.get("DATE_OF _ISSUE") or "").strip(),
+                # Geçerlilik başlangıcı: site kararları BU tarihe göre gruplar,
+                # çünkü EBTI'nin günlük yayını da geçerlilik başlangıcına göredir.
+                "date_start": (row.get("START_DATE_OF_VALIDITY") or "").strip(),
                 "desc_tr":    row.get("desc_tr", desc_orig),
                 "just_tr":    row.get("just_tr", just_orig),
                 "has_image":  row.get("Resim_Var", "HAYIR") == "EVET",
@@ -430,6 +433,9 @@ class EuEbtiConnector(BaseConnector):
                 "country":    row.get("ISSUING_COUNTRY", "").strip(),
                 "hs":         hs,
                 "date_issue": (row.get("DATE_OF _ISSUE") or "").strip(),
+                # Geçerlilik başlangıcı: site kararları BU tarihe göre gruplar,
+                # çünkü EBTI'nin günlük yayını da geçerlilik başlangıcına göredir.
+                "date_start": (row.get("START_DATE_OF_VALIDITY") or "").strip(),
                 "desc_tr":    row.get("desc_tr", desc_orig),
                 "just_tr":    row.get("just_tr", just_orig),
                 "has_image":  row.get("Resim_Var", "HAYIR") == "EVET",
