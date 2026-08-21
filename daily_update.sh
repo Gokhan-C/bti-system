@@ -26,6 +26,24 @@ mkdir -p "$LOG_DIR"
 LOG="$LOG_DIR/daily_update.log"
 TS() { date "+%Y-%m-%d %H:%M:%S"; }
 
+# main.py için üst süre sınırı. Normal çalışma 35-45 dk (en uzunu ~1s45dk),
+# ama 21 Ağu 2026'da EU aşamasında bir Claude çağrısı asılı kalıp toplam süre
+# 13.5 saate çıktı; site ancak akşam güncellendi. Sınır aşılırsa main.py
+# durdurulur ve site ELDEKİ veriyle yine de tazelenir/yayınlanır.
+MAIN_MAX_SEC="${MAIN_MAX_SEC:-10800}"   # 3 saat
+
+# Komutu en fazla N saniye çalıştırır; aşarsa önce TERM, sonra KILL gönderir.
+run_with_timeout() {
+  local secs="$1"; shift
+  "$@" &
+  local pid=$!
+  ( sleep "$secs"; kill -TERM "$pid" 2>/dev/null; sleep 20; kill -KILL "$pid" 2>/dev/null ) >/dev/null 2>&1 &
+  local wd=$!
+  wait "$pid"; local rc=$?
+  kill "$wd" 2>/dev/null
+  return $rc
+}
+
 {
   echo ""
   echo "════════════════════════════════════════════════════════"
@@ -34,8 +52,13 @@ TS() { date "+%Y-%m-%d %H:%M:%S"; }
   # 1) Veri çekme + raporlar (tüm connector'lar, varsayılan tarih = dün)
   echo "[$(TS)] main.py çalışıyor..."
   MAIN_OUT="$LOG_DIR/last_main_run.log"
-  "$PY" "$SCRIPT_DIR/main.py" --config "$SCRIPT_DIR/config.yaml" 2>&1 | tee "$MAIN_OUT"
-  echo "[$(TS)] main.py bitti (exit=$?)"
+  run_with_timeout "$MAIN_MAX_SEC" "$PY" "$SCRIPT_DIR/main.py" --config "$SCRIPT_DIR/config.yaml" > "$MAIN_OUT" 2>&1
+  MAIN_RC=$?
+  cat "$MAIN_OUT"
+  if [ "$MAIN_RC" -eq 143 ] || [ "$MAIN_RC" -eq 137 ]; then
+    echo "[$(TS)] ⚠ main.py $MAIN_MAX_SEC sn sınırını aştı ve durduruldu — site eldeki veriyle güncellenecek."
+  fi
+  echo "[$(TS)] main.py bitti (exit=$MAIN_RC)"
 
   # 1b) Hata veren connector'ları tek tek yeniden dene (2 Tem 2026: eu_ebti
   # launch timeout ile düşünce günün EU verisi tamamen kaçmıştı).
