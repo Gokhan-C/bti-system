@@ -1,13 +1,13 @@
 window.BTI_DATA = {
- "generated_at": "2026-08-22 06:24",
- "today": "2026-08-22",
- "today_tr": "22 Ağustos 2026",
- "latest_date": "2026-08-21",
+ "generated_at": "2026-08-23 08:15",
+ "today": "2026-08-23",
+ "today_tr": "23 Ağustos 2026",
+ "latest_date": "2026-08-22",
  "latest_is_today": false,
- "total_decisions": 4629,
- "total_days": 109,
+ "total_decisions": 4630,
+ "total_days": 110,
  "source_counts": {
-  "eu": 3694,
+  "eu": 3695,
   "us": 403,
   "ca": 18,
   "uk": 239,
@@ -106,6 +106,31 @@ window.BTI_DATA = {
   "98"
  ],
  "days": [
+  {
+   "date": "2026-08-22",
+   "date_tr": "22 Ağustos 2026",
+   "count": 1,
+   "sources": [
+    "eu"
+   ],
+   "decisions": [
+    {
+     "source": "eu",
+     "source_label": "Avrupa Birliği (EBTI)",
+     "color": "#2E6BE6",
+     "flag": "🇧🇪",
+     "origin": "Belçika",
+     "hs": "92099400",
+     "hs4": "9209",
+     "ref": "BEBTIDT.50.025.362",
+     "date": "2026-08-22",
+     "date_issue": "2026-08-04",
+     "title": "Bir davul ses modülünün ana kartı, baskılı devre kartı şeklinde. Aktif ve pasif bileşenler olarak bu baskılı devre kartı dirençler, kondansatörler, transistörler, işlemsel yükselteçler, mikrodenetleyiciler, bellekler vb. geniş bir yelpazesi içerir. Baskılı devre kartının tabanı c…",
+     "gerekce": "Sınıflandırma, birleştirilmiş nomenklatürün yorumlanmasına ilişkin genel kurallar 1 ve 6'ya dayanarak ve madde 9209 ve GS kodu 9209 94'ün metni temelinde belirlenmiştir. Madde 9209C-336/11 üzerine GS açıklamaları.",
+     "url": "https://ec.europa.eu/taxation_customs/dds2/ebti/ebti_details.jsp?showHeader=false&Lang=en&reference=BEBTIDT.50.025.362"
+    }
+   ]
+  },
   {
    "date": "2026-08-21",
    "date_tr": "21 Ağustos 2026",
