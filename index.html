@@ -60,6 +60,14 @@
   .btn{border:none;border-radius:13px;padding:15px 28px;font-weight:700;font-size:15px;text-decoration:none;display:inline-flex;align-items:center;gap:8px}
   .btn.dark{background:#16202b;color:#fff;box-shadow:0 12px 30px rgba(22,32,43,.26)}
   .btn.lite{border:1px solid #d7e0ea;background:rgba(255,255,255,.7);color:#16202b}
+  /* ---------- dil anahtarı ---------- */
+  .langsw{position:fixed;top:14px;right:16px;z-index:200;display:inline-flex;background:rgba(255,255,255,.9);
+    backdrop-filter:blur(8px);border:1px solid #d7e0ea;border-radius:100px;padding:3px;gap:2px;
+    box-shadow:0 6px 20px rgba(40,90,160,.10)}
+  .langsw button{border:none;background:transparent;border-radius:100px;padding:6px 13px;font-size:13px;
+    font-weight:700;color:var(--faint);letter-spacing:.03em}
+  .langsw button[aria-pressed="true"]{background:#16202b;color:#fff}
+  @media(max-width:520px){.langsw{top:8px;right:8px}}
   .scrollhint{position:absolute;bottom:26px;left:50%;transform:translateX(-50%);color:var(--faint);font-size:12.5px;letter-spacing:.04em}
 
   /* ---------- INFO ---------- */
@@ -192,6 +200,11 @@
 </head>
 <body>
 
+<div class="langsw" role="group" aria-label="Dil / Language">
+  <button id="langTR" aria-pressed="true">TR</button>
+  <button id="langEN" aria-pressed="false">EN</button>
+</div>
+
 <!-- ===================== HERO ===================== -->
 <section class="hero">
   <div class="blob" style="left:8%;top:16%;width:280px;height:130px;opacity:.7;animation-duration:46s"></div>
@@ -199,30 +212,30 @@
   <div class="blob" style="left:30%;top:60%;width:340px;height:150px;opacity:.55;animation-duration:52s;animation-delay:-22s"></div>
   <div class="blob" style="left:80%;top:54%;width:180px;height:90px;opacity:.5;animation-duration:64s;animation-delay:-8s"></div>
 
-  <span class="badge"><i></i><span id="badgeTxt">her gün otomatik güncellenir</span></span>
-  <h1 class="disp">Dünyanın tarife kararları,<br>her gün gökyüzünde.</h1>
-  <p class="sub">Avrupa Birliği, Amerika, Kanada, İngiltere ve Türkiye gümrük idarelerinin yayımladığı bağlayıcı tarife sınıflandırma kararlarını tek ekranda topluyoruz. Bir buluta dokun, kararın detayını gör, orijinal kaynağına uç.</p>
+  <span class="badge"><i></i><span id="badgeTxt" data-i18n="badge">her gün otomatik güncellenir</span></span>
+  <h1 class="disp" data-i18n-html="hero_h1">Dünyanın tarife kararları,<br>her gün gökyüzünde.</h1>
+  <p class="sub" data-i18n="hero_sub">Avrupa Birliği, Amerika, Kanada, İngiltere ve Türkiye gümrük idarelerinin yayımladığı bağlayıcı tarife sınıflandırma kararlarını tek ekranda topluyoruz. Bir buluta dokun, kararın detayını gör, orijinal kaynağına uç.</p>
 
   <div class="stats" id="statCards"></div>
 
   <div class="ctas">
-    <button class="btn dark" onclick="scrollToId('sky')">Günün kararlarını gör ↓</button>
-    <a class="btn lite" href="dashboard.html">İstatistik paneli →</a>
-    <a class="btn lite" href="favorites.html" id="favLink">★ Favorilerim →</a>
-    <button class="btn lite" onclick="scrollToId('info')">Nasıl çalışır?</button>
+    <button class="btn dark" onclick="scrollToId('sky')" data-i18n="btn_today">Günün kararlarını gör ↓</button>
+    <a class="btn lite" href="dashboard.html" data-i18n="btn_dash">İstatistik paneli →</a>
+    <a class="btn lite" href="favorites.html" id="favLink" data-i18n="btn_fav">★ Favorilerim →</a>
+    <button class="btn lite" onclick="scrollToId('info')" data-i18n="btn_how">Nasıl çalışır?</button>
   </div>
-  <div class="scrollhint">aşağı kaydır ↓</div>
+  <div class="scrollhint" data-i18n="scrollhint">aşağı kaydır ↓</div>
 </section>
 
 <!-- ===================== INFO ===================== -->
 <section id="info" class="info">
-  <div class="eyebrow">Bu site ne yapıyor</div>
-  <h2 class="disp">Beş idarenin tarife kararları, tek bir gökyüzünde</h2>
+  <div class="eyebrow" data-i18n="info_eyebrow">Bu site ne yapıyor</div>
+  <h2 class="disp" data-i18n="info_h2">Beş idarenin tarife kararları, tek bir gökyüzünde</h2>
   <div class="grid4">
-    <div class="icard"><div class="n">01</div><h3>5 idare, tek ekran</h3><p>AB (EBTI), ABD (CBP CROSS), Kanada (CBSA), İngiltere (HMRC ATaR) ve Türkiye (BTB) kararları her gün otomatik toplanır.</p></div>
-    <div class="icard"><div class="n">02</div><h3>Arşivde ara</h3><p>GTİP kodu, referans numarası veya ürün adıyla tüm arşivde arama yap; fasıl ve ülke filtrele.</p></div>
-    <div class="icard"><div class="n">03</div><h3>Detay ve kaynak</h3><p>Bir karara dokun: ürün tanımı ve sınıflandırma gerekçesini gör, resmi kaynağa tek tıkla git.</p></div>
-    <div class="icard"><div class="n">04</div><h3>Bulut veya liste</h3><p>Günü gökyüzünde keşfet ya da liste görünümüne geçip kararları fasıl fasıl tara.</p></div>
+    <div class="icard"><div class="n">01</div><h3 data-i18n="i1h">5 idare, tek ekran</h3><p data-i18n="i1p">AB (EBTI), ABD (CBP CROSS), Kanada (CBSA), İngiltere (HMRC ATaR) ve Türkiye (BTB) kararları her gün otomatik toplanır.</p></div>
+    <div class="icard"><div class="n">02</div><h3 data-i18n="i2h">Arşivde ara</h3><p data-i18n="i2p">GTİP kodu, referans numarası veya ürün adıyla tüm arşivde arama yap; fasıl ve ülke filtrele.</p></div>
+    <div class="icard"><div class="n">03</div><h3 data-i18n="i3h">Detay ve kaynak</h3><p data-i18n="i3p">Bir karara dokun: ürün tanımı ve sınıflandırma gerekçesini gör, resmi kaynağa tek tıkla git.</p></div>
+    <div class="icard"><div class="n">04</div><h3 data-i18n="i4h">Bulut veya liste</h3><p data-i18n="i4p">Günü gökyüzünde keşfet ya da liste görünümüne geçip kararları fasıl fasıl tara.</p></div>
   </div>
 </section>
 
@@ -248,10 +261,10 @@
         <button class="clr" id="qClr" aria-label="Aramayı temizle">✕</button>
       </label>
       <div class="chips" id="chips" role="group" aria-label="Kaynak filtresi"></div>
-      <select class="fasil" id="fasil" aria-label="Fasıl filtresi"><option value="">Tüm fasıllar</option></select>
+      <select class="fasil" id="fasil" aria-label="Fasıl filtresi"><option value="" data-i18n="all_chapters">Tüm fasıllar</option></select>
       <div class="viewtgl" role="group" aria-label="Görünüm">
-        <button id="vSky" class="on">☁ Bulut</button>
-        <button id="vList">☰ Liste</button>
+        <button id="vSky" class="on" data-i18n="view_cloud">☁ Bulut</button>
+        <button id="vList" data-i18n="view_list">☰ Liste</button>
       </div>
     </div>
   </div>
@@ -259,7 +272,7 @@
   <div class="wrap"><div class="note" id="note" style="display:none"></div></div>
 
   <div class="wrap legendline" id="legendline">
-    <span class="tailnote">bulut = bir karar · sayı = GTİP'in ilk 4 hanesi · dokun → detay</span>
+    <span class="tailnote" data-i18n="tailnote">bulut = bir karar · sayı = GTİP'in ilk 4 hanesi · dokun → detay</span>
   </div>
 
   <div class="wrap">
@@ -293,6 +306,166 @@
 <script>
 (function(){
   'use strict';
+  /* ================= i18n (TR / EN) =================
+     Arayüz iki dilde; karar metinleri EN modunda ORİJİNAL dilinde gösterilir
+     (ABD/İngiltere/Kanada İngilizce, AB kendi dilinde, Türkiye Türkçe). */
+  var LANG = (function(){
+    try { var v = localStorage.getItem('bti_lang'); if(v==='en'||v==='tr') return v; } catch(e){}
+    return (navigator.language||'tr').toLowerCase().indexOf('tr')===0 ? 'tr' : 'en';
+  })();
+
+  var I18N = {
+    tr:{
+      badge:'her gün otomatik güncellenir',
+      hero_h1:'Dünyanın tarife kararları,<br>her gün gökyüzünde.',
+      hero_sub:'Avrupa Birliği, Amerika, Kanada, İngiltere ve Türkiye gümrük idarelerinin yayımladığı bağlayıcı tarife sınıflandırma kararlarını tek ekranda topluyoruz. Bir buluta dokun, kararın detayını gör, orijinal kaynağına uç.',
+      btn_today:'Günün kararlarını gör ↓', btn_dash:'İstatistik paneli →', btn_fav:'★ Favorilerim →',
+      btn_how:'Nasıl çalışır?', scrollhint:'aşağı kaydır ↓',
+      info_eyebrow:'Bu site ne yapıyor', info_h2:'Beş idarenin tarife kararları, tek bir gökyüzünde',
+      i1h:'5 idare, tek ekran', i1p:'AB (EBTI), ABD (CBP CROSS), Kanada (CBSA), İngiltere (HMRC ATaR) ve Türkiye (BTB) kararları her gün otomatik toplanır.',
+      i2h:'Arşivde ara', i2p:'GTİP kodu, referans numarası veya ürün adıyla tüm arşivde arama yap; fasıl ve ülke filtrele.',
+      i3h:'Detay ve kaynak', i3p:'Bir karara dokun: ürün tanımı ve sınıflandırma gerekçesini gör, resmi kaynağa tek tıkla git.',
+      i4h:'Bulut veya liste', i4p:'Günü gökyüzünde keşfet ya da liste görünümüne geçip kararları fasıl fasıl tara.',
+      all_chapters:'Tüm fasıllar', view_cloud:'☁ Bulut', view_list:'☰ Liste',
+      tailnote:"bulut = bir karar · sayı = GTİP'in ilk 4 hanesi · dokun → detay",
+      search_ph:'GTİP veya referans ara… (örn. 8471)',
+      today_decisions:'Bugünün kararları', selected_day:'Seçili günün kararları',
+      decisions:'karar', archive_note:'günlük arşivde arandı', found:'bulundu',
+      chapter:'Fasıl', ref:'Referans', desc:'Ürün tanımı', reason:'Sınıflandırma gerekçesi',
+      open_src:'Resmî kaynağı aç ↗', copy_link:'Bağlantıyı kopyala', copied:'Kopyalandı ✓',
+      fav_on:'★ Favorilerimde', fav_off:'☆ Favorilerime kaydet',
+      note_label:'Notum', note_saved:'✓ kaydedildi', note_ph:'Bu kararı neden kaydettin? (otomatik kaydedilir)',
+      tip_detail:'detay için tıkla', tip_fav:' ile favorilerine kaydet',
+      empty_day:'Bu gün ve filtrelerle eşleşen karar yok.',
+      empty_hint:'Filtreleri temizleyin ya da oklarla başka bir güne geçin.',
+      empty_search:'Eşleşen karar bulunamadı. Aramayı kısaltmayı ya da filtreleri temizlemeyi deneyin.',
+      archive_of:'arşivdeki karar', updated:'son güncelleme', days_archive:'gün arşiv',
+      prev_day:'Önceki gün', next_day:'Sonraki gün', clear_search:'Aramayı temizle',
+      orig_note:'', valid_from:'Geçerlilik başlangıcı', decided_on:'Karar tarihi'
+    },
+    en:{
+      badge:'updated automatically every day',
+      hero_h1:"The world's tariff rulings,<br>in one sky, every day.",
+      hero_sub:'Binding tariff classification rulings from the customs authorities of the European Union, the United States, Canada, the United Kingdom and Türkiye — gathered on a single screen. Tap a cloud to see the ruling and fly to its original source.',
+      btn_today:"See today's rulings ↓", btn_dash:'Statistics panel →', btn_fav:'★ My favourites →',
+      btn_how:'How it works', scrollhint:'scroll down ↓',
+      info_eyebrow:'What this site does', info_h2:'Five authorities, one shared sky of tariff rulings',
+      i1h:'5 authorities, one screen', i1p:'Rulings from the EU (EBTI), the US (CBP CROSS), Canada (CBSA), the UK (HMRC ATaR) and Türkiye (BTB) are collected automatically every day.',
+      i2h:'Search the archive', i2p:'Search the whole archive by HS code, reference number or product name; filter by chapter and country.',
+      i3h:'Detail and source', i3p:'Tap a ruling: read the goods description and the reasoning, then open the official source in one click.',
+      i4h:'Cloud or list', i4p:'Explore the day in the sky, or switch to list view and scan rulings chapter by chapter.',
+      all_chapters:'All chapters', view_cloud:'☁ Cloud', view_list:'☰ List',
+      tailnote:'a cloud = one ruling · the number = first 4 digits of the HS code · tap → detail',
+      search_ph:'Search HS code or reference… (e.g. 8471)',
+      today_decisions:"Today's rulings", selected_day:'Rulings of the selected day',
+      decisions:'rulings', archive_note:'days of archive searched', found:'found',
+      chapter:'Chapter', ref:'Reference', desc:'Goods description', reason:'Reasoning for classification',
+      open_src:'Open official source ↗', copy_link:'Copy link', copied:'Copied ✓',
+      fav_on:'★ In my favourites', fav_off:'☆ Save to favourites',
+      note_label:'My note', note_saved:'✓ saved', note_ph:'Why did you save this ruling? (saved automatically)',
+      tip_detail:'click for detail', tip_fav:' to save to favourites',
+      empty_day:'No rulings match this day and these filters.',
+      empty_hint:'Clear the filters or use the arrows to move to another day.',
+      empty_search:'No matching rulings. Try a shorter search or clear the filters.',
+      archive_of:'rulings in archive', updated:'last updated', days_archive:'days archived',
+      prev_day:'Previous day', next_day:'Next day', clear_search:'Clear search',
+      orig_note:'Shown in the original language of the ruling.',
+      valid_from:'Valid from', decided_on:'Decided on'
+    }
+  };
+  function t(k){ var d=I18N[LANG]||I18N.tr; return (d[k]!==undefined?d[k]:(I18N.tr[k]||k)); }
+
+  /* Karar metni: EN modunda orijinal metin (varsa), TR modunda Türkçe çeviri */
+  function TTL(d){ return (LANG==='en' && d && d.title_o) ? d.title_o : (d?d.title:''); }
+  function GRK(d){ return (LANG==='en' && d && d.gerekce_o) ? d.gerekce_o : (d?d.gerekce:''); }
+  /* Gün başlığı için tarih */
+  function dstr(o){ return o ? (LANG==='en' ? (o.date_en||o.date_tr||o.date) : (o.date_tr||o.date)) : ''; }
+
+  /* HS fasıl adları (İngilizce) — TR karşılıkları FASIL sözlüğünde */
+  var FASIL_EN = {
+    '01':'Live animals','02':'Meat and edible offal','03':'Fish and crustaceans','04':'Dairy, eggs, honey',
+    '05':'Other animal products','06':'Live trees and plants','07':'Edible vegetables','08':'Edible fruit and nuts',
+    '09':'Coffee, tea, spices','10':'Cereals','11':'Milling products','12':'Oil seeds','13':'Vegetable saps and extracts',
+    '14':'Vegetable plaiting materials','15':'Animal and vegetable fats','16':'Meat and fish preparations',
+    '17':'Sugars and confectionery','18':'Cocoa and preparations','19':'Cereal, flour and pastry products',
+    '20':'Vegetable and fruit preparations','21':'Miscellaneous edible preparations','22':'Beverages and spirits',
+    '23':'Food industry residues, animal feed','24':'Tobacco','25':'Salt, sulphur, earths and stone',
+    '26':'Ores, slag and ash','27':'Mineral fuels and oils','28':'Inorganic chemicals','29':'Organic chemicals',
+    '30':'Pharmaceutical products','31':'Fertilisers','32':'Tanning, dyeing extracts, paints','33':'Perfumery and cosmetics',
+    '34':'Soap and washing preparations','35':'Albuminoidal substances, glues','36':'Explosives','37':'Photographic goods',
+    '38':'Miscellaneous chemical products','39':'Plastics and articles thereof','40':'Rubber and articles thereof',
+    '41':'Raw hides and skins','42':'Leather goods','43':'Furskins','44':'Wood and articles of wood','45':'Cork',
+    '46':'Basketware and wickerwork','47':'Pulp of wood','48':'Paper and paperboard','49':'Printed books and newspapers',
+    '50':'Silk','51':'Wool and animal hair','52':'Cotton','53':'Other vegetable textile fibres',
+    '54':'Man-made filaments','55':'Man-made staple fibres','56':'Wadding, felt, twine and ropes',
+    '57':'Carpets and floor coverings','58':'Special woven fabrics','59':'Impregnated or coated textiles',
+    '60':'Knitted or crocheted fabrics','61':'Knitted apparel','62':'Non-knitted apparel',
+    '63':'Other made-up textiles, worn clothing','64':'Footwear','65':'Headgear','66':'Umbrellas and walking sticks',
+    '67':'Feathers and artificial flowers','68':'Articles of stone, plaster, cement','69':'Ceramic products',
+    '70':'Glass and glassware','71':'Precious stones and jewellery','72':'Iron and steel','73':'Articles of iron or steel',
+    '74':'Copper and articles thereof','75':'Nickel and articles thereof','76':'Aluminium and articles thereof',
+    '78':'Lead and articles thereof','79':'Zinc and articles thereof','80':'Tin and articles thereof',
+    '81':'Other base metals','82':'Tools of base metal','83':'Miscellaneous articles of base metal',
+    '84':'Machinery and mechanical appliances','85':'Electrical machinery and equipment','86':'Railway vehicles',
+    '87':'Motor vehicles','88':'Aircraft','89':'Ships and boats','90':'Optical, measuring, medical instruments',
+    '91':'Clocks and watches','92':'Musical instruments','93':'Arms and ammunition','94':'Furniture and lighting',
+    '95':'Toys, games and sports equipment','96':'Miscellaneous manufactured articles','97':'Works of art and antiques'
+  };
+  var FASIL_TR = null;   // ilk applyLang'te TR sözlüğün kopyası saklanır
+
+  /* Dili uygula: statik metinler, kaynak/fasıl adları, sonra yeniden çizim */
+  function applyLang(){
+    try { localStorage.setItem('bti_lang', LANG); } catch(e){}
+    document.documentElement.setAttribute('lang', LANG);
+
+    var tb=$('langTR'), eb=$('langEN');
+    if(tb) tb.setAttribute('aria-pressed', String(LANG==='tr'));
+    if(eb) eb.setAttribute('aria-pressed', String(LANG==='en'));
+
+    // data-i18n / data-i18n-html işaretli statik metinler
+    document.querySelectorAll('[data-i18n]').forEach(function(el){
+      var v = t(el.getAttribute('data-i18n'));
+      if(v) el.textContent = v;
+    });
+    document.querySelectorAll('[data-i18n-html]').forEach(function(el){
+      var v = t(el.getAttribute('data-i18n-html'));
+      if(v) el.innerHTML = v;
+    });
+
+    // arama kutusu + gezinme etiketleri
+    var q=$('q'); if(q) q.setAttribute('placeholder', t('search_ph'));
+    var bp=$('btnPrev'), bn=$('btnNext'), qc=$('qClr');
+    if(bp){ bp.title=t('prev_day'); bp.setAttribute('aria-label',t('prev_day')); }
+    if(bn){ bn.title=t('next_day'); bn.setAttribute('aria-label',t('next_day')); }
+    if(qc) qc.setAttribute('aria-label', t('clear_search'));
+
+    // kaynak adları
+    Object.keys(SRC).forEach(function(k){
+      if(SRC_NAMES[LANG] && SRC_NAMES[LANG][k]) SRC[k].name = SRC_NAMES[LANG][k];
+    });
+    // fasıl adları (TR sözlüğü ilk çağrıda yedeklenir)
+    if(!FASIL_TR){ FASIL_TR = {}; Object.keys(FASIL).forEach(function(k){ FASIL_TR[k]=FASIL[k]; }); }
+    Object.keys(FASIL).forEach(function(k){
+      FASIL[k] = (LANG==='en' ? (FASIL_EN[k]||FASIL_TR[k]) : FASIL_TR[k]);
+    });
+
+    if(typeof renderChrome==='function' && S && S.data) renderChrome();
+    if(typeof update==='function' && S && S.data) update();
+  }
+
+  var SRC_NAMES = {
+    tr:{eu:'Avrupa Birliği', us:'Amerika', ca:'Kanada', uk:'İngiltere', tr:'Türkiye'},
+    en:{eu:'European Union', us:'United States', ca:'Canada', uk:'United Kingdom', tr:'Türkiye'}
+  };
+  var ORIGIN_EN = {'Kanada':'Canada','İngiltere':'United Kingdom','ABD':'United States','Türkiye':'Türkiye',
+    'Fransa':'France','Almanya':'Germany','Hollanda':'Netherlands','İtalya':'Italy','İspanya':'Spain',
+    'Belçika':'Belgium','Polonya':'Poland','Avusturya':'Austria','Çekya':'Czechia','İsveç':'Sweden',
+    'Danimarka':'Denmark','Finlandiya':'Finland','İrlanda':'Ireland','Portekiz':'Portugal',
+    'Macaristan':'Hungary','Romanya':'Romania','Bulgaristan':'Bulgaria','Yunanistan':'Greece',
+    'Slovakya':'Slovakia','Slovenya':'Slovenia','Hırvatistan':'Croatia','Litvanya':'Lithuania',
+    'Letonya':'Latvia','Estonya':'Estonia','Lüksemburg':'Luxembourg','Kıbrıs':'Cyprus','Malta':'Malta'};
+  function originName(o){ return (LANG==='en' && ORIGIN_EN[o]) ? ORIGIN_EN[o] : o; }
+
   var SRC = {
     eu:{name:'Avrupa Birliği', short:'EU',  flag:'🇪🇺', sys:'EBTI',      color:'#2f6bdf', tint:'#ffffff'},
     us:{name:'Amerika',        short:'US',  flag:'🇺🇸', sys:'CBP CROSS', color:'#d07d2a', tint:'#fffaf2'},
@@ -394,23 +567,23 @@
       '<div class="head"><span class="dot" style="background:'+s.color+'"></span>' +
       '<span class="hs">'+esc(d.hs4)+'</span>' +
       '<span class="mono" style="font-size:13px;color:var(--faint)">'+esc(d.hs||'')+'</span></div>' +
-      '<div class="meta">'+(d.flag?esc(d.flag)+' ':'')+esc(s.name)+(d.origin&&d.origin!==s.name?' · '+esc(d.origin):'')+
+      '<div class="meta">'+(d.flag?esc(d.flag)+' ':'')+esc(s.name)+(d.origin&&d.origin!==s.name?' · '+esc(originName(d.origin)):'')+
         (s.sys?' · '+esc(s.sys):'')+(d.date?' · '+esc(d.date):'')+
         // AB'de gün gruplaması geçerlilik başlangıcına göre; karar tarihi farklıysa onu da göster
-        (d.date_issue && d.date_issue!==d.date?'<br>Geçerlilik başlangıcı: '+esc(d.date)+' · Karar tarihi: '+esc(d.date_issue):'')+
-        (fasilAd?'<br>Fasıl '+esc(String(d.hs4).slice(0,2))+' · '+esc(fasilAd):'')+'</div>';
-    if(d.ref) html += '<div class="sec">Referans</div><div class="txt mono" style="font-size:13px">'+esc(d.ref)+'</div>';
-    if(d.title) html += '<div class="sec">Ürün tanımı</div><div class="txt">'+esc(d.title)+'</div>';
-    if(d.gerekce) html += '<div class="sec">Sınıflandırma gerekçesi</div><div class="txt">'+esc(d.gerekce)+'</div>';
+        (d.date_issue && d.date_issue!==d.date?'<br>'+t('valid_from')+': '+esc(d.date)+' · '+t('decided_on')+': '+esc(d.date_issue):'')+
+        (fasilAd?'<br>'+t('chapter')+' '+esc(String(d.hs4).slice(0,2))+' · '+esc(fasilAd):'')+'</div>';
+    if(d.ref) html += '<div class="sec">'+t('ref')+'</div><div class="txt mono" style="font-size:13px">'+esc(d.ref)+'</div>';
+    if(TTL(d)) html += '<div class="sec">'+t('desc')+'</div><div class="txt">'+esc(TTL(d))+'</div>';
+    if(GRK(d)) html += '<div class="sec">'+t('reason')+'</div><div class="txt">'+esc(GRK(d))+'</div>';
     var isFav = window.BTIFav && BTIFav.has(d);
     html += '<div class="acts">';
-    if(d.url) html += '<a class="btn dark go" href="'+esc(d.url)+'" target="_blank" rel="noopener">Resmî kaynağı aç ↗</a>';
-    html += '<button class="cp" id="shCp">Bağlantıyı kopyala</button>';
-    if(window.BTIFav) html += '<button class="fav'+(isFav?' on':'')+'" id="shFav">'+(isFav?'★ Favorilerimde':'☆ Favorilerime kaydet')+'</button>';
+    if(d.url) html += '<a class="btn dark go" href="'+esc(d.url)+'" target="_blank" rel="noopener">'+t('open_src')+'</a>';
+    html += '<button class="cp" id="shCp">'+t('copy_link')+'</button>';
+    if(window.BTIFav) html += '<button class="fav'+(isFav?' on':'')+'" id="shFav">'+(isFav?t('fav_on'):t('fav_off'))+'</button>';
     html += '</div>';
     if(window.BTIFav) html += '<div class="favnote" id="shNoteWrap"'+(isFav?'':' hidden')+'>'+
-      '<label>Notum <span class="ok" id="shNoteOk">✓ kaydedildi</span></label>'+
-      '<textarea id="shNote" placeholder="Bu kararı neden kaydettin? (otomatik kaydedilir)"></textarea></div>';
+      '<label>'+t('note_label')+' <span class="ok" id="shNoteOk">'+t('note_saved')+'</span></label>'+
+      '<textarea id="shNote" placeholder="'+t('note_ph')+'"></textarea></div>';
     $('sheet').innerHTML = html;
     $('ovl').classList.add('open'); $('ovl').setAttribute('aria-hidden','false');
     document.body.style.overflow = 'hidden';
@@ -419,7 +592,7 @@
       var link = d.url ? absUrl(d.url) : location.href;
       var text = d.hs4+' · '+(d.ref||'')+' · '+link;
       (navigator.clipboard ? navigator.clipboard.writeText(text) : Promise.reject()).then(function(){
-        $('shCp').textContent = 'Kopyalandı ✓'; setTimeout(function(){ var b=$('shCp'); if(b) b.textContent='Bağlantıyı kopyala'; }, 1600);
+        $('shCp').textContent = t('copied'); setTimeout(function(){ var b=$('shCp'); if(b) b.textContent=t('copy_link'); }, 1600);
       }).catch(function(){ window.prompt('Kopyala:', text); });
     };
 
@@ -431,7 +604,7 @@
 
       function paintFav(on){
         favBtn.className = 'fav' + (on ? ' on' : '');
-        favBtn.textContent = on ? '★ Favorilerimde' : '☆ Favorilerime kaydet';
+        favBtn.textContent = on ? t('fav_on') : t('fav_off');
         if(noteWrap){ if(on) noteWrap.removeAttribute('hidden'); else noteWrap.setAttribute('hidden',''); }
         refreshFavUI();
       }
@@ -471,10 +644,10 @@
       '<span style="width:8px;height:8px;border-radius:50%;background:'+s.color+'"></span>'+
       '<span class="mono" style="font-weight:700;font-size:14px;color:#fff">'+esc(d.hs4)+'</span>'+
       '<span class="mono" style="font-size:11px;color:#8fb0e6">'+esc(d.hs||'')+'</span></div>'+
-      '<div style="font-size:11px;color:#8597b8;margin-bottom:6px">'+esc(s.name)+(d.origin?' · '+esc(d.origin):'')+(d.ref?' · '+esc(d.ref):'')+'</div>';
-    if(d.title) html += '<div style="font-size:10px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:#6f86ad;margin-top:9px">Ürün Tanımı</div><div style="font-size:12.5px;color:#dfe8f5;line-height:1.55;margin-top:3px">'+esc(d.title)+'</div>';
-    html += '<div style="margin-top:11px;font-size:11.5px;color:#8fb0e6">detay için tıkla'+
-      (window.BTIFav ? ' · <span style="color:#f0a92c">★</span> ile favorilerine kaydet' : '')+'</div>';
+      '<div style="font-size:11px;color:#8597b8;margin-bottom:6px">'+esc(s.name)+(d.origin?' · '+esc(originName(d.origin)):'')+(d.ref?' · '+esc(d.ref):'')+'</div>';
+    if(TTL(d)) html += '<div style="font-size:10px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:#6f86ad;margin-top:9px">'+t('desc')+'</div><div style="font-size:12.5px;color:#dfe8f5;line-height:1.55;margin-top:3px">'+esc(TTL(d))+'</div>';
+    html += '<div style="margin-top:11px;font-size:11.5px;color:#8fb0e6">'+t('tip_detail')+
+      (window.BTIFav ? ' · <span style="color:#f0a92c">★</span>'+t('tip_fav') : '')+'</div>';
     tip.innerHTML = html; tip.style.opacity='1'; moveTip(e);
   }
   function moveTip(e){
@@ -586,7 +759,7 @@
     if(!decs.length){
       var e = document.createElement('div');
       e.className = 'emptysky';
-      e.innerHTML = '<div>Bu gün ve filtrelerle eşleşen karar yok.</div><div style="font-size:13px;color:var(--faint)">Filtreleri temizleyin ya da oklarla başka bir güne geçin.</div>';
+      e.innerHTML = '<div>'+t('empty_day')+'</div><div style="font-size:13px;color:var(--faint)">'+t('empty_hint')+'</div>';
       field.appendChild(e); field.style.height='560px'; return;
     }
     var list = decs.slice(0, 450).slice().sort(function(a,b){
@@ -608,7 +781,7 @@
     btn.innerHTML =
       '<span class="src"><i style="background:'+s.color+'"></i>'+esc(d.flag||'')+'</span>'+
       '<span class="hs" style="color:'+s.color+'">'+esc(d.hs4)+'</span>'+
-      '<span class="ttl">'+esc(d.title||'—')+'</span>'+
+      '<span class="ttl">'+esc(TTL(d)||'—')+'</span>'+
       '<span class="ref">'+esc(d.ref||'')+' ↗</span>';
     btn.addEventListener('click', function(){ openSheet(d); });
     return btn;
@@ -628,17 +801,17 @@
       var head = document.createElement('div');
       head.className = 'note';
       head.style.marginTop = '0';
-      head.innerHTML = '<strong>'+total+' karar</strong> bulundu · '+S.data.total_days+' günlük arşivde arandı'+(S.q?' · “'+esc(S.q)+'”':'')+(S.fasil?' · Fasıl '+esc(S.fasil)+(FASIL[S.fasil]?' ('+esc(FASIL[S.fasil])+')':''):'');
+      head.innerHTML = '<strong>'+total+' '+t('decisions')+'</strong> '+t('found')+' · '+S.data.total_days+' '+t('archive_note')+''+(S.q?' · “'+esc(S.q)+'”':'')+(S.fasil?' · '+t('chapter')+' '+esc(S.fasil)+(FASIL[S.fasil]?' ('+esc(FASIL[S.fasil])+')':''):'');
       frag.appendChild(head);
       res.forEach(function(r){
         var g = document.createElement('div'); g.className='grp';
-        g.innerHTML = '<div class="grphead"><span class="nm">'+esc(r.day.date_tr)+'</span><span class="ct">'+r.decisions.length+' karar</span></div>';
+        g.innerHTML = '<div class="grphead"><span class="nm">'+esc(dstr(r.day))+'</span><span class="ct">'+r.decisions.length+' '+t('decisions')+'</span></div>';
         r.decisions.forEach(function(d){ g.appendChild(rowEl(d)); });
         frag.appendChild(g);
       });
       if(!res.length){
         var e = document.createElement('div'); e.className='note'; e.style.marginTop='14px';
-        e.textContent = 'Eşleşen karar bulunamadı. Aramayı kısaltmayı ya da filtreleri temizlemeyi deneyin.';
+        e.textContent = t('empty_search');
         frag.appendChild(e);
       }
     } else {
@@ -652,7 +825,7 @@
         Array.from(groups.keys()).sort().forEach(function(ch){
           var items = groups.get(ch).slice().sort(function(a,b){ return String(a.hs4).localeCompare(String(b.hs4)); });
           var g = document.createElement('div'); g.className='grp';
-          g.innerHTML = '<div class="grphead"><span class="code">'+esc(ch)+'</span><span class="nm">'+esc(FASIL[ch]||'')+'</span><span class="ct">'+items.length+' karar</span></div>';
+          g.innerHTML = '<div class="grphead"><span class="code">'+esc(ch)+'</span><span class="nm">'+esc(FASIL[ch]||'')+'</span><span class="ct">'+items.length+' '+t('decisions')+'</span></div>';
           items.forEach(function(d){ g.appendChild(rowEl(d)); });
           frag.appendChild(g);
         });
@@ -667,16 +840,16 @@
     var g = globalMode();
     var effView = g ? 'list' : S.view;
 
-    $('dayLabel').textContent = g ? 'Arşivde arama' : (day && day.date===data.today ? 'Bugünün kararları' : 'Seçili günün kararları');
-    $('dayDate').textContent = g ? (S.q ? '“'+S.q+'”' : 'Fasıl '+S.fasil) : (day ? day.date_tr : (data.today_tr||'—'));
-    $('dayCount').textContent = g ? '' : (day ? dayDecisions().length+' / '+day.count+' karar' : '');
+    $('dayLabel').textContent = g ? 'Arşivde arama' : (day && day.date===data.today ? t('today_decisions') : t('selected_day'));
+    $('dayDate').textContent = g ? (S.q ? '“'+S.q+'”' : t('chapter')+' '+S.fasil) : (day ? dstr(day) : (dstr({date_tr:data.today_tr,date_en:data.today_en})||'—'));
+    $('dayCount').textContent = g ? '' : (day ? dayDecisions().length+' / '+day.count+' '+t('decisions') : '');
     $('btnPrev').disabled = g || S.day >= data.days.length-1;
     $('btnNext').disabled = g || S.day <= 0;
 
     var note = $('note');
     if(!g && S.day===0 && !data.latest_is_today){
       note.style.display = 'block';
-      note.innerHTML = '<strong>'+esc(data.today_tr||'')+'</strong> kararları yarın sabah <strong>06:00</strong> güncellemesinde eklenecek. Şu an en son yayımlanan gün gösteriliyor: <strong>'+esc(day?day.date_tr:'')+'</strong>.';
+      note.innerHTML = (LANG==='en' ? '<strong>'+esc(data.today_en||data.today_tr||'')+'</strong> rulings will be added in tomorrow morning\'s <strong>06:00</strong> update. Showing the most recently published day: <strong>'+esc(day?dstr(day):'')+'</strong>.' : '<strong>'+esc(data.today_tr||'')+'</strong> kararları yarın sabah <strong>06:00</strong> güncellemesinde eklenecek. Şu an en son yayımlanan gün gösteriliyor: <strong>'+esc(day?day.date_tr:'')+'</strong>.');
     } else note.style.display = 'none';
 
     $('vSky').classList.toggle('on', effView==='sky');
@@ -759,20 +932,34 @@
     }); });
     return { source_counts:sc, chapters:Object.keys(ch).sort() };
   }
+  /* Hero kartları + rozet + footer — dile bağlı olduğu için ayrı tutulur */
+  function renderChrome(){
+    var data = S.data; if(!data) return;
+    var sc = data.source_counts || extrasFrom(data.days).source_counts;
+    var el = $('statCards');
+    if(el) el.innerHTML = ['eu','us','ca','uk','tr'].map(function(k){
+      var s = SRC[k];
+      return '<div class="stat"><div class="nm"><i style="background:'+s.color+'"></i>'+(s.flag?s.flag+' ':'')+s.name+'</div>'+
+        '<div class="v" style="color:'+s.color+'">'+(sc[k]||0)+'</div>'+
+        '<div class="k">'+s.sys+' · '+t('archive_of')+'</div></div>';
+    }).join('');
+    var _td = (LANG==='en' ? (data.today_en||data.today_tr) : data.today_tr);
+    if(_td && $('badgeTxt')) $('badgeTxt').textContent = _td+' · '+t('badge');
+    if($('footMeta')) $('footMeta').textContent = (data.total_decisions||0)+' '+t('decisions')+' · '+(data.total_days||0)+' '+t('days_archive')+' · '+t('updated')+' '+(data.generated_at||'');
+    // kaynak çiplerinin başlıkları da dile bağlı
+    var cw = $('chips');
+    if(cw) Array.prototype.forEach.call(cw.querySelectorAll('button'), function(b, i){
+      var k = ['eu','us','ca','uk','tr'][i]; if(k && SRC[k]) b.title = SRC[k].name;
+    });
+  }
+
   function setupUI(){
     var data = S.data;
     var sc = data.source_counts || extrasFrom(data.days).source_counts;
     var chapters = data.chapters || extrasFrom(data.days).chapters;
 
-    // hero istatistik kartları
-    $('statCards').innerHTML = ['eu','us','ca','uk','tr'].map(function(k){
-      var s = SRC[k];
-      return '<div class="stat"><div class="nm"><i style="background:'+s.color+'"></i>'+(s.flag?s.flag+' ':'')+s.name+'</div>'+
-        '<div class="v" style="color:'+s.color+'">'+(sc[k]||0)+'</div>'+
-        '<div class="k">'+s.sys+' · arşivdeki karar</div></div>';
-    }).join('');
-    if(data.today_tr) $('badgeTxt').textContent = data.today_tr+' · her gün otomatik güncellenir';
-    $('footMeta').textContent = (data.total_decisions||0)+' karar · '+(data.total_days||0)+' gün arşiv · son güncelleme '+(data.generated_at||'');
+    // hero istatistik kartları (dil değişince applyLang tekrar çizer)
+    renderChrome();
 
     // kaynak çipleri
     var chips = $('chips');
@@ -829,6 +1016,11 @@
   /* ---------- kurulum ---------- */
   function start(){
     setupUI();
+    // Dil anahtarı (sağ üst): tercih localStorage'da saklanır
+    var _tr=$('langTR'), _en=$('langEN');
+    if(_tr) _tr.onclick=function(){ if(LANG!=='tr'){ LANG='tr'; applyLang(); } };
+    if(_en) _en.onclick=function(){ if(LANG!=='en'){ LANG='en'; applyLang(); } };
+    applyLang();
     refreshFavUI();
     // Başka sekmede favori değişirse burada da tazele
     window.addEventListener('bti-fav-change', refreshFavUI);

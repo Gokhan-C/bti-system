@@ -111,6 +111,19 @@ def fmt_date_tr(iso: str) -> str:
         return iso
 
 
+EN_MONTHS = ["January", "February", "March", "April", "May", "June",
+             "July", "August", "September", "October", "November", "December"]
+
+
+def fmt_date_en(iso: str) -> str:
+    """Sitenin İngilizce modu için tarih (ör. '21 August 2026')."""
+    try:
+        d = datetime.strptime(iso, "%Y-%m-%d")
+        return f"{d.day} {EN_MONTHS[d.month - 1]} {d.year}"
+    except Exception:
+        return iso
+
+
 def iso_from_any(s: str) -> str:
     """'24/05/2026' veya '2026-05-22' → '2026-05-22'."""
     s = (s or "").strip()
@@ -203,6 +216,10 @@ def normalize(src_dir, meta, rec, data):
             "date_issue": date_issue_iso,
             "title": clip(rec.get("desc_tr", ""), 280),
             "gerekce": clip(rec.get("just_tr", ""), 220),
+            # İngilizce modda kararın orijinal (FR/DE/RO…) metni gösterilir
+            "title_o": clip(rec.get("desc_orig", ""), 280),
+            "gerekce_o": clip(rec.get("just_orig", ""), 220),
+            "lang": (rec.get("lang") or "").upper(),
             "url": eu_source_url(rec.get("ref", ""), country, date_issue_iso),
         }
 
@@ -219,6 +236,9 @@ def normalize(src_dir, meta, rec, data):
             "date": iso_from_any(rec.get("date_fmt", "")),
             "title": clip(title, 280),
             "gerekce": clip(summ.get("teknik_gerekce", ""), 220),
+            "title_o": clip(rec.get("subject", ""), 280),
+            "gerekce_o": clip(rec.get("full_text", ""), 220),
+            "lang": "EN",
             # CBP deep-link'i Akamai 403 veriyor, customsmobile aynası ise yeni
             # kararları gecikmeli aldığı için "Document not found" dönüyordu.
             # Kendi statik sayfamız her zaman açılır; ayna + CBP linkleri onun içinde.
@@ -237,6 +257,10 @@ def normalize(src_dir, meta, rec, data):
             "date": iso_from_any(rec.get("date_fmt", "")),
             "title": clip(title, 280),
             "gerekce": clip(summ.get("teknik_gerekce", ""), 220),
+            # İngilizce modda kararın orijinal (İngilizce) metni gösterilir
+            "title_o": clip(rec.get("desc_orig", ""), 280),
+            "gerekce_o": clip(rec.get("just_orig", ""), 220),
+            "lang": "EN",
             "url": rec.get("source_url", ""),
         }
 
@@ -252,6 +276,10 @@ def normalize(src_dir, meta, rec, data):
             "date": iso_from_any(rec.get("date_fmt", "")),
             "title": clip(title, 280),
             "gerekce": clip(summ.get("teknik_gerekce", ""), 220),
+            # İngilizce modda kararın orijinal (İngilizce) metni gösterilir
+            "title_o": clip(rec.get("desc_orig", ""), 280),
+            "gerekce_o": clip(rec.get("just_orig", ""), 220),
+            "lang": "EN",
             "url": rec.get("source_url", ""),
         }
 
@@ -266,6 +294,10 @@ def normalize(src_dir, meta, rec, data):
             "date": iso_from_any(rec.get("date_issue", "")),
             "title": clip(rec.get("desc_tr", ""), 280),
             "gerekce": clip(rec.get("just_tr", ""), 220),
+            # TR kararlarının orijinali zaten Türkçe; EN modunda da o gösterilir
+            "title_o": clip(rec.get("desc_tr", ""), 280),
+            "gerekce_o": clip(rec.get("just_tr", ""), 220),
+            "lang": "TR",
             # Resmî sitede tek-karar GET URL'si yok → kendi ürettiğimiz statik
             # detay sayfasına bağla (tam metin + resmî doğrulama linki).
             "url": f"tr/{tr_slug(ref)}.html",
@@ -523,6 +555,7 @@ def write_split_data(payload, out_dir):
         "generated_at": payload["generated_at"],
         "today": payload["today"],
         "today_tr": payload["today_tr"],
+        "today_en": payload.get("today_en", ""),
         "latest_date": payload["latest_date"],
         "latest_is_today": payload["latest_is_today"],
         "total_decisions": payload["total_decisions"],
@@ -531,6 +564,7 @@ def write_split_data(payload, out_dir):
         "chapters": payload["chapters"],
         "days": [
             {"date": d["date"], "date_tr": d["date_tr"],
+             "date_en": d.get("date_en", ""),
              "count": d["count"], "sources": d["sources"]}
             for d in payload["days"]
         ],
@@ -566,6 +600,7 @@ def build_payload(days):
         "generated_at": datetime.now().strftime("%Y-%m-%d %H:%M"),
         "today": today_iso,
         "today_tr": fmt_date_tr(today_iso),
+        "today_en": fmt_date_en(today_iso),
         "latest_date": latest_iso,
         "latest_is_today": (latest_iso == today_iso),
         "total_decisions": total,
@@ -730,6 +765,7 @@ def main():
         days.append({
             "date": iso,
             "date_tr": fmt_date_tr(iso),
+            "date_en": fmt_date_en(iso),
             "count": len(decs),
             "sources": sorted({d["source"] for d in decs}),
             "decisions": decs,
