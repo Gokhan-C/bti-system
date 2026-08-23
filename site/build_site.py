@@ -754,7 +754,41 @@ def write_feeds(days, out_dir):
     return written
 
 
+
+def stamp_assets():
+    """HTML'lerdeki yerel JS referanslarına sürüm damgası basar (?v=<mtime>).
+
+    Neden: favorites.js / i18n.js tarayıcıda önbelleğe alınıyor; damga olmadan
+    kullanıcı eski sürümü çalıştırmaya devam ediyordu (yeni alanlar kaydedilmiyordu).
+    """
+    import html as _h
+    assets = ["favorites.js", "i18n.js", "support.js"]
+    vers = {}
+    for a in assets:
+        fp = os.path.join(OUT_DIR, a)
+        if os.path.exists(fp):
+            vers[a] = str(int(os.path.getmtime(fp)))
+    if not vers:
+        return 0
+
+    touched = 0
+    for page in glob.glob(os.path.join(OUT_DIR, "*.html")):
+        try:
+            txt = open(page, encoding="utf-8").read()
+        except Exception:
+            continue
+        new = txt
+        for a, v in vers.items():
+            new = re.sub(r'src="' + re.escape(a) + r'(\?v=\d+)?"',
+                         'src="' + a + '?v=' + v + '"', new)
+        if new != txt:
+            open(page, "w", encoding="utf-8").write(new)
+            touched += 1
+    return touched
+
+
 def main():
+    asset_pages = stamp_assets()
     tr_pages = write_tr_detail_pages()
     us_pages = write_us_detail_pages()
     by_date = collect()
@@ -784,6 +818,8 @@ def main():
     print(f"✓ {total} karar, {len(days)} gün → {out}")
     print(f"  Bölünmüş veri: {data_dir}/index.json + {len(days)} gün dosyası")
     print(f"  RSS: {len(feeds)} feed ({', '.join(os.path.basename(f) for f in feeds)})")
+    if asset_pages:
+        print(f"  JS sürüm damgası: {asset_pages} sayfa")
     if tr_pages:
         print(f"  TR detay sayfaları: {tr_pages} → {os.path.join(OUT_DIR, 'tr')}/")
     if us_pages:

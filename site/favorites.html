@@ -59,22 +59,52 @@
 <div class="wrap">
   <div class="top">
     <div>
-      <a class="back" href="index.html">← GTİP Bulutları</a>
-      <h1>★ Favorilerim</h1>
+      <a class="back" href="index.html" data-i18n="back">← GTİP Bulutları</a>
+      <h1 data-i18n="page_title">★ Favorilerim</h1>
       <div class="sub" id="sub">Kaydettiğin kararlar bu tarayıcıda saklanır.</div>
     </div>
     <div class="acts">
-      <a class="btn" href="dashboard.html">İstatistik paneli</a>
-      <button class="btn" id="expCsv">CSV indir</button>
-      <button class="btn" id="expJson">JSON indir</button>
+      <a class="btn" href="dashboard.html" data-i18n="btn_dash">İstatistik paneli</a>
+      <button class="btn" id="expCsv" data-i18n="btn_csv">CSV indir</button>
+      <button class="btn" id="expJson" data-i18n="btn_json">JSON indir</button>
     </div>
   </div>
 
   <div id="content"></div>
 </div>
 
-<script src="favorites.js"></script>
+<script src="favorites.js?v=1787513213"></script>
+<script src="i18n.js?v=1787512915"></script>
 <script>
+// ---- dil sözlüğü (ortak motor: i18n.js) ----
+BTIi18n.dict({
+  tr:{ back:'← GTİP Bulutları', page_title:'★ Favorilerim', btn_dash:'İstatistik paneli',
+       btn_csv:'CSV indir', btn_json:'JSON indir',
+       sub_empty:'Kaydettiğin kararlar bu tarayıcıda saklanır.',
+       sub_count:'kayıtlı karar · bu tarayıcıda saklanır',
+       empty_h:'Henüz favori kararın yok',
+       empty_p:'Gökyüzünde bir bulutun üzerine gelip sağ üstteki <b>★</b> işaretine tıkla, ya da istatistik panelindeki karar listesinden yıldızla. Kaydettiklerin burada birikir — not ekleyebilir, sonra arayabilirsin.',
+       empty_btn:'Gökyüzüne git',
+       search_ph:'GTİP, ürün, gerekçe, not veya ülke ara…',
+       all_tab:'Tümü', decisions:'karar', search_of:'araması',
+       none_h:'Eşleşen karar yok', none_p:'Arama terimini değiştirmeyi dene.',
+       note_label:'Notum', note_saved:'✓ kaydedildi', note_ph:'Bu karar hakkında notun… (otomatik kaydedilir)',
+       open:'↗ Kararı aç', remove:'★ Favorilerden çıkar' },
+  en:{ back:'← HS Clouds', page_title:'★ My favourites', btn_dash:'Statistics panel',
+       btn_csv:'Download CSV', btn_json:'Download JSON',
+       sub_empty:'Rulings you save are stored in this browser.',
+       sub_count:'saved rulings · stored in this browser',
+       empty_h:'You have no saved rulings yet',
+       empty_p:'Hover a cloud in the sky and click the <b>★</b> in its top-right corner, or star a ruling from the list in the statistics panel. Everything you save collects here — you can add a note and search it later.',
+       empty_btn:'Go to the sky',
+       search_ph:'Search HS code, product, reasoning, note or country…',
+       all_tab:'All', decisions:'rulings', search_of:'search',
+       none_h:'No matching rulings', none_p:'Try changing your search terms.',
+       note_label:'My note', note_saved:'✓ saved', note_ph:'Your note about this ruling… (saved automatically)',
+       open:'↗ Open ruling', remove:'★ Remove from favourites' }
+});
+const T = k => BTIi18n.t(k);
+
 const SRC = {
   eu:{name:'Avrupa Birliği', short:'AB', color:'#2f6bdf'},
   us:{name:'Amerika',        short:'ABD',color:'#d07d2a'},
@@ -82,17 +112,13 @@ const SRC = {
   tr:{name:'Türkiye',        short:'TR', color:'#e30a17'},
   uk:{name:'Birleşik Krallık',short:'UK',color:'#6b4ee6'},
 };
-const srcOf = s => SRC[s] || {name:s||'—', short:(s||'?').toUpperCase(), color:'#8693a6'};
+const srcOf = s => { var b = SRC[s] || {name:s||'—', short:(s||'?').toUpperCase(), color:'#8693a6'};
+  return Object.assign({}, b, {name: BTIi18n.srcName(s)||b.name}); };
 let q = '', srcFilter = 'all';
 
 const esc = t => (t||'').replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
 
-function fmtDate(iso){
-  if(!iso) return '';
-  const m=['Ocak','Şubat','Mart','Nisan','Mayıs','Haziran','Temmuz','Ağustos','Eylül','Ekim','Kasım','Aralık'];
-  const p=String(iso).split('-');
-  return p.length===3 ? `${+p[2]} ${m[+p[1]-1]} ${p[0]}` : iso;
-}
+function fmtDate(iso){ return BTIi18n.fmtDate(iso); }
 
 function render(){
   const el = document.getElementById('content');
@@ -101,11 +127,11 @@ function render(){
   if(!total){
     el.innerHTML = `<div class="empty">
       <div class="star">☆</div>
-      <h3>Henüz favori kararın yok</h3>
-      <p>Gökyüzünde bir bulutun üzerine gelip sağ üstteki <b>★</b> işaretine tıkla, ya da istatistik panelindeki karar listesinden yıldızla. Kaydettiklerin burada birikir — not ekleyebilir, sonra arayabilirsin.</p>
-      <a class="btn dark" href="index.html">Gökyüzüne git</a>
+      <h3>${T('empty_h')}</h3>
+      <p>${T('empty_p')}</p>
+      <a class="btn dark" href="index.html">${T('empty_btn')}</a>
     </div>`;
-    document.getElementById('sub').textContent = 'Kaydettiğin kararlar bu tarayıcıda saklanır.';
+    document.getElementById('sub').textContent = T('sub_empty');
     return;
   }
 
@@ -115,20 +141,20 @@ function render(){
   const present = [...new Set(BTIFav.all().map(f=>f.source))];
   const chips = ['all', ...present].map(s=>{
     const on = srcFilter===s;
-    if(s==='all') return `<button class="chipf ${on?'on':''}" data-src="all"><span class="dot" style="background:#16202b"></span>Tümü (${total})</button>`;
+    if(s==='all') return `<button class="chipf ${on?'on':''}" data-src="all"><span class="dot" style="background:#16202b"></span>${T('all_tab')} (${total})</button>`;
     const m=srcOf(s), n=BTIFav.all().filter(f=>f.source===s).length;
     return `<button class="chipf ${on?'on':''}" data-src="${s}"><span class="dot" style="background:${m.color}"></span>${m.name} (${n})</button>`;
   }).join('');
 
   el.innerHTML = `
     <div class="searchbar">
-      <input id="q" type="search" placeholder="GTİP, ürün, gerekçe, not veya ülke ara…" value="${esc(q)}">
+      <input id="q" type="search" placeholder="${T('search_ph')}" value="${esc(q)}">
     </div>
     <div class="filters">${chips}</div>
-    <div class="count">${list.length} karar${q?` · "${esc(q)}" araması`:''}</div>
-    <div class="list">${list.map(itemHtml).join('') || '<div class="empty"><div class="star">🔍</div><h3>Eşleşen karar yok</h3><p>Arama terimini değiştirmeyi dene.</p></div>'}</div>`;
+    <div class="count">${list.length} ${T('decisions')}${q?` · "${esc(q)}" ${T('search_of')}`:''}</div>
+    <div class="list">${list.map(itemHtml).join('') || `<div class="empty"><div class="star">🔍</div><h3>${T('none_h')}</h3><p>${T('none_p')}</p></div>`}</div>`;
 
-  document.getElementById('sub').textContent = `${total} kayıtlı karar · bu tarayıcıda saklanır`;
+  document.getElementById('sub').textContent = `${total} ${T('sub_count')}`;
 
   const qi = document.getElementById('q');
   if(qi){
@@ -160,22 +186,22 @@ function itemHtml(f){
         <div class="hs" style="color:${m.color}">${esc(f.hs4||'—')}</div>
         <div class="meta">
           <span class="pill" style="color:${m.color}"><i style="background:${m.color}"></i>${esc(m.name)}</span>
-          ${f.origin&&f.origin!==m.name?`<span>· ${esc(f.origin)}</span>`:''}
+          ${f.origin&&f.origin!==m.name?`<span>· ${esc(BTIi18n.originName(f.origin))}</span>`:''}
           ${f.hs?`<span class="mono">· ${esc(f.hs)}</span>`:''}
           ${f.ref?`<span class="mono">· ${esc(f.ref)}</span>`:''}
           ${f.date?`<span>· ${fmtDate(f.date)}</span>`:''}
         </div>
       </div>
     </div>
-    ${f.title?`<div class="ttl">${esc(f.title)}</div>`:''}
-    ${f.gerekce?`<div class="ger">${esc(f.gerekce)}</div>`:''}
+    ${BTIi18n.title(f)?`<div class="ttl">${esc(BTIi18n.title(f))}</div>`:''}
+    ${BTIi18n.reason(f)?`<div class="ger">${esc(BTIi18n.reason(f))}</div>`:''}
     <div class="noteWrap">
-      <label>Notum <span class="saved">✓ kaydedildi</span></label>
-      <textarea data-id="${esc(f.id)}" placeholder="Bu karar hakkında notun… (otomatik kaydedilir)">${esc(f.note||'')}</textarea>
+      <label>${T('note_label')} <span class="saved">${T('note_saved')}</span></label>
+      <textarea data-id="${esc(f.id)}" placeholder="${T('note_ph')}">${esc(f.note||'')}</textarea>
     </div>
     <div class="ifoot">
-      ${f.url?`<a class="small" href="${esc(f.url)}" target="${f.url.startsWith('http')?'_blank':'_self'}" rel="noopener">↗ Kararı aç</a>`:'<span></span>'}
-      <button class="small rm" data-rm="${esc(f.id)}">★ Favorilerden çıkar</button>
+      ${f.url?`<a class="small" href="${esc(f.url)}" target="${f.url.startsWith('http')?'_blank':'_self'}" rel="noopener">${T('open')}</a>`:'<span></span>'}
+      <button class="small rm" data-rm="${esc(f.id)}">${T('remove')}</button>
     </div>
   </div>`;
 }
@@ -187,6 +213,7 @@ document.getElementById('expJson').onclick = () =>
 
 window.addEventListener('bti-fav-change', ()=>{ /* aynı sekmede render zaten çağrılıyor */ });
 window.addEventListener('storage', e=>{ if(e.key===BTIFav.KEY) render(); });
+BTIi18n.mount(function(){ render(); });
 render();
 </script>
 </body>
