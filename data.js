@@ -1,5 +1,5 @@
 window.BTI_DATA = {
- "generated_at": "2026-08-23 22:05",
+ "generated_at": "2026-08-23 22:31",
  "today": "2026-08-23",
  "today_tr": "23 Ağustos 2026",
  "today_en": "23 August 2026",

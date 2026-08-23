@@ -73,15 +73,15 @@
 <div class="wrap">
   <div class="top">
     <div>
-      <a class="back" href="index.html">← GTİP Bulutları</a>
+      <a class="back" href="index.html" data-i18n="back">← GTİP Bulutları</a>
       <a class="back" href="favorites.html" id="favLink" style="margin-left:14px">★ Favorilerim</a>
-      <h1>İstatistik Paneli</h1>
+      <h1 data-i18n="page_title">İstatistik Paneli</h1>
       <div class="sub" id="sub">Yükleniyor…</div>
     </div>
     <div class="seg" id="period">
-      <button data-p="month" class="on">Bu Ay</button>
-      <button data-p="d30">Son 30 Gün</button>
-      <button data-p="all">Tüm Zamanlar</button>
+      <button data-p="month" class="on" data-i18n="p_month">Bu Ay</button>
+      <button data-p="d30" data-i18n="p_d30">Son 30 Gün</button>
+      <button data-p="all" data-i18n="p_all">Tüm Zamanlar</button>
     </div>
   </div>
 
@@ -90,41 +90,71 @@
 
   <div class="grid2">
     <div class="panel">
-      <div class="ph"><h2>En çok verilen GTİP'ler</h2><small id="topNote"></small></div>
+      <div class="ph"><h2 data-i18n="h_top">En çok verilen GTİP'ler</h2><small id="topNote"></small></div>
       <div id="topGtip"></div>
     </div>
     <div class="panel">
-      <div class="ph"><h2>Fasıl dağılımı</h2><small>GTİP'in ilk 2 hanesi</small></div>
+      <div class="ph"><h2 data-i18n="h_chapters">Fasıl dağılımı</h2><small data-i18n="s_chapters">GTİP'in ilk 2 hanesi</small></div>
       <div id="chapters"></div>
     </div>
   </div>
 
   <div class="panel" style="margin-top:18px">
-    <div class="ph"><h2>En az verilen GTİP'ler</h2><small id="rareNote">tek kez sınıflandırılan nadir pozisyonlar</small></div>
+    <div class="ph"><h2 data-i18n="h_rare">En az verilen GTİP'ler</h2><small id="rareNote">tek kez sınıflandırılan nadir pozisyonlar</small></div>
     <div class="chips" id="rare"></div>
   </div>
 
   <div class="grid2">
     <div class="panel">
-      <div class="ph"><h2>Ülke dağılımı</h2><small id="ctrNote"></small></div>
+      <div class="ph"><h2 data-i18n="h_country">Ülke dağılımı</h2><small id="ctrNote"></small></div>
       <div id="country"></div>
     </div>
     <div class="panel">
-      <div class="ph"><h2>Günlük aktivite</h2><small id="dailyNote"></small></div>
+      <div class="ph"><h2 data-i18n="h_daily">Günlük aktivite</h2><small id="dailyNote"></small></div>
       <div class="daily" id="daily"></div>
       <div class="legend" id="dailyLegend"></div>
     </div>
   </div>
 
   <div class="panel" style="margin-top:18px">
-    <div class="ph"><h2>Kararlar</h2><small id="listNote"></small></div>
+    <div class="ph"><h2 data-i18n="h_list">Kararlar</h2><small id="listNote"></small></div>
     <div id="list"></div>
   </div>
 </div>
 
 <script src="data.js"></script>
-<script src="favorites.js"></script>
+<script src="favorites.js?v=1787513213"></script>
+<script src="i18n.js?v=1787512915"></script>
 <script>
+// ---- dil sözlüğü (ortak motor: i18n.js) ----
+BTIi18n.dict({
+  tr:{ back:'← GTİP Bulutları', page_title:'İstatistik Paneli',
+       p_month:'Bu Ay', p_d30:'Son 30 Gün', p_all:'Tüm Zamanlar',
+       h_top:"En çok verilen GTİP'ler", h_chapters:'Fasıl dağılımı', s_chapters:"GTİP'in ilk 2 hanesi",
+       h_rare:"En az verilen GTİP'ler", h_country:'Ülke dağılımı', h_daily:'Günlük aktivite', h_list:'Kararlar',
+       all_tab:'Tümü', loading:'Yükleniyor…', all_countries:'tüm ülkeler',
+       c_total:'Toplam karar', c_days:'Aktif gün', c_gtip:'Farklı GTİP', c_chapter:'En yoğun fasıl',
+       pos4:'4 haneli pozisyon', avg:'ort.', per_day:'karar/gün', nodata:'veri yok',
+       decisions:'karar', days:'gün', first:'ilk', rare_note:'tek kez sınıflandırılan nadir pozisyonlar',
+       rare_found:'pozisyon tek kez sınıflandırıldı', rare_none:'tek kez verilen pozisyon yok',
+       filtered:'sekme tek ülkeye filtreli', empty:'Bu seçimde karar yok.', nodata_short:'Veri yok.',
+       th_gtip:'GTİP', th_src:'Kaynak', th_date:'Tarih', th_product:'Ürün',
+       more:'Daha fazla göster', search:'araması', fav:'★ Favorilerim' },
+  en:{ back:'← HS Clouds', page_title:'Statistics Panel',
+       p_month:'This Month', p_d30:'Last 30 Days', p_all:'All Time',
+       h_top:'Most issued HS codes', h_chapters:'Chapter distribution', s_chapters:'first 2 digits of the HS code',
+       h_rare:'Least issued HS codes', h_country:'Country distribution', h_daily:'Daily activity', h_list:'Rulings',
+       all_tab:'All', loading:'Loading…', all_countries:'all countries',
+       c_total:'Total rulings', c_days:'Active days', c_gtip:'Distinct HS codes', c_chapter:'Busiest chapter',
+       pos4:'4-digit heading', avg:'avg.', per_day:'rulings/day', nodata:'no data',
+       decisions:'rulings', days:'days', first:'top', rare_note:'headings classified only once',
+       rare_found:'headings classified only once', rare_none:'no heading issued only once',
+       filtered:'filtered to a single country', empty:'No rulings in this selection.', nodata_short:'No data.',
+       th_gtip:'HS', th_src:'Source', th_date:'Date', th_product:'Product',
+       more:'Show more', search:'search', fav:'★ My favourites' }
+});
+const T = k => BTIi18n.t(k);
+
 const DATA = window.BTI_DATA || {days:[]};
 const SRC = {
   eu:{name:'Avrupa Birliği',  short:'AB', color:'#2f6bdf', flag:'🇪🇺'},
@@ -134,7 +164,8 @@ const SRC = {
   tr:{name:'Türkiye',         short:'TR', color:'#e30a17', flag:'🇹🇷'},
 };
 /* Bilinmeyen bir kaynak eklenirse panel çökmesin (SRC[x] undefined olmasın). */
-const srcOf = s => SRC[s] || {name:s||'—', short:(s||'?').toUpperCase(), color:'#8693a6', flag:''};
+const srcOf = s => { var b = SRC[s] || {name:s||'—', short:(s||'?').toUpperCase(), color:'#8693a6', flag:''};
+  return Object.assign({}, b, {name: BTIi18n.srcName(s)||b.name, short: BTIi18n.srcShort(s)||b.short}); };
 // HS Fasıl (ilk 2 hane) → kısa Türkçe ad (yaygın olanlar; gerisi "Fasıl XX")
 const HS2 = {
  '02':'Etler','03':'Balık, su ürünleri','04':'Süt ürünleri, yumurta','07':'Sebzeler','08':'Meyveler',
@@ -156,14 +187,15 @@ const HS2 = {
  '87':'Kara taşıtları','89':'Gemiler','90':'Optik, ölçü, tıbbi cihazlar','91':'Saatler',
  '92':'Müzik aletleri','94':'Mobilya, aydınlatma','95':'Oyuncak, oyun, spor','96':'Çeşitli eşya',
 };
-const chapName = c => HS2[c] || ('Fasıl '+c);
+const chapName = c => BTIi18n.fasilName(c, HS2) || (T('h_chapters')+' '+c);
 
 let state = { period:'month', tab:'all', listLimit:25 };
 
 const all = DATA.days.flatMap(d => d.decisions.map(x => Object.assign({}, x, {_date:d.date})));
 const presentSources = [...new Set(all.map(x=>x.source))];
 const curMonth = (DATA.today || (DATA.days[0]&&DATA.days[0].date) || '').slice(0,7);
-const monthName = (()=>{const m=['Ocak','Şubat','Mart','Nisan','Mayıs','Haziran','Temmuz','Ağustos','Eylül','Ekim','Kasım','Aralık'];const p=curMonth.split('-');return p[1]?m[+p[1]-1]+' '+p[0]:'';})();
+// dil değişince yeniden hesaplanmalı → fonksiyon
+const monthName = ()=>{const p=curMonth.split('-');return p[1]?BTIi18n.monthName(+p[1]-1)+' '+p[0]:'';};
 
 function periodStart(){
   if(state.period==='d30'){ const d=new Date(); d.setDate(d.getDate()-30); return d.toISOString().slice(0,10); }
@@ -193,7 +225,7 @@ function renderTabs(){
     const dot = color?`<span class="dot" style="background:${color}"></span>`:`<span class="dot" style="background:#16202b"></span>`;
     return `<button class="tab ${on?'on':''}" ${color?'data-accent':''} style="${style}" data-tab="${id}">${dot}${label}</button>`;
   };
-  let h = mk('all','Tümü',null);
+  let h = mk('all',T('all_tab'),null);
   presentSources.forEach(s=>{ h += mk(s, srcOf(s).flag+' '+srcOf(s).name, srcOf(s).color); });
   el.innerHTML = h;
   el.querySelectorAll('button').forEach(b=>b.onclick=()=>{ state.tab=b.dataset.tab; state.listLimit=25; render(); });
@@ -215,8 +247,8 @@ function render(){
   document.querySelectorAll('.tab').forEach(b=>b.classList.toggle('on', b.dataset.tab===state.tab));
   document.querySelectorAll('#period button').forEach(b=>b.classList.toggle('on', b.dataset.p===state.period));
 
-  const periodLabel = state.period==='month'?('Bu Ay · '+monthName):state.period==='d30'?'Son 30 Gün':'Tüm Zamanlar';
-  document.getElementById('sub').innerHTML = `${periodLabel} · ${state.tab==='all'?'tüm ülkeler':srcOf(state.tab).flag+' '+srcOf(state.tab).name}`;
+  const periodLabel = state.period==='month'?(T('p_month')+' · '+monthName()):state.period==='d30'?T('p_d30'):T('p_all');
+  document.getElementById('sub').innerHTML = `${periodLabel} · ${state.tab==='all'?T('all_countries'):srcOf(state.tab).flag+' '+srcOf(state.tab).name}`;
 
   // ── kartlar ──
   const days = new Set(f.map(x=>x._date));
@@ -225,31 +257,32 @@ function render(){
   const topCh = chCount[0];
   const busiest = sortEntries(countBy(f, x=>x._date))[0];
   document.getElementById('cards').innerHTML =
-    card('Toplam karar', f.length, periodLabel.toLowerCase()) +
-    card('Aktif gün', days.size, f.length&&days.size?('ort. '+(f.length/days.size).toFixed(1)+' karar/gün'):'—') +
-    card('Farklı GTİP', gtipSet.size, '4 haneli pozisyon') +
-    card('En yoğun fasıl', topCh?topCh[0]:'—', topCh?chapName(topCh[0])+' · '+topCh[1]:'veri yok');
+    card(T('c_total'), f.length, periodLabel.toLowerCase()) +
+    card(T('c_days'), days.size, f.length&&days.size?(T('avg')+' '+(f.length/days.size).toFixed(1)+' '+T('per_day')):'—') +
+    card(T('c_gtip'), gtipSet.size, T('pos4')) +
+    card(T('c_chapter'), topCh?topCh[0]:'—', topCh?chapName(topCh[0])+' · '+topCh[1]:T('nodata'));
 
   // ── en çok verilen GTİP ──
   const gtip = sortEntries(countBy(f, x=>x.hs4));
   const maxG = gtip.length?gtip[0][1]:0;
-  const sampleFor = code => { const d=f.find(x=>x.hs4===code && x.title); return d?d.title:''; };
-  document.getElementById('topNote').textContent = gtip.length?('ilk '+Math.min(15,gtip.length)):'';
+  // örnek ürün metni de dile göre (EN'de kararın orijinali)
+  const sampleFor = code => { const d=f.find(x=>x.hs4===code && BTIi18n.title(x)); return d?BTIi18n.title(d):''; };
+  document.getElementById('topNote').textContent = gtip.length?(T('first')+' '+Math.min(15,gtip.length)):'';
   document.getElementById('topGtip').innerHTML = gtip.length
     ? gtip.slice(0,15).map(([c,n])=>barRow(c,n,maxG,ac,sampleFor(c))).join('')
-    : '<div class="empty">Bu seçimde karar yok.</div>';
+    : '<div class="empty">'+T('empty')+'</div>';
 
   // ── fasıl dağılımı ──
   const maxC = chCount.length?chCount[0][1]:0;
   document.getElementById('chapters').innerHTML = chCount.length
     ? chCount.slice(0,12).map(([c,n])=>barRow(c,n,maxC,ac,chapName(c))).join('')
-    : '<div class="empty">Veri yok.</div>';
+    : '<div class="empty">'+T('nodata_short')+'</div>';
 
   // ── nadir GTİP (tek kez) ──
   const rare = gtip.filter(([,n])=>n===1).map(([c])=>c);
   document.getElementById('rareNote').textContent = rare.length
-    ? rare.length+' pozisyon tek kez sınıflandırıldı'
-    : 'tek kez verilen pozisyon yok';
+    ? rare.length+' '+T('rare_found')
+    : T('rare_none');
   document.getElementById('rare').innerHTML = rare.length
     ? rare.slice(0,60).map(c=>`<span class="chip">${c}<span>1</span></span>`).join('')
     : '<div class="empty">—</div>';
@@ -258,7 +291,7 @@ function render(){
   const byS = countBy(f, x=>x.source);
   const sEntries = presentSources.map(s=>[s, byS[s]||0]).sort((a,b)=>b[1]-a[1]);
   const maxS = Math.max(1,...sEntries.map(e=>e[1]));
-  document.getElementById('ctrNote').textContent = state.tab==='all'?'':'sekme tek ülkeye filtreli';
+  document.getElementById('ctrNote').textContent = state.tab==='all'?'':T('filtered');
   document.getElementById('country').innerHTML = sEntries.map(([s,n])=>{
     const w=Math.max(4,n/maxS*100);
     return `<div class="row"><div class="code" style="color:${srcOf(s).color}">${srcOf(s).flag}</div>
@@ -271,34 +304,34 @@ function render(){
   const perDay = {}; dlist.forEach(d=>perDay[d]={});
   f.forEach(x=>{ perDay[x._date][x.source]=(perDay[x._date][x.source]||0)+1; });
   const maxDay = Math.max(1,...dlist.map(d=>Object.values(perDay[d]).reduce((a,b)=>a+b,0)));
-  document.getElementById('dailyNote').textContent = dlist.length?dlist.length+' gün':'';
+  document.getElementById('dailyNote').textContent = dlist.length?dlist.length+' '+T('days'):'';
   const order = state.tab==='all'?presentSources:[state.tab];
   document.getElementById('daily').innerHTML = dlist.map(d=>{
     const tot=Object.values(perDay[d]).reduce((a,b)=>a+b,0);
     const segs=order.filter(s=>perDay[d][s]).map(s=>`<div class="seg2" style="height:${perDay[d][s]/maxDay*150}px;background:${srcOf(s).color}"></div>`).join('');
-    return `<div class="dcol" title="${d} · ${tot} karar">${segs}</div>`;
-  }).join('') || '<div class="empty">Veri yok.</div>';
+    return `<div class="dcol" title="${d} · ${tot} ${T('decisions')}">${segs}</div>`;
+  }).join('') || '<div class="empty">'+T('nodata_short')+'</div>';
   document.getElementById('dailyLegend').innerHTML = order.map(s=>`<span><i style="background:${srcOf(s).color}"></i>${srcOf(s).name}</span>`).join('');
 
   // ── karar listesi ──
   const sorted = f.slice().sort((a,b)=> a._date<b._date?1:a._date>b._date?-1:0);
   const shown = sorted.slice(0, state.listLimit);
-  document.getElementById('listNote').textContent = f.length+' karar';
-  if(!sorted.length){ document.getElementById('list').innerHTML='<div class="empty">Bu seçimde karar yok.</div>'; return; }
+  document.getElementById('listNote').textContent = f.length+' '+T('decisions');
+  if(!sorted.length){ document.getElementById('list').innerHTML='<div class="empty">'+T('empty')+'</div>'; return; }
   let rows = shown.map((x,i)=>{
     const s=srcOf(x.source);
     const on = window.BTIFav && BTIFav.has(x);
     return `<tr class="dec" data-url="${tip(x.url)}" data-i="${i}">
       <td class="star ${on?'on':''}" data-fav="${i}" title="${on?'Favorilerimden çıkar':'Favorilerime kaydet'}">${on?'★':'☆'}</td>
       <td class="mono" style="font-weight:700;color:${s.color}">${x.hs4||'—'}</td>
-      <td><span class="pill"><i style="background:${s.color}"></i>${s.short}${x.origin&&x.origin!==s.name?' · '+esc(x.origin):''}</span></td>
+      <td><span class="pill"><i style="background:${s.color}"></i>${s.short}${x.origin&&x.origin!==s.name?' · '+esc(BTIi18n.originName(x.origin)):''}</span></td>
       <td class="mono" style="color:#8693a6;white-space:nowrap">${x._date}</td>
-      <td><div class="t">${esc((x.title||'').slice(0,120))||'—'}</div></td>
+      <td><div class="t">${esc((BTIi18n.title(x)||'').slice(0,120))||'—'}</div></td>
     </tr>`;
   }).join('');
-  let more = sorted.length>state.listLimit ? `<div class="more"><button id="moreBtn">Daha fazla göster (${sorted.length-state.listLimit})</button></div>` : '';
+  let more = sorted.length>state.listLimit ? `<div class="more"><button id="moreBtn">${T('more')} (${sorted.length-state.listLimit})</button></div>` : '';
   document.getElementById('list').innerHTML =
-    `<table><thead><tr><th></th><th>GTİP</th><th>Kaynak</th><th>Tarih</th><th>Ürün</th></tr></thead><tbody>${rows}</tbody></table>${more}`;
+    `<table><thead><tr><th></th><th>${T('th_gtip')}</th><th>${T('th_src')}</th><th>${T('th_date')}</th><th>${T('th_product')}</th></tr></thead><tbody>${rows}</tbody></table>${more}`;
   // Yıldız → favori (satır tıklamasını tetiklemez)
   document.querySelectorAll('[data-fav]').forEach(td=>td.onclick=e=>{
     e.stopPropagation();
@@ -316,12 +349,13 @@ function render(){
 
 function paintFavLink(){
   const l=document.getElementById('favLink');
-  if(l && window.BTIFav){ const n=BTIFav.count(); l.textContent = n?`★ Favorilerim (${n})`:'★ Favorilerim'; }
+  if(l && window.BTIFav){ const n=BTIFav.count(); l.textContent = n?`${T('fav')} (${n})`:T('fav'); }
 }
 
 function card(k,v,s){ return `<div class="card"><div class="k">${k}</div><div class="v">${v}</div><div class="s">${s}</div></div>`; }
 
 document.querySelectorAll('#period button').forEach(b=>b.onclick=()=>{ state.period=b.dataset.p; state.listLimit=25; render(); });
+BTIi18n.mount(function(){ renderTabs(); render(); paintFavLink(); });
 renderTabs();
 render();
 paintFavLink();

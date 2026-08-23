@@ -68,6 +68,10 @@
       date: dec.date || '',
       title: dec.title || '',
       gerekce: dec.gerekce || '',
+      // İngilizce mod kararın orijinal metnini gösterdiği için o da saklanır
+      title_o: dec.title_o || '',
+      gerekce_o: dec.gerekce_o || '',
+      lang: dec.lang || '',
       url: dec.url || '',
       origin: dec.origin || '',
       note: (note !== undefined && note !== null) ? note : (prev.note || ''),
@@ -123,8 +127,8 @@
     if (!q) return list;
     var terms = q.split(/\s+/);
     return list.filter(function (f) {
-      var hay = [f.hs, f.hs4, f.ref, f.title, f.gerekce, f.note, f.origin,
-                 f.date, f.source].join(' ').toLowerCase();
+      var hay = [f.hs, f.hs4, f.ref, f.title, f.gerekce, f.title_o, f.gerekce_o,
+                 f.note, f.origin, f.date, f.source].join(' ').toLowerCase();
       return terms.every(function (t) { return hay.indexOf(t) !== -1; });
     });
   }
