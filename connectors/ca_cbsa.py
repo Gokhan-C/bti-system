@@ -154,6 +154,9 @@ class CaCbsaConnector(BaseConnector):
                 "origin":      origin,
                 "summary":     summary,
                 "source_url":  source_url,
+                # Sitenin İngilizce modunda kararın ORİJİNAL metni gösterilir.
+                "desc_orig":   prod_desc,
+                "just_orig":   analysis,
             })
             time.sleep(0.3)
 

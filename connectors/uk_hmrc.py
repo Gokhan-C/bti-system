@@ -160,6 +160,9 @@ class UkHmrcConnector(BaseConnector):
                 "keywords":   keywords,
                 "summary":    summary,
                 "source_url": source_url,
+                # Sitenin İngilizce modunda kararın ORİJİNAL metni gösterilir.
+                "desc_orig":  desc,
+                "just_orig":  just,
             })
 
         # Aynı gün önceki koşunun kayıtlarıyla birleştir (retry/ikinci koşu veriyi ezmesin)
