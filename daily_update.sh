@@ -26,6 +26,14 @@ mkdir -p "$LOG_DIR"
 LOG="$LOG_DIR/daily_update.log"
 TS() { date "+%Y-%m-%d %H:%M:%S"; }
 
+# Kullanıcıya görünür uyarı: masaüstü bildirimi + kalıcı uyarı dosyası.
+# (Sessiz başarısızlık en kötüsü; kullanıcı her gün elle kontrol etmek zorunda kalmasın.)
+notify() {
+  local msg="$1"
+  osascript -e "display notification \"$msg\" with title \"BTI Günlük Güncelleme\" sound name \"Basso\"" 2>/dev/null || true
+  echo "[$(TS)] $msg" >> "$LOG_DIR/ALERTS.log"
+}
+
 # main.py için üst süre sınırı. Normal çalışma 35-45 dk (en uzunu ~1s45dk),
 # ama 21 Ağu 2026'da EU aşamasında bir Claude çağrısı asılı kalıp toplam süre
 # 13.5 saate çıktı; site ancak akşam güncellendi. Sınır aşılırsa main.py
@@ -122,6 +130,16 @@ run_with_timeout() {
   fi
 
   # 2) Siteyi tazele
+  # 2b) BUGÜNÜ de dene: main.py varsayılan olarak DÜNÜ çeker, ama EBTI aynı gün
+  # de yayımlıyor (ör. 24 Ağu 2026 sabahı o günün 10 kararı zaten yayındaydı).
+  # Bugünü çekmezsek site gün içinde "eski" görünüyor ve kullanıcı elle kontrol
+  # etmek zorunda kalıyor. Hata verse bile akış devam eder.
+  TODAY_DMY=$(date "+%d-%m-%Y")
+  echo "[$(TS)] bugünün (${TODAY_DMY}) kararları da deneniyor..."
+  run_with_timeout 3600 "$PY" "$SCRIPT_DIR/main.py" --config "$SCRIPT_DIR/config.yaml" \
+    --connector eu_ebti --date "$TODAY_DMY" >> "$LOG_DIR/last_today_run.log" 2>&1
+  echo "[$(TS)] bugün denemesi bitti (exit=$?)"
+
   echo "[$(TS)] build_site.py çalışıyor..."
   "$PY" "$SCRIPT_DIR/site/build_site.py"
   echo "[$(TS)] build_site.py bitti (exit=$?)"
@@ -150,7 +168,29 @@ run_with_timeout() {
   done
   if [ "$PUSH_OK" -ne 1 ]; then
     echo "[$(TS)] HATA: GitHub push 3 denemede de başarısız — site GÜNCELLENMEDİ, commit'ler lokalde bekliyor."
-    osascript -e 'display notification "GitHub push 3 denemede başarısız — site güncellenmedi" with title "BTI Günlük Güncelleme"' 2>/dev/null || true
+    notify "Push başarısız — CANLI SİTE GÜNCELLENMEDİ"
+  fi
+
+  # 4) YAYIN DOĞRULAMASI — "sessiz başarısızlık" olmasın diye canlı siteyi kontrol et.
+  # Amaç: kullanıcının her gün elle bakmak zorunda kalmaması. Yerel veri ile
+  # yayındaki veri aynı mı? Değilse (ya da site açılmıyorsa) bildirim gönderilir.
+  echo "[$(TS)] Canlı yayın doğrulanıyor..."
+  LOCAL_GEN=$("$PY" -c "import json,sys;print(json.load(open('$SCRIPT_DIR/site/data/index.json',encoding='utf-8')).get('generated_at',''))" 2>/dev/null)
+  LIVE_OK=0
+  for TRY in 1 2 3 4 5 6; do
+    sleep 30   # Pages yayını push'tan sonra biraz sürer
+    LIVE_GEN=$(curl -s -m 25 "https://gokhan-c.github.io/bti-system/data/index.json?cb=$(date +%s)" \
+      | "$PY" -c "import json,sys;print(json.load(sys.stdin).get('generated_at',''))" 2>/dev/null)
+    if [ -n "$LIVE_GEN" ] && [ "$LIVE_GEN" = "$LOCAL_GEN" ]; then
+      LIVE_OK=1
+      echo "[$(TS)] ✓ Canlı site güncel (generated_at=$LIVE_GEN, deneme $TRY)."
+      break
+    fi
+    echo "[$(TS)]   deneme $TRY: canlı='$LIVE_GEN' yerel='$LOCAL_GEN' — henüz eşleşmedi."
+  done
+  if [ "$LIVE_OK" -ne 1 ]; then
+    echo "[$(TS)] HATA: Canlı site yerel veriyle eşleşmedi (yerel=$LOCAL_GEN, canlı=$LIVE_GEN)."
+    notify "Canlı site güncellenmedi — yerel: $LOCAL_GEN, canlı: $LIVE_GEN"
   fi
 
   echo "[$(TS)] Tamamlandı."

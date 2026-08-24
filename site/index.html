@@ -341,7 +341,11 @@
       empty_search:'Eşleşen karar bulunamadı. Aramayı kısaltmayı ya da filtreleri temizlemeyi deneyin.',
       archive_of:'arşivdeki karar', updated:'son güncelleme', days_archive:'gün arşiv',
       prev_day:'Önceki gün', next_day:'Sonraki gün', clear_search:'Aramayı temizle',
-      orig_note:'', valid_from:'Geçerlilik başlangıcı', decided_on:'Karar tarihi'
+      orig_note:'', valid_from:'Geçerlilik başlangıcı', decided_on:'Karar tarihi',
+      checked_at:'kontrol edildi', latest_ruling:'en son karar',
+      gap_none:'Bu tarihlerde hiçbir idare karar yayımlamadı (idareler genelde hafta içi yayımlar).',
+      gap_since:'Sistem her sabah 06:00\'da kontrol ediyor; son kontrol:',
+      weekend:'hafta sonu'
     },
     en:{
       badge:'updated automatically every day',
@@ -370,7 +374,11 @@
       archive_of:'rulings in archive', updated:'last updated', days_archive:'days archived',
       prev_day:'Previous day', next_day:'Next day', clear_search:'Clear search',
       orig_note:'Shown in the original language of the ruling.',
-      valid_from:'Valid from', decided_on:'Decided on'
+      valid_from:'Valid from', decided_on:'Decided on',
+      checked_at:'checked', latest_ruling:'latest ruling',
+      gap_none:'No authority published a ruling on these dates (authorities usually publish on weekdays).',
+      gap_since:'The system checks every morning at 06:00; last check:',
+      weekend:'weekend'
     }
   };
   function t(k){ var d=I18N[LANG]||I18N.tr; return (d[k]!==undefined?d[k]:(I18N.tr[k]||k)); }
@@ -849,7 +857,23 @@
     var note = $('note');
     if(!g && S.day===0 && !data.latest_is_today){
       note.style.display = 'block';
-      note.innerHTML = (LANG==='en' ? '<strong>'+esc(data.today_en||data.today_tr||'')+'</strong> rulings will be added in tomorrow morning\'s <strong>06:00</strong> update. Showing the most recently published day: <strong>'+esc(day?dstr(day):'')+'</strong>.' : '<strong>'+esc(data.today_tr||'')+'</strong> kararları yarın sabah <strong>06:00</strong> güncellemesinde eklenecek. Şu an en son yayımlanan gün gösteriliyor: <strong>'+esc(day?day.date_tr:'')+'</strong>.');
+      // Son karardan bugüne kaç gün geçti + o günler hafta sonu mu?
+      var _lastIso = day ? day.date : (data.latest_date||'');
+      var _gapTxt = '';
+      if(_lastIso){
+        var _d1 = new Date(_lastIso+'T00:00:00'), _d2 = new Date((data.today||'')+'T00:00:00');
+        var _gap = Math.round((_d2-_d1)/86400000);
+        if(_gap > 0){
+          var _we = 0, _tot = 0;
+          for(var i=1;i<=_gap;i++){
+            var dd = new Date(_d1.getTime()+i*86400000), wd = dd.getDay();
+            _tot++; if(wd===0||wd===6) _we++;
+          }
+          _gapTxt = (_tot && _we===_tot) ? ' ('+t('weekend')+')' : '';
+        }
+      }
+      note.innerHTML = '<strong>'+esc(day?dstr(day):'')+'</strong> — '+esc(t('latest_ruling'))+_gapTxt+
+        '. '+esc(t('gap_none'))+' '+esc(t('gap_since'))+' <strong>'+esc((data.generated_at||'').slice(0,16))+'</strong>.';
     } else note.style.display = 'none';
 
     $('vSky').classList.toggle('on', effView==='sky');
@@ -943,8 +967,16 @@
         '<div class="v" style="color:'+s.color+'">'+(sc[k]||0)+'</div>'+
         '<div class="k">'+s.sys+' · '+t('archive_of')+'</div></div>';
     }).join('');
-    var _td = (LANG==='en' ? (data.today_en||data.today_tr) : data.today_tr);
-    if(_td && $('badgeTxt')) $('badgeTxt').textContent = _td+' · '+t('badge');
+    // Rozet, "sistem çalıştı mı?" sorusunu doğrudan yanıtlar:
+    // son kontrol zamanı + en son karar günü. Böylece "veri yok" ile
+    // "güncelleme çalışmadı" karışmaz.
+    if($('badgeTxt')){
+      var _chk = (data.generated_at||'').slice(0,16);
+      var _lat = data.latest_date ? dstr(dayByDate(data.latest_date) || {date_tr:data.latest_date, date_en:data.latest_date}) : '';
+      $('badgeTxt').textContent = _chk
+        ? (_chk+' '+t('checked_at')+(_lat?' · '+t('latest_ruling')+': '+_lat:''))
+        : t('badge');
+    }
     if($('footMeta')) $('footMeta').textContent = (data.total_decisions||0)+' '+t('decisions')+' · '+(data.total_days||0)+' '+t('days_archive')+' · '+t('updated')+' '+(data.generated_at||'');
     // kaynak çiplerinin başlıkları da dile bağlı
     var cw = $('chips');
