@@ -6,13 +6,20 @@
 <atom:link href="https://gokhan-c.github.io/bti-system/feed.xml" rel="self" type="application/rss+xml"/>
 <description>AB, ABD, Kanada ve Türkiye bağlayıcı tarife kararlarının günlük özeti.</description>
 <language>tr</language>
-<lastBuildDate>Mon, 24 Aug 2026 18:14:48 -0000</lastBuildDate>
+<lastBuildDate>Tue, 25 Aug 2026 03:32:38 -0000</lastBuildDate>
 <item>
-<title>24 Ağustos 2026 — 10 yeni tarife kararı (AB 10)</title>
+<title>25 Ağustos 2026 — 2 yeni tarife kararı (AB 2)</title>
+<link>https://gokhan-c.github.io/bti-system/#g=2026-08-25</link>
+<guid isPermaLink="false">https://gokhan-c.github.io/bti-system/#g=2026-08-25</guid>
+<pubDate>Mon, 24 Aug 2026 21:00:00 -0000</pubDate>
+<description>En çok karar çıkan fasıllar: 73 Demir veya çelikten eşya (1) · 83 Adi metallerden çeşitli eşya (1)</description>
+</item>
+<item>
+<title>24 Ağustos 2026 — 73 yeni tarife kararı (AB 73)</title>
 <link>https://gokhan-c.github.io/bti-system/#g=2026-08-24</link>
 <guid isPermaLink="false">https://gokhan-c.github.io/bti-system/#g=2026-08-24</guid>
 <pubDate>Sun, 23 Aug 2026 21:00:00 -0000</pubDate>
-<description>En çok karar çıkan fasıllar: 21 Yenilen çeşitli gıda müstahzarları (8) · 70 Cam ve cam eşya (2)</description>
+<description>En çok karar çıkan fasıllar: 85 Elektrikli makine ve cihazlar (11) · 21 Yenilen çeşitli gıda müstahzarları (10) · 70 Cam ve cam eşya (4) · 72 Demir ve çelik (4) · 73 Demir veya çelikten eşya (4)</description>
 </item>
 <item>
 <title>22 Ağustos 2026 — 1 yeni tarife kararı (AB 1)</title>
@@ -97,13 +104,6 @@
 <guid isPermaLink="false">https://gokhan-c.github.io/bti-system/#g=2026-08-09</guid>
 <pubDate>Sat, 08 Aug 2026 21:00:00 -0000</pubDate>
 <description>En çok karar çıkan fasıllar: 95 Oyuncaklar ve spor malzemeleri (1)</description>
-</item>
-<item>
-<title>8 Ağustos 2026 — 27 yeni tarife kararı (AB 27)</title>
-<link>https://gokhan-c.github.io/bti-system/#g=2026-08-08</link>
-<guid isPermaLink="false">https://gokhan-c.github.io/bti-system/#g=2026-08-08</guid>
-<pubDate>Fri, 07 Aug 2026 21:00:00 -0000</pubDate>
-<description>En çok karar çıkan fasıllar: 85 Elektrikli makine ve cihazlar (5) · 84 Makineler ve mekanik cihazlar (4) · 94 Mobilyalar ve aydınlatma cihazları (4) · 19 Unlu mamuller (2) · 20 Sebze ve meyve müstahzarları (2)</description>
 </item>
 </channel>
 </rss>
