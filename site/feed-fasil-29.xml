@@ -6,7 +6,14 @@
 <atom:link href="https://gokhan-c.github.io/bti-system/feed-fasil-29.xml" rel="self" type="application/rss+xml"/>
 <description>Fasıl 29 (Organik kimyasallar) altındaki yeni tarife kararları.</description>
 <language>tr</language>
-<lastBuildDate>Thu, 27 Aug 2026 05:29:30 -0000</lastBuildDate>
+<lastBuildDate>Fri, 28 Aug 2026 03:31:49 -0000</lastBuildDate>
+<item>
+<title>29109000 — Epiklorhidrin ve aromatik alkol içeren bir bileşenden yapılmış epoksi reçine - belirtilme göre - di</title>
+<link>https://ec.europa.eu/taxation_customs/dds2/ebti/ebti_details.jsp?showHeader=false&amp;Lang=en&amp;reference=NLBTI2026-0281</link>
+<guid isPermaLink="false">NLBTI2026-0281|29</guid>
+<pubDate>Wed, 26 Aug 2026 21:00:00 -0000</pubDate>
+<description>[AB] Avrupa Birliği (EBTI) · 27 Ağustos 2026 — Birleşik Nomenclatürün yorumlanması için Genel Kurallar 1 ve 6. 29. Bölüme ilişkin 1. Not. GN kodları 2910 ve 2910 90 00'ın metni. Laboratuvar 11 Haziran 2026 tarihinde konsulte edilmiştir; 4552503-01, 4552503-02 ve 4552…</description>
+</item>
 <item>
 <title>29329900 — Teknik saf, hesperetin türü oksijen heteroatomlu heterosiklik bileşik, açık sarı renkte ince toz şe</title>
 <link>https://ec.europa.eu/taxation_customs/dds2/ebti/ebti_details.jsp?showHeader=false&amp;Lang=en&amp;reference=FRBTIFR-BTI-2026-03167</link>
@@ -419,13 +426,6 @@
 <guid isPermaLink="false">FRBTIFR-BTI-2026-00693|29</guid>
 <pubDate>Sun, 05 Jul 2026 21:00:00 -0000</pubDate>
 <description>[AB] Avrupa Birliği (EBTI) · 6 Temmuz 2026 — Genel Kural 1 ve 6: Tasnif, bölüm ve bölüm notları ile pozisyon ve alt-pozisyon başlığı tarafından belirlenmiştir. Genel Kural 5b): Ambalaj, malın tasnifini takip eder. Bölüm 29'un Not 1 a): Aksi hüküm olmadıkça, bu bölü…</description>
-</item>
-<item>
-<title>29182300 — Etilheksil salisilatı türü organik bileşik, sarı renkli sıvı şeklinde sunulan, kozmetik ürün üretim</title>
-<link>https://ec.europa.eu/taxation_customs/dds2/ebti/ebti_details.jsp?showHeader=false&amp;Lang=en&amp;reference=FRBTIFR-BTI-2026-02144</link>
-<guid isPermaLink="false">FRBTIFR-BTI-2026-02144|29</guid>
-<pubDate>Sun, 05 Jul 2026 21:00:00 -0000</pubDate>
-<description>[AB] Avrupa Birliği (EBTI) · 6 Temmuz 2026 — Genel Kurallar 1 ve 6: Sınıflandırma, bölüm ve bölüm notları ile konum ve alt-konumun tanımı ile belirlenir. Genel Kural 5b): Ambalaj, malın sınıflandırmasını takip eder. 29. Bölümün 1a) Notu: Aksi belirtilmedikçe, bu Bö…</description>
 </item>
 </channel>
 </rss>
