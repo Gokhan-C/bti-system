@@ -1,14 +1,14 @@
 window.BTI_DATA = {
- "generated_at": "2026-08-30 06:02",
- "today": "2026-08-30",
- "today_tr": "30 Ağustos 2026",
- "today_en": "30 August 2026",
- "latest_date": "2026-08-29",
- "latest_is_today": false,
- "total_decisions": 5133,
- "total_days": 116,
+ "generated_at": "2026-08-31 06:01",
+ "today": "2026-08-31",
+ "today_tr": "31 Ağustos 2026",
+ "today_en": "31 August 2026",
+ "latest_date": "2026-08-31",
+ "latest_is_today": true,
+ "total_decisions": 5135,
+ "total_days": 117,
  "source_counts": {
-  "eu": 4111,
+  "eu": 4113,
   "us": 445,
   "ca": 18,
   "uk": 257,
@@ -107,6 +107,53 @@ window.BTI_DATA = {
   "98"
  ],
  "days": [
+  {
+   "date": "2026-08-31",
+   "date_tr": "31 Ağustos 2026",
+   "date_en": "31 August 2026",
+   "count": 2,
+   "sources": [
+    "eu"
+   ],
+   "decisions": [
+    {
+     "source": "eu",
+     "source_label": "Avrupa Birliği (EBTI)",
+     "color": "#2E6BE6",
+     "flag": "🇧🇪",
+     "origin": "Belçika",
+     "hs": "92099400",
+     "hs4": "9209",
+     "ref": "BEBTIDT.50.025.363",
+     "date": "2026-08-31",
+     "date_issue": "2026-08-05",
+     "title": "Een metalen bovenrand voorzien van een rubberen bescherming fungerend als een onderdeel van een drumpad voor een elektronisch drumstel.De rand is vervaardigd van carbon staal en de beschermingsring is gemaakt van rubber.",
+     "gerekce": "De indeling is vastgesteld op basis van de algemene regels 1 en 6 voor de interpretatie van de gecombineerde nomenclatuur, en op basis van de tekst van post 9209 en van GS-code 9209 94.Aantekening 2a) op hoofdstuk 90GS-t…",
+     "title_o": "",
+     "gerekce_o": "",
+     "lang": "",
+     "url": "https://ec.europa.eu/taxation_customs/dds2/ebti/ebti_details.jsp?showHeader=false&Lang=en&reference=BEBTIDT.50.025.363"
+    },
+    {
+     "source": "eu",
+     "source_label": "Avrupa Birliği (EBTI)",
+     "color": "#2E6BE6",
+     "flag": "🇫🇮",
+     "origin": "Finlandiya",
+     "hs": "09021000",
+     "hs4": "0902",
+     "ref": "FIBTIFI001210-2026-BTI80",
+     "date": "2026-08-31",
+     "date_issue": "2026-08-28",
+     "title": "Tuote on juoman valmistukseen tarkoitettua maustettua vihreää teetä. Tuotteen ainesosat ovat mm. vihreä tee ja ruusun terälehti. Tuote sisältää 91 % vihreää teetä. Kuluttajapakkaus sisältää 20 teepussia (nettopaino 40 g).",
+     "gerekce": "Yhdistetyn nimikkeistön yleiset tulkintasäännöt 1 ja 6.Nimikkeen 0902 teksti ja sen alanimikkeiden tekstit.(Yhdistetty nimikkeistö, komission täytäntöönpanoasetus (EU) 2025/1926, julkaisupäivä 31.10.2025, Euroopan unioni…",
+     "title_o": "",
+     "gerekce_o": "",
+     "lang": "",
+     "url": "https://ec.europa.eu/taxation_customs/dds2/ebti/ebti_details.jsp?showHeader=false&Lang=en&reference=FIBTIFI001210-2026-BTI80"
+    }
+   ]
+  },
   {
    "date": "2026-08-29",
    "date_tr": "29 Ağustos 2026",
