@@ -53,6 +53,25 @@
  .empty h3{font-family:'Space Grotesk',sans-serif;font-size:20px;font-weight:600;margin-top:14px}
  .empty p{color:#5f7184;font-size:15px;margin-top:8px;max-width:460px;margin-left:auto;margin-right:auto}
  .empty .btn{margin-top:20px}
+ /* Elle BTI Aktar penceresi */
+ .ovl{position:fixed;inset:0;background:rgba(22,32,43,.42);backdrop-filter:blur(3px);display:none;align-items:flex-start;justify-content:center;padding:40px 18px;overflow:auto;z-index:60}
+ .ovl.on{display:flex}
+ .dlg{background:#fff;border:1px solid #e6ebf2;border-radius:20px;width:100%;max-width:620px;padding:24px 26px;box-shadow:0 30px 80px rgba(40,90,160,.20)}
+ .dlgh{display:flex;align-items:center;justify-content:space-between;gap:12px}
+ .dlgh h2{font-family:'Space Grotesk',sans-serif;font-weight:600;font-size:21px;letter-spacing:-.5px}
+ .x{border:0;background:transparent;font-size:20px;color:#8693a6;cursor:pointer;line-height:1;padding:4px 8px;border-radius:8px}
+ .x:hover{color:#16202b;background:#f1f5fa}
+ .dlgsub{color:#5f7184;font-size:14px;margin-top:4px}
+ #mForm{margin-top:18px}
+ .grid{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+ .fld{display:flex;flex-direction:column;margin-bottom:14px}
+ .grid .fld{margin-bottom:0}
+ .fld label{font-size:11px;letter-spacing:.06em;text-transform:uppercase;color:#6f86ad;font-weight:700;margin-bottom:5px}
+ .fld input,.fld select,.fld textarea{border:1px solid #e6ebf2;background:#fbfdff;border-radius:11px;padding:11px 13px;font-size:14.5px;font-family:inherit;color:#23303f;outline:none;resize:vertical;width:100%}
+ .fld input:focus,.fld select:focus,.fld textarea:focus{border-color:#2f6bdf;background:#fff;box-shadow:0 0 0 4px rgba(47,107,223,.08)}
+ .dlgf{display:flex;align-items:center;justify-content:flex-end;gap:10px;margin-top:6px}
+ .dlgf .err{margin-right:auto;color:#d94a4a;font-size:13px;font-weight:600}
+ @media(max-width:560px){.grid{grid-template-columns:1fr}}
 </style>
 </head>
 <body>
@@ -64,6 +83,7 @@
       <div class="sub" id="sub">Kaydettiğin kararlar bu tarayıcıda saklanır.</div>
     </div>
     <div class="acts">
+      <button class="btn dark" id="manualAdd" data-i18n="btn_manual">+ Elle BTI Aktar</button>
       <a class="btn" href="dashboard.html" data-i18n="btn_dash">İstatistik paneli</a>
       <button class="btn" id="expCsv" data-i18n="btn_csv">CSV indir</button>
       <button class="btn" id="expJson" data-i18n="btn_json">JSON indir</button>
@@ -71,6 +91,69 @@
   </div>
 
   <div id="content"></div>
+</div>
+
+<!-- Elle BTI Aktar penceresi -->
+<div class="ovl" id="ovl" aria-hidden="true">
+  <div class="dlg" role="dialog" aria-modal="true" aria-labelledby="dlgTitle">
+    <div class="dlgh">
+      <h2 id="dlgTitle" data-i18n="m_title">Elle BTI Aktar</h2>
+      <button class="x" id="mClose" aria-label="Kapat">✕</button>
+    </div>
+    <p class="dlgsub" data-i18n="m_sub">Bir BTI kararını elle favorilere ekle. Linkinden gelen bilgileri buraya yapıştırabilirsin.</p>
+    <form id="mForm" autocomplete="off">
+      <div class="grid">
+        <div class="fld">
+          <label data-i18n="m_hs">GTİP / HS kodu</label>
+          <input name="hs" class="mono" placeholder="8471 30 00 00" required>
+        </div>
+        <div class="fld">
+          <label data-i18n="m_src">Kaynak</label>
+          <select name="source">
+            <option value="eu">Avrupa Birliği (EBTI)</option>
+            <option value="us">Amerika (CBP)</option>
+            <option value="ca">Kanada (CBSA)</option>
+            <option value="tr">Türkiye</option>
+            <option value="uk">Birleşik Krallık</option>
+            <option value="manual" selected data-i18n="m_src_manual">Diğer / Elle</option>
+          </select>
+        </div>
+        <div class="fld">
+          <label data-i18n="m_ref">Referans no</label>
+          <input name="ref" class="mono" placeholder="DEBTI…">
+        </div>
+        <div class="fld">
+          <label data-i18n="m_country">Ülke</label>
+          <input name="origin" placeholder="Almanya">
+        </div>
+        <div class="fld">
+          <label data-i18n="m_date">Tarih</label>
+          <input name="date" type="date">
+        </div>
+        <div class="fld">
+          <label data-i18n="m_url">Link (URL)</label>
+          <input name="url" type="url" placeholder="https://…">
+        </div>
+      </div>
+      <div class="fld">
+        <label data-i18n="m_ttl">Eşya tanımı</label>
+        <textarea name="title" rows="2" placeholder=""></textarea>
+      </div>
+      <div class="fld">
+        <label data-i18n="m_ger">Sınıflandırma gerekçesi</label>
+        <textarea name="gerekce" rows="3" placeholder=""></textarea>
+      </div>
+      <div class="fld">
+        <label data-i18n="m_note">Notum</label>
+        <textarea name="note" rows="2" data-i18n-ph="m_note_ph" placeholder="Bu karar hakkında notun…"></textarea>
+      </div>
+      <div class="dlgf">
+        <span class="err" id="mErr"></span>
+        <button type="button" class="btn" id="mCancel" data-i18n="m_cancel">Vazgeç</button>
+        <button type="submit" class="btn dark" data-i18n="m_save">Favorilere ekle</button>
+      </div>
+    </form>
+  </div>
 </div>
 
 <script src="favorites.js?v=1787513213"></script>
@@ -89,7 +172,14 @@ BTIi18n.dict({
        all_tab:'Tümü', decisions:'karar', search_of:'araması',
        none_h:'Eşleşen karar yok', none_p:'Arama terimini değiştirmeyi dene.',
        note_label:'Notum', note_saved:'✓ kaydedildi', note_ph:'Bu karar hakkında notun… (otomatik kaydedilir)',
-       open:'↗ Kararı aç', remove:'★ Favorilerden çıkar' },
+       open:'↗ Kararı aç', remove:'★ Favorilerden çıkar',
+       btn_manual:'+ Elle BTI Aktar',
+       m_title:'Elle BTI Aktar', m_sub:'Bir BTI kararını elle favorilere ekle. Linkinden gelen bilgileri buraya yapıştırabilirsin.',
+       m_hs:'GTİP / HS kodu', m_src:'Kaynak', m_src_manual:'Diğer / Elle', m_ref:'Referans no',
+       m_country:'Ülke', m_date:'Tarih', m_url:'Link (URL)', m_ttl:'Eşya tanımı',
+       m_ger:'Sınıflandırma gerekçesi', m_note:'Notum', m_note_ph:'Bu karar hakkında notun…',
+       m_cancel:'Vazgeç', m_save:'Favorilere ekle', m_err_hs:'En az GTİP / HS kodu gir.',
+       m_dup:'Bu karar zaten favorilerinde.' },
   en:{ back:'← HS Clouds', page_title:'★ My favourites', btn_dash:'Statistics panel',
        btn_csv:'Download CSV', btn_json:'Download JSON',
        sub_empty:'Rulings you save are stored in this browser.',
@@ -101,7 +191,14 @@ BTIi18n.dict({
        all_tab:'All', decisions:'rulings', search_of:'search',
        none_h:'No matching rulings', none_p:'Try changing your search terms.',
        note_label:'My note', note_saved:'✓ saved', note_ph:'Your note about this ruling… (saved automatically)',
-       open:'↗ Open ruling', remove:'★ Remove from favourites' }
+       open:'↗ Open ruling', remove:'★ Remove from favourites',
+       btn_manual:'+ Add BTI manually',
+       m_title:'Add BTI manually', m_sub:'Add a BTI ruling to your favourites by hand. Paste the details from its link here.',
+       m_hs:'HS / CN code', m_src:'Source', m_src_manual:'Other / Manual', m_ref:'Reference no',
+       m_country:'Country', m_date:'Date', m_url:'Link (URL)', m_ttl:'Description of goods',
+       m_ger:'Classification reasoning', m_note:'My note', m_note_ph:'Your note about this ruling…',
+       m_cancel:'Cancel', m_save:'Add to favourites', m_err_hs:'Enter at least an HS / CN code.',
+       m_dup:'This ruling is already in your favourites.' }
 });
 const T = k => BTIi18n.t(k);
 
@@ -111,6 +208,7 @@ const SRC = {
   ca:{name:'Kanada',         short:'KAN',color:'#169b8b'},
   tr:{name:'Türkiye',        short:'TR', color:'#e30a17'},
   uk:{name:'Birleşik Krallık',short:'UK',color:'#6b4ee6'},
+  manual:{name:'Elle eklenen', short:'ELLE', color:'#8693a6'},
 };
 const srcOf = s => { var b = SRC[s] || {name:s||'—', short:(s||'?').toUpperCase(), color:'#8693a6'};
   return Object.assign({}, b, {name: BTIi18n.srcName(s)||b.name}); };
@@ -210,6 +308,54 @@ document.getElementById('expCsv').onclick = () =>
   BTIFav.download('favori_bti_kararlarim.csv', '﻿'+BTIFav.exportCSV(), 'text/csv');
 document.getElementById('expJson').onclick = () =>
   BTIFav.download('favori_bti_kararlarim.json', BTIFav.exportJSON(), 'application/json');
+
+/* ---- Elle BTI Aktar ---- */
+const ovl = document.getElementById('ovl');
+const mForm = document.getElementById('mForm');
+const mErr = document.getElementById('mErr');
+
+function openModal(){
+  mErr.textContent = '';
+  mForm.reset();
+  ovl.classList.add('on'); ovl.setAttribute('aria-hidden','false');
+  const first = mForm.querySelector('[name=hs]'); if(first) first.focus();
+}
+function closeModal(){ ovl.classList.remove('on'); ovl.setAttribute('aria-hidden','true'); }
+
+document.getElementById('manualAdd').onclick = openModal;
+document.getElementById('mClose').onclick = closeModal;
+document.getElementById('mCancel').onclick = closeModal;
+ovl.addEventListener('click', e=>{ if(e.target===ovl) closeModal(); });
+document.addEventListener('keydown', e=>{ if(e.key==='Escape' && ovl.classList.contains('on')) closeModal(); });
+
+mForm.addEventListener('submit', e=>{
+  e.preventDefault();
+  const fd = new FormData(mForm);
+  const g = k => (fd.get(k)||'').toString().trim();
+
+  const hsFull = g('hs');
+  if(!hsFull){ mErr.textContent = T('m_err_hs'); return; }
+
+  const digits = hsFull.replace(/\D/g,'');
+  const dec = {
+    source:  g('source') || 'manual',
+    ref:     g('ref') || ('ELLE-' + Date.now().toString(36)),
+    hs:      hsFull,
+    hs4:     digits.slice(0,4),
+    date:    g('date'),
+    title:   g('title'),
+    gerekce: g('gerekce'),
+    url:     g('url'),
+    origin:  g('origin')
+  };
+
+  if(BTIFav.has(dec)){ mErr.textContent = T('m_dup'); return; }
+
+  BTIFav.add(dec, g('note'));
+  closeModal();
+  q = ''; srcFilter = 'all';
+  render();
+});
 
 window.addEventListener('bti-fav-change', ()=>{ /* aynı sekmede render zaten çağrılıyor */ });
 window.addEventListener('storage', e=>{ if(e.key===BTIFav.KEY) render(); });
