@@ -30,7 +30,7 @@ from core.report_builder import (
     make_doc, add_info_table, add_ruling_link,
     add_summary_section, add_no_results_notice,
 )
-from core.translator import summarize_ruling_claude
+from core.translator import summarize_ruling_google as summarize_ruling_claude
 
 
 UK_BASE_URL = "https://www.tax.service.gov.uk/search-for-advance-tariff-rulings"

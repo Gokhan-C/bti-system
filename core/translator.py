@@ -324,12 +324,18 @@ def summarize_cbp_ruling_claude(
 
 # ── Google Translate ──────────────────────────────────────────────────────────
 
-def translate_google(text: str, logger=None) -> str:
+def translate_google(text: str, logger=None, source: str = "auto") -> str:
+    """Google Translate (deep-translator) ile Türkçeye çevirir.
+
+    source="auto": kaynak dil otomatik algılanır — AB kararları FR/DE/RO/DA vb.
+    olduğu için varsayılan budur. API anahtarı/oturum gerektirmez, bu yüzden
+    claude CLI symlink'i kopsa bile çeviri durmaz.
+    """
     if not text or not text.strip():
         return ""
     try:
         from deep_translator import GoogleTranslator
-        translator = GoogleTranslator(source="en", target="tr")
+        translator = GoogleTranslator(source=source, target="tr")
         chunks = [text[i : i + CHUNK_SIZE] for i in range(0, len(text), CHUNK_SIZE)]
         parts = []
         for chunk in chunks:
@@ -340,3 +346,50 @@ def translate_google(text: str, logger=None) -> str:
         if logger:
             logger.warning(f"Google Translate hatası: {e}")
         return text
+
+
+# ── Google tabanlı çeviriler (claude CLI'a bağımsız) ─────────────────────────
+
+def translate_all_google(
+    rows: list[dict[str, Any]],
+    logger=None,
+    **_ignore,
+) -> list[dict[str, Any]]:
+    """EBTI kayıtlarını Google Translate ile çevirir (translate_all_claude yerine).
+
+    Her kayda 'desc_tr' ve 'just_tr' ekler. Kaynak dil otomatik algılanır
+    (kayıtlar FR/DE/RO/DA... olabilir). Zaten Türkçe olan alanları atlar.
+    """
+    out = []
+    total = len(rows)
+    for i, row in enumerate(rows):
+        r = dict(row)
+        desc = (r.get("DESCRIPTION_OF_GOODS") or "").strip()
+        just = (r.get("CLASSIFICATION_JUSTIFICATION") or "").strip()
+        r["desc_tr"] = translate_google(desc, logger=logger) if desc else ""
+        r["just_tr"] = translate_google(just, logger=logger) if just else ""
+        out.append(r)
+        if logger and (i + 1) % 10 == 0:
+            logger.info(f"  Google çevirisi: {i + 1}/{total}")
+    return out
+
+
+def summarize_ruling_google(
+    product_desc: str,
+    analysis_text: str,
+    decision: str = "",
+    gtip_codes: str = "",
+    ruling_number: str = "",
+    logger=None,
+) -> dict[str, str]:
+    """summarize_ruling_claude'un Google karşılığı (UK/CA için).
+
+    Claude'un yaptığı 'özetleme' yerine metni OLDUĞU GİBİ Türkçeye çevirir.
+    Kaynak İngilizce (UK/CA). Aynı sözlük şeklini döndürür:
+    {esya_tanimi, gtip_karar, teknik_gerekce}.
+    """
+    return {
+        "esya_tanimi":    translate_google(product_desc or "", logger=logger, source="en") or (product_desc or ""),
+        "gtip_karar":     gtip_codes or "-",
+        "teknik_gerekce": translate_google(analysis_text or "", logger=logger, source="en"),
+    }

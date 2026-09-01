@@ -7,7 +7,7 @@ log_file: "~/bti_system/logs/bti_system.log"
 log_level: "INFO"
 
 # Varsayılan çeviri motoru: "claude" veya "google"
-default_translator: "claude"
+default_translator: "google"
 claude_batch_size: 8
 
 # Tek birleşik rapor (tüm ülkeleri tek .docx'te birleştirir)
@@ -21,7 +21,7 @@ connectors:
   eu_ebti:
     enabled: true
     display_name: "Avrupa Birliği EBTI"
-    translator: "claude"
+    translator: "google"
     # Node.js build_docx.js scripti — EU raporları için (sadece bu connector kullanır)
     docx_script: "~/bti_system/assets/build_docx.js"
 
@@ -41,7 +41,7 @@ connectors:
   uk_hmrc:
     enabled: true
     display_name: "İngiltere HMRC"
-    translator: "claude"
+    translator: "google"
     recent_days: 14      # start date bu kadar günden eskiyse rapora girmez
     search_pages: 3      # boş aramanın ilk N sayfası taranır (sayfa başı 25 karar)
     base_url: "https://www.tax.service.gov.uk/search-for-advance-tariff-rulings"

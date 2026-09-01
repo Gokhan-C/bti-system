@@ -22,7 +22,7 @@ from core.report_builder import (
     make_doc, add_info_table, add_ruling_link,
     add_summary_section, add_no_results_notice,
 )
-from core.translator import summarize_ruling_claude
+from core.translator import summarize_ruling_google as summarize_ruling_claude
 
 
 CBSA_LIST_URL    = "https://ccp-pcc.cbsa-asfc.cloud-nuage.canada.ca/carmwebservices/v2/carm/publicrulings/list"

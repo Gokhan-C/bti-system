@@ -21,7 +21,7 @@ from typing import Any
 from urllib.parse import quote
 
 from core.base_connector import BaseConnector
-from core.translator import translate_all_claude
+from core.translator import translate_all_google as translate_all_claude
 
 
 COUNTRY_NAMES = {

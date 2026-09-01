@@ -29,7 +29,7 @@ import re
 import sys
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
-from core.translator import call_claude, ClaudeAuthError  # noqa: E402
+from core.translator import translate_google, ClaudeAuthError  # noqa: E402
 
 REPORTS = os.path.expanduser("~/BTI_Reports")
 
@@ -66,32 +66,18 @@ def is_untranslated(text: str) -> bool:
 
 
 def translate_batch(texts: list[str]) -> list[str]:
-    """Metin listesini tek Claude çağrısıyla Türkçeye çevirir.
+    """Metin listesini Google Translate ile Türkçeye çevirir (auto dil algılama).
 
-    Sıra ve sayı korunmalı; bozuk yanıtta orijinaller döndürülür (veri kaybı olmaz).
+    Claude'a bağımlı değil (claude CLI symlink'i kopsa da çalışır). Çeviri
+    başarısızsa orijinal metin korunur (veri kaybı olmaz).
     """
-    parts = []
-    for i, t in enumerate(texts, 1):
-        parts.append(f"### METIN_{i}\n{t.strip()}")
-
-    prompt = (
-        "Aşağıdaki gümrük tarife kararı metinlerini Türkçeye çevir.\n"
-        "Kurallar: teknik terimleri koru, marka/model/kod/sayıları aynen bırak, "
-        "yorum ekleme, kısaltma yapma.\n"
-        "Yanıtı SADECE şu biçimde ver (başka hiçbir şey yazma):\n"
-        "### CEVIRI_1\n<çeviri>\n### CEVIRI_2\n<çeviri>\n\n"
-        + "\n\n".join(parts)
-    )
-
-    resp = call_claude(prompt, timeout=300)
-
     out = []
-    for i in range(1, len(texts) + 1):
-        m = re.search(
-            rf"###\s*CEVIRI_{i}\s*\n(.*?)(?=\n###\s*CEVIRI_{i + 1}\s*\n|\Z)",
-            resp, re.S)
-        val = (m.group(1).strip() if m else "")
-        out.append(val if val else texts[i - 1])   # eşleşmezse orijinali koru
+    for t in texts:
+        try:
+            r = translate_google(t)
+        except Exception:
+            r = ""
+        out.append(r if r else t)
     return out
 
 
