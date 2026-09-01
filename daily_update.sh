@@ -17,6 +17,17 @@ cd "$SCRIPT_DIR"
 # claude CLI, node ve python.org binaries PATH'te olsun (launchd minimal PATH ile gelir)
 export PATH="/Library/Frameworks/Python.framework/Versions/3.12/bin:/opt/homebrew/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
 
+# claude CLI güvencesi: Homebrew Node güncellenince /opt/homebrew/bin/claude
+# symlink'i kopabiliyor (1 Eyl 2026: koptu, çeviri sessizce durdu). Komut PATH'te
+# yoksa npm global paketindeki gerçek launcher'a symlink'i yeniden kur.
+if ! command -v claude >/dev/null 2>&1; then
+  REAL=$(ls -t /opt/homebrew/Cellar/node/*/bin/claude 2>/dev/null | head -1)
+  [ -z "$REAL" ] && REAL=$(ls -t /opt/homebrew/lib/node_modules/@anthropic-ai/claude-code/cli-wrapper.cjs 2>/dev/null | head -1)
+  if [ -n "$REAL" ]; then
+    ln -sf "$REAL" /opt/homebrew/bin/claude 2>/dev/null && echo "[bootstrap] claude symlink onarıldı → $REAL"
+  fi
+fi
+
 # Deps'in kurulu olduğu Python (Homebrew default'u değil)
 PY="/Library/Frameworks/Python.framework/Versions/3.12/bin/python3"
 [ -x "$PY" ] || PY="$(command -v python3)"
