@@ -6,7 +6,14 @@
 <atom:link href="https://gokhan-c.github.io/bti-system/feed-fasil-84.xml" rel="self" type="application/rss+xml"/>
 <description>Fasıl 84 (Makineler ve mekanik cihazlar) altındaki yeni tarife kararları.</description>
 <language>tr</language>
-<lastBuildDate>Mon, 31 Aug 2026 03:01:54 -0000</lastBuildDate>
+<lastBuildDate>Tue, 01 Sep 2026 03:01:58 -0000</lastBuildDate>
+<item>
+<title>84329000 — Rama nośna do osadzenia na niej rozsiewaczy nawozów. Przystosowana do rozsiewaczy określonego produ</title>
+<link>https://ec.europa.eu/taxation_customs/dds2/ebti/ebti_details.jsp?showHeader=false&amp;Lang=en&amp;reference=PLBTIWIT-2026-000902</link>
+<guid isPermaLink="false">PLBTIWIT-2026-000902|84</guid>
+<pubDate>Sun, 30 Aug 2026 21:00:00 -0000</pubDate>
+<description>[AB] Avrupa Birliği (EBTI) · 31 Ağustos 2026 — Klasyfikacja ustalona została w myśl postanowień reguły 1. i 6. Ogólnych Reguł Interpretacji Nomenklatury Scalonej i uwagi 2(b) do Sekcji XVI Wspólnej Taryfy Celnej (WTC) oraz zgodna jest z brzmieniem pozycji 8432 WTC i …</description>
+</item>
 <item>
 <title>84244910 — Tarım alanında kullanılmak üzere amaçlanmış sıvı püskürtme cihazı; biyovalorasatörler ve silaj koru</title>
 <link>https://ec.europa.eu/taxation_customs/dds2/ebti/ebti_details.jsp?showHeader=false&amp;Lang=en&amp;reference=FRBTIFR-BTI-2026-04042</link>
@@ -419,13 +426,6 @@
 <guid isPermaLink="false">N363473|84</guid>
 <pubDate>Mon, 17 Aug 2026 21:00:00 -0000</pubDate>
 <description>[ABD] Amerika (CBP) · 18 Ağustos 2026 — Alpha Eagle için geçerli alt pozisyon, mekanik veya termal ekipmanla donatılmış çimlenme tesisi dahil olmak üzere diğer tarım, bahçecilik, ormancılık, kümes hayvanı yetiştirme veya arıcılık makinelerini öngören Amerika B…</description>
-</item>
-<item>
-<title>8436.80.0020 — 21 Temmuz 2026 tarihli yazınızda tarife sınıflandırma kararı talep etmiştiniz. Söz konusu ürün </title>
-<link>https://gokhan-c.github.io/bti-system/us/N363476.html</link>
-<guid isPermaLink="false">N363476|84</guid>
-<pubDate>Mon, 17 Aug 2026 21:00:00 -0000</pubDate>
-<description>[ABD] Amerika (CBP) · 18 Ağustos 2026 — RoboMIDI ve RoboMAX için geçerli alt başlık, 8436.80.0020, Amerika Birleşik Devletleri Uyumlaştırılmış Tarife Tablosu (HTSUS) olacaktır; bu, mekanik veya termal sistemlerle donatılmış çimlendirme tesisi de dahil olmak üz…</description>
 </item>
 </channel>
 </rss>
