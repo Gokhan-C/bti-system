@@ -6,7 +6,14 @@
 <atom:link href="https://gokhan-c.github.io/bti-system/feed-fasil-29.xml" rel="self" type="application/rss+xml"/>
 <description>Fasıl 29 (Organik kimyasallar) altındaki yeni tarife kararları.</description>
 <language>tr</language>
-<lastBuildDate>Fri, 04 Sep 2026 03:07:02 -0000</lastBuildDate>
+<lastBuildDate>Sat, 05 Sep 2026 03:03:44 -0000</lastBuildDate>
+<item>
+<title>29172000 — Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s al</title>
+<link>https://ec.europa.eu/taxation_customs/dds2/ebti/ebti_details.jsp?showHeader=false&amp;Lang=en&amp;reference=HRBTIOM-2026-0101</link>
+<guid isPermaLink="false">HRBTIOM-2026-0101|29</guid>
+<pubDate>Thu, 03 Sep 2026 21:00:00 -0000</pubDate>
+<description>[AB] Avrupa Birliği (EBTI) · 4 Eylül 2026 — Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.</description>
+</item>
 <item>
 <title>29400000 — Kozmetik endüstrisinde hammadde olarak kullanılmaya yönelik, 5 kg ağırlığındaki metal kutularda per</title>
 <link>https://ec.europa.eu/taxation_customs/dds2/ebti/ebti_details.jsp?showHeader=false&amp;Lang=en&amp;reference=FRBTIFR-BTI-2026-03686</link>
@@ -419,13 +426,6 @@
 <guid isPermaLink="false">FRBTIFR-BTI-2026-00091|29</guid>
 <pubDate>Thu, 09 Jul 2026 21:00:00 -0000</pubDate>
 <description>[AB] Avrupa Birliği (EBTI) · 10 Temmuz 2026 — Genel kurallar 1 ve 6: sınıflandırma, bölüm ve fasıl notları ile pozisyon ve alt pozisyon metni tarafından belirlenir. Genel kural 5b: ambalajlar içerdikleri eşya ile birlikte sınıflandırılır. Fasıl 29'un 1.- a) Notu: ür…</description>
-</item>
-<item>
-<title>29322090 — Yalnızca oksijen hetero atomu içeren, belirli kimyasal yapıya sahip, lakton tipinde heterosiklik bi</title>
-<link>https://ec.europa.eu/taxation_customs/dds2/ebti/ebti_details.jsp?showHeader=false&amp;Lang=en&amp;reference=FRBTIFR-BTI-2026-02331</link>
-<guid isPermaLink="false">FRBTIFR-BTI-2026-02331|29</guid>
-<pubDate>Thu, 09 Jul 2026 21:00:00 -0000</pubDate>
-<description>[AB] Avrupa Birliği (EBTI) · 10 Temmuz 2026 — Genel kurallar 1 ve 6: sınıflandırma, bölüm ve fasıl notları ile pozisyon ve alt pozisyon metni tarafından belirlenir. Genel kural 5b): ambalaj eşya ile birlikte sınıflandırılır. 29. fasıl 1a) Notu: aksi belirtilmedikçe,…</description>
 </item>
 </channel>
 </rss>
