@@ -1,14 +1,14 @@
 window.BTI_DATA = {
- "generated_at": "2026-09-05 06:03",
- "today": "2026-09-05",
- "today_tr": "5 Eylül 2026",
- "today_en": "5 September 2026",
- "latest_date": "2026-09-05",
+ "generated_at": "2026-09-06 06:01",
+ "today": "2026-09-06",
+ "today_tr": "6 Eylül 2026",
+ "today_en": "6 September 2026",
+ "latest_date": "2026-09-06",
  "latest_is_today": true,
- "total_decisions": 5520,
- "total_days": 122,
+ "total_decisions": 5521,
+ "total_days": 123,
  "source_counts": {
-  "eu": 4456,
+  "eu": 4457,
   "us": 445,
   "ca": 18,
   "uk": 297,
@@ -108,6 +108,35 @@ window.BTI_DATA = {
  ],
  "days": [
   {
+   "date": "2026-09-06",
+   "date_tr": "6 Eylül 2026",
+   "date_en": "6 September 2026",
+   "count": 1,
+   "sources": [
+    "eu"
+   ],
+   "decisions": [
+    {
+     "source": "eu",
+     "source_label": "Avrupa Birliği (EBTI)",
+     "color": "#2E6BE6",
+     "flag": "🇪🇸",
+     "origin": "İspanya",
+     "hs": "73072980",
+     "hs4": "7307",
+     "ref": "ESBTIESBTI2026REN1109",
+     "date": "2026-09-06",
+     "date_issue": "2026-09-06",
+     "title": "Çinko kaplı AISI 304 paslanmaz çelik kelepçe, üç kaynak noktalı bir plaka tarafından sarılmış iki katı varil tarafından tutulan bir vidayla oluşturulmuştur. Bağlantı sistemi, sıkıldığında kelepçeyi kendi üzerine kapatan altıgen başlı vidaya dayanmaktadır. Borularda ve hortumlarda…",
+     "gerekce": "RGI 1 ve 6. Bölümün 3, 5 ve 6. Notları",
+     "title_o": "",
+     "gerekce_o": "",
+     "lang": "",
+     "url": "https://ec.europa.eu/taxation_customs/dds2/ebti/ebti_details.jsp?showHeader=false&Lang=en&reference=ESBTIESBTI2026REN1109"
+    }
+   ]
+  },
+  {
    "date": "2026-09-05",
    "date_tr": "5 Eylül 2026",
    "date_en": "5 September 2026",
@@ -128,7 +157,7 @@ window.BTI_DATA = {
      "date": "2026-09-05",
      "date_issue": "2026-07-23",
      "title": "Küçük klima sistemlerinin, boruların, kanalların ve kablo kanallarının bir yapı/destek üzerine montajına yönelik kitler. Sertleştirilmemiş vulkanize SBR kauçuktan (stiren-bütadien kauçuk) yapılmış, 160 x 90 x 250/400/450/500/600/1000 mm ölçülerinde, içine yerleştirilmiş 41x21 Dik…",
-     "gerekce": "RGI 1, 3 b) ve 6. XVI. Bölüm 1 a) Notu ve 40. Fasıl 1 ve 4 a) Notu. 40.16 Pozisyonu Açıklama Notu, 4. paragrafın ikinci paragrafına bakınız. Bu, genel yorum kuralı 3b)'nin anlamı dahilinde, metal profille güçlendirilmiş …",
+     "gerekce": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
      "title_o": "",
      "gerekce_o": "",
      "lang": "",
@@ -146,7 +175,7 @@ window.BTI_DATA = {
      "date": "2026-09-05",
      "date_issue": "2026-09-05",
      "title": "Bir yapıya klima makineleri (klima üniteleri) için sabitleme kitleri (“Silentblock”). Klima makinesinin rondelalar ve somunlar kullanılarak desteğe sabitlenmesini sağlayan, her iki ucunda metal takviyeler ve saplamalar bulunan, çeşitli taban çapları ve yüksekliklerinde sertleştir…",
-     "gerekce": "RGI 1, 3 b) ve 6. XVI. Bölüm 1 a) Notu ve 40. Fasıl 1 ve 4 a) Notu. 40.16 Pozisyonu Açıklama Notu, 4. paragrafın ikinci paragrafına bakınız. Bu, genel yorum kuralı 3 b)'nin anlamı dahilinde, sentetik kauçuk contanın kiti…",
+     "gerekce": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
      "title_o": "",
      "gerekce_o": "",
      "lang": "",
