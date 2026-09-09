@@ -6,7 +6,21 @@
 <atom:link href="https://gokhan-c.github.io/bti-system/feed-fasil-85.xml" rel="self" type="application/rss+xml"/>
 <description>Fasıl 85 (Elektrikli makine ve cihazlar) altındaki yeni tarife kararları.</description>
 <language>tr</language>
-<lastBuildDate>Tue, 08 Sep 2026 03:03:02 -0000</lastBuildDate>
+<lastBuildDate>Wed, 09 Sep 2026 03:05:08 -0000</lastBuildDate>
+<item>
+<title>85371091 — Programlanabilir baskılı devre hafızalı kontrolör. Boyutlar 350 x 65 mm'dir. Bir mikro denetleyici,</title>
+<link>https://ec.europa.eu/taxation_customs/dds2/ebti/ebti_details.jsp?showHeader=false&amp;Lang=en&amp;reference=SIBTI2026%2F0072</link>
+<guid isPermaLink="false">SIBTI2026/0072|85</guid>
+<pubDate>Tue, 08 Sep 2026 21:00:00 -0000</pubDate>
+<description>[AB] Avrupa Birliği (EBTI) · 9 Eylül 2026 — Birleşik terminolojinin yorumlanması için genel kurallar 1 ve 6; not 2(a) ila XVI. departman; 8537(2) tarife koduna ilişkin Armonize Sistem Açıklayıcı Notları; 8537 10 91 CN tarife koduna ilişkin CN açıklayıcı notları.</description>
+</item>
+<item>
+<title>85285900 — Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s al</title>
+<link>https://ec.europa.eu/taxation_customs/dds2/ebti/ebti_details.jsp?showHeader=false&amp;Lang=en&amp;reference=NLBTI2026-0074</link>
+<guid isPermaLink="false">NLBTI2026-0074|85</guid>
+<pubDate>Mon, 07 Sep 2026 21:00:00 -0000</pubDate>
+<description>[AB] Avrupa Birliği (EBTI) · 8 Eylül 2026 — Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.</description>
+</item>
 <item>
 <title>85059090 — Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s al</title>
 <link>https://ec.europa.eu/taxation_customs/dds2/ebti/ebti_details.jsp?showHeader=false&amp;Lang=en&amp;reference=SIBTI2026%2F0064</link>
@@ -412,20 +426,6 @@
 <guid isPermaLink="false">ATBTI2026000194-DEC|85</guid>
 <pubDate>Sun, 30 Aug 2026 21:00:00 -0000</pubDate>
 <description>[AB] Avrupa Birliği (EBTI) · 31 Ağustos 2026 — Birleştirilmiş Gümrük Tarife Nomenklatürünün Yorumlanması için Genel Kurallar (AV) 1 ve 6; Bölüm XVI'ya Not 2a; Komisyonun 23.7.2013 tarihli (AB) Reg 706/2013.</description>
-</item>
-<item>
-<title>85444290 — Mal, kısa izole edilmiş kablolar (pigtails denilen) olup, bir ucunda soket takılıdır. Soket ucunda </title>
-<link>https://ec.europa.eu/taxation_customs/dds2/ebti/ebti_details.jsp?showHeader=false&amp;Lang=en&amp;reference=DKBTI26-2258629</link>
-<guid isPermaLink="false">DKBTI26-2258629|85</guid>
-<pubDate>Sun, 30 Aug 2026 21:00:00 -0000</pubDate>
-<description>[AB] Avrupa Birliği (EBTI) · 31 Ağustos 2026 — Birleştirilmiş nomenklatur için genel tarifelendirme hükümler 1 ve 6 ve 8544, 8544 4x, 8544 42 ve 8544 42 90 mal kodlarının metni. Position 8544 ile ilgili açıklayıcı açıklamalar. Diğer olarak, bu BTO kararını EU Customs…</description>
-</item>
-<item>
-<title>85369010 — Konektörlerin lotu. - referans 333371 elektrik kabloları için 10 T konektörü lotu - 35 MM²-0,75 MM²</title>
-<link>https://ec.europa.eu/taxation_customs/dds2/ebti/ebti_details.jsp?showHeader=false&amp;Lang=en&amp;reference=FRBTIFR-BTI-2026-03994</link>
-<guid isPermaLink="false">FRBTIFR-BTI-2026-03994|85</guid>
-<pubDate>Thu, 27 Aug 2026 21:00:00 -0000</pubDate>
-<description>[AB] Avrupa Birliği (EBTI) · 28 Ağustos 2026 — Genel Kurallar 1 ve 6: sınıflandırma, bölüm ve bölüm notları tarafından ve ayrıntı, alt-ayrıntı ve NC kodu adlandırması tarafından belirlenir. 8536 Tarifli Pozisyonunun NESH'i, Paragraf III., Bölüm B) diğer kontakları iç…</description>
 </item>
 </channel>
 </rss>
