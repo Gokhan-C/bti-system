@@ -1,8 +1,8 @@
 window.BTI_DATA = {
- "generated_at": "2026-09-12 07:06",
- "today": "2026-09-12",
- "today_tr": "12 Eylül 2026",
- "today_en": "12 September 2026",
+ "generated_at": "2026-09-13 08:50",
+ "today": "2026-09-13",
+ "today_tr": "13 Eylül 2026",
+ "today_en": "13 September 2026",
  "latest_date": "2026-09-11",
  "latest_is_today": false,
  "total_decisions": 5903,
