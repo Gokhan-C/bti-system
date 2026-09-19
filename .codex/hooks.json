@@ -1,0 +1,11 @@
+{
+  "description": "Project-local GokhanOS V3 memory bridge.",
+  "hooks": {
+    "SessionStart": [{"hooks": [{"type": "command", "command": "/opt/homebrew/opt/python@3.14/bin/python3.14 /Users/gokhancankaya/Documents/GokhanOS/.claude/scripts/beyin_v3_hook.py --vault /Users/gokhancankaya/Documents/GokhanOS --state '/Users/gokhancankaya/Library/Application Support/beyin-v3/c996fe964564e404' --harness codex", "timeout": 5}]}],
+    "UserPromptSubmit": [{"hooks": [{"type": "command", "command": "/opt/homebrew/opt/python@3.14/bin/python3.14 /Users/gokhancankaya/Documents/GokhanOS/.claude/scripts/beyin_v3_hook.py --vault /Users/gokhancankaya/Documents/GokhanOS --state '/Users/gokhancankaya/Library/Application Support/beyin-v3/c996fe964564e404' --harness codex", "timeout": 5}]}],
+    "PostToolUse": [{"matcher": "Edit|Write|apply_patch", "hooks": [{"type": "command", "command": "/opt/homebrew/opt/python@3.14/bin/python3.14 /Users/gokhancankaya/Documents/GokhanOS/.claude/scripts/beyin_v3_hook.py --vault /Users/gokhancankaya/Documents/GokhanOS --state '/Users/gokhancankaya/Library/Application Support/beyin-v3/c996fe964564e404' --harness codex", "timeout": 5}]}],
+    "Stop": [{"hooks": [{"type": "command", "command": "/opt/homebrew/opt/python@3.14/bin/python3.14 /Users/gokhancankaya/Documents/GokhanOS/.claude/scripts/beyin_v3_hook.py --vault /Users/gokhancankaya/Documents/GokhanOS --state '/Users/gokhancankaya/Library/Application Support/beyin-v3/c996fe964564e404' --harness codex", "timeout": 5}]}],
+    "PreCompact": [{"hooks": [{"type": "command", "command": "/opt/homebrew/opt/python@3.14/bin/python3.14 /Users/gokhancankaya/Documents/GokhanOS/.claude/scripts/beyin_v3_hook.py --vault /Users/gokhancankaya/Documents/GokhanOS --state '/Users/gokhancankaya/Library/Application Support/beyin-v3/c996fe964564e404' --harness codex", "timeout": 5}]}],
+    "SessionEnd": [{"hooks": [{"type": "command", "command": "/opt/homebrew/opt/python@3.14/bin/python3.14 /Users/gokhancankaya/Documents/GokhanOS/.claude/scripts/beyin_v3_hook.py --vault /Users/gokhancankaya/Documents/GokhanOS --state '/Users/gokhancankaya/Library/Application Support/beyin-v3/c996fe964564e404' --harness codex", "timeout": 3}]}]
+  }
+}
