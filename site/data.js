@@ -1,18 +1,18 @@
 window.BTI_DATA = {
- "generated_at": "2026-09-21 06:06",
- "today": "2026-09-21",
- "today_tr": "21 Eylül 2026",
- "today_en": "21 September 2026",
- "latest_date": "2026-09-18",
- "latest_is_today": false,
- "total_decisions": 6253,
- "total_days": 133,
+ "generated_at": "2026-09-22 06:06",
+ "today": "2026-09-22",
+ "today_tr": "22 Eylül 2026",
+ "today_en": "22 September 2026",
+ "latest_date": "2026-09-22",
+ "latest_is_today": true,
+ "total_decisions": 6258,
+ "total_days": 135,
  "source_counts": {
-  "eu": 5099,
+  "eu": 5101,
   "us": 445,
   "ca": 18,
-  "uk": 373,
-  "tr": 318
+  "uk": 375,
+  "tr": 319
  },
  "chapters": [
   "02",
@@ -108,6 +108,116 @@ window.BTI_DATA = {
   "98"
  ],
  "days": [
+  {
+   "date": "2026-09-22",
+   "date_tr": "22 Eylül 2026",
+   "date_en": "22 September 2026",
+   "count": 2,
+   "sources": [
+    "eu"
+   ],
+   "decisions": [
+    {
+     "source": "eu",
+     "source_label": "Avrupa Birliği (EBTI)",
+     "color": "#2E6BE6",
+     "flag": "🇫🇮",
+     "origin": "Finlandiya",
+     "hs": "38249996",
+     "hs4": "3824",
+     "ref": "FIBTI000000-2026-BTI86",
+     "date": "2026-09-22",
+     "date_issue": "2026-09-21",
+     "title": "Tuote on pelletteinä oleva muovinvalmistuksen täyteaine eli niin sanottu masterbatsi. Se koostuu luonnollista alkuperää olevasta täyteaineesta, polymeeristä, lisäaineista sekä mustasta pigmentistä. Tuote on tarkoitettu käytettäväksi LDPE-, LLDPE-, HDPE- ja PP-muovien valmistukses…",
+     "gerekce": "Yhdistetyn nimikkeistön yleiset tulkintasäännöt 1 ja 6.Nimikkeen 3824 teksti ja sen alanimikkeiden tekstit.(Yhdistetty nimikkeistö, komission täytäntöönpanoasetus (EU) 2025/1926, julkaisupäivä 31.10.2025, Euroopan unioni…",
+     "title_o": "",
+     "gerekce_o": "",
+     "lang": "",
+     "url": "https://ec.europa.eu/taxation_customs/dds2/ebti/ebti_details.jsp?showHeader=false&Lang=en&reference=FIBTI000000-2026-BTI86"
+    },
+    {
+     "source": "eu",
+     "source_label": "Avrupa Birliği (EBTI)",
+     "color": "#2E6BE6",
+     "flag": "🇪🇸",
+     "origin": "İspanya",
+     "hs": "39269097",
+     "hs4": "3926",
+     "ref": "ESBTIESBTI2026REN1107",
+     "date": "2026-09-22",
+     "date_issue": "2026-07-23",
+     "title": "Conjunto formado por un pie soporte para estructuras portantes modulares, ver imagen, fabricado en polipropileno reforzado con fibra de vidrio y una alfombrilla anti vibratoria no deslizante de caucho reciclado SBR que se acopla al hueco del pie. En el centro del pie soporte, exi…",
+     "gerekce": "RGI 1, 3 b) y 6.Nota 1 del Capítulo 39.Se trata de un surtido en el sentido de la regla general 3 b) en el que la manufactura de plástico le confiere su carácter.",
+     "title_o": "",
+     "gerekce_o": "",
+     "lang": "",
+     "url": "https://ec.europa.eu/taxation_customs/dds2/ebti/ebti_details.jsp?showHeader=false&Lang=en&reference=ESBTIESBTI2026REN1107"
+    }
+   ]
+  },
+  {
+   "date": "2026-09-21",
+   "date_tr": "21 Eylül 2026",
+   "date_en": "21 September 2026",
+   "count": 3,
+   "sources": [
+    "tr",
+    "uk"
+   ],
+   "decisions": [
+    {
+     "source": "uk",
+     "source_label": "İngiltere (HMRC)",
+     "color": "#012169",
+     "flag": "🇬🇧",
+     "origin": "İngiltere",
+     "hs": "6109902000",
+     "hs4": "6109",
+     "ref": "600016244",
+     "date": "2026-09-21",
+     "title": "Bespoke printed T-Shirts, designed to be worn by men or women and in a number of sizes. The T-Shirts are described as fully sublimated, meaning the printed design covers any and all sections of the piece of clothing.",
+     "gerekce": "Classification has been determined in accordance with the following: For the purposes of determining the commodity codes within which goods most appropriately fall, reg 3 (1) of The Customs Tariff (Establishment) (EU Exi…",
+     "title_o": "Bespoke printed T-Shirts, designed to be worn by men or women and in a number of sizes. The T-Shirts are described as fully sublimated, meaning the printed design covers any and all sections of the piece of clothing.",
+     "gerekce_o": "Classification has been determined in accordance with the following: For the purposes of determining the commodity codes within which goods most appropriately fall, reg 3 (1) of The Customs Tariff (Establishment) (EU Exi…",
+     "lang": "EN",
+     "url": "https://www.tax.service.gov.uk/search-for-advance-tariff-rulings/ruling/600016244"
+    },
+    {
+     "source": "tr",
+     "source_label": "Türkiye (BTB)",
+     "color": "#E30A17",
+     "flag": "🇹🇷",
+     "origin": "Türkiye",
+     "hs": "853710980019",
+     "hs4": "8537",
+     "ref": "TR410000260019",
+     "date": "2026-09-21",
+     "title": "MOTORLU TAŞITLAR İÇİN,AYDINLATMA VE SİLECEK SİSTEMLERİNİ KONTROL EDEN,ELEKTRİK DEVRESİNİ AÇIP KAPAMAYA YARAYAN ÇOK FONKSİYONLU KUMANDA KONTROL ÜNİTESİ",
+     "gerekce": "17.09.2024 tarihli ve 32665 sayılı R.G ile yayımlanan 8971sayılı Cumhurbaşkanlığı Kararı ile yayımlanan, “Uyumu Sağlanmış (Armonize) Mal Tanımı Ve Kodlama Sistemi Hakkında Uluslararası Sözleşme Uyarınca Uygulanması Gerek…",
+     "title_o": "MOTORLU TAŞITLAR İÇİN,AYDINLATMA VE SİLECEK SİSTEMLERİNİ KONTROL EDEN,ELEKTRİK DEVRESİNİ AÇIP KAPAMAYA YARAYAN ÇOK FONKSİYONLU KUMANDA KONTROL ÜNİTESİ",
+     "gerekce_o": "17.09.2024 tarihli ve 32665 sayılı R.G ile yayımlanan 8971sayılı Cumhurbaşkanlığı Kararı ile yayımlanan, “Uyumu Sağlanmış (Armonize) Mal Tanımı Ve Kodlama Sistemi Hakkında Uluslararası Sözleşme Uyarınca Uygulanması Gerek…",
+     "lang": "TR",
+     "url": "tr/TR410000260019.html"
+    },
+    {
+     "source": "uk",
+     "source_label": "İngiltere (HMRC)",
+     "color": "#012169",
+     "flag": "🇬🇧",
+     "origin": "İngiltere",
+     "hs": "4911990000",
+     "hs4": "4911",
+     "ref": "600016170",
+     "date": "2026-09-21",
+     "title": "A physical, offline backup system for recording cryptocurrency wallet recovery information, particularly where the backup involves several shares or more information than a conventional 12-word or 24-word seed phrase. It is not an electronic wallet and does not itself store crypt…",
+     "gerekce": "Classification has been determined in accordance with the following: For the purposes of determining the commodity codes within which goods most appropriately fall, reg 3 (1) of The Customs Tariff (Establishment) (EU Exi…",
+     "title_o": "A physical, offline backup system for recording cryptocurrency wallet recovery information, particularly where the backup involves several shares or more information than a conventional 12-word or 24-word seed phrase. It is not an electronic wallet and does not itself store crypt…",
+     "gerekce_o": "Classification has been determined in accordance with the following: For the purposes of determining the commodity codes within which goods most appropriately fall, reg 3 (1) of The Customs Tariff (Establishment) (EU Exi…",
+     "lang": "EN",
+     "url": "https://www.tax.service.gov.uk/search-for-advance-tariff-rulings/ruling/600016170"
+    }
+   ]
+  },
   {
    "date": "2026-09-18",
    "date_tr": "18 Eylül 2026",

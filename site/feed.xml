@@ -6,7 +6,21 @@
 <atom:link href="https://gokhan-c.github.io/bti-system/feed.xml" rel="self" type="application/rss+xml"/>
 <description>AB, ABD, Kanada ve Türkiye bağlayıcı tarife kararlarının günlük özeti.</description>
 <language>tr</language>
-<lastBuildDate>Mon, 21 Sep 2026 03:06:40 -0000</lastBuildDate>
+<lastBuildDate>Tue, 22 Sep 2026 03:06:43 -0000</lastBuildDate>
+<item>
+<title>22 Eylül 2026 — 2 yeni tarife kararı (AB 2)</title>
+<link>https://gokhan-c.github.io/bti-system/#g=2026-09-22</link>
+<guid isPermaLink="false">https://gokhan-c.github.io/bti-system/#g=2026-09-22</guid>
+<pubDate>Mon, 21 Sep 2026 21:00:00 -0000</pubDate>
+<description>En çok karar çıkan fasıllar: 38 Muhtelif kimyasal ürünler (1) · 39 Plastikler ve mamulleri (1)</description>
+</item>
+<item>
+<title>21 Eylül 2026 — 3 yeni tarife kararı (İNG 2 · TR 1)</title>
+<link>https://gokhan-c.github.io/bti-system/#g=2026-09-21</link>
+<guid isPermaLink="false">https://gokhan-c.github.io/bti-system/#g=2026-09-21</guid>
+<pubDate>Sun, 20 Sep 2026 21:00:00 -0000</pubDate>
+<description>En çok karar çıkan fasıllar: 49 Basılı kitaplar, gazeteler (1) · 61 Örme giyim eşyası (1) · 85 Elektrikli makine ve cihazlar (1)</description>
+</item>
 <item>
 <title>18 Eylül 2026 — 131 yeni tarife kararı (AB 123 · İNG 8)</title>
 <link>https://gokhan-c.github.io/bti-system/#g=2026-09-18</link>
@@ -90,20 +104,6 @@
 <guid isPermaLink="false">https://gokhan-c.github.io/bti-system/#g=2026-09-05</guid>
 <pubDate>Fri, 04 Sep 2026 21:00:00 -0000</pubDate>
 <description>En çok karar çıkan fasıllar: 40 Kauçuk ve mamulleri (2)</description>
-</item>
-<item>
-<title>4 Eylül 2026 — 68 yeni tarife kararı (AB 61 · İNG 7)</title>
-<link>https://gokhan-c.github.io/bti-system/#g=2026-09-04</link>
-<guid isPermaLink="false">https://gokhan-c.github.io/bti-system/#g=2026-09-04</guid>
-<pubDate>Thu, 03 Sep 2026 21:00:00 -0000</pubDate>
-<description>En çok karar çıkan fasıllar: 73 Demir veya çelikten eşya (8) · 85 Elektrikli makine ve cihazlar (8) · 39 Plastikler ve mamulleri (7) · 19 Unlu mamuller (5) · 84 Makineler ve mekanik cihazlar (5)</description>
-</item>
-<item>
-<title>3 Eylül 2026 — 105 yeni tarife kararı (AB 105)</title>
-<link>https://gokhan-c.github.io/bti-system/#g=2026-09-03</link>
-<guid isPermaLink="false">https://gokhan-c.github.io/bti-system/#g=2026-09-03</guid>
-<pubDate>Wed, 02 Sep 2026 21:00:00 -0000</pubDate>
-<description>En çok karar çıkan fasıllar: 73 Demir veya çelikten eşya (20) · 85 Elektrikli makine ve cihazlar (13) · 39 Plastikler ve mamulleri (9) · 84 Makineler ve mekanik cihazlar (9) · 94 Mobilyalar ve aydınlatma cihazları (5)</description>
 </item>
 </channel>
 </rss>
