@@ -6,13 +6,20 @@
 <atom:link href="https://gokhan-c.github.io/bti-system/feed.xml" rel="self" type="application/rss+xml"/>
 <description>AB, ABD, Kanada ve Türkiye bağlayıcı tarife kararlarının günlük özeti.</description>
 <language>tr</language>
-<lastBuildDate>Tue, 22 Sep 2026 03:06:43 -0000</lastBuildDate>
+<lastBuildDate>Wed, 23 Sep 2026 03:19:33 -0000</lastBuildDate>
 <item>
-<title>22 Eylül 2026 — 2 yeni tarife kararı (AB 2)</title>
+<title>23 Eylül 2026 — 13 yeni tarife kararı (AB 13)</title>
+<link>https://gokhan-c.github.io/bti-system/#g=2026-09-23</link>
+<guid isPermaLink="false">https://gokhan-c.github.io/bti-system/#g=2026-09-23</guid>
+<pubDate>Tue, 22 Sep 2026 21:00:00 -0000</pubDate>
+<description>En çok karar çıkan fasıllar: 29 Organik kimyasallar (12) · 30 Eczacılık ürünleri (1)</description>
+</item>
+<item>
+<title>22 Eylül 2026 — 10 yeni tarife kararı (AB 2 · İNG 8)</title>
 <link>https://gokhan-c.github.io/bti-system/#g=2026-09-22</link>
 <guid isPermaLink="false">https://gokhan-c.github.io/bti-system/#g=2026-09-22</guid>
 <pubDate>Mon, 21 Sep 2026 21:00:00 -0000</pubDate>
-<description>En çok karar çıkan fasıllar: 38 Muhtelif kimyasal ürünler (1) · 39 Plastikler ve mamulleri (1)</description>
+<description>En çok karar çıkan fasıllar: 97 Sanat eserleri ve antikalar (5) · 49 Basılı kitaplar, gazeteler (2) · 21 Yenilen çeşitli gıda müstahzarları (1) · 38 Muhtelif kimyasal ürünler (1) · 39 Plastikler ve mamulleri (1)</description>
 </item>
 <item>
 <title>21 Eylül 2026 — 3 yeni tarife kararı (İNG 2 · TR 1)</title>
@@ -97,13 +104,6 @@
 <guid isPermaLink="false">https://gokhan-c.github.io/bti-system/#g=2026-09-06</guid>
 <pubDate>Sat, 05 Sep 2026 21:00:00 -0000</pubDate>
 <description>En çok karar çıkan fasıllar: 73 Demir veya çelikten eşya (1)</description>
-</item>
-<item>
-<title>5 Eylül 2026 — 2 yeni tarife kararı (AB 2)</title>
-<link>https://gokhan-c.github.io/bti-system/#g=2026-09-05</link>
-<guid isPermaLink="false">https://gokhan-c.github.io/bti-system/#g=2026-09-05</guid>
-<pubDate>Fri, 04 Sep 2026 21:00:00 -0000</pubDate>
-<description>En çok karar çıkan fasıllar: 40 Kauçuk ve mamulleri (2)</description>
 </item>
 </channel>
 </rss>
