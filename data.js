@@ -1,18 +1,18 @@
 window.BTI_DATA = {
- "generated_at": "2026-09-23 06:19",
- "today": "2026-09-23",
- "today_tr": "23 Eylül 2026",
- "today_en": "23 September 2026",
+ "generated_at": "2026-09-24 06:08",
+ "today": "2026-09-24",
+ "today_tr": "24 Eylül 2026",
+ "today_en": "24 September 2026",
  "latest_date": "2026-09-23",
- "latest_is_today": true,
- "total_decisions": 6279,
+ "latest_is_today": false,
+ "total_decisions": 6287,
  "total_days": 136,
  "source_counts": {
   "eu": 5114,
   "us": 445,
   "ca": 18,
-  "uk": 383,
-  "tr": 319
+  "uk": 389,
+  "tr": 321
  },
  "chapters": [
   "02",
@@ -112,9 +112,11 @@ window.BTI_DATA = {
    "date": "2026-09-23",
    "date_tr": "23 Eylül 2026",
    "date_en": "23 September 2026",
-   "count": 13,
+   "count": 21,
    "sources": [
-    "eu"
+    "eu",
+    "tr",
+    "uk"
    ],
    "decisions": [
     {
@@ -136,6 +138,40 @@ window.BTI_DATA = {
      "url": "https://ec.europa.eu/taxation_customs/dds2/ebti/ebti_details.jsp?showHeader=false&Lang=en&reference=LVBTILV009999-2026-BTI86"
     },
     {
+     "source": "uk",
+     "source_label": "İngiltere (HMRC)",
+     "color": "#012169",
+     "flag": "🇬🇧",
+     "origin": "İngiltere",
+     "hs": "9705100045",
+     "hs4": "9705",
+     "ref": "600016300",
+     "date": "2026-09-23",
+     "title": "Lounge Chair Designed by Gabriella Crespi and executed according to her method, which typically involved her direct involvement in close collaboration with skilled artisans. Date of creation: Circa 1970s. Materials used: Acrylic and fabric. Dimensions: 66 x 176 x 70 cm (26 x 69 x…",
+     "gerekce": "Classification has been determined in accordance with the following:- For the purposes of determining the commodity codes within which goods most appropriately fall, reg 3 (1) of The Customs Tariff (Establishment) (EU Ex…",
+     "title_o": "Lounge Chair Designed by Gabriella Crespi and executed according to her method, which typically involved her direct involvement in close collaboration with skilled artisans. Date of creation: Circa 1970s. Materials used: Acrylic and fabric. Dimensions: 66 x 176 x 70 cm (26 x 69 x…",
+     "gerekce_o": "Classification has been determined in accordance with the following:- For the purposes of determining the commodity codes within which goods most appropriately fall, reg 3 (1) of The Customs Tariff (Establishment) (EU Ex…",
+     "lang": "EN",
+     "url": "https://www.tax.service.gov.uk/search-for-advance-tariff-rulings/ruling/600016300"
+    },
+    {
+     "source": "tr",
+     "source_label": "Türkiye (BTB)",
+     "color": "#E30A17",
+     "flag": "🇹🇷",
+     "origin": "Türkiye",
+     "hs": "950629000000",
+     "hs4": "9506",
+     "ref": "TR060000260017",
+     "date": "2026-09-23",
+     "title": "YÜZÜCÜ MASKESİNDE KULLANILAN, MASKENİN ŞEKLİNE GÖRE ÖZEL KESİLMİŞ TEMPERLİ CAM.",
+     "gerekce": "TARİFE GENEL YORUM KURALLARI (1) VE (6). MADDELERİ, GÜMRÜK TARİFE CETVELİ İZAHNAMESİ 9506 TARİFE POZİSYONU AÇIKLAMA NOTLARI İLE BÖLGE MÜDÜRLÜĞÜMÜZ KAYITLARINA 01.09.2026/125898775 TARİH/SAYI İLE GİREN ODTÜ METALURJİ VE M…",
+     "title_o": "YÜZÜCÜ MASKESİNDE KULLANILAN, MASKENİN ŞEKLİNE GÖRE ÖZEL KESİLMİŞ TEMPERLİ CAM.",
+     "gerekce_o": "TARİFE GENEL YORUM KURALLARI (1) VE (6). MADDELERİ, GÜMRÜK TARİFE CETVELİ İZAHNAMESİ 9506 TARİFE POZİSYONU AÇIKLAMA NOTLARI İLE BÖLGE MÜDÜRLÜĞÜMÜZ KAYITLARINA 01.09.2026/125898775 TARİH/SAYI İLE GİREN ODTÜ METALURJİ VE M…",
+     "lang": "TR",
+     "url": "tr/TR060000260017.html"
+    },
+    {
      "source": "eu",
      "source_label": "Avrupa Birliği (EBTI)",
      "color": "#2E6BE6",
@@ -152,6 +188,40 @@ window.BTI_DATA = {
      "gerekce_o": "",
      "lang": "",
      "url": "https://ec.europa.eu/taxation_customs/dds2/ebti/ebti_details.jsp?showHeader=false&Lang=en&reference=LVBTILV009999-2026-BTI84"
+    },
+    {
+     "source": "uk",
+     "source_label": "İngiltere (HMRC)",
+     "color": "#012169",
+     "flag": "🇬🇧",
+     "origin": "İngiltere",
+     "hs": "9705100045",
+     "hs4": "9705",
+     "ref": "600016297",
+     "date": "2026-09-23",
+     "title": "Games Table Designed by Piero Bottoni, circa 1934 Materials used: Painted wood. Dimensions: 79 cm (31 1/8 in.) high; 80 cm (31 1/2 in.) diameter.",
+     "gerekce": "Classification has been determined in accordance with the following:- For the purposes of determining the commodity codes within which goods most appropriately fall, reg 3 (1) of The Customs Tariff (Establishment) (EU Ex…",
+     "title_o": "Games Table Designed by Piero Bottoni, circa 1934 Materials used: Painted wood. Dimensions: 79 cm (31 1/8 in.) high; 80 cm (31 1/2 in.) diameter.",
+     "gerekce_o": "Classification has been determined in accordance with the following:- For the purposes of determining the commodity codes within which goods most appropriately fall, reg 3 (1) of The Customs Tariff (Establishment) (EU Ex…",
+     "lang": "EN",
+     "url": "https://www.tax.service.gov.uk/search-for-advance-tariff-rulings/ruling/600016297"
+    },
+    {
+     "source": "tr",
+     "source_label": "Türkiye (BTB)",
+     "color": "#E30A17",
+     "flag": "🇹🇷",
+     "origin": "Türkiye",
+     "hs": "851190000000",
+     "hs4": "8511",
+     "ref": "TR160000260034",
+     "date": "2026-09-23",
+     "title": "Marş Motoru Dişlisi (Serbest Tekerlek Kavraması)-Marş motorunun bir parçasıdır, Volan dişlisine dönme hareketini aktarır",
+     "gerekce": "Türk Gümrük Tarife ve Genel Açıklamalar, 85. Fasıl Genel Açıklamalar ve 8511 Tarife Pozisyonu notları, 85. Fasıl Genel Açıklamalar, Tarife Pozisyonu notları, Tarifenin Yorumu ile ilgili Genel Kurallar (1), (2), (3), (5) …",
+     "title_o": "Marş Motoru Dişlisi (Serbest Tekerlek Kavraması)-Marş motorunun bir parçasıdır, Volan dişlisine dönme hareketini aktarır",
+     "gerekce_o": "Türk Gümrük Tarife ve Genel Açıklamalar, 85. Fasıl Genel Açıklamalar ve 8511 Tarife Pozisyonu notları, 85. Fasıl Genel Açıklamalar, Tarife Pozisyonu notları, Tarifenin Yorumu ile ilgili Genel Kurallar (1), (2), (3), (5) …",
+     "lang": "TR",
+     "url": "tr/TR160000260034.html"
     },
     {
      "source": "eu",
@@ -172,6 +242,23 @@ window.BTI_DATA = {
      "url": "https://ec.europa.eu/taxation_customs/dds2/ebti/ebti_details.jsp?showHeader=false&Lang=en&reference=LVBTILV009999-2026-BTI85"
     },
     {
+     "source": "uk",
+     "source_label": "İngiltere (HMRC)",
+     "color": "#012169",
+     "flag": "🇬🇧",
+     "origin": "İngiltere",
+     "hs": "9705100045",
+     "hs4": "9705",
+     "ref": "600016272",
+     "date": "2026-09-23",
+     "title": "Chieftain Sofa Designer: Finn Juhl. a Danish designer of the 20th century. Date of creation: 1949 Materials used: Teak and leather. Dimensions: W 148 cm | D 88 cm | H 92.5 cm | Seat height 34.5 cm.",
+     "gerekce": "Classification has been determined in accordance with the following: For the purposes of determining the commodity codes within which goods most appropriately fall, reg 3 (1) of The Customs Tariff (Establishment) (EU Exi…",
+     "title_o": "Chieftain Sofa Designer: Finn Juhl. a Danish designer of the 20th century. Date of creation: 1949 Materials used: Teak and leather. Dimensions: W 148 cm | D 88 cm | H 92.5 cm | Seat height 34.5 cm.",
+     "gerekce_o": "Classification has been determined in accordance with the following: For the purposes of determining the commodity codes within which goods most appropriately fall, reg 3 (1) of The Customs Tariff (Establishment) (EU Exi…",
+     "lang": "EN",
+     "url": "https://www.tax.service.gov.uk/search-for-advance-tariff-rulings/ruling/600016272"
+    },
+    {
      "source": "eu",
      "source_label": "Avrupa Birliği (EBTI)",
      "color": "#2E6BE6",
@@ -188,6 +275,23 @@ window.BTI_DATA = {
      "gerekce_o": "",
      "lang": "",
      "url": "https://ec.europa.eu/taxation_customs/dds2/ebti/ebti_details.jsp?showHeader=false&Lang=en&reference=LVBTILV009999-2026-BTI103"
+    },
+    {
+     "source": "uk",
+     "source_label": "İngiltere (HMRC)",
+     "color": "#012169",
+     "flag": "🇬🇧",
+     "origin": "İngiltere",
+     "hs": "2106909849",
+     "hs4": "2106",
+     "ref": "600016161",
+     "date": "2026-09-23",
+     "title": "Liquid concentrated Omija (Schisandra chinensis) extract with xylose sugar for the manufacture of beverages. Ingredients: Omija (Schisandra chinensis) extract and xylose sugar. Packaged in bulk, 20-litre food-grade tubs.",
+     "gerekce": "Classification has been determined in accordance with the following:- For the purposes of determining the commodity codes within which goods most appropriately fall, reg 3 (1) of The Customs Tariff (Establishment) (EU Ex…",
+     "title_o": "Liquid concentrated Omija (Schisandra chinensis) extract with xylose sugar for the manufacture of beverages. Ingredients: Omija (Schisandra chinensis) extract and xylose sugar. Packaged in bulk, 20-litre food-grade tubs.",
+     "gerekce_o": "Classification has been determined in accordance with the following:- For the purposes of determining the commodity codes within which goods most appropriately fall, reg 3 (1) of The Customs Tariff (Establishment) (EU Ex…",
+     "lang": "EN",
+     "url": "https://www.tax.service.gov.uk/search-for-advance-tariff-rulings/ruling/600016161"
     },
     {
      "source": "eu",
@@ -208,6 +312,23 @@ window.BTI_DATA = {
      "url": "https://ec.europa.eu/taxation_customs/dds2/ebti/ebti_details.jsp?showHeader=false&Lang=en&reference=LVBTILV009999-2026-BTI83"
     },
     {
+     "source": "uk",
+     "source_label": "İngiltere (HMRC)",
+     "color": "#012169",
+     "flag": "🇬🇧",
+     "origin": "İngiltere",
+     "hs": "7326909890",
+     "hs4": "7326",
+     "ref": "600016072",
+     "date": "2026-09-23",
+     "title": "A zinc-plated steel cleaning tool that has been made into a rectangular frame intended to be used as a dusting tool around pipes and ledges. The frame is attached to a pole via a threaded insert, secured in position with 3 x 6 tension pins. For use with a launderable sleeve (sold…",
+     "gerekce": "Classification has been determined in accordance with the following: - For the purposes of determining the commodity codes within which goods most appropriately fall, reg 3 (1) of The Customs Tariff (Establishment) (EU E…",
+     "title_o": "A zinc-plated steel cleaning tool that has been made into a rectangular frame intended to be used as a dusting tool around pipes and ledges. The frame is attached to a pole via a threaded insert, secured in position with 3 x 6 tension pins. For use with a launderable sleeve (sold…",
+     "gerekce_o": "Classification has been determined in accordance with the following: - For the purposes of determining the commodity codes within which goods most appropriately fall, reg 3 (1) of The Customs Tariff (Establishment) (EU E…",
+     "lang": "EN",
+     "url": "https://www.tax.service.gov.uk/search-for-advance-tariff-rulings/ruling/600016072"
+    },
+    {
      "source": "eu",
      "source_label": "Avrupa Birliği (EBTI)",
      "color": "#2E6BE6",
@@ -224,6 +345,23 @@ window.BTI_DATA = {
      "gerekce_o": "",
      "lang": "",
      "url": "https://ec.europa.eu/taxation_customs/dds2/ebti/ebti_details.jsp?showHeader=false&Lang=en&reference=LVBTILV009999-2026-BTI88"
+    },
+    {
+     "source": "uk",
+     "source_label": "İngiltere (HMRC)",
+     "color": "#012169",
+     "flag": "🇬🇧",
+     "origin": "İngiltere",
+     "hs": "7616999099",
+     "hs4": "7616",
+     "ref": "600016070",
+     "date": "2026-09-23",
+     "title": "An aluminium handle, bronze/gold in colour, approx.126 cm in length designed to be used with a separate mop head. The handle has a coloured grip at the top made from plastic (polypropylene) that has a ribbed appearance. The handles are coloured red, blue, green or yellow. There i…",
+     "gerekce": "Classification has been determined in accordance with the following: - For the purposes of determining the commodity codes within which goods most appropriately fall, reg 3 (1) of The Customs Tariff (Establishment) (EU E…",
+     "title_o": "An aluminium handle, bronze/gold in colour, approx.126 cm in length designed to be used with a separate mop head. The handle has a coloured grip at the top made from plastic (polypropylene) that has a ribbed appearance. The handles are coloured red, blue, green or yellow. There i…",
+     "gerekce_o": "Classification has been determined in accordance with the following: - For the purposes of determining the commodity codes within which goods most appropriately fall, reg 3 (1) of The Customs Tariff (Establishment) (EU E…",
+     "lang": "EN",
+     "url": "https://www.tax.service.gov.uk/search-for-advance-tariff-rulings/ruling/600016070"
     },
     {
      "source": "eu",
