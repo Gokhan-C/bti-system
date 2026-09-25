@@ -1,18 +1,18 @@
 window.BTI_DATA = {
- "generated_at": "2026-09-24 06:08",
- "today": "2026-09-24",
- "today_tr": "24 Eylül 2026",
- "today_en": "24 September 2026",
- "latest_date": "2026-09-23",
+ "generated_at": "2026-09-25 06:42",
+ "today": "2026-09-25",
+ "today_tr": "25 Eylül 2026",
+ "today_en": "25 September 2026",
+ "latest_date": "2026-09-24",
  "latest_is_today": false,
- "total_decisions": 6287,
- "total_days": 136,
+ "total_decisions": 6290,
+ "total_days": 137,
  "source_counts": {
   "eu": 5114,
   "us": 445,
   "ca": 18,
-  "uk": 389,
-  "tr": 321
+  "uk": 391,
+  "tr": 322
  },
  "chapters": [
   "02",
@@ -108,6 +108,69 @@ window.BTI_DATA = {
   "98"
  ],
  "days": [
+  {
+   "date": "2026-09-24",
+   "date_tr": "24 Eylül 2026",
+   "date_en": "24 September 2026",
+   "count": 3,
+   "sources": [
+    "tr",
+    "uk"
+   ],
+   "decisions": [
+    {
+     "source": "uk",
+     "source_label": "İngiltere (HMRC)",
+     "color": "#012169",
+     "flag": "🇬🇧",
+     "origin": "İngiltere",
+     "hs": "8306290000",
+     "hs4": "8306",
+     "ref": "600016880",
+     "date": "2026-09-24",
+     "title": "Decorative bookends made from iron with blue painted coating. They have been laser cut and bent to shape into an ornamental silhouette figure of a male folklore character leaning against a house wall with FABRICATI DIEM, PVNC etched underneath. Stands on either end to hold up boo…",
+     "gerekce": "Classification has been determined in accordance with the following: For the purposes of determining the commodity codes within which goods most appropriately fall, reg 3 (1) of The Customs Tariff (Establishment) (EU Exi…",
+     "title_o": "Decorative bookends made from iron with blue painted coating. They have been laser cut and bent to shape into an ornamental silhouette figure of a male folklore character leaning against a house wall with FABRICATI DIEM, PVNC etched underneath. Stands on either end to hold up boo…",
+     "gerekce_o": "Classification has been determined in accordance with the following: For the purposes of determining the commodity codes within which goods most appropriately fall, reg 3 (1) of The Customs Tariff (Establishment) (EU Exi…",
+     "lang": "EN",
+     "url": "https://www.tax.service.gov.uk/search-for-advance-tariff-rulings/ruling/600016880"
+    },
+    {
+     "source": "tr",
+     "source_label": "Türkiye (BTB)",
+     "color": "#E30A17",
+     "flag": "🇹🇷",
+     "origin": "Türkiye",
+     "hs": "392690979029",
+     "hs4": "3926",
+     "ref": "TR350000260051",
+     "date": "2026-09-24",
+     "title": "Healthineers marka \"10309546 Model AIT CUVETTES\".",
+     "gerekce": "“Türk Gümrük Tarife Cetveli İzahnamesi’nin 3926 tarife pozisyonu açıklama notları, Bakanlığımız Gümrükler Genel Müdürlüğünün 09.09.2026 tarihli, 126095790 sayılı yazıları, Tarife Yorumuna İlişkin Genel Kurallar 1, 6 ”",
+     "title_o": "Healthineers marka \"10309546 Model AIT CUVETTES\".",
+     "gerekce_o": "“Türk Gümrük Tarife Cetveli İzahnamesi’nin 3926 tarife pozisyonu açıklama notları, Bakanlığımız Gümrükler Genel Müdürlüğünün 09.09.2026 tarihli, 126095790 sayılı yazıları, Tarife Yorumuna İlişkin Genel Kurallar 1, 6 ”",
+     "lang": "TR",
+     "url": "tr/TR350000260051.html"
+    },
+    {
+     "source": "uk",
+     "source_label": "İngiltere (HMRC)",
+     "color": "#012169",
+     "flag": "🇬🇧",
+     "origin": "İngiltere",
+     "hs": "9705100045",
+     "hs4": "9705",
+     "ref": "600016434",
+     "date": "2026-09-24",
+     "title": "Cabinet Designer: Ettore Sottsass Jr., an Italian designer of the twentieth century. Date: Circa 1964. Materials: Walnut, painted wood, glazed ceramic. Dimensions: 168 x 62 x 63 cm (66 1/8 x 24 3/8 x 24 3/4 in.) .",
+     "gerekce": "Classification has been determined in accordance with the following: For the purposes of determining the commodity codes within which goods most appropriately fall, reg 3 (1) of The Customs Tariff (Establishment) (EU Exi…",
+     "title_o": "Cabinet Designer: Ettore Sottsass Jr., an Italian designer of the twentieth century. Date: Circa 1964. Materials: Walnut, painted wood, glazed ceramic. Dimensions: 168 x 62 x 63 cm (66 1/8 x 24 3/8 x 24 3/4 in.) .",
+     "gerekce_o": "Classification has been determined in accordance with the following: For the purposes of determining the commodity codes within which goods most appropriately fall, reg 3 (1) of The Customs Tariff (Establishment) (EU Exi…",
+     "lang": "EN",
+     "url": "https://www.tax.service.gov.uk/search-for-advance-tariff-rulings/ruling/600016434"
+    }
+   ]
+  },
   {
    "date": "2026-09-23",
    "date_tr": "23 Eylül 2026",
