@@ -1,18 +1,18 @@
 window.BTI_DATA = {
- "generated_at": "2026-09-25 06:42",
- "today": "2026-09-25",
- "today_tr": "25 Eylül 2026",
- "today_en": "25 September 2026",
- "latest_date": "2026-09-24",
+ "generated_at": "2026-09-26 06:07",
+ "today": "2026-09-26",
+ "today_tr": "26 Eylül 2026",
+ "today_en": "26 September 2026",
+ "latest_date": "2026-09-25",
  "latest_is_today": false,
- "total_decisions": 6290,
- "total_days": 137,
+ "total_decisions": 6295,
+ "total_days": 138,
  "source_counts": {
   "eu": 5114,
   "us": 445,
   "ca": 18,
-  "uk": 391,
-  "tr": 322
+  "uk": 395,
+  "tr": 323
  },
  "chapters": [
   "02",
@@ -109,10 +109,89 @@ window.BTI_DATA = {
  ],
  "days": [
   {
+   "date": "2026-09-25",
+   "date_tr": "25 Eylül 2026",
+   "date_en": "25 September 2026",
+   "count": 4,
+   "sources": [
+    "uk"
+   ],
+   "decisions": [
+    {
+     "source": "uk",
+     "source_label": "İngiltere (HMRC)",
+     "color": "#012169",
+     "flag": "🇬🇧",
+     "origin": "İngiltere",
+     "hs": "9705100045",
+     "hs4": "9705",
+     "ref": "600016342",
+     "date": "2026-09-25",
+     "title": "1987 Range Rover Classic two-door motor vehicle. The vehicle is over 30 years old. It remains in substantially original and historically correct condition retaining its original chassis body steering braking suspension transmission and original 2.4 litre VM turbo diesel engine. I…",
+     "gerekce": "Classification has been determined in accordance with the following: For the purposes of determining the commodity codes within which goods most appropriately fall, Reg 3 (1) of The Customs Tariff (Establishment) (EU Exi…",
+     "title_o": "1987 Range Rover Classic two-door motor vehicle. The vehicle is over 30 years old. It remains in substantially original and historically correct condition retaining its original chassis body steering braking suspension transmission and original 2.4 litre VM turbo diesel engine. I…",
+     "gerekce_o": "Classification has been determined in accordance with the following: For the purposes of determining the commodity codes within which goods most appropriately fall, Reg 3 (1) of The Customs Tariff (Establishment) (EU Exi…",
+     "lang": "EN",
+     "url": "https://www.tax.service.gov.uk/search-for-advance-tariff-rulings/ruling/600016342"
+    },
+    {
+     "source": "uk",
+     "source_label": "İngiltere (HMRC)",
+     "color": "#012169",
+     "flag": "🇬🇧",
+     "origin": "İngiltere",
+     "hs": "2106909869",
+     "hs4": "2106",
+     "ref": "600016336",
+     "date": "2026-09-25",
+     "title": "A honey and ginger beverage preparation, in powder form. The sachet can be used with hot or cold water. The product is packaged in 18g sachets. The sachets are available in cartons of 10 or 20. Ingredients: Cane sugar, ginger extract, honey.",
+     "gerekce": "For the purposes of determining the commodity codes within which goods most appropriately fall, Reg 3(1) of The Customs Tariff (Establishment) (EU Exit) Regulations 2020 sets out that the rules of interpretation containe…",
+     "title_o": "A honey and ginger beverage preparation, in powder form. The sachet can be used with hot or cold water. The product is packaged in 18g sachets. The sachets are available in cartons of 10 or 20. Ingredients: Cane sugar, ginger extract, honey.",
+     "gerekce_o": "For the purposes of determining the commodity codes within which goods most appropriately fall, Reg 3(1) of The Customs Tariff (Establishment) (EU Exit) Regulations 2020 sets out that the rules of interpretation containe…",
+     "lang": "EN",
+     "url": "https://www.tax.service.gov.uk/search-for-advance-tariff-rulings/ruling/600016336"
+    },
+    {
+     "source": "uk",
+     "source_label": "İngiltere (HMRC)",
+     "color": "#012169",
+     "flag": "🇬🇧",
+     "origin": "İngiltere",
+     "hs": "2008996390",
+     "hs4": "2008",
+     "ref": "600016310",
+     "date": "2026-09-25",
+     "title": "Mango based puree gel produced also containing lemon juice, salt, and date syrup. Not cooked, hot-fill pasteurised in a screw top pouch intended for direct consumption. Presented for retail sale.",
+     "gerekce": "Classification has been determined in accordance with the following: For the purposes of determining the commodity codes within which goods most appropriately fall, reg 3 (1) of The Customs Tariff (Establishment) (EU Exi…",
+     "title_o": "Mango based puree gel produced also containing lemon juice, salt, and date syrup. Not cooked, hot-fill pasteurised in a screw top pouch intended for direct consumption. Presented for retail sale.",
+     "gerekce_o": "Classification has been determined in accordance with the following: For the purposes of determining the commodity codes within which goods most appropriately fall, reg 3 (1) of The Customs Tariff (Establishment) (EU Exi…",
+     "lang": "EN",
+     "url": "https://www.tax.service.gov.uk/search-for-advance-tariff-rulings/ruling/600016310"
+    },
+    {
+     "source": "uk",
+     "source_label": "İngiltere (HMRC)",
+     "color": "#012169",
+     "flag": "🇬🇧",
+     "origin": "İngiltere",
+     "hs": "8528529100",
+     "hs4": "8528",
+     "ref": "600016187",
+     "date": "2026-09-25",
+     "title": "The 'LCD' display unit is optimized for operation in armoured vehicles and is designed for the Generic vehicle architecture (GVA) standard. The display is manufactured out of a solid piece of milled aluminium and comes with hardened glass and 38999 Mil connectors to withstand the…",
+     "gerekce": "Classification has been determined in accordance with the following:- For the purposes of determining the commodity codes within which goods most appropriately fall, reg 3 (1) of The Customs Tariff (Establishment) (EU Ex…",
+     "title_o": "The 'LCD' display unit is optimized for operation in armoured vehicles and is designed for the Generic vehicle architecture (GVA) standard. The display is manufactured out of a solid piece of milled aluminium and comes with hardened glass and 38999 Mil connectors to withstand the…",
+     "gerekce_o": "Classification has been determined in accordance with the following:- For the purposes of determining the commodity codes within which goods most appropriately fall, reg 3 (1) of The Customs Tariff (Establishment) (EU Ex…",
+     "lang": "EN",
+     "url": "https://www.tax.service.gov.uk/search-for-advance-tariff-rulings/ruling/600016187"
+    }
+   ]
+  },
+  {
    "date": "2026-09-24",
    "date_tr": "24 Eylül 2026",
    "date_en": "24 September 2026",
-   "count": 3,
+   "count": 4,
    "sources": [
     "tr",
     "uk"
@@ -168,6 +247,23 @@ window.BTI_DATA = {
      "gerekce_o": "Classification has been determined in accordance with the following: For the purposes of determining the commodity codes within which goods most appropriately fall, reg 3 (1) of The Customs Tariff (Establishment) (EU Exi…",
      "lang": "EN",
      "url": "https://www.tax.service.gov.uk/search-for-advance-tariff-rulings/ruling/600016434"
+    },
+    {
+     "source": "tr",
+     "source_label": "Türkiye (BTB)",
+     "color": "#E30A17",
+     "flag": "🇹🇷",
+     "origin": "Türkiye",
+     "hs": "392690979029",
+     "hs4": "3926",
+     "ref": "TR160000260035",
+     "date": "2026-09-24",
+     "title": "Genel kullanım amacına sahip, belirli bir parçanın ayrılmaz işlevsel aksamı sayılmayan genel nitelikli,etilen polimerden mamul plastik komponent",
+     "gerekce": "87. Fasıl Genel Açıklama Notları, 87.08 Tarife Pozisyon Notları, 39. Fasıl Notları, 39.26 Tarife Pozisyonu İzahname Açıklama Notları,Tarifenin Yorumu ile İlgili Genel Kurallar (1) ve (6)",
+     "title_o": "Genel kullanım amacına sahip, belirli bir parçanın ayrılmaz işlevsel aksamı sayılmayan genel nitelikli,etilen polimerden mamul plastik komponent",
+     "gerekce_o": "87. Fasıl Genel Açıklama Notları, 87.08 Tarife Pozisyon Notları, 39. Fasıl Notları, 39.26 Tarife Pozisyonu İzahname Açıklama Notları,Tarifenin Yorumu ile İlgili Genel Kurallar (1) ve (6)",
+     "lang": "TR",
+     "url": "tr/TR160000260035.html"
     }
    ]
   },
