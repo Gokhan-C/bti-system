@@ -6,7 +6,14 @@
 <atom:link href="https://gokhan-c.github.io/bti-system/feed-fasil-84.xml" rel="self" type="application/rss+xml"/>
 <description>Fasıl 84 (Makineler ve mekanik cihazlar) altındaki yeni tarife kararları.</description>
 <language>tr</language>
-<lastBuildDate>Mon, 28 Sep 2026 04:48:21 -0000</lastBuildDate>
+<lastBuildDate>Tue, 29 Sep 2026 03:06:37 -0000</lastBuildDate>
+<item>
+<title>841590009009 — Bosch marka, CL5000M 82-4E model, teknik rapora göre VRF sistemi olmayan, 220-240 V, tek faz, 5</title>
+<link>https://gokhan-c.github.io/bti-system/tr/TR350000260052.html</link>
+<guid isPermaLink="false">TR350000260052|84</guid>
+<pubDate>Sun, 27 Sep 2026 21:00:00 -0000</pubDate>
+<description>[TR] Türkiye (BTB) · 28 Eylül 2026 — Türk Gümrük Tarife Cetveli İzahnamesi’nin 8415 Tarife Pozisyonu Açıklama Notları, Bakanlığımız Gümrükler Genel Müdürlüğünün 17.06.2026/123203784 tarih/sayılı yazıları, Dokuz Eylül Üniversitesi Mühendislik Fakültesi Makin…</description>
+</item>
 <item>
 <title>84149000 — L'article est une grille de forme circulaire pour les ventilateurs.L'article sert de protection pou</title>
 <link>https://ec.europa.eu/taxation_customs/dds2/ebti/ebti_details.jsp?showHeader=false&amp;Lang=en&amp;reference=FRBTIFR-BTI-2026-05319</link>
@@ -419,13 +426,6 @@
 <guid isPermaLink="false">600016012|84</guid>
 <pubDate>Wed, 09 Sep 2026 21:00:00 -0000</pubDate>
 <description>[İNG] İngiltere (HMRC) · 10 Eylül 2026 — Classification has been determined in accordance with the following: For the purposes of determining the commodity codes within which goods most appropriately fall, reg 3 (1) of The Customs Tariff (Establishment) (EU Exi…</description>
-</item>
-<item>
-<title>84679900 — Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s al</title>
-<link>https://ec.europa.eu/taxation_customs/dds2/ebti/ebti_details.jsp?showHeader=false&amp;Lang=en&amp;reference=ROBTI2026-005564</link>
-<guid isPermaLink="false">ROBTI2026-005564|84</guid>
-<pubDate>Wed, 09 Sep 2026 21:00:00 -0000</pubDate>
-<description>[AB] Avrupa Birliği (EBTI) · 10 Eylül 2026 — Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.</description>
 </item>
 </channel>
 </rss>
