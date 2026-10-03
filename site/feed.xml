@@ -6,9 +6,16 @@
 <atom:link href="https://gokhan-c.github.io/bti-system/feed.xml" rel="self" type="application/rss+xml"/>
 <description>AB, ABD, Kanada ve Türkiye bağlayıcı tarife kararlarının günlük özeti.</description>
 <language>tr</language>
-<lastBuildDate>Fri, 02 Oct 2026 03:15:29 -0000</lastBuildDate>
+<lastBuildDate>Sat, 03 Oct 2026 07:24:52 -0000</lastBuildDate>
 <item>
-<title>1 Ekim 2026 — 18 yeni tarife kararı (İNG 18)</title>
+<title>2 Ekim 2026 — 8 yeni tarife kararı (İNG 6 · TR 2)</title>
+<link>https://gokhan-c.github.io/bti-system/#g=2026-10-02</link>
+<guid isPermaLink="false">https://gokhan-c.github.io/bti-system/#g=2026-10-02</guid>
+<pubDate>Thu, 01 Oct 2026 21:00:00 -0000</pubDate>
+<description>En çok karar çıkan fasıllar: 39 Plastikler ve mamulleri (3) · 95 Oyuncaklar ve spor malzemeleri (3) · 87 Motorlu kara taşıtları (2)</description>
+</item>
+<item>
+<title>1 Ekim 2026 — 19 yeni tarife kararı (İNG 18 · TR 1)</title>
 <link>https://gokhan-c.github.io/bti-system/#g=2026-10-01</link>
 <guid isPermaLink="false">https://gokhan-c.github.io/bti-system/#g=2026-10-01</guid>
 <pubDate>Wed, 30 Sep 2026 21:00:00 -0000</pubDate>
@@ -97,13 +104,6 @@
 <guid isPermaLink="false">https://gokhan-c.github.io/bti-system/#g=2026-09-15</guid>
 <pubDate>Mon, 14 Sep 2026 21:00:00 -0000</pubDate>
 <description>En çok karar çıkan fasıllar: 84 Makineler ve mekanik cihazlar (21) · 94 Mobilyalar ve aydınlatma cihazları (16) · 95 Oyuncaklar ve spor malzemeleri (11) · 73 Demir veya çelikten eşya (8) · 85 Elektrikli makine ve cihazlar (7)</description>
-</item>
-<item>
-<title>14 Eylül 2026 — 86 yeni tarife kararı (AB 82 · İNG 4)</title>
-<link>https://gokhan-c.github.io/bti-system/#g=2026-09-14</link>
-<guid isPermaLink="false">https://gokhan-c.github.io/bti-system/#g=2026-09-14</guid>
-<pubDate>Sun, 13 Sep 2026 21:00:00 -0000</pubDate>
-<description>En çok karar çıkan fasıllar: 39 Plastikler ve mamulleri (9) · 84 Makineler ve mekanik cihazlar (9) · 85 Elektrikli makine ve cihazlar (9) · 94 Mobilyalar ve aydınlatma cihazları (9) · 61 Örme giyim eşyası (5)</description>
 </item>
 </channel>
 </rss>
