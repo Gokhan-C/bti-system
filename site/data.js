@@ -1,17 +1,17 @@
 window.BTI_DATA = {
- "generated_at": "2026-10-05 11:52",
- "today": "2026-10-05",
- "today_tr": "5 Ekim 2026",
- "today_en": "5 October 2026",
- "latest_date": "2026-10-02",
+ "generated_at": "2026-10-06 06:11",
+ "today": "2026-10-06",
+ "today_tr": "6 Ekim 2026",
+ "today_en": "6 October 2026",
+ "latest_date": "2026-10-05",
  "latest_is_today": false,
- "total_decisions": 6370,
- "total_days": 143,
+ "total_decisions": 6372,
+ "total_days": 144,
  "source_counts": {
   "eu": 5114,
   "us": 445,
   "ca": 18,
-  "uk": 447,
+  "uk": 449,
   "tr": 346
  },
  "chapters": [
@@ -108,6 +108,51 @@ window.BTI_DATA = {
   "98"
  ],
  "days": [
+  {
+   "date": "2026-10-05",
+   "date_tr": "5 Ekim 2026",
+   "date_en": "5 October 2026",
+   "count": 2,
+   "sources": [
+    "uk"
+   ],
+   "decisions": [
+    {
+     "source": "uk",
+     "source_label": "İngiltere (HMRC)",
+     "color": "#012169",
+     "flag": "🇬🇧",
+     "origin": "İngiltere",
+     "hs": "9002110090",
+     "hs4": "9002",
+     "ref": "600016446",
+     "date": "2026-10-05",
+     "title": "Replacement EF lens mount for certain cameras. It provides the mechanical interface for attaching compatible EF objective lenses and incorporates electronic connections that allow communication between the fitted lens and the camera. A supplied shim set enables adjustment of the …",
+     "gerekce": "Classification has been determined in accordance with the following: For the purposes of determining the commodity codes within which goods most appropriately fall, reg 3 (1) of The Customs Tariff (Establishment) (EU Exi…",
+     "title_o": "Replacement EF lens mount for certain cameras. It provides the mechanical interface for attaching compatible EF objective lenses and incorporates electronic connections that allow communication between the fitted lens and the camera. A supplied shim set enables adjustment of the …",
+     "gerekce_o": "Classification has been determined in accordance with the following: For the purposes of determining the commodity codes within which goods most appropriately fall, reg 3 (1) of The Customs Tariff (Establishment) (EU Exi…",
+     "lang": "EN",
+     "url": "https://www.tax.service.gov.uk/search-for-advance-tariff-rulings/ruling/600016446"
+    },
+    {
+     "source": "uk",
+     "source_label": "İngiltere (HMRC)",
+     "color": "#012169",
+     "flag": "🇬🇧",
+     "origin": "İngiltere",
+     "hs": "3824999699",
+     "hs4": "3824",
+     "ref": "600016422",
+     "date": "2026-10-05",
+     "title": "Three bricks measuring 7.6 cm X 4.1cm X 1.6cm.These are made from Zeolite, Crystalline Quartz and additives. The bricks are used to absorb moisture and humidity from sound processors. These are packed into a clear moulded plastic container.",
+     "gerekce": "Classification has been determined in accordance with the following: For the purposes of determining the commodity codes within which goods most appropriately fall, reg 3 (1) of The Customs Tariff (Establishment) (EU Exi…",
+     "title_o": "Three bricks measuring 7.6 cm X 4.1cm X 1.6cm.These are made from Zeolite, Crystalline Quartz and additives. The bricks are used to absorb moisture and humidity from sound processors. These are packed into a clear moulded plastic container.",
+     "gerekce_o": "Classification has been determined in accordance with the following: For the purposes of determining the commodity codes within which goods most appropriately fall, reg 3 (1) of The Customs Tariff (Establishment) (EU Exi…",
+     "lang": "EN",
+     "url": "https://www.tax.service.gov.uk/search-for-advance-tariff-rulings/ruling/600016422"
+    }
+   ]
+  },
   {
    "date": "2026-10-02",
    "date_tr": "2 Ekim 2026",
