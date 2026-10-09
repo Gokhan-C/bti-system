@@ -6,7 +6,21 @@
 <atom:link href="https://gokhan-c.github.io/bti-system/feed.xml" rel="self" type="application/rss+xml"/>
 <description>AB, ABD, Kanada ve Türkiye bağlayıcı tarife kararlarının günlük özeti.</description>
 <language>tr</language>
-<lastBuildDate>Thu, 08 Oct 2026 07:07:00 -0000</lastBuildDate>
+<lastBuildDate>Fri, 09 Oct 2026 08:09:58 -0000</lastBuildDate>
+<item>
+<title>9 Ekim 2026 — 1 yeni tarife kararı (AB 1)</title>
+<link>https://gokhan-c.github.io/bti-system/#g=2026-10-09</link>
+<guid isPermaLink="false">https://gokhan-c.github.io/bti-system/#g=2026-10-09</guid>
+<pubDate>Thu, 08 Oct 2026 21:00:00 -0000</pubDate>
+<description>En çok karar çıkan fasıllar: 32 Boyalar, vernikler, mürekkepler (1)</description>
+</item>
+<item>
+<title>8 Ekim 2026 — 9 yeni tarife kararı (İNG 7 · TR 2)</title>
+<link>https://gokhan-c.github.io/bti-system/#g=2026-10-08</link>
+<guid isPermaLink="false">https://gokhan-c.github.io/bti-system/#g=2026-10-08</guid>
+<pubDate>Wed, 07 Oct 2026 21:00:00 -0000</pubDate>
+<description>En çok karar çıkan fasıllar: 90 Optik, ölçü ve tıbbi cihazlar (3) · 73 Demir veya çelikten eşya (2) · 97 Sanat eserleri ve antikalar (2) · 25 Tuz, kükürt, toprak ve taşlar (1) · 82 Adi metallerden aletler (1)</description>
+</item>
 <item>
 <title>7 Ekim 2026 — 13 yeni tarife kararı (İNG 8 · TR 5)</title>
 <link>https://gokhan-c.github.io/bti-system/#g=2026-10-07</link>
@@ -90,20 +104,6 @@
 <guid isPermaLink="false">https://gokhan-c.github.io/bti-system/#g=2026-09-22</guid>
 <pubDate>Mon, 21 Sep 2026 21:00:00 -0000</pubDate>
 <description>En çok karar çıkan fasıllar: 97 Sanat eserleri ve antikalar (5) · 49 Basılı kitaplar, gazeteler (2) · 21 Yenilen çeşitli gıda müstahzarları (1) · 38 Muhtelif kimyasal ürünler (1) · 39 Plastikler ve mamulleri (1)</description>
-</item>
-<item>
-<title>21 Eylül 2026 — 3 yeni tarife kararı (İNG 2 · TR 1)</title>
-<link>https://gokhan-c.github.io/bti-system/#g=2026-09-21</link>
-<guid isPermaLink="false">https://gokhan-c.github.io/bti-system/#g=2026-09-21</guid>
-<pubDate>Sun, 20 Sep 2026 21:00:00 -0000</pubDate>
-<description>En çok karar çıkan fasıllar: 49 Basılı kitaplar, gazeteler (1) · 61 Örme giyim eşyası (1) · 85 Elektrikli makine ve cihazlar (1)</description>
-</item>
-<item>
-<title>18 Eylül 2026 — 131 yeni tarife kararı (AB 123 · İNG 8)</title>
-<link>https://gokhan-c.github.io/bti-system/#g=2026-09-18</link>
-<guid isPermaLink="false">https://gokhan-c.github.io/bti-system/#g=2026-09-18</guid>
-<pubDate>Thu, 17 Sep 2026 21:00:00 -0000</pubDate>
-<description>En çok karar çıkan fasıllar: 85 Elektrikli makine ve cihazlar (26) · 84 Makineler ve mekanik cihazlar (21) · 73 Demir veya çelikten eşya (14) · 39 Plastikler ve mamulleri (10) · 21 Yenilen çeşitli gıda müstahzarları (5)</description>
 </item>
 </channel>
 </rss>
