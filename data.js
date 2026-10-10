@@ -1,14 +1,14 @@
 window.BTI_DATA = {
- "generated_at": "2026-10-09 11:09",
- "today": "2026-10-09",
- "today_tr": "9 Ekim 2026",
- "today_en": "9 October 2026",
- "latest_date": "2026-10-09",
+ "generated_at": "2026-10-10 15:27",
+ "today": "2026-10-10",
+ "today_tr": "10 Ekim 2026",
+ "today_en": "10 October 2026",
+ "latest_date": "2026-10-10",
  "latest_is_today": true,
- "total_decisions": 6421,
- "total_days": 148,
+ "total_decisions": 6422,
+ "total_days": 149,
  "source_counts": {
-  "eu": 5115,
+  "eu": 5116,
   "us": 445,
   "ca": 22,
   "uk": 484,
@@ -108,6 +108,35 @@ window.BTI_DATA = {
   "98"
  ],
  "days": [
+  {
+   "date": "2026-10-10",
+   "date_tr": "10 Ekim 2026",
+   "date_en": "10 October 2026",
+   "count": 1,
+   "sources": [
+    "eu"
+   ],
+   "decisions": [
+    {
+     "source": "eu",
+     "source_label": "Avrupa Birliği (EBTI)",
+     "color": "#2E6BE6",
+     "flag": "🇫🇷",
+     "origin": "Fransa",
+     "hs": "95069190",
+     "hs4": "9506",
+     "ref": "FRBTIFR-BTI-2026-02710",
+     "date": "2026-10-10",
+     "date_issue": "2026-10-09",
+     "title": "Article de sport se présentant sous la forme d’un sac de lestage en tissu (polyester) contenant 3 kg de sable et constituant un matériel de musculation. Il est destiné aux entrainements à domicile et comporte sur le tissu des illustrations d'exercices.Dimensions : H 20.50 x L 7.6…",
+     "gerekce": "Règles générales 1 et 6 : le classement est déterminé par les notes de section et de chapitre, ainsi que par le libellé de position, de sous-position et de code NC.NESH de la position tarifaire 9506, paragraphe A), qui r…",
+     "title_o": "",
+     "gerekce_o": "",
+     "lang": "",
+     "url": "https://ec.europa.eu/taxation_customs/dds2/ebti/ebti_details.jsp?showHeader=false&Lang=en&reference=FRBTIFR-BTI-2026-02710"
+    }
+   ]
+  },
   {
    "date": "2026-10-09",
    "date_tr": "9 Ekim 2026",
