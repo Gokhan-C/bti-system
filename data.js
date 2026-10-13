@@ -1,17 +1,17 @@
 window.BTI_DATA = {
- "generated_at": "2026-10-12 06:13",
- "today": "2026-10-12",
- "today_tr": "12 Ekim 2026",
- "today_en": "12 October 2026",
+ "generated_at": "2026-10-13 06:07",
+ "today": "2026-10-13",
+ "today_tr": "13 Ekim 2026",
+ "today_en": "13 October 2026",
  "latest_date": "2026-10-12",
- "latest_is_today": true,
- "total_decisions": 6460,
+ "latest_is_today": false,
+ "total_decisions": 6465,
  "total_days": 150,
  "source_counts": {
   "eu": 5128,
   "us": 445,
   "ca": 35,
-  "uk": 495,
+  "uk": 500,
   "tr": 357
  },
  "chapters": [
@@ -112,9 +112,10 @@ window.BTI_DATA = {
    "date": "2026-10-12",
    "date_tr": "12 Ekim 2026",
    "date_en": "12 October 2026",
-   "count": 12,
+   "count": 17,
    "sources": [
-    "eu"
+    "eu",
+    "uk"
    ],
    "decisions": [
     {
@@ -136,6 +137,23 @@ window.BTI_DATA = {
      "url": "https://ec.europa.eu/taxation_customs/dds2/ebti/ebti_details.jsp?showHeader=false&Lang=en&reference=LVBTILV009999-2026-BTI101"
     },
     {
+     "source": "uk",
+     "source_label": "İngiltere (HMRC)",
+     "color": "#012169",
+     "flag": "🇬🇧",
+     "origin": "İngiltere",
+     "hs": "9705100045",
+     "hs4": "9705",
+     "ref": "600016976",
+     "date": "2026-10-12",
+     "title": "A 1979 Porsche 911 SC two-seat sports car, manufactured in Germany, with a silver metallic finish and steel body. The vehicle weighs approximately 1,600 kg and is powered by a 3-litre petrol engine. The vehicle is in its original state and has not undergone any substantial change…",
+     "gerekce": "Classification has been determined in accordance with the following:- For the purposes of determining the commodity codes within which goods most appropriately fall, reg 3 (1) of The Customs Tariff (Establishment) (EU Ex…",
+     "title_o": "A 1979 Porsche 911 SC two-seat sports car, manufactured in Germany, with a silver metallic finish and steel body. The vehicle weighs approximately 1,600 kg and is powered by a 3-litre petrol engine. The vehicle is in its original state and has not undergone any substantial change…",
+     "gerekce_o": "Classification has been determined in accordance with the following:- For the purposes of determining the commodity codes within which goods most appropriately fall, reg 3 (1) of The Customs Tariff (Establishment) (EU Ex…",
+     "lang": "EN",
+     "url": "https://www.tax.service.gov.uk/search-for-advance-tariff-rulings/ruling/600016976"
+    },
+    {
      "source": "eu",
      "source_label": "Avrupa Birliği (EBTI)",
      "color": "#2E6BE6",
@@ -152,6 +170,23 @@ window.BTI_DATA = {
      "gerekce_o": "",
      "lang": "",
      "url": "https://ec.europa.eu/taxation_customs/dds2/ebti/ebti_details.jsp?showHeader=false&Lang=en&reference=LVBTILV009999-2026-BTI102"
+    },
+    {
+     "source": "uk",
+     "source_label": "İngiltere (HMRC)",
+     "color": "#012169",
+     "flag": "🇬🇧",
+     "origin": "İngiltere",
+     "hs": "2103909089",
+     "hs4": "2103",
+     "ref": "600016628",
+     "date": "2026-10-12",
+     "title": "Korean style fermented chili paste used in cooking. Also known as gochujang. Product is packed in 170g plastic tubs",
+     "gerekce": "Classification has been determined in accordance with the following: For the purposes of determining the commodity codes within which goods most appropriately fall, reg 3 (1) of The Customs Tariff (Establishment) (EU Exi…",
+     "title_o": "Korean style fermented chili paste used in cooking. Also known as gochujang. Product is packed in 170g plastic tubs",
+     "gerekce_o": "Classification has been determined in accordance with the following: For the purposes of determining the commodity codes within which goods most appropriately fall, reg 3 (1) of The Customs Tariff (Establishment) (EU Exi…",
+     "lang": "EN",
+     "url": "https://www.tax.service.gov.uk/search-for-advance-tariff-rulings/ruling/600016628"
     },
     {
      "source": "eu",
@@ -172,6 +207,23 @@ window.BTI_DATA = {
      "url": "https://ec.europa.eu/taxation_customs/dds2/ebti/ebti_details.jsp?showHeader=false&Lang=en&reference=LVBTILV009999-2026-BTI104"
     },
     {
+     "source": "uk",
+     "source_label": "İngiltere (HMRC)",
+     "color": "#012169",
+     "flag": "🇬🇧",
+     "origin": "İngiltere",
+     "hs": "6307909899",
+     "hs4": "6307",
+     "ref": "600016357",
+     "date": "2026-10-12",
+     "title": "A baby wipe cleaning kit. This product consists of woven re useable terry cloths, two plastic boxes and two textile bags. The clean cloths are stored in one box which is lined with a bag. When a cloth is used, it is stored in the other lined box. The box containing the soiled clo…",
+     "gerekce": "Classification has been determined in accordance with the following:- For the purposes of determining the commodity codes within which goods most appropriately fall, reg 3 (1) of The Customs Tariff (Establishment) (EU Ex…",
+     "title_o": "A baby wipe cleaning kit. This product consists of woven re useable terry cloths, two plastic boxes and two textile bags. The clean cloths are stored in one box which is lined with a bag. When a cloth is used, it is stored in the other lined box. The box containing the soiled clo…",
+     "gerekce_o": "Classification has been determined in accordance with the following:- For the purposes of determining the commodity codes within which goods most appropriately fall, reg 3 (1) of The Customs Tariff (Establishment) (EU Ex…",
+     "lang": "EN",
+     "url": "https://www.tax.service.gov.uk/search-for-advance-tariff-rulings/ruling/600016357"
+    },
+    {
      "source": "eu",
      "source_label": "Avrupa Birliği (EBTI)",
      "color": "#2E6BE6",
@@ -190,6 +242,23 @@ window.BTI_DATA = {
      "url": "https://ec.europa.eu/taxation_customs/dds2/ebti/ebti_details.jsp?showHeader=false&Lang=en&reference=LVBTILV009999-2026-BTI105"
     },
     {
+     "source": "uk",
+     "source_label": "İngiltere (HMRC)",
+     "color": "#012169",
+     "flag": "🇬🇧",
+     "origin": "İngiltere",
+     "hs": "3924900090",
+     "hs4": "3924",
+     "ref": "600016239",
+     "date": "2026-10-12",
+     "title": "black velvet hangers Plastic clothes hanger covered with a textile Materials: 100% PET hanger covered with a polyester textile.",
+     "gerekce": "Classification has been determined in accordance with the following:- For the purposes of determining the commodity codes within which goods most appropriately fall, reg 3 (1) of The Customs Tariff (Establishment) (EU Ex…",
+     "title_o": "black velvet hangers Plastic clothes hanger covered with a textile Materials: 100% PET hanger covered with a polyester textile.",
+     "gerekce_o": "Classification has been determined in accordance with the following:- For the purposes of determining the commodity codes within which goods most appropriately fall, reg 3 (1) of The Customs Tariff (Establishment) (EU Ex…",
+     "lang": "EN",
+     "url": "https://www.tax.service.gov.uk/search-for-advance-tariff-rulings/ruling/600016239"
+    },
+    {
      "source": "eu",
      "source_label": "Avrupa Birliği (EBTI)",
      "color": "#2E6BE6",
@@ -206,6 +275,23 @@ window.BTI_DATA = {
      "gerekce_o": "",
      "lang": "",
      "url": "https://ec.europa.eu/taxation_customs/dds2/ebti/ebti_details.jsp?showHeader=false&Lang=en&reference=LVBTILV009999-2026-BTI106"
+    },
+    {
+     "source": "uk",
+     "source_label": "İngiltere (HMRC)",
+     "color": "#012169",
+     "flag": "🇬🇧",
+     "origin": "İngiltere",
+     "hs": "8807300010",
+     "hs4": "8807",
+     "ref": "600016202",
+     "date": "2026-10-12",
+     "title": "The product is a precision-machined aerospace component described as a reaction plate for a torque brake assembly. It is made from 15-5PH precipitation hardening stainless steel, conforming to AMS 5659 Type 1 material specification. The component is manufactured as a solid cylind…",
+     "gerekce": "Classification has been determined in accordance with the following: For the purposes of determining the commodity codes within which goods most appropriately fall, reg 3 (1) of The Customs Tariff (Establishment) (EU Exi…",
+     "title_o": "The product is a precision-machined aerospace component described as a reaction plate for a torque brake assembly. It is made from 15-5PH precipitation hardening stainless steel, conforming to AMS 5659 Type 1 material specification. The component is manufactured as a solid cylind…",
+     "gerekce_o": "Classification has been determined in accordance with the following: For the purposes of determining the commodity codes within which goods most appropriately fall, reg 3 (1) of The Customs Tariff (Establishment) (EU Exi…",
+     "lang": "EN",
+     "url": "https://www.tax.service.gov.uk/search-for-advance-tariff-rulings/ruling/600016202"
     },
     {
      "source": "eu",
