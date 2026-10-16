@@ -1,17 +1,17 @@
 window.BTI_DATA = {
- "generated_at": "2026-10-15 08:02",
- "today": "2026-10-15",
- "today_tr": "15 Ekim 2026",
- "today_en": "15 October 2026",
+ "generated_at": "2026-10-16 06:08",
+ "today": "2026-10-16",
+ "today_tr": "16 Ekim 2026",
+ "today_en": "16 October 2026",
  "latest_date": "2026-10-15",
- "latest_is_today": true,
- "total_decisions": 6517,
+ "latest_is_today": false,
+ "total_decisions": 6525,
  "total_days": 153,
  "source_counts": {
   "eu": 5138,
   "us": 445,
   "ca": 44,
-  "uk": 533,
+  "uk": 541,
   "tr": 357
  },
  "chapters": [
@@ -112,9 +112,10 @@ window.BTI_DATA = {
    "date": "2026-10-15",
    "date_tr": "15 Ekim 2026",
    "date_en": "15 October 2026",
-   "count": 10,
+   "count": 18,
    "sources": [
-    "eu"
+    "eu",
+    "uk"
    ],
    "decisions": [
     {
@@ -136,6 +137,23 @@ window.BTI_DATA = {
      "url": "https://ec.europa.eu/taxation_customs/dds2/ebti/ebti_details.jsp?showHeader=false&Lang=en&reference=LVBTILV009999-2026-BTI115"
     },
     {
+     "source": "uk",
+     "source_label": "İngiltere (HMRC)",
+     "color": "#012169",
+     "flag": "🇬🇧",
+     "origin": "İngiltere",
+     "hs": "4202321000",
+     "hs4": "4202",
+     "ref": "600016752",
+     "date": "2026-10-15",
+     "title": "A spectacle case. The outer surface consists of a cellular plastic sheet embossed with a ridge pattern covering two shaped metal pieces. The case is lined internally with a black plastic sheet having a flock finish. It has a hinged back and snap closure and measures 155 mm (lengt…",
+     "gerekce": "Classification has been determined in accordance with the following:- For the purposes of determining the commodity codes within which goods most appropriately fall, reg 3 (1) of The Customs Tariff (Establishment) (EU Ex…",
+     "title_o": "A spectacle case. The outer surface consists of a cellular plastic sheet embossed with a ridge pattern covering two shaped metal pieces. The case is lined internally with a black plastic sheet having a flock finish. It has a hinged back and snap closure and measures 155 mm (lengt…",
+     "gerekce_o": "Classification has been determined in accordance with the following:- For the purposes of determining the commodity codes within which goods most appropriately fall, reg 3 (1) of The Customs Tariff (Establishment) (EU Ex…",
+     "lang": "EN",
+     "url": "https://www.tax.service.gov.uk/search-for-advance-tariff-rulings/ruling/600016752"
+    },
+    {
      "source": "eu",
      "source_label": "Avrupa Birliği (EBTI)",
      "color": "#2E6BE6",
@@ -152,6 +170,23 @@ window.BTI_DATA = {
      "gerekce_o": "",
      "lang": "",
      "url": "https://ec.europa.eu/taxation_customs/dds2/ebti/ebti_details.jsp?showHeader=false&Lang=en&reference=LVBTILV009999-2026-BTI114"
+    },
+    {
+     "source": "uk",
+     "source_label": "İngiltere (HMRC)",
+     "color": "#012169",
+     "flag": "🇬🇧",
+     "origin": "İngiltere",
+     "hs": "1602501090",
+     "hs4": "1602",
+     "ref": "600016692",
+     "date": "2026-10-15",
+     "title": "A frozen beef fillet topped with a rich mushroom duxelles and wrapped in all-butter puff pastry. The beef fillet is rack-dried, seasoned with salt and oil, and seared before being enclosed with the cooked ingredients. The assembled product is placed in a foil tray, glazed, packag…",
+     "gerekce": "Classification has been determined in accordance with the following: For the purposes of determining the commodity codes within which goods most appropriately fall, reg 3 (1) of The Customs Tariff (Establishment) (EU Exi…",
+     "title_o": "A frozen beef fillet topped with a rich mushroom duxelles and wrapped in all-butter puff pastry. The beef fillet is rack-dried, seasoned with salt and oil, and seared before being enclosed with the cooked ingredients. The assembled product is placed in a foil tray, glazed, packag…",
+     "gerekce_o": "Classification has been determined in accordance with the following: For the purposes of determining the commodity codes within which goods most appropriately fall, reg 3 (1) of The Customs Tariff (Establishment) (EU Exi…",
+     "lang": "EN",
+     "url": "https://www.tax.service.gov.uk/search-for-advance-tariff-rulings/ruling/600016692"
     },
     {
      "source": "eu",
@@ -172,6 +207,23 @@ window.BTI_DATA = {
      "url": "https://ec.europa.eu/taxation_customs/dds2/ebti/ebti_details.jsp?showHeader=false&Lang=en&reference=LVBTILV009999-2026-BTI123"
     },
     {
+     "source": "uk",
+     "source_label": "İngiltere (HMRC)",
+     "color": "#012169",
+     "flag": "🇬🇧",
+     "origin": "İngiltere",
+     "hs": "9705100045",
+     "hs4": "9705",
+     "ref": "600016674",
+     "date": "2026-10-15",
+     "title": "A dining table, circa 1955, by the French designer Jean Royère. The table is crafted from stained oak-veneered wood, stained oak, glass, cane, painted wood, and brass. The tabletop features a cane-inlaid motif protected by a glass cover which enhances the detail of the pattern. T…",
+     "gerekce": "Classification has been determined in accordance with the following: For the purposes of determining the commodity codes within which goods most appropriately fall, reg 3 (1) of The Customs Tariff (Establishment) (EU Exi…",
+     "title_o": "A dining table, circa 1955, by the French designer Jean Royère. The table is crafted from stained oak-veneered wood, stained oak, glass, cane, painted wood, and brass. The tabletop features a cane-inlaid motif protected by a glass cover which enhances the detail of the pattern. T…",
+     "gerekce_o": "Classification has been determined in accordance with the following: For the purposes of determining the commodity codes within which goods most appropriately fall, reg 3 (1) of The Customs Tariff (Establishment) (EU Exi…",
+     "lang": "EN",
+     "url": "https://www.tax.service.gov.uk/search-for-advance-tariff-rulings/ruling/600016674"
+    },
+    {
      "source": "eu",
      "source_label": "Avrupa Birliği (EBTI)",
      "color": "#2E6BE6",
@@ -188,6 +240,23 @@ window.BTI_DATA = {
      "gerekce_o": "",
      "lang": "",
      "url": "https://ec.europa.eu/taxation_customs/dds2/ebti/ebti_details.jsp?showHeader=false&Lang=en&reference=LVBTILV009999-2026-BTI122"
+    },
+    {
+     "source": "uk",
+     "source_label": "İngiltere (HMRC)",
+     "color": "#012169",
+     "flag": "🇬🇧",
+     "origin": "İngiltere",
+     "hs": "9705100045",
+     "hs4": "9705",
+     "ref": "600016673",
+     "date": "2026-10-15",
+     "title": "A set of 10 dining chairs which were designed and made by Jean Royère in 1955. The chairs are made of stained oak wood, natural cane and upholstered in cotton fabric. The dimensions of each chair are 98.4cm x 44.5cm x 50.8 cm. The chairs were originally commissioned by a prominen…",
+     "gerekce": "Classification has been determined in accordance with the following: For the purposes of determining the commodity codes within which goods most appropriately fall, reg 3 (1) of The Customs Tariff (Establishment) (EU Exi…",
+     "title_o": "A set of 10 dining chairs which were designed and made by Jean Royère in 1955. The chairs are made of stained oak wood, natural cane and upholstered in cotton fabric. The dimensions of each chair are 98.4cm x 44.5cm x 50.8 cm. The chairs were originally commissioned by a prominen…",
+     "gerekce_o": "Classification has been determined in accordance with the following: For the purposes of determining the commodity codes within which goods most appropriately fall, reg 3 (1) of The Customs Tariff (Establishment) (EU Exi…",
+     "lang": "EN",
+     "url": "https://www.tax.service.gov.uk/search-for-advance-tariff-rulings/ruling/600016673"
     },
     {
      "source": "eu",
@@ -208,6 +277,23 @@ window.BTI_DATA = {
      "url": "https://ec.europa.eu/taxation_customs/dds2/ebti/ebti_details.jsp?showHeader=false&Lang=en&reference=LVBTILV009999-2026-BTI121"
     },
     {
+     "source": "uk",
+     "source_label": "İngiltere (HMRC)",
+     "color": "#012169",
+     "flag": "🇬🇧",
+     "origin": "İngiltere",
+     "hs": "9705100045",
+     "hs4": "9705",
+     "ref": "600016658",
+     "date": "2026-10-15",
+     "title": "A Floor lamp by Thomaso Buzzi (1900–1981) who was a leading Italian architect and designer whose work shaped the landscape of 20th-century decorative arts. Celebrated for his refined, imaginative style. The floor lamp has been designed in multi-layered Alba glass with gold leaf a…",
+     "gerekce": "Classification has been determined in accordance with the following: For the purposes of determining the commodity codes within which goods most appropriately fall, reg 3 (1) of The Customs Tariff (Establishment) (EU Exi…",
+     "title_o": "A Floor lamp by Thomaso Buzzi (1900–1981) who was a leading Italian architect and designer whose work shaped the landscape of 20th-century decorative arts. Celebrated for his refined, imaginative style. The floor lamp has been designed in multi-layered Alba glass with gold leaf a…",
+     "gerekce_o": "Classification has been determined in accordance with the following: For the purposes of determining the commodity codes within which goods most appropriately fall, reg 3 (1) of The Customs Tariff (Establishment) (EU Exi…",
+     "lang": "EN",
+     "url": "https://www.tax.service.gov.uk/search-for-advance-tariff-rulings/ruling/600016658"
+    },
+    {
      "source": "eu",
      "source_label": "Avrupa Birliği (EBTI)",
      "color": "#2E6BE6",
@@ -224,6 +310,23 @@ window.BTI_DATA = {
      "gerekce_o": "",
      "lang": "",
      "url": "https://ec.europa.eu/taxation_customs/dds2/ebti/ebti_details.jsp?showHeader=false&Lang=en&reference=LVBTILV009999-2026-BTI120"
+    },
+    {
+     "source": "uk",
+     "source_label": "İngiltere (HMRC)",
+     "color": "#012169",
+     "flag": "🇬🇧",
+     "origin": "İngiltere",
+     "hs": "9705100045",
+     "hs4": "9705",
+     "ref": "600016652",
+     "date": "2026-10-15",
+     "title": "A 'Extruded' coffee table by Marc Newson, circa 2013. Made from Striato Olimpico marble. Dimensions: 38 × 170 × 70 cm (14 7/8 × 66 7/8 × 27 1/2 in.). The work is presently in Italy and will be transported to London",
+     "gerekce": "Classification has been determined in accordance with the following: For the purposes of determining the commodity codes within which goods most appropriately fall, reg 3 (1) of The Customs Tariff (Establishment) (EU Exi…",
+     "title_o": "A 'Extruded' coffee table by Marc Newson, circa 2013. Made from Striato Olimpico marble. Dimensions: 38 × 170 × 70 cm (14 7/8 × 66 7/8 × 27 1/2 in.). The work is presently in Italy and will be transported to London",
+     "gerekce_o": "Classification has been determined in accordance with the following: For the purposes of determining the commodity codes within which goods most appropriately fall, reg 3 (1) of The Customs Tariff (Establishment) (EU Exi…",
+     "lang": "EN",
+     "url": "https://www.tax.service.gov.uk/search-for-advance-tariff-rulings/ruling/600016652"
     },
     {
      "source": "eu",
@@ -244,6 +347,23 @@ window.BTI_DATA = {
      "url": "https://ec.europa.eu/taxation_customs/dds2/ebti/ebti_details.jsp?showHeader=false&Lang=en&reference=LVBTILV009999-2026-BTI119"
     },
     {
+     "source": "uk",
+     "source_label": "İngiltere (HMRC)",
+     "color": "#012169",
+     "flag": "🇬🇧",
+     "origin": "İngiltere",
+     "hs": "8302500000",
+     "hs4": "8302",
+     "ref": "600016412",
+     "date": "2026-10-15",
+     "title": "A steel four-prong wall-mounted tool rack/tool holder. It is fitted with four prongs for hanging cleaning tools and it is intended for attachment to walls or cupboards. The tool rack is finished in a black colour. The dimensions of the rack are 256 mm (L) x 76 mm (W) x 83 mm (H) …",
+     "gerekce": "Classification has been determined in accordance with the following: - For the purposes of determining the commodity codes within which goods most appropriately fall, reg 3 (1) of The Customs Tariff (Establishment) (EU E…",
+     "title_o": "A steel four-prong wall-mounted tool rack/tool holder. It is fitted with four prongs for hanging cleaning tools and it is intended for attachment to walls or cupboards. The tool rack is finished in a black colour. The dimensions of the rack are 256 mm (L) x 76 mm (W) x 83 mm (H) …",
+     "gerekce_o": "Classification has been determined in accordance with the following: - For the purposes of determining the commodity codes within which goods most appropriately fall, reg 3 (1) of The Customs Tariff (Establishment) (EU E…",
+     "lang": "EN",
+     "url": "https://www.tax.service.gov.uk/search-for-advance-tariff-rulings/ruling/600016412"
+    },
+    {
      "source": "eu",
      "source_label": "Avrupa Birliği (EBTI)",
      "color": "#2E6BE6",
@@ -260,6 +380,23 @@ window.BTI_DATA = {
      "gerekce_o": "",
      "lang": "",
      "url": "https://ec.europa.eu/taxation_customs/dds2/ebti/ebti_details.jsp?showHeader=false&Lang=en&reference=LVBTILV009999-2026-BTI118"
+    },
+    {
+     "source": "uk",
+     "source_label": "İngiltere (HMRC)",
+     "color": "#012169",
+     "flag": "🇬🇧",
+     "origin": "İngiltere",
+     "hs": "8523809000",
+     "hs4": "8523",
+     "ref": "600016265",
+     "date": "2026-10-15",
+     "title": "A collection of 7-inch 45RPM gramophone records of vinyl, containing pre-recorded soul music, produced in the 1960s and 1970s. For use with record players, phonographic equipment and/or turntables and DJ decks to allow playback of recorded music. The records bear printed labels, …",
+     "gerekce": "Classification has been determined in accordance with the following: - For the purposes of determining the commodity codes within which goods most appropriately fall, reg 3 (1) of The Customs Tariff (Establishment) (EU E…",
+     "title_o": "A collection of 7-inch 45RPM gramophone records of vinyl, containing pre-recorded soul music, produced in the 1960s and 1970s. For use with record players, phonographic equipment and/or turntables and DJ decks to allow playback of recorded music. The records bear printed labels, …",
+     "gerekce_o": "Classification has been determined in accordance with the following: - For the purposes of determining the commodity codes within which goods most appropriately fall, reg 3 (1) of The Customs Tariff (Establishment) (EU E…",
+     "lang": "EN",
+     "url": "https://www.tax.service.gov.uk/search-for-advance-tariff-rulings/ruling/600016265"
     },
     {
      "source": "eu",
