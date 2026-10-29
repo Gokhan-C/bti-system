@@ -1,17 +1,17 @@
 window.BTI_DATA = {
- "generated_at": "2026-10-28 17:01",
- "today": "2026-10-28",
- "today_tr": "28 Ekim 2026",
- "today_en": "28 October 2026",
+ "generated_at": "2026-10-29 06:07",
+ "today": "2026-10-29",
+ "today_tr": "29 Ekim 2026",
+ "today_en": "29 October 2026",
  "latest_date": "2026-10-28",
- "latest_is_today": true,
- "total_decisions": 6659,
+ "latest_is_today": false,
+ "total_decisions": 6662,
  "total_days": 162,
  "source_counts": {
   "eu": 5138,
   "us": 445,
   "ca": 44,
-  "uk": 636,
+  "uk": 639,
   "tr": 396
  },
  "chapters": [
@@ -112,7 +112,7 @@ window.BTI_DATA = {
    "date": "2026-10-28",
    "date_tr": "28 Ekim 2026",
    "date_en": "28 October 2026",
-   "count": 7,
+   "count": 10,
    "sources": [
     "uk"
    ],
@@ -235,6 +235,57 @@ window.BTI_DATA = {
      "gerekce_o": "Classification has been determined in accordance with the following: - For the purposes of determining the commodity codes within which goods most appropriately fall, reg 3 (1) of The Customs Tariff (Establishment) (EU E…",
      "lang": "EN",
      "url": "https://www.tax.service.gov.uk/search-for-advance-tariff-rulings/ruling/600016424"
+    },
+    {
+     "source": "uk",
+     "source_label": "İngiltere (HMRC)",
+     "color": "#012169",
+     "flag": "🇬🇧",
+     "origin": "İngiltere",
+     "hs": "6307909820",
+     "hs4": "6307",
+     "ref": "600016568",
+     "date": "2026-10-28",
+     "title": "A textile bag made from non-woven polyester and polypropylene. The bag has heat sealed edges and a plastic PVC window. The item is used to cover plants and help isolate flowers, seed heads, or plant reproductive structures, therefore enabling pollination without contamination fro…",
+     "gerekce": "Classification has been determined in accordance with the following: For the purposes of determining the commodity codes within which goods most appropriately fall, reg 3 (1) of The Customs Tariff (Establishment) (EU Exi…",
+     "title_o": "A textile bag made from non-woven polyester and polypropylene. The bag has heat sealed edges and a plastic PVC window. The item is used to cover plants and help isolate flowers, seed heads, or plant reproductive structures, therefore enabling pollination without contamination fro…",
+     "gerekce_o": "Classification has been determined in accordance with the following: For the purposes of determining the commodity codes within which goods most appropriately fall, reg 3 (1) of The Customs Tariff (Establishment) (EU Exi…",
+     "lang": "EN",
+     "url": "https://www.tax.service.gov.uk/search-for-advance-tariff-rulings/ruling/600016568"
+    },
+    {
+     "source": "uk",
+     "source_label": "İngiltere (HMRC)",
+     "color": "#012169",
+     "flag": "🇬🇧",
+     "origin": "İngiltere",
+     "hs": "8517699000",
+     "hs4": "8517",
+     "ref": "600016489",
+     "date": "2026-10-28",
+     "title": "A wireless tv streamer. A wireless audio transmission device designed to receive stereo audio signals from a television, stereo, personal computer or similar source and transmit them directly to compatible hearing aids or sound processors. The device enables the user to hear soun…",
+     "gerekce": "Classification has been determined in accordance with the following:- For the purposes of determining the commodity codes within which goods most appropriately fall, reg 3 (1) of The Customs Tariff (Establishment) (EU Ex…",
+     "title_o": "A wireless tv streamer. A wireless audio transmission device designed to receive stereo audio signals from a television, stereo, personal computer or similar source and transmit them directly to compatible hearing aids or sound processors. The device enables the user to hear soun…",
+     "gerekce_o": "Classification has been determined in accordance with the following:- For the purposes of determining the commodity codes within which goods most appropriately fall, reg 3 (1) of The Customs Tariff (Establishment) (EU Ex…",
+     "lang": "EN",
+     "url": "https://www.tax.service.gov.uk/search-for-advance-tariff-rulings/ruling/600016489"
+    },
+    {
+     "source": "uk",
+     "source_label": "İngiltere (HMRC)",
+     "color": "#012169",
+     "flag": "🇬🇧",
+     "origin": "İngiltere",
+     "hs": "6107120000",
+     "hs4": "6107",
+     "ref": "600016201",
+     "date": "2026-10-28",
+     "title": "Bodybuilding posing trunks Made from knitted nylon and spandex. Not suitable for swimming or sunbathing. Available sizes: Small, Medium, Large and Extra Large. Available in various colours.",
+     "gerekce": "Classification has been determined in accordance with the following:- For the purposes of determining the commodity codes within which goods most appropriately fall, reg 3 (1) of The Customs Tariff (Establishment) (EU Ex…",
+     "title_o": "Bodybuilding posing trunks Made from knitted nylon and spandex. Not suitable for swimming or sunbathing. Available sizes: Small, Medium, Large and Extra Large. Available in various colours.",
+     "gerekce_o": "Classification has been determined in accordance with the following:- For the purposes of determining the commodity codes within which goods most appropriately fall, reg 3 (1) of The Customs Tariff (Establishment) (EU Ex…",
+     "lang": "EN",
+     "url": "https://www.tax.service.gov.uk/search-for-advance-tariff-rulings/ruling/600016201"
     }
    ]
   },
