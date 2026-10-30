@@ -1,17 +1,17 @@
 window.BTI_DATA = {
- "generated_at": "2026-10-29 06:07",
- "today": "2026-10-29",
- "today_tr": "29 Ekim 2026",
- "today_en": "29 October 2026",
- "latest_date": "2026-10-28",
+ "generated_at": "2026-10-30 06:07",
+ "today": "2026-10-30",
+ "today_tr": "30 Ekim 2026",
+ "today_en": "30 October 2026",
+ "latest_date": "2026-10-29",
  "latest_is_today": false,
- "total_decisions": 6662,
- "total_days": 162,
+ "total_decisions": 6667,
+ "total_days": 163,
  "source_counts": {
   "eu": 5138,
   "us": 445,
-  "ca": 44,
-  "uk": 639,
+  "ca": 48,
+  "uk": 640,
   "tr": 396
  },
  "chapters": [
@@ -108,6 +108,34 @@ window.BTI_DATA = {
   "98"
  ],
  "days": [
+  {
+   "date": "2026-10-29",
+   "date_tr": "29 Ekim 2026",
+   "date_en": "29 October 2026",
+   "count": 1,
+   "sources": [
+    "uk"
+   ],
+   "decisions": [
+    {
+     "source": "uk",
+     "source_label": "İngiltere (HMRC)",
+     "color": "#012169",
+     "flag": "🇬🇧",
+     "origin": "İngiltere",
+     "hs": "1106309080",
+     "hs4": "1106",
+     "ref": "600016791",
+     "date": "2026-10-29",
+     "title": "A powdered fruit product consisting solely of 100% soursop (Annona muricata) grown in Venezuela. It is produced by cutting and dehydrating the fresh fruit, followed by grinding into a powder. The particle size is such that at least 95% by weight passes through a woven metal wire …",
+     "gerekce": "Classification has been determined in accordance with the following: For the purposes of determining the commodity codes within which goods most appropriately fall, reg 3 (1) of The Customs Tariff (Establishment) (EU Exi…",
+     "title_o": "A powdered fruit product consisting solely of 100% soursop (Annona muricata) grown in Venezuela. It is produced by cutting and dehydrating the fresh fruit, followed by grinding into a powder. The particle size is such that at least 95% by weight passes through a woven metal wire …",
+     "gerekce_o": "Classification has been determined in accordance with the following: For the purposes of determining the commodity codes within which goods most appropriately fall, reg 3 (1) of The Customs Tariff (Establishment) (EU Exi…",
+     "lang": "EN",
+     "url": "https://www.tax.service.gov.uk/search-for-advance-tariff-rulings/ruling/600016791"
+    }
+   ]
+  },
   {
    "date": "2026-10-28",
    "date_tr": "28 Ekim 2026",
@@ -4448,12 +4476,30 @@ window.BTI_DATA = {
    "date": "2026-10-06",
    "date_tr": "6 Ekim 2026",
    "date_en": "6 October 2026",
-   "count": 21,
+   "count": 23,
    "sources": [
+    "ca",
     "tr",
     "uk"
    ],
    "decisions": [
+    {
+     "source": "ca",
+     "source_label": "Kanada (CBSA)",
+     "color": "#D34040",
+     "flag": "🇨🇦",
+     "origin": "Kanada",
+     "hs": "1806.90.90.19",
+     "hs4": "1806",
+     "ref": "8000016002",
+     "date": "2026-10-06",
+     "title": "&&The goods are a crunchy, crispy bite-sized snack sticks composed of strawberry, powdered fruits (apple, banana, date), cacao powder and agave fiber. The fruit ingredients are flash-frozen, slow-dried, blended into a dough with remaining ingredients, formed and dehydrated into s…",
+     "gerekce": "&&Section 10 of the Customs Tariff directs that classification of imported goods shall be determined in accordance with the General Rules for the Interpretation of the Harmonized System and the Canadian Rules set out in …",
+     "title_o": "&&The goods are a crunchy, crispy bite-sized snack sticks composed of strawberry, powdered fruits (apple, banana, date), cacao powder and agave fiber. The fruit ingredients are flash-frozen, slow-dried, blended into a dough with remaining ingredients, formed and dehydrated into s…",
+     "gerekce_o": "&&Section 10 of the Customs Tariff directs that classification of imported goods shall be determined in accordance with the General Rules for the Interpretation of the Harmonized System and the Canadian Rules set out in …",
+     "lang": "EN",
+     "url": "https://ccp-pcc.cbsa-asfc.cloud-nuage.canada.ca/en/national-rulings/national-rulings-details/8000016002"
+    },
     {
      "source": "uk",
      "source_label": "İngiltere (HMRC)",
@@ -4487,6 +4533,23 @@ window.BTI_DATA = {
      "gerekce_o": "XVII. Bölüm Notu 3 hükmü, Gümrük Tarife Cetveli 39. Fasıl 2(t) notu ile Gümrükler Genel Müdürlüğünün 20.08.2026 tarihli ve 125307854 sayılı yazıları, Tarifenin Yorumu ile İlgili Genel Kurallar 1 ve 6 gereğince sınıflandı…",
      "lang": "TR",
      "url": "tr/TR410000260020.html"
+    },
+    {
+     "source": "ca",
+     "source_label": "Kanada (CBSA)",
+     "color": "#D34040",
+     "flag": "🇨🇦",
+     "origin": "Kanada",
+     "hs": "1806.90.90.19",
+     "hs4": "1806",
+     "ref": "8000015928",
+     "date": "2026-10-06",
+     "title": "&&The goods are sachets of powdered drink mix composed of dried date, dried banana, dried strawberry, cacao powder, coffee powder, maca powder, apple fiber. The fruit ingredients are flash-frozen, slow-dried, and blended into a powder. The goods are packaged for retail sale in a …",
+     "gerekce": "&&Section 10 of the Customs Tariff directs that classification of imported goods shall be determined in accordance with the General Rules for the Interpretation of the Harmonized System and the Canadian Rules set out in …",
+     "title_o": "&&The goods are sachets of powdered drink mix composed of dried date, dried banana, dried strawberry, cacao powder, coffee powder, maca powder, apple fiber. The fruit ingredients are flash-frozen, slow-dried, and blended into a powder. The goods are packaged for retail sale in a …",
+     "gerekce_o": "&&Section 10 of the Customs Tariff directs that classification of imported goods shall be determined in accordance with the General Rules for the Interpretation of the Harmonized System and the Canadian Rules set out in …",
+     "lang": "EN",
+     "url": "https://ccp-pcc.cbsa-asfc.cloud-nuage.canada.ca/en/national-rulings/national-rulings-details/8000015928"
     },
     {
      "source": "uk",
@@ -5010,12 +5073,30 @@ window.BTI_DATA = {
    "date": "2026-10-01",
    "date_tr": "1 Ekim 2026",
    "date_en": "1 October 2026",
-   "count": 20,
+   "count": 21,
    "sources": [
+    "ca",
     "tr",
     "uk"
    ],
    "decisions": [
+    {
+     "source": "ca",
+     "source_label": "Kanada (CBSA)",
+     "color": "#D34040",
+     "flag": "🇨🇦",
+     "origin": "Kanada",
+     "hs": "8306.30.00.00",
+     "hs4": "8306",
+     "ref": "8000016004",
+     "date": "2026-10-01",
+     "title": "&&The good is a rectangular picture frame that displays artwork on a wall. It is made of aluminum and assembled from four lengths of extruded aluminum profile, mitred at the corners and joined by TIG (Tungsten Inert Gas) welding to form a rigid, permanently closed frame. Each fra…",
+     "gerekce": "&&Section 10 of the Customs Tariff directs that classification of imported goods shall be determined in accordance with the General Rules for the Interpretation of the Harmonized System and the Canadian Rules set out in …",
+     "title_o": "&&The good is a rectangular picture frame that displays artwork on a wall. It is made of aluminum and assembled from four lengths of extruded aluminum profile, mitred at the corners and joined by TIG (Tungsten Inert Gas) welding to form a rigid, permanently closed frame. Each fra…",
+     "gerekce_o": "&&Section 10 of the Customs Tariff directs that classification of imported goods shall be determined in accordance with the General Rules for the Interpretation of the Harmonized System and the Canadian Rules set out in …",
+     "lang": "EN",
+     "url": "https://ccp-pcc.cbsa-asfc.cloud-nuage.canada.ca/en/national-rulings/national-rulings-details/8000016004"
+    },
     {
      "source": "uk",
      "source_label": "İngiltere (HMRC)",
@@ -71681,8 +71762,9 @@ window.BTI_DATA = {
    "date": "2026-07-16",
    "date_tr": "16 Temmuz 2026",
    "date_en": "16 July 2026",
-   "count": 135,
+   "count": 136,
    "sources": [
+    "ca",
     "eu",
     "uk"
    ],
@@ -71704,6 +71786,23 @@ window.BTI_DATA = {
      "gerekce_o": "Γενικοί κανόνες 1 και 6 για την ερμηνεία της Συνδυασμένης Ονοματολογίας και το κείμενο των κωδικών ΣΟ 2106, 2106 90, 2106 90 92 και του κωδικού TARIC 2106 90 92 85.Συμπληρωματική σημείωση 5 του κεφαλαίου 21.Επεξηγηματικέ…",
      "lang": "EL",
      "url": "https://ec.europa.eu/taxation_customs/dds2/ebti/ebti_details.jsp?showHeader=false&Lang=en&reference=CYBTI017%2F2026"
+    },
+    {
+     "source": "ca",
+     "source_label": "Kanada (CBSA)",
+     "color": "#D34040",
+     "flag": "🇨🇦",
+     "origin": "Kanada",
+     "hs": "7326.90.10.00",
+     "hs4": "7326",
+     "ref": "8000015295",
+     "date": "2026-07-16",
+     "title": "&&The goods (couplings) reviewed are the following: AlphaRod® API Polished Rod Coupling (SRCPRAR), API Grade API Sucker Rod Coupling (SRCSRAPI), High Strength API Subcoupling (SRCSCHS), LaserShieldTM Sucker Rod Coupling (SRCSRLS), Spray Metal API Grade X-Torque Coupling (SRCXTAPI…",
+     "gerekce": "&&Section 10 of the Customs Tariff directs that classification of imported goods shall be determined in accordance with the General Rules for the Interpretation of the Harmonized System and the Canadian Rules set out in …",
+     "title_o": "&&The goods (couplings) reviewed are the following: AlphaRod® API Polished Rod Coupling (SRCPRAR), API Grade API Sucker Rod Coupling (SRCSRAPI), High Strength API Subcoupling (SRCSCHS), LaserShieldTM Sucker Rod Coupling (SRCSRLS), Spray Metal API Grade X-Torque Coupling (SRCXTAPI…",
+     "gerekce_o": "&&Section 10 of the Customs Tariff directs that classification of imported goods shall be determined in accordance with the General Rules for the Interpretation of the Harmonized System and the Canadian Rules set out in …",
+     "lang": "EN",
+     "url": "https://ccp-pcc.cbsa-asfc.cloud-nuage.canada.ca/en/national-rulings/national-rulings-details/8000015295"
     },
     {
      "source": "uk",
