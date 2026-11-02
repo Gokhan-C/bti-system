@@ -1,18 +1,18 @@
 window.BTI_DATA = {
- "generated_at": "2026-11-01 06:13",
- "today": "2026-11-01",
- "today_tr": "1 Kasım 2026",
- "today_en": "1 November 2026",
- "latest_date": "2026-10-29",
- "latest_is_today": false,
- "total_decisions": 6667,
- "total_days": 163,
+ "generated_at": "2026-11-02 20:17",
+ "today": "2026-11-02",
+ "today_tr": "2 Kasım 2026",
+ "today_en": "2 November 2026",
+ "latest_date": "2026-11-02",
+ "latest_is_today": true,
+ "total_decisions": 6668,
+ "total_days": 164,
  "source_counts": {
   "eu": 5138,
   "us": 445,
   "ca": 48,
   "uk": 640,
-  "tr": 396
+  "tr": 397
  },
  "chapters": [
   "02",
@@ -108,6 +108,34 @@ window.BTI_DATA = {
   "98"
  ],
  "days": [
+  {
+   "date": "2026-11-02",
+   "date_tr": "2 Kasım 2026",
+   "date_en": "2 November 2026",
+   "count": 1,
+   "sources": [
+    "tr"
+   ],
+   "decisions": [
+    {
+     "source": "tr",
+     "source_label": "Türkiye (BTB)",
+     "color": "#E30A17",
+     "flag": "🇹🇷",
+     "origin": "Türkiye",
+     "hs": "392690979029",
+     "hs4": "3926",
+     "ref": "TR160000260043",
+     "date": "2026-11-02",
+     "title": "Yakıt tankının araç üzerine montajı için yakıt tankı üzerine kaynak yapılan plastik komponent;YAKIT TANKININ AYRILMAZ BİR PARÇASIDIR.",
+     "gerekce": "Tarifenin Yorumu ile İlgili Genel Kurallar (1), (3-b) ve (6), Gümrük Genel Tebliği (Gümrük Tarife Cetveli İzahnamesi) (Seri No:4), Türk Gümrük Tarife Cetveli ve İzahnamesi 39. Fasıl Genel Açıklamalar ve 39.26 Tarife Pozi…",
+     "title_o": "Yakıt tankının araç üzerine montajı için yakıt tankı üzerine kaynak yapılan plastik komponent;YAKIT TANKININ AYRILMAZ BİR PARÇASIDIR.",
+     "gerekce_o": "Tarifenin Yorumu ile İlgili Genel Kurallar (1), (3-b) ve (6), Gümrük Genel Tebliği (Gümrük Tarife Cetveli İzahnamesi) (Seri No:4), Türk Gümrük Tarife Cetveli ve İzahnamesi 39. Fasıl Genel Açıklamalar ve 39.26 Tarife Pozi…",
+     "lang": "TR",
+     "url": "tr/TR160000260043.html"
+    }
+   ]
+  },
   {
    "date": "2026-10-29",
    "date_tr": "29 Ekim 2026",
