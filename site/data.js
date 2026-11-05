@@ -1,18 +1,18 @@
 window.BTI_DATA = {
- "generated_at": "2026-11-04 06:27",
- "today": "2026-11-04",
- "today_tr": "4 Kasım 2026",
- "today_en": "4 November 2026",
- "latest_date": "2026-11-02",
+ "generated_at": "2026-11-05 06:50",
+ "today": "2026-11-05",
+ "today_tr": "5 Kasım 2026",
+ "today_en": "5 November 2026",
+ "latest_date": "2026-11-04",
  "latest_is_today": false,
- "total_decisions": 6668,
- "total_days": 164,
+ "total_decisions": 6669,
+ "total_days": 165,
  "source_counts": {
   "eu": 5138,
   "us": 445,
   "ca": 48,
   "uk": 640,
-  "tr": 397
+  "tr": 398
  },
  "chapters": [
   "02",
@@ -108,6 +108,34 @@ window.BTI_DATA = {
   "98"
  ],
  "days": [
+  {
+   "date": "2026-11-04",
+   "date_tr": "4 Kasım 2026",
+   "date_en": "4 November 2026",
+   "count": 1,
+   "sources": [
+    "tr"
+   ],
+   "decisions": [
+    {
+     "source": "tr",
+     "source_label": "Türkiye (BTB)",
+     "color": "#E30A17",
+     "flag": "🇹🇷",
+     "origin": "Türkiye",
+     "hs": "870899971919",
+     "hs4": "8708",
+     "ref": "TR160000260044",
+     "date": "2026-11-04",
+     "title": "Şase Destek Titreşim Sönümleyici",
+     "gerekce": "Türk Gümrük Tarife Cetveli ve İzahnamesi XVII Bölüm Notları ve Genel Açıklamalar, 87. Fasıl Genel Açıklamalar ve 87.08 Tarife Pozisyonu notları, Tarifenin Yorumu ile ilgili Genel Kurallar (1) ve (6), 30.09.2026 tarihli 1…",
+     "title_o": "Şase Destek Titreşim Sönümleyici",
+     "gerekce_o": "Türk Gümrük Tarife Cetveli ve İzahnamesi XVII Bölüm Notları ve Genel Açıklamalar, 87. Fasıl Genel Açıklamalar ve 87.08 Tarife Pozisyonu notları, Tarifenin Yorumu ile ilgili Genel Kurallar (1) ve (6), 30.09.2026 tarihli 1…",
+     "lang": "TR",
+     "url": "tr/TR160000260044.html"
+    }
+   ]
+  },
   {
    "date": "2026-11-02",
    "date_tr": "2 Kasım 2026",
