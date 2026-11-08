@@ -1,14 +1,14 @@
 window.BTI_DATA = {
- "generated_at": "2026-11-07 06:11",
- "today": "2026-11-07",
- "today_tr": "7 Kasım 2026",
- "today_en": "7 November 2026",
- "latest_date": "2026-11-06",
- "latest_is_today": false,
- "total_decisions": 6750,
- "total_days": 169,
+ "generated_at": "2026-11-08 14:55",
+ "today": "2026-11-08",
+ "today_tr": "8 Kasım 2026",
+ "today_en": "8 November 2026",
+ "latest_date": "2026-11-08",
+ "latest_is_today": true,
+ "total_decisions": 6752,
+ "total_days": 171,
  "source_counts": {
-  "eu": 5138,
+  "eu": 5140,
   "us": 445,
   "ca": 48,
   "uk": 718,
@@ -108,6 +108,64 @@ window.BTI_DATA = {
   "98"
  ],
  "days": [
+  {
+   "date": "2026-11-08",
+   "date_tr": "8 Kasım 2026",
+   "date_en": "8 November 2026",
+   "count": 1,
+   "sources": [
+    "eu"
+   ],
+   "decisions": [
+    {
+     "source": "eu",
+     "source_label": "Avrupa Birliği (EBTI)",
+     "color": "#2E6BE6",
+     "flag": "🇸🇮",
+     "origin": "Slovenya",
+     "hs": "84649000",
+     "hs4": "8464",
+     "ref": "SIBTI2026/0097",
+     "date": "2026-11-08",
+     "date_issue": "2026-10-08",
+     "title": "Stroj za razrez keramike, ki je nanešena na traku iz polietilen tereftalata (PET).Stroj avtomatsko kontinuirano razvija trak iz koluta in ga s pomočjo transportne podlage dovaja v območje rezalne glave v obliki noža. Nož iz karbidne trdine reže trak na enakomerno velike kose, ki …",
+     "gerekce": "Splošni pravili 1 in 6 za razlago kombinirane nomenklature;opomba 5 k XVI. oddelku;pojasnjevalne opombe HS k tarifni številki 8464 (I) (G).",
+     "title_o": "",
+     "gerekce_o": "",
+     "lang": "",
+     "url": "https://ec.europa.eu/taxation_customs/dds2/ebti/ebti_details.jsp?showHeader=false&Lang=en&reference=SIBTI2026%2F0097"
+    }
+   ]
+  },
+  {
+   "date": "2026-11-07",
+   "date_tr": "7 Kasım 2026",
+   "date_en": "7 November 2026",
+   "count": 1,
+   "sources": [
+    "eu"
+   ],
+   "decisions": [
+    {
+     "source": "eu",
+     "source_label": "Avrupa Birliği (EBTI)",
+     "color": "#2E6BE6",
+     "flag": "🇨🇿",
+     "origin": "Çekya",
+     "hs": "39262000",
+     "hs4": "3926",
+     "ref": "CZBTI41/659324/2026-300000-ZI/01",
+     "date": "2026-11-07",
+     "date_issue": "2026-11-06",
+     "title": "Dle deklarovaných údajů se jedná o nesterilní, nepropustnou, ochrannou zástěru, která je vyrobena v kuse s otvorem pro hlavu a s páskem na uvázání kolem pasu na obou stranách.Určená pro jednorázové použití zdravotnickým personálem jako ochranný prostředek pro prevenci přenosu inf…",
+     "gerekce": "Všeobecná pravidla 1, 5b) a 6 pro výklad kombinované nomenklatury.Poznámka 1 ke kapitole 39.Vysvětlivky k HS k číslu 3926, bod 1).Znění kódu 3926, 3926 20 00 kombinované nomenklatury.",
+     "title_o": "",
+     "gerekce_o": "",
+     "lang": "",
+     "url": "https://ec.europa.eu/taxation_customs/dds2/ebti/ebti_details.jsp?showHeader=false&Lang=en&reference=CZBTI41%2F659324%2F2026-300000-ZI%2F01"
+    }
+   ]
+  },
   {
    "date": "2026-11-06",
    "date_tr": "6 Kasım 2026",
