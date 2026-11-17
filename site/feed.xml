@@ -6,13 +6,20 @@
 <atom:link href="https://gokhan-c.github.io/bti-system/feed.xml" rel="self" type="application/rss+xml"/>
 <description>AB, ABD, Kanada ve Türkiye bağlayıcı tarife kararlarının günlük özeti.</description>
 <language>tr</language>
-<lastBuildDate>Mon, 16 Nov 2026 11:05:45 -0000</lastBuildDate>
+<lastBuildDate>Tue, 17 Nov 2026 03:07:47 -0000</lastBuildDate>
 <item>
-<title>16 Kasım 2026 — 3 yeni tarife kararı (İNG 3)</title>
+<title>17 Kasım 2026 — 11 yeni tarife kararı (AB 11)</title>
+<link>https://gokhan-c.github.io/bti-system/#g=2026-11-17</link>
+<guid isPermaLink="false">https://gokhan-c.github.io/bti-system/#g=2026-11-17</guid>
+<pubDate>Mon, 16 Nov 2026 21:00:00 -0000</pubDate>
+<description>En çok karar çıkan fasıllar: 39 Plastikler ve mamulleri (10) · 87 Motorlu kara taşıtları (1)</description>
+</item>
+<item>
+<title>16 Kasım 2026 — 20 yeni tarife kararı (İNG 20)</title>
 <link>https://gokhan-c.github.io/bti-system/#g=2026-11-16</link>
 <guid isPermaLink="false">https://gokhan-c.github.io/bti-system/#g=2026-11-16</guid>
 <pubDate>Sun, 15 Nov 2026 21:00:00 -0000</pubDate>
-<description>En çok karar çıkan fasıllar: 85 Elektrikli makine ve cihazlar (3)</description>
+<description>En çok karar çıkan fasıllar: 73 Demir veya çelikten eşya (9) · 21 Yenilen çeşitli gıda müstahzarları (7) · 85 Elektrikli makine ve cihazlar (3) · 87 Motorlu kara taşıtları (1)</description>
 </item>
 <item>
 <title>14 Kasım 2026 — 8 yeni tarife kararı (AB 8)</title>
@@ -97,13 +104,6 @@
 <guid isPermaLink="false">https://gokhan-c.github.io/bti-system/#g=2026-11-03</guid>
 <pubDate>Mon, 02 Nov 2026 21:00:00 -0000</pubDate>
 <description>En çok karar çıkan fasıllar: 97 Sanat eserleri ve antikalar (7) · 85 Elektrikli makine ve cihazlar (5) · 19 Unlu mamuller (4) · 63 Diğer hazır eşya, kullanılmış giysiler (4) · 22 İçecekler ve alkollü içkiler (3)</description>
-</item>
-<item>
-<title>2 Kasım 2026 — 22 yeni tarife kararı (İNG 21 · TR 1)</title>
-<link>https://gokhan-c.github.io/bti-system/#g=2026-11-02</link>
-<guid isPermaLink="false">https://gokhan-c.github.io/bti-system/#g=2026-11-02</guid>
-<pubDate>Sun, 01 Nov 2026 21:00:00 -0000</pubDate>
-<description>En çok karar çıkan fasıllar: 39 Plastikler ve mamulleri (11) · 42 Deri eşya ve saraciye (6) · 97 Sanat eserleri ve antikalar (2) · 22 İçecekler ve alkollü içkiler (1) · 85 Elektrikli makine ve cihazlar (1)</description>
 </item>
 </channel>
 </rss>
