@@ -6,7 +6,14 @@
 <atom:link href="https://gokhan-c.github.io/bti-system/feed-fasil-84.xml" rel="self" type="application/rss+xml"/>
 <description>Fasıl 84 (Makineler ve mekanik cihazlar) altındaki yeni tarife kararları.</description>
 <language>tr</language>
-<lastBuildDate>Tue, 17 Nov 2026 03:07:47 -0000</lastBuildDate>
+<lastBuildDate>Wed, 18 Nov 2026 12:30:02 -0000</lastBuildDate>
+<item>
+<title>84748010 — Stroj za enakomerno nanašanje keramične suspenzije na nosilno polietilen tereftalatsko folijo.V str</title>
+<link>https://ec.europa.eu/taxation_customs/dds2/ebti/ebti_details.jsp?showHeader=false&amp;Lang=en&amp;reference=SIBTI2026%2F0104</link>
+<guid isPermaLink="false">SIBTI2026/0104|84</guid>
+<pubDate>Tue, 17 Nov 2026 21:00:00 -0000</pubDate>
+<description>[AB] Avrupa Birliği (EBTI) · 18 Kasım 2026 — Splošni pravili 1 in 6 za razlago kombinirane nomenklature;opombi 3 in 5 k XVI. oddelkupojasnjevalne opombe HS k tarifni številki 8464(I) (G);pojasnjevalne opombe HS k tarifni številki 8474(II) (B).</description>
+</item>
 <item>
 <title>84649000 — Stroj za razrez keramike, ki je nanešena na traku iz polietilen tereftalata (PET).Stroj avtomatsko </title>
 <link>https://ec.europa.eu/taxation_customs/dds2/ebti/ebti_details.jsp?showHeader=false&amp;Lang=en&amp;reference=SIBTI2026%2F0097</link>
@@ -419,13 +426,6 @@
 <guid isPermaLink="false">CZBTI45/595966/2026-300000-ZI/01|84</guid>
 <pubDate>Mon, 14 Sep 2026 21:00:00 -0000</pubDate>
 <description>[AB] Avrupa Birliği (EBTI) · 15 Eylül 2026 — Všeobecná pravidla 1, 5 b) a 6 pro výklad kombinované nomenklatury.Poznámka 1 ke kapitole 39.Stanoviska WCO k sazebnímu zařazení zboží čísel 8424 89/2 a 8424 89/3.Vysvětlivky k HS k číslu 8424, část D).Znění kódů 8424, 8…</description>
-</item>
-<item>
-<title>84813099 — Brezigelni intravenski konektor z vgrajenim ventilom, iz plastične mase, dolžine cca 30 mm, ki se a</title>
-<link>https://ec.europa.eu/taxation_customs/dds2/ebti/ebti_details.jsp?showHeader=false&amp;Lang=en&amp;reference=SIBTI2026%2F0018</link>
-<guid isPermaLink="false">SIBTI2026/0018|84</guid>
-<pubDate>Mon, 14 Sep 2026 21:00:00 -0000</pubDate>
-<description>[AB] Avrupa Birliği (EBTI) · 15 Eylül 2026 — Splošni pravili 1 in 6 za razlago kombinirane nomenklature;opomba 3 k XVI. oddelku;opomba 1(g) k poglavju 90;Uredba Komisije (EU) 761/2011;pojasnjevalne opombe HS k tarifni številki 8481.</description>
 </item>
 </channel>
 </rss>
