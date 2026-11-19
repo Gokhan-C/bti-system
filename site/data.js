@@ -1,17 +1,17 @@
 window.BTI_DATA = {
- "generated_at": "2026-11-18 15:30",
- "today": "2026-11-18",
- "today_tr": "18 Kasım 2026",
- "today_en": "18 November 2026",
+ "generated_at": "2026-11-19 06:06",
+ "today": "2026-11-19",
+ "today_tr": "19 Kasım 2026",
+ "today_en": "19 November 2026",
  "latest_date": "2026-11-18",
- "latest_is_today": true,
- "total_decisions": 6893,
+ "latest_is_today": false,
+ "total_decisions": 6895,
  "total_days": 180,
  "source_counts": {
   "eu": 5163,
   "us": 445,
   "ca": 48,
-  "uk": 831,
+  "uk": 833,
   "tr": 406
  },
  "chapters": [
@@ -112,7 +112,7 @@ window.BTI_DATA = {
    "date": "2026-11-18",
    "date_tr": "18 Kasım 2026",
    "date_en": "18 November 2026",
-   "count": 15,
+   "count": 17,
    "sources": [
     "eu",
     "uk"
@@ -375,6 +375,40 @@ window.BTI_DATA = {
      "gerekce_o": "Classification has been determined in accordance with the following: - For the purposes of determining the commodity codes within which goods most appropriately fall, reg 3 (1) of The Customs Tariff (Establishment) (EU E…",
      "lang": "EN",
      "url": "https://www.tax.service.gov.uk/search-for-advance-tariff-rulings/ruling/600016214"
+    },
+    {
+     "source": "uk",
+     "source_label": "İngiltere (HMRC)",
+     "color": "#012169",
+     "flag": "🇬🇧",
+     "origin": "İngiltere",
+     "hs": "9705100045",
+     "hs4": "9705",
+     "ref": "600017447",
+     "date": "2026-11-18",
+     "title": "A purpose-built drag racing competition vehicle manufactured in April 2009, with lightweight bodywork styled to resemble a 1957 Chevrolet Corvette. The vehicle is constructed on a bespoke tubular competition chassis and is fitted with an integral roll cage, purpose-built racing s…",
+     "gerekce": "Classification has been determined in accordance with the following:- For the purposes of determining the commodity codes within which goods most appropriately fall, Reg 3 (1) of The Customs Tariff (Establishment) (EU Ex…",
+     "title_o": "A purpose-built drag racing competition vehicle manufactured in April 2009, with lightweight bodywork styled to resemble a 1957 Chevrolet Corvette. The vehicle is constructed on a bespoke tubular competition chassis and is fitted with an integral roll cage, purpose-built racing s…",
+     "gerekce_o": "Classification has been determined in accordance with the following:- For the purposes of determining the commodity codes within which goods most appropriately fall, Reg 3 (1) of The Customs Tariff (Establishment) (EU Ex…",
+     "lang": "EN",
+     "url": "https://www.tax.service.gov.uk/search-for-advance-tariff-rulings/ruling/600017447"
+    },
+    {
+     "source": "uk",
+     "source_label": "İngiltere (HMRC)",
+     "color": "#012169",
+     "flag": "🇬🇧",
+     "origin": "İngiltere",
+     "hs": "8716800000",
+     "hs4": "8716",
+     "ref": "600016726",
+     "date": "2026-11-18",
+     "title": "A housekeeping trolley, used in offices, with double cabinet, plastic frame, with plastic lateral sides- colour light blue, and is bought to be sold to retail and janitorial markets. It includes 2 internal drawers and buckets of 6 litres and one of the cabinets has a plastic lid …",
+     "gerekce": "Classification has been determined in accordance with the following: - For the purposes of determining the commodity codes within which goods most appropriately fall, reg 3 (1) of The Customs Tariff (Establishment) (EU E…",
+     "title_o": "A housekeeping trolley, used in offices, with double cabinet, plastic frame, with plastic lateral sides- colour light blue, and is bought to be sold to retail and janitorial markets. It includes 2 internal drawers and buckets of 6 litres and one of the cabinets has a plastic lid …",
+     "gerekce_o": "Classification has been determined in accordance with the following: - For the purposes of determining the commodity codes within which goods most appropriately fall, reg 3 (1) of The Customs Tariff (Establishment) (EU E…",
+     "lang": "EN",
+     "url": "https://www.tax.service.gov.uk/search-for-advance-tariff-rulings/ruling/600016726"
     }
    ]
   },
