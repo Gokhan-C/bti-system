@@ -1,17 +1,17 @@
 window.BTI_DATA = {
- "generated_at": "2026-11-20 06:38",
- "today": "2026-11-20",
- "today_tr": "20 Kasım 2026",
- "today_en": "20 November 2026",
- "latest_date": "2026-11-19",
+ "generated_at": "2026-11-21 06:07",
+ "today": "2026-11-21",
+ "today_tr": "21 Kasım 2026",
+ "today_en": "21 November 2026",
+ "latest_date": "2026-11-20",
  "latest_is_today": false,
- "total_decisions": 6902,
- "total_days": 181,
+ "total_decisions": 6903,
+ "total_days": 182,
  "source_counts": {
   "eu": 5163,
   "us": 445,
   "ca": 48,
-  "uk": 839,
+  "uk": 840,
   "tr": 407
  },
  "chapters": [
@@ -108,6 +108,34 @@ window.BTI_DATA = {
   "98"
  ],
  "days": [
+  {
+   "date": "2026-11-20",
+   "date_tr": "20 Kasım 2026",
+   "date_en": "20 November 2026",
+   "count": 1,
+   "sources": [
+    "uk"
+   ],
+   "decisions": [
+    {
+     "source": "uk",
+     "source_label": "İngiltere (HMRC)",
+     "color": "#012169",
+     "flag": "🇬🇧",
+     "origin": "İngiltere",
+     "hs": "8517620000",
+     "hs4": "8517",
+     "ref": "600016486",
+     "date": "2026-11-20",
+     "title": "A Bluetooth wireless programming interface for compatible cochlear sound processors. It is used for wireless transmission of programming data between the sound processor and a computer/tablet during fitting and configuration of a sound processor. It has a range of up to 3 metres.…",
+     "gerekce": "Classification has been determined in accordance with the following: - For the purposes of determining the commodity codes within which goods most appropriately fall, reg 3 (1) of The Customs Tariff (Establishment) (EU E…",
+     "title_o": "A Bluetooth wireless programming interface for compatible cochlear sound processors. It is used for wireless transmission of programming data between the sound processor and a computer/tablet during fitting and configuration of a sound processor. It has a range of up to 3 metres.…",
+     "gerekce_o": "Classification has been determined in accordance with the following: - For the purposes of determining the commodity codes within which goods most appropriately fall, reg 3 (1) of The Customs Tariff (Establishment) (EU E…",
+     "lang": "EN",
+     "url": "https://www.tax.service.gov.uk/search-for-advance-tariff-rulings/ruling/600016486"
+    }
+   ]
+  },
   {
    "date": "2026-11-19",
    "date_tr": "19 Kasım 2026",
