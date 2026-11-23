@@ -1,14 +1,14 @@
 window.BTI_DATA = {
- "generated_at": "2026-11-22 06:10",
- "today": "2026-11-22",
- "today_tr": "22 Kasım 2026",
- "today_en": "22 November 2026",
- "latest_date": "2026-11-20",
- "latest_is_today": false,
- "total_decisions": 6903,
- "total_days": 182,
+ "generated_at": "2026-11-23 06:09",
+ "today": "2026-11-23",
+ "today_tr": "23 Kasım 2026",
+ "today_en": "23 November 2026",
+ "latest_date": "2026-11-23",
+ "latest_is_today": true,
+ "total_decisions": 6904,
+ "total_days": 183,
  "source_counts": {
-  "eu": 5163,
+  "eu": 5164,
   "us": 445,
   "ca": 48,
   "uk": 840,
@@ -108,6 +108,35 @@ window.BTI_DATA = {
   "98"
  ],
  "days": [
+  {
+   "date": "2026-11-23",
+   "date_tr": "23 Kasım 2026",
+   "date_en": "23 November 2026",
+   "count": 1,
+   "sources": [
+    "eu"
+   ],
+   "decisions": [
+    {
+     "source": "eu",
+     "source_label": "Avrupa Birliği (EBTI)",
+     "color": "#2E6BE6",
+     "flag": "🇸🇮",
+     "origin": "Slovenya",
+     "hs": "84649000",
+     "hs4": "8464",
+     "ref": "SIBTI2026/0099",
+     "date": "2026-11-23",
+     "date_issue": "2026-11-19",
+     "title": "Stroj za izdelovanje lukenj in vdolbin na keramičnih ploščah in trakovih.Luknje in vdolbine različnih premerov stroj izdeluje s pomočjo udarcev kovinskega delovnega orodja, ki ima obliko tope igle. Hitrost izdelave je odvisna od vhodnih nastavitvenih parametrov in samega števila …",
+     "gerekce": "Splošni pravili 1 in 6 za razlago kombinirane nomenklature;opomba 5 k XVI. oddelku;pojasnjevalne opombe HS k 84. poglavju, SPLOŠNO (B) (3);pojasnjevalne opombe HS k tarifni številki 8464 (I) (G).",
+     "title_o": "",
+     "gerekce_o": "",
+     "lang": "",
+     "url": "https://ec.europa.eu/taxation_customs/dds2/ebti/ebti_details.jsp?showHeader=false&Lang=en&reference=SIBTI2026%2F0099"
+    }
+   ]
+  },
   {
    "date": "2026-11-20",
    "date_tr": "20 Kasım 2026",
