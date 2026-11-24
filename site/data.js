@@ -1,16 +1,16 @@
 window.BTI_DATA = {
- "generated_at": "2026-11-23 06:09",
- "today": "2026-11-23",
- "today_tr": "23 Kasım 2026",
- "today_en": "23 November 2026",
+ "generated_at": "2026-11-24 06:09",
+ "today": "2026-11-24",
+ "today_tr": "24 Kasım 2026",
+ "today_en": "24 November 2026",
  "latest_date": "2026-11-23",
- "latest_is_today": true,
- "total_decisions": 6904,
+ "latest_is_today": false,
+ "total_decisions": 6911,
  "total_days": 183,
  "source_counts": {
   "eu": 5164,
   "us": 445,
-  "ca": 48,
+  "ca": 55,
   "uk": 840,
   "tr": 407
  },
@@ -4606,12 +4606,30 @@ window.BTI_DATA = {
    "date": "2026-10-27",
    "date_tr": "27 Ekim 2026",
    "date_en": "27 October 2026",
-   "count": 14,
+   "count": 17,
    "sources": [
+    "ca",
     "tr",
     "uk"
    ],
    "decisions": [
+    {
+     "source": "ca",
+     "source_label": "Kanada (CBSA)",
+     "color": "#D34040",
+     "flag": "🇨🇦",
+     "origin": "Kanada",
+     "hs": "2106.90.99.99",
+     "hs4": "2106",
+     "ref": "8000016337",
+     "date": "2026-10-27",
+     "title": "&&The good is a sachet pouch that contains 18 grams of a powdered mix. The producer offers different flavours but the good in issue is the \"Purples\" flavour variant. It is composed of dried banana powder, dried strawberry powder, dried blackberry powder, dried blueberry powder, d…",
+     "gerekce": "&&Section 10 of the Customs Tariff directs that classification of imported goods shall be determined in accordance with the General Rules for the Interpretation of the Harmonized System and the Canadian Rules set out in …",
+     "title_o": "&&The good is a sachet pouch that contains 18 grams of a powdered mix. The producer offers different flavours but the good in issue is the \"Purples\" flavour variant. It is composed of dried banana powder, dried strawberry powder, dried blackberry powder, dried blueberry powder, d…",
+     "gerekce_o": "&&Section 10 of the Customs Tariff directs that classification of imported goods shall be determined in accordance with the General Rules for the Interpretation of the Harmonized System and the Canadian Rules set out in …",
+     "lang": "EN",
+     "url": "https://ccp-pcc.cbsa-asfc.cloud-nuage.canada.ca/en/national-rulings/national-rulings-details/8000016337"
+    },
     {
      "source": "uk",
      "source_label": "İngiltere (HMRC)",
@@ -4647,6 +4665,23 @@ window.BTI_DATA = {
      "url": "tr/TR350000260068.html"
     },
     {
+     "source": "ca",
+     "source_label": "Kanada (CBSA)",
+     "color": "#D34040",
+     "flag": "🇨🇦",
+     "origin": "Kanada",
+     "hs": "8507.20.90.20",
+     "hs4": "8507",
+     "ref": "8000016336",
+     "date": "2026-10-27",
+     "title": "&&The goods are Valve Regulated Lead-Acid (VRLA) batteries designed to be used in uninterruptible power supply (UPS) systems. They are sealed rechargeable 12V batteries that measure approximately 22 by 5 by 13 inches. They are made by casting lead-calcium grids, pasting them with…",
+     "gerekce": "&&Section 10 of the Customs Tariff directs that classification of imported goods shall be determined in accordance with the General Rules for the Interpretation of the Harmonized System and the Canadian Rules set out in …",
+     "title_o": "&&The goods are Valve Regulated Lead-Acid (VRLA) batteries designed to be used in uninterruptible power supply (UPS) systems. They are sealed rechargeable 12V batteries that measure approximately 22 by 5 by 13 inches. They are made by casting lead-calcium grids, pasting them with…",
+     "gerekce_o": "&&Section 10 of the Customs Tariff directs that classification of imported goods shall be determined in accordance with the General Rules for the Interpretation of the Harmonized System and the Canadian Rules set out in …",
+     "lang": "EN",
+     "url": "https://ccp-pcc.cbsa-asfc.cloud-nuage.canada.ca/en/national-rulings/national-rulings-details/8000016336"
+    },
+    {
      "source": "uk",
      "source_label": "İngiltere (HMRC)",
      "color": "#012169",
@@ -4679,6 +4714,23 @@ window.BTI_DATA = {
      "gerekce_o": "Genel Yorum Kuralları (1) ve (6) ile TGTC İzahnamesinin 8512 tarife pozisyonuna ilişkin açıklama notları",
      "lang": "TR",
      "url": "tr/TR410000260023.html"
+    },
+    {
+     "source": "ca",
+     "source_label": "Kanada (CBSA)",
+     "color": "#D34040",
+     "flag": "🇨🇦",
+     "origin": "Kanada",
+     "hs": "9406.90.90.90",
+     "hs4": "9406",
+     "ref": "8000015955",
+     "date": "2026-10-27",
+     "title": "&&The MineARC MineSAFE Narrow Design 20 Person Narrow Design Model MS-NDE4-20ELV-36 is a 20 person underground mine refuge chamber. The chamber is a self-contained welded steel enclosure with integrated life support machinery and provides a sealed, pressurized, temperature contro…",
+     "gerekce": "&&Section 10 of the Customs Tariff directs that classification of imported goods shall be determined in accordance with the General Rules for the Interpretation of the Harmonized System and the Canadian Rules set out in …",
+     "title_o": "&&The MineARC MineSAFE Narrow Design 20 Person Narrow Design Model MS-NDE4-20ELV-36 is a 20 person underground mine refuge chamber. The chamber is a self-contained welded steel enclosure with integrated life support machinery and provides a sealed, pressurized, temperature contro…",
+     "gerekce_o": "&&Section 10 of the Customs Tariff directs that classification of imported goods shall be determined in accordance with the General Rules for the Interpretation of the Harmonized System and the Canadian Rules set out in …",
+     "lang": "EN",
+     "url": "https://ccp-pcc.cbsa-asfc.cloud-nuage.canada.ca/en/national-rulings/national-rulings-details/8000015955"
     },
     {
      "source": "uk",
@@ -5259,12 +5311,30 @@ window.BTI_DATA = {
    "date": "2026-10-23",
    "date_tr": "23 Ekim 2026",
    "date_en": "23 October 2026",
-   "count": 29,
+   "count": 30,
    "sources": [
+    "ca",
     "tr",
     "uk"
    ],
    "decisions": [
+    {
+     "source": "ca",
+     "source_label": "Kanada (CBSA)",
+     "color": "#D34040",
+     "flag": "🇨🇦",
+     "origin": "Kanada",
+     "hs": "3924.10.00.99",
+     "hs4": "3924",
+     "ref": "8000016278",
+     "date": "2026-10-23",
+     "title": "&&The goods are a plastic bottle with a sachet of fruit smoothie mis packaged together in a box, described as a \"shaker bottle and free superfood smoothie\".&&&&The bottle is made of \"Tritan plastic : a transparent copolymer described as \"Poly Cyclohexylenedimethylene Terephthalat…",
+     "gerekce": "&&Section 10 of the Customs Tariff directs that classification of imported goods shall be determined in accordance with the General Rules for the Interpretation of the Harmonized System and the Canadian Rules set out in …",
+     "title_o": "&&The goods are a plastic bottle with a sachet of fruit smoothie mis packaged together in a box, described as a \"shaker bottle and free superfood smoothie\".&&&&The bottle is made of \"Tritan plastic : a transparent copolymer described as \"Poly Cyclohexylenedimethylene Terephthalat…",
+     "gerekce_o": "&&Section 10 of the Customs Tariff directs that classification of imported goods shall be determined in accordance with the General Rules for the Interpretation of the Harmonized System and the Canadian Rules set out in …",
+     "lang": "EN",
+     "url": "https://ccp-pcc.cbsa-asfc.cloud-nuage.canada.ca/en/national-rulings/national-rulings-details/8000016278"
+    },
     {
      "source": "uk",
      "source_label": "İngiltere (HMRC)",
@@ -6251,12 +6321,30 @@ window.BTI_DATA = {
    "date": "2026-10-21",
    "date_tr": "21 Ekim 2026",
    "date_en": "21 October 2026",
-   "count": 14,
+   "count": 15,
    "sources": [
+    "ca",
     "tr",
     "uk"
    ],
    "decisions": [
+    {
+     "source": "ca",
+     "source_label": "Kanada (CBSA)",
+     "color": "#D34040",
+     "flag": "🇨🇦",
+     "origin": "Kanada",
+     "hs": "1106.30.00.00",
+     "hs4": "1106",
+     "ref": "8000015637",
+     "date": "2026-10-21",
+     "title": "&&The product is obtained exclusively from dried dates. The dates are pitted, ground into a fine powder, sieved and packaged. The product is intended for human consumption as a natural sweetener and food ingredient for baking, beverages and food preparation.",
+     "gerekce": "&&Section 10 of the Customs Tariff directs that classification of imported goods shall be determined in accordance with the General Rules for the Interpretation of the Harmonized System and the Canadian Rules set out in …",
+     "title_o": "&&The product is obtained exclusively from dried dates. The dates are pitted, ground into a fine powder, sieved and packaged. The product is intended for human consumption as a natural sweetener and food ingredient for baking, beverages and food preparation.",
+     "gerekce_o": "&&Section 10 of the Customs Tariff directs that classification of imported goods shall be determined in accordance with the General Rules for the Interpretation of the Harmonized System and the Canadian Rules set out in …",
+     "lang": "EN",
+     "url": "https://ccp-pcc.cbsa-asfc.cloud-nuage.canada.ca/en/national-rulings/national-rulings-details/8000015637"
+    },
     {
      "source": "uk",
      "source_label": "İngiltere (HMRC)",
@@ -6858,8 +6946,9 @@ window.BTI_DATA = {
    "date": "2026-10-15",
    "date_tr": "15 Ekim 2026",
    "date_en": "15 October 2026",
-   "count": 18,
+   "count": 19,
    "sources": [
+    "ca",
     "eu",
     "uk"
    ],
@@ -6881,6 +6970,23 @@ window.BTI_DATA = {
      "gerekce_o": "",
      "lang": "",
      "url": "https://ec.europa.eu/taxation_customs/dds2/ebti/ebti_details.jsp?showHeader=false&Lang=en&reference=LVBTILV009999-2026-BTI115"
+    },
+    {
+     "source": "ca",
+     "source_label": "Kanada (CBSA)",
+     "color": "#D34040",
+     "flag": "🇨🇦",
+     "origin": "Kanada",
+     "hs": "3214.10.90.90",
+     "hs4": "3214",
+     "ref": "8000015949",
+     "date": "2026-10-15",
+     "title": "&&The product under review is the Mohawk FIL-STIK® Putty Sticks. These products are semi-hard wax-based filler sticks used to repair and conceal scratches, nicks, gouges, nail holes, and open corner joints on wood, laminate, vinyl, and plastic surfaces. Ingredient Breakdown: Micr…",
+     "gerekce": "&&Section 10 of the Customs Tariff directs that classification of imported goods shall be determined in accordance with the General Rules for the Interpretation of the Harmonized System and the Canadian Rules set out in …",
+     "title_o": "&&The product under review is the Mohawk FIL-STIK® Putty Sticks. These products are semi-hard wax-based filler sticks used to repair and conceal scratches, nicks, gouges, nail holes, and open corner joints on wood, laminate, vinyl, and plastic surfaces. Ingredient Breakdown: Micr…",
+     "gerekce_o": "&&Section 10 of the Customs Tariff directs that classification of imported goods shall be determined in accordance with the General Rules for the Interpretation of the Harmonized System and the Canadian Rules set out in …",
+     "lang": "EN",
+     "url": "https://ccp-pcc.cbsa-asfc.cloud-nuage.canada.ca/en/national-rulings/national-rulings-details/8000015949"
     },
     {
      "source": "uk",
@@ -7186,11 +7292,29 @@ window.BTI_DATA = {
    "date": "2026-10-14",
    "date_tr": "14 Ekim 2026",
    "date_en": "14 October 2026",
-   "count": 13,
+   "count": 14,
    "sources": [
+    "ca",
     "uk"
    ],
    "decisions": [
+    {
+     "source": "ca",
+     "source_label": "Kanada (CBSA)",
+     "color": "#D34040",
+     "flag": "🇨🇦",
+     "origin": "Kanada",
+     "hs": "3808.94.10.90",
+     "hs4": "3808",
+     "ref": "8000016023",
+     "date": "2026-10-14",
+     "title": "&&The goods are disinfectant wipes put up for retail sale in packs of 50, in sealed and resealable pouches. The wipes are made of a meltblown polypropylene resin that form a self-bonded nonwoven fabric. The fabric is cut into rectangles of 28 cm x 23 cm and then soaked to saturat…",
+     "gerekce": "&&Section 10 of the Customs Tariff directs that classification of imported goods shall be determined in accordance with the General Rules for the Interpretation of the Harmonized System and the Canadian Rules set out in …",
+     "title_o": "&&The goods are disinfectant wipes put up for retail sale in packs of 50, in sealed and resealable pouches. The wipes are made of a meltblown polypropylene resin that form a self-bonded nonwoven fabric. The fabric is cut into rectangles of 28 cm x 23 cm and then soaked to saturat…",
+     "gerekce_o": "&&Section 10 of the Customs Tariff directs that classification of imported goods shall be determined in accordance with the General Rules for the Interpretation of the Harmonized System and the Canadian Rules set out in …",
+     "lang": "EN",
+     "url": "https://ccp-pcc.cbsa-asfc.cloud-nuage.canada.ca/en/national-rulings/national-rulings-details/8000016023"
+    },
     {
      "source": "uk",
      "source_label": "İngiltere (HMRC)",
