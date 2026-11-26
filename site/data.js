@@ -1,18 +1,18 @@
 window.BTI_DATA = {
- "generated_at": "2026-11-25 09:47",
- "today": "2026-11-25",
- "today_tr": "25 Kasım 2026",
- "today_en": "25 November 2026",
- "latest_date": "2026-11-23",
+ "generated_at": "2026-11-26 09:27",
+ "today": "2026-11-26",
+ "today_tr": "26 Kasım 2026",
+ "today_en": "26 November 2026",
+ "latest_date": "2026-11-25",
  "latest_is_today": false,
- "total_decisions": 6911,
- "total_days": 183,
+ "total_decisions": 6913,
+ "total_days": 184,
  "source_counts": {
   "eu": 5164,
   "us": 445,
   "ca": 55,
   "uk": 840,
-  "tr": 407
+  "tr": 409
  },
  "chapters": [
   "02",
@@ -108,6 +108,51 @@ window.BTI_DATA = {
   "98"
  ],
  "days": [
+  {
+   "date": "2026-11-25",
+   "date_tr": "25 Kasım 2026",
+   "date_en": "25 November 2026",
+   "count": 2,
+   "sources": [
+    "tr"
+   ],
+   "decisions": [
+    {
+     "source": "tr",
+     "source_label": "Türkiye (BTB)",
+     "color": "#E30A17",
+     "flag": "🇹🇷",
+     "origin": "Türkiye",
+     "hs": "960390919019",
+     "hs4": "9603",
+     "ref": "TR060000260021",
+     "date": "2026-11-25",
+     "title": "JOYBOS M04 TUVALET FIRÇASI KULLAN AT HAZNELİ; LAVABO İÇİ HİJYEN VE BANYO TEMİZLİĞİ SAĞLAMAK AMACIYLA TASARLANMIŞ, UCUNA DETERJAN EMDİRİLMİŞ DEĞİŞTİRİLEBİLİR SÜNGER BAŞLIKLAR TAKILARAK KULLANILAN, ALT GÖVDESİNE İSE BU FIRÇANIN STANDINI VE KULLANILAN BAŞLIKLARIN TAKILABİLECEĞİ ENTE…",
+     "gerekce": "TARİFE GENEL YORUM KURALLARI (1), (3B) VE (6). MADDELERİ, GÜMRÜK TARİFE CETVELİ İZAHNAMESİ 9603 TARİFE POZİSYONU AÇIKLAMA NOTLARI",
+     "title_o": "JOYBOS M04 TUVALET FIRÇASI KULLAN AT HAZNELİ; LAVABO İÇİ HİJYEN VE BANYO TEMİZLİĞİ SAĞLAMAK AMACIYLA TASARLANMIŞ, UCUNA DETERJAN EMDİRİLMİŞ DEĞİŞTİRİLEBİLİR SÜNGER BAŞLIKLAR TAKILARAK KULLANILAN, ALT GÖVDESİNE İSE BU FIRÇANIN STANDINI VE KULLANILAN BAŞLIKLARIN TAKILABİLECEĞİ ENTE…",
+     "gerekce_o": "TARİFE GENEL YORUM KURALLARI (1), (3B) VE (6). MADDELERİ, GÜMRÜK TARİFE CETVELİ İZAHNAMESİ 9603 TARİFE POZİSYONU AÇIKLAMA NOTLARI",
+     "lang": "TR",
+     "url": "tr/TR060000260021.html"
+    },
+    {
+     "source": "tr",
+     "source_label": "Türkiye (BTB)",
+     "color": "#E30A17",
+     "flag": "🇹🇷",
+     "origin": "Türkiye",
+     "hs": "960390919019",
+     "hs4": "9603",
+     "ref": "TR060000260020",
+     "date": "2026-11-25",
+     "title": "JOYBOS JBS-BGMTS-N02-7P HİJYENİK TUVALET FIRÇASI SİSTEMİ; TEK KULLANIMLIK DETERJANLI SÜNGER BAŞLIK, SÜNGER BAŞLIĞI TUTMAK İÇİN KULLANILAN İKİ PARÇADAN OLUŞAN SAP, KAPAKLI SAKLAMA HAZNESİ VE KENDİNDEN YAPIŞKANLI DUVARA MONTAJI SAĞLAYAN EKİPMANI İLE BİRLİKTE OLUŞAN SET EŞYA",
+     "gerekce": "TARİFE GENEL YORUM KURALLARI (1), (3B), VE (6). MADDELERİ, GÜMRÜK TARİFE CETVELİ İZAHNAMESİ 9603 TARİFE POZİSYONU AÇIKLAMA NOTLARI",
+     "title_o": "JOYBOS JBS-BGMTS-N02-7P HİJYENİK TUVALET FIRÇASI SİSTEMİ; TEK KULLANIMLIK DETERJANLI SÜNGER BAŞLIK, SÜNGER BAŞLIĞI TUTMAK İÇİN KULLANILAN İKİ PARÇADAN OLUŞAN SAP, KAPAKLI SAKLAMA HAZNESİ VE KENDİNDEN YAPIŞKANLI DUVARA MONTAJI SAĞLAYAN EKİPMANI İLE BİRLİKTE OLUŞAN SET EŞYA",
+     "gerekce_o": "TARİFE GENEL YORUM KURALLARI (1), (3B), VE (6). MADDELERİ, GÜMRÜK TARİFE CETVELİ İZAHNAMESİ 9603 TARİFE POZİSYONU AÇIKLAMA NOTLARI",
+     "lang": "TR",
+     "url": "tr/TR060000260020.html"
+    }
+   ]
+  },
   {
    "date": "2026-11-23",
    "date_tr": "23 Kasım 2026",
