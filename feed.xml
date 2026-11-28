@@ -6,7 +6,14 @@
 <atom:link href="https://gokhan-c.github.io/bti-system/feed.xml" rel="self" type="application/rss+xml"/>
 <description>AB, ABD, Kanada ve Türkiye bağlayıcı tarife kararlarının günlük özeti.</description>
 <language>tr</language>
-<lastBuildDate>Thu, 26 Nov 2026 06:27:01 -0000</lastBuildDate>
+<lastBuildDate>Sat, 28 Nov 2026 15:35:30 -0000</lastBuildDate>
+<item>
+<title>28 Kasım 2026 — 1 yeni tarife kararı (AB 1)</title>
+<link>https://gokhan-c.github.io/bti-system/#g=2026-11-28</link>
+<guid isPermaLink="false">https://gokhan-c.github.io/bti-system/#g=2026-11-28</guid>
+<pubDate>Fri, 27 Nov 2026 21:00:00 -0000</pubDate>
+<description>En çok karar çıkan fasıllar: 03 Balıklar ve su ürünleri (1)</description>
+</item>
 <item>
 <title>25 Kasım 2026 — 2 yeni tarife kararı (TR 2)</title>
 <link>https://gokhan-c.github.io/bti-system/#g=2026-11-25</link>
@@ -97,13 +104,6 @@
 <guid isPermaLink="false">https://gokhan-c.github.io/bti-system/#g=2026-11-09</guid>
 <pubDate>Sun, 08 Nov 2026 21:00:00 -0000</pubDate>
 <description>En çok karar çıkan fasıllar: 39 Plastikler ve mamulleri (6) · 22 İçecekler ve alkollü içkiler (2) · 97 Sanat eserleri ve antikalar (2) · 19 Unlu mamuller (1) · 65 Başlıklar (1)</description>
-</item>
-<item>
-<title>8 Kasım 2026 — 1 yeni tarife kararı (AB 1)</title>
-<link>https://gokhan-c.github.io/bti-system/#g=2026-11-08</link>
-<guid isPermaLink="false">https://gokhan-c.github.io/bti-system/#g=2026-11-08</guid>
-<pubDate>Sat, 07 Nov 2026 21:00:00 -0000</pubDate>
-<description>En çok karar çıkan fasıllar: 84 Makineler ve mekanik cihazlar (1)</description>
 </item>
 </channel>
 </rss>

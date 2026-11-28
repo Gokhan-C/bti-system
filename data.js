@@ -1,14 +1,14 @@
 window.BTI_DATA = {
- "generated_at": "2026-11-26 09:27",
- "today": "2026-11-26",
- "today_tr": "26 Kasım 2026",
- "today_en": "26 November 2026",
- "latest_date": "2026-11-25",
- "latest_is_today": false,
- "total_decisions": 6913,
- "total_days": 184,
+ "generated_at": "2026-11-28 18:35",
+ "today": "2026-11-28",
+ "today_tr": "28 Kasım 2026",
+ "today_en": "28 November 2026",
+ "latest_date": "2026-11-28",
+ "latest_is_today": true,
+ "total_decisions": 6914,
+ "total_days": 185,
  "source_counts": {
-  "eu": 5164,
+  "eu": 5165,
   "us": 445,
   "ca": 55,
   "uk": 840,
@@ -108,6 +108,35 @@ window.BTI_DATA = {
   "98"
  ],
  "days": [
+  {
+   "date": "2026-11-28",
+   "date_tr": "28 Kasım 2026",
+   "date_en": "28 November 2026",
+   "count": 1,
+   "sources": [
+    "eu"
+   ],
+   "decisions": [
+    {
+     "source": "eu",
+     "source_label": "Avrupa Birliği (EBTI)",
+     "color": "#2E6BE6",
+     "flag": "🇧🇪",
+     "origin": "Belçika",
+     "hs": "03049490",
+     "hs4": "0304",
+     "ref": "BEBTIDT.50.025.989",
+     "date": "2026-11-28",
+     "date_issue": "2026-10-14",
+     "title": "Het gaat om verschillende soorten vis die tot zaagsel (grootste stukken: max. 2 cm x 1 cm) zijn verwerkt. Het is een samenstelling van 5 verschillende soorten witvis nl. Alaska pollak (Theragra chalcogramma); heek (Merluccius productus); Pacific kabeljauw (Gadus macrocephalus); k…",
+     "gerekce": "De indeling is vastgesteld op basis van de algemene regels 1, 3 b) en 6 voor de interpretatie van de gecombineerde nomenclatuur. De tekst van post 0304, GS-code 0304 94 en GN-code 0304 94 90.GS-toelichtingen op post 0304…",
+     "title_o": "",
+     "gerekce_o": "",
+     "lang": "",
+     "url": "https://ec.europa.eu/taxation_customs/dds2/ebti/ebti_details.jsp?showHeader=false&Lang=en&reference=BEBTIDT.50.025.989"
+    }
+   ]
+  },
   {
    "date": "2026-11-25",
    "date_tr": "25 Kasım 2026",
